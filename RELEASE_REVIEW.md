@@ -1,5 +1,10 @@
 # Release review / 发布检查
 
+## 0.2.1 navigation and link patch — 2026-10-18
+
+The top-right 我的 disclosure groups personal places (create/import/backup) and passport/visa settings. No data schema or storage key changes. README online links and the canonical URL use scenicdue.com; v0.2.0 stays immutable. Production build and64 tests passed. Browser review verified the My disclosure, personal-list import control, passport/visa navigation, Escape/focus return and outside-click dismissal. The viewport provider did not apply the attempted small-screen override, so that specific check is not claimed. Final public-link and deployment evidence is recorded in the patch release receipt.
+
+
 ## 0.2.0 candidate — 2026-10-18
 
 Author display: Soya. Public changes include country exploration, sourced point/season cards, local food, pre-trip reading, computed coverage/reference disclosure, brighter historical globe and a desktop2:1 map/card layout. Previously committed browser-local document assistance is included; no real identity files are part of this release.

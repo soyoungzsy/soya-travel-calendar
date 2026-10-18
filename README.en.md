@@ -3,11 +3,11 @@
 Explore seasonal travel ideas and create your own private destination list in your browser.
 选一段假期、看看当季风景，把想去的地方保存成自己的旅行清单。
 
-[中文说明](README.md) · Version 0.2.0 · Early preview
+[中文说明](README.md) · Version 0.2.1 · Early preview
 
-**[Open the online app](https://shanhai-youshi.soyoungzsy6.chatgpt.site/)**
+**[Open the online app](https://scenicdue.com/)**
 
-Example: choose four days in late October and a CNY 8,000 per-person budget to explore seasonal ideas. Open 我的地点 (“My places”), then 新建地点 (“New place”) to record a synthetic “Coastal walk,” preferred months and a note. You can edit, search, mark it visited and optionally locate it on the globe. The example is a practice record, not a verified real attraction.
+Example: choose four days in late October and a CNY 8,000 per-person budget to explore seasonal ideas. Open 我的 (“My”) in the top-right corner, choose 我的地点清单 (“My places”), then 新建地点 (“New place”) to record a synthetic “Coastal walk,” preferred months and a note. You can edit, search, mark it visited and optionally locate it on the globe. The example is a practice record, not a verified real attraction.
 
 ![Synthetic personal-list example](docs/images/personal-list.png)
 
@@ -15,12 +15,12 @@ Example: choose four days in late October and a CNY 8,000 per-person budget to e
 
 No GitHub account, payment or identity-document upload is required. Use a recent Chrome, Edge, Safari or Firefox. **The app interface is currently Chinese; this guide names the exact buttons to click.** Availability of the hosted app varies by network; an offline alternative follows.
 
-1. Open the online app above. 我的地点 (“My places”) is above the globe; 我的地点清单 at the bottom opens the same manager.
+1. Open the online app above. Open 我的 (“My”) in the top-right corner, then 我的地点清单 (“My places”) for creation, 导入清单 (import) and 导出备份 (backup).
 2. Click 新建地点. Enter 地点名称 (place name) and 国家或地区 (country/region), optionally add a note, then 保存地点 (save). Months, source link and coordinates are optional. To place a marker, provide both 经度 (longitude) and 纬度 (latitude).
 3. Seeing your record in the list means it was saved. 编辑地点 edits it; 状态 chooses 想去 (want), 计划中 (planned) or 去过 (visited). 删除地点 removes it; 撤销上一步 undoes the last list change while the manager stays open. Before closing, clearing browser data or changing devices, use 导出备份 to download a backup.
 4. On another device, open the same version and use 导入清单 to select that JSON backup (a text file holding your places). Review the additions/duplicates, then click 确认导入. Duplicates match country+name and are skipped; existing notes are not overwritten.
 
-心愿单 (“Wishlist”) saves built-in travel ideas; 我的地点 manages your own entries; 本次行程 (“Current trip”) combines built-in ideas for the chosen dates. Custom places do not yet have automatic flight/hotel budgets, entry-policy assessments or full itineraries.
+心愿单 (“Wishlist”) saves built-in travel ideas; 我的地点清单 manages your own entries; 本次行程 (“Current trip”) combines built-in ideas for the chosen dates. Custom places do not yet have automatic flight/hotel budgets, entry-policy assessments or full itineraries.
 
 ## From a country to a particular place
 
@@ -36,13 +36,13 @@ Destination cards include local food and pre-trip reading, with official referen
 
 ## Photo-assisted entry
 
-Optional document assistance: open the top-right profile icon, select a passport/visa image, choose 在本机识别照片 (recognize locally), correct the preview, check the confirmation box, import, then 保存出行资料 (save). Cancel leaves saved data unchanged. Clearing fields also requires confirmation and saving.
+Optional document assistance: open 我的 (“My”) in the top-right corner, then 护照与签证 (“Passport and visas”), select a passport/visa image, choose 在本机识别照片 (recognize locally), correct the preview, check the confirmation box, import, then 保存出行资料 (save). Cancel leaves saved data unchanged. Clearing fields also requires confirmation and saving.
 
 Only travel dates, visa type, entries and stay duration are retained. No name, birth date, ID number, original scan or raw OCR text is stored or uploaded. Best-effort recognition covers English labels, Korean grant notices and TD3 passport MRZs; other layouts or blurry images may require manual entry. JPG/PNG/WebP up to10 MB; the single-file download retains manual entry only. About7 MB of same-origin engine/language resources load on first recognition. No OCR account or paid API is required. Photo OCR is available in the online version; the single-file download retains manual document fields. See [Privacy](PRIVACY.md).
 
 ## If the online app will not open
 
-Visit the [0.2.0 fixed download page](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.2.0). Under Assets, download **Soya-Travel-Calendar-v0.2.0.html**. Wait for the download, then double-click it or drag it into your browser. It includes photographs and is about 48.7 MB; opening it the first time can take longer than a normal page. Wait until the title and globe appear.
+Visit the [0.2.1 fixed download page](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.2.1). Under Assets, download **Soya-Travel-Calendar-v0.2.1.html**. Wait for the download, then double-click it or drag it into your browser. It includes photographs and is about 48.7 MB; opening it the first time can take longer than a normal page. Wait until the title and globe appear.
 
 The offline file uses compressed destination photos to reduce download size; the hosted app retains larger originals. The artifact was tested through a local web preview; direct file opening was not automatically verified because the test browser permits only HTTP/HTTPS. The offline file needs no installation and includes the main interactions and dated fallback data. It cannot refresh reference data without a server. Local-file storage varies by browser; export a JSON backup before moving the file, changing versions or clearing data. Keep the old HTML file and backup to return to a previous version. If saving fails, check private-browsing/storage restrictions.
 
@@ -75,7 +75,7 @@ The [synthetic sample](examples/my-places.sample.json) shows this project’s ow
 
 ## For developers: run or contribute
 
-Ordinary users can skip this section. Install Node.js 22.12+ and Git. Download the [fixed source ZIP](https://github.com/soyoungzsy/soya-travel-calendar/archive/refs/tags/v0.2.0.zip), unzip it, open Terminal, type `cd ` with a trailing space, drag the extracted folder into Terminal and press Enter. Run these one line at a time:
+Ordinary users can skip this section. Install Node.js 22.12+ and Git. Download the [fixed source ZIP](https://github.com/soyoungzsy/soya-travel-calendar/archive/refs/tags/v0.2.1.zip), unzip it, open Terminal, type `cd ` with a trailing space, drag the extracted folder into Terminal and press Enter. Run these one line at a time:
 
 ```sh
 npm ci
@@ -90,6 +90,6 @@ Read [Contributing](CONTRIBUTING.md) before code or public-data changes. Private
 
 ## Version, licensing and maintenance
 
-Version 0.2.0 preview: [Changelog](CHANGELOG.md), [fixed release](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.2.0), [MIT code license](LICENSE), [third-party notices](THIRD_PARTY_NOTICES.md). Media keeps its own licenses and is not relicensed MIT; [photo credits](docs/media-credits.md). A publicly visible social post is not permission to copy its photos.
+Version 0.2.1 preview: [Changelog](CHANGELOG.md), [fixed release](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.2.1), [MIT code license](LICENSE), [third-party notices](THIRD_PARTY_NOTICES.md). Media keeps its own licenses and is not relicensed MIT; [photo credits](docs/media-credits.md). A publicly visible social post is not permission to copy its photos.
 
 Export before updating; retain the previous file and backup for recovery. Delete downloaded project files to uninstall; clear browser data separately if desired. Removing a public repository/release cannot recall copies already downloaded. See [Release review](RELEASE_REVIEW.md) for actual checks and unverified areas.

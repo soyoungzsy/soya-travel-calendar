@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.1 — 2026-10-18
+
+- Move personal-place creation, import and backup into the top-right 我的 menu alongside passport/visa settings; remove the separate toolbar/footer entries.
+- Use scenicdue.com for the Chinese/English online-app links, canonical URL, repository homepage and reference-service identification.
+- Existing browser-local records and import preview/confirmation semantics remain unchanged.
+
+
 ## 0.2.0 — 2026-10-18
 
 Country exploration and a sourced sight library / 国家探索与有依据的景点资料库。
