@@ -1,0 +1,21 @@
+{
+  "format": "shanhe-youqi-places",
+  "version": 1,
+  "places": [
+    {
+      "name": "示例海边步道",
+      "country": "中国",
+      "coord": [
+        120.1,
+        30.2
+      ],
+      "months": [
+        5,
+        10
+      ],
+      "notes": "合成练习地点，不是经过核验的真实景点；保存自己的地点时请自行核对地图位置。",
+      "sourceURL": "",
+      "status": "want"
+    }
+  ]
+}

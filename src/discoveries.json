@@ -1,0 +1,3520 @@
+[
+  {
+    "id": "hangzhou-west-lake",
+    "name": "杭州",
+    "country": "中国",
+    "coord": [
+      120.15,
+      30.25
+    ],
+    "domestic": true,
+    "nature": 0.5,
+    "windows": [
+      [
+        "03-01",
+        "05-31"
+      ],
+      [
+        "09-01",
+        "11-30"
+      ]
+    ],
+    "season": "春秋湖岸与茶山",
+    "subtitle": "把西湖与茶山过成日常",
+    "whyNow": "春秋适合把湖岸步行、茶园与博物馆放进同一段慢旅；花况、采茶活动与天气另核验。",
+    "minDays": 3,
+    "flight": 0,
+    "daily": 450,
+    "extra": 250,
+    "photo": null,
+    "wikiTitle": "Hangzhou",
+    "sourceURL": "https://www.ehangzhou.gov.cn/2026-01/23/c_271123.htm",
+    "highlights": [
+      {
+        "name": "西湖",
+        "experience": "沿苏堤与湖岸步行，观察山水与城市如何共处。"
+      },
+      {
+        "name": "龙井村",
+        "experience": "在茶山理解龙井茶与村落生活。"
+      }
+    ],
+    "stops": [
+      [
+        "杭州",
+        "苏堤|龙井村|中国丝绸博物馆"
+      ],
+      [
+        "绍兴",
+        "鲁迅故里|仓桥直街"
+      ]
+    ],
+    "airports": [
+      "杭州萧山国际机场 HGH"
+    ],
+    "currency": "CNY",
+    "english": "HANGZHOU WEST LAKE",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://www.ehangzhou.gov.cn/2026-01/23/c_271123.htm",
+    "description": "春秋适合把湖岸步行、茶园与博物馆放进同一段慢旅；花况、采茶活动与天气另核验。"
+  },
+  {
+    "id": "suzhou-gardens",
+    "name": "苏州",
+    "country": "中国",
+    "coord": [
+      120.58,
+      31.3
+    ],
+    "domestic": true,
+    "nature": 0.3,
+    "windows": [
+      [
+        "03-01",
+        "05-31"
+      ],
+      [
+        "09-01",
+        "11-30"
+      ]
+    ],
+    "season": "春秋园林与水巷",
+    "subtitle": "在园林里读一幅立体画",
+    "whyNow": "温和季节适合园林、水巷与古镇慢行；此窗口是步行体验选择，不保证特定花期。",
+    "minDays": 3,
+    "flight": 300,
+    "daily": 430,
+    "extra": 300,
+    "photo": null,
+    "wikiTitle": "Suzhou",
+    "sourceURL": "https://whc.unesco.org/en/list/813/",
+    "highlights": [
+      {
+        "name": "拙政园",
+        "experience": "看借景、回廊与水面如何组织空间。"
+      },
+      {
+        "name": "苏州博物馆",
+        "experience": "把古典园林与当代建筑语言对照着看。"
+      }
+    ],
+    "stops": [
+      [
+        "苏州",
+        "拙政园|苏州博物馆"
+      ],
+      [
+        "同里",
+        "退思园|同里古镇"
+      ]
+    ],
+    "airports": [
+      "上海虹桥国际机场 SHA",
+      "上海浦东国际机场 PVG"
+    ],
+    "currency": "CNY",
+    "english": "SUZHOU GARDENS",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://whc.unesco.org/en/list/813/",
+    "description": "温和季节适合园林、水巷与古镇慢行；此窗口是步行体验选择，不保证特定花期。"
+  },
+  {
+    "id": "huangshan-clouds",
+    "name": "黄山",
+    "country": "中国",
+    "coord": [
+      118.17,
+      30.13
+    ],
+    "domestic": true,
+    "nature": 0.95,
+    "windows": [
+      [
+        "04-01",
+        "05-31"
+      ],
+      [
+        "09-01",
+        "11-30"
+      ]
+    ],
+    "season": "春秋山景；云海依天气",
+    "subtitle": "等群峰从云海里出现",
+    "whyNow": "春秋适合山路、松石与徽州村落组合；云海取决于降水、温差和现场天气，不是季节保证。",
+    "minDays": 4,
+    "flight": 500,
+    "daily": 550,
+    "extra": 650,
+    "photo": null,
+    "wikiTitle": "Huangshan",
+    "sourceURL": "https://whc.unesco.org/en/list/547/",
+    "highlights": [
+      {
+        "name": "始信峰",
+        "experience": "在花岗岩山峰与松树之间看黄山的山形。"
+      },
+      {
+        "name": "宏村",
+        "experience": "将山岳与徽州村落的水系、建筑放在一起理解。"
+      }
+    ],
+    "stops": [
+      [
+        "黄山风景区",
+        "始信峰|西海大峡谷"
+      ],
+      [
+        "黟县",
+        "宏村|西递"
+      ]
+    ],
+    "airports": [
+      "黄山屯溪国际机场 TXN"
+    ],
+    "currency": "CNY",
+    "english": "HUANGSHAN CLOUDS",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://whc.unesco.org/en/list/547/",
+    "description": "春秋适合山路、松石与徽州村落组合；云海取决于降水、温差和现场天气，不是季节保证。"
+  },
+  {
+    "id": "wuyuan-spring",
+    "name": "婺源",
+    "country": "中国",
+    "coord": [
+      117.86,
+      29.25
+    ],
+    "domestic": true,
+    "nature": 0.65,
+    "windows": [
+      [
+        "03-01",
+        "04-30"
+      ]
+    ],
+    "season": "春季花田；具体花况另查",
+    "subtitle": "金色田野里的徽州村落",
+    "whyNow": "春季油菜花田与白墙黛瓦形成鲜明对照；具体盛花周次随海拔与年份变化。",
+    "minDays": 3,
+    "flight": 450,
+    "daily": 400,
+    "extra": 250,
+    "photo": null,
+    "wikiTitle": "Wuyuan County",
+    "sourceURL": "https://english.news.cn/20260326/f0cc12db20a44af9be070c159bb89a3a/c.html",
+    "highlights": [
+      {
+        "name": "江岭",
+        "experience": "在梯田与村落之间寻找油菜花的层次。"
+      },
+      {
+        "name": "篁岭",
+        "experience": "走进山村石巷，观察徽派民居与农事生活。"
+      }
+    ],
+    "stops": [
+      [
+        "婺源",
+        "江岭|篁岭"
+      ],
+      [
+        "婺源古村",
+        "思溪延村|李坑"
+      ]
+    ],
+    "airports": [
+      "景德镇罗家机场 JDZ",
+      "上饶三清山机场 SQD"
+    ],
+    "currency": "CNY",
+    "english": "WUYUAN SPRING",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://english.news.cn/20260326/f0cc12db20a44af9be070c159bb89a3a/c.html",
+    "description": "春季油菜花田与白墙黛瓦形成鲜明对照；具体盛花周次随海拔与年份变化。"
+  },
+  {
+    "id": "jingdezhen-ceramics",
+    "name": "景德镇",
+    "country": "中国",
+    "coord": [
+      117.18,
+      29.27
+    ],
+    "domestic": true,
+    "nature": 0.2,
+    "windows": [
+      [
+        "03-01",
+        "05-31"
+      ],
+      [
+        "09-01",
+        "11-30"
+      ]
+    ],
+    "season": "春秋城市与手作灵感",
+    "subtitle": "亲手做一件带回家的瓷器",
+    "whyNow": "春秋适合在窑址、博物馆与工坊之间步行；工坊体验需要按具体日期预约。",
+    "minDays": 3,
+    "flight": 500,
+    "daily": 420,
+    "extra": 450,
+    "photo": null,
+    "wikiTitle": "Jingdezhen",
+    "sourceURL": "https://www.unesco.org/en/creative-cities/jingdezhen",
+    "highlights": [
+      {
+        "name": "御窑博物馆",
+        "experience": "在窑业遗存与建筑中理解瓷都的历史。"
+      },
+      {
+        "name": "陶溪川",
+        "experience": "看老厂房如何变成当代陶瓷创作与交流空间。"
+      }
+    ],
+    "stops": [
+      [
+        "景德镇",
+        "御窑博物馆|陶溪川"
+      ],
+      [
+        "景德镇近郊",
+        "古窑民俗博览区|瑶里古镇"
+      ]
+    ],
+    "airports": [
+      "景德镇罗家机场 JDZ"
+    ],
+    "currency": "CNY",
+    "english": "JINGDEZHEN CERAMICS",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://www.unesco.org/en/creative-cities/jingdezhen",
+    "description": "春秋适合在窑址、博物馆与工坊之间步行；工坊体验需要按具体日期预约。"
+  },
+  {
+    "id": "zhangjiajie-pillars",
+    "name": "张家界",
+    "country": "中国",
+    "coord": [
+      110.48,
+      29.12
+    ],
+    "domestic": true,
+    "nature": 0.95,
+    "windows": [
+      [
+        "10-01",
+        "11-30"
+      ]
+    ],
+    "season": "秋季峰林与林色",
+    "subtitle": "走进砂岩峰林的层层深处",
+    "whyNow": "秋季林色与石峰形成反差，适合峰林与山谷线路；云雾、光线与步道开放另核验。",
+    "minDays": 4,
+    "flight": 1300,
+    "daily": 520,
+    "extra": 700,
+    "photo": null,
+    "wikiTitle": "Zhangjiajie",
+    "sourceURL": "https://enghunan.gov.cn/hneng/Tourism/WhatGoingon/202610/t20261014_34080777.html",
+    "highlights": [
+      {
+        "name": "袁家界",
+        "experience": "从观景点理解石英砂岩峰林的尺度。"
+      },
+      {
+        "name": "金鞭溪",
+        "experience": "沿谷底步行，从另一角度看峰林与溪流。"
+      }
+    ],
+    "stops": [
+      [
+        "武陵源",
+        "袁家界|金鞭溪"
+      ],
+      [
+        "张家界市区",
+        "天门山|天门洞"
+      ]
+    ],
+    "airports": [
+      "张家界荷花国际机场 DYG"
+    ],
+    "currency": "CNY",
+    "english": "ZHANGJIAJIE PILLARS",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://enghunan.gov.cn/hneng/Tourism/WhatGoingon/202610/t20261014_34080777.html",
+    "description": "秋季林色与石峰形成反差，适合峰林与山谷线路；云雾、光线与步道开放另核验。"
+  },
+  {
+    "id": "jiuzhaigou-lakes",
+    "name": "九寨沟",
+    "country": "中国",
+    "coord": [
+      103.92,
+      33.25
+    ],
+    "domestic": true,
+    "nature": 0.95,
+    "windows": [
+      [
+        "09-01",
+        "10-31"
+      ]
+    ],
+    "season": "秋季彩林与湖泊",
+    "subtitle": "看一座山谷拥有多少种蓝",
+    "whyNow": "秋季彩林与湖泊相映。景区可选1天精华或2天慢游；杭州往返暂按3—4天规划，黄龙、松潘为可选延伸，具体交通与二次入园另核。",
+    "minDays": 3,
+    "flight": 2400,
+    "daily": 650,
+    "extra": 750,
+    "photo": null,
+    "wikiTitle": "Jiuzhaigou",
+    "sourceURL": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+    "highlights": [
+      {
+        "name": "五花海",
+        "experience": "观察湖水、沉木与彩林共同构成的色彩。"
+      },
+      {
+        "name": "镜海",
+        "experience": "在适合的光线与风况下看山谷倒影。"
+      }
+    ],
+    "stops": [
+      [
+        "九寨沟",
+        "五花海|镜海|长海|五彩池|诺日朗瀑布"
+      ]
+    ],
+    "airports": [
+      "九寨黄龙机场 JZH",
+      "成都天府国际机场 TFU"
+    ],
+    "currency": "CNY",
+    "english": "JIUZHAIGOU LAKES",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://whc.unesco.org/en/list/637/",
+    "description": "秋季彩林与湖泊相映。景区可选1天精华或2天慢游；杭州往返暂按3—4天规划，黄龙、松潘为可选延伸，具体交通与二次入园另核。",
+    "durationLabel": "景区1天精华 / 2天慢游",
+    "totalDurationLabel": "杭州往返暂按3—4天规划，需确认交通衔接",
+    "durationBasis": "park_official_routes_plus_editorial_transport_assumption",
+    "durationSourceURL": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+    "durationNotes": "3天是允许继续规划的条件式门槛，不是已验证的可售行程。黄龙和松潘不是九寨沟必选项目。",
+    "tripDurationLabel": "杭州往返约3—4天，交通衔接待核",
+    "durationSource": "https://www.jiuzhai.com/intelligent-service/way-of-play",
+    "durationVerifiedAt": "2026-10-18",
+    "coreVisitDays": 1,
+    "comfortableVisitDays": 2
+  },
+  {
+    "id": "chengdu-teahouses",
+    "name": "成都",
+    "country": "中国",
+    "coord": [
+      104.07,
+      30.67
+    ],
+    "domestic": true,
+    "nature": 0.3,
+    "windows": [
+      [
+        "03-01",
+        "05-31"
+      ],
+      [
+        "09-01",
+        "11-30"
+      ]
+    ],
+    "season": "春秋茶馆与城市生活",
+    "subtitle": "把半天留给一杯盖碗茶",
+    "whyNow": "温和季节适合公园茶馆、博物馆与近郊古建；不需要用密集打卡填满每天。",
+    "minDays": 4,
+    "flight": 1400,
+    "daily": 480,
+    "extra": 350,
+    "photo": null,
+    "wikiTitle": "Chengdu",
+    "sourceURL": "https://www.sc.gov.cn/",
+    "highlights": [
+      {
+        "name": "人民公园",
+        "experience": "坐进盖碗茶的日常节奏。"
+      },
+      {
+        "name": "金沙遗址博物馆",
+        "experience": "从考古与器物理解古蜀文明。"
+      }
+    ],
+    "stops": [
+      [
+        "成都",
+        "人民公园|金沙遗址博物馆"
+      ],
+      [
+        "都江堰",
+        "都江堰水利工程|灌县古城"
+      ]
+    ],
+    "airports": [
+      "成都天府国际机场 TFU",
+      "成都双流国际机场 CTU"
+    ],
+    "currency": "CNY",
+    "english": "CHENGDU TEAHOUSES",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://www.sc.gov.cn/",
+    "description": "温和季节适合公园茶馆、博物馆与近郊古建；不需要用密集打卡填满每天。"
+  },
+  {
+    "id": "dunhuang-silk-road",
+    "name": "敦煌",
+    "country": "中国",
+    "coord": [
+      94.66,
+      40.14
+    ],
+    "domestic": true,
+    "nature": 0.45,
+    "windows": [
+      [
+        "04-01",
+        "05-31"
+      ],
+      [
+        "09-01",
+        "10-31"
+      ]
+    ],
+    "season": "春秋石窟与沙漠灵感",
+    "subtitle": "在壁画与沙海之间走一天",
+    "whyNow": "以相对温和的季节组合石窟与沙漠；莫高窟参观批次、鸣沙山天气和沙尘情况另查。",
+    "minDays": 5,
+    "flight": 2200,
+    "daily": 550,
+    "extra": 700,
+    "photo": null,
+    "wikiTitle": "Dunhuang",
+    "sourceURL": "https://whc.unesco.org/en/list/440/",
+    "highlights": [
+      {
+        "name": "莫高窟",
+        "experience": "借助讲解理解壁画、信仰与丝路交流。"
+      },
+      {
+        "name": "鸣沙山月牙泉",
+        "experience": "在沙丘与绿洲的反差中看敦煌的自然环境。"
+      }
+    ],
+    "stops": [
+      [
+        "敦煌",
+        "莫高窟|鸣沙山月牙泉"
+      ],
+      [
+        "瓜州",
+        "榆林窟"
+      ]
+    ],
+    "airports": [
+      "敦煌莫高国际机场 DNH"
+    ],
+    "currency": "CNY",
+    "english": "DUNHUANG SILK ROAD",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://whc.unesco.org/en/list/440/",
+    "description": "以相对温和的季节组合石窟与沙漠；莫高窟参观批次、鸣沙山天气和沙尘情况另查。"
+  },
+  {
+    "id": "qinghai-lake-summer",
+    "name": "青海湖",
+    "country": "中国",
+    "coord": [
+      100.2,
+      36.9
+    ],
+    "domestic": true,
+    "nature": 0.95,
+    "windows": [
+      [
+        "07-01",
+        "08-31"
+      ]
+    ],
+    "season": "夏季高原湖岸",
+    "subtitle": "把蓝色湖泊留在夏天",
+    "whyNow": "夏季可将高原湖岸、草地与西宁人文组合；不把油菜花和晴空当成整个窗口的保证。",
+    "minDays": 5,
+    "flight": 1900,
+    "daily": 650,
+    "extra": 550,
+    "photo": null,
+    "wikiTitle": "Qinghai Lake",
+    "sourceURL": "https://www.qinghai.gov.cn/",
+    "highlights": [
+      {
+        "name": "二郎剑湖岸",
+        "experience": "看高原大湖与远处山地的层次。"
+      },
+      {
+        "name": "黑马河一带",
+        "experience": "选择开放湖岸体验清晨或傍晚的光线。"
+      }
+    ],
+    "stops": [
+      [
+        "青海湖",
+        "二郎剑景区|黑马河湖岸"
+      ],
+      [
+        "西宁",
+        "青海省博物馆|东关清真大寺"
+      ]
+    ],
+    "airports": [
+      "西宁曹家堡国际机场 XNN"
+    ],
+    "currency": "CNY",
+    "english": "QINGHAI LAKE SUMMER",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://www.qinghai.gov.cn/",
+    "description": "夏季可将高原湖岸、草地与西宁人文组合；不把油菜花和晴空当成整个窗口的保证。"
+  },
+  {
+    "id": "kashgar-old-town",
+    "name": "喀什",
+    "country": "中国",
+    "coord": [
+      75.99,
+      39.47
+    ],
+    "domestic": true,
+    "nature": 0.25,
+    "windows": [
+      [
+        "04-01",
+        "06-30"
+      ],
+      [
+        "09-01",
+        "10-31"
+      ]
+    ],
+    "season": "春秋古城生活灵感",
+    "subtitle": "在丝路街巷里听见日常",
+    "whyNow": "春秋适合步行古城、集市与院落建筑；节庆、宗教场所开放与当地活动不在此作日期承诺。",
+    "minDays": 5,
+    "flight": 2800,
+    "daily": 520,
+    "extra": 450,
+    "photo": null,
+    "wikiTitle": "Kashgar",
+    "sourceURL": "https://www.xinjiang.gov.cn/",
+    "highlights": [
+      {
+        "name": "喀什古城",
+        "experience": "观察街巷、手作与居民日常的联系。"
+      },
+      {
+        "name": "艾提尕尔清真寺",
+        "experience": "按开放与参观要求了解城市宗教建筑。"
+      }
+    ],
+    "stops": [
+      [
+        "喀什",
+        "喀什古城|艾提尕尔清真寺|香妃园"
+      ]
+    ],
+    "airports": [
+      "喀什徕宁国际机场 KHG"
+    ],
+    "currency": "CNY",
+    "english": "KASHGAR OLD TOWN",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://www.xinjiang.gov.cn/",
+    "description": "春秋适合步行古城、集市与院落建筑；节庆、宗教场所开放与当地活动不在此作日期承诺。"
+  },
+  {
+    "id": "xishuangbanna-winter",
+    "name": "西双版纳",
+    "country": "中国",
+    "coord": [
+      100.8,
+      22
+    ],
+    "domestic": true,
+    "nature": 0.7,
+    "windows": [
+      [
+        "11-01",
+        "03-31"
+      ]
+    ],
+    "season": "冬季雨林与傣乡",
+    "subtitle": "在冬天走进一座热带植物园",
+    "whyNow": "文化和旅游部线路推荐11月至次年3月避寒；可将植物园、村落和傣族文化放进一趟旅程。",
+    "minDays": 5,
+    "flight": 2300,
+    "daily": 560,
+    "extra": 450,
+    "photo": null,
+    "wikiTitle": "Xishuangbanna Dai Autonomous Prefecture",
+    "sourceURL": "https://zhuanti.mct.gov.cn/csxz2022/yunnan/detail/1590.html",
+    "highlights": [
+      {
+        "name": "中科院西双版纳热带植物园",
+        "experience": "从植物与讲解理解热带生态。"
+      },
+      {
+        "name": "曼听公园与总佛寺",
+        "experience": "把园林、建筑和当地文化连起来看。"
+      }
+    ],
+    "stops": [
+      [
+        "景洪",
+        "曼听公园|总佛寺"
+      ],
+      [
+        "勐仑",
+        "中科院西双版纳热带植物园"
+      ],
+      [
+        "勐罕",
+        "傣族园"
+      ]
+    ],
+    "airports": [
+      "西双版纳嘎洒国际机场 JHG"
+    ],
+    "currency": "CNY",
+    "english": "XISHUANGBANNA WINTER",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://zhuanti.mct.gov.cn/csxz2022/yunnan/detail/1590.html",
+    "description": "文化和旅游部线路推荐11月至次年3月避寒；可将植物园、村落和傣族文化放进一趟旅程。"
+  },
+  {
+    "id": "dali-lake-villages",
+    "name": "大理",
+    "country": "中国",
+    "coord": [
+      100.17,
+      25.7
+    ],
+    "domestic": true,
+    "nature": 0.55,
+    "windows": [
+      [
+        "03-01",
+        "05-31"
+      ],
+      [
+        "09-01",
+        "11-30"
+      ]
+    ],
+    "season": "春秋湖岸与村落灵感",
+    "subtitle": "在洱海边把日子放慢",
+    "whyNow": "以春秋的湖岸慢行与白族村落为主题；不保证每天晴天，也不把湖岸一圈压进一个下午。",
+    "minDays": 5,
+    "flight": 2100,
+    "daily": 520,
+    "extra": 350,
+    "photo": null,
+    "wikiTitle": "Dali City",
+    "sourceURL": "https://www.yn.gov.cn/",
+    "highlights": [
+      {
+        "name": "洱海",
+        "experience": "用步行或合适的交通看湖岸、村落与山地。"
+      },
+      {
+        "name": "喜洲与周城",
+        "experience": "理解白族民居与扎染工艺。"
+      }
+    ],
+    "stops": [
+      [
+        "大理",
+        "大理古城|洱海"
+      ],
+      [
+        "喜洲",
+        "喜洲古镇|周城"
+      ]
+    ],
+    "airports": [
+      "大理凤仪机场 DLU"
+    ],
+    "currency": "CNY",
+    "english": "DALI LAKE VILLAGES",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://www.yn.gov.cn/",
+    "description": "以春秋的湖岸慢行与白族村落为主题；不保证每天晴天，也不把湖岸一圈压进一个下午。"
+  },
+  {
+    "id": "guilin-li-river",
+    "name": "桂林与阳朔",
+    "country": "中国",
+    "coord": [
+      110.3,
+      25.27
+    ],
+    "domestic": true,
+    "nature": 0.85,
+    "windows": [
+      [
+        "04-01",
+        "06-30"
+      ],
+      [
+        "09-01",
+        "10-31"
+      ]
+    ],
+    "season": "山水与河谷灵感",
+    "subtitle": "让漓江山水从画里展开",
+    "whyNow": "将山水、河谷步行和小城生活组合；漓江水位、降雨与航游开放情况必须按出发日期确认。",
+    "minDays": 5,
+    "flight": 1400,
+    "daily": 500,
+    "extra": 450,
+    "photo": null,
+    "wikiTitle": "Guilin",
+    "sourceURL": "https://whc.unesco.org/en/list/1248/",
+    "highlights": [
+      {
+        "name": "漓江",
+        "experience": "从水上或岸边看喀斯特峰丛。"
+      },
+      {
+        "name": "遇龙河",
+        "experience": "在河谷与村落之间放慢节奏。"
+      }
+    ],
+    "stops": [
+      [
+        "桂林",
+        "两江四湖|桂林博物馆"
+      ],
+      [
+        "阳朔",
+        "遇龙河|兴坪古镇"
+      ]
+    ],
+    "airports": [
+      "桂林两江国际机场 KWL"
+    ],
+    "currency": "CNY",
+    "english": "GUILIN LI RIVER",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://whc.unesco.org/en/list/1248/",
+    "description": "将山水、河谷步行和小城生活组合；漓江水位、降雨与航游开放情况必须按出发日期确认。"
+  },
+  {
+    "id": "quanzhou-heritage",
+    "name": "泉州",
+    "country": "中国",
+    "coord": [
+      118.68,
+      24.87
+    ],
+    "domestic": true,
+    "nature": 0.2,
+    "windows": [
+      [
+        "03-01",
+        "05-31"
+      ],
+      [
+        "10-01",
+        "12-31"
+      ]
+    ],
+    "season": "春秋冬城市人文灵感",
+    "subtitle": "沿着海丝遗迹读一座城",
+    "whyNow": "以气候较适合步行的时段串联海丝遗迹与闽南街区；宗教建筑开放与讲解安排另查。",
+    "minDays": 4,
+    "flight": 900,
+    "daily": 450,
+    "extra": 300,
+    "photo": null,
+    "wikiTitle": "Quanzhou",
+    "sourceURL": "https://whc.unesco.org/en/list/1561/",
+    "highlights": [
+      {
+        "name": "开元寺",
+        "experience": "看寺院、双塔与海丝文化的交汇。"
+      },
+      {
+        "name": "清净寺",
+        "experience": "理解泉州多元信仰与城市贸易史。"
+      }
+    ],
+    "stops": [
+      [
+        "泉州",
+        "开元寺|清净寺"
+      ],
+      [
+        "晋江",
+        "五店市|梧林传统村落"
+      ]
+    ],
+    "airports": [
+      "泉州晋江国际机场 JJN"
+    ],
+    "currency": "CNY",
+    "english": "QUANZHOU HERITAGE",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://whc.unesco.org/en/list/1561/",
+    "description": "以气候较适合步行的时段串联海丝遗迹与闽南街区；宗教建筑开放与讲解安排另查。"
+  },
+  {
+    "id": "xian-imperial-history",
+    "name": "西安",
+    "country": "中国",
+    "coord": [
+      108.94,
+      34.34
+    ],
+    "domestic": true,
+    "nature": 0.2,
+    "windows": [
+      [
+        "03-01",
+        "05-31"
+      ],
+      [
+        "09-01",
+        "11-30"
+      ]
+    ],
+    "season": "春秋古都人文灵感",
+    "subtitle": "把中国古代史走成立体的",
+    "whyNow": "春秋适合博物馆、城墙与帝陵遗址组合；预约与展览内容按当年开放信息核验。",
+    "minDays": 4,
+    "flight": 1300,
+    "daily": 470,
+    "extra": 500,
+    "photo": null,
+    "wikiTitle": "Xi'an",
+    "sourceURL": "https://whc.unesco.org/en/list/441/",
+    "highlights": [
+      {
+        "name": "秦始皇帝陵博物院",
+        "experience": "在兵马俑与帝陵环境中理解秦代。"
+      },
+      {
+        "name": "西安城墙",
+        "experience": "从城墙与城市格局读古都的尺度。"
+      }
+    ],
+    "stops": [
+      [
+        "西安",
+        "西安城墙|陕西历史博物馆"
+      ],
+      [
+        "临潼",
+        "秦始皇帝陵博物院|华清宫"
+      ]
+    ],
+    "airports": [
+      "西安咸阳国际机场 XIY"
+    ],
+    "currency": "CNY",
+    "english": "XIAN IMPERIAL HISTORY",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://whc.unesco.org/en/list/441/",
+    "description": "春秋适合博物馆、城墙与帝陵遗址组合；预约与展览内容按当年开放信息核验。"
+  },
+  {
+    "id": "datong-grottoes",
+    "name": "大同",
+    "country": "中国",
+    "coord": [
+      113.3,
+      40.08
+    ],
+    "domestic": true,
+    "nature": 0.2,
+    "windows": [
+      [
+        "05-01",
+        "06-30"
+      ],
+      [
+        "09-01",
+        "10-31"
+      ]
+    ],
+    "season": "温和季节石窟与古建",
+    "subtitle": "在石窟与木构里看时间",
+    "whyNow": "以更适合户外步行的时段看石窟与古建；不同景点间需留足交通，不压成半天。",
+    "minDays": 4,
+    "flight": 1600,
+    "daily": 480,
+    "extra": 450,
+    "photo": null,
+    "wikiTitle": "Datong",
+    "sourceURL": "https://whc.unesco.org/en/list/1039/",
+    "highlights": [
+      {
+        "name": "云冈石窟",
+        "experience": "看造像、石刻与不同文化影响。"
+      },
+      {
+        "name": "华严寺",
+        "experience": "观察辽金建筑与寺院空间。"
+      }
+    ],
+    "stops": [
+      [
+        "大同",
+        "云冈石窟|华严寺"
+      ],
+      [
+        "浑源",
+        "悬空寺|恒山"
+      ]
+    ],
+    "airports": [
+      "大同云冈机场 DAT"
+    ],
+    "currency": "CNY",
+    "english": "DATONG GROTTOES",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://whc.unesco.org/en/list/1039/",
+    "description": "以更适合户外步行的时段看石窟与古建；不同景点间需留足交通，不压成半天。"
+  },
+  {
+    "id": "sanya-winter-sea",
+    "name": "三亚",
+    "country": "中国",
+    "coord": [
+      109.51,
+      18.25
+    ],
+    "domestic": true,
+    "nature": 0.8,
+    "windows": [
+      [
+        "11-01",
+        "03-31"
+      ]
+    ],
+    "season": "冬季海岸灵感",
+    "subtitle": "用一段冬日换一段海风",
+    "whyNow": "冬季海岸适合放慢节奏；海况、降雨与上岛活动按当期条件决定，节假日预算需重新查询。",
+    "minDays": 5,
+    "flight": 1700,
+    "daily": 850,
+    "extra": 500,
+    "photo": null,
+    "wikiTitle": "Sanya",
+    "sourceURL": "https://en.hainan.gov.cn/",
+    "highlights": [
+      {
+        "name": "亚龙湾",
+        "experience": "把海岸散步与休息作为主线。"
+      },
+      {
+        "name": "蜈支洲岛",
+        "experience": "按海况与开放安排岛屿体验。"
+      }
+    ],
+    "stops": [
+      [
+        "三亚",
+        "亚龙湾|南山文化旅游区"
+      ],
+      [
+        "海棠湾",
+        "蜈支洲岛|海棠湾海岸"
+      ]
+    ],
+    "airports": [
+      "三亚凤凰国际机场 SYX"
+    ],
+    "currency": "CNY",
+    "english": "SANYA WINTER SEA",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://en.hainan.gov.cn/",
+    "description": "冬季海岸适合放慢节奏；海况、降雨与上岛活动按当期条件决定，节假日预算需重新查询。"
+  },
+  {
+    "id": "chongqing-mountain-city",
+    "name": "重庆",
+    "country": "中国",
+    "coord": [
+      106.55,
+      29.56
+    ],
+    "domestic": true,
+    "nature": 0.35,
+    "windows": [
+      [
+        "03-01",
+        "05-31"
+      ],
+      [
+        "09-01",
+        "11-30"
+      ]
+    ],
+    "season": "春秋山城与石刻灵感",
+    "subtitle": "看一座城怎样沿山生长",
+    "whyNow": "以春秋城市步行、大足石刻与山地景观为组合；雾与夜景不是每天可复制的摄影条件。",
+    "minDays": 5,
+    "flight": 1200,
+    "daily": 460,
+    "extra": 450,
+    "photo": null,
+    "wikiTitle": "Chongqing",
+    "sourceURL": "https://english.cq.gov.cn/",
+    "highlights": [
+      {
+        "name": "山城步道",
+        "experience": "从坡道、台阶与街区看山城生活。"
+      },
+      {
+        "name": "大足石刻",
+        "experience": "借助讲解理解石刻艺术与民间信仰。"
+      }
+    ],
+    "stops": [
+      [
+        "重庆",
+        "山城步道|三峡博物馆"
+      ],
+      [
+        "大足",
+        "宝顶山石刻|北山石刻"
+      ]
+    ],
+    "airports": [
+      "重庆江北国际机场 CKG"
+    ],
+    "currency": "CNY",
+    "english": "CHONGQING MOUNTAIN CITY",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://english.cq.gov.cn/",
+    "description": "以春秋城市步行、大足石刻与山地景观为组合；雾与夜景不是每天可复制的摄影条件。"
+  },
+  {
+    "id": "longji-rice-terraces",
+    "name": "龙脊梯田",
+    "country": "中国",
+    "coord": [
+      110.12,
+      25.8
+    ],
+    "domestic": true,
+    "nature": 0.8,
+    "windows": [
+      [
+        "05-01",
+        "06-30"
+      ],
+      [
+        "09-01",
+        "10-31"
+      ]
+    ],
+    "season": "梯田季节灵感；农事日期另查",
+    "subtitle": "看农事在山坡上写出曲线",
+    "whyNow": "灌水、绿色生长和收割前金色各有不同；只给季节灵感，具体农事和稻色必须按当年核验。",
+    "minDays": 4,
+    "flight": 1500,
+    "daily": 520,
+    "extra": 350,
+    "photo": null,
+    "wikiTitle": "Longsheng Rice Terraces",
+    "sourceURL": "https://www.guangxi.gov.cn/",
+    "highlights": [
+      {
+        "name": "平安梯田",
+        "experience": "沿村落步行，理解梯田与山地生活。"
+      },
+      {
+        "name": "金坑大寨梯田",
+        "experience": "从不同观景角度看层层田埂。"
+      }
+    ],
+    "stops": [
+      [
+        "龙脊",
+        "平安梯田|金坑大寨梯田"
+      ],
+      [
+        "桂林",
+        "桂林博物馆|两江四湖"
+      ]
+    ],
+    "airports": [
+      "桂林两江国际机场 KWL"
+    ],
+    "currency": "CNY",
+    "english": "LONGJI RICE TERRACES",
+    "policy": "中国",
+    "travelDays": 2,
+    "seasonSource": "https://www.guangxi.gov.cn/",
+    "description": "灌水、绿色生长和收割前金色各有不同；只给季节灵感，具体农事和稻色必须按当年核验。"
+  },
+  {
+    "id": "tokyo-spring",
+    "name": "东京",
+    "country": "日本",
+    "coord": [
+      139.76,
+      35.68
+    ],
+    "domestic": false,
+    "nature": 0.35,
+    "windows": [
+      [
+        "03-01",
+        "04-30"
+      ]
+    ],
+    "season": "春季赏花灵感；花期另查",
+    "subtitle": "在樱花与都会日常之间",
+    "whyNow": "春季可组合赏花、公园与博物馆；不保证整个时间窗口都有樱花，具体盛花周次需看当年预报。",
+    "minDays": 4,
+    "flight": 2300,
+    "daily": 950,
+    "extra": 550,
+    "photo": null,
+    "wikiTitle": "Tokyo",
+    "sourceURL": "https://www.japan.travel/en/au/experience/cherry-blossoms/",
+    "highlights": [
+      {
+        "name": "上野公园",
+        "experience": "在花期合适时看樱花与城市公共空间。"
+      },
+      {
+        "name": "东京国立博物馆",
+        "experience": "用器物与艺术补上日本文化的纵深。"
+      }
+    ],
+    "stops": [
+      [
+        "东京",
+        "上野公园|东京国立博物馆|浅草寺"
+      ],
+      [
+        "镰仓",
+        "长谷寺|高德院"
+      ]
+    ],
+    "airports": [
+      "东京羽田机场 HND",
+      "东京成田国际机场 NRT"
+    ],
+    "currency": "JPY",
+    "english": "TOKYO SPRING",
+    "policy": "日本",
+    "travelDays": 4,
+    "seasonSource": "https://www.japan.travel/en/au/experience/cherry-blossoms/",
+    "description": "春季可组合赏花、公园与博物馆；不保证整个时间窗口都有樱花，具体盛花周次需看当年预报。"
+  },
+  {
+    "id": "hakone-autumn-onsen",
+    "name": "箱根",
+    "country": "日本",
+    "coord": [
+      139.1,
+      35.23
+    ],
+    "domestic": false,
+    "nature": 0.8,
+    "windows": [
+      [
+        "10-01",
+        "11-30"
+      ]
+    ],
+    "season": "秋色与温泉灵感",
+    "subtitle": "让温泉、湖泊与艺术相遇",
+    "whyNow": "秋季可把山色、温泉和美术馆组合；转色与富士山能见度依当年天气，不作保证。",
+    "minDays": 4,
+    "flight": 2400,
+    "daily": 1250,
+    "extra": 650,
+    "photo": null,
+    "wikiTitle": "Hakone",
+    "sourceURL": "https://www.japan.travel/en/spot/1574/",
+    "highlights": [
+      {
+        "name": "芦之湖",
+        "experience": "从湖岸看山地与水面，晴天才可能见远处山景。"
+      },
+      {
+        "name": "雕刻之森美术馆",
+        "experience": "在户外雕塑与山间环境之间散步。"
+      }
+    ],
+    "stops": [
+      [
+        "箱根",
+        "芦之湖|雕刻之森美术馆"
+      ],
+      [
+        "小田原",
+        "小田原城"
+      ]
+    ],
+    "airports": [
+      "东京羽田机场 HND",
+      "东京成田国际机场 NRT"
+    ],
+    "currency": "JPY",
+    "english": "HAKONE AUTUMN ONSEN",
+    "policy": "日本",
+    "travelDays": 4,
+    "seasonSource": "https://www.japan.travel/en/spot/1574/",
+    "description": "秋季可把山色、温泉和美术馆组合；转色与富士山能见度依当年天气，不作保证。"
+  },
+  {
+    "id": "furano-flower-fields",
+    "name": "富良野与美瑛",
+    "country": "日本",
+    "coord": [
+      142.39,
+      43.34
+    ],
+    "domestic": false,
+    "nature": 0.95,
+    "windows": [
+      [
+        "07-01",
+        "07-31"
+      ]
+    ],
+    "season": "7月花海灵感；开花另查",
+    "subtitle": "把北海道的夏天铺成色块",
+    "whyNow": "JNTO将7月列为富良野花卉高峰；不同花种与农场的花期不一致，具体状态另查。",
+    "minDays": 6,
+    "flight": 3200,
+    "daily": 1050,
+    "extra": 650,
+    "photo": null,
+    "wikiTitle": "Furano, Hokkaido",
+    "sourceURL": "https://www.japan.travel/en/spot/1867/",
+    "highlights": [
+      {
+        "name": "富田农场",
+        "experience": "在花况合适时看薰衣草与花田层次。"
+      },
+      {
+        "name": "四季彩之丘",
+        "experience": "沿美瑛丘陵理解花田与农业景观。"
+      }
+    ],
+    "stops": [
+      [
+        "富良野",
+        "富田农场|宁古露森林"
+      ],
+      [
+        "美瑛",
+        "四季彩之丘|白金青池"
+      ]
+    ],
+    "airports": [
+      "新千岁机场 CTS",
+      "旭川机场 AKJ"
+    ],
+    "currency": "JPY",
+    "english": "FURANO FLOWER FIELDS",
+    "policy": "日本",
+    "travelDays": 4,
+    "seasonSource": "https://www.japan.travel/en/spot/1867/",
+    "description": "JNTO将7月列为富良野花卉高峰；不同花种与农场的花期不一致，具体状态另查。"
+  },
+  {
+    "id": "koyasan-autumn",
+    "name": "高野山",
+    "country": "日本",
+    "coord": [
+      135.59,
+      34.21
+    ],
+    "domestic": false,
+    "nature": 0.4,
+    "windows": [
+      [
+        "10-01",
+        "11-30"
+      ]
+    ],
+    "season": "秋季山寺与红叶灵感",
+    "subtitle": "在山寺住一晚，慢下来",
+    "whyNow": "JNTO推荐高野山秋叶；实际转色与寺院住宿需按当年确认，体验核心也包括古道、建筑与精进料理。",
+    "minDays": 4,
+    "flight": 2400,
+    "daily": 1100,
+    "extra": 650,
+    "photo": null,
+    "wikiTitle": "Mount Kōya",
+    "sourceURL": "https://www.japan.travel/en/ca/news/koyasan-a-mystical-mountain-draped-in-autumn-leaves/",
+    "highlights": [
+      {
+        "name": "奥之院",
+        "experience": "沿林间参道理解山寺的历史与氛围。"
+      },
+      {
+        "name": "坛上伽蓝",
+        "experience": "看寺院建筑与秋叶的空间关系。"
+      }
+    ],
+    "stops": [
+      [
+        "高野山",
+        "奥之院|金刚峰寺|坛上伽蓝"
+      ],
+      [
+        "和歌山",
+        "和歌山城"
+      ]
+    ],
+    "airports": [
+      "关西国际机场 KIX"
+    ],
+    "currency": "JPY",
+    "english": "KOYASAN AUTUMN",
+    "policy": "日本",
+    "travelDays": 4,
+    "seasonSource": "https://www.japan.travel/en/ca/news/koyasan-a-mystical-mountain-draped-in-autumn-leaves/",
+    "description": "JNTO推荐高野山秋叶；实际转色与寺院住宿需按当年确认，体验核心也包括古道、建筑与精进料理。"
+  },
+  {
+    "id": "seoul-autumn",
+    "name": "首尔",
+    "country": "韩国",
+    "coord": [
+      126.98,
+      37.57
+    ],
+    "domestic": false,
+    "nature": 0.4,
+    "windows": [
+      [
+        "10-01",
+        "11-30"
+      ]
+    ],
+    "season": "秋色与宫殿灵感",
+    "subtitle": "让宫墙与银杏染上同一层金",
+    "whyNow": "韩国秋色通常集中在10月至11月初；地点和年份会改变时间，具体出行需复核当年预报。",
+    "minDays": 4,
+    "flight": 1800,
+    "daily": 850,
+    "extra": 450,
+    "photo": null,
+    "wikiTitle": "Seoul",
+    "sourceURL": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=230070",
+    "highlights": [
+      {
+        "name": "景福宫",
+        "experience": "把宫殿建筑与秋日庭院连起来看。"
+      },
+      {
+        "name": "国立中央博物馆",
+        "experience": "从历史与艺术展品理解韩国文化。"
+      }
+    ],
+    "stops": [
+      [
+        "首尔",
+        "景福宫|国立中央博物馆"
+      ],
+      [
+        "水原",
+        "水原华城|华城行宫"
+      ]
+    ],
+    "airports": [
+      "仁川国际机场 ICN",
+      "金浦国际机场 GMP"
+    ],
+    "currency": "KRW",
+    "english": "SEOUL AUTUMN",
+    "policy": "韩国",
+    "travelDays": 4,
+    "seasonSource": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=230070",
+    "description": "韩国秋色通常集中在10月至11月初；地点和年份会改变时间，具体出行需复核当年预报。"
+  },
+  {
+    "id": "gyeongju-heritage",
+    "name": "庆州",
+    "country": "韩国",
+    "coord": [
+      129.22,
+      35.86
+    ],
+    "domestic": false,
+    "nature": 0.3,
+    "windows": [
+      [
+        "04-01",
+        "05-31"
+      ],
+      [
+        "10-01",
+        "11-30"
+      ]
+    ],
+    "season": "春秋古都灵感",
+    "subtitle": "在新罗古都散一次长步",
+    "whyNow": "以春秋步行为主线看古都、寺院与博物馆；花与秋叶的实际周次另核验。",
+    "minDays": 5,
+    "flight": 2000,
+    "daily": 750,
+    "extra": 450,
+    "photo": null,
+    "wikiTitle": "Gyeongju",
+    "sourceURL": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=1593230",
+    "highlights": [
+      {
+        "name": "佛国寺",
+        "experience": "观察新罗佛教建筑与山地环境。"
+      },
+      {
+        "name": "大陵苑",
+        "experience": "在古墓群与博物馆之间理解古都。"
+      }
+    ],
+    "stops": [
+      [
+        "庆州",
+        "佛国寺|大陵苑|国立庆州博物馆"
+      ],
+      [
+        "釜山",
+        "甘川文化村|海东龙宫寺"
+      ]
+    ],
+    "airports": [
+      "金海国际机场 PUS"
+    ],
+    "currency": "KRW",
+    "english": "GYEONGJU HERITAGE",
+    "policy": "韩国",
+    "travelDays": 4,
+    "seasonSource": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=1593230",
+    "description": "以春秋步行为主线看古都、寺院与博物馆；花与秋叶的实际周次另核验。"
+  },
+  {
+    "id": "chiang-mai-cool-season",
+    "name": "清迈",
+    "country": "泰国",
+    "coord": [
+      98.99,
+      18.79
+    ],
+    "domestic": false,
+    "nature": 0.5,
+    "windows": [
+      [
+        "11-01",
+        "02-28"
+      ]
+    ],
+    "season": "凉季古城与山地灵感",
+    "subtitle": "在古城与山雾之间过冬",
+    "whyNow": "泰北凉季适合古城与山地；不把天灯等节庆写成整季每天都有，活动日必须另查。",
+    "minDays": 6,
+    "flight": 2300,
+    "daily": 600,
+    "extra": 550,
+    "photo": null,
+    "wikiTitle": "Chiang Mai",
+    "sourceURL": "https://www.tourismthailand.org/Articles/thailand-january",
+    "highlights": [
+      {
+        "name": "帕辛寺",
+        "experience": "从寺院与街区看兰纳文化。"
+      },
+      {
+        "name": "素贴山双龙寺",
+        "experience": "在山地与城市视野之间转换。"
+      }
+    ],
+    "stops": [
+      [
+        "清迈",
+        "帕辛寺|素贴山双龙寺"
+      ],
+      [
+        "清莱",
+        "白庙|蓝庙"
+      ]
+    ],
+    "airports": [
+      "清迈国际机场 CNX"
+    ],
+    "currency": "THB",
+    "english": "CHIANG MAI COOL SEASON",
+    "policy": "泰国",
+    "travelDays": 4,
+    "seasonSource": "https://www.tourismthailand.org/Articles/thailand-january",
+    "description": "泰北凉季适合古城与山地；不把天灯等节庆写成整季每天都有，活动日必须另查。"
+  },
+  {
+    "id": "siem-reap-angkor",
+    "name": "暹粒与吴哥",
+    "country": "柬埔寨",
+    "coord": [
+      103.86,
+      13.36
+    ],
+    "domestic": false,
+    "nature": 0.3,
+    "windows": [
+      [
+        "11-01",
+        "02-28"
+      ]
+    ],
+    "season": "较凉爽旱季灵感",
+    "subtitle": "在石雕与树根之间读一座文明",
+    "whyNow": "柬埔寨官方资料把11月至4月列为旱季；这里优先较凉的冬季，实际气温与人流另查。",
+    "minDays": 5,
+    "flight": 2800,
+    "daily": 600,
+    "extra": 650,
+    "photo": null,
+    "wikiTitle": "Siem Reap",
+    "sourceURL": "https://www.tourismcambodia.org/blog/about-cambodia/cambodia-fact-sheet",
+    "highlights": [
+      {
+        "name": "吴哥窟",
+        "experience": "通过建筑轴线、浮雕与讲解理解吴哥。"
+      },
+      {
+        "name": "巴戎寺",
+        "experience": "细看石雕面容与城市遗址的空间。"
+      }
+    ],
+    "stops": [
+      [
+        "暹粒",
+        "吴哥窟|巴戎寺|塔布茏寺"
+      ],
+      [
+        "暹粒周边",
+        "女王宫"
+      ]
+    ],
+    "airports": [
+      "暹粒吴哥国际机场 SAI"
+    ],
+    "currency": "KHR",
+    "english": "SIEM REAP ANGKOR",
+    "policy": "柬埔寨",
+    "travelDays": 4,
+    "seasonSource": "https://www.tourismcambodia.org/blog/about-cambodia/cambodia-fact-sheet",
+    "description": "柬埔寨官方资料把11月至4月列为旱季；这里优先较凉的冬季，实际气温与人流另查。"
+  },
+  {
+    "id": "luang-prabang-river",
+    "name": "琅勃拉邦",
+    "country": "老挝",
+    "coord": [
+      102.14,
+      19.89
+    ],
+    "domestic": false,
+    "nature": 0.5,
+    "windows": [
+      [
+        "11-01",
+        "02-28"
+      ]
+    ],
+    "season": "凉爽时段古城与瀑布灵感",
+    "subtitle": "在湄公河边放慢一天",
+    "whyNow": "以较凉的旱季串联古城、寺院与瀑布；宗教仪式不是摄影表演，应按当地参观要求参与。",
+    "minDays": 5,
+    "flight": 2500,
+    "daily": 550,
+    "extra": 400,
+    "photo": null,
+    "wikiTitle": "Luang Prabang",
+    "sourceURL": "https://www.tourismlaos.org/",
+    "highlights": [
+      {
+        "name": "香通寺",
+        "experience": "看老挝寺院建筑与古城生活。"
+      },
+      {
+        "name": "光西瀑布",
+        "experience": "在开放条件合适时体验林间水景。"
+      }
+    ],
+    "stops": [
+      [
+        "琅勃拉邦",
+        "香通寺|王宫博物馆"
+      ],
+      [
+        "古城周边",
+        "光西瀑布|帕乌石窟"
+      ]
+    ],
+    "airports": [
+      "琅勃拉邦国际机场 LPQ"
+    ],
+    "currency": "LAK",
+    "english": "LUANG PRABANG RIVER",
+    "policy": "老挝",
+    "travelDays": 4,
+    "seasonSource": "https://www.tourismlaos.org/",
+    "description": "以较凉的旱季串联古城、寺院与瀑布；宗教仪式不是摄影表演，应按当地参观要求参与。"
+  },
+  {
+    "id": "bali-volcano-culture",
+    "name": "巴厘岛",
+    "country": "印度尼西亚",
+    "coord": [
+      115.26,
+      -8.51
+    ],
+    "domestic": false,
+    "nature": 0.65,
+    "windows": [
+      [
+        "05-01",
+        "09-30"
+      ]
+    ],
+    "season": "旱季岛屿与山地灵感",
+    "subtitle": "把神庙、稻田与火山连起来",
+    "whyNow": "印尼旅游官方推荐5月至9月作为巴厘岛旱季窗口；日出、海况与徒步开放仍需当天核验。",
+    "minDays": 7,
+    "flight": 3300,
+    "daily": 850,
+    "extra": 700,
+    "photo": null,
+    "wikiTitle": "Bali",
+    "sourceURL": "https://www.indonesia.travel/ru/en/travel-ideas/adventure/tips-1-hari-di-kintamani-bali-dari-sunrise-sampai-sunset",
+    "highlights": [
+      {
+        "name": "德格拉朗梯田",
+        "experience": "观察稻田、水利与村落景观。"
+      },
+      {
+        "name": "巴图尔湖与火山",
+        "experience": "按天气与体力选择观景或正规向导活动。"
+      }
+    ],
+    "stops": [
+      [
+        "乌布",
+        "德格拉朗梯田|圣泉寺"
+      ],
+      [
+        "金塔马尼",
+        "巴图尔湖|巴图尔火山"
+      ]
+    ],
+    "airports": [
+      "伍拉·赖国际机场 DPS"
+    ],
+    "currency": "IDR",
+    "english": "BALI VOLCANO CULTURE",
+    "policy": "印度尼西亚",
+    "travelDays": 4,
+    "seasonSource": "https://www.indonesia.travel/ru/en/travel-ideas/adventure/tips-1-hari-di-kintamani-bali-dari-sunrise-sampai-sunset",
+    "description": "印尼旅游官方推荐5月至9月作为巴厘岛旱季窗口；日出、海况与徒步开放仍需当天核验。"
+  },
+  {
+    "id": "yogyakarta-temples",
+    "name": "日惹",
+    "country": "印度尼西亚",
+    "coord": [
+      110.37,
+      -7.8
+    ],
+    "domestic": false,
+    "nature": 0.3,
+    "windows": [
+      [
+        "05-01",
+        "09-30"
+      ]
+    ],
+    "season": "旱季寺庙与爪哇文化灵感",
+    "subtitle": "在两种文明的石刻里穿行",
+    "whyNow": "以爪哇较干燥季节组合寺庙与城市文化；寺庙准入、登塔与参观批次按当期规则确认。",
+    "minDays": 6,
+    "flight": 3200,
+    "daily": 600,
+    "extra": 700,
+    "photo": null,
+    "wikiTitle": "Yogyakarta",
+    "sourceURL": "https://www.indonesia.travel/",
+    "highlights": [
+      {
+        "name": "婆罗浮屠",
+        "experience": "用正规讲解理解佛教建筑与浮雕。"
+      },
+      {
+        "name": "普兰巴南",
+        "experience": "看印度教寺庙群与爪哇历史。"
+      }
+    ],
+    "stops": [
+      [
+        "日惹",
+        "日惹王宫|水宫"
+      ],
+      [
+        "马格朗",
+        "婆罗浮屠"
+      ],
+      [
+        "日惹周边",
+        "普兰巴南"
+      ]
+    ],
+    "airports": [
+      "日惹国际机场 YIA"
+    ],
+    "currency": "IDR",
+    "english": "YOGYAKARTA TEMPLES",
+    "policy": "印度尼西亚",
+    "travelDays": 4,
+    "seasonSource": "https://www.indonesia.travel/",
+    "description": "以爪哇较干燥季节组合寺庙与城市文化；寺庙准入、登塔与参观批次按当期规则确认。"
+  },
+  {
+    "id": "samarkand-silk-road",
+    "name": "撒马尔罕",
+    "country": "乌兹别克斯坦",
+    "coord": [
+      66.98,
+      39.65
+    ],
+    "domestic": false,
+    "nature": 0.25,
+    "windows": [
+      [
+        "04-01",
+        "05-31"
+      ],
+      [
+        "09-01",
+        "10-31"
+      ]
+    ],
+    "season": "春秋丝路建筑灵感",
+    "subtitle": "在蓝色穹顶下读丝路",
+    "whyNow": "春秋作为步行古城与建筑群的季节灵感；展馆、列车与节庆按具体日期核验。",
+    "minDays": 7,
+    "flight": 4500,
+    "daily": 650,
+    "extra": 650,
+    "photo": null,
+    "wikiTitle": "Samarkand",
+    "sourceURL": "https://uzbekistan.travel/en/",
+    "highlights": [
+      {
+        "name": "雷吉斯坦广场",
+        "experience": "观察学院建筑、马赛克与穹顶。"
+      },
+      {
+        "name": "沙伊静达陵墓群",
+        "experience": "沿建筑与装饰细节理解丝路工艺。"
+      }
+    ],
+    "stops": [
+      [
+        "撒马尔罕",
+        "雷吉斯坦广场|沙伊静达"
+      ],
+      [
+        "布哈拉",
+        "卡隆宣礼塔|波依卡隆建筑群"
+      ]
+    ],
+    "airports": [
+      "撒马尔罕国际机场 SKD",
+      "塔什干国际机场 TAS"
+    ],
+    "currency": "UZS",
+    "english": "SAMARKAND SILK ROAD",
+    "policy": "乌兹别克斯坦",
+    "travelDays": 4,
+    "seasonSource": "https://uzbekistan.travel/en/",
+    "description": "春秋作为步行古城与建筑群的季节灵感；展馆、列车与节庆按具体日期核验。"
+  },
+  {
+    "id": "wadi-rum-desert",
+    "name": "瓦迪拉姆",
+    "country": "约旦",
+    "coord": [
+      35.42,
+      29.57
+    ],
+    "domestic": false,
+    "nature": 0.95,
+    "windows": [
+      [
+        "03-01",
+        "05-31"
+      ],
+      [
+        "09-01",
+        "11-30"
+      ]
+    ],
+    "season": "春秋沙漠灵感",
+    "subtitle": "在红色沙海里看星夜",
+    "whyNow": "选择相对温和季节安排沙漠观景与营地；星空、温差和线路依实际天气与营地条件决定。",
+    "minDays": 7,
+    "flight": 6000,
+    "daily": 1000,
+    "extra": 1500,
+    "photo": null,
+    "wikiTitle": "Wadi Rum",
+    "sourceURL": "https://international.visitjordan.com/",
+    "highlights": [
+      {
+        "name": "七柱智慧岩",
+        "experience": "看砂岩山体与红沙地貌的尺度。"
+      },
+      {
+        "name": "卡扎利峡谷",
+        "experience": "在正规向导安排下看峡谷与岩刻。"
+      }
+    ],
+    "stops": [
+      [
+        "瓦迪拉姆",
+        "七柱智慧岩|卡扎利峡谷"
+      ],
+      [
+        "瓦迪穆萨",
+        "佩特拉卡兹尼神殿|西克峡谷"
+      ]
+    ],
+    "airports": [
+      "安曼阿勒娅王后国际机场 AMM",
+      "亚喀巴侯赛因国王国际机场 AQJ"
+    ],
+    "currency": "JOD",
+    "english": "WADI RUM DESERT",
+    "policy": "约旦",
+    "travelDays": 4,
+    "seasonSource": "https://international.visitjordan.com/",
+    "description": "选择相对温和季节安排沙漠观景与营地；星空、温差和线路依实际天气与营地条件决定。"
+  },
+  {
+    "id": "istanbul-bosphorus",
+    "name": "伊斯坦布尔",
+    "country": "土耳其",
+    "coord": [
+      28.98,
+      41.01
+    ],
+    "domestic": false,
+    "nature": 0.35,
+    "windows": [
+      [
+        "04-01",
+        "05-31"
+      ],
+      [
+        "09-01",
+        "10-31"
+      ]
+    ],
+    "season": "春秋海峡与历史建筑灵感",
+    "subtitle": "在两洲之间过一段日常",
+    "whyNow": "土耳其官方将秋季作为城市文化探索的好时段；春秋灵感围绕建筑、博物馆与海峡，不保证节庆。",
+    "minDays": 7,
+    "flight": 5000,
+    "daily": 900,
+    "extra": 900,
+    "photo": null,
+    "wikiTitle": "Istanbul",
+    "sourceURL": "https://goturkiye.com/branding/press-releases/enjoy-the-cool-istanbul-in-autumn",
+    "highlights": [
+      {
+        "name": "圣索菲亚建筑群",
+        "experience": "理解跨越不同时代的城市建筑。"
+      },
+      {
+        "name": "博斯普鲁斯海峡",
+        "experience": "从公共渡轮或岸边观察两岸生活。"
+      }
+    ],
+    "stops": [
+      [
+        "伊斯坦布尔",
+        "圣索菲亚建筑群|蓝色清真寺|托普卡帕宫"
+      ],
+      [
+        "王子群岛",
+        "比于卡达岛"
+      ]
+    ],
+    "airports": [
+      "伊斯坦布尔机场 IST",
+      "萨比哈·格克琴国际机场 SAW"
+    ],
+    "currency": "TRY",
+    "english": "ISTANBUL BOSPHORUS",
+    "policy": "土耳其",
+    "travelDays": 4,
+    "seasonSource": "https://goturkiye.com/branding/press-releases/enjoy-the-cool-istanbul-in-autumn",
+    "description": "土耳其官方将秋季作为城市文化探索的好时段；春秋灵感围绕建筑、博物馆与海峡，不保证节庆。"
+  },
+  {
+    "id": "paris-art-walks",
+    "name": "巴黎",
+    "country": "法国",
+    "coord": [
+      2.35,
+      48.86
+    ],
+    "domestic": false,
+    "nature": 0.35,
+    "windows": [
+      [
+        "04-01",
+        "06-30"
+      ],
+      [
+        "09-01",
+        "10-31"
+      ]
+    ],
+    "season": "春秋艺术与街区灵感",
+    "subtitle": "把美术馆与塞纳河留在同一天",
+    "whyNow": "法国官方推荐春季花园与秋季文化活动；适合将美术馆、河岸与街区留出真正停留的时间。",
+    "minDays": 7,
+    "flight": 6500,
+    "daily": 1450,
+    "extra": 1000,
+    "photo": null,
+    "wikiTitle": "Paris",
+    "sourceURL": "https://www.france.fr/en/article/visit-paris-spring/",
+    "highlights": [
+      {
+        "name": "卢浮宫",
+        "experience": "先选想看的主题，再用有限时间深看。"
+      },
+      {
+        "name": "塞纳河岸",
+        "experience": "将桥梁、街区与城市生活串成步行线。"
+      }
+    ],
+    "stops": [
+      [
+        "巴黎",
+        "卢浮宫|奥赛博物馆|塞纳河岸"
+      ],
+      [
+        "凡尔赛",
+        "凡尔赛宫|凡尔赛花园"
+      ]
+    ],
+    "airports": [
+      "巴黎戴高乐机场 CDG",
+      "巴黎奥利机场 ORY"
+    ],
+    "currency": "EUR",
+    "english": "PARIS ART WALKS",
+    "policy": "法国",
+    "travelDays": 4,
+    "seasonSource": "https://www.france.fr/en/article/visit-paris-spring/",
+    "description": "法国官方推荐春季花园与秋季文化活动；适合将美术馆、河岸与街区留出真正停留的时间。"
+  },
+  {
+    "id": "rome-ancient-city",
+    "name": "罗马",
+    "country": "意大利",
+    "coord": [
+      12.5,
+      41.9
+    ],
+    "domestic": false,
+    "nature": 0.25,
+    "windows": [
+      [
+        "04-01",
+        "05-31"
+      ],
+      [
+        "09-01",
+        "10-31"
+      ]
+    ],
+    "season": "春秋古城步行灵感",
+    "subtitle": "让古罗马从遗址里站起来",
+    "whyNow": "以温和季节的古城步行为灵感，将遗址与博物馆放进同一路线；门票批次和宗教场所开放另查。",
+    "minDays": 7,
+    "flight": 6500,
+    "daily": 1250,
+    "extra": 950,
+    "photo": null,
+    "wikiTitle": "Rome",
+    "sourceURL": "https://www.italia.it/en/lazio/rome",
+    "highlights": [
+      {
+        "name": "罗马斗兽场",
+        "experience": "把建筑尺度与古罗马城市史结合起来。"
+      },
+      {
+        "name": "梵蒂冈博物馆",
+        "experience": "围绕艺术主题安排参观，按预约入场。"
+      }
+    ],
+    "stops": [
+      [
+        "罗马",
+        "罗马斗兽场|古罗马广场|万神殿"
+      ],
+      [
+        "蒂沃利",
+        "埃斯特别墅|哈德良别墅"
+      ]
+    ],
+    "airports": [
+      "罗马菲乌米奇诺机场 FCO"
+    ],
+    "currency": "EUR",
+    "english": "ROME ANCIENT CITY",
+    "policy": "意大利",
+    "travelDays": 4,
+    "seasonSource": "https://www.italia.it/en/lazio/rome",
+    "description": "以温和季节的古城步行为灵感，将遗址与博物馆放进同一路线；门票批次和宗教场所开放另查。"
+  },
+  {
+    "id": "florence-renaissance",
+    "name": "佛罗伦萨",
+    "country": "意大利",
+    "coord": [
+      11.26,
+      43.77
+    ],
+    "domestic": false,
+    "nature": 0.35,
+    "windows": [
+      [
+        "04-01",
+        "05-31"
+      ],
+      [
+        "09-01",
+        "10-31"
+      ]
+    ],
+    "season": "春秋文艺复兴与托斯卡纳灵感",
+    "subtitle": "用几件作品进入文艺复兴",
+    "whyNow": "意大利官方介绍托斯卡纳春季艺术与花园体验；春秋均可作为城市步行与近郊组合的灵感。",
+    "minDays": 6,
+    "flight": 6500,
+    "daily": 1200,
+    "extra": 950,
+    "photo": null,
+    "wikiTitle": "Florence",
+    "sourceURL": "https://www.italia.it/en/tuscany/things-to-do/what-to-see-in-spring-in-tuscany",
+    "highlights": [
+      {
+        "name": "乌菲兹美术馆",
+        "experience": "围绕文艺复兴作品形成自己的观看线索。"
+      },
+      {
+        "name": "米开朗琪罗广场",
+        "experience": "从城市屋顶与河流理解佛罗伦萨格局。"
+      }
+    ],
+    "stops": [
+      [
+        "佛罗伦萨",
+        "乌菲兹美术馆|米开朗琪罗广场"
+      ],
+      [
+        "锡耶纳",
+        "田野广场|锡耶纳主教座堂"
+      ]
+    ],
+    "airports": [
+      "佛罗伦萨佩雷托拉机场 FLR",
+      "比萨伽利略机场 PSA"
+    ],
+    "currency": "EUR",
+    "english": "FLORENCE RENAISSANCE",
+    "policy": "意大利",
+    "travelDays": 4,
+    "seasonSource": "https://www.italia.it/en/tuscany/things-to-do/what-to-see-in-spring-in-tuscany",
+    "description": "意大利官方介绍托斯卡纳春季艺术与花园体验；春秋均可作为城市步行与近郊组合的灵感。"
+  },
+  {
+    "id": "venice-lagoon",
+    "name": "威尼斯",
+    "country": "意大利",
+    "coord": [
+      12.34,
+      45.44
+    ],
+    "domestic": false,
+    "nature": 0.35,
+    "windows": [
+      [
+        "04-01",
+        "05-31"
+      ],
+      [
+        "09-01",
+        "10-31"
+      ]
+    ],
+    "season": "春秋水城灵感",
+    "subtitle": "在水巷里寻找另一种城市节奏",
+    "whyNow": "用春秋步行与泻湖岛屿作为灵感；潮位、交通与城市准入规则必须按实际日期核验。",
+    "minDays": 5,
+    "flight": 6700,
+    "daily": 1350,
+    "extra": 800,
+    "photo": null,
+    "wikiTitle": "Venice",
+    "sourceURL": "https://www.italia.it/en/veneto/venice/guide-history-facts",
+    "highlights": [
+      {
+        "name": "总督宫",
+        "experience": "从建筑与馆藏理解海上共和国历史。"
+      },
+      {
+        "name": "里亚托与水巷",
+        "experience": "避开只在主路打卡，观察城市的水上生活。"
+      }
+    ],
+    "stops": [
+      [
+        "威尼斯",
+        "总督宫|里亚托桥"
+      ],
+      [
+        "泻湖群岛",
+        "布拉诺岛|穆拉诺玻璃博物馆"
+      ]
+    ],
+    "airports": [
+      "威尼斯马可波罗机场 VCE"
+    ],
+    "currency": "EUR",
+    "english": "VENICE LAGOON",
+    "policy": "意大利",
+    "travelDays": 4,
+    "seasonSource": "https://www.italia.it/en/veneto/venice/guide-history-facts",
+    "description": "用春秋步行与泻湖岛屿作为灵感；潮位、交通与城市准入规则必须按实际日期核验。"
+  },
+  {
+    "id": "seville-andalusia",
+    "name": "塞维利亚",
+    "country": "西班牙",
+    "coord": [
+      -5.99,
+      37.39
+    ],
+    "domestic": false,
+    "nature": 0.3,
+    "windows": [
+      [
+        "03-01",
+        "05-31"
+      ],
+      [
+        "10-01",
+        "11-30"
+      ]
+    ],
+    "season": "春秋安达卢西亚灵感",
+    "subtitle": "让宫殿、庭院与弗拉门戈相遇",
+    "whyNow": "以春秋户外步行为主线；春季节庆仅在查到具体年度日期后加入，不承诺整个春天都有活动。",
+    "minDays": 7,
+    "flight": 7200,
+    "daily": 1050,
+    "extra": 900,
+    "photo": null,
+    "wikiTitle": "Seville",
+    "sourceURL": "https://www.spain.info/export/sites/gcc/gcc/.content/comun/documentos/sevilla-EN.pdf",
+    "highlights": [
+      {
+        "name": "塞维利亚王宫",
+        "experience": "观察庭院、水景与建筑装饰。"
+      },
+      {
+        "name": "西班牙广场",
+        "experience": "从建筑与公共空间进入城市，再留一晚看正规演出。"
+      }
+    ],
+    "stops": [
+      [
+        "塞维利亚",
+        "塞维利亚王宫|西班牙广场"
+      ],
+      [
+        "科尔多瓦",
+        "清真寺主教座堂|罗马桥"
+      ]
+    ],
+    "airports": [
+      "塞维利亚机场 SVQ"
+    ],
+    "currency": "EUR",
+    "english": "SEVILLE ANDALUSIA",
+    "policy": "西班牙",
+    "travelDays": 4,
+    "seasonSource": "https://www.spain.info/export/sites/gcc/gcc/.content/comun/documentos/sevilla-EN.pdf",
+    "description": "以春秋户外步行为主线；春季节庆仅在查到具体年度日期后加入，不承诺整个春天都有活动。"
+  },
+  {
+    "id": "barcelona-modernism",
+    "name": "巴塞罗那",
+    "country": "西班牙",
+    "coord": [
+      2.17,
+      41.39
+    ],
+    "domestic": false,
+    "nature": 0.4,
+    "windows": [
+      [
+        "05-01",
+        "06-30"
+      ],
+      [
+        "09-01",
+        "10-31"
+      ]
+    ],
+    "season": "初夏秋季建筑与海岸灵感",
+    "subtitle": "看建筑怎样长出自然的曲线",
+    "whyNow": "以较适合城市步行的时段组合现代主义建筑、海岸和山地；具体展馆与参观批次需预约核验。",
+    "minDays": 7,
+    "flight": 6800,
+    "daily": 1200,
+    "extra": 1100,
+    "photo": null,
+    "wikiTitle": "Barcelona",
+    "sourceURL": "https://www.spain.info/en/destination/barcelona/",
+    "highlights": [
+      {
+        "name": "圣家堂",
+        "experience": "看光线、结构与自然形态的关系。"
+      },
+      {
+        "name": "古埃尔公园",
+        "experience": "将建筑细节与城市视野一起看。"
+      }
+    ],
+    "stops": [
+      [
+        "巴塞罗那",
+        "圣家堂|古埃尔公园"
+      ],
+      [
+        "蒙特塞拉特",
+        "蒙特塞拉特修道院"
+      ]
+    ],
+    "airports": [
+      "巴塞罗那埃尔普拉特机场 BCN"
+    ],
+    "currency": "EUR",
+    "english": "BARCELONA MODERNISM",
+    "policy": "西班牙",
+    "travelDays": 4,
+    "seasonSource": "https://www.spain.info/en/destination/barcelona/",
+    "description": "以较适合城市步行的时段组合现代主义建筑、海岸和山地；具体展馆与参观批次需预约核验。"
+  },
+  {
+    "id": "lisbon-sintra",
+    "name": "里斯本与辛特拉",
+    "country": "葡萄牙",
+    "coord": [
+      -9.14,
+      38.72
+    ],
+    "domestic": false,
+    "nature": 0.4,
+    "windows": [
+      [
+        "04-01",
+        "06-30"
+      ],
+      [
+        "09-01",
+        "10-31"
+      ]
+    ],
+    "season": "春秋河岸与宫殿灵感",
+    "subtitle": "沿电车与河岸读一座海港城",
+    "whyNow": "葡萄牙官方推荐春秋城市短假；以河岸、历史街区与辛特拉宫殿组合，保留坡地步行时间。",
+    "minDays": 7,
+    "flight": 7200,
+    "daily": 1050,
+    "extra": 800,
+    "photo": null,
+    "wikiTitle": "Lisbon",
+    "sourceURL": "https://www.visitportugal.com/en/weather",
+    "highlights": [
+      {
+        "name": "热罗尼莫斯修道院",
+        "experience": "从建筑理解大航海时代的城市历史。"
+      },
+      {
+        "name": "阿尔法玛",
+        "experience": "用步行与小店进入街区生活。"
+      }
+    ],
+    "stops": [
+      [
+        "里斯本",
+        "热罗尼莫斯修道院|阿尔法玛"
+      ],
+      [
+        "辛特拉",
+        "佩纳宫|雷加莱拉庄园"
+      ]
+    ],
+    "airports": [
+      "里斯本温贝托·德尔加多机场 LIS"
+    ],
+    "currency": "EUR",
+    "english": "LISBON SINTRA",
+    "policy": "葡萄牙",
+    "travelDays": 4,
+    "seasonSource": "https://www.visitportugal.com/en/weather",
+    "description": "葡萄牙官方推荐春秋城市短假；以河岸、历史街区与辛特拉宫殿组合，保留坡地步行时间。"
+  },
+  {
+    "id": "amsterdam-spring",
+    "name": "阿姆斯特丹",
+    "country": "荷兰",
+    "coord": [
+      4.9,
+      52.37
+    ],
+    "domestic": false,
+    "nature": 0.4,
+    "windows": [
+      [
+        "04-01",
+        "05-31"
+      ]
+    ],
+    "season": "春季运河与花田灵感",
+    "subtitle": "把一幅画与一片花田放在一起",
+    "whyNow": "荷兰官方提供春季花田线路；具体开花与库肯霍夫开园日逐年变化，不能保证窗口内每天都开放。",
+    "minDays": 6,
+    "flight": 6500,
+    "daily": 1450,
+    "extra": 950,
+    "photo": null,
+    "wikiTitle": "Amsterdam",
+    "sourceURL": "https://www.holland.com/download/download-travel-trade-tulips-factsheet",
+    "highlights": [
+      {
+        "name": "国立博物馆",
+        "experience": "围绕荷兰艺术与历史选择参观主题。"
+      },
+      {
+        "name": "运河与春季花田",
+        "experience": "城市步行与周边花田分开安排，花况另查。"
+      }
+    ],
+    "stops": [
+      [
+        "阿姆斯特丹",
+        "国立博物馆|运河带"
+      ],
+      [
+        "利瑟",
+        "库肯霍夫公园"
+      ]
+    ],
+    "airports": [
+      "阿姆斯特丹史基浦机场 AMS"
+    ],
+    "currency": "EUR",
+    "english": "AMSTERDAM SPRING",
+    "policy": "荷兰",
+    "travelDays": 4,
+    "seasonSource": "https://www.holland.com/download/download-travel-trade-tulips-factsheet",
+    "description": "荷兰官方提供春季花田线路；具体开花与库肯霍夫开园日逐年变化，不能保证窗口内每天都开放。"
+  },
+  {
+    "id": "lofoten-light",
+    "name": "罗弗敦群岛",
+    "country": "挪威",
+    "coord": [
+      13.61,
+      68.15
+    ],
+    "domestic": false,
+    "nature": 0.95,
+    "windows": [
+      [
+        "02-01",
+        "03-31"
+      ],
+      [
+        "06-01",
+        "07-31"
+      ]
+    ],
+    "season": "冬季光线 / 夏季长日灵感",
+    "subtitle": "在海上群山之间追一段光",
+    "whyNow": "冬季侧重雪岸与光线，夏季侧重长日与渔村；夏季窗口不等于整段时间都有午夜太阳，极光也不保证。",
+    "minDays": 8,
+    "flight": 8500,
+    "daily": 1800,
+    "extra": 1500,
+    "photo": null,
+    "wikiTitle": "Lofoten",
+    "sourceURL": "https://www.visitnorway.com/places-to-go/northern-norway/the-lofoten-islands/winter/",
+    "highlights": [
+      {
+        "name": "雷讷",
+        "experience": "看渔村与海上山体的比例。"
+      },
+      {
+        "name": "亨宁斯韦尔",
+        "experience": "将海港、渔业历史与艺术空间连起来。"
+      }
+    ],
+    "stops": [
+      [
+        "罗弗敦南部",
+        "雷讷|奥村"
+      ],
+      [
+        "罗弗敦中北部",
+        "亨宁斯韦尔|斯沃尔韦尔"
+      ]
+    ],
+    "airports": [
+      "埃沃内斯哈尔斯塔/纳尔维克机场 EVE",
+      "斯沃尔韦尔机场 SVJ"
+    ],
+    "currency": "NOK",
+    "english": "LOFOTEN LIGHT",
+    "policy": "挪威",
+    "travelDays": 4,
+    "seasonSource": "https://www.visitnorway.com/places-to-go/northern-norway/the-lofoten-islands/winter/",
+    "description": "冬季侧重雪岸与光线，夏季侧重长日与渔村；夏季窗口不等于整段时间都有午夜太阳，极光也不保证。"
+  },
+  {
+    "id": "tromso-northern-lights",
+    "name": "特罗姆瑟",
+    "country": "挪威",
+    "coord": [
+      18.96,
+      69.65
+    ],
+    "domestic": false,
+    "nature": 0.9,
+    "windows": [
+      [
+        "09-01",
+        "03-31"
+      ]
+    ],
+    "season": "秋冬至早春极光灵感",
+    "subtitle": "白天看峡湾，夜里等一束光",
+    "whyNow": "挪威官方把9月至3月作为北部极光观察窗口；是否能看到仍由太阳活动、云层和实际天气决定。",
+    "minDays": 7,
+    "flight": 8000,
+    "daily": 1700,
+    "extra": 1800,
+    "photo": null,
+    "wikiTitle": "Tromsø",
+    "sourceURL": "https://www.visitnorway.com/things-to-do/nature-attractions/northern-lights/facts-about-the-northern-lights/",
+    "highlights": [
+      {
+        "name": "峡湾海岸",
+        "experience": "白天安排海岸与岛屿路线，让旅程不只依赖极光。"
+      },
+      {
+        "name": "北极大教堂",
+        "experience": "把城市建筑、博物馆与极地生活纳入行程。"
+      }
+    ],
+    "stops": [
+      [
+        "特罗姆瑟",
+        "北极大教堂|Polaria"
+      ],
+      [
+        "周边海岸",
+        "埃尔斯菲尤尔村|索马若伊"
+      ]
+    ],
+    "airports": [
+      "特罗姆瑟朗内斯机场 TOS"
+    ],
+    "currency": "NOK",
+    "english": "TROMSO NORTHERN LIGHTS",
+    "policy": "挪威",
+    "travelDays": 4,
+    "seasonSource": "https://www.visitnorway.com/things-to-do/nature-attractions/northern-lights/facts-about-the-northern-lights/",
+    "description": "挪威官方把9月至3月作为北部极光观察窗口；是否能看到仍由太阳活动、云层和实际天气决定。"
+  },
+  {
+    "id": "lauterbrunnen-valley",
+    "name": "劳特布龙嫩",
+    "country": "瑞士",
+    "coord": [
+      7.91,
+      46.59
+    ],
+    "domestic": false,
+    "nature": 0.95,
+    "windows": [
+      [
+        "06-01",
+        "09-30"
+      ]
+    ],
+    "season": "夏季山谷与山村灵感",
+    "subtitle": "把阿尔卑斯住进一条山谷",
+    "whyNow": "夏季适合山谷与山村步行；高处步道、缆车和雪况需按实际开放核验。",
+    "minDays": 7,
+    "flight": 7200,
+    "daily": 1900,
+    "extra": 1600,
+    "photo": null,
+    "wikiTitle": "Lauterbrunnen",
+    "sourceURL": "https://jungfrauregion.swiss/en/destination/about-the-region/hikes.html",
+    "highlights": [
+      {
+        "name": "施陶河瀑布",
+        "experience": "沿谷底理解瀑布与峭壁的尺度。"
+      },
+      {
+        "name": "米伦",
+        "experience": "在山村与步道之间体验阿尔卑斯的日常。"
+      }
+    ],
+    "stops": [
+      [
+        "劳特布龙嫩",
+        "施陶河瀑布|施特歇尔贝格"
+      ],
+      [
+        "米伦与格林德瓦",
+        "米伦村|First观景区"
+      ]
+    ],
+    "airports": [
+      "苏黎世机场 ZRH",
+      "日内瓦机场 GVA"
+    ],
+    "currency": "CHF",
+    "english": "LAUTERBRUNNEN VALLEY",
+    "policy": "瑞士",
+    "travelDays": 4,
+    "seasonSource": "https://jungfrauregion.swiss/en/destination/about-the-region/hikes.html",
+    "description": "夏季适合山谷与山村步行；高处步道、缆车和雪况需按实际开放核验。"
+  },
+  {
+    "id": "serengeti-safari",
+    "name": "塞伦盖蒂",
+    "country": "坦桑尼亚",
+    "coord": [
+      34.82,
+      -2.33
+    ],
+    "domestic": false,
+    "nature": 0.95,
+    "windows": [
+      [
+        "06-01",
+        "10-31"
+      ]
+    ],
+    "season": "旱季观兽灵感",
+    "subtitle": "在草原上等动物走进视野",
+    "whyNow": "以旱季观兽作为起点；迁徙位置和动物出现不能按日历保证，需由当地向导按实际情况安排。",
+    "minDays": 10,
+    "flight": 8500,
+    "daily": 2300,
+    "extra": 4000,
+    "photo": null,
+    "wikiTitle": "Serengeti National Park",
+    "sourceURL": "https://www.tanzaniatourism.go.tz/",
+    "highlights": [
+      {
+        "name": "塞罗内拉区域",
+        "experience": "用正规向导与观兽路线理解草原生态。"
+      },
+      {
+        "name": "恩戈罗恩戈罗火山口",
+        "experience": "把另一种地貌与野生动物栖息地加入旅程。"
+      }
+    ],
+    "stops": [
+      [
+        "塞伦盖蒂",
+        "塞罗内拉区域"
+      ],
+      [
+        "恩戈罗恩戈罗",
+        "恩戈罗恩戈罗火山口"
+      ]
+    ],
+    "airports": [
+      "乞力马扎罗国际机场 JRO"
+    ],
+    "currency": "TZS",
+    "english": "SERENGETI SAFARI",
+    "policy": "坦桑尼亚",
+    "travelDays": 4,
+    "seasonSource": "https://www.tanzaniatourism.go.tz/",
+    "description": "以旱季观兽作为起点；迁徙位置和动物出现不能按日历保证，需由当地向导按实际情况安排。"
+  },
+  {
+    "id": "sossusvlei-dunes",
+    "name": "索苏斯维雷",
+    "country": "纳米比亚",
+    "coord": [
+      15.3,
+      -24.73
+    ],
+    "domestic": false,
+    "nature": 0.95,
+    "windows": [
+      [
+        "05-01",
+        "09-30"
+      ]
+    ],
+    "season": "凉爽旱季沙漠灵感",
+    "subtitle": "在橙色沙丘与白色盐盘间看日出",
+    "whyNow": "纳米比亚官方说明5月至9月白天较舒适；以沙丘、盐盘与峡谷为主题，具体风况和入园时间另查。",
+    "minDays": 10,
+    "flight": 9500,
+    "daily": 1700,
+    "extra": 2300,
+    "photo": null,
+    "wikiTitle": "Sossusvlei",
+    "sourceURL": "https://visitnamibia.com.na/climate/",
+    "highlights": [
+      {
+        "name": "死盆地 Deadvlei",
+        "experience": "看白色盐盘、枯树与沙丘的反差。"
+      },
+      {
+        "name": "Dune 45",
+        "experience": "按体力与气温选择沙丘观景。"
+      }
+    ],
+    "stops": [
+      [
+        "索苏斯维雷",
+        "死盆地|Dune 45"
+      ],
+      [
+        "塞斯瑞姆",
+        "塞斯瑞姆峡谷"
+      ]
+    ],
+    "airports": [
+      "温得和克霍齐亚·库塔科国际机场 WDH"
+    ],
+    "currency": "NAD",
+    "english": "SOSSUSVLEI DUNES",
+    "policy": "纳米比亚",
+    "travelDays": 4,
+    "seasonSource": "https://visitnamibia.com.na/climate/",
+    "description": "纳米比亚官方说明5月至9月白天较舒适；以沙丘、盐盘与峡谷为主题，具体风况和入园时间另查。"
+  },
+  {
+    "id": "cape-town-summer",
+    "name": "开普敦",
+    "country": "南非",
+    "coord": [
+      18.42,
+      -33.93
+    ],
+    "domestic": false,
+    "nature": 0.6,
+    "windows": [
+      [
+        "11-01",
+        "03-31"
+      ]
+    ],
+    "season": "南半球夏季海岸灵感",
+    "subtitle": "让海岸、山与历史同时入镜",
+    "whyNow": "开普敦旅游官方说明11月至3月为炎热干燥夏季；风和云层仍会影响桌山与海岸体验。",
+    "minDays": 9,
+    "flight": 7500,
+    "daily": 1350,
+    "extra": 1700,
+    "photo": null,
+    "wikiTitle": "Cape Town",
+    "sourceURL": "https://www.capetown.travel/cape-town-faqs-what-you-need-to-know-before-you-visit/",
+    "highlights": [
+      {
+        "name": "桌山",
+        "experience": "按实际天气选择上山，俯看城市与海岸。"
+      },
+      {
+        "name": "罗本岛博物馆",
+        "experience": "通过历史讲解理解另一面的开普敦。"
+      }
+    ],
+    "stops": [
+      [
+        "开普敦",
+        "桌山|好望角|罗本岛博物馆"
+      ],
+      [
+        "斯泰伦博斯",
+        "Spier酒庄|斯泰伦博斯村落博物馆"
+      ]
+    ],
+    "airports": [
+      "开普敦国际机场 CPT"
+    ],
+    "currency": "ZAR",
+    "english": "CAPE TOWN SUMMER",
+    "policy": "南非",
+    "travelDays": 4,
+    "seasonSource": "https://www.capetown.travel/cape-town-faqs-what-you-need-to-know-before-you-visit/",
+    "description": "开普敦旅游官方说明11月至3月为炎热干燥夏季；风和云层仍会影响桌山与海岸体验。"
+  },
+  {
+    "id": "okavango-delta",
+    "name": "奥卡万戈三角洲",
+    "country": "博茨瓦纳",
+    "coord": [
+      22.9,
+      -19.3
+    ],
+    "domestic": false,
+    "nature": 0.95,
+    "windows": [
+      [
+        "06-01",
+        "10-31"
+      ]
+    ],
+    "season": "旱季与三角洲水道灵感",
+    "subtitle": "在内陆三角洲看水与生命相遇",
+    "whyNow": "博茨瓦纳官方将旱季作为观兽好时段；水位、独木舟活动与动物分布由实际洪水和营地位置决定。",
+    "minDays": 10,
+    "flight": 11000,
+    "daily": 3000,
+    "extra": 4500,
+    "photo": null,
+    "wikiTitle": "Okavango Delta",
+    "sourceURL": "https://botswanatourism.co.bw/index.php/travel-info/time-visit",
+    "highlights": [
+      {
+        "name": "莫雷米保护区",
+        "experience": "以正规向导安排观兽，理解三角洲与旱地交界。"
+      },
+      {
+        "name": "三角洲水道",
+        "experience": "在可运营条件下体验独木舟或水上观察。"
+      }
+    ],
+    "stops": [
+      [
+        "奥卡万戈三角洲",
+        "莫雷米野生动物保护区|三角洲水道"
+      ],
+      [
+        "马翁",
+        "恩哈贝博物馆"
+      ]
+    ],
+    "airports": [
+      "马翁国际机场 MUB"
+    ],
+    "currency": "BWP",
+    "english": "OKAVANGO DELTA",
+    "policy": "博茨瓦纳",
+    "travelDays": 4,
+    "seasonSource": "https://botswanatourism.co.bw/index.php/travel-info/time-visit",
+    "description": "博茨瓦纳官方将旱季作为观兽好时段；水位、独木舟活动与动物分布由实际洪水和营地位置决定。"
+  },
+  {
+    "id": "luxor-nile-history",
+    "name": "卢克索",
+    "country": "埃及",
+    "coord": [
+      32.64,
+      25.7
+    ],
+    "domestic": false,
+    "nature": 0.3,
+    "windows": [
+      [
+        "11-01",
+        "02-28"
+      ]
+    ],
+    "season": "较凉爽季节尼罗河文明灵感",
+    "subtitle": "在神庙与墓室之间读尼罗河",
+    "whyNow": "选择较凉爽的冬季作户外遗址参观灵感；具体开放墓室、船班与参观要求需另核验。",
+    "minDays": 8,
+    "flight": 6500,
+    "daily": 850,
+    "extra": 1500,
+    "photo": null,
+    "wikiTitle": "Luxor",
+    "sourceURL": "https://www.experienceegypt.eg/files/Luxor-Eng.pdf",
+    "highlights": [
+      {
+        "name": "卡纳克神庙",
+        "experience": "在柱厅与轴线中理解古埃及建筑尺度。"
+      },
+      {
+        "name": "帝王谷",
+        "experience": "按开放墓室与讲解安排观看壁画。"
+      }
+    ],
+    "stops": [
+      [
+        "卢克索",
+        "卡纳克神庙|帝王谷"
+      ],
+      [
+        "阿斯旺",
+        "菲莱神庙|努比亚博物馆"
+      ]
+    ],
+    "airports": [
+      "卢克索国际机场 LXR",
+      "开罗国际机场 CAI"
+    ],
+    "currency": "EGP",
+    "english": "LUXOR NILE HISTORY",
+    "policy": "埃及",
+    "travelDays": 4,
+    "seasonSource": "https://www.experienceegypt.eg/files/Luxor-Eng.pdf",
+    "description": "选择较凉爽的冬季作户外遗址参观灵感；具体开放墓室、船班与参观要求需另核验。"
+  },
+  {
+    "id": "zanzibar-island",
+    "name": "桑给巴尔",
+    "country": "坦桑尼亚",
+    "coord": [
+      39.2,
+      -6.17
+    ],
+    "domestic": false,
+    "nature": 0.65,
+    "windows": [
+      [
+        "06-01",
+        "10-31"
+      ]
+    ],
+    "season": "较干燥季节海岛灵感",
+    "subtitle": "在海岸休息，也走进石头城",
+    "whyNow": "以较干燥季节作海岛灵感；潮汐、海况与潜水条件按日期和具体海岸核验。",
+    "minDays": 8,
+    "flight": 8500,
+    "daily": 1300,
+    "extra": 1300,
+    "photo": null,
+    "wikiTitle": "Zanzibar",
+    "sourceURL": "https://www.zanzibartourism.go.tz/",
+    "highlights": [
+      {
+        "name": "石头城",
+        "experience": "理解印度洋贸易、建筑与岛屿历史。"
+      },
+      {
+        "name": "南威海岸",
+        "experience": "在合适海况下安排海边休息与水上体验。"
+      }
+    ],
+    "stops": [
+      [
+        "桑给巴尔城",
+        "石头城"
+      ],
+      [
+        "岛屿周边",
+        "南威海岸|乔扎尼森林|帕杰海岸"
+      ]
+    ],
+    "airports": [
+      "阿贝德·阿马尼·卡鲁姆国际机场 ZNZ"
+    ],
+    "currency": "TZS",
+    "english": "ZANZIBAR ISLAND",
+    "policy": "坦桑尼亚",
+    "travelDays": 4,
+    "seasonSource": "https://www.zanzibartourism.go.tz/",
+    "description": "以较干燥季节作海岛灵感；潮汐、海况与潜水条件按日期和具体海岸核验。"
+  },
+  {
+    "id": "banff-lake-louise",
+    "name": "班夫与露易丝湖",
+    "country": "加拿大",
+    "coord": [
+      -115.57,
+      51.18
+    ],
+    "domestic": false,
+    "nature": 0.95,
+    "windows": [
+      [
+        "07-01",
+        "09-30"
+      ]
+    ],
+    "season": "夏季湖泊与初秋落叶松灵感",
+    "subtitle": "看落基山把湖水染成蓝绿",
+    "whyNow": "当地旅游局说明夏季湖泊、步道与9月落叶松各有特色；湖泊解冻、接驳与道路按当年核验。",
+    "minDays": 10,
+    "flight": 9000,
+    "daily": 1750,
+    "extra": 1800,
+    "photo": null,
+    "wikiTitle": "Banff National Park",
+    "sourceURL": "https://www.banfflakelouise.com/blog/the-best-months-to-visit-banff-lake-louise-summer",
+    "highlights": [
+      {
+        "name": "露易丝湖",
+        "experience": "在湖岸与山地之间选择适合自己的路线。"
+      },
+      {
+        "name": "梦莲湖",
+        "experience": "按当年接驳与开放安排观景，不假设可随时自驾进入。"
+      }
+    ],
+    "stops": [
+      [
+        "班夫与露易丝湖",
+        "露易丝湖|梦莲湖|班夫小镇"
+      ],
+      [
+        "坎莫尔",
+        "格拉西湖|坎莫尔小镇"
+      ]
+    ],
+    "airports": [
+      "卡尔加里国际机场 YYC"
+    ],
+    "currency": "CAD",
+    "english": "BANFF LAKE LOUISE",
+    "policy": "加拿大",
+    "travelDays": 4,
+    "seasonSource": "https://www.banfflakelouise.com/blog/the-best-months-to-visit-banff-lake-louise-summer",
+    "description": "当地旅游局说明夏季湖泊、步道与9月落叶松各有特色；湖泊解冻、接驳与道路按当年核验。"
+  },
+  {
+    "id": "yosemite-spring-waterfalls",
+    "name": "优胜美地",
+    "country": "美国",
+    "coord": [
+      -119.59,
+      37.75
+    ],
+    "domestic": false,
+    "nature": 0.95,
+    "windows": [
+      [
+        "05-01",
+        "06-30"
+      ]
+    ],
+    "season": "春末初夏瀑布灵感",
+    "subtitle": "听雪水从花岗岩峭壁落下",
+    "whyNow": "美国国家公园管理局将5月列为瀑布高峰窗口；水量、积雪和道路开放每年不同。",
+    "minDays": 10,
+    "flight": 8500,
+    "daily": 1800,
+    "extra": 1700,
+    "photo": null,
+    "wikiTitle": "Yosemite National Park",
+    "sourceURL": "https://www.nps.gov/yose/planyourvisit/may.htm",
+    "highlights": [
+      {
+        "name": "优胜美地瀑布",
+        "experience": "从谷地步道观察融雪季的瀑布。"
+      },
+      {
+        "name": "酋长岩",
+        "experience": "看花岗岩峭壁与谷地的尺度。"
+      }
+    ],
+    "stops": [
+      [
+        "优胜美地谷",
+        "优胜美地瀑布|酋长岩"
+      ],
+      [
+        "公园南部",
+        "马里波萨巨杉林"
+      ]
+    ],
+    "airports": [
+      "旧金山国际机场 SFO",
+      "弗雷斯诺优胜美地国际机场 FAT"
+    ],
+    "currency": "USD",
+    "english": "YOSEMITE SPRING WATERFALLS",
+    "policy": "美国",
+    "travelDays": 4,
+    "seasonSource": "https://www.nps.gov/yose/planyourvisit/may.htm",
+    "description": "美国国家公园管理局将5月列为瀑布高峰窗口；水量、积雪和道路开放每年不同。"
+  },
+  {
+    "id": "new-york-autumn",
+    "name": "纽约",
+    "country": "美国",
+    "coord": [
+      -73.98,
+      40.75
+    ],
+    "domestic": false,
+    "nature": 0.35,
+    "windows": [
+      [
+        "04-01",
+        "05-31"
+      ],
+      [
+        "09-01",
+        "11-30"
+      ]
+    ],
+    "season": "春秋公园与艺术灵感",
+    "subtitle": "把博物馆与公园放进一座城",
+    "whyNow": "春秋可将公园与艺术机构组合；秋叶色彩、展览和演出按当年情况核验。",
+    "minDays": 8,
+    "flight": 8500,
+    "daily": 2000,
+    "extra": 1100,
+    "photo": null,
+    "wikiTitle": "New York City",
+    "sourceURL": "https://www.nyctourism.com/new-york/manhattan/central-park/",
+    "highlights": [
+      {
+        "name": "中央公园",
+        "experience": "把城市步行变成观察树木、建筑与居民的时间。"
+      },
+      {
+        "name": "大都会艺术博物馆",
+        "experience": "选定两三个主题深看，不追求一次看完。"
+      }
+    ],
+    "stops": [
+      [
+        "纽约",
+        "中央公园|大都会艺术博物馆"
+      ],
+      [
+        "哈德逊河谷",
+        "Dia Beacon美术馆|冷泉镇"
+      ]
+    ],
+    "airports": [
+      "纽约肯尼迪国际机场 JFK",
+      "纽瓦克自由国际机场 EWR"
+    ],
+    "currency": "USD",
+    "english": "NEW YORK AUTUMN",
+    "policy": "美国",
+    "travelDays": 4,
+    "seasonSource": "https://www.nyctourism.com/new-york/manhattan/central-park/",
+    "description": "春秋可将公园与艺术机构组合；秋叶色彩、展览和演出按当年情况核验。"
+  },
+  {
+    "id": "mexico-city-culture",
+    "name": "墨西哥城",
+    "country": "墨西哥",
+    "coord": [
+      -99.13,
+      19.43
+    ],
+    "domestic": false,
+    "nature": 0.25,
+    "windows": [
+      [
+        "10-01",
+        "11-30"
+      ],
+      [
+        "02-01",
+        "04-30"
+      ]
+    ],
+    "season": "文化与节庆季节灵感",
+    "subtitle": "让古文明与当代城市同场出现",
+    "whyNow": "秋季可关注亡灵节文化，春季适合城市文化线；具体游行与活动必须查当年日程，不把整个月当节庆。",
+    "minDays": 9,
+    "flight": 11000,
+    "daily": 1050,
+    "extra": 1100,
+    "photo": null,
+    "wikiTitle": "Mexico City",
+    "sourceURL": "https://visitmexico.com/en/destino/18054/day-of-the-dead-events-lineup",
+    "highlights": [
+      {
+        "name": "国家人类学博物馆",
+        "experience": "用文物与讲解建立对墨西哥文明的线索。"
+      },
+      {
+        "name": "特奥蒂瓦坎",
+        "experience": "观察古城轴线与金字塔，按开放规则参观。"
+      }
+    ],
+    "stops": [
+      [
+        "墨西哥城",
+        "国家人类学博物馆|宪法广场"
+      ],
+      [
+        "特奥蒂瓦坎",
+        "太阳金字塔|月亮金字塔"
+      ]
+    ],
+    "airports": [
+      "墨西哥城贝尼托·胡亚雷斯国际机场 MEX"
+    ],
+    "currency": "MXN",
+    "english": "MEXICO CITY CULTURE",
+    "policy": "墨西哥",
+    "travelDays": 4,
+    "seasonSource": "https://visitmexico.com/en/destino/18054/day-of-the-dead-events-lineup",
+    "description": "秋季可关注亡灵节文化，春季适合城市文化线；具体游行与活动必须查当年日程，不把整个月当节庆。"
+  },
+  {
+    "id": "oaxaca-living-culture",
+    "name": "瓦哈卡",
+    "country": "墨西哥",
+    "coord": [
+      -96.73,
+      17.06
+    ],
+    "domestic": false,
+    "nature": 0.3,
+    "windows": [
+      [
+        "10-01",
+        "11-30"
+      ],
+      [
+        "01-01",
+        "03-31"
+      ]
+    ],
+    "season": "城市文化与亡灵节灵感",
+    "subtitle": "在市集、织物与古城里停留",
+    "whyNow": "可关注亡灵节与日常工艺，但具体庆典按年度日程；城市与谷地文化并不只在节日期间值得看。",
+    "minDays": 9,
+    "flight": 12000,
+    "daily": 1000,
+    "extra": 1200,
+    "photo": null,
+    "wikiTitle": "Oaxaca City",
+    "sourceURL": "https://visitmexico.com/es/destino/2179/ciudad-de-oaxaca-oaxaca",
+    "highlights": [
+      {
+        "name": "瓦哈卡民族植物园",
+        "experience": "从植物与讲解理解地方生态和生活。"
+      },
+      {
+        "name": "阿尔班山",
+        "experience": "在遗址与山谷视野中理解萨波特克文明。"
+      }
+    ],
+    "stops": [
+      [
+        "瓦哈卡",
+        "瓦哈卡民族植物园|阿尔班山"
+      ],
+      [
+        "瓦哈卡谷地",
+        "特奥蒂特兰德尔巴列|米特拉遗址"
+      ]
+    ],
+    "airports": [
+      "瓦哈卡肖索科特兰国际机场 OAX"
+    ],
+    "currency": "MXN",
+    "english": "OAXACA LIVING CULTURE",
+    "policy": "墨西哥",
+    "travelDays": 4,
+    "seasonSource": "https://visitmexico.com/es/destino/2179/ciudad-de-oaxaca-oaxaca",
+    "description": "可关注亡灵节与日常工艺，但具体庆典按年度日程；城市与谷地文化并不只在节日期间值得看。"
+  },
+  {
+    "id": "cusco-sacred-valley",
+    "name": "库斯科与圣谷",
+    "country": "秘鲁",
+    "coord": [
+      -71.97,
+      -13.52
+    ],
+    "domestic": false,
+    "nature": 0.5,
+    "windows": [
+      [
+        "05-01",
+        "09-30"
+      ]
+    ],
+    "season": "较干燥季节遗址与山谷灵感",
+    "subtitle": "让一条山谷连接印加文明",
+    "whyNow": "秘鲁官方资料推荐较干燥季节看库斯科与周边；雨、路线与马丘比丘门票均需按期核验。",
+    "minDays": 11,
+    "flight": 14000,
+    "daily": 1100,
+    "extra": 2300,
+    "photo": null,
+    "wikiTitle": "Cusco",
+    "sourceURL": "https://www.peru.travel/es/inspirate/cual-es-la-mejor-epoca-para-visitar-machupicchu-y-sus-alrededores",
+    "highlights": [
+      {
+        "name": "萨克塞瓦曼",
+        "experience": "从石作与地形理解印加建筑。"
+      },
+      {
+        "name": "圣谷",
+        "experience": "在皮萨克与奥扬泰坦博之间看遗址和村落。"
+      }
+    ],
+    "stops": [
+      [
+        "库斯科",
+        "萨克塞瓦曼|圣多明各修道院"
+      ],
+      [
+        "圣谷",
+        "皮萨克|奥扬泰坦博"
+      ],
+      [
+        "马丘比丘",
+        "马丘比丘遗址"
+      ]
+    ],
+    "airports": [
+      "库斯科亚历杭德罗·贝拉斯科·阿斯特特国际机场 CUZ"
+    ],
+    "currency": "PEN",
+    "english": "CUSCO SACRED VALLEY",
+    "policy": "秘鲁",
+    "travelDays": 4,
+    "seasonSource": "https://www.peru.travel/es/inspirate/cual-es-la-mejor-epoca-para-visitar-machupicchu-y-sus-alrededores",
+    "description": "秘鲁官方资料推荐较干燥季节看库斯科与周边；雨、路线与马丘比丘门票均需按期核验。"
+  },
+  {
+    "id": "atacama-desert",
+    "name": "阿塔卡马",
+    "country": "智利",
+    "coord": [
+      -68.2,
+      -22.91
+    ],
+    "domestic": false,
+    "nature": 0.95,
+    "windows": [
+      [
+        "04-01",
+        "06-30"
+      ],
+      [
+        "09-01",
+        "11-30"
+      ]
+    ],
+    "season": "春秋沙漠与高原灵感",
+    "subtitle": "在地球上看另一颗星球的颜色",
+    "whyNow": "智利旅游官方分别推荐秋季与春季北部体验；以沙漠、高原湖泊和观星为主题，线路与晴空按实际条件确认。",
+    "minDays": 11,
+    "flight": 15000,
+    "daily": 1400,
+    "extra": 2100,
+    "photo": null,
+    "wikiTitle": "San Pedro de Atacama",
+    "sourceURL": "https://chile.travel/en/blog/san-pedro-de-atacama-the-best-time-to-travel-that-few-people-know-about/",
+    "highlights": [
+      {
+        "name": "月亮谷",
+        "experience": "在岩层、沙地与傍晚光线中看地貌。"
+      },
+      {
+        "name": "塔蒂奥间歇泉",
+        "experience": "按正规线路、天气和开放情况安排。"
+      }
+    ],
+    "stops": [
+      [
+        "圣佩德罗德阿塔卡马",
+        "月亮谷|普卡拉德基托尔"
+      ],
+      [
+        "高原区域",
+        "塔蒂奥间歇泉|米斯坎蒂湖"
+      ]
+    ],
+    "airports": [
+      "卡拉马埃尔洛阿机场 CJC",
+      "圣地亚哥阿图罗·梅里诺·贝尼特斯国际机场 SCL"
+    ],
+    "currency": "CLP",
+    "english": "ATACAMA DESERT",
+    "policy": "智利",
+    "travelDays": 4,
+    "seasonSource": "https://chile.travel/en/blog/san-pedro-de-atacama-the-best-time-to-travel-that-few-people-know-about/",
+    "description": "智利旅游官方分别推荐秋季与春季北部体验；以沙漠、高原湖泊和观星为主题，线路与晴空按实际条件确认。"
+  },
+  {
+    "id": "uluru-red-centre",
+    "name": "乌鲁鲁",
+    "country": "澳大利亚",
+    "coord": [
+      131.04,
+      -25.34
+    ],
+    "domestic": false,
+    "nature": 0.85,
+    "windows": [
+      [
+        "05-01",
+        "09-30"
+      ]
+    ],
+    "season": "较凉爽旱季红土中心灵感",
+    "subtitle": "用日出日落理解一块岩石",
+    "whyNow": "澳大利亚旅游官方推荐5月至9月；岩体色彩随光线变化，天气与文化活动需另核验。",
+    "minDays": 8,
+    "flight": 7500,
+    "daily": 1650,
+    "extra": 1800,
+    "photo": null,
+    "wikiTitle": "Uluru",
+    "sourceURL": "https://www.australia.com/en/places/alice-springs-and-surrounds/guide-to-uluru-and-kata-tjuta.html",
+    "highlights": [
+      {
+        "name": "乌鲁鲁基底步道",
+        "experience": "从正规步道与文化讲解理解原住民土地。"
+      },
+      {
+        "name": "卡塔丘塔",
+        "experience": "按气温与开放选择风之谷等步道。"
+      }
+    ],
+    "stops": [
+      [
+        "乌鲁鲁—卡塔丘塔国家公园",
+        "乌鲁鲁基底步道|乌鲁鲁文化中心"
+      ],
+      [
+        "卡塔丘塔",
+        "风之谷步道"
+      ]
+    ],
+    "airports": [
+      "艾尔斯岩康内伦机场 AYQ"
+    ],
+    "currency": "AUD",
+    "english": "ULURU RED CENTRE",
+    "policy": "澳大利亚",
+    "travelDays": 4,
+    "seasonSource": "https://www.australia.com/en/places/alice-springs-and-surrounds/guide-to-uluru-and-kata-tjuta.html",
+    "description": "澳大利亚旅游官方推荐5月至9月；岩体色彩随光线变化，天气与文化活动需另核验。"
+  },
+  {
+    "id": "tasmania-summer",
+    "name": "塔斯马尼亚",
+    "country": "澳大利亚",
+    "coord": [
+      147.33,
+      -42.88
+    ],
+    "domestic": false,
+    "nature": 0.7,
+    "windows": [
+      [
+        "12-01",
+        "02-28"
+      ]
+    ],
+    "season": "南半球夏季岛屿灵感",
+    "subtitle": "把海湾、山地与小城串成环线",
+    "whyNow": "塔斯马尼亚官方将12月至2月列为夏季；适合自然与城市组合，天气、火险和步道开放需当期核验。",
+    "minDays": 10,
+    "flight": 7000,
+    "daily": 1450,
+    "extra": 1600,
+    "photo": null,
+    "wikiTitle": "Tasmania",
+    "sourceURL": "https://www.discovertasmania.com.au/experiences/stories/tasmania-in-summer/",
+    "highlights": [
+      {
+        "name": "酒杯湾",
+        "experience": "用观景点或合适步道看海湾曲线。"
+      },
+      {
+        "name": "霍巴特",
+        "experience": "把萨拉曼卡与博物馆加入岛屿路线。"
+      }
+    ],
+    "stops": [
+      [
+        "霍巴特",
+        "萨拉曼卡广场|塔斯马尼亚博物馆与美术馆"
+      ],
+      [
+        "菲欣纳国家公园",
+        "酒杯湾|Cape Tourville观景区"
+      ],
+      [
+        "摇篮山",
+        "鸽湖|Ronny Creek"
+      ]
+    ],
+    "airports": [
+      "霍巴特机场 HBA",
+      "朗塞斯顿机场 LST"
+    ],
+    "currency": "AUD",
+    "english": "TASMANIA SUMMER",
+    "policy": "澳大利亚",
+    "travelDays": 4,
+    "seasonSource": "https://www.discovertasmania.com.au/experiences/stories/tasmania-in-summer/",
+    "description": "塔斯马尼亚官方将12月至2月列为夏季；适合自然与城市组合，天气、火险和步道开放需当期核验。"
+  }
+]

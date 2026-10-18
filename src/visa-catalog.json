@@ -1,0 +1,1033 @@
+{
+  "asOf": "2026-10-15",
+  "sourceFile": "Compiled public travel-policy reference snapshot, 2026-10-15",
+  "passport": "中国大陆普通护照",
+  "scope": "在中国大陆申请的成年短期旅游者；政策快照，需结合行程日期、签证类型、有效期、入境次数、转机与个人材料核验。",
+  "coverage": {
+    "countries": 64,
+    "groups": 36,
+    "schengenCountries": 29,
+    "sourceLinks": 48,
+    "liveCheckedGroups": 5,
+    "liveCheckedSourcePages": 7
+  },
+  "liveCheckAsOf": "2026-10-16",
+  "liveCheckScope": "仅轻量抽查俄罗斯、摩洛哥、英国、阿根廷、新西兰的原稿官方链接；未将其余31组标记为重新核验。各组liveCheckNote说明具体范围。",
+  "groups": [
+    {
+      "id": "usa",
+      "name": "美国",
+      "method": "提前签证",
+      "difficulty": "较高",
+      "processing": "预约另计；面谈后签发时间不固定，行政审查可更久。",
+      "validity": "B1/B2最长10年，多次。",
+      "stay": "由CBP决定，以I-94为准，常见最长6个月。",
+      "fee": "185 USD。",
+      "feeNotes": "基础MRV申请费；EVUS现为30.75美元/次；其他新增收费须核对付款页，185不是全包价。",
+      "timing": "优先启动，建议预留3—6个月。",
+      "materials": "护照、DS-160确认页、预约页、符合要求照片、付款凭证；备在职收入、资金、真实旅行计划及回国约束材料。",
+      "conditions": "上海当前官方等待表下一可约B1/B2约3.5个月，号源会变化。10年并非保证签发；无需先买机票。EVUS通常有效2年或至护照/签证到期，先到者为准。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "us 官方信息",
+          "url": "https://travel.state.gov/content/travel/en/us-visas/Visa-Reciprocity-and-Civil-Documents-by-Country/China.html"
+        },
+        {
+          "title": "usfee 官方信息",
+          "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/fees-visa-services.html"
+        },
+        {
+          "title": "usapply 官方信息",
+          "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html/visa"
+        },
+        {
+          "title": "wait 官方信息",
+          "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/global-visa-wait-times.html"
+        },
+        {
+          "title": "evus 官方信息",
+          "url": "https://www.evus.gov/"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "new-zealand",
+      "name": "新西兰",
+      "method": "电子签",
+      "difficulty": "中等",
+      "processing": "官方：80%约2周。",
+      "validity": "中国公民多次访客签最长5年。",
+      "stay": "多次签每12个月累计不超过6个月。",
+      "fee": "441 NZD。",
+      "feeNotes": "官方显示From NZD441，申请渠道与征费以费用工具/付款页为准，勿重复加收IVL。",
+      "timing": "优先准备，建议预留4—6周。",
+      "materials": "护照及照片、银行流水、在职与准假证明、旅行计划、离境安排、旧护照与旅行记录；中文材料附英文译文。",
+      "conditions": "5年是上限，受护照及审查影响。生活资金通常至少NZD1000/月，住宿已付可降为400/月，另需离境机票或购买能力。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "nz 官方信息",
+          "url": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/application-guide-for-visitor-visas-for-citizens-of-china/"
+        }
+      ],
+      "liveCheck": "verified-2026-10-16",
+      "liveCheckNote": "已读取新西兰移民局中国访客申请指南，支持多次访客签最长5年、每12个月累计最多6个月、起价NZD441、80%约2周及非英文材料需英文翻译。资金具体门槛未在本次打开的原链接正文中核得，保留原稿并待进一步复核。"
+    },
+    {
+      "id": "schengen",
+      "name": "欧洲申根区（29国共通规则）",
+      "method": "提前签证",
+      "difficulty": "中等",
+      "processing": "受理后通常15自然日，个案最长45日；预约另计。",
+      "validity": "按行程及记录签发；可为单次/多次，最长5年并非首签标配。",
+      "stay": "全申根合计每180日最多90日，且受签证所写停留天数约束。",
+      "fee": "90 EUR。",
+      "feeNotes": "成人签证费；签证中心、保险、快递、翻译另计。",
+      "timing": "有大致行程再办；出发前最多6个月递交，建议预留6—10周。",
+      "materials": "护照、申请表及照片、机酒预订、逐日行程、在职准假与收入证明、近3—6月流水、旅行医疗保险、身份与常住地证明、指纹。",
+      "conditions": "申请主要目的地/停留最久国家；天数相同才按首先入境国家。保险最低保额3万欧元并覆盖全申根与全行程；59个月内指纹通常可复用但可要求重采。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "sch 官方信息",
+          "url": "https://home-affairs.ec.europa.eu/policies/schengen/visa-policy/applying-schengen-visa_en"
+        },
+        {
+          "title": "schlaw 官方信息",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02009R0810-20240628"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "uk",
+      "name": "英国",
+      "method": "提前签证",
+      "difficulty": "中等",
+      "processing": "完成递交和生物信息后通常3周，预约另计。",
+      "validity": "大陆中国公民优惠方案通常2年；可选5/10年。",
+      "stay": "每次通常最多6个月。",
+      "fee": "135 GBP。",
+      "feeNotes": "中国大陆Chinese visa scheme两年优惠£135；通用两年价£506不应直接套用。5年£903、10年£1128。",
+      "timing": "有英国计划再办；最早出发前3个月，建议预留5—8周。",
+      "materials": "护照、旅行计划和预算、在职收入及银行流水、回国约束材料、英文或威尔士文之外材料的认证翻译、预约与生物信息。",
+      "conditions": "需符合两年中国公民优惠方案并在大陆申请，以申请系统为准。英国与申根分别办理。当前官方指引获批后使用eVisa并关联UKVI账户。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "uk 官方信息",
+          "url": "https://www.gov.uk/standard-visitor/apply-standard-visitor-visa"
+        },
+        {
+          "title": "ukfee 官方信息",
+          "url": "https://www.gov.uk/government/publications/visa-regulations-revised-table/home-office-immigration-and-nationality-fees-8-october-2026"
+        }
+      ],
+      "liveCheck": "verified-2026-10-16",
+      "liveCheckNote": "已读取GOV.UK申请指南与2026-10-08费用表：最早提前3个月申请、通常3周、每次最多6个月、eVisa；两年费率的脚注支持在大陆按Chinese visa scheme申请的中国公民为£135。资格及个人材料仍以申请系统为准。"
+    },
+    {
+      "id": "canada",
+      "name": "加拿大",
+      "method": "提前签证",
+      "difficulty": "中等偏高",
+      "processing": "随申请地与个案动态变化；录指纹与贴签时间另计。",
+      "validity": "最长10年，亦受护照及生物信息有效期限制；可发短期或单次。",
+      "stay": "通常最多6个月，以入境许可为准。",
+      "fee": "100 CAD。",
+      "feeNotes": "需录指纹者另加CAD85，合计CAD185；其他中心服务另计。",
+      "timing": "有北美计划再办，建议预留2—3个月或更长。",
+      "materials": "护照、照片、在线申请、旅行目的、在职收入与资金、旅行记录、家庭与回国联系；按通知录指纹及交护照。",
+      "conditions": "并非申请就固定给十年多次；审理时间需用IRCC工具选中国重新查。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "ca 官方信息",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/apply-visitor-visa.html"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "australia",
+      "name": "澳大利亚",
+      "method": "电子签",
+      "difficulty": "中等",
+      "processing": "官方处理时间工具动态更新，无固定承诺。",
+      "validity": "普通600按个案批准；另有最长10年常旅客类别。",
+      "stay": "普通600依批签信；十年常旅客通常每次最多3个月。",
+      "fee": "250 AUD。",
+      "feeNotes": "普通境外旅游600现为AUD250起；十年常旅客AUD1845，附加服务另计。",
+      "timing": "普通旅游有计划再办，建议预留6—8周。",
+      "materials": "护照及照片、英文申请、流水与资金、在职准假、行程、旅行记录；按要求补充生物信息/体检。",
+      "conditions": "不建议只为囤签花高费办十年常旅客。多次与停留时间、不得工作等条件均看批签信。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "au 官方信息",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-overseas"
+        },
+        {
+          "title": "au10 官方信息",
+          "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/frequent-traveller-stream"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "japan",
+      "name": "日本",
+      "method": "提前签证",
+      "difficulty": "中等；五年要求更高",
+      "processing": "通常至少5个工作日，代理收件与补件另计。",
+      "validity": "单次通常3个月；多次3年/5年，依资格及签发。",
+      "stay": "三年通常每次30天；五年通常每次90天。",
+      "fee": "715 CNY。",
+      "feeNotes": "2026-07-01起上海单次官费715，多次1430；指定代理服务费另计。",
+      "timing": "常去可考虑多次，建议预留2—4周。",
+      "materials": "护照、照片、表格、身份与居住证明、在职、税单/流水/经济能力、行程；通过指定代理；多次需满足相应经济或旅行记录条件。",
+      "conditions": "三年等旅游多次首次赴日需按申报行程，变更按领馆程序处理；五年例外规则见使馆。不要把旧145/285元费率当现价。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "jp 官方信息",
+          "url": "https://www.cn.emb-japan.go.jp/consular/visa_dantai.htm"
+        },
+        {
+          "title": "jpfee 官方信息",
+          "url": "https://www.shanghai.cn.emb-japan.go.jp/itpr_ja/11_000001_00633.html"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "south-korea",
+      "name": "韩国",
+      "method": "提前签证",
+      "difficulty": "中等，符合多次条件更便利",
+      "processing": "上海受理时间随类别调整；建议按中心当期公告。",
+      "validity": "可申请5年/10年多次，须符合相应条件。",
+      "stay": "按签证类别，常见短期30/90日。",
+      "fee": "待核 CNY。",
+      "feeNotes": "签证费与中心服务费分收；上海旧表多次官费630，现价须向中心确认。",
+      "timing": "常去再办，建议预留2—4周。",
+      "materials": "护照、照片、申请表、身份证/居住证明；按资格提交在职社保、资产、学历或出入境记录。",
+      "conditions": "2026-03-30起部分多次签条件放宽。济州免签是特定入境线路，不能据此免签去首尔。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "kr 官方信息",
+          "url": "https://chinese.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=177&vcontsId=1589034"
+        },
+        {
+          "title": "krfee 官方信息",
+          "url": "https://overseas.mofa.go.kr/cn-shanghai-zh/brd/m_492/view.do?seq=760727"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "russia",
+      "name": "俄罗斯",
+      "method": "免签",
+      "difficulty": "低",
+      "processing": "无需出签。",
+      "validity": "个人免签政策至2027-12-31。",
+      "stay": "单次最多30天。",
+      "fee": "0 —。",
+      "feeNotes": "签证费0；入境授权、保险或当地旅游税如适用另计。",
+      "timing": "临近出发核验政策与转机要求。",
+      "materials": "有效护照、离境机票、住宿及旅行目的材料；准备旅行医疗保险，核对口岸入境预申报要求。",
+      "conditions": "个人普通护照免签现延长至2027-12-31，适用于旅游等规定短期目的。入境登记与生物信息程序按当期口岸执行；住宿登记可让酒店办理并留凭证。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "ru 官方信息",
+          "url": "https://ru.china-embassy.gov.cn/lsfw/zytz_142816/202607/t20260721_11989093.htm"
+        },
+        {
+          "title": "ru30 官方信息",
+          "url": "https://khabarovsk.china-consulate.gov.cn/lsfw/ZYTZ/202512/t20251202_11764651.htm"
+        }
+      ],
+      "liveCheck": "verified-2026-10-16",
+      "liveCheckNote": "已读取两条原稿官方来源：2026-07-21使馆通知支持政策延至2027-12-31；2025-12-02总领馆通知支持原政策适用目的及单次30天。旧通知原期限由新通知延长。入境登记、保险及口岸程序未逐项复核。"
+    },
+    {
+      "id": "morocco",
+      "name": "摩洛哥",
+      "method": "免签",
+      "difficulty": "低",
+      "processing": "无需出签。",
+      "validity": "无需囤签；适用当时有效政策。",
+      "stay": "最多90天。",
+      "fee": "0 —。",
+      "feeNotes": "签证费0；入境授权、保险或当地旅游税如适用另计。",
+      "timing": "临近出发核验政策与转机要求。",
+      "materials": "有效护照、返程或续程机票、住宿订单、足够旅费；按需出示行程和旅游保险。",
+      "conditions": "免签不等于免查材料。无申根签从摩洛哥经申根转机，官方特别提醒存在拒绝登机风险，应核对全程航线。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "ma 官方信息",
+          "url": "https://ma.china-embassy.gov.cn/lsfw/zytz/202507/t20250716_11671271.htm"
+        }
+      ],
+      "liveCheck": "verified-2026-10-16",
+      "liveCheckNote": "已读取驻摩洛哥使馆原链接，支持免签最多90天，以及无申根签经申根区转机离摩可能被拒绝登机的提醒。其他入境材料未逐项复核。"
+    },
+    {
+      "id": "turkey",
+      "name": "土耳其",
+      "method": "免签",
+      "difficulty": "低",
+      "processing": "无需出签。",
+      "validity": "无需囤签；适用当时有效政策。",
+      "stay": "每180日最多90天。",
+      "fee": "0 —。",
+      "feeNotes": "签证费0；入境授权、保险或当地旅游税如适用另计。",
+      "timing": "临近出发核验政策与转机要求。",
+      "materials": "有效护照、返程或续程机票、住宿订单、足够旅费；按需出示行程和旅游保险。",
+      "conditions": "2026-01-02起中国普通护照免签；旧的“先持美签/申根签申请电子签”攻略已不适用此类旅游免签。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "tr 官方信息",
+          "url": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "thailand",
+      "name": "泰国",
+      "method": "免签",
+      "difficulty": "低",
+      "processing": "无需出签。",
+      "validity": "无需囤签；适用当时有效政策。",
+      "stay": "单次最多30天。",
+      "fee": "0 —。",
+      "feeNotes": "签证费0；入境授权、保险或当地旅游税如适用另计。",
+      "timing": "临近出发核验政策与转机要求。",
+      "materials": "护照、续程机票、住宿和旅费；到达前3天内完成免费TDAC。",
+      "conditions": "2026-09-15后按双边协定单次30天。到达前按官方时限填TDAC，勿沿用60天旧攻略。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "th 官方信息",
+          "url": "https://thaiembbeij.org/th/news/updateofvisaexemption/"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "singapore",
+      "name": "新加坡",
+      "method": "免签",
+      "difficulty": "低",
+      "processing": "无需出签。",
+      "validity": "无需囤签；适用当时有效政策。",
+      "stay": "最多30天。",
+      "fee": "0 —。",
+      "feeNotes": "签证费0；入境授权、保险或当地旅游税如适用另计。",
+      "timing": "临近出发核验政策与转机要求。",
+      "materials": "护照通常余期至少6个月、离境机票、酒店及资金；抵达前3天内（含抵达日）填SG Arrival Card。",
+      "conditions": "SG Arrival Card不是签证，免费，需按时提交。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "sg 官方信息",
+          "url": "https://shanghai.mfa.gov.sg/consular-services/visa-information/"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "malaysia",
+      "name": "马来西亚",
+      "method": "免签",
+      "difficulty": "低",
+      "processing": "无需出签。",
+      "validity": "无需囤签；适用当时有效政策。",
+      "stay": "单次30天，每180日累计90天。",
+      "fee": "0 —。",
+      "feeNotes": "签证费0；入境授权、保险或当地旅游税如适用另计。",
+      "timing": "临近出发核验政策与转机要求。",
+      "materials": "护照、离境机票、住宿、旅费；抵达前3天内填MDAC（如不属豁免人群）。",
+      "conditions": "双边免签；MDAC入境卡仍需按规定申报。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "my 官方信息",
+          "url": "https://my.china-embassy.gov.cn/fwzc/lsyw/lszj/fhqz2024/cjwdvisa/202508/t20250801_11681383.htm"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "uae",
+      "name": "阿联酋",
+      "method": "免签",
+      "difficulty": "低",
+      "processing": "无需出签。",
+      "validity": "无需囤签；适用当时有效政策。",
+      "stay": "通常30天。",
+      "fee": "0 —。",
+      "feeNotes": "签证费0；入境授权、保险或当地旅游税如适用另计。",
+      "timing": "临近出发核验政策与转机要求。",
+      "materials": "有效护照、返程或续程机票、住宿订单、足够旅费；按需出示行程和旅游保险。",
+      "conditions": "迪拜、阿布扎比均属阿联酋，不需分开办签。若延长停留应询移民部门。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "ae 官方信息",
+          "url": "https://www.mfa.gov.cn/wjbzwfwpt/kzx/tzgg/202302/t20230224_11030766.html"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "qatar",
+      "name": "卡塔尔",
+      "method": "免签",
+      "difficulty": "低",
+      "processing": "无需出签。",
+      "validity": "无需囤签；适用当时有效政策。",
+      "stay": "最多30天。",
+      "fee": "0 —。",
+      "feeNotes": "签证费0；入境授权、保险或当地旅游税如适用另计。",
+      "timing": "临近出发核验政策与转机要求。",
+      "materials": "有效护照、返程或续程机票、住宿订单、足够旅费；按需出示行程和旅游保险。",
+      "conditions": "持中国护照按双边协定短期免签；住宿及适用入境健康保险要求行前核查。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "qa 官方信息",
+          "url": "https://qa.china-embassy.gov.cn/zkgx/zkgxyw/201812/t20181213_1650609.htm"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "serbia",
+      "name": "塞尔维亚",
+      "method": "免签",
+      "difficulty": "低",
+      "processing": "无需出签。",
+      "validity": "无需囤签；适用当时有效政策。",
+      "stay": "每次最多30天。",
+      "fee": "0 —。",
+      "feeNotes": "签证费0；入境授权、保险或当地旅游税如适用另计。",
+      "timing": "临近出发核验政策与转机要求。",
+      "materials": "有效护照、返程或续程机票、住宿订单、足够旅费；按需出示行程和旅游保险。",
+      "conditions": "不属于申根区，不能凭塞尔维亚免签直接进入邻近申根国家。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "rs 官方信息",
+          "url": "https://cs.mfa.gov.cn/zggmcg/ljmdd/oz_652287/sewy_654521/rjjl_654531/"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "albania",
+      "name": "阿尔巴尼亚",
+      "method": "免签",
+      "difficulty": "低",
+      "processing": "无需出签。",
+      "validity": "无需囤签；适用当时有效政策。",
+      "stay": "每180日累计最多90天。",
+      "fee": "0 —。",
+      "feeNotes": "签证费0；入境授权、保险或当地旅游税如适用另计。",
+      "timing": "临近出发核验政策与转机要求。",
+      "materials": "有效护照、返程或续程机票、住宿订单、足够旅费；按需出示行程和旅游保险。",
+      "conditions": "与申根分开计时；行程若进入申根国家仍须符合申根入境要求。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "al 官方信息",
+          "url": "https://cs.mfa.gov.cn/zggmcg/ljmdd/oz_652287/aebny_652289/rjjl_652299/"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "georgia",
+      "name": "格鲁吉亚",
+      "method": "免签",
+      "difficulty": "低",
+      "processing": "无需出签。",
+      "validity": "无需囤签；适用当时有效政策。",
+      "stay": "单次30天，每180日累计90天。",
+      "fee": "0 —。",
+      "feeNotes": "签证费0；入境授权、保险或当地旅游税如适用另计。",
+      "timing": "临近出发核验政策与转机要求。",
+      "materials": "护照、离境机票、酒店及旅费；覆盖全行程的医疗和意外保险，备英文或格文保单。",
+      "conditions": "2026-01-01起游客须购买旅游医疗和意外保险，保额不少于30000格鲁吉亚拉里。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "ge 官方信息",
+          "url": "https://cs.mfa.gov.cn/gyls/lsgz/fwxx/202405/t20240506_11293301.shtml"
+        },
+        {
+          "title": "geins 官方信息",
+          "url": "https://ge.china-embassy.gov.cn/xwdt/202512/t20251229_11789771.htm"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "kazakhstan",
+      "name": "哈萨克斯坦",
+      "method": "免签",
+      "difficulty": "低",
+      "processing": "无需出签。",
+      "validity": "无需囤签；适用当时有效政策。",
+      "stay": "单次30天，每180日累计90天。",
+      "fee": "0 —。",
+      "feeNotes": "签证费0；入境授权、保险或当地旅游税如适用另计。",
+      "timing": "临近出发核验政策与转机要求。",
+      "materials": "有效护照、返程或续程机票、住宿订单、足够旅费；按需出示行程和旅游保险。",
+      "conditions": "双边免签适用旅游等短期访问，酒店入境后申报事项应确认完成。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "kz 官方信息",
+          "url": "https://www.nia.gov.cn/n741440/n741577/c1710341/content.html"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "uzbekistan",
+      "name": "乌兹别克斯坦",
+      "method": "免签",
+      "difficulty": "低",
+      "processing": "无需出签。",
+      "validity": "无需囤签；适用当时有效政策。",
+      "stay": "单次30天，每180日累计90天。",
+      "fee": "0 —。",
+      "feeNotes": "签证费0；入境授权、保险或当地旅游税如适用另计。",
+      "timing": "临近出发核验政策与转机要求。",
+      "materials": "有效护照、返程或续程机票、住宿订单、足够旅费；按需出示行程和旅游保险。",
+      "conditions": "2025-06-01起双边免签。请确认酒店按要求办理住宿登记。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "uz 官方信息",
+          "url": "https://uz.china-embassy.gov.cn/chn/lsfw/lstz/202505/t20250523_11631123.htm"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "mauritius",
+      "name": "毛里求斯",
+      "method": "免签",
+      "difficulty": "低",
+      "processing": "无需出签。",
+      "validity": "无需囤签；适用当时有效政策。",
+      "stay": "最多60天。",
+      "fee": "0 —。",
+      "feeNotes": "签证费0；入境授权、保险或当地旅游税如适用另计。",
+      "timing": "临近出发核验政策与转机要求。",
+      "materials": "有效护照、返程或续程机票、住宿订单、足够旅费；按需出示行程和旅游保险。",
+      "conditions": "领事服务目的地页面列出普通游客免签停留最多60天；以实际入境许可为准。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "mu 官方信息",
+          "url": "https://cs.mfa.gov.cn/zggmcg/ljmdd/fz_648564/mlqs_650737/rjjl_650747/"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "seychelles",
+      "name": "塞舌尔",
+      "method": "免签",
+      "difficulty": "低",
+      "processing": "无需出签。",
+      "validity": "无需囤签；适用当时有效政策。",
+      "stay": "游客许可初次最多3个月。",
+      "fee": "0 —。",
+      "feeNotes": "签证费0；入境授权、保险或当地旅游税如适用另计。",
+      "timing": "临近出发核验政策与转机要求。",
+      "materials": "有效护照、离境机票、全程住宿、资金、照片等；出发前申请ETA并获批。",
+      "conditions": "无需签证，但须出发前获得ETA旅行授权；初次访客许可免费，ETA按系统所选时效收费，不等于全部免费。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "sc 官方信息",
+          "url": "https://www.ics.gov.sc/permits/visitors-permit"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "maldives",
+      "name": "马尔代夫",
+      "method": "免签",
+      "difficulty": "低",
+      "processing": "无需出签。",
+      "validity": "无需囤签；适用当时有效政策。",
+      "stay": "普通护照互免签通常30天。",
+      "fee": "0 —。",
+      "feeNotes": "签证费0；入境授权、保险或当地旅游税如适用另计。",
+      "timing": "临近出发核验政策与转机要求。",
+      "materials": "有效护照、已确认返程机票、已付费注册住宿、足够资金；到达前96小时内填IMUGA。",
+      "conditions": "对中国普通护照按免签安排规划。到达前96小时内填免费IMUGA；入境许可依边检决定。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "mv 官方信息",
+          "url": "https://www2.immigration.gov.mv/tourist-visa/"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "brazil",
+      "name": "巴西",
+      "method": "免签",
+      "difficulty": "低",
+      "processing": "无需出签。",
+      "validity": "临时政策2026-05-11至2026-12-31。",
+      "stay": "本轮政策累计最多30天，不可延期。",
+      "fee": "0 —。",
+      "feeNotes": "签证费0；入境授权、保险或当地旅游税如适用另计。",
+      "timing": "临近出发核验政策与转机要求。",
+      "materials": "余期至少6个月的普通护照、酒店、返程/续程机票及旅行目的材料。",
+      "conditions": "临时免签至2026-12-31；不能理解成每次入境都重新获得30天。2027年出行须再核查。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "br 官方信息",
+          "url": "https://riodejaneiro.china-consulate.gov.cn/zlggg/202605/t20260510_11907936.htm"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "mexico",
+      "name": "墨西哥",
+      "method": "有条件免签",
+      "difficulty": "低（符合条件）",
+      "processing": "符合条件无需另办墨签。",
+      "validity": "依所持合格第三国有效多次签证/居留。",
+      "stay": "由移民官决定，旅游最多可至180天。",
+      "fee": "0 —。",
+      "feeNotes": "符合条件免墨签费；旅游/入境相关税另计。",
+      "timing": "有美签等可作备选；否则需另申墨签。",
+      "materials": "护照、有效美/加/英/日/申根多次签证或合格永居、返程机票、酒店与资金。",
+      "conditions": "先核对签证类型和有效性；不可仅有美国ESTA、过期签证或普通电子授权就套用免签。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "mx 官方信息",
+          "url": "https://consulmex.sre.gob.mx/shanghai/index.php?catid=2&id=62&option=com_content&view=article"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "argentina",
+      "name": "阿根廷",
+      "method": "有条件免签",
+      "difficulty": "低（符合条件）",
+      "processing": "符合条件无需另办阿签。",
+      "validity": "依所持合格美国签证/美国绿卡。",
+      "stay": "符合该安排最多30天。",
+      "fee": "0 —。",
+      "feeNotes": "符合条件免阿签费；无条件者走领馆签证。",
+      "timing": "美签获批后可增加南美选项。",
+      "materials": "护照、有效美国B1/B2等官方列明类别签证或绿卡、返程机票、酒店与旅费。",
+      "conditions": "上海领馆2026年9月更新：无需先使用美签入境美国；对中国公民的AVE/ETA办理已暂停，不能沿用旧攻略。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "ar 官方信息",
+          "url": "https://cshan.cancilleria.gob.ar/en/visa-exemption-chinese-ordinary-passport-holders-eta-ave-enter-argentine-republic"
+        }
+      ],
+      "liveCheck": "verified-2026-10-16",
+      "liveCheckNote": "已读取上海总领馆原链接（页面更新2026-09-10），支持合格美国签证或绿卡条件、最多30天、无需先赴美、对中国公民暂停AVE/ETA。仅持日本或韩国签证不能据本条认定符合条件。"
+    },
+    {
+      "id": "indonesia",
+      "name": "印度尼西亚（含巴厘岛）",
+      "method": "落地签/电子落地签",
+      "difficulty": "低",
+      "processing": "落地现场办理；提前电子申请依平台。",
+      "validity": "电子B1通常须签发后90日内入境，以批签为准。",
+      "stay": "首次最多30天，可按规定延长一次。",
+      "fee": "500000 IDR。",
+      "feeNotes": "落地签官费；巴厘岛旅游税及其他征费另计。",
+      "timing": "临近行程办理即可。",
+      "materials": "余期至少6个月护照、离境机票、住宿、申请信息；电子落地签另需照片、支付卡。",
+      "conditions": "不是中国普通护照普遍免签；只经批准口岸入境。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "id 官方信息",
+          "url": "https://jakartapusat.imigrasi.go.id/index.php/layanan/warga-negara-asing-wna/visa-republik-indonesia/b1-visa-saat-kedatangan-wisata"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "laos",
+      "name": "老挝",
+      "method": "落地签/电子签",
+      "difficulty": "低",
+      "processing": "落地现场；电子签通常约3工作日，建议多留余量。",
+      "validity": "落地签按本次入境；电子签按批签。",
+      "stay": "最多30天。",
+      "fee": "20 USD。",
+      "feeNotes": "中国公民落地签官费；电子签费另按系统，不应套用20美元。",
+      "timing": "临近出发；先核对口岸能否办理。",
+      "materials": "护照余期半年、至少2页空白签证页、2张35×45mm白底照片、申请表及入境卡、酒店和离境安排。",
+      "conditions": "电子签与落地签可使用的陆路/铁路口岸不完全相同。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "la 官方信息",
+          "url": "https://luangprabang.china-consulate.gov.cn/chn/lsfw/flwxz/202601/t20260107_11807949.htm"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "cambodia",
+      "name": "柬埔寨",
+      "method": "落地签/电子签",
+      "difficulty": "低",
+      "processing": "落地现场；电子签通常约3工作日。",
+      "validity": "电子旅游签通常3个月入境窗口。",
+      "stay": "一般旅游签最多30天。",
+      "fee": "30 USD。",
+      "feeNotes": "旅游电子签官方已降至USD30；其他可选服务另计。",
+      "timing": "出行临近办理；勿依赖即将结束的免签试点。",
+      "materials": "护照、照片、离境机票、住宿、申请表；按要求提交Cambodia e-Arrival。",
+      "conditions": "2026-06-15至2026-10-15的中国游客14日免签试点于原稿核验日到期；未来行程按需签证准备，除非官方宣布续期。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "kh 官方信息",
+          "url": "https://www.evisa.gov.kh/"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "vietnam",
+      "name": "越南",
+      "method": "电子签",
+      "difficulty": "低至中等",
+      "processing": "通常约3工作日，建议预留1—2周。",
+      "validity": "批签日期内最长90天。",
+      "stay": "批准期限内，最长90天。",
+      "fee": "25 USD。",
+      "feeNotes": "单次25，多次50；不含代办费。",
+      "timing": "日期基本确定再申。",
+      "materials": "护照资料页扫描、证件照、入境及出境日期、指定口岸、住宿地址、支付方式。",
+      "conditions": "电子签获批并核对护照信息后再出发；普通中国护照不属于普遍免签。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "vn 官方信息",
+          "url": "https://evisa.gov.vn/"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "sri-lanka",
+      "name": "斯里兰卡",
+      "method": "免费ETA/旅游许可",
+      "difficulty": "低",
+      "processing": "通常较快；建议预留3—7天，不保证即时。",
+      "validity": "按ETA批准的入境窗口。",
+      "stay": "30天，期内可二次入境（按条件）。",
+      "fee": "0 —。",
+      "feeNotes": "2026-05-25起中国列入免费30天旅游ETA名单；延期收费另计。",
+      "timing": "临近行程申请，不用囤。",
+      "materials": "护照、离境机票、住宿、资金、在线申请信息；建议提前通过官方ETA申请并确认批准。",
+      "conditions": "免费签证不等于不用办手续；政策及现场办理安排以移民局实时公告为准。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "lk 官方信息",
+          "url": "https://www.immigration.gov.lk/pages_t.php?id=60"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "tanzania",
+      "name": "坦桑尼亚",
+      "method": "落地签/电子签",
+      "difficulty": "低至中等",
+      "processing": "落地现场；电子签官方建议预留至少10天。",
+      "validity": "普通单次签最长90天，按签发。",
+      "stay": "通常最多90天，以入境许可为准。",
+      "fee": "50 USD。",
+      "feeNotes": "普通旅游签50；桑给巴尔强制入境保险等另计。",
+      "timing": "明确行程再申；赴桑给巴尔另核保险。",
+      "materials": "护照、照片、返程机票、酒店行程、在线/落地申请、费用；如适用黄热病证明。",
+      "conditions": "中国公民可选电子签或合格口岸落地签；签证、入境许可和保险分别核对。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "tz 官方信息",
+          "url": "https://visa.immigration.go.tz/guidelines"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "kenya",
+      "name": "肯尼亚",
+      "method": "电子旅行授权eTA",
+      "difficulty": "低至中等",
+      "processing": "官方通常3工作日/72小时，可更久。",
+      "validity": "按获批eTA所列期限与入境次数。",
+      "stay": "由入境许可决定；2—4周旅游按批准安排。",
+      "fee": "30 USD。",
+      "feeNotes": "普通处理30美元起；处理/支付及加急可能另计。",
+      "timing": "至少提前1周，获批后再登机。",
+      "materials": "余期6个月护照且有空白页、自拍/照片、联系方式、机票行程、住宿、支付卡。",
+      "conditions": "不是落地签。必须出发前eTA获批；符合特殊豁免者另论。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "ke 官方信息",
+          "url": "https://etakenya.go.ke/faqs"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "egypt",
+      "name": "埃及",
+      "method": "落地签（需满足条件）",
+      "difficulty": "中等",
+      "processing": "合格口岸现场；开罗数字落地签需按最新程序预办。",
+      "validity": "落地签按本次旅行。",
+      "stay": "通常30天。",
+      "fee": "25 USD。",
+      "feeNotes": "领事服务页列旅游落地签25；数字流程及当前收费再核。",
+      "timing": "至少提前1—2周核验口岸要求。",
+      "materials": "护照、往返机票、酒店订单、2000美元现金；按使馆要求准备四/五星酒店凭证，办理数字手续。",
+      "conditions": "2026年8月起开罗机场试行数字落地签。不要只带护照和25美元；新流程及旧材料要求需向使馆/航司确认。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "eg 官方信息",
+          "url": "https://cs.mfa.gov.cn/zggmcg/ljmdd/fz_648564/aj_648628/"
+        },
+        {
+          "title": "egnew 官方信息",
+          "url": "https://eg.china-embassy.gov.cn/lsfw/202608/t20260812_12002404.htm"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    },
+    {
+      "id": "nepal",
+      "name": "尼泊尔",
+      "method": "免费落地签/提前签",
+      "difficulty": "低",
+      "processing": "落地现场；可提前在线填表。",
+      "validity": "提前签入境窗口按批签；落地签按本次入境。",
+      "stay": "可选15/30/90天，依所办类别。",
+      "fee": "0 —。",
+      "feeNotes": "尼驻华使馆确认中国公民旅游签免官费；其他许可如徒步另计。",
+      "timing": "临近出发准备即可。",
+      "materials": "余期6个月以上护照、在线表、35×45mm照片、往返机票与酒店、身份资料。",
+      "conditions": "免费落地签仍是签证手续，不等于直接免签入境。徒步保护区/线路许可另外办理。",
+      "verifiedAt": "2026-10-15",
+      "sources": [
+        {
+          "title": "np 官方信息",
+          "url": "https://cn.nepalembassy.gov.np/pages/visa/"
+        }
+      ],
+      "liveCheck": "not-rechecked",
+      "liveCheckNote": "继承用户底稿2026-10-15核验快照，本次未重新核验官方正文。"
+    }
+  ],
+  "countryMap": {
+    "美国": "usa",
+    "新西兰": "new-zealand",
+    "法国（申根）": "schengen",
+    "法国": "schengen",
+    "德国（申根）": "schengen",
+    "德国": "schengen",
+    "意大利（申根）": "schengen",
+    "意大利": "schengen",
+    "西班牙（申根）": "schengen",
+    "西班牙": "schengen",
+    "葡萄牙（申根）": "schengen",
+    "葡萄牙": "schengen",
+    "荷兰（申根）": "schengen",
+    "荷兰": "schengen",
+    "比利时（申根）": "schengen",
+    "比利时": "schengen",
+    "卢森堡（申根）": "schengen",
+    "卢森堡": "schengen",
+    "奥地利（申根）": "schengen",
+    "奥地利": "schengen",
+    "希腊（申根）": "schengen",
+    "希腊": "schengen",
+    "瑞士（申根）": "schengen",
+    "瑞士": "schengen",
+    "挪威（申根）": "schengen",
+    "挪威": "schengen",
+    "冰岛（申根）": "schengen",
+    "冰岛": "schengen",
+    "丹麦（申根）": "schengen",
+    "丹麦": "schengen",
+    "瑞典（申根）": "schengen",
+    "瑞典": "schengen",
+    "芬兰（申根）": "schengen",
+    "芬兰": "schengen",
+    "捷克（申根）": "schengen",
+    "捷克": "schengen",
+    "匈牙利（申根）": "schengen",
+    "匈牙利": "schengen",
+    "波兰（申根）": "schengen",
+    "波兰": "schengen",
+    "斯洛伐克（申根）": "schengen",
+    "斯洛伐克": "schengen",
+    "斯洛文尼亚（申根）": "schengen",
+    "斯洛文尼亚": "schengen",
+    "克罗地亚（申根）": "schengen",
+    "克罗地亚": "schengen",
+    "爱沙尼亚（申根）": "schengen",
+    "爱沙尼亚": "schengen",
+    "拉脱维亚（申根）": "schengen",
+    "拉脱维亚": "schengen",
+    "立陶宛（申根）": "schengen",
+    "立陶宛": "schengen",
+    "马耳他（申根）": "schengen",
+    "马耳他": "schengen",
+    "列支敦士登（申根）": "schengen",
+    "列支敦士登": "schengen",
+    "保加利亚（申根）": "schengen",
+    "保加利亚": "schengen",
+    "罗马尼亚（申根）": "schengen",
+    "罗马尼亚": "schengen",
+    "英国": "uk",
+    "加拿大": "canada",
+    "澳大利亚": "australia",
+    "日本": "japan",
+    "韩国": "south-korea",
+    "俄罗斯": "russia",
+    "摩洛哥": "morocco",
+    "土耳其": "turkey",
+    "泰国": "thailand",
+    "新加坡": "singapore",
+    "马来西亚": "malaysia",
+    "阿联酋": "uae",
+    "卡塔尔": "qatar",
+    "塞尔维亚": "serbia",
+    "阿尔巴尼亚": "albania",
+    "格鲁吉亚": "georgia",
+    "哈萨克斯坦": "kazakhstan",
+    "乌兹别克斯坦": "uzbekistan",
+    "毛里求斯": "mauritius",
+    "塞舌尔": "seychelles",
+    "马尔代夫": "maldives",
+    "巴西": "brazil",
+    "墨西哥": "mexico",
+    "阿根廷": "argentina",
+    "印度尼西亚（含巴厘岛）": "indonesia",
+    "老挝": "laos",
+    "柬埔寨": "cambodia",
+    "越南": "vietnam",
+    "斯里兰卡": "sri-lanka",
+    "坦桑尼亚": "tanzania",
+    "肯尼亚": "kenya",
+    "埃及": "egypt",
+    "尼泊尔": "nepal",
+    "印度尼西亚": "indonesia",
+    "印尼": "indonesia",
+    "巴厘岛": "indonesia",
+    "申根": "schengen",
+    "申根区": "schengen"
+  },
+  "notCovered": [
+    {
+      "country": "智利",
+      "status": "not-covered",
+      "note": "用户底稿未覆盖智利，本次未补写签证政策。若行程涉及智利，需另查官方要求。"
+    }
+  ],
+  "dateBoundaries": [
+    {
+      "groupId": "russia",
+      "policyUntil": "2027-12-31",
+      "note": "原稿为个人免签延长至2027年底；超期行程重新核验。"
+    },
+    {
+      "groupId": "brazil",
+      "policyFrom": "2026-05-11",
+      "policyUntil": "2026-12-31",
+      "note": "临时政策，本轮累计最多30天，不可当作每次入境重新30天或永久免签；本次未复核。"
+    },
+    {
+      "groupId": "cambodia",
+      "policyFrom": "2026-06-15",
+      "policyUntil": "2026-10-15",
+      "note": "原稿14日免签试点至2026-10-15。本次未核实续期，未来行程按需签证准备，不能继续显示无条件免签。"
+    },
+    {
+      "groupId": "argentina",
+      "requires": "有效美国官方列明签证类别或美国绿卡",
+      "note": "有条件免签；日本/韩国有效签证本身不满足本条美国签证或绿卡条件。"
+    }
+  ],
+  "displayNotes": [
+    "难度是原稿对手续及不确定性的实用判断，不是官方评级或个人获签概率。",
+    "审理时间、规划预留与预约等待应分开；不能承诺按期出签。",
+    "有效期与可停留时间分开显示；最长签证年限不代表保证获批。",
+    "保留当地币种；零签证费不代表零入境成本，不做未经核验汇率换算。",
+    "有条件免签需先核对已有签证或居留类别及有效性；目的地免签不代表转机免签。",
+    "购买不可退机票前和出发前，沿官方来源重新确认。"
+  ]
+}

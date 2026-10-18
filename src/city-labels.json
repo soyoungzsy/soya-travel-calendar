@@ -1,0 +1,314 @@
+[
+  {
+    "id": "hangzhou",
+    "nameZh": "杭州",
+    "nameEn": "Hangzhou",
+    "coord": [
+      120.1551,
+      30.2741
+    ],
+    "countryCode": "CN",
+    "priority": 100,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "beijing",
+    "nameZh": "北京",
+    "nameEn": "Beijing",
+    "coord": [
+      116.4074,
+      39.9042
+    ],
+    "countryCode": "CN",
+    "priority": 96,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "shanghai",
+    "nameZh": "上海",
+    "nameEn": "Shanghai",
+    "coord": [
+      121.4737,
+      31.2304
+    ],
+    "countryCode": "CN",
+    "priority": 94,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "hong-kong",
+    "nameZh": "香港（中国）",
+    "nameEn": "Hong Kong (China)",
+    "coord": [
+      114.1694,
+      22.3193
+    ],
+    "countryCode": "CN",
+    "priority": 82,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "macao",
+    "nameZh": "澳门（中国）",
+    "nameEn": "Macao (China)",
+    "coord": [
+      113.5439,
+      22.1987
+    ],
+    "countryCode": "CN",
+    "priority": 74,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "taipei",
+    "nameZh": "台北（中国）",
+    "nameEn": "Taipei (China)",
+    "coord": [
+      121.5654,
+      25.033
+    ],
+    "countryCode": "CN",
+    "priority": 82,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "tokyo",
+    "nameZh": "东京",
+    "nameEn": "Tokyo",
+    "coord": [
+      139.6917,
+      35.6895
+    ],
+    "countryCode": "JP",
+    "priority": 94,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "seoul",
+    "nameZh": "首尔",
+    "nameEn": "Seoul",
+    "coord": [
+      126.978,
+      37.5665
+    ],
+    "countryCode": "KR",
+    "priority": 88,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "singapore",
+    "nameZh": "新加坡",
+    "nameEn": "Singapore",
+    "coord": [
+      103.8198,
+      1.3521
+    ],
+    "countryCode": "SG",
+    "priority": 88,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "bangkok",
+    "nameZh": "曼谷",
+    "nameEn": "Bangkok",
+    "coord": [
+      100.5018,
+      13.7563
+    ],
+    "countryCode": "TH",
+    "priority": 86,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "london",
+    "nameZh": "伦敦",
+    "nameEn": "London",
+    "coord": [
+      -0.1276,
+      51.5072
+    ],
+    "countryCode": "GB",
+    "priority": 94,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "paris",
+    "nameZh": "巴黎",
+    "nameEn": "Paris",
+    "coord": [
+      2.3522,
+      48.8566
+    ],
+    "countryCode": "FR",
+    "priority": 94,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "rome",
+    "nameZh": "罗马",
+    "nameEn": "Rome",
+    "coord": [
+      12.4964,
+      41.9028
+    ],
+    "countryCode": "IT",
+    "priority": 88,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "istanbul",
+    "nameZh": "伊斯坦布尔",
+    "nameEn": "Istanbul",
+    "coord": [
+      28.9784,
+      41.0082
+    ],
+    "countryCode": "TR",
+    "priority": 87,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "dubai",
+    "nameZh": "迪拜",
+    "nameEn": "Dubai",
+    "coord": [
+      55.2708,
+      25.2048
+    ],
+    "countryCode": "AE",
+    "priority": 86,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "cairo",
+    "nameZh": "开罗",
+    "nameEn": "Cairo",
+    "coord": [
+      31.2357,
+      30.0444
+    ],
+    "countryCode": "EG",
+    "priority": 87,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "marrakesh",
+    "nameZh": "马拉喀什",
+    "nameEn": "Marrakesh",
+    "coord": [
+      -7.9811,
+      31.6295
+    ],
+    "countryCode": "MA",
+    "priority": 86,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "nairobi",
+    "nameZh": "内罗毕",
+    "nameEn": "Nairobi",
+    "coord": [
+      36.8219,
+      -1.2921
+    ],
+    "countryCode": "KE",
+    "priority": 80,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "cape-town",
+    "nameZh": "开普敦",
+    "nameEn": "Cape Town",
+    "coord": [
+      18.4241,
+      -33.9249
+    ],
+    "countryCode": "ZA",
+    "priority": 84,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "new-york",
+    "nameZh": "纽约",
+    "nameEn": "New York",
+    "coord": [
+      -74.006,
+      40.7128
+    ],
+    "countryCode": "US",
+    "priority": 94,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "rio-de-janeiro",
+    "nameZh": "里约热内卢",
+    "nameEn": "Rio de Janeiro",
+    "coord": [
+      -43.1729,
+      -22.9068
+    ],
+    "countryCode": "BR",
+    "priority": 87,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "buenos-aires",
+    "nameZh": "布宜诺斯艾利斯",
+    "nameEn": "Buenos Aires",
+    "coord": [
+      -58.3816,
+      -34.6037
+    ],
+    "countryCode": "AR",
+    "priority": 86,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "sydney",
+    "nameZh": "悉尼",
+    "nameEn": "Sydney",
+    "coord": [
+      151.2093,
+      -33.8688
+    ],
+    "countryCode": "AU",
+    "priority": 91,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  },
+  {
+    "id": "auckland",
+    "nameZh": "奥克兰",
+    "nameEn": "Auckland",
+    "coord": [
+      174.7633,
+      -36.8485
+    ],
+    "countryCode": "NZ",
+    "priority": 85,
+    "kind": "city",
+    "anchorMethod": "editorial_approximate_city_center"
+  }
+]

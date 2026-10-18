@@ -1,0 +1,72 @@
+[
+  {
+    "id": "asia",
+    "nameZh": "亚洲",
+    "nameEn": "Asia",
+    "coord": [
+      89,
+      43
+    ],
+    "priority": 100
+  },
+  {
+    "id": "europe",
+    "nameZh": "欧洲",
+    "nameEn": "Europe",
+    "coord": [
+      17,
+      54
+    ],
+    "priority": 100
+  },
+  {
+    "id": "africa",
+    "nameZh": "非洲",
+    "nameEn": "Africa",
+    "coord": [
+      20,
+      4
+    ],
+    "priority": 100
+  },
+  {
+    "id": "north-america",
+    "nameZh": "北美洲",
+    "nameEn": "North America",
+    "coord": [
+      -105,
+      47
+    ],
+    "priority": 100
+  },
+  {
+    "id": "south-america",
+    "nameZh": "南美洲",
+    "nameEn": "South America",
+    "coord": [
+      -61,
+      -19
+    ],
+    "priority": 100
+  },
+  {
+    "id": "oceania",
+    "nameZh": "大洋洲",
+    "nameEn": "Oceania",
+    "coord": [
+      140,
+      -24
+    ],
+    "priority": 100
+  },
+  {
+    "id": "antarctica",
+    "nameZh": "南极洲",
+    "nameEn": "Antarctica",
+    "coord": [
+      0,
+      -77
+    ],
+    "priority": 100
+  }
+]

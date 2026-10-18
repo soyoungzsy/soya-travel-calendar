@@ -1,0 +1,1884 @@
+{
+  "photos": {
+    "kyoto-spring": {
+      "place": "日本京都·法观寺八坂塔",
+      "author": "Nathalie Lays",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/pagoda-and-cherry-blossoms-in-kyoto-japan-2Lk1L4PftXM",
+      "notes": "京都东山法观寺八坂塔、垂樱与傍晚灯笼。",
+      "focalPointPercent": [
+        48,
+        50
+      ],
+      "src": "/photos/kyoto-spring.jpg",
+      "thumbnail": "/photos/thumb/kyoto-spring.webp",
+      "width": 1920
+    },
+    "marrakech": {
+      "place": "摩洛哥·马拉喀什·Ben Youssef 建筑庭院",
+      "author": "Kees Kortmulder",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/LzDtQIWBgoU",
+      "notes": "原作者风景摄影，按页面版式裁切；照片不代表所选日期的实时景象。",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "src": "/photos/marrakech.jpg",
+      "thumbnail": "/photos/thumb/marrakech.webp",
+      "width": 1920
+    },
+    "arrowtown-autumn": {
+      "place": "新西兰皇后镇—箭镇区域河谷（源页标注 Arrowtown）",
+      "author": "Peter Blair",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/top-view-of-river-in-middle-of-hills-with-trees-hHSOv3tJ27E",
+      "notes": "原作者风景摄影，按页面版式裁切；照片不代表所选日期的实时景象。",
+      "focalPointPercent": [
+        50,
+        55
+      ],
+      "src": "/photos/arrowtown-autumn.jpg",
+      "thumbnail": "/photos/thumb/arrowtown-autumn.webp",
+      "width": 1920
+    },
+    "nyingchi": {
+      "place": "中国西藏·林芝",
+      "author": "Han mo",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/star-trails-over-pink-blossoms-and-snow-capped-mountains-at-night-G31A_ZlsKlQ",
+      "notes": "林芝桃花、雪山与星轨；星轨属于长曝光摄影效果，不能理解为肉眼实时景象。",
+      "focalPointPercent": [
+        50,
+        60
+      ],
+      "src": "/photos/nyingchi.jpg",
+      "thumbnail": "/photos/thumb/nyingchi.webp",
+      "width": 1920
+    },
+    "iceland": {
+      "place": "冰岛·米湖 Myvatn",
+      "author": "Giles Laurent",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:039_Northern_lights_over_M%C3%BDvatn_(Iceland)_Photo_by_Giles_Laurent.jpg",
+      "notes": "米湖极光摄影。极光颜色和亮度随拍摄曝光、天气与太阳活动变化，不能保证本次旅行可见。",
+      "focalPointPercent": [
+        58,
+        45
+      ],
+      "attribution": "© Giles Laurent, gileslaurent.com, License CC BY-SA 4.0",
+      "src": "/photos/iceland.jpg",
+      "thumbnail": "/photos/thumb/iceland.webp",
+      "width": 1920
+    },
+    "harbin": {
+      "place": "中国·哈尔滨冬季冰灯节（源页未核验具体园区）",
+      "author": "Erica Li",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/white-castle-HsqB3X2tiOA",
+      "notes": "哈尔滨冬季冰灯摄影；景区开园与当季展陈需另外确认。",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "qualityCaveat": true,
+      "src": "/photos/harbin.jpg",
+      "thumbnail": "/photos/thumb/harbin.webp",
+      "width": 1920
+    },
+    "nalati": {
+      "place": "中国新疆·那拉提",
+      "author": "光曦 刘",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/green-grass-field-and-mountains-during-daytime-lSKL_W3HLHY",
+      "notes": "原作者风景摄影，按页面版式裁切；照片不代表所选日期的实时景象。",
+      "focalPointPercent": [
+        50,
+        60
+      ],
+      "src": "/photos/nalati.jpg",
+      "thumbnail": "/photos/thumb/nalati.webp",
+      "width": 1920
+    },
+    "kyoto-autumn": {
+      "place": "日本京都·清水寺",
+      "author": "lumoplank",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kiyomizu-dera_panorama.jpg",
+      "notes": "京都清水寺秋色摄影，按版式裁切。",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "src": "/photos/kyoto-autumn.jpg",
+      "thumbnail": "/photos/thumb/kyoto-autumn.webp",
+      "width": 1920
+    },
+    "edinburgh": {
+      "place": "英国苏格兰·爱丁堡卡尔顿山",
+      "author": "Asa Rodger",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/concrete-building-yyMxZ6akhqo",
+      "notes": "原作者风景摄影，按页面版式裁切；照片不代表所选日期的实时景象。",
+      "focalPointPercent": [
+        50,
+        53
+      ],
+      "src": "/photos/edinburgh.jpg",
+      "thumbnail": "/photos/thumb/edinburgh.webp",
+      "width": 1920
+    },
+    "antarctica": {
+      "place": "南极半岛西部海域",
+      "author": "Virtual-Pano",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:114_once_an_iceberg_now_a_Growler_and_a_scupture_V-P.jpg",
+      "notes": "原作者风景摄影，按页面版式裁切；照片不代表所选日期的实时景象。",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "src": "/photos/antarctica.jpg",
+      "thumbnail": "/photos/thumb/antarctica.webp",
+      "width": 1920
+    },
+    "patagonia": {
+      "place": "智利·百内国家公园",
+      "author": "Marek Piwnicki",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/a-view-of-a-mountain-with-snow-on-it-yJMYAa9f7VQ",
+      "notes": "原作者风景摄影，按页面版式裁切；照片不代表所选日期的实时景象。",
+      "focalPointPercent": [
+        50,
+        46
+      ],
+      "src": "/photos/patagonia.jpg",
+      "thumbnail": "/photos/thumb/patagonia.webp",
+      "width": 1920
+    },
+    "beijing-autumn": {
+      "place": "中国北京·故宫",
+      "author": "Maddy Meng",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/brown-wooden-roof-under-yellow-leaf-tree-during-daytime-_ZUNNQMw8CE",
+      "notes": "故宫秋色摄影，按版式裁切；拍摄时叶况不代表所选日期。",
+      "focalPointPercent": [
+        50,
+        70
+      ],
+      "src": "/photos/beijing-autumn.jpg",
+      "thumbnail": "/photos/thumb/beijing-autumn.webp",
+      "width": 1920
+    },
+    "st-petersburg": {
+      "place": "俄罗斯·圣彼得堡·涅瓦河",
+      "author": "Anastassia Anufrieva",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/a-red-and-white-boat-in-the-water-U2iiXRpYwHw",
+      "notes": "涅瓦河红帆节庆摄影；仅用于展示当地风貌，具体节庆日期与活动安排另行核对。",
+      "focalPointPercent": [
+        42,
+        50
+      ],
+      "src": "/photos/st-petersburg.jpg",
+      "thumbnail": "/photos/thumb/st-petersburg.webp",
+      "width": 1920
+    },
+    "tokyo-spring": {
+      "place": "日本东京·东京塔与春樱",
+      "author": "Tsuyoshi Kozu",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/cherry-blossoms-bloom-near-the-tokyo-tower-11rby5st4hc",
+      "notes": "东京塔附近的樱花与城市夜色；照片非当年花况，发布日期不是拍摄日期。",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "src": "/photos/tokyo-spring.jpg",
+      "thumbnail": "/photos/thumb/tokyo-spring.webp",
+      "width": 1920
+    },
+    "paris-art-walks": {
+      "place": "法国巴黎·埃菲尔铁塔",
+      "author": "Chris Karidis",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/eiffel-tower-paris-france-nnzkZNYWHaU",
+      "notes": "巴黎埃菲尔铁塔实景，源页明确地点；非实时人流或天气。",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "src": "/photos/paris-art-walks.jpg",
+      "thumbnail": "/photos/thumb/paris-art-walks.webp",
+      "width": 1920
+    },
+    "rome-ancient-city": {
+      "place": "意大利罗马·斗兽场",
+      "author": "Melanie van Leeuwen",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/the-colosseum-rome-upGZ5p92SHU",
+      "notes": "罗马斗兽场实景，源页明确 Colosseum, Roma, Italy。",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "src": "/photos/rome-ancient-city.jpg",
+      "thumbnail": "/photos/thumb/rome-ancient-city.webp",
+      "width": 1920
+    },
+    "lauterbrunnen-valley": {
+      "place": "瑞士·劳特布龙嫩山谷村庄",
+      "author": "Georgi Kalaydzhiev",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/scenic-village-with-a-waterfall-mountains-and-vibrant-flowers-wPfeq6CjzHs",
+      "notes": "劳特布龙嫩村庄、瀑布、山峰与花卉；源页明确 Lauterbrunnen, Switzerland。",
+      "focalPointPercent": [
+        50,
+        55
+      ],
+      "src": "/photos/lauterbrunnen-valley.jpg",
+      "thumbnail": "/photos/thumb/lauterbrunnen-valley.webp",
+      "width": 1920
+    },
+    "zhangjiajie-pillars": {
+      "place": "中国湖南·张家界国家森林公园",
+      "author": "Aurel Serban",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/zhangjiajie-mountains-china-B4e_AneEntQ",
+      "notes": "张家界砂岩峰林，源页定位 Hallelujah Mountain, Zhangjiajie National Forest Park。",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "src": "/photos/zhangjiajie-pillars.jpg",
+      "thumbnail": "/photos/thumb/zhangjiajie-pillars.webp",
+      "width": 1600
+    },
+    "jiuzhaigou-lakes": {
+      "place": "中国四川·九寨沟",
+      "author": "Zhiyuan Sun",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/golden-trees-and-a-calm-blue-river-moixNMJcVk8",
+      "notes": "九寨沟金色秋林与蓝色水体；实际拍摄月份未核验，不标具体海子名称。",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "src": "/photos/jiuzhaigou-lakes.jpg",
+      "thumbnail": "/photos/thumb/jiuzhaigou-lakes.webp",
+      "width": 1920
+    },
+    "guilin-li-river": {
+      "place": "中国广西·桂林阳朔漓江",
+      "author": "Sergio Li",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/a-boat-on-the-water-with-mountains-in-the-background-with-li-river-in-the-background-aQlWS8hsyPI",
+      "notes": "阳朔漓江、船与喀斯特山峰，源页明确 Yangshuo, Guilin, Guangxi, China。",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "src": "/photos/guilin-li-river.jpg",
+      "thumbnail": "/photos/thumb/guilin-li-river.webp",
+      "width": 1920
+    },
+    "dunhuang-silk-road": {
+      "place": "中国甘肃·敦煌沙丘",
+      "author": "Austin Li",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/the-sun-shines-on-the-sand-dunes-in-the-desert-ZdwKPlgT5B4",
+      "notes": "敦煌沙丘实景；源页地点为 Dunhuang，不把画面标为莫高窟或月牙泉。",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "src": "/photos/dunhuang-silk-road.jpg",
+      "thumbnail": "/photos/thumb/dunhuang-silk-road.webp",
+      "width": 1920
+    },
+    "suzhou-gardens": {
+      "place": "中国江苏·苏州拙政园",
+      "author": "Emma Yang",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/traditional-chinese-garden-with-white-walls-and-tiled-roof-rhVkUFdBPrY",
+      "notes": "拙政园白墙黛瓦与园景，源页精确定位拙政园。",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "src": "/photos/suzhou-gardens.jpg",
+      "thumbnail": "/photos/thumb/suzhou-gardens.webp",
+      "width": 1920
+    },
+    "dali-lake-villages": {
+      "place": "中国云南·大理洱海",
+      "author": "Cuvii",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/a-lone-boat-travels-across-a-calm-vast-lake-VkcnZ_CJgZ4",
+      "notes": "洱海湖面与小舟，源页明确 Erhai Lake, Dali；不当作具体村落照片。",
+      "focalPointPercent": [
+        50,
+        65
+      ],
+      "src": "/photos/dali-lake-villages.jpg",
+      "thumbnail": "/photos/thumb/dali-lake-villages.webp",
+      "width": 1920
+    },
+    "huangshan-clouds": {
+      "place": "中国安徽·黄山",
+      "author": "Eric xu",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/jagged-granite-peaks-above-forested-valley-x4v2kafSde0",
+      "notes": "黄山花岗岩峰与山谷，照片未必呈现云海；实际所见以图片为准。",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "src": "/photos/huangshan-clouds.jpg",
+      "thumbnail": "/photos/thumb/huangshan-clouds.webp",
+      "width": 1920
+    },
+    "hangzhou-west-lake": {
+      "place": "中国浙江·杭州西湖",
+      "author": "Vida Huang",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/boats-peacefully-glide-on-a-calm-lake-3UGQVaKtoYU",
+      "notes": "杭州西湖游船与湖面，源页明确 West Lake, Hangzhou, China。",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "src": "/photos/hangzhou-west-lake.jpg",
+      "thumbnail": "/photos/thumb/hangzhou-west-lake.webp",
+      "width": 1920
+    },
+    "furano-flower-fields": {
+      "place": "日本北海道·富良野花田",
+      "author": "Cindy Bissig",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/2-person-walking-on-purple-flower-field-during-daytime-KzAiQAFcfIc",
+      "notes": "源页描述富良野彩色花田与薰衣草；不指定未经证实的农场名，不声称当年花况。",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "src": "/photos/furano-flower-fields.jpg",
+      "thumbnail": "/photos/thumb/furano-flower-fields.webp",
+      "width": 1920
+    },
+    "seoul-autumn": {
+      "place": "韩国首尔·景福宫",
+      "author": "Huy Q. Tran",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/autumn-leaves-frame-a-stone-wall-and-traditional-gate-5IwnXs5Pjnk",
+      "notes": "景福宫传统门墙与秋叶，源页精确定位景福宫。",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "src": "/photos/seoul-autumn.jpg",
+      "thumbnail": "/photos/thumb/seoul-autumn.webp",
+      "width": 1920
+    },
+    "bali-volcano-culture": {
+      "place": "印度尼西亚巴厘岛·德格拉朗梯田",
+      "author": "Laura Cros",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/green-coconut-tree-and-mountain-KBT0Ry8Wqe0",
+      "notes": "德格拉朗梯田与椰林；源页明确 Tegalalang rice terraces in Bali。",
+      "focalPointPercent": [
+        50,
+        55
+      ],
+      "src": "/photos/bali-volcano-culture.jpg",
+      "thumbnail": "/photos/thumb/bali-volcano-culture.webp",
+      "width": 1920
+    },
+    "venice-lagoon": {
+      "place": "意大利威尼斯·大运河",
+      "author": "Luca Bravo",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/grand-canal-venice-Wt2ZI8FDPyI",
+      "notes": "源页定位 Fontego dei Tedeschi, Venezia；大运河日落，非圣马可广场特写。",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "src": "/photos/venice-lagoon.jpg",
+      "thumbnail": "/photos/thumb/venice-lagoon.webp",
+      "width": 1600
+    },
+    "istanbul-bosphorus": {
+      "place": "土耳其伊斯坦布尔·加拉塔塔与海峡城市天际线",
+      "author": "Mahmut Yıldız",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/istanbul-city-skyline-with-galata-tower-and-the-bosphorus-blVUWwIUfUc",
+      "notes": "源页标题明确 Istanbul, Galata Tower and Bosphorus；不标具体清真寺名。",
+      "focalPointPercent": [
+        50,
+        78
+      ],
+      "src": "/photos/istanbul-bosphorus.jpg",
+      "thumbnail": "/photos/thumb/istanbul-bosphorus.webp",
+      "width": 1600
+    },
+    "amsterdam-spring": {
+      "place": "荷兰阿姆斯特丹·运河屋与春花",
+      "author": "Graddes",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/a-tall-building-with-lots-of-windows-next-to-trees-_aO4e7QMY6U",
+      "notes": "阿姆斯特丹 Prinsengracht 运河屋与虚焦春花，源页明确 Amsterdam；现场画面不显示大片花田，不标库肯霍夫。",
+      "focalPointPercent": [
+        50,
+        72
+      ],
+      "src": "/photos/amsterdam-spring.jpg",
+      "thumbnail": "/photos/thumb/amsterdam-spring.webp",
+      "width": 1600
+    },
+    "banff-lake-louise": {
+      "place": "加拿大艾伯塔·班夫国家公园·路易斯湖",
+      "author": "Colin Hobson",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "sourcePage": "https://unsplash.com/photos/lake-louise-surrounded-by-mountains-6BK_w8DNErI",
+      "notes": "源页精确地点 Lake Louise, AB, Canada；清晨湖与山，不声称实时冰况。",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "src": "/photos/banff-lake-louise.jpg",
+      "thumbnail": "/photos/thumb/banff-lake-louise.webp",
+      "width": 1600
+    },
+    "atacama-desert": {
+      "place": "智利圣佩德罗阿塔卡马·彩虹谷",
+      "photoSubject": "智利圣佩德罗阿塔卡马·彩虹谷",
+      "author": "Florian Delée",
+      "sourcePage": "https://unsplash.com/photos/a-rocky-and-barren-landscape-dG3cUur7sOE",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 1200,
+      "sha256": "7e1f0320e9fc27ce705d5662ac51a584dbbbdf20fac361ff5744b5c17eebcefc",
+      "src": "/photos/atacama-desert.jpg",
+      "thumbnail": "/photos/thumb/atacama-desert.webp"
+    },
+    "barcelona-modernism": {
+      "place": "西班牙巴塞罗那·圣家堂与城市全景",
+      "photoSubject": "西班牙巴塞罗那·圣家堂与城市全景",
+      "author": "Carlos Ibáñez",
+      "sourcePage": "https://unsplash.com/photos/panoramic-view-of-barcelona-cityscape-with-sagrada-familia-PAKlGZNVUQM",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        60
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 2133,
+      "sha256": "252cfb9075d66ea0df05b687afdc876edb4207a9387e15356e08b68b7f3b8c28",
+      "src": "/photos/barcelona-modernism.jpg",
+      "thumbnail": "/photos/thumb/barcelona-modernism.webp"
+    },
+    "cape-town-summer": {
+      "place": "南非开普敦·桌山与城市",
+      "photoSubject": "南非开普敦·桌山与城市",
+      "author": "Jörg Hamel",
+      "sourcePage": "https://unsplash.com/photos/table-mountain-overlooking-cape-town-under-a-cloudy-sky-Muu7sFmLfaY",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 1067,
+      "sha256": "e3e059f381c23b7742e509c73fc8268a9cf8a3f9e60abb98e814ee7d46570922",
+      "src": "/photos/cape-town-summer.jpg",
+      "thumbnail": "/photos/thumb/cape-town-summer.webp"
+    },
+    "chengdu-teahouses": {
+      "place": "中国四川成都·传统茶馆外观",
+      "photoSubject": "中国四川成都·传统茶馆外观",
+      "author": "Andrea Sun",
+      "sourcePage": "https://unsplash.com/photos/a-building-with-a-lot-of-signs-on-the-side-of-it-qt3IKanoH50",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        42
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；非所选日期实时景象。",
+      "width": 1600,
+      "height": 2400,
+      "sha256": "3fa324e2e3962cb0ee95fcec1c3d79f18327208ce96ba05fb626b1799e656f82",
+      "src": "/photos/chengdu-teahouses.jpg",
+      "thumbnail": "/photos/thumb/chengdu-teahouses.webp"
+    },
+    "chiang-mai-cool-season": {
+      "place": "泰国清迈·素贴山双龙寺拱门",
+      "photoSubject": "泰国清迈·素贴山双龙寺拱门",
+      "author": "Nat Weerawong",
+      "sourcePage": "https://unsplash.com/photos/an-arch-leading-into-a-temple-with-a-sky-in-the-background-ZmvuHreuHdo",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；非所选日期的实时景象。",
+      "width": 1920,
+      "height": 1280,
+      "sha256": "66f52be5a9354c1667f7e28a4831b4ed33909ffa076df1446050f783724f4edb",
+      "src": "/photos/chiang-mai-cool-season.jpg",
+      "thumbnail": "/photos/thumb/chiang-mai-cool-season.webp"
+    },
+    "chongqing-mountain-city": {
+      "place": "重庆·都市天际线落日",
+      "photoSubject": "重庆·都市天际线落日",
+      "author": "Andy Arbeit",
+      "sourcePage": "https://unsplash.com/photos/city-skyline-with-hazy-mountains-at-sunset-IRlkigQzOmQ",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        65
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；非所选日期的实时景象。",
+      "width": 1920,
+      "height": 1440,
+      "sha256": "2788fe900cce4e88a491098533c08dadd51b3a5b0ba701f0debbe8a2771ed8d2",
+      "src": "/photos/chongqing-mountain-city.jpg",
+      "thumbnail": "/photos/thumb/chongqing-mountain-city.webp"
+    },
+    "cusco-sacred-valley": {
+      "place": "秘鲁圣谷·莫雷圆形梯田",
+      "photoSubject": "秘鲁圣谷·莫雷圆形梯田",
+      "author": "A. L. Brown",
+      "sourcePage": "https://unsplash.com/photos/agricultural-terraces-carved-into-a-hillside-a2_5h9JP_Fc",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        55
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 2133,
+      "sha256": "d2f1110ceff3f36a8a608de3459eae20d2c20b4cafc774e0fdccceb903f98935",
+      "src": "/photos/cusco-sacred-valley.jpg",
+      "thumbnail": "/photos/thumb/cusco-sacred-valley.webp"
+    },
+    "datong-grottoes": {
+      "place": "中国山西大同·云冈石窟",
+      "photoSubject": "云冈石窟佛像与石刻",
+      "author": "Zhang Meng",
+      "sourcePage": "https://unsplash.com/photos/a-close-up-of-a-statue-of-buddhas-in-a-cave-Mhsg5quVj1g",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "已核对摄影地点与普通免费Unsplash License；历史实拍，缩小与版式裁切。",
+      "width": 1600,
+      "height": 1067,
+      "sha256": "785f476f77374d24f0221bf459601cddfc11ccfa7040c3df8a63ddd538207315",
+      "src": "/photos/datong-grottoes.jpg",
+      "thumbnail": "/photos/thumb/datong-grottoes.webp"
+    },
+    "florence-renaissance": {
+      "place": "意大利佛罗伦萨·阿尔诺河与城市全景",
+      "photoSubject": "意大利佛罗伦萨·阿尔诺河与城市全景",
+      "author": "Casey Lovegrove",
+      "sourcePage": "https://unsplash.com/photos/panoramic-view-of-florence-cityscape-with-arno-river-OgREzZm_2DE",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 1200,
+      "sha256": "a484e28bff7d86720d963e7cc18672a4c32c3bf5554893f6deb5300a1eac4bbf",
+      "src": "/photos/florence-renaissance.jpg",
+      "thumbnail": "/photos/thumb/florence-renaissance.webp"
+    },
+    "gyeongju-heritage": {
+      "place": "韩国庆州·传统寺院建筑",
+      "photoSubject": "韩国庆州·传统寺院建筑",
+      "author": "Laszlo Oveges",
+      "sourcePage": "https://unsplash.com/photos/traditional-korean-temple-architecture-with-ornate-details-D389D597UKE",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        45,
+        50
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 1067,
+      "sha256": "a5a808961daa648ecf403e92dc5cef7324c75d319ebef7dad11f446d2ba21992",
+      "src": "/photos/gyeongju-heritage.jpg",
+      "thumbnail": "/photos/thumb/gyeongju-heritage.webp"
+    },
+    "hakone-autumn-onsen": {
+      "place": "日本箱根·芦之湖和平鸟居",
+      "photoSubject": "日本箱根·芦之湖和平鸟居",
+      "author": "Tianshu Liu",
+      "sourcePage": "https://unsplash.com/photos/red-torii-gate-in-hakone-lake-SBK40fdKbAg",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        45
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 1233,
+      "sha256": "acc62f9a6691d8814cf53c0ac09c3069b13f4679a47a2a7b86ab133ac768bc51",
+      "src": "/photos/hakone-autumn-onsen.jpg",
+      "thumbnail": "/photos/thumb/hakone-autumn-onsen.webp"
+    },
+    "jingdezhen-ceramics": {
+      "place": "中国江西景德镇·陶瓷展陈",
+      "photoSubject": "景德镇陶瓷展陈与砖砌拱廊",
+      "author": "Zhaoli JIN",
+      "sourcePage": "https://unsplash.com/photos/a-long-table-with-a-vase-on-top-of-it-OMCAOiHvml8",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        63
+      ],
+      "notes": "替换官方Commons媒体域无法连接的原候选；实际为此目的地照片，来源署名及许可证已核验。非实时照片。",
+      "width": 1600,
+      "height": 2400,
+      "sha256": "b90b7912909d48c23869af1ecb4620548c449d64a7824dd0b9f4aaba2aeba4fc",
+      "src": "/photos/jingdezhen-ceramics.jpg",
+      "thumbnail": "/photos/thumb/jingdezhen-ceramics.webp"
+    },
+    "kashgar-old-town": {
+      "place": "中国新疆喀什·古城民族风格建筑",
+      "photoSubject": "中国新疆喀什·古城民族风格建筑",
+      "author": "Amo Journey",
+      "sourcePage": "https://unsplash.com/photos/a-group-of-buildings-with-a-tower-crZj5SPiuhA",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        45
+      ],
+      "notes": "替换官方Commons媒体域无法连接的原候选；实际为此目的地照片，来源署名及许可证已核验。非实时照片。",
+      "width": 1600,
+      "height": 2400,
+      "sha256": "c6c6d6092b03a8fd175d9b5d0a8066f39fd6b593c736fd3c66d89d663ef90e0e",
+      "src": "/photos/kashgar-old-town.jpg",
+      "thumbnail": "/photos/thumb/kashgar-old-town.webp"
+    },
+    "koyasan-autumn": {
+      "place": "日本高野山·根本大塔",
+      "photoSubject": "日本高野山·根本大塔",
+      "author": "Benoît Deschasaux",
+      "sourcePage": "https://unsplash.com/photos/a-tall-red-building-sitting-next-to-a-forest-qvwnt0PlMCY",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        45
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。 图中为根本大塔与绿叶，并非红叶实况。",
+      "width": 1600,
+      "height": 1067,
+      "sha256": "fb84d77fcb4c4e60d01dd9e6c3fcd6e2349ff4c582e92790ffd37cd48b3271c5",
+      "src": "/photos/koyasan-autumn.jpg",
+      "thumbnail": "/photos/thumb/koyasan-autumn.webp"
+    },
+    "lisbon-sintra": {
+      "place": "葡萄牙里斯本·老城区全景",
+      "photoSubject": "葡萄牙里斯本·老城区全景",
+      "author": "Michael Kora",
+      "sourcePage": "https://unsplash.com/photos/panoramic-view-of-lisbon-cityscape-with-historic-buildings-8PURC3yemzg",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；非所选日期的实时景象。",
+      "width": 1920,
+      "height": 1280,
+      "sha256": "c2a69cea6086e9d2bd7bbe5fc7b208481b2a8053dcaf72ec4a9c70b6a982986e",
+      "src": "/photos/lisbon-sintra.jpg",
+      "thumbnail": "/photos/thumb/lisbon-sintra.webp"
+    },
+    "lofoten-light": {
+      "place": "挪威罗弗敦·雷讷渔村与山海",
+      "photoSubject": "挪威罗弗敦·雷讷渔村与山海",
+      "author": "Vidar Nordli-Mathisen",
+      "sourcePage": "https://unsplash.com/photos/body-of-water-near-rock-mountain-under-cloudy-skies-641pLhGEEyg",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 996,
+      "sha256": "783a40c9259bb4cea784048a93740b99eab13cb180bf3ce0b9c832129b85fad8",
+      "src": "/photos/lofoten-light.jpg",
+      "thumbnail": "/photos/thumb/lofoten-light.webp"
+    },
+    "longji-rice-terraces": {
+      "place": "中国广西桂林龙胜·龙脊梯田",
+      "photoSubject": "中国广西桂林龙胜·龙脊梯田",
+      "author": "Jack Brind",
+      "sourcePage": "https://unsplash.com/photos/green-terraces-cascade-down-mountainsides-Sc8dX8rSIPE",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        65
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 2400,
+      "sha256": "1c2bc715eb07e96c15d2d5761d4231e0495c503687781db064dfbe2aa6da85c6",
+      "src": "/photos/longji-rice-terraces.jpg",
+      "thumbnail": "/photos/thumb/longji-rice-terraces.webp"
+    },
+    "luang-prabang-river": {
+      "place": "老挝琅勃拉邦·金色寺院建筑",
+      "photoSubject": "老挝琅勃拉邦·金色寺院建筑",
+      "author": "Kevin Charit",
+      "sourcePage": "https://unsplash.com/photos/ornate-temple-with-golden-accents-and-tiered-roofs-3fdXHaPPgQY",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        40
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；非所选日期的实时景象。",
+      "width": 1920,
+      "height": 2880,
+      "sha256": "3f1e21b8c670347515c0ba17d2a7b27447c81d076509c0b997df73a94f354ddd",
+      "src": "/photos/luang-prabang-river.jpg",
+      "thumbnail": "/photos/thumb/luang-prabang-river.webp"
+    },
+    "luxor-nile-history": {
+      "place": "埃及卢克索·卢克索神庙",
+      "photoSubject": "埃及卢克索·卢克索神庙",
+      "author": "Fatih Beki",
+      "sourcePage": "https://unsplash.com/photos/ancient-egyptian-temple-complex-with-statues-and-tourists-ycZRsz3aNyE",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；非所选日期的实时景象。",
+      "width": 1920,
+      "height": 1280,
+      "sha256": "2f2ac044f3995553af9a81bb7da2d4ea74bb0c72da69352accbc73456296af32",
+      "src": "/photos/luxor-nile-history.jpg",
+      "thumbnail": "/photos/thumb/luxor-nile-history.webp"
+    },
+    "mexico-city-culture": {
+      "place": "墨西哥城·大都会主教座堂",
+      "photoSubject": "墨西哥城·大都会主教座堂",
+      "author": "Hangyu Tu",
+      "sourcePage": "https://unsplash.com/photos/metropolitan-cathedral-of-mexico-city-on-a-clear-day-86XqzOa300o",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 1067,
+      "sha256": "e983378a39be7e3d66e0cd382dd19f04191d9e626c0d2d76304c4126398b3814",
+      "src": "/photos/mexico-city-culture.jpg",
+      "thumbnail": "/photos/thumb/mexico-city-culture.webp"
+    },
+    "new-york-autumn": {
+      "place": "美国纽约·中央公园秋景",
+      "photoSubject": "美国纽约·中央公园秋景",
+      "author": "Zooey Li",
+      "sourcePage": "https://unsplash.com/photos/central-parks-skyline-view-on-a-cloudy-day-igsSJ3-2oG8",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 1067,
+      "sha256": "be0c0cefc710a2990194ec53d76f95e1d043dddd38369fc7b07c5cb600c927e7",
+      "src": "/photos/new-york-autumn.jpg",
+      "thumbnail": "/photos/thumb/new-york-autumn.webp"
+    },
+    "oaxaca-living-culture": {
+      "place": "墨西哥瓦哈卡·圣多明各教堂",
+      "photoSubject": "墨西哥瓦哈卡·圣多明各教堂",
+      "author": "Edgar Anguiano",
+      "sourcePage": "https://unsplash.com/photos/a-large-stone-building-with-a-flag-on-top-VWVF1wlrOPU",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        42
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 2133,
+      "sha256": "efdab7b228f98ba306f49930684a1e37871cfcf9c5f08be071beaeaf4fc8c066",
+      "src": "/photos/oaxaca-living-culture.jpg",
+      "thumbnail": "/photos/thumb/oaxaca-living-culture.webp"
+    },
+    "okavango-delta": {
+      "place": "博茨瓦纳奥卡万戈·水道与湿地航拍",
+      "photoSubject": "博茨瓦纳奥卡万戈·水道与湿地航拍",
+      "author": "Sheila C",
+      "sourcePage": "https://unsplash.com/photos/an-aerial-view-of-a-river-running-through-a-lush-green-field-jk_2Ak2z3JY",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "已核对摄影地点与普通免费Unsplash License；历史实拍，缩小与版式裁切。",
+      "width": 1600,
+      "height": 1067,
+      "sha256": "e43c9af28a1157baf3232c325498dd86852abceaa4fbc62f9ff4a3b0439764c1",
+      "src": "/photos/okavango-delta.jpg",
+      "thumbnail": "/photos/thumb/okavango-delta.webp"
+    },
+    "qinghai-lake-summer": {
+      "place": "中国青海·青海湖与湖畔油菜花田",
+      "photoSubject": "中国青海·青海湖与湖畔油菜花田",
+      "author": "ran liwen",
+      "sourcePage": "https://unsplash.com/photos/a-large-body-of-water-sitting-next-to-a-field-of-yellow-flowers-Hc3LFyIo4C8",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        60
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；非所选日期实时景象。",
+      "width": 1439,
+      "height": 1920,
+      "sha256": "3e7ac03e02d47eea13496408cec6690e91d50ee74497bd119c6c3db3556a7a4a",
+      "src": "/photos/qinghai-lake-summer.jpg",
+      "thumbnail": "/photos/thumb/qinghai-lake-summer.webp"
+    },
+    "quanzhou-heritage": {
+      "place": "中国福建泉州·古塔建筑",
+      "photoSubject": "中国福建泉州·古塔建筑",
+      "author": "lastmayday",
+      "sourcePage": "https://unsplash.com/photos/ancient-octagonal-pagoda-against-a-clear-blue-sky-HAmyfT4YW6k",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        40
+      ],
+      "notes": "替换官方Commons媒体域无法连接的原候选；实际为此目的地照片，来源署名及许可证已核验。非实时照片。",
+      "width": 1600,
+      "height": 1200,
+      "sha256": "e44ee7d80abefd5759853bd3a01f62c6829da855ac00220622c678a65b2863b5",
+      "src": "/photos/quanzhou-heritage.jpg",
+      "thumbnail": "/photos/thumb/quanzhou-heritage.webp"
+    },
+    "samarkand-silk-road": {
+      "place": "乌兹别克斯坦撒马尔罕·雷吉斯坦广场夜景",
+      "photoSubject": "乌兹别克斯坦撒马尔罕·雷吉斯坦广场夜景",
+      "author": "Alessio Roversi",
+      "sourcePage": "https://unsplash.com/photos/a-large-building-lit-up-at-night-with-lights-IFlbZJgP2S8",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        60
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；非所选日期的实时景象。",
+      "width": 1920,
+      "height": 1079,
+      "sha256": "7e5856a7b50e820a922aaa9f4ff6302b21cbbaf1ff34b05ecaf198473cfb8e13",
+      "src": "/photos/samarkand-silk-road.jpg",
+      "thumbnail": "/photos/thumb/samarkand-silk-road.webp"
+    },
+    "sanya-winter-sea": {
+      "place": "中国三亚·海棠湾棕榈与海岸",
+      "photoSubject": "中国三亚·海棠湾棕榈与海岸",
+      "author": "Sasuke L",
+      "sourcePage": "https://unsplash.com/photos/a-grove-of-palm-trees-near-the-ocean-xRlTnlmUbbw",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 900,
+      "sha256": "5a01aefbe6296a9e953a7d21383ef7f4f770724a1bbdc73bfadc87f35606b3f9",
+      "src": "/photos/sanya-winter-sea.jpg",
+      "thumbnail": "/photos/thumb/sanya-winter-sea.webp"
+    },
+    "serengeti-safari": {
+      "place": "坦桑尼亚塞伦盖蒂·草原长颈鹿",
+      "photoSubject": "坦桑尼亚塞伦盖蒂·草原长颈鹿",
+      "author": "Shashank Maggirwar",
+      "sourcePage": "https://unsplash.com/photos/a-giraffe-standing-in-the-middle-of-a-field-2HJ0rGxG_4g",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 1200,
+      "sha256": "9b302239100d42232a6f7118423b613db5db77829c3717e00df6d9e193e1ee8d",
+      "src": "/photos/serengeti-safari.jpg",
+      "thumbnail": "/photos/thumb/serengeti-safari.webp"
+    },
+    "seville-andalusia": {
+      "place": "西班牙塞维利亚·西班牙广场",
+      "photoSubject": "塞维利亚西班牙广场建筑群",
+      "author": "Jose Manuel Esp",
+      "sourcePage": "https://unsplash.com/photos/plaza-de-espana-square-with-historic-buildings-and-sky-XIUe1ZwIsro",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        45
+      ],
+      "notes": "更开阔的广场构图。来源页面地点与许可证已核验。",
+      "width": 1600,
+      "height": 1067,
+      "sha256": "801adc203ba63a1d9115971dad60a6b9a3c39e79b80453fbc5a5fe3fff5d5186",
+      "src": "/photos/seville-andalusia.jpg",
+      "thumbnail": "/photos/thumb/seville-andalusia.webp"
+    },
+    "siem-reap-angkor": {
+      "place": "柬埔寨暹粒·吴哥窟日出倒影",
+      "photoSubject": "柬埔寨暹粒·吴哥窟日出倒影",
+      "author": "Niels Baars",
+      "sourcePage": "https://unsplash.com/photos/angkor-wat-temple-complex-at-sunrise-with-reflection-ridd77X1G6Y",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 1067,
+      "sha256": "7f567aae136d2c018e974417083b0b9ad58ea11b719715288773d571a75be060",
+      "src": "/photos/siem-reap-angkor.jpg",
+      "thumbnail": "/photos/thumb/siem-reap-angkor.webp"
+    },
+    "sossusvlei-dunes": {
+      "place": "纳米比亚索苏斯维雷·Deadvlei沙丘",
+      "photoSubject": "纳米比亚索苏斯维雷·Deadvlei沙丘",
+      "author": "NIR HIMI",
+      "sourcePage": "https://unsplash.com/photos/golden-sand-dunes-under-a-clear-sky-tr-vlxwBDxo",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 2400,
+      "sha256": "06c7ddc66ab82cd3979c690fe9794c4e86b8ac13d6935742192f3da382475e5d",
+      "src": "/photos/sossusvlei-dunes.jpg",
+      "thumbnail": "/photos/thumb/sossusvlei-dunes.webp"
+    },
+    "tasmania-summer": {
+      "place": "澳大利亚塔斯马尼亚·酒杯湾日出",
+      "photoSubject": "澳大利亚塔斯马尼亚·酒杯湾日出",
+      "author": "Josh Fotheringham",
+      "sourcePage": "https://unsplash.com/photos/a-view-of-the-ocean-and-mountains-from-a-hill-KQQ3w2lQvAY",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        55
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 1067,
+      "sha256": "ba7433069a48af0d93a62b65f826af92cc0543b92b29e6753a80362a06c95b1a",
+      "src": "/photos/tasmania-summer.jpg",
+      "thumbnail": "/photos/thumb/tasmania-summer.webp"
+    },
+    "tromso-northern-lights": {
+      "place": "挪威特罗姆瑟·极光夜空",
+      "photoSubject": "挪威特罗姆瑟·极光夜空",
+      "author": "Marcelo Quinan",
+      "sourcePage": "https://unsplash.com/photos/northern-lights-during-night-time-R3pUGn5YiTg",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。 极光为摄影曝光记录，颜色亮度不代表肉眼或每晚可见情况。",
+      "width": 1600,
+      "height": 1600,
+      "sha256": "81679d66b7bfb8673af1db6795992cdabacb1462119c17fc15162f22f096ef13",
+      "src": "/photos/tromso-northern-lights.jpg",
+      "thumbnail": "/photos/thumb/tromso-northern-lights.webp"
+    },
+    "uluru-red-centre": {
+      "place": "澳大利亚·乌鲁鲁落日",
+      "photoSubject": "澳大利亚·乌鲁鲁落日",
+      "author": "Matt Krins",
+      "sourcePage": "https://unsplash.com/photos/uluru-rock-formation-illuminated-by-sunset-light-PTlL12VuqBo",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 900,
+      "sha256": "39c360e432d6ce056bd8a42decc5f9a1572069d602b32e144ef2a212ffbfc606",
+      "src": "/photos/uluru-red-centre.jpg",
+      "thumbnail": "/photos/thumb/uluru-red-centre.webp"
+    },
+    "wadi-rum-desert": {
+      "place": "约旦瓦迪拉姆·沙漠山体",
+      "photoSubject": "约旦瓦迪拉姆·沙漠山体",
+      "author": "Hongbin",
+      "sourcePage": "https://unsplash.com/photos/a-desert-landscape-with-mountains-in-the-background-IeRsaacrcpY",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        55
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；非所选日期的实时景象。",
+      "width": 1920,
+      "height": 1280,
+      "sha256": "f3321a3be7a801fd0b3d5921568a74027e7e28927837e7be72fb9ebd9726586e",
+      "src": "/photos/wadi-rum-desert.jpg",
+      "thumbnail": "/photos/thumb/wadi-rum-desert.webp"
+    },
+    "wuyuan-spring": {
+      "place": "中国江西婺源·传统村落（秋季航拍）",
+      "photoSubject": "婺源村落屋顶与山林（秋季航拍）",
+      "author": "jason hu",
+      "sourcePage": "https://www.pexels.com/photo/scenic-aerial-view-of-wuyuan-village-rooftops-29612001/",
+      "license": "Pexels License",
+      "licenseURL": "https://www.pexels.com/license/",
+      "focalPointPercent": [
+        50,
+        45
+      ],
+      "notes": "实为婺源村落与山林，来源标签秋季；此图不可声称呈现春季油菜花。原春季江岭CC BY3.0源已核验但媒体域TLS无法连接。",
+      "width": 1920,
+      "height": 1279,
+      "sha256": "44e744c21b6dee794ee633c7a397dfc6bed864c51a2b315fa2fdd2bcf882fbaf",
+      "src": "/photos/wuyuan-spring.jpg",
+      "thumbnail": "/photos/thumb/wuyuan-spring.webp"
+    },
+    "xian-imperial-history": {
+      "place": "中国西安·钟楼夜景",
+      "photoSubject": "中国西安·钟楼夜景",
+      "author": "Yasmin Dangor",
+      "sourcePage": "https://unsplash.com/photos/aerial-photography-of-pagoda-building-at-nighttime-Ot6BtYvXGLk",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 1200,
+      "sha256": "10021385bc92bf040f22af429459a80b81ed92bb7c8fd4b140bef01ad077bfd7",
+      "src": "/photos/xian-imperial-history.jpg",
+      "thumbnail": "/photos/thumb/xian-imperial-history.webp"
+    },
+    "xishuangbanna-winter": {
+      "place": "中国云南西双版纳·传统屋顶与绿林",
+      "photoSubject": "中国云南西双版纳·传统屋顶与绿林",
+      "author": "Leona Lee",
+      "sourcePage": "https://unsplash.com/photos/traditional-roofs-amidst-green-trees-with-mountains-in-the-background-l17mUAajKr4",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        60
+      ],
+      "notes": "替换官方Commons媒体域无法连接的原候选；实际为此目的地照片，来源署名及许可证已核验。非实时照片。",
+      "width": 1600,
+      "height": 1067,
+      "sha256": "86b42da4ea4fcc8e0c5b5a0916fc86bdf93323345a4e7aba0950cc8fdd2aa9f7",
+      "src": "/photos/xishuangbanna-winter.jpg",
+      "thumbnail": "/photos/thumb/xishuangbanna-winter.webp"
+    },
+    "yogyakarta-temples": {
+      "place": "印度尼西亚日惹周边·婆罗浮屠黎明佛塔",
+      "photoSubject": "印度尼西亚日惹周边·婆罗浮屠黎明佛塔",
+      "author": "Rowan Heuvel",
+      "sourcePage": "https://unsplash.com/photos/borobudur-temple-stupas-at-dawn-with-misty-mountains-hLryfyTDgGs",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        70
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 2399,
+      "sha256": "cd64964bc44192c386acd9e7a0db502a2ad8907c6a23bdd794cbdf3152632b37",
+      "src": "/photos/yogyakarta-temples.jpg",
+      "thumbnail": "/photos/thumb/yogyakarta-temples.webp"
+    },
+    "yosemite-spring-waterfalls": {
+      "place": "美国优胜美地·山谷瀑布",
+      "photoSubject": "美国优胜美地·山谷瀑布",
+      "author": "Laurel Balyeat",
+      "sourcePage": "https://unsplash.com/photos/waterfalls-ExarETx4xNA",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 2153,
+      "sha256": "f705efdea3fc6fb37cf80dbbf9d42df0063f6964b5abbf6ee2578a89a9fb27de",
+      "src": "/photos/yosemite-spring-waterfalls.jpg",
+      "thumbnail": "/photos/thumb/yosemite-spring-waterfalls.webp"
+    },
+    "zanzibar-island": {
+      "place": "坦桑尼亚桑给巴尔·白沙滩与印度洋",
+      "photoSubject": "坦桑尼亚桑给巴尔·白沙滩与印度洋",
+      "author": "Polina Koroleva",
+      "sourcePage": "https://unsplash.com/photos/a-person-standing-on-a-beach-next-to-the-ocean-N9aWgmzhIaY",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "notes": "来源页面明确地点并标注免费 Unsplash License；照片非所选日期实时景象，裁切按图中实际景点。",
+      "width": 1600,
+      "height": 1066,
+      "sha256": "c96ff805a70ea0d01fe959f795e398a22c163b7b16ee0bd6b2ed7fc0bbaa05ce",
+      "src": "/photos/zanzibar-island.jpg",
+      "thumbnail": "/photos/thumb/zanzibar-island.webp"
+    }
+  },
+  "earthReal": "/textures/earth-real-v5.webp",
+  "earthSource": {
+    "title": "NASA Blue Marble Next Generation — June 2004 Base Map",
+    "officialImagePage": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/",
+    "credit": "NASA Earth Observatory — Blue Marble: Next Generation; Reto Stöckli",
+    "licenseURL": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "author": "Reto Stöckli, NASA Earth Observatory (NASA Goddard Space Flight Center)",
+    "dataPeriod": "2004-06 monthly composite"
+  },
+  "moments": {
+    "kyoto-autumn": [
+      {
+        "place": "日本京都·永观堂·放生池庭园",
+        "photoSubject": "日本京都·永观堂·放生池庭园",
+        "matchScope": "specific-place-or-subplace",
+        "author": "lumoplank",
+        "license": "CC0 1.0",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Eikando,_Kyoto_-_Eikando7376.jpg",
+        "notes": "永观堂秋色，不代表南禅寺；照片日期为上传/发布记录，不能当作实时花期。",
+        "src": "/moments/kyoto-autumn-0.jpg",
+        "width": 1000,
+        "height": 666,
+        "panorama": false
+      },
+      {
+        "place": "日本京都·东福寺通天桥枫叶谷方向",
+        "photoSubject": "日本京都·东福寺通天桥枫叶谷方向",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Luka Peternel",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tofukuji-maple-autumn-2017-Luka-Peternel.jpg",
+        "notes": "从通天桥观赏秋枫的具体景色，2017年摄影。",
+        "src": "/moments/kyoto-autumn-1.jpg",
+        "width": 1000,
+        "height": 666,
+        "panorama": false
+      },
+      {
+        "place": "日本京都·岚山嵯峨野·常寂光寺",
+        "photoSubject": "日本京都·岚山嵯峨野·常寂光寺",
+        "matchScope": "specific-place-or-subplace",
+        "author": "663highland",
+        "license": "CC BY 2.5",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.5/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Jojakkoji_Kyoto01s3s4592.jpg",
+        "notes": "常寂光寺秋色，2010年摄影。",
+        "src": "/moments/kyoto-autumn-2.jpg",
+        "width": 1000,
+        "height": 666,
+        "panorama": false
+      }
+    ],
+    "marrakech": [
+      {
+        "place": "摩洛哥·马拉喀什·德吉玛广场",
+        "photoSubject": "摩洛哥·马拉喀什·德吉玛广场",
+        "matchScope": "specific-place-or-subplace",
+        "author": "FoxLimaOscar",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Panorama-jemaaelfna2.JPG",
+        "notes": "傍晚广场全景；极宽横幅，适合全宽图片或谨慎裁切。",
+        "src": "/moments/marrakech-0.jpg",
+        "width": 1000,
+        "height": 240,
+        "panorama": true
+      },
+      {
+        "place": "摩洛哥·马拉喀什·Majorelle花园",
+        "photoSubject": "摩洛哥·马拉喀什·Majorelle花园",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Anas taleb",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Majorelle_Garden_Marrakesh.jpg",
+        "notes": "仅代表Majorelle花园，不代表YSL博物馆内景。",
+        "src": "/moments/marrakech-1.jpg",
+        "width": 1000,
+        "height": 750,
+        "panorama": false
+      },
+      {
+        "place": "摩洛哥·索维拉渔港",
+        "photoSubject": "摩洛哥·索维拉渔港",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Jerzy Strzelecki",
+        "license": "CC BY 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/3.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Essaouira_port_(js).jpg",
+        "notes": "渔港、渔船和城墙方向，不是马拉喀什市区。",
+        "src": "/moments/marrakech-2.jpg",
+        "width": 1000,
+        "height": 652,
+        "panorama": false
+      }
+    ],
+    "iceland": [
+      {
+        "place": "黄金圈·古佛斯瀑布冬景",
+        "photoSubject": "黄金圈·古佛斯瀑布冬景",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Tony Hisgett",
+        "license": "CC BY 2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Gullfoss_Waterfall_%2824852505304%29.jpg",
+        "notes": "古佛斯为黄金圈具体景点。2016年2月冬景，不能当作实时天气。",
+        "src": "/moments/iceland-0.jpg",
+        "width": 1000,
+        "height": 659,
+        "panorama": false
+      },
+      {
+        "place": "维克附近·雷尼斯黑沙滩与玄武岩海蚀柱",
+        "photoSubject": "维克附近·雷尼斯黑沙滩与玄武岩海蚀柱",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Martin Falbisoner",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Reynisfjara_and_Reynisdrangar%2C_Iceland.jpg",
+        "notes": "2014年7月从迪霍拉里岬角拍摄的海岸；不是冬季实况。",
+        "src": "/moments/iceland-1.jpg",
+        "width": 1000,
+        "height": 479,
+        "panorama": false
+      },
+      {
+        "place": "雷克雅未克·从哈尔格林姆教堂眺望",
+        "photoSubject": "雷克雅未克·从哈尔格林姆教堂眺望",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Andreas Blome",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Reykjavik_Panorama.jpg",
+        "notes": "2012年7月城市全景，展示具体城市，不代表冬季积雪。极宽画幅建议横图。",
+        "src": "/moments/iceland-2.jpg",
+        "width": 1000,
+        "height": 355,
+        "panorama": false
+      }
+    ],
+    "beijing-autumn": [
+      {
+        "place": "北京·雍和宫南门",
+        "photoSubject": "北京·雍和宫南门",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Balon Greyjoy",
+        "license": "CC0 1.0",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:20200109_Yonghe_Temple_gate.jpg",
+        "notes": "2020年1月建筑摄影；展示雍和宫具体入口，不称秋季银杏或地坛。",
+        "src": "/moments/beijing-autumn-0.jpg",
+        "width": 1000,
+        "height": 758,
+        "panorama": false
+      },
+      {
+        "place": "北京·五塔寺金刚宝座塔",
+        "photoSubject": "北京·五塔寺金刚宝座塔",
+        "matchScope": "specific-place-or-subplace",
+        "author": "ScareCriterion12",
+        "license": "CC0 1.0",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E4%BA%AC%E4%BA%94%E5%A1%94%E5%AF%BA%E5%A1%942024.3.jpg",
+        "notes": "2024年3月建筑摄影；不是秋季银杏实况。",
+        "src": "/moments/beijing-autumn-1.jpg",
+        "width": 1000,
+        "height": 687,
+        "panorama": false
+      },
+      {
+        "place": "中国北京·故宫",
+        "photoSubject": "中国北京·故宫",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Maddy Meng",
+        "license": "Unsplash License",
+        "licenseURL": "https://unsplash.com/license",
+        "sourcePage": "https://unsplash.com/photos/brown-wooden-roof-under-yellow-leaf-tree-during-daytime-_ZUNNQMw8CE",
+        "notes": "Photo page identifies Palace Museum / Forbidden City in Beijing with yellow ginkgo autumn leaves. This replaces Longquan Temple photo; change old descriptive references accordingly.；复用已授权摄影，仅代表标注的具体主体。",
+        "src": "/moments/beijing-autumn-2.jpg",
+        "width": 1920,
+        "height": 3413,
+        "panorama": false
+      }
+    ],
+    "kyoto-spring": [
+      {
+        "place": "京都·哲学之道春樱",
+        "photoSubject": "京都·哲学之道春樱",
+        "matchScope": "specific-place-or-subplace",
+        "author": "KimonBerlin",
+        "license": "CC BY-SA 2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Path_of_Philosophy_%283612206325%29.jpg",
+        "notes": "2009年4月哲学之道樱花摄影，不表示当年花期预测。；画面是樱花近景，不声称展示整条运河步道。",
+        "src": "/moments/kyoto-spring-0.jpg",
+        "width": 1000,
+        "height": 666,
+        "panorama": false
+      },
+      {
+        "place": "日本京都·法观寺八坂塔",
+        "photoSubject": "日本京都·法观寺八坂塔",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Nathalie Lays",
+        "license": "Unsplash License",
+        "licenseURL": "https://unsplash.com/license",
+        "sourcePage": "https://unsplash.com/photos/pagoda-and-cherry-blossoms-in-kyoto-japan-2Lk1L4PftXM",
+        "notes": "京都法观寺八坂塔、垂樱与傍晚灯笼，主体清晰；照片实际地点不是涉成园，接入时需删除原文“照片为涉成园”表述。；复用已授权摄影，仅代表标注的具体主体。",
+        "src": "/moments/kyoto-spring-1.jpg",
+        "width": 1920,
+        "height": 1080,
+        "panorama": false
+      },
+      {
+        "place": "宇治·平等院",
+        "photoSubject": "宇治·平等院",
+        "matchScope": "specific-place-or-subplace",
+        "author": "663highland",
+        "license": "CC BY 2.5",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.5/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Byodo-in_Uji04bs2640.jpg",
+        "notes": "宇治平等院具体景点，不称宇治所有樱花点。；实际画面为平等院池畔园林秋景，不称春季樱花或凤凰堂正面。",
+        "src": "/moments/kyoto-spring-2.jpg",
+        "width": 1000,
+        "height": 666,
+        "panorama": false
+      }
+    ],
+    "nyingchi": [
+      {
+        "place": "林芝地区桃花与雪峰（具体村落未核）",
+        "photoSubject": "林芝地区桃花与雪峰（具体村落未核）",
+        "matchScope": "regional-with-explicit-caption",
+        "author": "Han mo",
+        "license": "Unsplash License",
+        "licenseURL": "https://unsplash.com/license",
+        "sourcePage": "https://unsplash.com/photos/star-trails-over-pink-blossoms-and-snow-capped-mountains-at-night-G31A_ZlsKlQ",
+        "notes": "图源摄影师定位为林芝，未核到嘎拉桃花村；用作林芝春季桃花区域摄影，不能标为嘎拉村实拍。",
+        "src": "/moments/nyingchi-0.jpg",
+        "width": 1920,
+        "height": 1280,
+        "panorama": false
+      },
+      {
+        "place": "尼洋河畔·木舟与河岸",
+        "photoSubject": "尼洋河畔·木舟与河岸",
+        "matchScope": "specific-place-or-subplace",
+        "author": "山海风",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E5%B0%BC%E6%B4%8B%E6%B2%B3%E9%87%8C%E7%9A%84%E5%B0%8F%E8%88%9F_-_panoramio.jpg",
+        "notes": "2011年5月摄影，尼洋河具体河段，不暗示春季桃花花期。；画面是河岸木舟细节，不称河谷全景。",
+        "src": "/moments/nyingchi-1.jpg",
+        "width": 1000,
+        "height": 666,
+        "panorama": false
+      },
+      {
+        "place": "波密至林芝沿途山地（区域摄影）",
+        "photoSubject": "波密至林芝沿途山地（区域摄影）",
+        "matchScope": "regional-with-explicit-caption",
+        "author": "山海风",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E6%B3%A2%E5%AF%86%E5%8E%BB%E6%9E%97%E8%8A%9D%E7%9A%84%E8%B7%AF%E4%B8%8A_-_panoramio.jpg",
+        "notes": "具体拍摄点未核到波密桃花沟，且为2012年8月摄影，不能当桃花沟春季实拍；作为波密周边区域山地摄影。",
+        "src": "/moments/nyingchi-2.jpg",
+        "width": 1000,
+        "height": 666,
+        "panorama": false
+      }
+    ],
+    "arrowtown-autumn": [
+      {
+        "place": "箭镇周边秋色河谷（河流名称未核）",
+        "photoSubject": "箭镇周边秋色河谷（河流名称未核）",
+        "matchScope": "regional-with-explicit-caption",
+        "author": "Peter Blair",
+        "license": "Unsplash License",
+        "licenseURL": "https://unsplash.com/license",
+        "sourcePage": "https://unsplash.com/photos/top-view-of-river-in-middle-of-hills-with-trees-hHSOv3tJ27E",
+        "notes": "图源定位Arrowtown, New Zealand；未核到箭河，不把画面河流标为Arrow River。",
+        "src": "/moments/arrowtown-autumn-0.jpg",
+        "width": 1920,
+        "height": 1282,
+        "panorama": false
+      },
+      {
+        "place": "箭镇华人聚落遗址",
+        "photoSubject": "箭镇华人聚落遗址",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Bernard Spragg. NZ",
+        "license": "CC0 1.0",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Arrowtown_Chinese_settlement._NZ_%2815357613242%29.jpg",
+        "notes": "2014年9月摄影，展示华人聚落具体主体，不标为4月秋色实况。",
+        "src": "/moments/arrowtown-autumn-1.jpg",
+        "width": 1000,
+        "height": 750,
+        "panorama": false
+      },
+      {
+        "place": "瓦纳卡湖·湖中孤树",
+        "photoSubject": "瓦纳卡湖·湖中孤树",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Jordentan / @2cruisin",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Wanaka_tree.jpg",
+        "notes": "2019年5月摄影，展示瓦纳卡具体湖岸，不代表皇后镇城区。",
+        "src": "/moments/arrowtown-autumn-2.jpg",
+        "width": 1000,
+        "height": 562,
+        "panorama": false
+      }
+    ],
+    "harbin": [
+      {
+        "place": "中国·哈尔滨冬季冰灯节（源页未核验具体园区）",
+        "photoSubject": "中国·哈尔滨冬季冰灯节（源页未核验具体园区）",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Erica Li",
+        "license": "Unsplash License",
+        "licenseURL": "https://unsplash.com/license",
+        "sourcePage": "https://unsplash.com/photos/white-castle-HsqB3X2tiOA",
+        "notes": "清晰的晨光冰城摄影，颜色与原夜景记录照不同；右下有导引牌，美感仍弱于本批其他照片，可后续继续升级。源页定位 Winter Ice Lights Festival, Harbin；不代表当年搭建样式。已检查的2014夜间候选有观众与舞台，更不适合主封面，未采用。；复用已授权摄影，仅代表标注的具体主体。",
+        "src": "/moments/harbin-0.jpg",
+        "width": 1920,
+        "height": 1280,
+        "panorama": false
+      },
+      {
+        "place": "哈尔滨·中央大街冬季街景",
+        "photoSubject": "哈尔滨·中央大街冬季街景",
+        "matchScope": "specific-place-or-subplace",
+        "author": "SmallSonMarex",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Zhongyang_Street%2C_Central_Street%2C_Harbin_06.01.2026.jpg",
+        "notes": "2026年1月中央大街，不代表松花江冰面或当期活动。",
+        "src": "/moments/harbin-1.jpg",
+        "width": 1000,
+        "height": 562,
+        "panorama": false
+      },
+      {
+        "place": "哈尔滨·雪中的圣索菲亚教堂",
+        "photoSubject": "哈尔滨·雪中的圣索菲亚教堂",
+        "matchScope": "specific-place-or-subplace",
+        "author": "江上清风1961",
+        "license": "CC BY 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/3.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E9%9B%AA%E4%B8%AD%E5%9C%A3%E7%B4%A2%E9%9D%9E%E4%BA%9A%E6%95%99%E5%A0%82%2C_2010-01-10.jpg",
+        "notes": "2010年1月真实教堂摄影，不是冰雕复制建筑。",
+        "src": "/moments/harbin-2.jpg",
+        "width": 1000,
+        "height": 750,
+        "panorama": false
+      }
+    ],
+    "nalati": [
+      {
+        "place": "那拉提草原区域晨景（具体观景路线未核）",
+        "photoSubject": "那拉提草原区域晨景（具体观景路线未核）",
+        "matchScope": "regional-with-explicit-caption",
+        "author": "光曦 刘",
+        "license": "Unsplash License",
+        "licenseURL": "https://unsplash.com/license",
+        "sourcePage": "https://unsplash.com/photos/green-grass-field-and-mountains-during-daytime-lSKL_W3HLHY",
+        "notes": "摄影师原注Morning of Tianshan mountain, Nalati, China,2017；未核到空中草原具体路线，不称具体观景平台。",
+        "src": "/moments/nalati-0.jpg",
+        "width": 1920,
+        "height": 1440,
+        "panorama": false
+      },
+      {
+        "place": "那拉提附近·巩乃斯河",
+        "photoSubject": "那拉提附近·巩乃斯河",
+        "matchScope": "specific-place-or-subplace",
+        "author": "MichaelE",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:River_Kunges-GongNaiSi.jpg",
+        "notes": "2016年8月巩乃斯河摄影，具体河段由图源坐标定位。",
+        "src": "/moments/nalati-1.jpg",
+        "width": 1000,
+        "height": 563,
+        "panorama": false
+      },
+      {
+        "place": "伊宁·陕西大寺宣礼塔",
+        "photoSubject": "伊宁·陕西大寺宣礼塔",
+        "matchScope": "specific-place-or-subplace",
+        "author": "HaziiDozen",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E4%BC%8A%E5%AE%81%E9%99%95%E8%A5%BF%E5%A4%A7%E5%AF%BA%E5%AE%A3%E7%A4%BC%E5%A1%94.jpg",
+        "notes": "伊宁城市建筑具体主体，不标为六星街。",
+        "src": "/moments/nalati-2.jpg",
+        "width": 1000,
+        "height": 1334,
+        "panorama": false
+      }
+    ],
+    "edinburgh": [
+      {
+        "place": "爱丁堡·皇家英里",
+        "photoSubject": "爱丁堡·皇家英里",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Bandan",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Royal_Mile.jpg",
+        "notes": "2013年10月街区摄影，不称爱丁堡艺术节现场。",
+        "src": "/moments/edinburgh-0.jpg",
+        "width": 1000,
+        "height": 751,
+        "panorama": false
+      },
+      {
+        "place": "英国苏格兰·爱丁堡卡尔顿山",
+        "photoSubject": "英国苏格兰·爱丁堡卡尔顿山",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Asa Rodger",
+        "license": "Unsplash License",
+        "licenseURL": "https://unsplash.com/license",
+        "sourcePage": "https://unsplash.com/photos/concrete-building-yyMxZ6akhqo",
+        "notes": "Atmospheric sunset city landmark framed from Calton Hill; photo source explicitly locates the viewpoint, Sony Alpha a7R.；复用已授权摄影，仅代表标注的具体主体。",
+        "src": "/moments/edinburgh-1.jpg",
+        "width": 1920,
+        "height": 2880,
+        "panorama": false
+      },
+      {
+        "place": "爱丁堡城堡·王子街方向视角",
+        "photoSubject": "爱丁堡城堡·王子街方向视角",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Ad Meskens",
+        "attribution": "Foto Ad Meskens · CC BY-SA 3.0",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Edinburgh_Castle_21.jpg",
+        "notes": "图旁按作者要求署名“Foto Ad Meskens”，不代表国家博物馆内景。",
+        "src": "/moments/edinburgh-2.jpg",
+        "width": 1000,
+        "height": 698,
+        "panorama": false
+      }
+    ],
+    "antarctica": [
+      {
+        "place": "南极半岛西部海域",
+        "photoSubject": "南极半岛西部海域",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Virtual-Pano",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:114_once_an_iceberg_now_a_Growler_and_a_scupture_V-P.jpg",
+        "notes": "保留原优质精选冰山摄影，提升到1920px；原始地理坐标为估计值，照片非全景截图。；复用已授权摄影，仅代表标注的具体主体。",
+        "src": "/moments/antarctica-0.jpg",
+        "width": 1920,
+        "height": 1280,
+        "panorama": false
+      },
+      {
+        "place": "南设得兰群岛·半月岛帽带企鹅",
+        "photoSubject": "南设得兰群岛·半月岛帽带企鹅",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Gary Bembridge",
+        "license": "CC BY 2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Chinstrap_Penguins_Half_Moon_Island_Antarctica_2_%2847284217932%29.jpg",
+        "notes": "2019年2月摄影，仅作半月岛野生动物示意，登陆点必须以当次许可、天气和船方安排为准。",
+        "src": "/moments/antarctica-1.jpg",
+        "width": 1000,
+        "height": 1400,
+        "panorama": false
+      },
+      {
+        "place": "阿根廷·乌斯怀亚港城",
+        "photoSubject": "阿根廷·乌斯怀亚港城",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Jerzy Strzelecki",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ushuaia3a_%28js%29.jpg",
+        "notes": "2000年2月从海上拍摄的乌斯怀亚全景，建筑可能变化，不当作实时港口状态。",
+        "src": "/moments/antarctica-2.jpg",
+        "width": 1000,
+        "height": 291,
+        "panorama": true
+      }
+    ],
+    "patagonia": [
+      {
+        "place": "智利百内国家公园山峰（具体峰名未核）",
+        "photoSubject": "智利百内国家公园山峰（具体峰名未核）",
+        "matchScope": "regional-with-explicit-caption",
+        "author": "Marek Piwnicki",
+        "license": "Unsplash License",
+        "licenseURL": "https://unsplash.com/license",
+        "sourcePage": "https://unsplash.com/photos/a-view-of-a-mountain-with-snow-on-it-yJMYAa9f7VQ",
+        "notes": "图源定位Torres del Paine, Chile；不能声称照片摄于三塔观景台。",
+        "src": "/moments/patagonia-0.jpg",
+        "width": 1920,
+        "height": 2880,
+        "panorama": false
+      },
+      {
+        "place": "百内国家公园湖畔山景（图库说明为Pehoé）",
+        "photoSubject": "百内国家公园湖畔山景（图库说明为Pehoé）",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Negrorodrigo",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Torres_del_Paine_desde_Lago_Grey.JPG",
+        "notes": "源页正文和分类标Pehoé湖，文件名有Grey用词，故保留明确来源差异，不当作格雷湖照片。",
+        "src": "/moments/patagonia-1.jpg",
+        "width": 1000,
+        "height": 664,
+        "panorama": false
+      },
+      {
+        "place": "智利百内·格雷冰川与格雷湖",
+        "photoSubject": "智利百内·格雷冰川与格雷湖",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Diego Delso",
+        "attribution": "Diego Delso, delso.photo, License CC BY-SA 3.0",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Glaciar_Grey%2C_Parque_Nacional_Torres_del_Paine%2C_Chile3.jpg",
+        "notes": "2009年3月冰川摄影；图片附近按作者要求标注“Diego Delso, delso.photo, License CC BY-SA 3.0”。",
+        "src": "/moments/patagonia-2.jpg",
+        "width": 1000,
+        "height": 666,
+        "panorama": false
+      }
+    ],
+    "st-petersburg": [
+      {
+        "place": "俄罗斯·圣彼得堡·涅瓦河",
+        "photoSubject": "俄罗斯·圣彼得堡·涅瓦河",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Anastassia Anufrieva",
+        "license": "Unsplash License",
+        "licenseURL": "https://unsplash.com/license",
+        "sourcePage": "https://unsplash.com/photos/a-red-and-white-boat-in-the-water-U2iiXRpYwHw",
+        "notes": "照片为红帆节 Scarlet Sails 节庆场景；不能暗示整个白夜季每天都有红帆船，具体活动日需另查。；复用已授权摄影，仅代表标注的具体主体。",
+        "src": "/moments/st-petersburg-0.jpg",
+        "width": 1920,
+        "height": 1280,
+        "panorama": false
+      },
+      {
+        "place": "圣彼得堡·冬宫临涅瓦河立面",
+        "photoSubject": "圣彼得堡·冬宫临涅瓦河立面",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Alex 'Florstein' Fedorov",
+        "attribution": "© Alex Fedorov, Wikimedia Commons · CC BY-SA 4.0",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Winter_Palace_Panorama_4.jpg",
+        "notes": "冬宫具体建筑外景，不代表艾尔米塔什展厅内景。",
+        "src": "/moments/st-petersburg-1.jpg",
+        "width": 1000,
+        "height": 359,
+        "panorama": false
+      },
+      {
+        "place": "彼得宫·大瀑布喷泉",
+        "photoSubject": "彼得宫·大瀑布喷泉",
+        "matchScope": "specific-place-or-subplace",
+        "author": "Sylvain Kalache",
+        "license": "CC BY 2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Grand_Cascade_of_Peterhof_%285081109542%29.jpg",
+        "notes": "2010年10月摄影；喷泉开放时段每年变化，不保证所选日期运行。",
+        "src": "/moments/st-petersburg-2.jpg",
+        "width": 1000,
+        "height": 667,
+        "panorama": false
+      }
+    ],
+    "jiuzhaigou-lakes": [
+      {
+        "destinationId": "jiuzhaigou-lakes",
+        "highlightIndex": 0,
+        "photoSubject": "九寨沟金色秋林与蓝色水体（未核验具体海子）",
+        "place": "中国四川·九寨沟",
+        "author": "Zhiyuan Sun",
+        "license": "Unsplash License",
+        "licenseURL": "https://unsplash.com/license",
+        "sourcePage": "https://unsplash.com/photos/golden-trees-and-a-calm-blue-river-moixNMJcVk8",
+        "width": 1920,
+        "height": 887,
+        "sha256": "604b4e5129fa3aca34835641934af80a77eaa1c6196c767589a5eae8b2d63bf2",
+        "focalPointPercent": [
+          50,
+          50
+        ],
+        "notes": "复用已有同目的地已授权照片一次；可描述秋林，不命名五花海/镜海等未经来源确认的具体海子。照片非所选日期实时景象。",
+        "status": "ready",
+        "matchScope": "Jiuzhaigou confirmed; specific lake unverified",
+        "sourceVerifiedDate": "2026-10-18",
+        "visualQA": "Full JPEG decoding and contact-sheet visual review passed; photographed subject matches caption",
+        "src": "/moments/jiuzhaigou-lakes-0.jpg",
+        "panorama": false
+      },
+      {
+        "destinationId": "jiuzhaigou-lakes",
+        "highlightIndex": 1,
+        "photoSubject": "九寨沟森林、叠瀑与碧蓝水体（未核验具体瀑布）",
+        "place": "中国四川·九寨沟",
+        "sourcePage": "https://unsplash.com/photos/cascading-waterfalls-flow-into-a-vibrant-turquoise-lake-fLKVm_ES0ZI",
+        "author": "Yueliang Sun",
+        "license": "Unsplash License",
+        "licenseURL": "https://unsplash.com/license",
+        "status": "ready",
+        "focalPointPercent": [
+          50,
+          58
+        ],
+        "notes": "源页明确九寨沟，未明确具体瀑布，因此不命名诺日朗或珍珠滩。拍摄月份未核验，上传时间不能当作拍摄季节。",
+        "width": 1600,
+        "height": 1067,
+        "sha256": "a75ff7756263b0717d1e4ceb78912eb6048a526c67b9c1d0cb492401f3f4f6ee",
+        "sourceVerifiedDate": "2026-10-18",
+        "matchScope": "Jiuzhaigou confirmed; specific waterfall unverified",
+        "visualQA": "Full JPEG decoding and contact-sheet visual review passed; photographed subject matches caption",
+        "src": "/moments/jiuzhaigou-lakes-1.jpg",
+        "panorama": false
+      },
+      {
+        "destinationId": "jiuzhaigou-lakes",
+        "highlightIndex": 2,
+        "photoSubject": "九寨沟松枝、湖面与倒影（源页标注镜海）",
+        "place": "中国四川·九寨沟",
+        "sourcePage": "https://unsplash.com/photos/pine-branch-reflected-on-a-calm-blue-lake-1EhfcRlva7g",
+        "author": "Russ Lee",
+        "license": "Unsplash License",
+        "licenseURL": "https://unsplash.com/license",
+        "status": "ready",
+        "focalPointPercent": [
+          50,
+          50
+        ],
+        "notes": "源页作者明确标注Mirror Lake/镜海；图中为松枝与水面倒影，不能当作步道/栈道照片或保证任何时段镜面效果。实际拍摄月份未核验。",
+        "width": 1600,
+        "height": 2400,
+        "sha256": "afb67789fc170e3ffb15dc3230bfe44e5b63213a27ef8d9b0baf5c7fa91937c5",
+        "sourceVerifiedDate": "2026-10-18",
+        "matchScope": "Jiuzhaigou confirmed; Mirror Lake named by original source",
+        "visualQA": "Full JPEG decoding and contact-sheet visual review passed; photographed subject matches caption",
+        "src": "/moments/jiuzhaigou-lakes-2.jpg",
+        "panorama": false
+      }
+    ]
+  }
+}

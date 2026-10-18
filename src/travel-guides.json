@@ -1,0 +1,2721 @@
+{
+  "kyoto-autumn": {
+    "headline": "",
+    "whyNow": "红叶把庭园结构、木构古寺和山坡颜色放到同一幅画里。常年以11月中下旬至12月初关注；2026官方日历将从10月30日更新，当前不能承诺某天满红。",
+    "seasonDetail": "红叶把庭园结构、木构古寺和山坡颜色放到同一幅画里。常年以11月中下旬至12月初关注；2026官方日历将从10月30日更新，当前不能承诺某天满红。",
+    "weather": [
+      "色期受当年气温与降雨影响，市区和山间不会同步。",
+      "热门寺院与巴士排队，行李先寄存或送酒店。",
+      "晚间转冷，古寺室内可能需脱鞋。"
+    ],
+    "highlights": [
+      {
+        "name": "南禅寺—永观堂",
+        "experience": "把水路阁、庭园与红叶坡道放在同一片东山区域，减少横穿全城。",
+        "timing": "东山北段，留出半天慢看",
+        "kind": "culture-nature"
+      },
+      {
+        "name": "东福寺",
+        "experience": "用庭园与通天桥视角观察色层；热门时段以当年参观组织为准。",
+        "timing": "热门赏枫点，避开周末高峰",
+        "kind": "culture-nature"
+      },
+      {
+        "name": "岚山—常寂光寺",
+        "experience": "山麓寺院、渡月桥和桂川岸线构成另一整天，不与东山硬塞一天。",
+        "timing": "京都西侧，单独安排一天",
+        "kind": "nature"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "庭园里坐一会儿",
+        "detail": "一日只选两三处古寺，给建筑与光影留时间。"
+      },
+      {
+        "title": "夜间特别参拜",
+        "detail": "只在当年夜枫开放、购票成功时加入；夜参常与白天分票。"
+      },
+      {
+        "title": "宇治茶文化",
+        "detail": "若不想连续看寺院，可换半天平等院周边、宇治川和预约茶体验。"
+      }
+    ],
+    "route": {
+      "airports": [
+        "关西国际机场 KIX"
+      ],
+      "origins": [
+        "杭州萧山 HGH",
+        "上海浦东 PVG"
+      ],
+      "flightPlan": [
+        "先检索HGH/PVG—KIX，再接铁路至京都；京都没有供这类国际航班使用的市区机场。",
+        "住京都站方便带行李进出；住四条/三条一带更方便晚间步行。"
+      ],
+      "airfareCNY": null,
+      "airfareNote": "未查询指定日期机票；机场与中转仅为检索组合，不代表该日有航班或可售票。",
+      "transfer": [
+        "若直飞无合适班次，再比较同一联程的日本国内枢纽中转"
+      ],
+      "scheduleChecked": false,
+      "modules": [
+        {
+          "name": "东山南段",
+          "days": 1,
+          "stops": [
+            "清水寺",
+            "二年坂/三年坂",
+            "祇园/鸭川"
+          ],
+          "logic": "由山坡步行下行，早间看古建，傍晚进街区。"
+        },
+        {
+          "name": "东山北段",
+          "days": 1,
+          "stops": [
+            "南禅寺",
+            "永观堂",
+            "哲学之道附近"
+          ],
+          "logic": "同区串联；看叶况选择两处重点。"
+        },
+        {
+          "name": "岚山一带",
+          "days": 1,
+          "stops": [
+            "渡月桥",
+            "常寂光寺",
+            "嵯峨野"
+          ],
+          "logic": "西侧独立一天；小火车仅在预约成功时加入。"
+        }
+      ]
+    },
+    "stay": {
+      "areas": [
+        {
+          "name": "京都站周边",
+          "reason": "机场与跨城交通便利"
+        },
+        {
+          "name": "四条/三条",
+          "reason": "餐饮与夜间步行"
+        },
+        {
+          "name": "大阪作基地需加上每日往返时间，不宜只比较房价",
+          "reason": "按实际交通、房型与退改条件选择。"
+        }
+      ],
+      "roomLocal": [
+        14000,
+        28000
+      ],
+      "roomCNYApprox": [
+        593,
+        1185
+      ],
+      "currency": "JPY",
+      "upgradeRoomLocal": [
+        28000,
+        60000
+      ],
+      "unit": "每晚每间，2成人入住一间标准双人房",
+      "notes": [],
+      "status": "editorial-budget-estimate",
+      "estimatedAt": "2026-10-17"
+    },
+    "money": {
+      "currency": "JPY",
+      "rateCNY": 0.042325181,
+      "asOf": "2026-10-16",
+      "source": "https://api.nbp.pl/api/exchangerates/tables/a/2026-10-16/?format=json",
+      "sources": [
+        {
+          "id": "nbp-a16",
+          "title": "波兰央行NBP：2026-10-16 A表",
+          "url": "https://api.nbp.pl/api/exchangerates/tables/a/2026-10-16/?format=json",
+          "type": "central-bank-api",
+          "accessedAt": "2026-10-17",
+          "accessLevel": "api-json"
+        }
+      ],
+      "usage": "日元 JPY。多数商店可刷卡，但小店、寺院与部分交通仍需现金；交通IC卡可用于许多乘车与小额支付。提前向发卡行确认境外刷卡与取现条件。",
+      "method": "NBP-mid-cross-PLN"
+    },
+    "packing": [
+      "保暖外套与可叠穿内层",
+      "舒适防滑步行鞋、干净袜子",
+      "轻雨具、小零钱包、充电宝"
+    ],
+    "beforeYouGo": [
+      "先锁可退住宿，红叶季周末供需紧张。",
+      "嵯峨野小火车、茶体验、热门餐厅及夜间特别参拜分别核日期与预约规则。",
+      "优先铁路加步行；不要把跨城公交路程压成地图上的直线距离。",
+      "如已持有日本签证，请核对到期日、允许入境次数及每次停留天数；未持签需提前申请。",
+      "不要把日本有效签证自动视作其他目的地通行权；按实际入境日期核验。"
+    ],
+    "dayIdeas": [
+      {
+        "title": "东山的红叶与古寺",
+        "morning": "清水寺与周边坡道",
+        "afternoon": "二年坂、三年坂和茶店",
+        "evening": "祇园或鸭川；有当年夜参票再看夜枫",
+        "tip": "这一天不跨城加金阁寺。"
+      },
+      {
+        "title": "南禅寺到永观堂",
+        "morning": "南禅寺庭园与水路阁",
+        "afternoon": "永观堂，按叶况与排队删减景点",
+        "evening": "回四条/三条用餐，留无预约时间",
+        "tip": "同属东山北段；夜间特别参拜可能分票。"
+      },
+      {
+        "title": "岚山的一整天",
+        "morning": "桂川与渡月桥附近晨走",
+        "afternoon": "常寂光寺等寺院择一，小火车有票才加入",
+        "evening": "回京都休息",
+        "tip": "京都西侧单独排一天，尽量用铁路。"
+      },
+      {
+        "title": "宇治的茶日",
+        "morning": "宇治川与平等院周边",
+        "afternoon": "预约茶体验与小店慢行",
+        "evening": "回京都整理行李",
+        "tip": "用茶文化替换连续第四处古寺。"
+      }
+    ],
+    "sources": [
+      {
+        "id": "kyoto-autumn",
+        "title": "京都市官方红叶日历",
+        "url": "https://kyoto.travel/en/seasonal-info/autumnleaves",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body",
+        "caution": "打开时标题仍为2025，但正文说明2026日历从10月30日起更新；不可把旧年花况当2026实时花况。"
+      },
+      {
+        "id": "kyoto-crowd",
+        "title": "京都市秋季出行与拥挤应对",
+        "url": "https://kyoto.travel/en/news/autumnsightseeinginKyoto.html",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "search-excerpt",
+        "publishedAt": "2024-12-02",
+        "caution": "仅沿用行李与交通组织思路，2024临时巴士和服务不当成当前运营。"
+      },
+      {
+        "id": "mafengwo-kyoto",
+        "title": "马蜂窝京都旅行攻略（历史版）",
+        "url": "https://bigfile.mafengwo.net/s7/M00/6F/42/wKgB6lTQQLeAXfrEAIshlAcNOZA211.pdf",
+        "type": "traveler",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body",
+        "publishedAt": "2015-01",
+        "caution": "只参考同区串联与文化体验，不沿用票价、公交券、汇率和2015设施信息。"
+      },
+      {
+        "id": "ctrip-kyoto",
+        "title": "携程：古都京都迎来秋之红叶季",
+        "url": "https://you.ctrip.com/travels/kyotoprefecture14471/3985021.html",
+        "type": "traveler",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body",
+        "publishedAt": "2020-11-26",
+        "caution": "历史路线灵感；具体叶况、开放和交通按当年官网确认。"
+      },
+      {
+        "title": "日本国家旅游局：现金与刷卡",
+        "url": "https://www.japan.travel/en/plan/faq/",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "search-excerpt"
+      }
+    ],
+    "researchedAt": "2026-10-17"
+  },
+  "marrakech": {
+    "headline": "",
+    "whyNow": "春秋更适合在老城步行，并把海岸或山麓接进路线；秋夜转凉。摩洛哥南部沙漠也以春秋较适合，但梅尔祖卡不是马拉喀什近郊。",
+    "seasonDetail": "春秋更适合在老城步行，并把海岸或山麓接进路线；秋夜转凉。摩洛哥南部沙漠也以春秋较适合，但梅尔祖卡不是马拉喀什近郊。",
+    "weather": [
+      "日晒与昼夜温差；索维拉海风比内陆体感凉。",
+      "老城导航会把人带入难走巷道，向酒店要文字到达说明。",
+      "不要把Agafay石漠体验当成撒哈拉沙丘，两者地貌与车程不同。"
+    ],
+    "highlights": [
+      {
+        "name": "麦地那与德吉玛广场",
+        "experience": "赭红街巷、工艺铺与傍晚广场现场，构成人文主线。",
+        "timing": "傍晚入广场，先确认餐饮与价格",
+        "kind": "culture"
+      },
+      {
+        "name": "Majorelle花园与YSL博物馆片区",
+        "experience": "蓝墙、植物与设计形成强烈色彩对照。",
+        "timing": "按官方购票时段参观",
+        "kind": "culture-nature"
+      },
+      {
+        "name": "索维拉老港与城墙",
+        "experience": "换成大西洋海风、白墙与渔港，适合住一两晚。",
+        "timing": "建议住一晚，感受海港的早晚",
+        "kind": "culture-nature"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "住一间Riad",
+        "detail": "选有清晰到达说明和近期评价的庭院住宿；老城深处往往需步行搬行李。"
+      },
+      {
+        "title": "老城手作与饮食",
+        "detail": "预约可靠向导或烹饪体验，拍人像前先询问；交易和引路先说清价格。"
+      },
+      {
+        "title": "阿特拉斯山麓半日或一日",
+        "detail": "按天气和当期道路选择正规出行；长途撒哈拉另加完整交通日。"
+      }
+    ],
+    "route": {
+      "airports": [
+        "马拉喀什 RAK",
+        "卡萨布兰卡 CMN（可做入境门户）"
+      ],
+      "origins": [
+        "杭州萧山 HGH",
+        "上海浦东 PVG"
+      ],
+      "flightPlan": [
+        "优先比较到RAK与到CMN后地面接驳的全程成本。",
+        "没有申根签时，对经欧洲尤其离摩经申根的方案单独核验；不要只看机票便宜。"
+      ],
+      "airfareCNY": null,
+      "airfareNote": "未查询指定日期机票；机场与中转仅为检索组合，不代表该日有航班或可售票。",
+      "transfer": [
+        "可检索多哈/迪拜/伊斯坦布尔等联程枢纽，实际是否可接到RAK/CMN依日期搜索"
+      ],
+      "scheduleChecked": false,
+      "modules": [
+        {
+          "name": "马拉喀什核心",
+          "days": 3,
+          "stops": [
+            "麦地那",
+            "巴伊亚宫/萨阿迪陵墓（开放时）",
+            "Majorelle片区"
+          ],
+          "logic": "老城与新城片区分开排；修缮中的建筑不要作为唯一重点。"
+        },
+        {
+          "name": "索维拉",
+          "days": 2,
+          "stops": [
+            "海港",
+            "老城城墙",
+            "海边与工艺小店"
+          ],
+          "logic": "安排至少一晚，更容易避开日归往返赶路。"
+        },
+        {
+          "name": "沙漠延伸",
+          "days": 3,
+          "stops": [
+            "阿特拉斯山路",
+            "瓦尔扎扎特/阿伊特本哈杜",
+            "梅尔祖卡"
+          ],
+          "logic": "属于长距离多日延伸；不能写成马拉喀什当天顺路往返。"
+        }
+      ]
+    },
+    "stay": {
+      "areas": [
+        {
+          "name": "麦地那边缘",
+          "reason": "氛围与接送折中"
+        },
+        {
+          "name": "Gueliz",
+          "reason": "道路、餐饮及打车更直观"
+        },
+        {
+          "name": "订前确认夜间接站、行李步行距离与热水供暖",
+          "reason": "按实际交通、房型与退改条件选择。"
+        }
+      ],
+      "roomLocal": [
+        600,
+        1100
+      ],
+      "roomCNYApprox": [
+        409,
+        751
+      ],
+      "currency": "MAD",
+      "upgradeRoomLocal": [
+        1100,
+        2200
+      ],
+      "unit": "每晚每间，2成人入住一间标准双人房",
+      "notes": [],
+      "status": "editorial-budget-estimate",
+      "estimatedAt": "2026-10-17"
+    },
+    "money": {
+      "currency": "MAD",
+      "rateCNY": 0.682324704,
+      "asOf": "2026-10-14",
+      "source": "https://api.nbp.pl/api/exchangerates/tables/a/2026-10-14/?format=json",
+      "sources": [
+        {
+          "id": "nbp-a14",
+          "title": "波兰央行NBP：2026-10-14 A表",
+          "url": "https://api.nbp.pl/api/exchangerates/tables/a/2026-10-14/?format=json",
+          "type": "central-bank-api",
+          "accessedAt": "2026-10-17",
+          "accessLevel": "api-json"
+        },
+        {
+          "id": "nbp-b14",
+          "title": "波兰央行NBP：2026-10-14 B表",
+          "url": "https://api.nbp.pl/api/exchangerates/tables/b/2026-10-14/?format=json",
+          "type": "central-bank-api",
+          "accessedAt": "2026-10-17",
+          "accessLevel": "api-json"
+        }
+      ],
+      "usage": "摩洛哥迪拉姆 MAD。酒店与部分商店支持国际卡；集市和不收卡的小店备当地现金。可在银行、正规兑换处或机场换汇，兑换时可能需要护照，提前询问手续费。",
+      "method": "NBP-mid-cross-PLN"
+    },
+    "packing": [
+      "防晒帽、太阳镜、透气长袖",
+      "晚间外套和便于步行的鞋",
+      "小面额现金、离线地图、常用充电转换头"
+    ],
+    "beforeYouGo": [
+      "Majorelle官方说明采用线上购票；由官方入口核时间段，不把第三方广告站当官网。",
+      "巴伊亚宫等古迹可能修缮，出行前查当期开放。",
+      "索维拉与沙漠交通先确认行李、接送点、是否含餐与车上时间。",
+      "参考资料显示：中国普通护照免签最多90天。",
+      "免签仍核护照、住宿、离境机票与旅费；经申根转机可能有拒登机风险。"
+    ],
+    "dayIdeas": [
+      {
+        "title": "红城第一天",
+        "morning": "由酒店协助抵达Riad，认清主路",
+        "afternoon": "麦地那与Souk Semmarine工艺铺",
+        "evening": "德吉玛广场用餐，走认好的回程路",
+        "tip": "拍人、引路和出租车先说清费用。"
+      },
+      {
+        "title": "庭院与设计",
+        "morning": "按预订时段参观Majorelle花园",
+        "afternoon": "开放中的YSL博物馆或Gueliz片区",
+        "evening": "回Riad屋顶喝茶",
+        "tip": "花园与博物馆休馆日可能不同。"
+      },
+      {
+        "title": "老城慢半天",
+        "morning": "巴伊亚宫或萨阿迪陵墓择一，先核修缮",
+        "afternoon": "摄影之家或秘密花园择一",
+        "evening": "轻松用餐休息",
+        "tip": "历史游记里的点不代表现在全部开放。"
+      },
+      {
+        "title": "索维拉过一夜",
+        "morning": "按预订交通前往索维拉",
+        "afternoon": "海港、老城与城墙慢行",
+        "evening": "住索维拉",
+        "tip": "海岸段和撒哈拉多日线不塞进同一天。"
+      }
+    ],
+    "sources": [
+      {
+        "id": "morocco-season",
+        "title": "摩洛哥国家旅游局气候与季节",
+        "url": "https://www.visitmorocco.com/en/travel-info/climate-and-seasons",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "search-excerpt"
+      },
+      {
+        "id": "marrakech-onmt",
+        "title": "摩洛哥国家旅游局：马拉喀什",
+        "url": "https://www.visitmorocco.com/fr/voyage/marrakech",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body"
+      },
+      {
+        "id": "majorelle",
+        "title": "Majorelle官方订票说明",
+        "url": "https://www.msl.ma/?lang=2",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "search-excerpt",
+        "caution": "搜索索引可读取官方在线购票要求；直接正文及Jina重试未成功。本轮不转录固定票价或营业时间。"
+      },
+      {
+        "id": "ctrip-marrakech",
+        "title": "携程：摩洛哥City Walk，花园、艺术与露天市场",
+        "url": "https://you.ctrip.com/travels/Morocco100132/4112006.html",
+        "type": "traveler",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body",
+        "publishedAt": "2023-09-11",
+        "caution": "个人路线与体验参考；不替代当前修缮、开放和票务公告。"
+      },
+      {
+        "id": "ctrip-morocco",
+        "title": "携程：多彩摩洛哥之旅",
+        "url": "https://you.ctrip.com/travels/morocco100132/3950896.html",
+        "type": "traveler",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body",
+        "caution": "参考老城定位、出租车议价与长途沙漠交通感受；不引用历史价格。"
+      },
+      {
+        "title": "摩洛哥国家旅游局：货币与支付",
+        "url": "https://www.visitmorocco.com/en/formalities",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "search-excerpt"
+      }
+    ],
+    "researchedAt": "2026-10-17"
+  },
+  "iceland": {
+    "headline": "",
+    "whyNow": "9—4月的黑夜让极光成为可能，白天以瀑布、火山地貌与城市为主。晴空、黑暗和太阳活动缺一不可；能看极光不代表适合冬季环岛自驾。",
+    "seasonDetail": "9—4月的黑夜让极光成为可能，白天以瀑布、火山地貌与城市为主。晴空、黑暗和太阳活动缺一不可；能看极光不代表适合冬季环岛自驾。",
+    "weather": [
+      "冰雪、强风、短日照会使地图车程失真。",
+      "黑沙滩有突袭浪及落石风险，服从封闭和警示，始终远离水边。",
+      "2026-10-17打开Safetravel时有当日及次日风雨警报，这是当日快照，不能泛化为全季状态。"
+    ],
+    "highlights": [
+      {
+        "name": "黄金圈",
+        "experience": "辛格维利尔、盖锡尔与黄金瀑布，是雷克雅未克向外的经典一日方向。",
+        "timing": "日间分区游，先确认道路状况",
+        "kind": "nature"
+      },
+      {
+        "name": "南岸至维克",
+        "experience": "塞里雅兰、斯科加与黑沙海岸可成多日线，冬季按日照缩短里程。",
+        "timing": "冬季分段安排，不赶夜路",
+        "kind": "nature"
+      },
+      {
+        "name": "雷克雅未克",
+        "experience": "港口、建筑、博物馆与地热体验，构成天气备用日。",
+        "timing": "抵达或天气备用日安排",
+        "kind": "culture"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "晴夜追光",
+        "detail": "在城市外避光，跟随云图与官方安全提醒；不要为拍照停在公路车道。"
+      },
+      {
+        "title": "冰川/冰洞向导活动",
+        "detail": "只选合规运营商并以当日可进入条件为准，不能自行进入冰川或洞体。"
+      },
+      {
+        "title": "城市与温泉备用",
+        "detail": "温泉设施可能因火山活动或天气调整，先确认运营并留可替代项目。"
+      }
+    ],
+    "route": {
+      "airports": [
+        "凯夫拉维克国际机场 KEF"
+      ],
+      "origins": [
+        "杭州萧山 HGH",
+        "上海浦东 PVG"
+      ],
+      "flightPlan": [
+        "国际到达优先KEF，别把市区国内机场RKV误当国际门户。",
+        "初次冬季驾驶可优先城市基地加小团；租车必须核保险、轮胎和道路条件。"
+      ],
+      "airfareCNY": null,
+      "airfareNote": "未查询指定日期机票；机场与中转仅为检索组合，不代表该日有航班或可售票。",
+      "transfer": [
+        "可检索哥本哈根/赫尔辛基等欧洲枢纽联程；经英国需另核过境要求"
+      ],
+      "scheduleChecked": false,
+      "modules": [
+        {
+          "name": "雷克雅未克",
+          "days": 2,
+          "stops": [
+            "港口",
+            "教堂周边",
+            "博物馆/地热体验"
+          ],
+          "logic": "抵达、休整和天气备用使用城市基地。"
+        },
+        {
+          "name": "黄金圈",
+          "days": 1,
+          "stops": [
+            "辛格维利尔",
+            "盖锡尔",
+            "黄金瀑布"
+          ],
+          "logic": "按天光和路况选一日团或合适驾驶安排。"
+        },
+        {
+          "name": "南岸往返",
+          "days": 3,
+          "stops": [
+            "塞里雅兰瀑布",
+            "斯科加瀑布",
+            "维克与黑沙海岸"
+          ],
+          "logic": "3天是规划模块，不保证冬季全部可达；不强推全环岛。"
+        }
+      ]
+    },
+    "stay": {
+      "areas": [
+        {
+          "name": "雷克雅未克",
+          "reason": "接团与餐饮方便"
+        },
+        {
+          "name": "维克",
+          "reason": "南岸分段落脚"
+        },
+        {
+          "name": "偏远酒店要确认晚餐、加油、冬季接送和取消条款",
+          "reason": "按实际交通、房型与退改条件选择。"
+        }
+      ],
+      "roomLocal": [
+        22000,
+        40000
+      ],
+      "roomCNYApprox": [
+        1215,
+        2209
+      ],
+      "currency": "ISK",
+      "upgradeRoomLocal": [
+        40000,
+        70000
+      ],
+      "unit": "每晚每间，2成人入住一间标准双人房",
+      "notes": [],
+      "status": "editorial-budget-estimate",
+      "estimatedAt": "2026-10-17"
+    },
+    "money": {
+      "currency": "ISK",
+      "rateCNY": 0.055213572,
+      "asOf": "2026-10-16",
+      "source": "https://api.nbp.pl/api/exchangerates/tables/a/2026-10-16/?format=json",
+      "sources": [
+        {
+          "id": "nbp-a16",
+          "title": "波兰央行NBP：2026-10-16 A表",
+          "url": "https://api.nbp.pl/api/exchangerates/tables/a/2026-10-16/?format=json",
+          "type": "central-bank-api",
+          "accessedAt": "2026-10-17",
+          "accessLevel": "api-json"
+        }
+      ],
+      "usage": "冰岛克朗 ISK。当地以刷卡为主，外币现金通常不能直接使用；租车、加油与自助设备要提前确认所持银行卡的支付与验证方式。",
+      "method": "NBP-mid-cross-PLN"
+    },
+    "packing": [
+      "速干/羊毛内层、保暖中层、防风防水外层",
+      "帽子手套、防水防滑鞋、备用袜",
+      "相机备用电池、保温水壶、泳衣（温泉开放时）"
+    ],
+    "beforeYouGo": [
+      "先订可取消住宿与有天气退改说明的活动。",
+      "出发前及每日查看Safetravel和道路信息，暴风取消路线。",
+      "极光、冰洞、温泉分别核开放；不要套用夏季景点全部可达的清单。",
+      "冰岛适用申根签证规则；未持有效申根签证时，应提前办理，日/韩签证不能替代。",
+      "核主要目的地递签、有效期、入境次数与90/180累计；转机国要求另查。"
+    ],
+    "dayIdeas": [
+      {
+        "title": "雷克雅未克落地日",
+        "morning": "抵达KEF并进城寄存行李",
+        "afternoon": "港口、建筑或博物馆",
+        "evening": "晴空和活动条件合适才追光",
+        "tip": "抵达日不赶南岸长途。"
+      },
+      {
+        "title": "黄金圈",
+        "morning": "查看Safetravel与道路后出发",
+        "afternoon": "辛格维利尔、盖锡尔、黄金瀑布按天光择重点",
+        "evening": "回住宿，条件合适看极光",
+        "tip": "冬季清单不代表任何天气均可达。"
+      },
+      {
+        "title": "南岸分段",
+        "morning": "瀑布按结冰和开放选择",
+        "afternoon": "向维克分段，黑沙海岸仅在允许区域观看",
+        "evening": "住南岸，减少夜间长途驾驶",
+        "tip": "远离水边、服从封闭，不背对海浪拍照。"
+      },
+      {
+        "title": "天气备用日",
+        "morning": "可通行时看返程途中一处景点",
+        "afternoon": "城市博物馆或开放中的地热体验",
+        "evening": "回返程衔接基地",
+        "tip": "冰洞与温泉都须有取消替代方案。"
+      }
+    ],
+    "sources": [
+      {
+        "id": "iceland-aurora",
+        "title": "冰岛旅游局：极光观察条件",
+        "url": "https://www.visiticeland.com/the-auroras/",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body"
+      },
+      {
+        "id": "iceland-driving",
+        "title": "冰岛旅游局：当地交通",
+        "url": "https://www.visiticeland.com/getting-around/",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "search-excerpt"
+      },
+      {
+        "id": "iceland-safety",
+        "title": "冰岛搜救协会Safetravel",
+        "url": "https://safetravel.is/",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body"
+      },
+      {
+        "id": "iceland-beach",
+        "title": "Safetravel：黑沙滩安全",
+        "url": "https://safetravel.is/travel-conditions/blackbeach-safety/",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body"
+      },
+      {
+        "id": "iceland-clothing",
+        "title": "Safetravel：户外衣物",
+        "url": "https://safetravel.is/outdoors/clothing/",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body"
+      },
+      {
+        "title": "雷克雅未克旅游局：货币与银行卡",
+        "url": "https://visitreykjavik.is/currency-credit-cards-and-banks",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "search-excerpt"
+      }
+    ],
+    "researchedAt": "2026-10-17"
+  },
+  "beijing-autumn": {
+    "headline": "",
+    "whyNow": "短秋把红墙古建与金黄色银杏叠在一起。历年常见重点是10月下旬至11月上中旬；市区、山地与不同树种转色并不同步。",
+    "seasonDetail": "短秋把红墙古建与金黄色银杏叠在一起。历年常见重点是10月下旬至11月上中旬；市区、山地与不同树种转色并不同步。",
+    "weather": [
+      "冷空气和大风可能让叶片迅速落下。",
+      "香山与近郊周末拥堵，预留往返时间。",
+      "秋季早晚冷且干燥，日间长距离步行。"
+    ],
+    "highlights": [
+      {
+        "name": "地坛—雍和宫—国子监",
+        "experience": "官方推荐的同区一日路线，可兼顾银杏、祭坛与街巷。",
+        "timing": "东城同区串联，一天不赶路",
+        "kind": "culture-nature"
+      },
+      {
+        "name": "五塔寺/北京石刻艺术博物馆",
+        "experience": "古塔、石刻与老银杏，适合慢看半日。",
+        "timing": "按预约安排半天",
+        "kind": "culture-nature"
+      },
+      {
+        "name": "故宫—景山",
+        "experience": "宫城与中轴视角构成人文核心，叶况不佳时仍值得去。",
+        "timing": "先锁故宫预约，再串联景山",
+        "kind": "culture"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "古建加银杏",
+        "detail": "让一处古建或博物馆加一段公园成为一天，不把所有秋色点跨城串联。"
+      },
+      {
+        "title": "胡同里的半天",
+        "detail": "选鼓楼、国子监等片区慢走，用茶馆、书店与餐食补足城市生活。"
+      },
+      {
+        "title": "西山单独一天",
+        "detail": "大觉寺/九峰或香山择一方向，山地交通与市区参观分开。"
+      }
+    ],
+    "route": {
+      "airports": [
+        "北京首都 PEK",
+        "北京大兴 PKX"
+      ],
+      "origins": [
+        "杭州萧山 HGH",
+        "上海浦东 PVG"
+      ],
+      "flightPlan": [
+        "机票比较PEK/PKX的进城与返程接驳，不只看票面。",
+        "住地铁沿线比追求每晚换到景点旁更适合短假。"
+      ],
+      "airfareCNY": null,
+      "airfareNote": "未查询指定日期机票；机场与中转仅为检索组合，不代表该日有航班或可售票。",
+      "transfer": [
+        "国内直达优先；同时比较杭州东—北京南高铁"
+      ],
+      "scheduleChecked": false,
+      "modules": [
+        {
+          "name": "中轴文化",
+          "days": 1,
+          "stops": [
+            "故宫（预约成功）",
+            "景山",
+            "北海周边"
+          ],
+          "logic": "故宫只能按官方入口与预约时段进入，出院后顺接北侧。"
+        },
+        {
+          "name": "东城秋色",
+          "days": 1,
+          "stops": [
+            "地坛",
+            "雍和宫",
+            "孔庙/国子监"
+          ],
+          "logic": "同区公共交通与步行组合。"
+        },
+        {
+          "name": "海淀或西山",
+          "days": 1,
+          "stops": [
+            "五塔寺/石刻博物馆",
+            "或大觉寺—九峰"
+          ],
+          "logic": "海淀与西山二选一，近郊车程留余量，先核开放。"
+        }
+      ]
+    },
+    "stay": {
+      "areas": [
+        {
+          "name": "东四/王府井周边",
+          "reason": "古城与地铁"
+        },
+        {
+          "name": "鼓楼/雍和宫附近",
+          "reason": "街巷体验"
+        },
+        {
+          "name": "国庆及热门周末可显著超出预算",
+          "reason": "按实际交通、房型与退改条件选择。"
+        }
+      ],
+      "roomLocal": [
+        400,
+        800
+      ],
+      "roomCNYApprox": [
+        400,
+        800
+      ],
+      "currency": "CNY",
+      "upgradeRoomLocal": [
+        800,
+        1600
+      ],
+      "unit": "每晚每间，2成人入住一间标准双人房",
+      "notes": [
+        "封面摄影为故宫秋色；照片不代表所选日期的即时叶况。"
+      ],
+      "status": "editorial-budget-estimate",
+      "estimatedAt": "2026-10-17"
+    },
+    "money": {
+      "currency": "CNY",
+      "rateCNY": 1,
+      "asOf": "2026-10-17",
+      "source": null,
+      "sources": [],
+      "usage": "国内使用人民币；可使用常见移动支付，同时备少量现金。酒店及交通均需有效身份证件。",
+      "method": "same-currency"
+    },
+    "packing": [
+      "可叠穿外套、薄羽绒或抓绒",
+      "舒适步行鞋、保湿用品",
+      "有效身份证、充电宝、轻便水壶"
+    ],
+    "beforeYouGo": [
+      "故宫、重点博物馆先预约，再排其他日程；周一开放以当期公告核。",
+      "故宫午门是唯一参观入口，不能照旧游记从东华门入院。",
+      "部分近郊古建开放有限，先确认再出发。",
+      "国内行程使用有效身份证件；实名预约姓名、证件与交通住宿订单一致。"
+    ],
+    "dayIdeas": [
+      {
+        "title": "中轴与宫城",
+        "morning": "按预约从午门入故宫",
+        "afternoon": "故宫后半段，出院顺接景山或北海",
+        "evening": "胡同或老城餐食",
+        "tip": "预约不成功换博物馆；不能从东华门入院。"
+      },
+      {
+        "title": "地坛与国子监",
+        "morning": "地坛按实际银杏转色慢走",
+        "afternoon": "雍和宫、孔庙/国子监按开放择重点",
+        "evening": "国子监街区用餐",
+        "tip": "同区步行与地铁组合。"
+      },
+      {
+        "title": "五塔寺或西山",
+        "morning": "预约石刻艺术博物馆，或单独前往西山",
+        "afternoon": "古建与树荫慢看，提前回城",
+        "evening": "回酒店或返程",
+        "tip": "近郊古建先核开放和预约，避免为追一处秋色来回折返。"
+      }
+    ],
+    "sources": [
+      {
+        "id": "beijing-autumn",
+        "title": "北京市官方：古建秋色十条路线",
+        "url": "https://english.beijing.gov.cn/travellinginbeijing/citytours/202510/t20251027_4240847.html",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body",
+        "publishedAt": "2025-10-27",
+        "caution": "常年路线参考，不将2025叶况直接作为2026结果。"
+      },
+      {
+        "id": "beijing-ginkgo",
+        "title": "北京市官方：公园秋色指南",
+        "url": "https://english.beijing.gov.cn/consuminginbeijing/mostpopular/202510/t20251023_4236509.html?v=jt",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "search-excerpt",
+        "publishedAt": "2025-10-23"
+      },
+      {
+        "id": "forbidden-city",
+        "title": "故宫博物院预约须知",
+        "url": "https://www.dpm.org.cn/subject_booking/",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "search-excerpt",
+        "caution": "官方搜索索引明确午门为唯一参观入口；直接打开及Jina正文获取未成功，未把放票时刻标为本次已核。"
+      },
+      {
+        "id": "ctrip-beijing",
+        "title": "携程旅行者：北京金秋8日游",
+        "url": "https://you.ctrip.com/travels/beijing1/4017043.html",
+        "type": "traveler",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body",
+        "publishedAt": "2021-06-17",
+        "caution": "只参考地坛、五塔寺与市区分区节奏；文中东华门入院等旧建议不采用，以故宫官网午门入院规则为准。"
+      }
+    ],
+    "researchedAt": "2026-10-17"
+  },
+  "kyoto-spring": {
+    "headline": "",
+    "whyNow": "樱花是短暂的城市季节体验，常年3月下旬至4月中旬关注，但品种、地点与当年气温会改变花期；有早樱、染井吉野及较晚品种可分散风险。",
+    "seasonDetail": "樱花是短暂的城市季节体验，常年3月下旬至4月中旬关注，但品种、地点与当年气温会改变花期；有早樱、染井吉野及较晚品种可分散风险。",
+    "weather": [
+      "春雨和升温可使花期明显变化。",
+      "花季拥挤，公交和行李拖行影响效率。"
+    ],
+    "highlights": [
+      {
+        "name": "哲学之道/冈崎疏水",
+        "experience": "水边樱树与街区可串联，适合慢行。",
+        "timing": "早晨沿水岸慢行，按花况择点",
+        "kind": "nature"
+      },
+      {
+        "name": "东山与祇园白川",
+        "experience": "古建、石板路和河道让人文体验与花景并存。",
+        "timing": "清晨到东山，傍晚回河岸",
+        "kind": "culture-nature"
+      },
+      {
+        "name": "宇治",
+        "experience": "茶文化、河岸与古建可替代连续追花。",
+        "timing": "可从京都安排一日往返",
+        "kind": "culture"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "庭园看不同品种",
+        "detail": "不把全程押在单一满开日，按当年花况改点。"
+      },
+      {
+        "title": "茶与手作",
+        "detail": "预约茶体验或工艺课程，作为雨天和花期偏差时的稳定体验。"
+      }
+    ],
+    "route": {
+      "airports": [
+        "关西国际机场 KIX"
+      ],
+      "origins": [
+        "杭州萧山 HGH",
+        "上海浦东 PVG"
+      ],
+      "flightPlan": [
+        "HGH/PVG—KIX后铁路到京都；周末与假期先锁可退酒店。"
+      ],
+      "airfareCNY": null,
+      "airfareNote": "未查询指定日期机票；机场与中转仅为检索组合，不代表该日有航班或可售票。",
+      "transfer": [
+        "直达无合适班次时检索日本枢纽联程"
+      ],
+      "scheduleChecked": false,
+      "modules": [
+        {
+          "name": "东山与河道",
+          "days": 2,
+          "stops": [
+            "冈崎",
+            "哲学之道",
+            "东山/白川"
+          ],
+          "logic": "按实际花况在同片区换点。"
+        },
+        {
+          "name": "岚山或宇治",
+          "days": 1,
+          "stops": [
+            "岚山",
+            "或宇治"
+          ],
+          "logic": "一天选一个方向。"
+        }
+      ]
+    },
+    "stay": {
+      "areas": [
+        {
+          "name": "京都站",
+          "reason": "按实际交通、房型与退改条件选择。"
+        },
+        {
+          "name": "四条/三条",
+          "reason": "按实际交通、房型与退改条件选择。"
+        }
+      ],
+      "roomLocal": [
+        14000,
+        28000
+      ],
+      "roomCNYApprox": [
+        593,
+        1185
+      ],
+      "currency": "JPY",
+      "upgradeRoomLocal": [
+        28000,
+        60000
+      ],
+      "unit": "每晚每间，2成人入住一间标准双人房",
+      "notes": [],
+      "status": "editorial-budget-estimate",
+      "estimatedAt": "2026-10-17"
+    },
+    "money": {
+      "currency": "JPY",
+      "rateCNY": 0.042325181,
+      "asOf": "2026-10-16",
+      "source": "https://api.nbp.pl/api/exchangerates/tables/a/2026-10-16/?format=json",
+      "sources": [
+        {
+          "id": "nbp-a16",
+          "title": "波兰央行NBP：2026-10-16 A表",
+          "url": "https://api.nbp.pl/api/exchangerates/tables/a/2026-10-16/?format=json",
+          "type": "central-bank-api",
+          "accessedAt": "2026-10-17",
+          "accessLevel": "api-json"
+        }
+      ],
+      "usage": "日元 JPY。多数商店可刷卡，但小店、寺院与部分交通仍需现金；交通IC卡可用于许多乘车与小额支付。提前向发卡行确认境外刷卡与取现条件。",
+      "method": "NBP-mid-cross-PLN"
+    },
+    "packing": [
+      "轻保暖外套与雨具",
+      "步行鞋与干净袜子",
+      "可重复使用水瓶、零钱包"
+    ],
+    "beforeYouGo": [
+      "临近出发查看官方花况，不用旧年满开日保证今年。",
+      "热门庭园、夜樱和餐厅逐项确认预约。",
+      "如已持有日本签证，请核对到期日、允许入境次数及每次停留天数；未持签需提前申请。",
+      "不要把日本有效签证自动视作其他目的地通行权；按实际入境日期核验。"
+    ],
+    "dayIdeas": [
+      {
+        "title": "哲学之道/冈崎疏水体验日",
+        "morning": "水边樱树与街区可串联，适合慢行。",
+        "afternoon": "庭园看不同品种：不把全程押在单一满开日，按当年花况改点。",
+        "evening": "白川或鸭川街区慢行；当年开放夜樱有票时再加入。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      },
+      {
+        "title": "东山与祇园白川体验日",
+        "morning": "古建、石板路和河道让人文体验与花景并存。",
+        "afternoon": "茶与手作：预约茶体验或工艺课程，作为雨天和花期偏差时的稳定体验。",
+        "evening": "白川或鸭川街区慢行；当年开放夜樱有票时再加入。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      },
+      {
+        "title": "宇治体验日",
+        "morning": "茶文化、河岸与古建可替代连续追花。",
+        "afternoon": "茶与手作：预约茶体验或工艺课程，作为雨天和花期偏差时的稳定体验。",
+        "evening": "白川或鸭川街区慢行；当年开放夜樱有票时再加入。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      }
+    ],
+    "sources": [
+      {
+        "id": "jnto-sakura",
+        "title": "日本国家旅游局樱花专题",
+        "url": "https://www.japan.travel/en/au/experience/cherry-blossoms/",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body"
+      },
+      {
+        "id": "mafengwo-kyoto",
+        "title": "马蜂窝京都旅行攻略（历史版）",
+        "url": "https://bigfile.mafengwo.net/s7/M00/6F/42/wKgB6lTQQLeAXfrEAIshlAcNOZA211.pdf",
+        "type": "traveler",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body",
+        "publishedAt": "2015-01",
+        "caution": "只参考同区串联与文化体验，不沿用票价、公交券、汇率和2015设施信息。"
+      },
+      {
+        "title": "日本国家旅游局：现金与刷卡",
+        "url": "https://www.japan.travel/en/plan/faq/",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "search-excerpt"
+      }
+    ],
+    "researchedAt": "2026-10-17"
+  },
+  "nyingchi": {
+    "headline": "",
+    "whyNow": "雪山、河谷和野生桃树同框，是林芝春季的独特层次。西藏文旅厅列常年盛花约3月下旬到4月上旬，嘎拉、波密等区域花况要分别查。",
+    "seasonDetail": "雪山、河谷和野生桃树同框，是林芝春季的独特层次。西藏文旅厅列常年盛花约3月下旬到4月上旬，嘎拉、波密等区域花况要分别查。",
+    "weather": [
+      "高海拔与山路雨雪；首日不安排强度徒步。",
+      "是否看到南迦巴瓦等远山取决于云量，不作保证。"
+    ],
+    "highlights": [
+      {
+        "name": "嘎拉桃花村",
+        "experience": "靠近八一城区的桃林方向，方便与休整日组合。",
+        "timing": "清晨与傍晚更适合慢看",
+        "kind": "nature"
+      },
+      {
+        "name": "尼洋河沿线",
+        "experience": "河谷、村落与远山有较多慢行空间。",
+        "timing": "与同区体验组合，留足交通时间",
+        "kind": "nature"
+      },
+      {
+        "name": "波密桃花沟",
+        "experience": "作为独立河谷段住下，不把长距离往返塞成半天。",
+        "timing": "作为独立区域安排，不强行赶路",
+        "kind": "culture-nature"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "住在河谷慢看",
+        "detail": "留清晨与傍晚，村落拍摄前尊重居民。"
+      },
+      {
+        "title": "按花况改路线",
+        "detail": "先安排八一基地，再决定去波密或其他河谷。"
+      }
+    ],
+    "route": {
+      "airports": [
+        "林芝米林 LZY",
+        "拉萨贡嘎 LXA（备选，需另算铁路/公路）"
+      ],
+      "origins": [
+        "杭州萧山 HGH",
+        "上海浦东 PVG"
+      ],
+      "flightPlan": [
+        "优先比较到LZY的联程；经拉萨并不等于省交通日。",
+        "山区航班易受天气影响，返程不衔接紧迫国际航班。"
+      ],
+      "airfareCNY": null,
+      "airfareNote": "未查询指定日期机票；机场与中转仅为检索组合，不代表该日有航班或可售票。",
+      "transfer": [
+        "检索成都/重庆/西安等国内枢纽至LZY；是否直飞按出行日确认"
+      ],
+      "scheduleChecked": false,
+      "modules": [
+        {
+          "name": "八一与近郊",
+          "days": 2,
+          "stops": [
+            "嘎拉",
+            "尼洋河",
+            "八一城区"
+          ],
+          "logic": "先低强度休整，再按花况选点。"
+        },
+        {
+          "name": "波密河谷",
+          "days": 2,
+          "stops": [
+            "波密",
+            "桃花沟周边"
+          ],
+          "logic": "至少安排过夜，保留山路和天气余量。"
+        }
+      ]
+    },
+    "stay": {
+      "areas": [
+        {
+          "name": "八一城区",
+          "reason": "补给与休整"
+        },
+        {
+          "name": "波密县城",
+          "reason": "长线分段"
+        },
+        {
+          "name": "热门桃花村民宿须确认供暖、热水与取消政策",
+          "reason": "按实际交通、房型与退改条件选择。"
+        }
+      ],
+      "roomLocal": [
+        280,
+        550
+      ],
+      "roomCNYApprox": [
+        280,
+        550
+      ],
+      "currency": "CNY",
+      "upgradeRoomLocal": [
+        550,
+        1000
+      ],
+      "unit": "每晚每间，2成人入住一间标准双人房",
+      "notes": [],
+      "status": "editorial-budget-estimate",
+      "estimatedAt": "2026-10-17"
+    },
+    "money": {
+      "currency": "CNY",
+      "rateCNY": 1,
+      "asOf": "2026-10-17",
+      "source": null,
+      "sources": [],
+      "usage": "国内使用人民币；可使用常见移动支付，同时备少量现金。酒店及交通均需有效身份证件。",
+      "method": "same-currency"
+    },
+    "packing": [
+      "保暖中层与防风外套",
+      "防晒帽、墨镜、防滑鞋",
+      "身份证件与备用现金"
+    ],
+    "beforeYouGo": [
+      "桃花节具体日期等待当年官方公告。",
+      "用正规司机和合适车辆，山路不开夜车。",
+      "国内行程使用有效身份证件；实名预约姓名、证件与交通住宿订单一致。"
+    ],
+    "dayIdeas": [
+      {
+        "title": "嘎拉桃花村体验日",
+        "morning": "靠近八一城区的桃林方向，方便与休整日组合。",
+        "afternoon": "住在河谷慢看：留清晨与傍晚，村落拍摄前尊重居民。",
+        "evening": "住河谷休整，山区不赶夜路。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      },
+      {
+        "title": "尼洋河沿线体验日",
+        "morning": "河谷、村落与远山有较多慢行空间。",
+        "afternoon": "按花况改路线：先安排八一基地，再决定去波密或其他河谷。",
+        "evening": "住河谷休整，山区不赶夜路。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      },
+      {
+        "title": "波密桃花沟体验日",
+        "morning": "作为独立河谷段住下，不把长距离往返塞成半天。",
+        "afternoon": "按花况改路线：先安排八一基地，再决定去波密或其他河谷。",
+        "evening": "住河谷休整，山区不赶夜路。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      }
+    ],
+    "sources": [
+      {
+        "id": "nyingchi-season",
+        "title": "西藏文旅厅：林芝桃花时间与地点",
+        "url": "https://wlt.xizang.gov.cn/xwzx_69/xydt/202202/t20220210_284057.html",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body",
+        "publishedAt": "2022-02-10",
+        "caution": "常年花期与地名参考，不能当作2027桃花节官宣。"
+      }
+    ],
+    "researchedAt": "2026-10-17"
+  },
+  "arrowtown-autumn": {
+    "headline": "",
+    "whyNow": "南半球3—5月为秋季，箭镇官方特别提到4—5月落叶树染色。湖岸、矿镇历史和葡萄园可组合，适合轻徒步与人文慢行。",
+    "seasonDetail": "南半球3—5月为秋季，箭镇官方特别提到4—5月落叶树染色。湖岸、矿镇历史和葡萄园可组合，适合轻徒步与人文慢行。",
+    "weather": [
+      "秋晨接近冰点的可能性，山地与湖岸体感不同。",
+      "高山步道与山口可能遇雪，不把轻徒步与登山混写。"
+    ],
+    "highlights": [
+      {
+        "name": "箭河与箭镇街区",
+        "experience": "河岸步道、老建筑和层叠秋色。",
+        "timing": "清晨与傍晚更适合慢看",
+        "kind": "culture-nature"
+      },
+      {
+        "name": "箭镇华人聚落",
+        "experience": "DOC有中英解说的矿工历史遗址，可短步行参观。",
+        "timing": "与同区体验组合，留足交通时间",
+        "kind": "culture"
+      },
+      {
+        "name": "皇后镇—瓦纳卡",
+        "experience": "湖泊与山坡作为南岛路线的另一段。",
+        "timing": "作为独立区域安排，不强行赶路",
+        "kind": "nature"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "秋色河岸慢行",
+        "detail": "不必为了拍照每天开很远。"
+      },
+      {
+        "title": "华人淘金史",
+        "detail": "阅读遗址解说而非只拍老房子。"
+      },
+      {
+        "title": "Gibbston葡萄园",
+        "detail": "酒庄体验需预约；饮酒日不自己驾车。"
+      }
+    ],
+    "route": {
+      "airports": [
+        "皇后镇 ZQN",
+        "基督城 CHC",
+        "奥克兰 AKL（国际中转）"
+      ],
+      "origins": [
+        "杭州萧山 HGH",
+        "上海浦东 PVG"
+      ],
+      "flightPlan": [
+        "九天左右优先ZQN进出；CHC进出会增加南岛地面交通。",
+        "国际转国内的入境、行李和接续给足余量；经澳洲须另核转机签证。"
+      ],
+      "airfareCNY": null,
+      "airfareNote": "未查询指定日期机票；机场与中转仅为检索组合，不代表该日有航班或可售票。",
+      "transfer": [
+        "HGH/PVG—AKL—ZQN，或到CHC后走南岛；候选组合未查航班"
+      ],
+      "scheduleChecked": false,
+      "modules": [
+        {
+          "name": "皇后镇与箭镇",
+          "days": 3,
+          "stops": [
+            "皇后镇湖岸",
+            "箭镇",
+            "华人聚落"
+          ],
+          "logic": "以同一基地安排短距离日归。"
+        },
+        {
+          "name": "瓦纳卡",
+          "days": 2,
+          "stops": [
+            "湖岸",
+            "低强度步道"
+          ],
+          "logic": "与皇后镇分段过夜；不默认人人适合高山长线。"
+        }
+      ]
+    },
+    "stay": {
+      "areas": [
+        {
+          "name": "皇后镇外围",
+          "reason": "停车与空间"
+        },
+        {
+          "name": "箭镇",
+          "reason": "安静历史街区"
+        },
+        {
+          "name": "瓦纳卡",
+          "reason": "湖区分段"
+        }
+      ],
+      "roomLocal": [
+        180,
+        320
+      ],
+      "roomCNYApprox": [
+        683,
+        1213
+      ],
+      "currency": "NZD",
+      "upgradeRoomLocal": [
+        320,
+        550
+      ],
+      "unit": "每晚每间，2成人入住一间标准双人房",
+      "notes": [],
+      "status": "editorial-budget-estimate",
+      "estimatedAt": "2026-10-17"
+    },
+    "money": {
+      "currency": "NZD",
+      "rateCNY": 3.791767137,
+      "asOf": "2026-10-16",
+      "source": "https://api.nbp.pl/api/exchangerates/tables/a/2026-10-16/?format=json",
+      "sources": [
+        {
+          "id": "nbp-a16",
+          "title": "波兰央行NBP：2026-10-16 A表",
+          "url": "https://api.nbp.pl/api/exchangerates/tables/a/2026-10-16/?format=json",
+          "type": "central-bank-api",
+          "accessedAt": "2026-10-17",
+          "accessLevel": "api-json"
+        }
+      ],
+      "usage": "出发前向发卡行确认所持卡能否在目的地使用、境外取现费用及验证方式；酒店押金、租车预授权与小额现金分开准备。具体结算以商户与银行规则为准。",
+      "method": "NBP-mid-cross-PLN"
+    },
+    "packing": [
+      "保暖层、防风防水外套",
+      "抓地步行鞋、太阳镜、防晒",
+      "合规驾照/翻译（自驾时）"
+    ],
+    "beforeYouGo": [
+      "先订可退酒店、租车和高需求活动。",
+      "自驾核合规驾照翻译、左侧通行与山路天气；不熟悉者选当地团。",
+      "未持有效新西兰签证时，应提前申请适用的访客签证。",
+      "最长5年不保证，停留与护照条件看批签；中文材料按要求附译文。"
+    ],
+    "dayIdeas": [
+      {
+        "title": "箭河与箭镇街区体验日",
+        "morning": "河岸步道、老建筑和层叠秋色。",
+        "afternoon": "秋色河岸慢行：不必为了拍照每天开很远。",
+        "evening": "回湖区基地或箭镇用餐，给次日山路天气留空间。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      },
+      {
+        "title": "箭镇华人聚落体验日",
+        "morning": "DOC有中英解说的矿工历史遗址，可短步行参观。",
+        "afternoon": "华人淘金史：阅读遗址解说而非只拍老房子。",
+        "evening": "回湖区基地或箭镇用餐，给次日山路天气留空间。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      },
+      {
+        "title": "皇后镇—瓦纳卡体验日",
+        "morning": "湖泊与山坡作为南岛路线的另一段。",
+        "afternoon": "Gibbston葡萄园：酒庄体验需预约；饮酒日不自己驾车。",
+        "evening": "回湖区基地或箭镇用餐，给次日山路天气留空间。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      }
+    ],
+    "sources": [
+      {
+        "id": "nz-season",
+        "title": "新西兰旅游局：四季",
+        "url": "https://www.newzealand.com/uk/seasons-in-new-zealand/",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body"
+      },
+      {
+        "id": "arrowtown",
+        "title": "皇后镇官方：箭镇",
+        "url": "https://www.queenstownnz.co.nz/plan/surrounding-region/arrowtown/",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body",
+        "caution": "页面常年秋色信息可参考，秋季节庆的具体当年日期需另查。"
+      },
+      {
+        "id": "arrowtown-chinese",
+        "title": "新西兰DOC：箭镇华人矿工聚落",
+        "url": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/arrowtown-area/things-to-do/arrowtown-chinese-settlement/",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body"
+      }
+    ],
+    "researchedAt": "2026-10-17"
+  },
+  "harbin": {
+    "headline": "",
+    "whyNow": "冰雪雕塑与俄式建筑、音乐和饮食共同构成冬季城市体验。12月底至2月只是常年关注窗口，冰雪景区每年开园与闭园受气温和运营决定。",
+    "seasonDetail": "冰雪雕塑与俄式建筑、音乐和饮食共同构成冬季城市体验。12月底至2月只是常年关注窗口，冰雪景区每年开园与闭园受气温和运营决定。",
+    "weather": [
+      "严寒、冰面湿滑与相机/手机掉电。",
+      "不要把未管理的江面当作可随意进入的活动区。"
+    ],
+    "highlights": [
+      {
+        "name": "冰雪艺术景区",
+        "experience": "把日景和亮灯后效果作为同一参观段，需当年开园。",
+        "timing": "清晨与傍晚更适合慢看",
+        "kind": "culture-nature"
+      },
+      {
+        "name": "中央大街—松花江沿线",
+        "experience": "建筑、城市街景与冬季河岸。",
+        "timing": "与同区体验组合，留足交通时间",
+        "kind": "culture"
+      },
+      {
+        "name": "圣索菲亚周边与博物馆",
+        "experience": "室内外穿插，减少持续暴露在寒冷中的时间。",
+        "timing": "作为独立区域安排，不强行赶路",
+        "kind": "culture"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "黄昏看冰雕",
+        "detail": "预留换衣和热饮休整，别连续全天户外。"
+      },
+      {
+        "title": "音乐与本地饮食",
+        "detail": "用室内演出、博物馆和东北菜作为低温备用。"
+      }
+    ],
+    "route": {
+      "airports": [
+        "哈尔滨太平 HRB"
+      ],
+      "origins": [
+        "杭州萧山 HGH",
+        "上海浦东 PVG"
+      ],
+      "flightPlan": [
+        "冬季航班与城市路面可能受雪影响，回程留余量。"
+      ],
+      "airfareCNY": null,
+      "airfareNote": "未查询指定日期机票；机场与中转仅为检索组合，不代表该日有航班或可售票。",
+      "transfer": [
+        "优先检索HGH/PVG—HRB直达，具体班次按日期查询"
+      ],
+      "scheduleChecked": false,
+      "modules": [
+        {
+          "name": "城市建筑",
+          "days": 1,
+          "stops": [
+            "中央大街",
+            "索菲亚周边",
+            "室内博物馆"
+          ],
+          "logic": "分段室内休整。"
+        },
+        {
+          "name": "冰雪景区",
+          "days": 1,
+          "stops": [
+            "当年开放的冰雪艺术园区"
+          ],
+          "logic": "独立留出下午至夜间，不绑定未发布开园日。"
+        }
+      ]
+    },
+    "stay": {
+      "areas": [
+        {
+          "name": "中央大街或地铁沿线",
+          "reason": "按实际交通、房型与退改条件选择。"
+        },
+        {
+          "name": "房间供暖、窗户隔音和到景区接驳应提前问清",
+          "reason": "按实际交通、房型与退改条件选择。"
+        }
+      ],
+      "roomLocal": [
+        300,
+        700
+      ],
+      "roomCNYApprox": [
+        300,
+        700
+      ],
+      "currency": "CNY",
+      "upgradeRoomLocal": [
+        700,
+        1500
+      ],
+      "unit": "每晚每间，2成人入住一间标准双人房",
+      "notes": [],
+      "status": "editorial-budget-estimate",
+      "estimatedAt": "2026-10-17"
+    },
+    "money": {
+      "currency": "CNY",
+      "rateCNY": 1,
+      "asOf": "2026-10-17",
+      "source": null,
+      "sources": [],
+      "usage": "国内使用人民币；可使用常见移动支付，同时备少量现金。酒店及交通均需有效身份证件。",
+      "method": "same-currency"
+    },
+    "packing": [
+      "长款羽绒、保暖内层、帽子围脖厚手套",
+      "保暖防滑靴与羊毛袜",
+      "电池贴身保温、备用袜与暖贴"
+    ],
+    "beforeYouGo": [
+      "当年开园、票务、预约与室外项目以官方公告为准。",
+      "旧季资料不能证明2026—2027已开园。",
+      "国内行程使用有效身份证件；实名预约姓名、证件与交通住宿订单一致。"
+    ],
+    "dayIdeas": [
+      {
+        "title": "冰雪艺术景区体验日",
+        "morning": "把日景和亮灯后效果作为同一参观段，需当年开园。",
+        "afternoon": "黄昏看冰雕：预留换衣和热饮休整，别连续全天户外。",
+        "evening": "室内用餐与保暖休整；冰雪园区亮灯日另排完整段。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      },
+      {
+        "title": "中央大街—松花江沿线体验日",
+        "morning": "建筑、城市街景与冬季河岸。",
+        "afternoon": "音乐与本地饮食：用室内演出、博物馆和东北菜作为低温备用。",
+        "evening": "室内用餐与保暖休整；冰雪园区亮灯日另排完整段。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      },
+      {
+        "title": "圣索菲亚周边与博物馆体验日",
+        "morning": "室内外穿插，减少持续暴露在寒冷中的时间。",
+        "afternoon": "音乐与本地饮食：用室内演出、博物馆和东北菜作为低温备用。",
+        "evening": "室内用餐与保暖休整；冰雪园区亮灯日另排完整段。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      }
+    ],
+    "sources": [
+      {
+        "id": "harbin-season",
+        "title": "黑龙江省政府：2025—2026哈尔滨冰雪季",
+        "url": "https://www.hlj.gov.cn/hlj/c107858/202511/c00_31886374.shtml",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body",
+        "caution": "上一冰雪季资料，不能据此宣布2026—2027冰雪大世界开园。"
+      }
+    ],
+    "researchedAt": "2026-10-17"
+  },
+  "nalati": {
+    "headline": "",
+    "whyNow": "初夏至夏季的草甸、山花、云杉与雪山层次丰富，但暑期客流集中。核心在空中草原和河谷，不必为了“全伊犁”每天长距离搬家。",
+    "seasonDetail": "初夏至夏季的草甸、山花、云杉与雪山层次丰富，但暑期客流集中。核心在空中草原和河谷，不必为了“全伊犁”每天长距离搬家。",
+    "weather": [
+      "草原天气变化快，山路与盘山公路留雨天余量。",
+      "7—8月高峰客流与车流明显，不把日均静态车程当保证。"
+    ],
+    "highlights": [
+      {
+        "name": "空中草原",
+        "experience": "高处草甸与雪山视野，按景区当日路线开放。",
+        "timing": "清晨与傍晚更适合慢看",
+        "kind": "nature"
+      },
+      {
+        "name": "巩乃斯河谷方向",
+        "experience": "河谷、云杉与湿润草地形成另一种尺度。",
+        "timing": "与同区体验组合，留足交通时间",
+        "kind": "nature"
+      },
+      {
+        "name": "伊宁街区",
+        "experience": "若进出机场在伊宁，可留六星街等城市生活体验。",
+        "timing": "作为独立区域安排，不强行赶路",
+        "kind": "culture"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "草原短步道",
+        "detail": "选择官方开放路线，避免踏入牧场和湿地敏感区。"
+      },
+      {
+        "title": "在镇上过夜",
+        "detail": "清晨再进入景区，减少当天从伊宁往返的疲劳。"
+      }
+    ],
+    "route": {
+      "airports": [
+        "伊宁 YIN",
+        "新源那拉提 NLT（季节航班待查）",
+        "乌鲁木齐 URC（转机门户）"
+      ],
+      "origins": [
+        "杭州萧山 HGH",
+        "上海浦东 PVG"
+      ],
+      "flightPlan": [
+        "NLT近于目的地区域但不能假定全年有合适班次；YIN需再安排长距离地面交通。"
+      ],
+      "airfareCNY": null,
+      "airfareNote": "未查询指定日期机票；机场与中转仅为检索组合，不代表该日有航班或可售票。",
+      "transfer": [
+        "HGH/PVG—URC—YIN或NLT，或检索直达YIN；均按旅行日核班次"
+      ],
+      "scheduleChecked": false,
+      "modules": [
+        {
+          "name": "那拉提",
+          "days": 2,
+          "stops": [
+            "空中草原",
+            "河谷路线"
+          ],
+          "logic": "景区接驳和进出时间单独计入。"
+        },
+        {
+          "name": "伊宁衔接",
+          "days": 1,
+          "stops": [
+            "六星街/城市街区",
+            "市集与饮食"
+          ],
+          "logic": "只在航班进出方向合理时加入，不为了景点数量绕行。"
+        }
+      ]
+    },
+    "stay": {
+      "areas": [
+        {
+          "name": "那拉提镇",
+          "reason": "进景区便利"
+        },
+        {
+          "name": "新源县城",
+          "reason": "补给与价格折中"
+        },
+        {
+          "name": "伊宁",
+          "reason": "作为进出衔接"
+        }
+      ],
+      "roomLocal": [
+        300,
+        650
+      ],
+      "roomCNYApprox": [
+        300,
+        650
+      ],
+      "currency": "CNY",
+      "upgradeRoomLocal": [
+        650,
+        1200
+      ],
+      "unit": "每晚每间，2成人入住一间标准双人房",
+      "notes": [
+        "原data.mjs季节链接正文讲和静巩乃斯，并非那拉提景区；此处使用新源县政府对应景区信息。"
+      ],
+      "status": "editorial-budget-estimate",
+      "estimatedAt": "2026-10-17"
+    },
+    "money": {
+      "currency": "CNY",
+      "rateCNY": 1,
+      "asOf": "2026-10-17",
+      "source": null,
+      "sources": [],
+      "usage": "国内使用人民币；可使用常见移动支付，同时备少量现金。酒店及交通均需有效身份证件。",
+      "method": "same-currency"
+    },
+    "packing": [
+      "防风雨外套、薄保暖层",
+      "防晒帽、长裤、抓地鞋",
+      "饮水和离线地图"
+    ],
+    "beforeYouGo": [
+      "核门票、区间车与自驾票是不是同一产品，不能买门票就默认能把私家车开进去。",
+      "暑期先订住宿、车辆与接送，景区现场服从分流。",
+      "国内行程使用有效身份证件；实名预约姓名、证件与交通住宿订单一致。"
+    ],
+    "dayIdeas": [
+      {
+        "title": "空中草原体验日",
+        "morning": "高处草甸与雪山视野，按景区当日路线开放。",
+        "afternoon": "草原短步道：选择官方开放路线，避免踏入牧场和湿地敏感区。",
+        "evening": "回那拉提镇休整；伊宁段留作机场衔接日。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      },
+      {
+        "title": "巩乃斯河谷方向体验日",
+        "morning": "河谷、云杉与湿润草地形成另一种尺度。",
+        "afternoon": "在镇上过夜：清晨再进入景区，减少当天从伊宁往返的疲劳。",
+        "evening": "回那拉提镇休整；伊宁段留作机场衔接日。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      },
+      {
+        "title": "伊宁街区体验日",
+        "morning": "若进出机场在伊宁，可留六星街等城市生活体验。",
+        "afternoon": "在镇上过夜：清晨再进入景区，减少当天从伊宁往返的疲劳。",
+        "evening": "回那拉提镇休整；伊宁段留作机场衔接日。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      }
+    ],
+    "sources": [
+      {
+        "id": "nalati",
+        "title": "新源县政府：那拉提暑期交通与旅游保障",
+        "url": "https://www.xinyuan.gov.cn/xinyuan/c113898/202608/54b1638c74d24d6089fd60ac0280c1c5.shtml",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body",
+        "publishedAt": "2026-08-03"
+      },
+      {
+        "id": "nalati-spring",
+        "title": "新源县政府：那拉提初夏草甸",
+        "url": "https://www.xinyuan.gov.cn/xinyuan/c113898/202605/0538bb225b8f453e9185030b8317741f.shtml",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "search-excerpt",
+        "publishedAt": "2026-05-20"
+      }
+    ],
+    "researchedAt": "2026-10-17"
+  },
+  "edinburgh": {
+    "headline": "",
+    "whyNow": "8月让古城和舞台同时活跃，最好的安排是先选演出，再把城堡、街区和山丘填进空档。官方页面已列2027 Fringe为8月6—30日，仍应核节目与具体场次。",
+    "seasonDetail": "8月让古城和舞台同时活跃，最好的安排是先选演出，再把城堡、街区和山丘填进空档。官方页面已列2027 Fringe为8月6—30日，仍应核节目与具体场次。",
+    "weather": [
+      "一天内雨风与温度变化大。",
+      "老城坡道与石板路，轮椅/行李通行条件逐处核。"
+    ],
+    "highlights": [
+      {
+        "name": "皇家英里与老城",
+        "experience": "历史街区与艺术节街头氛围。",
+        "timing": "清晨与傍晚更适合慢看",
+        "kind": "culture"
+      },
+      {
+        "name": "卡尔顿山",
+        "experience": "在城市尺度里看天际线，风大时避开。",
+        "timing": "与同区体验组合，留足交通时间",
+        "kind": "nature"
+      },
+      {
+        "name": "城堡与国家博物馆",
+        "experience": "人文主线不依赖单场演出。",
+        "timing": "作为独立区域安排，不强行赶路",
+        "kind": "culture"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "一场大节目加一场小剧场",
+        "detail": "不同类型、不同场地混排，并留跨场步行时间。"
+      },
+      {
+        "title": "给喜欢的表演留复看机会",
+        "detail": "每天别订满，街头现场本身也是体验。"
+      }
+    ],
+    "route": {
+      "airports": [
+        "爱丁堡 EDI",
+        "伦敦 LHR（可作门户）"
+      ],
+      "origins": [
+        "杭州萧山 HGH",
+        "上海浦东 PVG"
+      ],
+      "flightPlan": [
+        "先比较EDI联程与伦敦入境的总用时；伦敦换机场需要入境与额外交通。",
+        "若首场演出重要，抵达日不安排不可退的晚场。"
+      ],
+      "airfareCNY": null,
+      "airfareNote": "未查询指定日期机票；机场与中转仅为检索组合，不代表该日有航班或可售票。",
+      "transfer": [
+        "检索欧洲/中东枢纽至EDI；或伦敦入境后铁路/国内航班衔接"
+      ],
+      "scheduleChecked": false,
+      "modules": [
+        {
+          "name": "爱丁堡核心",
+          "days": 4,
+          "stops": [
+            "老城",
+            "剧场",
+            "卡尔顿山",
+            "博物馆"
+          ],
+          "logic": "以演出地点为锚，每日最多围绕一个片区。"
+        },
+        {
+          "name": "高地延伸",
+          "days": 3,
+          "stops": [
+            "高地一条实际可行线路"
+          ],
+          "logic": "三天只选一个方向；天空岛等远线须加交通日。"
+        }
+      ]
+    },
+    "stay": {
+      "areas": [
+        {
+          "name": "老城步行范围",
+          "reason": "便利但热闹"
+        },
+        {
+          "name": "新城或电车沿线",
+          "reason": "相对易组织进出"
+        },
+        {
+          "name": "核夜间噪声和晚演后交通",
+          "reason": "按实际交通、房型与退改条件选择。"
+        }
+      ],
+      "roomLocal": [
+        160,
+        260
+      ],
+      "roomCNYApprox": [
+        1426,
+        2317
+      ],
+      "currency": "GBP",
+      "upgradeRoomLocal": [
+        260,
+        450
+      ],
+      "unit": "每晚每间，2成人入住一间标准双人房",
+      "notes": [],
+      "status": "editorial-budget-estimate",
+      "estimatedAt": "2026-10-17"
+    },
+    "money": {
+      "currency": "GBP",
+      "rateCNY": 8.912504306,
+      "asOf": "2026-10-16",
+      "source": "https://api.nbp.pl/api/exchangerates/tables/a/2026-10-16/?format=json",
+      "sources": [
+        {
+          "id": "nbp-a16",
+          "title": "波兰央行NBP：2026-10-16 A表",
+          "url": "https://api.nbp.pl/api/exchangerates/tables/a/2026-10-16/?format=json",
+          "type": "central-bank-api",
+          "accessedAt": "2026-10-17",
+          "accessLevel": "api-json"
+        }
+      ],
+      "usage": "出发前向发卡行确认所持卡能否在目的地使用、境外取现费用及验证方式；酒店押金、租车预授权与小额现金分开准备。具体结算以商户与银行规则为准。",
+      "method": "NBP-mid-cross-PLN"
+    },
+    "packing": [
+      "防雨外套和可叠穿针织层",
+      "舒适防滑鞋",
+      "充电宝、电子票离线备份"
+    ],
+    "beforeYouGo": [
+      "艺术节住宿与热门演出尽早预订并看退改。",
+      "不同剧场禁止迟到入场，跨场预留步行与排队。",
+      "英国需单独核对签证；申根及日/韩签证不能直接替代英国访客签证。",
+      "按目录最早出发前3个月申请；eVisa与UKVI账户关联按批签指引。"
+    ],
+    "dayIdeas": [
+      {
+        "title": "皇家英里与老城体验日",
+        "morning": "历史街区与艺术节街头氛围。",
+        "afternoon": "一场大节目加一场小剧场：不同类型、不同场地混排，并留跨场步行时间。",
+        "evening": "按已订场次看演出，预留跨场步行；不得晚到。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      },
+      {
+        "title": "卡尔顿山体验日",
+        "morning": "在城市尺度里看天际线，风大时避开。",
+        "afternoon": "给喜欢的表演留复看机会：每天别订满，街头现场本身也是体验。",
+        "evening": "按已订场次看演出，预留跨场步行；不得晚到。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      },
+      {
+        "title": "城堡与国家博物馆体验日",
+        "morning": "人文主线不依赖单场演出。",
+        "afternoon": "给喜欢的表演留复看机会：每天别订满，街头现场本身也是体验。",
+        "evening": "按已订场次看演出，预留跨场步行；不得晚到。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      }
+    ],
+    "sources": [
+      {
+        "id": "edinburgh-festivals",
+        "title": "苏格兰旅游局：爱丁堡艺术节",
+        "url": "https://www.visitscotland.com/things-to-do/events/edinburgh-festivals",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body"
+      }
+    ],
+    "researchedAt": "2026-10-17"
+  },
+  "antarctica": {
+    "headline": "",
+    "whyNow": "11—3月是常见南极半岛航季，长日照、海冰与野生动物活动让不同月份各有重点；实际登陆、航道和野生动物观察均不能保证。",
+    "seasonDetail": "11—3月是常见南极半岛航季，长日照、海冰与野生动物活动让不同月份各有重点；实际登陆、航道和野生动物观察均不能保证。",
+    "weather": [
+      "风浪、海冰、天气与生物安全可改变登陆。",
+      "长途多段航班与港口衔接脆弱，必须留缓冲。"
+    ],
+    "highlights": [
+      {
+        "name": "南极半岛海岸",
+        "experience": "冰山、雪岸与海洋尺度是主体验。",
+        "timing": "海上观察依天气和船期安排",
+        "kind": "nature"
+      },
+      {
+        "name": "南设得兰群岛等许可地点",
+        "experience": "由运营商根据许可、冰况和生物安全安排，不预先固定登陆清单。",
+        "timing": "登陆点与次数由船方当天决定",
+        "kind": "nature"
+      },
+      {
+        "name": "乌斯怀亚",
+        "experience": "登船前休整与港口补给，不挤压为“落地即登船”。",
+        "timing": "登船前至少留足船方要求的缓冲",
+        "kind": "culture-nature"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "船上讲解与海上观察",
+        "detail": "天气不能登陆时，讲座、观鸟和海上景观也应被视为旅程组成。"
+      },
+      {
+        "title": "低影响登陆",
+        "detail": "按向导组织距离、消毒与路径要求，不碰野生动物、不带走自然物。"
+      }
+    ],
+    "route": {
+      "airports": [
+        "布宜诺斯艾利斯 EZE",
+        "乌斯怀亚 USH",
+        "布宜诺斯艾利斯 AEP（部分国内段门户）"
+      ],
+      "origins": [
+        "杭州萧山 HGH",
+        "上海浦东 PVG"
+      ],
+      "flightPlan": [
+        "EZE与AEP是不同机场，若必须换机场给足入境、地面交通和行李时间。",
+        "以船方建议抵达日为先，国际往返加船期常需18天以上；不要用普通日均酒店模型估船费。"
+      ],
+      "airfareCNY": null,
+      "airfareNote": "未查询指定日期机票；机场与中转仅为检索组合，不代表该日有航班或可售票。",
+      "transfer": [
+        "HGH/PVG经合适国际枢纽至EZE，再接USH；中转美国/欧洲均须核相应许可"
+      ],
+      "scheduleChecked": false,
+      "modules": [
+        {
+          "name": "登船前缓冲",
+          "days": 2,
+          "stops": [
+            "乌斯怀亚"
+          ],
+          "logic": "建议先抵达再留缓冲，具体依船方强制要求。"
+        },
+        {
+          "name": "半岛航次",
+          "days": 11,
+          "stops": [
+            "德雷克海峡",
+            "运营商当次许可区域"
+          ],
+          "logic": "仅示意常见航次时长；依实际船票，不按景点自由拼日。"
+        },
+        {
+          "name": "离船后衔接",
+          "days": 2,
+          "stops": [
+            "乌斯怀亚",
+            "布宜诺斯艾利斯"
+          ],
+          "logic": "不要让离船当天紧接不可退国际机票。"
+        }
+      ]
+    },
+    "stay": {
+      "areas": [
+        {
+          "name": "乌斯怀亚市区",
+          "reason": "登船前休整"
+        },
+        {
+          "name": "此处仅为陆地每间每晚，不包含船舱与航次费用",
+          "reason": "按实际交通、房型与退改条件选择。"
+        }
+      ],
+      "roomLocal": [
+        100,
+        180
+      ],
+      "roomCNYApprox": [
+        669,
+        1204
+      ],
+      "currency": "USD",
+      "upgradeRoomLocal": [
+        180,
+        350
+      ],
+      "unit": "每晚每间，2成人入住一间标准双人房",
+      "notes": [
+        "南极没有统一法定旅行币种；航次与本模型以USD计。乌斯怀亚日常法币为ARS，陆地预算这里按常见USD报价口径展示；支付可能以ARS结算，不能误写成阿根廷法币USD。"
+      ],
+      "status": "editorial-budget-estimate",
+      "estimatedAt": "2026-10-17"
+    },
+    "money": {
+      "currency": "USD",
+      "rateCNY": 6.687392353,
+      "asOf": "2026-10-16",
+      "source": "https://api.nbp.pl/api/exchangerates/tables/a/2026-10-16/?format=json",
+      "sources": [
+        {
+          "id": "nbp-a16",
+          "title": "波兰央行NBP：2026-10-16 A表",
+          "url": "https://api.nbp.pl/api/exchangerates/tables/a/2026-10-16/?format=json",
+          "type": "central-bank-api",
+          "accessedAt": "2026-10-17",
+          "accessLevel": "api-json"
+        }
+      ],
+      "usage": "航次与陆地住宿预算这里按美元 USD 报价比较；乌斯怀亚日常法币为阿根廷比索 ARS，实际结算币种向酒店与船方确认，不能把美元当作当地法币。",
+      "method": "NBP-mid-cross-PLN"
+    },
+    "packing": [
+      "保暖内层、中层、防风防水外层和防水裤",
+      "帽子手套、太阳镜、防晒；鞋靴按船方要求",
+      "摄影防水袋；用药等个人安排出行前咨询专业人员"
+    ],
+    "beforeYouGo": [
+      "先选择合规运营商与确定船期，再配机票。",
+      "查紧急医疗转运保险、船方健康材料、靴子/外套提供和单人房差。",
+      "遵循当前2026—2027禽流感、生物安全和装备清洁要求。",
+      "南极本身无国家签证制度，但必须满足出发国、转机地与航次要求。",
+      "此示例经阿根廷：仅持日/韩签证不能满足目录中的美国签证/绿卡条件免签；不符合条件时应申请适用的阿根廷签证。",
+      "如改用智利飞南极，必须另核智利签证，现目录未覆盖。"
+    ],
+    "dayIdeas": [
+      {
+        "title": "南极半岛海岸体验日",
+        "morning": "冰山、雪岸与海洋尺度是主体验。",
+        "afternoon": "船上讲解与海上观察：天气不能登陆时，讲座、观鸟和海上景观也应被视为旅程组成。",
+        "evening": "依船方讲座与航行安排，不承诺固定登陆点。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      },
+      {
+        "title": "南设得兰群岛等许可地点体验日",
+        "morning": "由运营商根据许可、冰况和生物安全安排，不预先固定登陆清单。",
+        "afternoon": "低影响登陆：按向导组织距离、消毒与路径要求，不碰野生动物、不带走自然物。",
+        "evening": "依船方讲座与航行安排，不承诺固定登陆点。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      },
+      {
+        "title": "乌斯怀亚体验日",
+        "morning": "登船前休整与港口补给，不挤压为“落地即登船”。",
+        "afternoon": "低影响登陆：按向导组织距离、消毒与路径要求，不碰野生动物、不带走自然物。",
+        "evening": "依船方讲座与航行安排，不承诺固定登陆点。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      }
+    ],
+    "sources": [
+      {
+        "id": "iaato-prepare",
+        "title": "IAATO：2026—2027南极行前准备",
+        "url": "https://iaato.org/visiting-antarctica/preparing-for-your-expedition",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body"
+      },
+      {
+        "id": "iaato-season",
+        "title": "IAATO：南极旅游概览（历史论文）",
+        "url": "https://iaato.org/system/files/2025-01/ATCM21_ip125_e.pdf",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "search-excerpt",
+        "caution": "仅支持11—3月南极半岛常年航季概念；历史船次、人数不引用。"
+      }
+    ],
+    "researchedAt": "2026-10-17"
+  },
+  "patagonia": {
+    "headline": "",
+    "whyNow": "南半球春夏提供较长日照与主要徒步季条件，适合湖泊、花岗岩山峰和冰川。夏季仍可能强风骤雨，徒步线路与导游装备要求必须按当期公告。",
+    "seasonDetail": "南半球春夏提供较长日照与主要徒步季条件，适合湖泊、花岗岩山峰和冰川。夏季仍可能强风骤雨，徒步线路与导游装备要求必须按当期公告。",
+    "weather": [
+      "强风、雨雪和短时封路，夏季也须防风雨。",
+      "高强度路线的体力、时间门槛与回头时间必须确认。"
+    ],
+    "highlights": [
+      {
+        "name": "三塔观景方向",
+        "experience": "高强度往返路线，不能视作普通城市散步。",
+        "timing": "清晨与傍晚更适合慢看",
+        "kind": "nature"
+      },
+      {
+        "name": "佩奥埃湖与角峰视野",
+        "experience": "可用观景公路或较轻步道构成非长线方案。",
+        "timing": "与同区体验组合，留足交通时间",
+        "kind": "nature"
+      },
+      {
+        "name": "格雷湖/冰川方向",
+        "experience": "船、步道与营地需按实际产品及开放串联。",
+        "timing": "作为独立区域安排，不强行赶路",
+        "kind": "nature"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "低强度观景也完整",
+        "detail": "可按体力选酒店基地与日游，无需人人走W线。"
+      },
+      {
+        "title": "多日W线",
+        "detail": "先拿齐床位/营位、餐食和交通，再谈逐日路线。"
+      }
+    ],
+    "route": {
+      "airports": [
+        "圣地亚哥 SCL",
+        "纳塔莱斯港 PNT（季节班次待查）",
+        "蓬塔阿雷纳斯 PUQ"
+      ],
+      "origins": [
+        "杭州萧山 HGH",
+        "上海浦东 PVG"
+      ],
+      "flightPlan": [
+        "PNT靠近主要衔接城，但班次按季节核；PUQ需较长地面接驳。",
+        "跨阿根廷另核边检、车辆跨境许可与签证，不能用直线距离直接拼。"
+      ],
+      "airfareCNY": null,
+      "airfareNote": "未查询指定日期机票；机场与中转仅为检索组合，不代表该日有航班或可售票。",
+      "transfer": [
+        "HGH/PVG经合适国际枢纽至SCL，再接PNT/PUQ；只作检索组合"
+      ],
+      "scheduleChecked": false,
+      "modules": [
+        {
+          "name": "纳塔莱斯港准备",
+          "days": 1,
+          "stops": [
+            "纳塔莱斯港"
+          ],
+          "logic": "补给、装备与公园接驳。"
+        },
+        {
+          "name": "公园观景/徒步",
+          "days": 4,
+          "stops": [
+            "湖区",
+            "一条体力匹配步道",
+            "天气备用"
+          ],
+          "logic": "轻观景与多日徒步是两种方案，不把两者费用混为一谈。"
+        },
+        {
+          "name": "离园衔接",
+          "days": 1,
+          "stops": [
+            "纳塔莱斯港"
+          ],
+          "logic": "留公共交通与返程缓冲。"
+        }
+      ]
+    },
+    "stay": {
+      "areas": [
+        {
+          "name": "纳塔莱斯港",
+          "reason": "补给与性价比"
+        },
+        {
+          "name": "公园内",
+          "reason": "减少通勤但贵且房源少"
+        },
+        {
+          "name": "多日营地/refugio按人或床位收费，不能套用双人酒店房价",
+          "reason": "按实际交通、房型与退改条件选择。"
+        }
+      ],
+      "roomLocal": [
+        70000,
+        140000
+      ],
+      "roomCNYApprox": [
+        477,
+        954
+      ],
+      "currency": "CLP",
+      "upgradeRoomLocal": [
+        140000,
+        280000
+      ],
+      "unit": "每晚每间，2成人入住一间标准双人房",
+      "notes": [
+        "原型季节来源原为阿根廷门户，与百内所属智利不匹配；使用智利CONAF对应公园信息。"
+      ],
+      "status": "editorial-budget-estimate",
+      "estimatedAt": "2026-10-17"
+    },
+    "money": {
+      "currency": "CLP",
+      "rateCNY": 0.006813641,
+      "asOf": "2026-10-16",
+      "source": "https://api.nbp.pl/api/exchangerates/tables/a/2026-10-16/?format=json",
+      "sources": [
+        {
+          "id": "nbp-a16",
+          "title": "波兰央行NBP：2026-10-16 A表",
+          "url": "https://api.nbp.pl/api/exchangerates/tables/a/2026-10-16/?format=json",
+          "type": "central-bank-api",
+          "accessedAt": "2026-10-17",
+          "accessLevel": "api-json"
+        }
+      ],
+      "usage": "出发前向发卡行确认所持卡能否在目的地使用、境外取现费用及验证方式；酒店押金、租车预授权与小额现金分开准备。具体结算以商户与银行规则为准。",
+      "method": "NBP-mid-cross-PLN"
+    },
+    "packing": [
+      "防风雨壳、保暖层、抓地防水徒步鞋",
+      "登山杖和冰爪按当期要求",
+      "离线地图、头灯、足量水食物"
+    ],
+    "beforeYouGo": [
+      "通过公园官方入口购票，核每日步道报告。",
+      "公园内床位、营位、餐食和接驳分别确认；无住宿不能贸然出发走多日线。",
+      "冰爪、登山杖和导游要求可能随季节及线路变化。",
+      "智利在现有签证底稿中未覆盖，不能给出已可入境结论。",
+      "必须另查中国护照智利签证与转机要求；阿根廷条件免签不能套用于智利。"
+    ],
+    "dayIdeas": [
+      {
+        "title": "三塔观景方向体验日",
+        "morning": "高强度往返路线，不能视作普通城市散步。",
+        "afternoon": "低强度观景也完整：可按体力选酒店基地与日游，无需人人走W线。",
+        "evening": "回已确认住宿，看次日步道与风雨公告。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      },
+      {
+        "title": "佩奥埃湖与角峰视野体验日",
+        "morning": "可用观景公路或较轻步道构成非长线方案。",
+        "afternoon": "多日W线：先拿齐床位/营位、餐食和交通，再谈逐日路线。",
+        "evening": "回已确认住宿，看次日步道与风雨公告。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      },
+      {
+        "title": "格雷湖/冰川方向体验日",
+        "morning": "船、步道与营地需按实际产品及开放串联。",
+        "afternoon": "多日W线：先拿齐床位/营位、餐食和交通，再谈逐日路线。",
+        "evening": "回已确认住宿，看次日步道与风雨公告。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      }
+    ],
+    "sources": [
+      {
+        "id": "paine",
+        "title": "智利CONAF百内国家公园",
+        "url": "https://parquetorresdelpaine.cl/",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body",
+        "caution": "首页有随季节调整的导游、冰爪及登山杖要求，行前按每日步道公告复核，不能固定为全年同一条件。"
+      }
+    ],
+    "researchedAt": "2026-10-17"
+  },
+  "st-petersburg": {
+    "headline": "",
+    "whyNow": "5月下旬到7月中旬关注白夜，建筑、河道与艺术在漫长暮色里形成特殊体验；白夜不是极昼，也不是保证全天太阳不落。",
+    "seasonDetail": "5月下旬到7月中旬关注白夜，建筑、河道与艺术在漫长暮色里形成特殊体验；白夜不是极昼，也不是保证全天太阳不落。",
+    "weather": [
+      "夏夜仍可能凉、雨多，蚊虫与河风。",
+      "较长暮色可能打乱休息，避免连续熬夜后长途驾驶。"
+    ],
+    "highlights": [
+      {
+        "name": "涅瓦河与运河",
+        "experience": "暮色里的河岸、桥梁与城市立面。",
+        "timing": "清晨与傍晚更适合慢看",
+        "kind": "culture-nature"
+      },
+      {
+        "name": "艾尔米塔什/冬宫",
+        "experience": "给主要馆藏至少完整半天，分时预约并核馆区。",
+        "timing": "与同区体验组合，留足交通时间",
+        "kind": "culture"
+      },
+      {
+        "name": "彼得宫或皇村",
+        "experience": "近郊宫殿与园林择一，不把两处都当市区顺路。",
+        "timing": "作为独立区域安排，不强行赶路",
+        "kind": "culture"
+      }
+    ],
+    "experiences": [
+      {
+        "title": "晚间河岸散步",
+        "detail": "留足回酒店交通，不把看开桥与跨河回程分开考虑。"
+      },
+      {
+        "title": "艺术演出",
+        "detail": "先选节目和场地，再订晚餐，核电子票/外国支付能否完成。"
+      }
+    ],
+    "route": {
+      "airports": [
+        "圣彼得堡普尔科沃 LED",
+        "莫斯科机场（仅作为联程候选）"
+      ],
+      "origins": [
+        "杭州萧山 HGH",
+        "上海浦东 PVG"
+      ],
+      "flightPlan": [
+        "若经莫斯科，核是否同一机场、行李直挂与接续时间；不同机场不能当普通转机。",
+        "境外银行卡可用性与现金安排要出行前确认，不假设所有国际卡能刷。"
+      ],
+      "airfareCNY": null,
+      "airfareNote": "未查询指定日期机票；机场与中转仅为检索组合，不代表该日有航班或可售票。",
+      "transfer": [
+        "检索HGH/PVG至LED或经莫斯科联程，实际运行与到达机场按日期查"
+      ],
+      "scheduleChecked": false,
+      "modules": [
+        {
+          "name": "市区艺术与白夜",
+          "days": 3,
+          "stops": [
+            "冬宫/艾尔米塔什",
+            "运河街区",
+            "涅瓦河岸"
+          ],
+          "logic": "博物馆和夜间活动穿插，避免连续缺觉。"
+        },
+        {
+          "name": "近郊宫殿",
+          "days": 1,
+          "stops": [
+            "彼得宫",
+            "或皇村"
+          ],
+          "logic": "择一独立一天，交通与门票各自确认。"
+        }
+      ]
+    },
+    "stay": {
+      "areas": [
+        {
+          "name": "涅瓦大街/市中心交通节点",
+          "reason": "按实际交通、房型与退改条件选择。"
+        },
+        {
+          "name": "白夜季隔光窗帘与夜间噪声值得确认",
+          "reason": "按实际交通、房型与退改条件选择。"
+        }
+      ],
+      "roomLocal": [
+        5000,
+        9000
+      ],
+      "roomCNYApprox": [
+        399,
+        717
+      ],
+      "currency": "RUB",
+      "upgradeRoomLocal": [
+        9000,
+        18000
+      ],
+      "unit": "每晚每间，2成人入住一间标准双人房",
+      "notes": [],
+      "status": "editorial-budget-estimate",
+      "estimatedAt": "2026-10-17"
+    },
+    "money": {
+      "currency": "RUB",
+      "rateCNY": 0.079718841,
+      "asOf": "2026-10-14",
+      "source": "https://api.nbp.pl/api/exchangerates/tables/a/2026-10-14/?format=json",
+      "sources": [
+        {
+          "id": "nbp-a14",
+          "title": "波兰央行NBP：2026-10-14 A表",
+          "url": "https://api.nbp.pl/api/exchangerates/tables/a/2026-10-14/?format=json",
+          "type": "central-bank-api",
+          "accessedAt": "2026-10-17",
+          "accessLevel": "api-json"
+        },
+        {
+          "id": "nbp-b14",
+          "title": "波兰央行NBP：2026-10-14 B表",
+          "url": "https://api.nbp.pl/api/exchangerates/tables/b/2026-10-14/?format=json",
+          "type": "central-bank-api",
+          "accessedAt": "2026-10-17",
+          "accessLevel": "api-json"
+        }
+      ],
+      "usage": "俄罗斯卢布 RUB。境外发行的Visa/Mastercard目前通常不能在俄罗斯商户或ATM使用；不要把它们作为唯一付款方式。出发前向发卡行、酒店与正规换汇机构核实可行支付安排。",
+      "method": "NBP-mid-cross-PLN"
+    },
+    "packing": [
+      "轻保暖层、防雨外套、步行鞋",
+      "眼罩、雨具、充电宝",
+      "现金和离线凭证按实际支付渠道准备"
+    ],
+    "beforeYouGo": [
+      "艾尔米塔什分时票，周一等闭馆以官网当期说明。",
+      "宫殿、船游、演出分别预约；外国支付可用性需核。",
+      "看开桥先规划桥两岸与回程，不赶最后一班。",
+      "参考资料显示：个人普通护照免签单次最多30天，政策至2027-12-31。",
+      "住宿登记、口岸生物信息与申报按当期规定；超过期限行程重新核验。"
+    ],
+    "dayIdeas": [
+      {
+        "title": "涅瓦河与运河体验日",
+        "morning": "暮色里的河岸、桥梁与城市立面。",
+        "afternoon": "晚间河岸散步：留足回酒店交通，不把看开桥与跨河回程分开考虑。",
+        "evening": "白夜散步；若看开桥，先规划两岸与回酒店路线。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      },
+      {
+        "title": "艾尔米塔什/冬宫体验日",
+        "morning": "给主要馆藏至少完整半天，分时预约并核馆区。",
+        "afternoon": "艺术演出：先选节目和场地，再订晚餐，核电子票/外国支付能否完成。",
+        "evening": "白夜散步；若看开桥，先规划两岸与回酒店路线。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      },
+      {
+        "title": "彼得宫或皇村体验日",
+        "morning": "近郊宫殿与园林择一，不把两处都当市区顺路。",
+        "afternoon": "艺术演出：先选节目和场地，再订晚餐，核电子票/外国支付能否完成。",
+        "evening": "白夜散步；若看开桥，先规划两岸与回酒店路线。",
+        "tip": "这是可替换的行程素材；是否同一天与前后交通衔接，必须按选定日期、开放及体力确认。"
+      }
+    ],
+    "sources": [
+      {
+        "id": "petersburg-season",
+        "title": "圣彼得堡旅游门户：白夜",
+        "url": "https://peterburg.ru/city/belye-nochi-vizitnaya-kartochka",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "body"
+      },
+      {
+        "id": "hermitage",
+        "title": "艾尔米塔什博物馆参观说明",
+        "url": "https://hermitagemuseum.org/visitus?http=&lng=en",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "search-excerpt",
+        "caution": "索引可读分时入场及周一闭馆，直接正文读取失败；临时展览和实际票务另查。"
+      },
+      {
+        "title": "英国政府旅行提示：俄罗斯货币与银行（仅参考支付部分）",
+        "url": "https://www.gov.uk/foreign-travel-advice/russia/entry-requirements",
+        "type": "official",
+        "accessedAt": "2026-10-17",
+        "accessLevel": "search-excerpt"
+      }
+    ],
+    "researchedAt": "2026-10-17"
+  },
+  "jiuzhaigou-lakes": {
+    "headline": "九寨沟，把一两天留给湖水与彩林。",
+    "whyNow": "景区提供1天精华与2天舒适两种游览方式。杭州往返暂按3—4天规划；黄龙、松潘属于可选延伸，不是必需行程。",
+    "researchedAt": "2026-10-18",
+    "weather": "秋季山谷早晚温差和降雨会影响步行与倒影；彩林、水位及开放路线以当年公告为准。此处不是天气预报。",
+    "highlights": [
+      {
+        "name": "湖水与彩林",
+        "experience": "结合观光车和步行，观察湖水、沉木、山色和林木的层次；不承诺固定日期达到某种颜色。",
+        "timing": "按官方开放时间入园，留出完整游览日。"
+      },
+      {
+        "name": "三沟之间的精华路线",
+        "experience": "一日方案可串联日则沟、则查洼沟和树正沟；若想少赶路，选择两天分沟慢游。",
+        "timing": "1天精华 / 2天舒适，路线按当日开放调整。"
+      },
+      {
+        "name": "沿湖慢一点走",
+        "experience": "在允许开放的栈道停留，寻找光线与倒影；不跨越护栏，留足返回沟口的交通时间。",
+        "timing": "结合当日体力与接驳安排，下午预留出沟时间。"
+      }
+    ],
+    "route": {
+      "airports": [
+        "九寨黄龙机场 JZH",
+        "成都天府国际机场 TFU / 黄龙九寨站"
+      ],
+      "flightPlan": [
+        "比较杭州经九寨黄龙机场，或经成都转高铁和接驳的完整耗时；航班、列车与联程可行性尚未按日期查证。",
+        "往返各留一天只是规划假设，无法在首尾各日完成交通时，应增加交通日。"
+      ],
+      "airfareCNY": [
+        1600,
+        3600
+      ],
+      "airfareNote": "往返大交通的编辑规划区间，非已查询票价。机场、铁路与接驳组合须另核。",
+      "transfer": [
+        "黄龙九寨站不在沟口。阿坝州2024年报道给出的量级是距景区约90公里、接驳约2小时；候车、路况与当日车次需重查。"
+      ],
+      "modules": [
+        {
+          "name": "九寨沟景区",
+          "days": 1,
+          "stops": [
+            "五花海",
+            "镜海",
+            "长海",
+            "五彩池",
+            "诺日朗瀑布"
+          ],
+          "logic": "住在沟外，留完整游览日；二次入园票务与开放路线另核验。"
+        }
+      ]
+    },
+    "stay": {
+      "areas": [
+        {
+          "name": "景区沟口周边",
+          "reason": "便于早晨入园；比较住处到入口的实际步行或接驳距离，确认早餐和接送条件。"
+        },
+        {
+          "name": "沟外交通节点附近",
+          "reason": "较晚抵达时优先避免当晚继续奔波，次日入园的完整交通需先核对。"
+        }
+      ],
+      "roomLocal": [
+        350,
+        900
+      ],
+      "currency": "CNY",
+      "notes": [
+        "双人房每间每晚的编辑预算，非特定酒店房态。",
+        "典型三天往返为两晚、四天往返为三晚；实际按已选住宿节点核算。",
+        "景区执行沟内游、沟外住；二次入园政策以届时公告为准。"
+      ]
+    },
+    "money": {
+      "currency": "CNY",
+      "rateCNY": 1,
+      "asOf": "2026-10-18",
+      "usage": "当地使用人民币。比较全程含税住宿、门车票、接驳和往返交通，不将某一家酒店的裸房价当作全程预算。"
+    },
+    "beforeYouGo": [
+      "确认首尾各日的完整交通衔接，再确定全程3天或4天。",
+      "从景区官方渠道核对开放路线、入园预约与门车票；两日游另确认二次入园规则。",
+      "沟外住宿按实际天数逐晚确认，黄龙与松潘只在主动选择延伸时加入。"
+    ],
+    "packing": [
+      "舒适防滑的步行鞋、雨具和分层衣物。",
+      "饮水、便携充电设备和少量途中食品，按景区要求处理垃圾。",
+      "摄影器材按体力取舍，为栈道步行留出轻便空间。"
+    ],
+    "dayIdeas": [
+      {
+        "title": "九寨沟一日精华",
+        "morning": "按当日开放与观光车调度进入日则沟，围绕五花海等湖泊选择步行段。",
+        "afternoon": "结合观光车串联长海、五彩池与树正沟；路线长，按体力删减，不照搬旧时刻表。",
+        "evening": "出沟后在沟外住宿休息，不绑定未经核实的当晚长距离返程。",
+        "tip": "这是完整游览日，官方旧示例的时刻不能当作当前班次。"
+      },
+      {
+        "title": "九寨沟慢游 · 则查洼与树正",
+        "morning": "按官方两日方案选择长海、五彩池一带，结合观光车与短程步行。",
+        "afternoon": "在树正沟、犀牛海与开放栈道慢走，留出返回沟口的交通时间。",
+        "evening": "回沟外住宿，核对次日入园安排。",
+        "tip": "二次入园票务与开放须另确认。"
+      },
+      {
+        "title": "九寨沟慢游 · 日则沟",
+        "morning": "以日则沟为重点，按开放情况看五花海、箭竹海等湖泊，避免重复赶路。",
+        "afternoon": "沿允许开放的步道停留，视体力结合观光车返回，不为凑齐景点超时。",
+        "evening": "回沟外住宿，为次日返程休整。",
+        "tip": "以当天公告和车流为准，不照搬旧路线时刻。"
+      }
+    ],
+    "sources": [
+      {
+        "type": "official",
+        "title": "九寨沟景区官方：一日精华与二日舒适路线",
+        "url": "https://www.jiuzhai.com/intelligent-service/way-of-play"
+      },
+      {
+        "type": "official",
+        "title": "九寨沟县2026年景区旺季管理公告",
+        "url": "https://www.jzg.gov.cn/jzgrmzf/jgsf/202603/ccfa4789012d490596552a1680ffaaec.shtml",
+        "publishedAt": "2026-03-26"
+      },
+      {
+        "type": "official",
+        "title": "阿坝州：黄龙九寨站接驳量级，非实时班次",
+        "url": "https://www.abazhou.gov.cn/abazhou/c101955/202407/e13092b093f24b009f989bd418ffa142.shtml",
+        "publishedAt": "2024-07-11"
+      }
+    ]
+  }
+}

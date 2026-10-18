@@ -1,0 +1,18 @@
+name: Public destination / 贡献公共目的地
+description: Propose a public place with evidence and media rights.
+body:
+  - type: markdown
+    attributes:
+      value: This is public. Private wishlists and identity information must stay out. 本表公开，不提交私人清单和证件。
+  - type: textarea
+    id: place
+    attributes:
+      label: Place, coordinates, season and visit duration / 地点、坐标、季节与游览天数
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Official sources, date checked, photo author and license / 来源、核验日、图片作者与许可
+    validations:
+      required: true

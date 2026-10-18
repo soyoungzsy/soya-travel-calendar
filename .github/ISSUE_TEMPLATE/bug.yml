@@ -1,0 +1,18 @@
+name: Bug report / 问题反馈
+description: Report reproducible behavior without private data.
+body:
+  - type: markdown
+    attributes:
+      value: Do not attach passports, cookies, keys, private notes or personal backups. 请勿附证件、私人清单或密钥。
+  - type: input
+    id: version
+    attributes:
+      label: Version and browser / 版本与浏览器
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps, expected and actual behavior / 步骤、预期和实际结果
+    validations:
+      required: true

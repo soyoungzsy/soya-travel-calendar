@@ -1,0 +1,3 @@
+# Soya Travel Calendar contributor instructions
+
+Use one modern sans-serif family and the existing magazine layout. Keep a single date and budget entry region. Keep personal destinations in browser-local storage; do not send them to reference-data services or GitHub. Do not collect identity document scans. Validate untrusted imports, preview changes, preserve backups and avoid remote HTML injection. Use branches and reviewable pull requests for subsequent changes; do not merge without authorization. Run npm test and npm run build. Respect media licenses in docs/media-credits.md. Do not label budgets as live prices, or promise visa clearance.
