@@ -1,0 +1,1708 @@
+[
+  {
+    "id": "poi:luxor-temple",
+    "name": "卢克索神庙",
+    "category": "culture",
+    "whyGo": "顺着奥佩特节的浮雕辨认神舟、队列与仪式，理解一座神庙如何把城市生活与王权联系起来。",
+    "originalUse": "它是古底比斯的宗教仪式场所。奥佩特节期间，阿蒙、穆特与孔苏的神像从卡纳克出发，巡行至这里；不是法老日常居住的宫殿。",
+    "peopleEvents": "阿蒙霍特普三世营建主体，图坦卡蒙及霍伦海布完成部分节庆浮雕；拉美西斯二世增建入口塔门和庭院。人物关联指营建及仪式记录，不等于曾住在神庙。",
+    "lookFor": [
+      "大列柱廊两排各七根巨柱，以及墙面奥佩特节队列浮雕。",
+      "入口拉美西斯二世雕像与留在原址的方尖碑；另一根于1836年移至巴黎。"
+    ],
+    "historySignificance": "这里与卡纳克及西岸墓地共同呈现底比斯的礼仪体系，建筑和铭刻也是研究古埃及国家宗教的实物材料。",
+    "datesLabel": "主体约前14世纪；后有多期增建",
+    "chronology": [
+      {
+        "label": "哈特谢普苏特时期现存神龛",
+        "start": -1473,
+        "end": -1458,
+        "approximate": true
+      },
+      {
+        "label": "阿蒙霍特普三世主体营建",
+        "start": -1390,
+        "end": -1352,
+        "approximate": true
+      },
+      {
+        "label": "拉美西斯二世增建",
+        "start": -1279,
+        "end": -1213,
+        "approximate": true
+      }
+    ],
+    "chinaParallel": "主体营建与后续新王国扩建大致处于中国商代。只作年代对照，不据此推断文化联系；神庙后来的罗马时期改用另属其他年代。",
+    "storyType": "史实",
+    "sources": [
+      {
+        "title": "Luxor Temple：用途、营建与浮雕",
+        "url": "https://egymonuments.gov.eg/monuments/luxor-temple/",
+        "authority": "埃及旅游和文物部",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Ancient Thebes with its Necropolis：突出普遍价值",
+        "url": "https://whc.unesco.org/en/list/87/",
+        "authority": "联合国教科文组织世界遗产中心",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Explore by Dynasty：中国朝代时间参照",
+        "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/",
+        "authority": "史密森尼学会国立亚洲艺术博物馆",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      }
+    ],
+    "factNotes": "本卡没有把神圣诞生图像中的神祇叙事当作人物真实血缘；年代使用埃及旅游和文物部的约年方案。",
+    "parentId": "luxor-nile-history",
+    "country": "埃及",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": null,
+    "seasonality": {
+      "mode": "year_round",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "photoDestination": "luxor-nile-history"
+  },
+  {
+    "id": "poi:karnak-amun",
+    "name": "卡纳克阿蒙神庙群",
+    "category": "culture",
+    "whyGo": "走进134根巨柱之间，在石刻、方尖碑与圣湖中看见多代统治者累积的宗教工程。",
+    "originalUse": "卡纳克是多个神庙分区组成的宗教中心，核心阿蒙神庙用于供奉阿蒙及举行仪式；祭司体系同时拥有显著的财富和政治影响力。",
+    "peopleEvents": "几乎每位新王国君主都曾在此留下工程。大柱厅主体与装饰主要属于塞提一世和拉美西斯二世；哈特谢普苏特树立了附近的高大方尖碑。",
+    "lookFor": [
+      "大柱厅中央12根较高的柱子与两侧较低的柱林，比较柱面祭祀图像。",
+      "哈特谢普苏特方尖碑与祭司仪式前净身所用的圣湖，观察建筑和水域的关系。"
+    ],
+    "historySignificance": "它把神祇崇拜、王室捐献与政治权力具象化，也是底比斯世界遗产的重要组成。不要把整个神庙群误写成某一位法老一次建成。",
+    "datesLabel": "约前22—前21世纪已有证据；大柱厅主要为前13世纪",
+    "chronology": [
+      {
+        "label": "因特夫二世时期的早期证据",
+        "start": -2112,
+        "end": -2063,
+        "approximate": true
+      },
+      {
+        "label": "大柱厅主要营建与装饰",
+        "start": -1294,
+        "end": -1213,
+        "approximate": true
+      },
+      {
+        "label": "托勒密至罗马时期仍有增建",
+        "start": -305,
+        "end": 306,
+        "approximate": true
+      }
+    ],
+    "chinaParallel": "若以大柱厅的主要营建期前13世纪比较，大致是中国商代；全庙群跨越更长时期，不能整体对应单一朝代。此处只作年代对照，不推断文化联系。",
+    "storyType": "史实",
+    "sources": [
+      {
+        "title": "Karnak：神庙群、大柱厅与圣湖",
+        "url": "https://egymonuments.gov.eg/archaeological-sites/karnak/",
+        "authority": "埃及旅游和文物部",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Ancient Thebes with its Necropolis：突出普遍价值",
+        "url": "https://whc.unesco.org/en/list/87/",
+        "authority": "联合国教科文组织世界遗产中心",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Explore by Dynasty：中国朝代时间参照",
+        "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/",
+        "authority": "史密森尼学会国立亚洲艺术博物馆",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      }
+    ],
+    "factNotes": "大柱厅最初筹建者仍有讨论，未将其明确归给阿蒙霍特普三世；本卡仅采用主体工程归属。",
+    "parentId": "luxor-nile-history",
+    "country": "埃及",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": "karnak-great-hypostyle",
+    "seasonality": {
+      "mode": "year_round",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  },
+  {
+    "id": "poi:valley-of-kings",
+    "name": "帝王谷",
+    "category": "culture",
+    "whyGo": "从干燥山谷进入凿岩王墓，比较墓室图像与地形，理解古埃及人怎样为死后世界安排空间。",
+    "originalUse": "尼罗河西岸的王室墓地，主要服务新王国第十八至二十王朝，也葬有部分王室成员和高级人物。它不是金字塔群，也不只埋葬国王。",
+    "peopleEvents": "图特摩斯一世是已确证葬于此地的早期新王国君主。1922年霍华德·卡特发现图坦卡蒙墓，使这座相对小型的王墓成为考古史的重要发现。",
+    "lookFor": [
+      "谷地上方近似金字塔形的山峰，以及隐藏在岩壁和地下的墓葬布局。",
+      "如另购票进入KV62，留意图坦卡蒙墓室的葬礼、神祇及冥界图像，而非期待遍地金器。"
+    ],
+    "historySignificance": "墓葬与图像是研究王权、葬仪和来世信仰的材料；太阳西落与重生属于古埃及的宗教观念，不是需要游客相信的自然事实。",
+    "datesLabel": "新王国约前1550—前1069年；不是每座墓都始于前1550年",
+    "chronology": [
+      {
+        "label": "主要王墓所处的新王国时期",
+        "start": -1550,
+        "end": -1069,
+        "approximate": true
+      },
+      {
+        "label": "图坦卡蒙在位时期",
+        "start": -1336,
+        "end": -1327,
+        "approximate": true
+      },
+      {
+        "label": "卡特发现KV62",
+        "start": 1922,
+        "end": 1922,
+        "approximate": false
+      }
+    ],
+    "chinaParallel": "主要王墓时期大致与中国商代重叠；1922年的考古发现则是中国民国时期。只作年代对照，不推断文化联系。",
+    "storyType": "史实",
+    "sources": [
+      {
+        "title": "Valley of the Kings：墓地用途与地形",
+        "url": "https://egymonuments.gov.eg/archaeological-sites/valley-of-the-kings/",
+        "authority": "埃及旅游和文物部",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Tomb of Tutankhamun：1922年发现及墓室图像",
+        "url": "https://egymonuments.gov.eg/monuments/tomb-of-tutankhamun/",
+        "authority": "埃及旅游和文物部",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Explore by Dynasty：中国朝代时间参照",
+        "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/",
+        "authority": "史密森尼学会国立亚洲艺术博物馆",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      }
+    ],
+    "visitNote": "开放墓室和售票组合会调整；图坦卡蒙墓不能默认包含在普通入场票内，出发前看官方当期安排。",
+    "parentId": "luxor-nile-history",
+    "country": "埃及",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": null,
+    "seasonality": {
+      "mode": "year_round",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  },
+  {
+    "id": "poi:wat-xieng-thong",
+    "name": "相通寺（香通寺）",
+    "category": "culture",
+    "whyGo": "从低垂的三层屋顶走到后墙的彩玻璃生命树，近距离读懂琅勃拉邦的寺院工艺。",
+    "originalUse": "由王室支持营建的佛教寺院，承担供奉、修行与宗教仪式功能；今天仍有僧侣与沙弥生活，不是纯粹的拍照布景。",
+    "peopleEvents": "塞塔提拉王于1560年建立寺院，随后迁都万象。此处能谈的是王室营建与护持，不能据此称国王曾居住在寺内。",
+    "lookFor": [
+      "主殿几乎垂落到地面的曲线屋面，以及入口和室内的金色模印装饰。",
+      "主殿后墙的彩玻璃生命树，和旁侧小殿以玻璃碎片拼出的民间故事及日常生活图景。"
+    ],
+    "historySignificance": "寺院把澜沧王国的宗教、王室赞助和地方工艺放在同一处空间；这些具体做法比金碧辉煌更能说明老挝建筑的地方特征。",
+    "datesLabel": "1560年建立；现存装饰含后世修缮",
+    "chronology": [
+      {
+        "label": "塞塔提拉王建立寺院",
+        "start": 1560,
+        "end": 1560,
+        "approximate": false
+      }
+    ],
+    "chinaParallel": "1560年处于中国明代。只作年代对照，不由同时代关系推断建筑传承或文化联系。",
+    "storyType": "史实",
+    "sources": [
+      {
+        "title": "Wat Xiengthong：历史、建筑与参观礼仪",
+        "url": "https://tourismluangprabang.org/things-to-do/buddhism/wat-xiengthong/",
+        "authority": "琅勃拉邦官方旅游信息网站",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Explore by Dynasty：中国朝代时间参照",
+        "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/",
+        "authority": "史密森尼学会国立亚洲艺术博物馆",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      }
+    ],
+    "factNotes": "官方英文页面关于王室灵车与骨灰人物有相互矛盾的段落，本卡不采用；也未把巨树和幸存战火等传说当成确证史实。",
+    "visitNote": "遮盖肩膝，按殿内要求脱鞋帽；尊重正在进行的礼拜，不打断僧侣和信众。",
+    "parentId": "luang-prabang-river",
+    "country": "老挝",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": "wat-xieng-thong-tree-of-life",
+    "seasonality": {
+      "mode": "year_round",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  },
+  {
+    "id": "poi:forbidden-city",
+    "name": "故宫博物院·紫禁城",
+    "category": "culture",
+    "whyGo": "沿中轴线从外朝走向内廷，比较殿宇、院落与门槛，读懂帝王礼制怎样塑造一座城市里的宫城。",
+    "originalUse": "紫禁城是明清皇帝处理朝政、举行典礼及皇室居住的宫殿。外朝和内廷承担不同功能，不能把每座大殿都理解成日常办公或睡觉的房间。",
+    "peopleEvents": "永乐时期于1406—1420年营建，明清两代24位皇帝在此居住和执政。末代皇帝溥仪1924年迁出；1925年故宫博物院成立，宫廷空间转向公共博物馆。",
+    "lookFor": [
+      "太和、中和、保和三殿的轴线秩序，结合院落尺度辨认外朝典礼空间。",
+      "乾清宫、交泰殿、坤宁宫与东西六宫的相对位置，体会内廷并非单一居住院落。"
+    ],
+    "historySignificance": "建筑群与宫廷收藏共同记录明清制度、工艺和审美；从禁入宫城到公共博物馆的转变，本身也是值得理解的近代文化史。",
+    "datesLabel": "1406—1420年营建；1925年成立博物院",
+    "chronology": [
+      {
+        "label": "紫禁城营建",
+        "start": 1406,
+        "end": 1420,
+        "approximate": false
+      },
+      {
+        "label": "故宫博物院成立",
+        "start": 1925,
+        "end": 1925,
+        "approximate": false
+      }
+    ],
+    "chinaParallel": "本身是中国明清史现场：营建属于明永乐时期，改为博物馆在民国时期。这里是中国自身的年代定位，只作时间参照，不推断其他文化联系。",
+    "storyType": "史实",
+    "sources": [
+      {
+        "title": "About the Palace Museum：宫殿历史、布局与博物馆成立",
+        "url": "https://intl.dpm.org.cn/about_us/126.html",
+        "authority": "故宫博物院",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Explore by Dynasty：中国朝代时间参照",
+        "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/",
+        "authority": "史密森尼学会国立亚洲艺术博物馆",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      }
+    ],
+    "factNotes": "未采用英文概况页中永乐帝在位年份及建筑群面积等存在表述问题的数据；现存殿宇多有重建，不等于全部为1420年原构。",
+    "parentId": "beijing-autumn",
+    "country": "中国",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": null,
+    "seasonality": {
+      "mode": "year_round",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "photoDestination": "beijing-autumn"
+  },
+  {
+    "id": "poi:temple-of-heaven",
+    "name": "天坛",
+    "category": "culture",
+    "whyGo": "从圜丘坛走向祈年殿，把圆形、数字和轴线当作线索，看一套天地观如何变成可行走的建筑。",
+    "originalUse": "明清皇帝祭天和祈求丰年的礼仪场所。它服务国家祭祀，并非皇帝日常居住的宫殿；祭坛、神位存放处与祈谷建筑各有用途。",
+    "peopleEvents": "1420年天地坛与紫禁城同期完成。嘉靖帝于1530年决定分祀天地并建圜丘坛，1534年改称天坛；此后清代仍持续调整和重建。",
+    "lookFor": [
+      "祈年殿的三重圆形屋顶，与丹陛桥连接南北祭祀空间的方式。",
+      "圜丘坛石板、栏板与台阶中反复出现的九及其倍数，理解礼制数字如何进入细部。"
+    ],
+    "historySignificance": "它以建筑和园林表达天、人和帝王之间的关系，是理解中国古代宇宙观及国家礼仪的重要实例；不只是蓝屋顶前的一张打卡照。",
+    "datesLabel": "1420年初建成；1530年分祀；清代续修",
+    "chronology": [
+      {
+        "label": "原天地坛完成",
+        "start": 1420,
+        "end": 1420,
+        "approximate": false
+      },
+      {
+        "label": "分祀天地与圜丘坛营建",
+        "start": 1530,
+        "end": 1530,
+        "approximate": false
+      },
+      {
+        "label": "乾隆时期总体布局形成阶段",
+        "start": 1749,
+        "end": 1749,
+        "approximate": false
+      }
+    ],
+    "chinaParallel": "1420年属于明永乐时期，1530年属于明嘉靖时期；1749年属于清乾隆时期。这里只作年代定位，不推断跨文化联系。",
+    "storyType": "史实",
+    "sources": [
+      {
+        "title": "Temple of Heaven：世界遗产突出普遍价值",
+        "url": "https://whc.unesco.org/en/list/881/",
+        "authority": "联合国教科文组织世界遗产中心",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Temple of Heaven：圜丘坛与参观指引",
+        "url": "https://english.beijing.gov.cn/specials/parktours/guidevisitors/templeofheaven/",
+        "authority": "北京市人民政府门户网站",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      }
+    ],
+    "factNotes": "不采用北京英文导览将现存祈年殿称为矩形建筑的错误句子；具体形制按UNESCO的三重圆形屋顶说明。",
+    "parentId": "beijing-autumn",
+    "country": "中国",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": null,
+    "seasonality": {
+      "mode": "year_round",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  },
+  {
+    "id": "poi:eikando-zenrinji",
+    "name": "永观堂·禅林寺",
+    "category": "culture",
+    "whyGo": "在秋枫之外看一尊回首的阿弥陀佛，理解寺院如何用姿态表达慈悲，而不只把古寺当作红叶背景。",
+    "originalUse": "始于佛教修行与僧侣培养场所，后成为净土宗西山禅林寺派本山。寺名沿革、宗派变化与现存建筑年代，需要分开理解。",
+    "peopleEvents": "真绍853年在此建寺，863年获赐禅林寺之名；永观以念佛实践及救济贫病著称。寺方记载1082年的回首阿弥陀故事，属于宗教叙事，不是可据建筑核验的历史事件。",
+    "lookFor": [
+      "本尊回首阿弥陀佛的转头姿态；现存像属镰仓时代早期，不能说是853年原像。",
+      "枫树与堂宇、庭园之间的层次；文物展陈依当期开放，不默认所有寺宝平日都在现场。"
+    ],
+    "historySignificance": "这里能串起日本佛教宗派演变、信仰图像与寺院救济的历史。红叶是进入寺院的理由之一，理解其仍在延续的宗教生活才让参观更完整。",
+    "datesLabel": "853年始建；863年赐名；现存本尊为后世作品",
+    "chronology": [
+      {
+        "label": "真绍建寺",
+        "start": 853,
+        "end": 853,
+        "approximate": false
+      },
+      {
+        "label": "获赐禅林寺之名",
+        "start": 863,
+        "end": 863,
+        "approximate": false
+      },
+      {
+        "label": "寺方回首阿弥陀叙事所系年代",
+        "start": 1082,
+        "end": 1082,
+        "approximate": false
+      }
+    ],
+    "chinaParallel": "853年、863年大致处于中国唐代；寺方1082年叙事处于北宋时期。只作年代对照，不据此推断宗教图像或建筑的传播联系。",
+    "storyType": "宗教叙事",
+    "sources": [
+      {
+        "title": "Introduction to Eikando：沿革与回首阿弥陀叙事",
+        "url": "https://www.eikando.or.jp/English/eikando_e.html",
+        "authority": "永观堂禅林寺",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Cultural Heritages：本尊年代及展陈边界",
+        "url": "https://www.eikando.or.jp/English/zihouichiran_e.html",
+        "authority": "永观堂禅林寺",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Guide of Eikando：2026年秋季开放说明",
+        "url": "https://www.eikando.or.jp/English/haikan_e.html",
+        "authority": "永观堂禅林寺",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Explore by Dynasty：中国朝代时间参照",
+        "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/",
+        "authority": "史密森尼学会国立亚洲艺术博物馆",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "China, 1000–1400 A.D.：北宋年代参照",
+        "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/07/eac.html",
+        "authority": "大都会艺术博物馆",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      }
+    ],
+    "visitNote": "参拜区域、摄影规定与临时关闭需核对所选日期的寺方公告。",
+    "factNotes": "storyType标出文中回首故事的性质；其余营建、人物救济、文物年代依寺方资料。没有把神迹叙事与雕像制作年代混同。",
+    "parentId": "kyoto-autumn",
+    "country": "日本",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": null,
+    "seasonality": {
+      "mode": "year_round",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "momentPhoto": [
+      "kyoto-autumn",
+      0
+    ],
+    "events": [
+      {
+        "id": "eikando-exhibition-2026",
+        "name": "2026秋季寺宝展与参拜安排",
+        "start": "2026-11-11",
+        "end": "2026-12-06",
+        "place": "永观堂",
+        "sourceURL": "https://www.eikando.or.jp/English/haikan_e.html",
+        "note": "寺方截至2026-10-18公告：2026秋展11月11日至12月6日，夜间开放11月20日至12月6日；两者分票。秋展期间卧龙廊等关闭，庭园之外殿内禁拍。临行复核。"
+      }
+    ]
+  },
+  {
+    "id": "poi:ben-youssef-medersa",
+    "name": "本优素福神学院",
+    "category": "culture",
+    "whyGo": "在繁复庭院与朴素学舍之间来回比较，看马拉喀什的工艺如何服务一所真实运作过的学校。",
+    "originalUse": "这是一所兼具教学和寄宿功能的伊斯兰学校，学生在此学习与生活；中央庭院也是诵读和交流的空间。它不是供王室居住的宫殿。",
+    "peopleEvents": "现存神学院由萨阿德王朝苏丹阿卜杜拉·加利卜于1564—1565年营建。官方资料确认长期教育用途，但没有提供足够具体的著名校友事迹，本卡不编造某位名人的求学故事。",
+    "lookFor": [
+      "庭院和入口处的zellige拼花、雕刻灰泥及雪松木作，比较三种材料怎样拼接几何与书法图案。",
+      "围绕小庭院组织的学生房间：官网记录134间，可比较临窗读书处与较暗休息空间的安排。"
+    ],
+    "historySignificance": "它让伊斯兰教育史与摩洛哥建筑工艺在同一现场相遇，既能看装饰，也能看学生日常所依赖的空间结构。",
+    "datesLabel": "现存建筑1564—1565年营建",
+    "chronology": [
+      {
+        "label": "现存神学院营建",
+        "start": 1564,
+        "end": 1565,
+        "approximate": false
+      }
+    ],
+    "chinaParallel": "1564—1565年处于中国明代。只作年代对照，不推断两地教育制度或工艺之间存在联系。",
+    "storyType": "史实",
+    "sources": [
+      {
+        "title": "Madrasa Ben Youssef History：营建与教育用途",
+        "url": "https://www.medersabenyoussef.ma/en/histoire/",
+        "authority": "摩洛哥宗教基金与伊斯兰事务部所属神学院官网",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Architecture Madrasa Ben Youssef：工艺与学生房间",
+        "url": "https://www.medersabenyoussef.ma/en/architecture/",
+        "authority": "摩洛哥宗教基金与伊斯兰事务部所属神学院官网",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Explore by Dynasty：中国朝代时间参照",
+        "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/",
+        "authority": "史密森尼学会国立亚洲艺术博物馆",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      }
+    ],
+    "factNotes": "只对现存萨阿德时期建筑标注1564—1565年，不把整个教育机构的全部沿革压成单次创立；不将现存建筑误认为优素福本人所建。",
+    "parentId": "marrakech",
+    "country": "摩洛哥",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": null,
+    "seasonality": {
+      "mode": "year_round",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "photoDestination": "marrakech"
+  },
+  {
+    "id": "poi:louvre-palace-museum",
+    "name": "卢浮宫",
+    "category": "culture",
+    "whyGo": "先看地下的中世纪护城沟，再走进王宫中的艺术陈列，把城堡、宫殿和公共博物馆的三段历史连起来。",
+    "originalUse": "约1190年起是保卫巴黎的要塞和军械库，后逐渐变为王室居所；1793年对公众开放为博物馆。今天看到的建筑由不同时期营建，不能统称为中世纪原构。",
+    "peopleEvents": "腓力二世下令营建城堡，查理五世时期转向王室居住；亨利四世于1595—1610年营建大画廊。法国革命后，艺术收藏的公共展示成为这座宫殿的新用途。",
+    "lookFor": [
+      "Sully翼地下的护城沟遗迹与宫殿历史展，把现存石墙同上层建筑的位置相互对照。",
+      "大画廊与院落之间的空间关系：先看用于连接宫殿的建筑尺度，再看作品如何被陈列其中。"
+    ],
+    "historySignificance": "卢浮宫值得看的既有艺术，也有收藏制度的变化：王室空间如何转为公众理解古代与近代艺术的场所，建筑本身就是可阅读的历史材料。",
+    "datesLabel": "约1190年始建要塞；1793年开放博物馆",
+    "chronology": [
+      {
+        "label": "最早要塞营建起点",
+        "start": 1190,
+        "end": 1190,
+        "approximate": true
+      },
+      {
+        "label": "大画廊营建",
+        "start": 1595,
+        "end": 1610,
+        "approximate": false
+      },
+      {
+        "label": "博物馆对公众开放",
+        "start": 1793,
+        "end": 1793,
+        "approximate": false
+      }
+    ],
+    "chinaParallel": "约1190年处于中国南宋与金并立时期；1793年处于清代。只作年代对照，不推断两地建筑、收藏制度或文化传播联系。",
+    "storyType": "史实",
+    "seasonality": {
+      "mode": "year_round",
+      "note": "全年文化体验，开放及临时关闭另核",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "sources": [
+      {
+        "title": "Le palais et ses collections：要塞、王宫与博物馆沿革",
+        "url": "https://presse.louvre.fr/le-palais-et-ses-collections/?lang=fr",
+        "authority": "卢浮宫博物馆",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "The Pavillon de l’Horloge：护城沟与宫殿历史展",
+        "url": "https://presse.louvre.fr/thepavillon-de-lhorloge/?lang=en",
+        "authority": "卢浮宫博物馆",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "China, 1000–1400 A.D.：宋金年代参照",
+        "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/07/eac.html",
+        "authority": "大都会艺术博物馆",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Explore by Dynasty：中国朝代时间参照",
+        "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/",
+        "authority": "史密森尼学会国立亚洲艺术博物馆",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      }
+    ],
+    "visitNote": "按当期开放展厅选择路线，不把历史新闻稿里的展陈数量、展厅可达性或票务信息当作实时安排。",
+    "parentId": "paris-art-walks",
+    "country": "法国",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": null
+  },
+  {
+    "id": "poi:colosseum-rome",
+    "name": "罗马斗兽场",
+    "category": "culture",
+    "whyGo": "从有编号的拱门看观众怎样入场，再看座席与地下机械，读懂一场古罗马公共表演背后的工程和社会秩序。",
+    "originalUse": "弗拉维王朝修建的大型圆形竞技场，用于角斗和狩猎等公共表演；后经历采石、作坊和居住等用途，再转为考古保护及参观场所。",
+    "peopleEvents": "韦斯帕芗在公元70年前后下令营建，80年建成；图密善继续扩建，并把开场时期的地下木构设施改为较牢固的砌石结构。这里不是皇帝的住所。",
+    "lookFor": [
+      "北侧仍可辨认的部分罗马数字拱门编号，结合座席分区理解不同身份观众的动线。",
+      "如所购票种含地下层，观察对称走廊与升降装置相关的空间；动物和人员曾由舞台活板门升至场地。"
+    ],
+    "historySignificance": "它同时展示古罗马建筑技术、公共娱乐与身份等级。理解其暴力历史和后来的反复利用，比只把废墟当成帝国辉煌的象征更完整。",
+    "datesLabel": "公元70年前后开始营建；80年建成，后续扩建",
+    "chronology": [
+      {
+        "label": "初期营建",
+        "start": 70,
+        "end": 80,
+        "approximate": true
+      },
+      {
+        "label": "图密善时期地下设施改建",
+        "start": 81,
+        "end": 96,
+        "approximate": true
+      }
+    ],
+    "chinaParallel": "公元1世纪的主要营建期处于中国汉代。只作年代对照，不推断两地建筑工程或社会制度的联系。",
+    "storyType": "史实",
+    "seasonality": {
+      "mode": "year_round",
+      "note": "全年文化体验，开放及临时关闭另核",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "sources": [
+      {
+        "title": "The Colosseum：原用途与后世变化",
+        "url": "https://colosseo.it/en/area/the-colosseum/",
+        "authority": "意大利斗兽场考古公园",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "The underground levels：舞台设备与图密善时期改建",
+        "url": "https://colosseo.it/en/marvels/the-underground-levels-of-the-colosseum/",
+        "authority": "意大利斗兽场考古公园",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "The Cavea：拱门编号、动线与座席等级",
+        "url": "https://colosseo.it/en/marvels/the-cavea-of-the-colosseum-and-the-belvedere-terrace/",
+        "authority": "意大利斗兽场考古公园",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Colosseo：初期营建与扩建年代",
+        "url": "https://lazio.cultura.gov.it/?p=185",
+        "authority": "意大利文化部罗马特别文物监管机构",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Explore by Dynasty：中国朝代时间参照",
+        "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/",
+        "authority": "史密森尼学会国立亚洲艺术博物馆",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Five marble architectural fragments：图密善在位年代",
+        "url": "https://www.metmuseum.org/art/collection/search/247174",
+        "authority": "大都会艺术博物馆",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      }
+    ],
+    "factNotes": "初期起年不同研究可见70、72等口径，故使用约年；81—96为图密善在位区间，表示改建所处时期，不表示工程连续进行了15年。",
+    "visitNote": "普通票、竞技场、地下层等准入不同，地下路线不能默认为每张门票均包含；当前票种与开放范围看考古公园官网。",
+    "parentId": "rome-ancient-city",
+    "country": "意大利",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": null,
+    "photoDestination": "rome-ancient-city"
+  },
+  {
+    "id": "poi:tower-of-london",
+    "parentStatus": "missing",
+    "suggestedParentName": "伦敦",
+    "name": "伦敦塔·白塔",
+    "category": "culture",
+    "whyGo": "在厚重石墙、王室礼拜堂与盔甲之间行走，看一座征服者的堡垒怎样同时容纳威慑、王室生活与国家机构。",
+    "originalUse": "伦敦塔最初为巩固诺曼征服后的王权而建，是堡垒及王室宫殿，后来承担监禁、军械收藏和铸币等多重功能；它不是从建造第一天就只是一座监狱。",
+    "peopleEvents": "征服者威廉推动白塔营建，主要工程在1078—1100年。1381年农民起义期间，年轻的理查二世和后来的亨利四世曾藏身白塔内的圣约翰礼拜堂。",
+    "lookFor": [
+      "圣约翰礼拜堂的罗曼式拱廊、石柱与高大空间，体会堡垒中的私人宗教生活。",
+      "白塔中的诺曼壁炉、螺旋楼梯与军械陈列，把生活设施同防御和王室展示放在一起看。"
+    ],
+    "historySignificance": "这座建筑把征服后的统治、宫廷生活和国家机构的累积放在同一现场。理解用途的变化，也能分清可靠的囚禁记录与后世流传的鬼故事。",
+    "datesLabel": "白塔主要建于1078—1100年；全堡垒后世多次扩建",
+    "chronology": [
+      {
+        "label": "白塔主要营建期",
+        "start": 1078,
+        "end": 1100,
+        "approximate": false
+      },
+      {
+        "label": "1381年起义期间的王室避难事件",
+        "start": 1381,
+        "end": 1381,
+        "approximate": false
+      }
+    ],
+    "chinaParallel": "白塔主要营建期大致处于中国北宋时期；1381年则处于明代。只作年代对照，不推断两地城堡、宗教建筑或统治制度的联系。",
+    "storyType": "史实",
+    "seasonality": {
+      "mode": "year_round",
+      "note": "全年文化体验，开放及临时关闭另核",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "sources": [
+      {
+        "title": "The White Tower：建造年代、建筑细部与1381年事件",
+        "url": "https://www.hrp.org.uk/tower-of-london/whats-on/white-tower/",
+        "authority": "Historic Royal Palaces，英国历史皇家宫殿管理机构",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "The Story of the Tower of London：用途沿革",
+        "url": "https://www.hrp.org.uk/tower-of-london/history-and-stories/the-story-of-the-tower-of-london/",
+        "authority": "Historic Royal Palaces，英国历史皇家宫殿管理机构",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "China, 1000–1400 A.D.：宋金年代参照",
+        "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/07/eac.html",
+        "authority": "大都会艺术博物馆",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Explore by Dynasty：中国朝代时间参照",
+        "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/",
+        "authority": "史密森尼学会国立亚洲艺术博物馆",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      }
+    ],
+    "factNotes": "当前应用没有伦敦父目的地记录，cityId为null等待父级创建；未把塔中双王子之死的争议或鬼魂故事当作确证事件。",
+    "parentId": null,
+    "country": "英国",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": null
+  },
+  {
+    "id": "poi:hagia-sophia-istanbul",
+    "name": "圣索菲亚",
+    "category": "culture",
+    "whyGo": "从巨大穹顶下的空间关系读起，再比较拜占庭镶嵌画与奥斯曼增建，理解一座建筑如何经历多次宗教与公共用途变化。",
+    "originalUse": "现存主体由查士丁尼一世在532—537年营建为教堂；1453年改作清真寺，1935年作为博物馆开放，2020年重新作为清真寺使用。它同时是需要保护的历史建筑。",
+    "peopleEvents": "查士丁尼委托安提米奥斯与伊西多罗斯设计现存建筑；穆罕默德二世于1453年将其改为清真寺。此后又多次修缮增建，并非整座建筑都来自537年。",
+    "lookFor": [
+      "主穹顶与周围半穹顶、柱列的空间关系，区分核心结构与后世添加的宗教设施。",
+      "按当期开放路线看不同年代的马赛克及奥斯曼书法、祈祷设施；不要把所有人物画都当作初建时期的作品。"
+    ],
+    "historySignificance": "这里保存了东罗马与奥斯曼时期的多层历史，值得理解的是建筑技术、艺术与使用者怎样不断变化；无需借助神迹或虚构轶事才能说明其文化意义。",
+    "datesLabel": "现存主体532—537年；1453、1935、2020年用途变化",
+    "chronology": [
+      {
+        "label": "现存主体营建",
+        "start": 532,
+        "end": 537,
+        "approximate": false
+      },
+      {
+        "label": "转作清真寺",
+        "start": 1453,
+        "end": 1453,
+        "approximate": false
+      },
+      {
+        "label": "作为博物馆对外开放",
+        "start": 1935,
+        "end": 1935,
+        "approximate": false
+      },
+      {
+        "label": "恢复清真寺用途",
+        "start": 2020,
+        "end": 2020,
+        "approximate": false
+      }
+    ],
+    "chinaParallel": "532—537年大致处于中国南北朝时期，南方为梁；1453年处于明代，1935年处于民国。只作年代对照，不推断建筑或艺术传播联系。",
+    "storyType": "史实",
+    "seasonality": {
+      "mode": "year_round",
+      "note": "全年文化体验，开放及临时关闭另核",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "sources": [
+      {
+        "title": "Ayasofya：532—537年营建及历史用途",
+        "url": "https://www.ktb.gov.tr/EN-113776/ayasofya-hagia-sophia.html",
+        "authority": "土耳其文化与旅游部",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Ayasofyai Kebir Camii Şerifi：用途、建筑与马赛克分期",
+        "url": "https://kulturportali.gov.tr/turkiye/istanbul/gezilecekyer/ayasofya-muzesi",
+        "authority": "土耳其文化与旅游部文化门户",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "THE HAGIA SOPHIA GRAND MOSQUE WAS REOPENED TO WORSHIP",
+        "url": "https://www.vgm.gov.tr/news/the-hagia-sophia-grand-mosque--was-reopened-to-worship",
+        "authority": "土耳其宗教基金总局",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "2024年游客与礼拜者入口分流及画廊参观安排",
+        "url": "https://basin.ktb.gov.tr/TR-364045/ayasofya-i-kebir-camiinde-yeni-duzenleme-15-ocakta-basliyor.html",
+        "authority": "土耳其文化与旅游部新闻机构",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "China, 500–1000 A.D.：梁与南北朝年代参照",
+        "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/06/eac.html",
+        "authority": "大都会艺术博物馆",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Explore by Dynasty：中国朝代时间参照",
+        "url": "https://asia-archive.si.edu/learn/for-educators/teaching-china-with-the-smithsonian/explore-by-dynasty/",
+        "authority": "史密森尼学会国立亚洲艺术博物馆",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      }
+    ],
+    "factNotes": "文化部旧英文页仍用博物馆称谓，现状以2020年公告和2026年更新的官方文化门户校正；1934年为改馆决定，1935年为博物馆开放，不混为同一年。",
+    "visitNote": "旅游参观与礼拜入口已分流，游客按画廊路线及当期票务参观；遵守着装、礼拜及修缮限制，不承诺每一幅马赛克始终可见。",
+    "parentId": "istanbul-bosphorus",
+    "country": "土耳其",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": null
+  },
+  {
+    "id": "poi:hangzhou-botanical-osmanthus",
+    "parentId": "hangzhou-west-lake",
+    "name": "杭州植物园 · 桂花园寻香",
+    "category": "nature",
+    "whyGo": "在同一片园子里辨认不同桂花的花色和香气，把杭州的秋天看得更细，也闻得更清楚。",
+    "experience": "从靠近北门的桂花园慢慢走，看枝头花苞、初花与落花的变化，留意金桂、银桂、丹桂等品种的差别。",
+    "lookFor": [
+      "细看花序与叶形，而不只是拍一张树下合影。",
+      "顺着香气寻找开花的树；同一天、不同品种也可能处于不同花期。"
+    ],
+    "bestMonths": [
+      9,
+      10
+    ],
+    "bestMonthsBasis": "常年秋季赏桂的编辑窗口；不是保证开花的固定日期。",
+    "seasonStatus": "即时花况未核",
+    "seasonNotice": "截至2026-10-18，最近读到的带日期花讯为2026-10-09：报道记录10月8日部分品种少量开放、其余仍在花前阶段。不能据此声称今天已经盛放；出发前查杭州植物园当天花讯。",
+    "durationEstimate": "编辑建议：2—3小时，适合慢走、辨花与休息。",
+    "bookingAndAccess": "当日开放时间、门票及活动预约未核，需查杭州植物园或西湖景区官方公告；不沿用往年票价。",
+    "sources": [
+      {
+        "title": "杭州植物园（来源：杭州植物园）",
+        "url": "https://www.cubg.cn/member/2013-12-10/33.html",
+        "authority": "中国植物园联盟；杭州植物园供稿",
+        "publishedAt": "2013-12-10",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "机构供稿全文已读；仅支持园区性质与所在地，非当前花况"
+      },
+      {
+        "title": "杭城第二波桂花香开始了",
+        "url": "https://hznews.hangzhou.com.cn/chengshi/content/2026-10/09/content_9330383.htm",
+        "authority": "都市快报；杭州网转载，含杭州植物园通讯员信息",
+        "publishedAt": "2026-10-09",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "媒体花讯全文已读；观察日期为10月8日，非10月18日实况"
+      },
+      {
+        "title": "国庆假期赏桂好去处 杭州植物园桂花大面积开放",
+        "url": "https://ori.hangzhou.com.cn/ornews/content/2024-10/05/content_8796282.htm",
+        "authority": "杭州网、杭州通客户端原创采访",
+        "publishedAt": "2024-10-05",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "媒体原创全文已读；仅支持赏桂场景与常年参考"
+      }
+    ],
+    "country": "中国",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": "osmanthus-species-reference",
+    "seasonality": {
+      "mode": "seasonal",
+      "months": [
+        9,
+        10
+      ]
+    }
+  },
+  {
+    "id": "poi:hangzhou-manjuelong-osmanthus",
+    "parentId": "hangzhou-west-lake",
+    "name": "满觉陇 · 桂树下的村落生活",
+    "category": "mixed",
+    "whyGo": "桂树、茶园和村落相连，赏桂不仅是看花，也能读懂杭州人怎样把季节做进茶与点心里。",
+    "experience": "沿上、下满觉陇步行，在文化长廊了解赏桂习俗，找一处茶席歇脚；若花期合适，再顺路探访石屋洞与水乐洞周边。",
+    "lookFor": [
+      "桂树与茶田交织的山谷景观。",
+      "桂花食品制作、桂花龙井和村落里的赏桂民俗；具体活动须查当年安排。"
+    ],
+    "bestMonths": [
+      9,
+      10
+    ],
+    "bestMonthsBasis": "秋季赏桂的编辑窗口，受当年降温、降雨与品种影响。",
+    "seasonStatus": "当年活动日期已核；即时花况未核",
+    "seasonNotice": "官方站转载报道确认2026满觉陇·杭州桂花季于9月23日开幕；其中9月23日、25日巡游已结束。未核实10月18日花况或当天市集、工坊是否开放。",
+    "durationEstimate": "编辑建议：2—4小时；包含喝茶和村道散步，不等同于全程山地徒步。",
+    "bookingAndAccess": "村道、洞窟及活动场地开放规则需分别查西湖景区公告；茶饮和手作可能另收费，出发前确认。",
+    "historySignificance": "赏桂习俗与桂花食品技艺把自然花期、地方饮食和村落生活连在一起，适合从活态民俗认识西湖群山。",
+    "sources": [
+      {
+        "title": "满陇桂雨、非遗手作、限定快闪……2026满觉陇·杭州桂花季启幕",
+        "url": "https://www.hzzx.gov.cn/cshz/content/2026-09/24/content_9315838.htm",
+        "authority": "杭州政协网转载杭州网、杭州通客户端；非文旅部门原始通告",
+        "publishedAt": "2026-09-24",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "官方站媒体转载全文已读；仅确认报道中的当年活动日期"
+      },
+      {
+        "title": "城市·漫步：不止西湖之别有洞天",
+        "url": "https://wgly.hangzhou.gov.cn/cw/cn/index.html",
+        "authority": "杭州市文化广电旅游局",
+        "publishedAt": null,
+        "accessedAt": "2026-10-18",
+        "accessLevel": "官方专题全文已读；支持烟霞三洞自然与造像背景"
+      }
+    ],
+    "country": "中国",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": "osmanthus-species-reference",
+    "seasonality": {
+      "mode": "seasonal",
+      "months": [
+        9,
+        10
+      ]
+    }
+  },
+  {
+    "id": "poi:hangzhou-qiantang-tidal-bore",
+    "parentId": "hangzhou-west-lake",
+    "name": "钱塘江杭州段 · 择日观潮",
+    "category": "nature",
+    "whyGo": "潮头沿江推进的声音与形态，是杭州区别于普通滨水城市的自然体验；值得为一份合适的当天预报专门留出时间。",
+    "experience": "先查杭州段具体站点的官方潮汐预报与现场开放信息，再选择白天允许进入的观景区候潮。预报里的萧山仓前、七堡、三堡等站点不能相互套用潮时。",
+    "lookFor": [
+      "潮线到来前江面的变化，以及潮头沿江推进的过程。",
+      "同时核对观赏指数与安全提示；潮大不等于适合靠近。"
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "bestMonthsBasis": "全年存在潮汐；具体是否值得前往由当日官方预报、气象与开放情况决定。秋季传统观潮窗口不能替代逐日核验。",
+    "seasonStatus": "常年经验",
+    "seasonNotice": "本卡未核实2026-10-18或所选旅行日的潮时、涌高、观赏指数。农历八月十八不是固定公历日期。盐官属于嘉兴海宁，是杭州周边目的地，不是杭州行政区内景点。",
+    "durationEstimate": "编辑建议：按当日预报安排候潮与疏散时间，通常预留半天；这不是官方潮时。",
+    "bookingAndAccess": "从杭州市林业水利局官网首页进入“潮汐预报”，当前链接为浙里办“智管钱潮”；需查当天预报和临时管控。只在现场允许进入的区域观潮，不翻越挡浪墙、不进入滩涂与丁坝危险区。",
+    "sources": [
+      {
+        "title": "杭州市林业水利局首页 · 潮汐预报入口",
+        "url": "https://ls.hangzhou.gov.cn/",
+        "authority": "杭州市林业水利局",
+        "publishedAt": null,
+        "accessedAt": "2026-10-18",
+        "accessLevel": "官方首页原始HTML已读，确认当前潮汐预报跳转链接"
+      },
+      {
+        "title": "智管钱潮",
+        "url": "https://mapi.zjzwfw.gov.cn/web/mgop/gov-open/zj/2002421324/reserved/index.html",
+        "authority": "浙江政务服务网；杭州市林业水利局",
+        "publishedAt": null,
+        "accessedAt": "2026-10-18",
+        "accessLevel": "官方入口HTTP200和页面标题已核；动态预报数据未核"
+      },
+      {
+        "title": "杭州市钱塘江防潮安全管理办法",
+        "url": "https://zfgb.hangzhou.gov.cn/9/105220253/t122220253054/519804.shtml",
+        "authority": "杭州市人民政府公报",
+        "publishedAt": "2018-03-07",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "官方规章正文已读；支持官方预报职责与观潮安全规则"
+      },
+      {
+        "title": "海宁观潮通行证申领须知",
+        "url": "https://hnsgaj.cn/wxpt/html/gctxz/gctxz.aspx",
+        "authority": "海宁市公安局交通管理大队",
+        "publishedAt": null,
+        "accessedAt": "2026-10-18",
+        "accessLevel": "官方2026年观潮季页面正文已读；历史交通安排不用于当前出行"
+      }
+    ],
+    "country": "中国",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": null,
+    "seasonality": {
+      "mode": "conditional",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "note": "必须按实际日期查询潮汐；不保证每天有可观大潮。"
+    }
+  },
+  {
+    "id": "poi:hangzhou-sudi-causeway",
+    "parentId": "hangzhou-west-lake",
+    "name": "西湖苏堤 · 从治水工程走进宋人的山水",
+    "category": "mixed",
+    "whyGo": "这条横贯湖面的长堤由疏浚西湖的淤泥筑成：今天的风景，也是一座城市处理饮水、灌溉与通航问题留下的答案。",
+    "experience": "沿堤步行，在桥上比较湖面与两岸山形；春天重点看桃柳，秋天适合把注意力放回开阔的湖光和山色。",
+    "lookFor": [
+      "桥上打开的湖面视野，以及堤、桥和水之间的关系。",
+      "把苏轼的治湖背景与眼前长堤对照，而不只记住“苏堤春晓”四字。"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      9,
+      10,
+      11
+    ],
+    "bestMonthsBasis": "3—4月赏桃柳有景区历年花讯支持；9—11月为步行舒适度的编辑建议，不承诺秋叶。",
+    "seasonStatus": "常年经验",
+    "seasonNotice": "苏堤可四季欣赏；桃花花期会随天气变化。2022年3月花讯只用作常年参考，不是2026年花况。",
+    "durationEstimate": "编辑建议：1.5—2.5小时，按步行、停留与拍照节奏调整。",
+    "bookingAndAccess": "当日步道、桥梁管控和周边交通需查西湖景区官方公告；游船和其他收费项目另行确认。",
+    "originalUse": "苏轼任杭州知州期间疏浚西湖，利用挖出的葑泥筑堤，同时形成连接南北的通道。",
+    "peopleEvents": "北宋苏轼第二次任职杭州时推动治湖。1090年奏章讨论了供水、灌溉、漕运等民生用途。",
+    "historySignificance": "苏堤把水利治理转化为可持续使用的城市景观，是理解西湖文化景观的一条具体线索。",
+    "chronology": "北宋元祐五年（1090）推动疏浚筑堤；南宋时苏堤春晓已列为西湖十景。",
+    "chinaParallel": "遗迹本身位于中国：筑堤背景是北宋，后续景名形成与南宋西湖文化有关。",
+    "sources": [
+      {
+        "title": "[西湖十景]苏堤春晓",
+        "url": "https://westlake.hangzhou.gov.cn/art/2024/3/4/art_1643935_59046176.html",
+        "authority": "杭州西湖风景名胜区管理委员会",
+        "publishedAt": "2024-03-04",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "官方景点介绍全文已读（直接HTTP200）"
+      },
+      {
+        "title": "苏东坡是一位杰出的水利专家",
+        "url": "https://westlake.hangzhou.gov.cn/art/2022/4/8/art_1639433_59036844.html",
+        "authority": "杭州西湖博物馆总馆；西湖景区管委会发布",
+        "publishedAt": "2022-04-08",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "官方博物馆文章全文已读（直接HTTP200）"
+      },
+      {
+        "title": "苏堤上的桃花开了",
+        "url": "https://westlake.hangzhou.gov.cn/art/2022/3/15/art_1639430_59036628.html",
+        "authority": "西湖景区花港管理处",
+        "publishedAt": "2022-03-15",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "官方历年花讯全文已读；非2026年实况"
+      }
+    ],
+    "country": "中国",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": null,
+    "seasonality": {
+      "mode": "variants"
+    },
+    "photoDestination": "hangzhou-west-lake",
+    "variants": [
+      {
+        "key": "spring",
+        "seasonLabel": "春季 · 苏堤春晓",
+        "months": [
+          3,
+          4
+        ],
+        "whyGo": "在春季沿堤慢走，看柳色、湖面与桥影如何构成苏堤春晓；具体花况逐年核验。",
+        "photoNote": "西湖参考摄影，非当前花况。"
+      },
+      {
+        "key": "autumn",
+        "seasonLabel": "秋季 · 湖山慢行",
+        "months": [
+          9,
+          10,
+          11
+        ],
+        "whyGo": "秋日把行程留给堤上步行与湖山层次，少排赶路；当年叶色、能见度与天气另核。",
+        "photoNote": "西湖参考摄影，非当前秋色。"
+      }
+    ]
+  },
+  {
+    "id": "poi:hangzhou-longjing-village",
+    "parentId": "hangzhou-west-lake",
+    "name": "龙井村 · 茶田里的春日劳动",
+    "category": "mixed",
+    "whyGo": "茶园不只是一片整齐的绿色：春天能看到鲜叶怎样从山坡走向茶杯，读懂西湖龙井背后的劳动与季节。",
+    "experience": "沿村道和允许通行的茶山步道观景，预约合规的制茶或品茶体验；按体力选择短程散步，不默认必须走完整条十里琅珰。",
+    "lookFor": [
+      "茶垄随山势起伏的层次。",
+      "春茶采摘、摊放与炒制的过程；体验项目先征得茶农同意，不擅自入田采摘。"
+    ],
+    "bestMonths": [
+      3,
+      4
+    ],
+    "bestMonthsBasis": "春茶季为重点编辑窗口；其他月份仍可看茶山，但不应描述为春茶采摘现场。",
+    "seasonStatus": "常年经验",
+    "seasonNotice": "2026年3月20日核心产区开茶仪式已由媒体报道，但这是当年历史事件，不是每年固定开采日；10月的卡片应推荐茶山与品茶，不显示“春茶正采”。",
+    "durationEstimate": "编辑建议：2—4小时；山地长线徒步另作行程评估。",
+    "bookingAndAccess": "村道交通、步道开放和茶事体验需查西湖景区、村落或承办方当天公告；采茶制茶活动、品茶与购茶另收费，价格先确认。",
+    "sources": [
+      {
+        "title": "人间天堂·最忆杭州旅游指南：龙井茶园，休闲有滋有味",
+        "url": "https://wgly.hangzhou.gov.cn/attach/538/2307051510367229.pdf",
+        "authority": "杭州市文化广电旅游局",
+        "publishedAt": null,
+        "accessedAt": "2026-10-18",
+        "accessLevel": "官方PDF已下载并核读第13页（印刷页22—23）；仅采用茶园游线，不采用旧票价交通"
+      },
+      {
+        "title": "赴一场千年茶约，“龙井问茶”2026年西湖龙井核心产区开茶仪式春分启幕",
+        "url": "https://ori.hangzhou.com.cn/ornews/content/2026-03/20/content_9194212.htm",
+        "authority": "杭州网、杭州通客户端原创采访",
+        "publishedAt": "2026-03-20",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "媒体原创全文已读；只支持2026年已发生的开茶事件"
+      }
+    ],
+    "country": "中国",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": null,
+    "seasonality": {
+      "mode": "seasonal",
+      "months": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "id": "poi:hangzhou-china-tea-museum",
+    "parentId": "hangzhou-west-lake",
+    "name": "中国茶叶博物馆 · 从茶器看中国人的生活",
+    "category": "culture",
+    "whyGo": "从茶叶、茶具和饮茶习俗出发，理解一杯茶怎样进入日常生活、文人交往与世界交流；适合与茶山组成一条有来龙去脉的路线。",
+    "experience": "先选一个馆区认真看展。双峰馆区侧重中国茶文化与西湖龙井，龙井馆区可继续看世界茶文化；不把两个馆区误当成同一栋建筑。",
+    "lookFor": [
+      "茶叶实物、茶具与饮茶方式之间的对应关系。",
+      "对照展品说明，比较茶具与饮茶方式的变化；具体展品以当期陈列为准。"
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "bestMonthsBasis": "室内文化内容全年可安排，具体以开馆和展览档期为准。",
+    "seasonStatus": "当年活动日期已核",
+    "seasonNotice": "官网列出“风物长新”展期为2026-07-17至2026-11-30，地点为双峰馆区临时展厅；已核档期，未核今日是否临时闭馆。日期超出展期时应自动隐藏该临展推荐。",
+    "durationEstimate": "编辑建议：单馆区2—3小时；若串联两馆，另留交通和休息时间。",
+    "bookingAndAccess": "需查中国茶叶博物馆官网当天开馆公告、预约与讲解安排；不把往年的开闭馆时间、票价直接当作当前规则。",
+    "originalUse": "为茶文化收藏、研究、科普、非遗保护和国际交流设立的现代专题博物馆。",
+    "historySignificance": "把农业、器物、饮食与社会交往放在同一个视角里，帮助理解中国茶文化如何联系古今与不同地区。",
+    "chronology": "双峰馆区1991年4月对外开放；龙井馆区2015年5月对外开放。",
+    "sources": [
+      {
+        "title": "基本介绍",
+        "url": "https://www.teamuseum.cn/basicInfo/basicIntroduction.htm",
+        "authority": "中国茶叶博物馆",
+        "publishedAt": null,
+        "accessedAt": "2026-10-18",
+        "accessLevel": "博物馆官网全文已读；含一馆两区地址及开馆年代"
+      },
+      {
+        "title": "中国茶叶博物馆首页 · 常设展览",
+        "url": "https://www.teamuseum.cn/",
+        "authority": "中国茶叶博物馆",
+        "publishedAt": null,
+        "accessedAt": "2026-10-18",
+        "accessLevel": "博物馆官网展览目录全文已读"
+      },
+      {
+        "title": "临时展览：风物长新——以茶为径的三重对话",
+        "url": "https://www.teamuseum.cn/information/temp_information_list.htm",
+        "authority": "中国茶叶博物馆",
+        "publishedAt": null,
+        "accessedAt": "2026-10-18",
+        "accessLevel": "博物馆官网当前展览列表全文已读；展期2026-07-17至2026-11-30"
+      }
+    ],
+    "country": "中国",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": null,
+    "seasonality": {
+      "mode": "year_round",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "events": [
+      {
+        "id": "tea-exhibition-2026",
+        "name": "风物长新——以茶为径的三重对话",
+        "start": "2026-07-17",
+        "end": "2026-11-30",
+        "place": "双峰馆区临时展厅",
+        "sourceURL": "https://www.teamuseum.cn/information/temp_information_list.htm",
+        "note": "官网档期已核；当日开馆与临时调整另核。"
+      }
+    ]
+  },
+  {
+    "id": "poi:hangzhou-liangzhu-archaeology",
+    "parentId": "hangzhou-west-lake",
+    "name": "良渚古城遗址 · 五千年前如何组织一座城",
+    "category": "culture",
+    "whyGo": "良渚值得看的核心，是土台、城址、水利与玉器共同呈现的早期社会。带着“谁组织劳动、怎样生活和表达信仰”的问题，遗址会比一片草地更清晰。",
+    "experience": "先在遗址公园理解空间尺度，再视时间串联良渚博物院，通过器物解释遗迹；城址、博物院与外围水利遗址是不同参观点。",
+    "lookFor": [
+      "遗址地形、城址格局与水利系统之间的关系。",
+      "玉器工艺与墓葬等级所呈现的社会分工和共同信仰。"
+    ],
+    "bestMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "bestMonthsBasis": "户外步行舒适度的编辑建议；遗产价值不受月份限制。",
+    "seasonStatus": "常年经验",
+    "seasonNotice": "草地、稻田与临展会随季节和维护调整；本卡不宣称当前稻田颜色、鹿群开放或具体展品正在展出。",
+    "durationEstimate": "编辑建议：遗址公园半天；加博物院可留一天，包含两处之间交通。",
+    "bookingAndAccess": "需分别查良渚遗址官方渠道的预约、开放区块、接驳与博物院公告；不把整个世界遗产四个片区当作一张园区门票覆盖。",
+    "originalUse": "长江下游以稻作农业为基础的早期区域性国家的权力与信仰中心，包含城址、水利与分等级墓地等遗存。",
+    "historySignificance": "遗址以城市规划、土质建筑、水利、玉器和墓葬差异，展示从小型新石器社会走向复杂政治共同体的过程；2019年列入世界遗产。",
+    "chronology": "世界遗产核心时代约为公元前3300—前2300年。",
+    "chinaParallel": "对应中国新石器时代晚期的良渚文化，早于夏商时期；不应硬套成已有明确王朝的宫殿故事。",
+    "sources": [
+      {
+        "title": "Archaeological Ruins of Liangzhu City",
+        "url": "https://whc.unesco.org/en/list/1592/",
+        "authority": "联合国教科文组织世界遗产中心",
+        "publishedAt": null,
+        "accessedAt": "2026-10-18",
+        "accessLevel": "世界遗产价值说明全文已读；年代和功能的一手权威来源"
+      },
+      {
+        "title": "良渚遗址官网",
+        "url": "https://www.lzsite.cn/",
+        "authority": "杭州市余杭区良渚遗址管委会",
+        "publishedAt": null,
+        "accessedAt": "2026-10-18",
+        "accessLevel": "官方首页全文已读（直接HTTP200）；核对不同参观点及主管单位"
+      }
+    ],
+    "country": "中国",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": null,
+    "seasonality": {
+      "mode": "year_round",
+      "months": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    }
+  },
+  {
+    "id": "poi:hangzhou-grand-canal-gongchen",
+    "parentId": "hangzhou-west-lake",
+    "name": "拱宸桥与桥西 · 运河边仍在继续的生活",
+    "category": "culture",
+    "whyGo": "这段运河把码头、厂房、仓库与居民里弄放在同一片街区里，适合看杭州如何由水路商业城市走向近现代工业与日常生活。",
+    "experience": "从拱宸桥步行到桥西直街与桥弄街，选择工艺美术、刀剪剑、伞或扇主题场馆之一深入看；再沿河留一段不赶路的散步时间。",
+    "lookFor": [
+      "桥、船埠、码头与民居的空间关系。",
+      "旧工业建筑改造的场馆，以及清末民初以来不同年代的居住建筑。"
+    ],
+    "bestMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "bestMonthsBasis": "以街区与室内场馆为主，可全年安排；春秋步行舒适是编辑建议。",
+    "seasonStatus": "常年经验",
+    "seasonNotice": "街区价值不依赖单一花期。夜景照明、船班和展览属于动态项目，本卡未核当日安排。",
+    "durationEstimate": "编辑建议：半天，含一个场馆；增加多个场馆需再留时间。",
+    "bookingAndAccess": "桥西街区、各博物馆与游船的规则分别确认，需查拱墅区官方文旅及场馆公告；不把旧场馆名单当作当天全部开放。",
+    "originalUse": "清末民初兴起的运河沿岸工商业与居住街区，保留厂房、仓库、商店、船埠、码头和多种民居。",
+    "historySignificance": "运河的意义可以从真实生活空间中读到：物流、手工业与社区居住共同塑造了杭州的近现代城市。",
+    "chronology": "街区兴于清末民初；2014年作为大运河遗产相关组成部分列入世界遗产。",
+    "chinaParallel": "主要空间故事对应中国清末、民国及此后的近现代生活；不把现存全部建筑统称为千年古建筑。",
+    "sources": [
+      {
+        "title": "大运河世界文化遗产点——桥西历史街区",
+        "url": "https://www.gongshu.gov.cn/art/2024/4/30/art_1229789753_59080391.html",
+        "authority": "杭州市拱墅区政府；来源：拱墅区大运河文化研究院",
+        "publishedAt": "2024-04-30",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "政府官方研究机构文章全文已读（直接HTTP200）"
+      },
+      {
+        "title": "城市·漫步：活态运河",
+        "url": "https://wgly.hangzhou.gov.cn/cw/cn/index.html",
+        "authority": "杭州市文化广电旅游局",
+        "publishedAt": null,
+        "accessedAt": "2026-10-18",
+        "accessLevel": "官方专题全文已读；支持拱宸桥—桥西游线"
+      }
+    ],
+    "country": "中国",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": null,
+    "seasonality": {
+      "mode": "year_round",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  },
+  {
+    "id": "poi:hangzhou-xixi-autumn-reeds",
+    "parentId": "hangzhou-west-lake",
+    "name": "西溪湿地 · 秋雪庵外听芦花",
+    "category": "mixed",
+    "whyGo": "深秋的芦花、曲折水道和水乡生活，可以让人从西湖之外认识杭州；“秋芦飞雪”指的是芦花泛白的景象。",
+    "experience": "视开放情况选择周家村方向的水上线路，在允许停靠的点位看芦荡；若更喜欢步行，可另选开放步道，不假设每处都能步行直达。",
+    "lookFor": [
+      "秋雪庵周边水面、芦荡与倒影形成的层次。",
+      "湿地沿岸的桑蚕、水乡婚俗与渔耕文化展示，把自然景观与当地生活连起来。"
+    ],
+    "bestMonths": [
+      11,
+      12
+    ],
+    "bestMonthsBasis": "历年深秋至初冬赏芦资料的编辑窗口；并非已确认2026年听芦节日期。",
+    "seasonStatus": "常年经验",
+    "seasonNotice": "已读的是历年赏芦与文旅游线资料，未核2026年芦花实时状态、听芦节日期和秋雪庵当日登临规则。10月可看湿地，但不能保证已有大片白芦。",
+    "durationEstimate": "编辑建议：半天到一天，取决于步行范围、船线与是否加文化展示点。",
+    "bookingAndAccess": "需查西溪湿地官方的门票、船型、码头、开放区块与临时公告；门票、交通船和摇橹船可能为不同产品，不沿用旧价格。",
+    "peopleEvents": "杭州亚运会官网转载资料提到张岱、徐志摩等曾以西溪芦花为题留下诗篇；这是一条文学欣赏线索，不等于他们都曾居住在秋雪庵。",
+    "historySignificance": "除了湿地生态，这里还可借渔耕、桑蚕和水乡婚俗展示理解杭州近水而居的生活传统。",
+    "sources": [
+      {
+        "title": "西溪芦花最美的季节到了",
+        "url": "https://www.hangzhou2022.cn/hzhyn/mlhz/202111/t20211104_40901.shtml",
+        "authority": "杭州亚运会官网转载杭州日报",
+        "publishedAt": "2021-11-04",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "官方站历史媒体转载全文已读；不用于2026年活动日期或实时芦花"
+      },
+      {
+        "title": "人间天堂·最忆杭州旅游指南：西溪经典一日游",
+        "url": "https://wgly.hangzhou.gov.cn/attach/538/2307051510367229.pdf",
+        "authority": "杭州市文化广电旅游局",
+        "publishedAt": null,
+        "accessedAt": "2026-10-18",
+        "accessLevel": "官方PDF已核读第19页（印刷页34—35）；只采用文化与游线背景，旧价格开放时间不采用"
+      }
+    ],
+    "country": "中国",
+    "recordKind": "curated-poi",
+    "verification": "逐点核对来源",
+    "checkedAt": "2026-10-18",
+    "photoKey": null,
+    "seasonality": {
+      "mode": "seasonal",
+      "months": [
+        11,
+        12
+      ]
+    }
+  },
+  {
+    "id": "poi:kuang-si-falls",
+    "parentId": "luang-prabang-river",
+    "country": "老挝",
+    "name": "光西瀑布 · 在石灰华叠瀑间慢走",
+    "category": "nature",
+    "recordKind": "curated-poi",
+    "verification": "官方正文已核",
+    "checkedAt": "2026-10-18",
+    "photoKey": "kuang-si-falls",
+    "whyGo": "看蓝绿色水潭、阶梯叠瀑和森林如何连成一条水路；不只是到主瀑前拍一张照片。",
+    "experience": "从林间步道逐层观察水潭和钙化台阶，再按体力前往主要落水区。",
+    "lookFor": [
+      "不同高度的水潭、石灰华台阶与水色变化。",
+      "步道旁的林下生态；水色和水量会随天气变化。"
+    ],
+    "durationEstimate": "编辑建议：含往返交通留半天，步行量按路线调整。",
+    "bookingAndAccess": "开放、票价、能否入水及临时关闭需查当天公告；不把历史游泳照片当作许可。",
+    "seasonality": {
+      "mode": "seasonal",
+      "months": [
+        11,
+        12,
+        1,
+        2,
+        3,
+        4
+      ],
+      "note": "较干凉时段的编辑旅行窗口；水量、水色及道路条件需当天核验。"
+    },
+    "sources": [
+      {
+        "title": "Kuang Si Waterfall",
+        "url": "https://tourismluangprabang.org/things-to-do/nature/kuang-si-waterfall/",
+        "authority": "琅勃拉邦官方旅游网站",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      },
+      {
+        "title": "Waterfalls / Kuang Si Falls",
+        "url": "https://www.tourismlaos.org/waterfalls/",
+        "authority": "老挝国家旅游官网",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified"
+      }
+    ]
+  }
+]

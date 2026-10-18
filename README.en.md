@@ -3,7 +3,7 @@
 Explore seasonal travel ideas and create your own private destination list in your browser.
 选一段假期、看看当季风景，把想去的地方保存成自己的旅行清单。
 
-[中文说明](README.md) · Version 0.1.0 · Early preview
+[中文说明](README.md) · Version 0.2.0 · Early preview
 
 **[Open the online app](https://shanhai-youshi.soyoungzsy6.chatgpt.site/)**
 
@@ -22,15 +22,27 @@ No GitHub account, payment or identity-document upload is required. Use a recent
 
 心愿单 (“Wishlist”) saves built-in travel ideas; 我的地点 manages your own entries; 本次行程 (“Current trip”) combines built-in ideas for the chosen dates. Custom places do not yet have automatic flight/hotel budgets, entry-policy assessments or full itineraries.
 
-## Photo-assisted entry — unreleased next version
+## From a country to a particular place
 
-The local development version adds optional document assistance: open the top-right profile icon, select a passport/visa image, choose 在本机识别照片 (recognize locally), correct the preview, check the confirmation box, import, then 保存出行资料 (save). Cancel leaves saved data unchanged. Clearing fields also requires confirmation and saving.
+Click a country name on the globe, or 国家与地区 (“Countries and regions”), search a name and choose 探索… (“Explore…”). The right column lists city guides and individual sights. 自然 / 人文 filter nature/culture. Bookmark a card for the wishlist; this is separate from adding a city to the current trip.
 
-Only travel dates, visa type, entries and stay duration are retained. No name, birth date, ID number, original scan or raw OCR text is stored or uploaded. Best-effort recognition covers English labels, Korean grant notices and TD3 passport MRZs; other layouts or blurry images may require manual entry. JPG/PNG/WebP up to10 MB; the single-file download retains manual entry only. About7 MB of same-origin engine/language resources load on first recognition. No OCR account or paid API is required. This change has not been publicly deployed; the online app and0.1.0 download above do not yet include it. See [Privacy](PRIVACY.md).
+Try searching 老挝 (Laos), choose 探索老挝, then open 相通寺 or 光西瀑布. Detail cards explain what to notice, historic use, people/events, approximate Chinese historical parallels and evidence. City guides also contain individual sight cards and return to their original guide when closed.
+
+Perennial cultural experiences stay visible; nature uses month/date windows, with separate spring/autumn Su Causeway cards. Exhibitions use actual dated windows. Flowers/tides need current confirmation. Perennial value does not mean daily opening or comfortable weather in every season.
+
+Public content covers34 countries/regions,72 destinations and175 point records (176 seasonal cards), including22 newly checked detailed points;26 food experiences across13 regions and8 pre-trip reading entries across4 places are included. The footer’s “每一程心动，都有来处” opens country counts and182 URL-deduplicated references with per-use verification states. Five pre-trip articles were read; three books were checked at catalogue level only. **Coverage does not mean complete or fully reverified guides.** The258 map units are counted separately. The UNESCO batch index is not distributed or counted while republication terms remain unresolved. See [knowledge-base notes](docs/knowledge-base.md).
+
+Destination cards include local food and pre-trip reading, with official references, original editorial suggestions and questions to notice on site. Destinations without checked enrichment show a clear pending note.
+
+## Photo-assisted entry
+
+Optional document assistance: open the top-right profile icon, select a passport/visa image, choose 在本机识别照片 (recognize locally), correct the preview, check the confirmation box, import, then 保存出行资料 (save). Cancel leaves saved data unchanged. Clearing fields also requires confirmation and saving.
+
+Only travel dates, visa type, entries and stay duration are retained. No name, birth date, ID number, original scan or raw OCR text is stored or uploaded. Best-effort recognition covers English labels, Korean grant notices and TD3 passport MRZs; other layouts or blurry images may require manual entry. JPG/PNG/WebP up to10 MB; the single-file download retains manual entry only. About7 MB of same-origin engine/language resources load on first recognition. No OCR account or paid API is required. Photo OCR is available in the online version; the single-file download retains manual document fields. See [Privacy](PRIVACY.md).
 
 ## If the online app will not open
 
-Visit the [0.1.0 fixed download page](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.1.0). Under Assets, download **Soya-Travel-Calendar-v0.1.0.html**. Wait for the download, then double-click it or drag it into your browser. It includes photographs and is about 41.2 MB; opening it the first time can take longer than a normal page. Wait until the title and globe appear.
+Visit the [0.2.0 fixed download page](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.2.0). Under Assets, download **Soya-Travel-Calendar-v0.2.0.html**. Wait for the download, then double-click it or drag it into your browser. It includes photographs and is about 48.7 MB; opening it the first time can take longer than a normal page. Wait until the title and globe appear.
 
 The offline file uses compressed destination photos to reduce download size; the hosted app retains larger originals. The artifact was tested through a local web preview; direct file opening was not automatically verified because the test browser permits only HTTP/HTTPS. The offline file needs no installation and includes the main interactions and dated fallback data. It cannot refresh reference data without a server. Local-file storage varies by browser; export a JSON backup before moving the file, changing versions or clearing data. Keep the old HTML file and backup to return to a previous version. If saving fails, check private-browsing/storage restrictions.
 
@@ -44,7 +56,7 @@ It does not replace booking providers, travel professionals or official entry ru
 
 The open-source code is free to use; the hosted preview and offline file require no account. Self-hosting can incur hosting/traffic costs. Future services have their own terms; this version does not purchase or enable paid services.
 
-Places, notes, wishlist, trips and manually entered visa/expiry fields stay in the current browser. Place backups exclude passport/visa fields, cookies and account information, but do contain your place names and private notes. Browser storage is not an encrypted document vault.
+Places, notes, wishlist, trips and confirmed visa/expiry fields stay in the current browser. Place backups exclude passport/visa fields, cookies and account information, but do contain your place names and private notes. Browser storage is not an encrypted document vault.
 
 The hosted app requests public central-bank FX references and Wikimedia pageviews for built-in public destination titles. It does not include your custom places, notes or identity fields in those requests. Hosting/data providers may receive normal network metadata such as IP and logs; zero third-party retention is not promised. External source links follow their own providers’ rules. Read [Privacy](PRIVACY.md).
 
@@ -52,7 +64,7 @@ The hosted app requests public central-bank FX references and Wikimedia pageview
 
 Up to 500 custom places; import files up to 2 MB. Imports are previewed; cancel leaves the list unchanged and repeated imports skip duplicates. Undo is one-step and lasts only while the manager is open. After closing it, recovery needs your exported backup.
 
-The [synthetic sample](examples/my-places.sample.json) shows this project’s own format; it is **not an official Xiaohongshu export**. Clearing site data also clears wishlist, trip and profile fields. Export before upgrading or clearing data; deleted data without a backup cannot be restored.
+The [synthetic sample](examples/my-places.sample.json) shows this project’s own format; it is **not an official Xiaohongshu export**. Clearing site data also clears wishlist, trip and profile fields. Export before upgrading or clearing data; deleted data without a backup cannot be restored. A different domain is a new browser origin. Place backups can be imported there; wishlist, trip and document fields are not included in that backup and currently require re-entry. Retain the old page and your records.
 
 ## Problems and support
 
@@ -63,7 +75,7 @@ The [synthetic sample](examples/my-places.sample.json) shows this project’s ow
 
 ## For developers: run or contribute
 
-Ordinary users can skip this section. Install Node.js 22.12+ and Git. Download the [fixed source ZIP](https://github.com/soyoungzsy/soya-travel-calendar/archive/refs/tags/v0.1.0.zip), unzip it, open Terminal, type `cd ` with a trailing space, drag the extracted folder into Terminal and press Enter. Run these one line at a time:
+Ordinary users can skip this section. Install Node.js 22.12+ and Git. Download the [fixed source ZIP](https://github.com/soyoungzsy/soya-travel-calendar/archive/refs/tags/v0.2.0.zip), unzip it, open Terminal, type `cd ` with a trailing space, drag the extracted folder into Terminal and press Enter. Run these one line at a time:
 
 ```sh
 npm ci
@@ -78,6 +90,6 @@ Read [Contributing](CONTRIBUTING.md) before code or public-data changes. Private
 
 ## Version, licensing and maintenance
 
-Version 0.1.0 preview: [Changelog](CHANGELOG.md), [fixed release](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.1.0), [MIT code license](LICENSE), [third-party notices](THIRD_PARTY_NOTICES.md). Media keeps its own licenses and is not relicensed MIT; [photo credits](docs/media-credits.md). A publicly visible social post is not permission to copy its photos.
+Version 0.2.0 preview: [Changelog](CHANGELOG.md), [fixed release](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.2.0), [MIT code license](LICENSE), [third-party notices](THIRD_PARTY_NOTICES.md). Media keeps its own licenses and is not relicensed MIT; [photo credits](docs/media-credits.md). A publicly visible social post is not permission to copy its photos.
 
 Export before updating; retain the previous file and backup for recovery. Delete downloaded project files to uninstall; clear browser data separately if desired. Removing a public repository/release cannot recall copies already downloaded. See [Release review](RELEASE_REVIEW.md) for actual checks and unverified areas.

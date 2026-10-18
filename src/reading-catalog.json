@@ -1,0 +1,189 @@
+[
+  {
+    "regionKey": "hangzhou-west-lake",
+    "nameZh": "杭州",
+    "country": "中国",
+    "items": [
+      {
+        "id": "reading:hangzhou-west-lake-cultural-landscape",
+        "type": "article",
+        "title": "杭州西湖文化景观：突出普遍价值说明",
+        "creator": "联合国教科文组织世界遗产中心",
+        "whyBeforeGo": "先认识西湖如何由湖山、堤岛、寺塔与诗意命名共同构成。到了现场，可以留意一座桥怎样组织视线、远山怎样进入画面，理解西湖为何既是自然风景，也是延续至今的文化景观。",
+        "focusQuestions": [
+          "从堤上望出去，桥、岛、塔与远山怎样组成不同的景框？",
+          "西湖十景的名字如何引导人们在特定时刻欣赏风景？"
+        ],
+        "sourceURL": "https://whc.unesco.org/en/list/1334/",
+        "sourceAuthority": "UNESCO World Heritage Centre：遗产项目说明与突出普遍价值正文",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "readStatus": "official-article-read",
+        "language": "中文、英文"
+      },
+      {
+        "id": "reading:hangzhou-tea-museum-introduction",
+        "type": "article",
+        "title": "中国茶叶博物馆：基本介绍",
+        "creator": "中国茶叶博物馆",
+        "whyBeforeGo": "用这篇官方短介先认清双峰与龙井两个馆区，以及博物馆连接茶园、茶文化研究和体验的方式。到杭州喝茶时，可把品饮与看展放在一起，带着自己的问题认识一杯茶背后的生活文化。",
+        "focusQuestions": [
+          "此行更想从茶的历史、器物还是品饮体验切入，适合先看哪个馆区？",
+          "现场陈列与茶园环境，如何帮助理解茶与杭州日常生活的关系？"
+        ],
+        "sourceURL": "https://www.teamuseum.cn/basicInfo/basicIntroduction.htm",
+        "sourceAuthority": "中国茶叶博物馆官方馆情介绍",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "readStatus": "official-article-read",
+        "language": "中文"
+      }
+    ],
+    "destinationIds": [
+      "hangzhou-west-lake"
+    ]
+  },
+  {
+    "regionKey": "kyoto",
+    "nameZh": "京都",
+    "country": "日本",
+    "items": [
+      {
+        "id": "reading:kyoto-temple-basics",
+        "type": "article",
+        "title": "京都观光预习：寺院基础知识",
+        "creator": "Kyoto Love.Kyoto；京都市观光协会网站刊载",
+        "whyBeforeGo": "先分清山门、佛殿、法堂与塔头的用途，再认识几种屋顶与建筑形式。到了京都的寺院，就能从参观动线、屋檐和空间分工观察僧院生活，不只把不同寺院当成相似的庭园与红叶背景。",
+        "focusQuestions": [
+          "眼前的建筑是供奉本尊、讲学还是日常生活的空间？",
+          "屋顶的形状与材料有哪些差别，它们怎样改变建筑的气质？"
+        ],
+        "sourceURL": "https://plus.kyoto.travel/entry/temple_kihon",
+        "sourceAuthority": "京都市观光协会运营的京都观光 Navi Plus；署名 Kyoto Love.Kyoto",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "readStatus": "official-article-read",
+        "publishedAt": "2024-03-22",
+        "language": "日文"
+      },
+      {
+        "id": "reading:kyoto-tale-of-genji-tyler-abridged",
+        "type": "book",
+        "title": "The Tale of Genji（《源氏物语》英文节选版）",
+        "creator": "紫式部著；Royall Tyler 翻译、编辑与节选",
+        "whyBeforeGo": "把这部平安宫廷文学作为理解京都文化的阅读入口，留意人物关系、身份与情感如何相互牵动。现场参观宫廷文化相关展陈时，可据此追问历史与文学的联系；小说情节不能直接当作史实。",
+        "focusQuestions": [
+          "文学中的身份与礼仪，能为理解宫廷文化提出哪些问题？",
+          "现场展陈中的历史证据，与小说营造的世界有哪些区别？"
+        ],
+        "sourceURL": "https://www.penguinrandomhouse.com/books/297312/the-tale-of-genji-by-murasaki-shikibu-edited-and-translated-by-royall-tyler/9780143039495/",
+        "sourceAuthority": "Penguin Random House / Penguin Classics 官方书目与内容简介；未阅读全文",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "catalogue-verified",
+        "readStatus": "catalogue-only",
+        "ISBN": "9780143039495",
+        "edition": "Penguin Classics，Royall Tyler 英译节选版，352 页；不是全译本",
+        "publishedAt": "2006-02-28",
+        "language": "英文"
+      }
+    ],
+    "destinationIds": [
+      "kyoto-spring",
+      "kyoto-autumn"
+    ]
+  },
+  {
+    "regionKey": "luang-prabang-river",
+    "nameZh": "琅勃拉邦",
+    "country": "老挝",
+    "items": [
+      {
+        "id": "reading:luang-prabang-wat-xiengthong",
+        "type": "article",
+        "title": "Wat Xiengthong：相通寺概览与历史",
+        "creator": "琅勃拉邦官方旅游网站",
+        "whyBeforeGo": "先了解相通寺的王室关联与琅勃拉邦式建筑，再到现场观察层叠而低垂的屋顶和玻璃镶嵌装饰。把建筑放回古都与宗教生活之中，会更容易理解它为何值得停留，也更愿意放慢脚步参观。",
+        "focusQuestions": [
+          "层叠屋顶的轮廓，与其他地区的佛寺有什么不同？",
+          "玻璃镶嵌装饰与寺院空间，分别吸引你观察哪些细节？"
+        ],
+        "sourceURL": "https://tourismluangprabang.org/things-to-do/buddhism/wat-xiengthong/",
+        "sourceAuthority": "Official Website for Tourism Luang Prabang：寺院概览与历史正文",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "readStatus": "official-article-read",
+        "language": "英文"
+      },
+      {
+        "id": "reading:luang-prabang-history-of-laos",
+        "type": "book",
+        "title": "A History of Laos（《老挝史》英文原著）",
+        "creator": "Martin Stuart-Fox",
+        "whyBeforeGo": "可把这部老挝通史列为理解古都之外国家背景的延伸阅读，再带着王权、宗教与近代变迁的问题参观当地博物馆。本轮仅核实书目，尚未阅读全文；旧版历史著作也不能替代当下旅行信息。",
+        "focusQuestions": [
+          "在博物馆中，王室历史与今天的老挝是如何被分别介绍的？",
+          "这座古都的寺院、王宫与近代建筑，分别需要怎样的历史背景来理解？"
+        ],
+        "sourceURL": "https://assets.cambridge.org/97805215/97463/frontmatter/9780521597463_frontmatter.pdf",
+        "sourceAuthority": "Cambridge University Press 官方前置页书目；另以作者官方 Books 目录交叉核实，未阅读全文",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "catalogue-verified",
+        "readStatus": "catalogue-only",
+        "ISBN": "9780521597463",
+        "edition": "Cambridge University Press 英文原著；作者书目记录为 1997 年，平装 ISBN 如列",
+        "publishedAt": "1997",
+        "language": "英文"
+      }
+    ],
+    "destinationIds": [
+      "luang-prabang-river"
+    ]
+  },
+  {
+    "regionKey": "luxor-nile-history",
+    "nameZh": "卢克索",
+    "country": "埃及",
+    "items": [
+      {
+        "id": "reading:luxor-temple-opet",
+        "type": "article",
+        "title": "Luxor Temple：卢克索神庙",
+        "creator": "埃及旅游与文物部",
+        "whyBeforeGo": "先认识奥佩特节的仪式路线，以及神庙由不同统治者陆续增建的过程。站在柱廊与庭院之间时，可以观察空间朝向和仪式图像，把宏大的石构建筑读成宗教庆典与王权表达留下的痕迹。",
+        "focusQuestions": [
+          "神庙为何朝向卡纳克，两处遗址的仪式联系体现在哪里？",
+          "现场说明牌如何区分不同统治者增建与装饰的部分？"
+        ],
+        "sourceURL": "https://egymonuments.gov.eg/monuments/luxor-temple/",
+        "sourceAuthority": "埃及旅游与文物部 Discover Egypt's Monuments 官方遗址介绍",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "readStatus": "official-article-read",
+        "language": "英文"
+      },
+      {
+        "id": "reading:luxor-ancient-egypt-vsi-2",
+        "type": "book",
+        "title": "Ancient Egypt: A Very Short Introduction（第 2 版）",
+        "creator": "Ian Shaw",
+        "whyBeforeGo": "出发前可用这本入门书建立王权、宗教、文字与死亡观念之间的基本联系。到了神庙或墓室，再把看见的图像转化为具体问题。本轮只核实出版社简介与目录，尚未阅读全文或逐章评述。",
+        "focusQuestions": [
+          "眼前的国王形象，是怎样通过与神祇的关系表达身份的？",
+          "神庙与墓室承担的不同用途，如何帮助理解其中的文字和图像？"
+        ],
+        "sourceURL": "https://academic.oup.com/book/31836",
+        "sourceAuthority": "Oxford University Press / Oxford Academic 官方书目、摘要与目录；未阅读全文",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "catalogue-verified",
+        "readStatus": "catalogue-only",
+        "ISBN": "9780198845461",
+        "edition": "第 2 版；Oxford University Press",
+        "publishedAt": "2021-01-28",
+        "language": "英文"
+      }
+    ],
+    "destinationIds": [
+      "luxor-nile-history"
+    ]
+  }
+]

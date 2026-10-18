@@ -1,0 +1,17 @@
+{
+  "provider": "UNESCO DataHub",
+  "dataset": "whc001",
+  "license": "CC BY-SA 4.0",
+  "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution": "UNESCO",
+  "sourceURL": "https://data.unesco.org/explore/dataset/whc001/",
+  "apiURL": "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001",
+  "sourceModifiedAt": "2026-10-18T02:07:08+00:00",
+  "fetchedAt": "2026-10-18",
+  "records": 0,
+  "usageBoundary": "DataHub license marking and linked WHC republication terms require clarification. No batch dataset is distributed by this release; official links remain available for verification.",
+  "countryCodes": 0,
+  "enabled": false,
+  "rightsStatus": "pending-clarification",
+  "sourceRecordCount": 1273
+}

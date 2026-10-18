@@ -5,7 +5,7 @@ import cities from './city-labels.json' with {type:'json'};
 
 export const geographicLabels=[
  ...continents.map(d=>({...d,id:'continent-'+d.id,type:'continent',minZoom:.72})),
- ...countries.filter(d=>d.kind==='country'||d.parentCountry==='CN').map(d=>({...d,id:'country-'+d.id,type:'country',minZoom:d.area>.035?.72:d.area>.007?1:d.area>.0015?1.45:1.95})),
+ ...countries.map(d=>({...d,id:'country-'+d.id,countryId:d.id,type:'country',minZoom:d.area>.035?.72:d.area>.007?1:d.area>.0015?1.45:1.95})),
  ...cities.map(d=>({...d,id:'city-'+d.id,type:'city',minZoom:.95}))
 ];
 export function decodedBorderArcs(){const {scale,translate}=topology.transform;return topology.arcs.map(arc=>{let x=0,y=0;return arc.map(p=>{x+=p[0];y+=p[1];return[x*scale[0]+translate[0],y*scale[1]+translate[1]];});});}

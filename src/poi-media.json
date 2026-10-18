@@ -1,0 +1,72 @@
+{
+  "kuang-si-falls": {
+    "author": "Clay Gilliland",
+    "license": "CC BY-SA 2.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Kuang_Si_Falls_%2812236561856%29.jpg",
+    "caption": "老挝琅勃拉邦周边·光西瀑布下游叠瀑，2013 年 11 月历史照片；非主瀑全景，水量与水色随天气变化。",
+    "width": 1280,
+    "height": 720,
+    "src": "/points/kuang-si-falls-1280.jpg",
+    "derivative": "resized derivative",
+    "sha256": "ed974e93ee5fc9f7a65761d4c15d2d87604d6ed7ef708e9eeff6c9a0c0a24303",
+    "displayCaption": "光西瀑布下游叠瀑 · 历史摄影",
+    "metadataTreatment": "EXIF/XMP/IPTC/comment metadata removed without recompressing image pixels; attribution retained here and in media credits"
+  },
+  "karnak-great-hypostyle": {
+    "author": "Arian Zwegers",
+    "license": "CC BY 2.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Karnak%2C_Temple_of_Amun%2C_Great_Hypostyle_Hall_%286201874490%29.jpg",
+    "caption": "埃及卢克索·卡纳克神庙大柱厅，中列石柱与浮雕，1998 年 11 月历史照片。",
+    "width": 850,
+    "height": 1280,
+    "src": "/points/karnak-great-hypostyle-1280.jpg",
+    "derivative": "resized derivative",
+    "sha256": "03dc969e55aed9b96e9558b9c58106d197c9671299360c3fbc61a2a3dff09e10",
+    "displayCaption": "卡纳克大柱厅 · 历史摄影",
+    "metadataTreatment": "EXIF/XMP/IPTC/comment metadata removed without recompressing image pixels; attribution retained here and in media credits"
+  },
+  "karnak-shrine-seti-ii": {
+    "author": "Jorge Láscar",
+    "license": "CC BY 2.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Karnak_temple_complex_%2814023878368%29.jpg",
+    "caption": "埃及卢克索·卡纳克神庙塞提二世圣舟祠内部石墙浮雕，2012 年 9 月历史照片；非帝王谷墓室。",
+    "width": 1280,
+    "height": 850,
+    "src": "/points/karnak-shrine-seti-ii-1280.jpg",
+    "derivative": "resized derivative",
+    "sha256": "77548f6c3dfff2f79ac85626a70f61997197e288044d51e5ef7a525db90804d3",
+    "displayCaption": "卡纳克塞提二世圣舟祠 · 历史摄影",
+    "metadataTreatment": "EXIF/XMP/IPTC/comment metadata removed without recompressing image pixels; attribution retained here and in media credits"
+  },
+  "wat-xieng-thong-tree-of-life": {
+    "author": "Caitriana Nicholson",
+    "license": "CC BY-SA 2.0",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Wat_Xieng_Thong_-_Tree_of_Life_%2833186088900%29.jpg",
+    "caption": "老挝琅勃拉邦·相通寺后墙生命树马赛克局部（树干及动物纹饰），2004 年历史照片。",
+    "width": 1280,
+    "height": 960,
+    "src": "/points/wat-xieng-thong-tree-of-life-1280.jpg",
+    "derivative": "resized derivative",
+    "sha256": "9fc405e7bd3ec76b1ba23ebb6237fc55221dde9d306f0f12fd15320bf31bbe5c",
+    "displayCaption": "相通寺生命树马赛克局部 · 历史摄影",
+    "metadataTreatment": "EXIF/XMP/IPTC/comment metadata removed without recompressing image pixels; attribution retained here and in media credits"
+  },
+  "osmanthus-species-reference": {
+    "author": "Juni from Kyoto, Japan",
+    "license": "CC BY 2.0",
+    "licenseURL": "https://creativecommons.org/licenses/by/2.0/",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Osmanthus_fragrans.jpg",
+    "caption": "桂花物种参考，2004 年 10 月历史照片，拍摄地点未核实；不作为满觉陇或杭州植物园实拍，非当日花况。",
+    "width": 1280,
+    "height": 960,
+    "src": "/points/osmanthus-species-reference.jpg",
+    "derivative": "resized derivative",
+    "sha256": "2f3c76c8b49c6a392db345ab170129a3ad10163bf52d0aea52a6587dd0388882",
+    "displayCaption": "桂花物种参考 · 地点未核实，非当日花况",
+    "metadataTreatment": "EXIF/XMP/IPTC/comment metadata removed without recompressing image pixels; attribution retained here and in media credits"
+  }
+}

@@ -7,9 +7,10 @@ const esc=s=>s.replaceAll('</script','<\\/script');
 const vendors=[];
 let js=fs.readFileSync(path.join(root,'assets',entry),'utf8');
 const media=JSON.parse(fs.readFileSync('src/media.json','utf8'));
+const pointPhotos=JSON.parse(fs.readFileSync('src/poi-media.json','utf8'));
 // The portable download uses existing 960px derivatives; hosted photos stay full size.
 const portablePhotos=new Map(Object.values(media.photos).map(p=>[p.src,p.thumbnail||p.src]));
-const urls=new Set();function collect(value){if(typeof value==='string'&&/^\/(photos|textures|moments)\//.test(value))urls.add(value);else if(Array.isArray(value))value.forEach(collect);else if(value&&typeof value==='object')Object.values(value).forEach(collect);}collect(media);
+const urls=new Set();function collect(value){if(typeof value==='string'&&/^\/(photos|textures|moments|points)\//.test(value))urls.add(value);else if(Array.isArray(value))value.forEach(collect);else if(value&&typeof value==='object')Object.values(value).forEach(collect);}collect(media);collect(pointPhotos);
 for(const url of [...urls].sort((a,b)=>b.length-a.length)){const file=portablePhotos.get(url)||url,ext=path.extname(file).slice(1),mime=ext==='jpg'?'jpeg':ext,data='data:image/'+mime+';base64,'+fs.readFileSync(path.join(root,file)).toString('base64');js=js.replaceAll(url,data);}
 const css=fs.readFileSync(path.join(root,'assets',style),'utf8');
 const fragment='<div id="journey-atlas-root"></div>\n<style>'+css+'</style>\n'+vendors.map(s=>'<script>'+esc(s)+'</script>').join('\n')+'\n<script>globalThis.__SHANHE_PORTABLE__=true;(()=>{\n'+esc(js)+'\n})();</script>';

@@ -1,2672 +1,4133 @@
 [
   {
-    "id": "156",
-    "nameZh": "中国",
-    "nameEn": "China",
-    "coord": [
-      104,
-      35.5
-    ],
-    "area": 0.231780597,
-    "priority": 100,
-    "kind": "country",
-    "iso2": "CN",
-    "sourceName": "China",
-    "anchorMethod": "editorial_label_anchor"
-  },
-  {
-    "id": "840",
-    "nameZh": "美国",
-    "nameEn": "United States of America",
-    "coord": [
-      -100,
-      39
-    ],
-    "area": 0.233909373,
-    "priority": 93,
-    "kind": "country",
-    "iso2": "US",
-    "sourceName": "United States of America",
-    "anchorMethod": "editorial_label_anchor"
-  },
-  {
-    "id": "643",
-    "nameZh": "俄罗斯",
-    "nameEn": "Russia",
-    "coord": [
-      98,
-      60
-    ],
-    "area": 0.416963324,
-    "priority": 92,
-    "kind": "country",
-    "iso2": "RU",
-    "sourceName": "Russia",
-    "anchorMethod": "editorial_label_anchor"
-  },
-  {
-    "id": "124",
-    "nameZh": "加拿大",
-    "nameEn": "Canada",
-    "coord": [
-      -105,
-      59
-    ],
-    "area": 0.245982338,
-    "priority": 88,
-    "kind": "country",
-    "iso2": "CA",
-    "sourceName": "Canada",
-    "anchorMethod": "editorial_label_anchor"
-  },
-  {
-    "id": "076",
-    "nameZh": "巴西",
-    "nameEn": "Brazil",
-    "coord": [
-      -53.1725,
-      -10.6555
-    ],
-    "area": 0.210416836,
-    "priority": 87,
-    "kind": "country",
-    "iso2": "BR",
-    "sourceName": "Brazil",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "036",
-    "nameZh": "澳大利亚",
-    "nameEn": "Australia",
-    "coord": [
-      134.2254,
-      -25.6183
-    ],
-    "area": 0.189759766,
-    "priority": 87,
-    "kind": "country",
-    "iso2": "AU",
-    "sourceName": "Australia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "356",
-    "nameZh": "印度",
-    "nameEn": "India",
-    "coord": [
-      79.5399,
-      22.8192
-    ],
-    "area": 0.077615713,
-    "priority": 86,
-    "kind": "country",
-    "iso2": "IN",
-    "sourceName": "India",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "250",
-    "nameZh": "法国",
-    "nameEn": "France",
-    "coord": [
-      2.4,
-      46.5
-    ],
-    "area": 0.015861582,
-    "priority": 82,
-    "kind": "country",
-    "iso2": "FR",
-    "sourceName": "France",
-    "anchorMethod": "editorial_label_anchor"
-  },
-  {
-    "id": "392",
-    "nameZh": "日本",
-    "nameEn": "Japan",
-    "coord": [
-      138,
-      37
-    ],
-    "area": 0.009962944,
-    "priority": 82,
-    "kind": "country",
-    "iso2": "JP",
-    "sourceName": "Japan",
-    "anchorMethod": "editorial_label_anchor"
-  },
-  {
-    "id": "826",
-    "nameZh": "英国",
-    "nameEn": "United Kingdom",
-    "coord": [
-      -2.5,
-      54
-    ],
-    "area": 0.006133031,
-    "priority": 82,
-    "kind": "country",
-    "iso2": "GB",
-    "sourceName": "United Kingdom",
-    "anchorMethod": "editorial_label_anchor"
-  },
-  {
-    "id": "504",
-    "nameZh": "摩洛哥",
-    "nameEn": "Morocco",
-    "coord": [
-      -8.6937,
-      29.8154
-    ],
-    "area": 0.014594357,
-    "priority": 78,
-    "kind": "country",
-    "iso2": "MA",
-    "sourceName": "Morocco",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "276",
-    "nameZh": "德国",
-    "nameEn": "Germany",
-    "coord": [
-      10.2704,
-      51.0774
-    ],
-    "area": 0.008773165,
-    "priority": 78,
-    "kind": "country",
-    "iso2": "DE",
-    "sourceName": "Germany",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "380",
-    "nameZh": "意大利",
-    "nameEn": "Italy",
-    "coord": [
-      12.367,
-      43.4283
-    ],
-    "area": 0.007749241,
-    "priority": 78,
-    "kind": "country",
-    "iso2": "IT",
-    "sourceName": "Italy",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "554",
-    "nameZh": "新西兰",
-    "nameEn": "New Zealand",
-    "coord": [
-      172.5,
-      -41.5
-    ],
-    "area": 0.006829909,
-    "priority": 78,
-    "kind": "country",
-    "iso2": "NZ",
-    "sourceName": "New Zealand",
-    "anchorMethod": "editorial_label_anchor"
-  },
-  {
-    "id": "724",
-    "nameZh": "西班牙",
-    "nameEn": "Spain",
-    "coord": [
-      -3.6242,
-      40.3207
-    ],
-    "area": 0.012360736,
-    "priority": 77,
-    "kind": "country",
-    "iso2": "ES",
-    "sourceName": "Spain",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "032",
-    "nameZh": "阿根廷",
-    "nameEn": "Argentina",
-    "coord": [
-      -64.7384,
-      -34.5696
-    ],
-    "area": 0.068599621,
-    "priority": 76,
-    "kind": "country",
-    "iso2": "AR",
-    "sourceName": "Argentina",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "484",
-    "nameZh": "墨西哥",
-    "nameEn": "Mexico",
-    "coord": [
-      -102.2231,
-      23.9134
-    ],
-    "area": 0.048631316,
-    "priority": 76,
-    "kind": "country",
-    "iso2": "MX",
-    "sourceName": "Mexico",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "352",
-    "nameZh": "冰岛",
-    "nameEn": "Iceland",
-    "coord": [
-      -18.7651,
-      65.0798
-    ],
-    "area": 0.002636717,
-    "priority": 76,
-    "kind": "country",
-    "iso2": "IS",
-    "sourceName": "Iceland",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "360",
+    "id": "IDN",
     "nameZh": "印度尼西亚",
     "nameEn": "Indonesia",
     "coord": [
       118,
       -2.5
     ],
-    "area": 0.045024968,
+    "area": 0.046517838265537216,
     "priority": 75,
     "kind": "country",
     "iso2": "ID",
     "sourceName": "Indonesia",
-    "anchorMethod": "editorial_label_anchor"
+    "anchorMethod": "editorial_label_anchor",
+    "continent": "Asia"
   },
   {
-    "id": "710",
-    "nameZh": "南非",
-    "nameEn": "South Africa",
-    "coord": [
-      25.1581,
-      -28.9233
-    ],
-    "area": 0.030008496,
-    "priority": 75,
-    "kind": "country",
-    "iso2": "ZA",
-    "sourceName": "South Africa",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "818",
-    "nameZh": "埃及",
-    "nameEn": "Egypt",
-    "coord": [
-      29.861,
-      26.4749
-    ],
-    "area": 0.024587901,
-    "priority": 75,
-    "kind": "country",
-    "iso2": "EG",
-    "sourceName": "Egypt",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "792",
-    "nameZh": "土耳其",
-    "nameEn": "Turkey",
-    "coord": [
-      35.3747,
-      39.0635
-    ],
-    "area": 0.019663901,
-    "priority": 75,
-    "kind": "country",
-    "iso2": "TR",
-    "sourceName": "Turkey",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "764",
-    "nameZh": "泰国",
-    "nameEn": "Thailand",
-    "coord": [
-      101.0025,
-      14.9807
-    ],
-    "area": 0.012612509,
-    "priority": 75,
-    "kind": "country",
-    "iso2": "TH",
-    "sourceName": "Thailand",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "578",
-    "nameZh": "挪威",
-    "nameEn": "Norway",
-    "coord": [
-      9.5,
-      62
-    ],
-    "area": 0.009741517,
-    "priority": 75,
-    "kind": "country",
-    "iso2": "NO",
-    "sourceName": "Norway",
-    "anchorMethod": "editorial_label_anchor"
-  },
-  {
-    "id": "410",
-    "nameZh": "韩国",
-    "nameEn": "South Korea",
-    "coord": [
-      127.8199,
-      36.4187
-    ],
-    "area": 0.002440214,
-    "priority": 74,
-    "kind": "country",
-    "iso2": "KR",
-    "sourceName": "South Korea",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "752",
-    "nameZh": "瑞典",
-    "nameEn": "Sweden",
-    "coord": [
-      16.1091,
-      62.4185
-    ],
-    "area": 0.011033326,
-    "priority": 72,
-    "kind": "country",
-    "iso2": "SE",
-    "sourceName": "Sweden",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "300",
-    "nameZh": "希腊",
-    "nameEn": "Greece",
-    "coord": [
-      22.5461,
-      39.3228
-    ],
-    "area": 0.003249222,
-    "priority": 72,
-    "kind": "country",
-    "iso2": "GR",
-    "sourceName": "Greece",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "604",
-    "nameZh": "秘鲁",
-    "nameEn": "Peru",
-    "coord": [
-      -74.4306,
-      -9.1471
-    ],
-    "area": 0.03240137,
-    "priority": 70,
-    "kind": "country",
-    "iso2": "PE",
-    "sourceName": "Peru",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "152",
-    "nameZh": "智利",
-    "nameEn": "Chile",
-    "coord": [
-      -71,
-      -31
-    ],
-    "area": 0.020065719,
-    "priority": 70,
-    "kind": "country",
-    "iso2": "CL",
-    "sourceName": "Chile",
-    "anchorMethod": "editorial_label_anchor"
-  },
-  {
-    "id": "404",
-    "nameZh": "肯尼亚",
-    "nameEn": "Kenya",
-    "coord": [
-      37.7914,
-      0.5955
-    ],
-    "area": 0.014623173,
-    "priority": 70,
-    "kind": "country",
-    "iso2": "KE",
-    "sourceName": "Kenya",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "682",
-    "nameZh": "沙特阿拉伯",
-    "nameEn": "Saudi Arabia",
-    "coord": [
-      44.6413,
-      24.0893
-    ],
-    "area": 0.047416286,
-    "priority": 68,
-    "kind": "country",
-    "iso2": "SA",
-    "sourceName": "Saudi Arabia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "458",
+    "id": "MYS",
     "nameZh": "马来西亚",
     "nameEn": "Malaysia",
     "coord": [
       114.6684,
       3.5481
     ],
-    "area": 0.008370343,
+    "area": 0.008113749432922165,
     "priority": 68,
     "kind": "country",
     "iso2": "MY",
     "sourceName": "Malaysia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
   },
   {
-    "id": "246",
-    "nameZh": "芬兰",
-    "nameEn": "Finland",
+    "id": "CHL",
+    "nameZh": "智利",
+    "nameEn": "Chile",
     "coord": [
-      26.1416,
-      64.261
+      -71,
+      -31
     ],
-    "area": 0.008353117,
-    "priority": 68,
+    "area": 0.01814157910710305,
+    "priority": 70,
     "kind": "country",
-    "iso2": "FI",
-    "sourceName": "Finland",
-    "anchorMethod": "largest_polygon_spherical_centroid"
+    "iso2": "CL",
+    "sourceName": "Chile",
+    "anchorMethod": "editorial_label_anchor",
+    "continent": "South America"
   },
   {
-    "id": "704",
-    "nameZh": "越南",
-    "nameEn": "Vietnam",
-    "coord": [
-      106.3329,
-      16.5556
-    ],
-    "area": 0.008305767,
-    "priority": 68,
-    "kind": "country",
-    "iso2": "VN",
-    "sourceName": "Vietnam",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "010",
-    "nameZh": "南极洲",
-    "nameEn": "Antarctica",
-    "coord": [
-      0,
-      -79
-    ],
-    "area": 0.301462496,
-    "priority": 63,
-    "kind": "continent",
-    "iso2": "AQ",
-    "status": "antarctic_continent",
-    "sourceName": "Antarctica",
-    "anchorMethod": "editorial_label_anchor"
-  },
-  {
-    "id": "398",
-    "nameZh": "哈萨克斯坦",
-    "nameEn": "Kazakhstan",
-    "coord": [
-      67.2357,
-      48.4059
-    ],
-    "area": 0.067055817,
-    "priority": 43,
-    "kind": "country",
-    "iso2": "KZ",
-    "sourceName": "Kazakhstan",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "180",
-    "nameZh": "刚果（金）",
-    "nameEn": "Dem. Rep. Congo",
-    "coord": [
-      23.5768,
-      -2.8387
-    ],
-    "area": 0.057494276,
-    "priority": 42,
-    "kind": "country",
-    "iso2": "CD",
-    "sourceName": "Dem. Rep. Congo",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "012",
-    "nameZh": "阿尔及利亚",
-    "nameEn": "Algeria",
-    "coord": [
-      2.612,
-      28.0855
-    ],
-    "area": 0.057142503,
-    "priority": 42,
-    "kind": "country",
-    "iso2": "DZ",
-    "sourceName": "Algeria",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "304",
-    "nameZh": "格陵兰",
-    "nameEn": "Greenland",
-    "coord": [
-      -41.9649,
-      73.1507
-    ],
-    "area": 0.053948521,
-    "priority": 41,
-    "kind": "region",
-    "iso2": "GL",
-    "parentCountry": "DK",
-    "status": "autonomous_territory",
-    "sourceName": "Greenland",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "729",
-    "nameZh": "苏丹",
-    "nameEn": "Sudan",
-    "coord": [
-      29.8306,
-      15.9716
-    ],
-    "area": 0.045757546,
-    "priority": 40,
-    "kind": "country",
-    "iso2": "SD",
-    "sourceName": "Sudan",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "434",
-    "nameZh": "利比亚",
-    "nameEn": "Libya",
-    "coord": [
-      18.0304,
-      26.9882
-    ],
-    "area": 0.040322071,
-    "priority": 39,
-    "kind": "country",
-    "iso2": "LY",
-    "sourceName": "Libya",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "364",
-    "nameZh": "伊朗",
-    "nameEn": "Iran",
-    "coord": [
-      54.453,
-      32.4741
-    ],
-    "area": 0.039875071,
-    "priority": 39,
-    "kind": "country",
-    "iso2": "IR",
-    "sourceName": "Iran",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "496",
-    "nameZh": "蒙古",
-    "nameEn": "Mongolia",
-    "coord": [
-      103.0157,
-      46.9542
-    ],
-    "area": 0.037947976,
-    "priority": 39,
-    "kind": "country",
-    "iso2": "MN",
-    "sourceName": "Mongolia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "148",
-    "nameZh": "乍得",
-    "nameEn": "Chad",
-    "coord": [
-      18.5738,
-      15.2761
-    ],
-    "area": 0.03143716,
-    "priority": 37,
-    "kind": "country",
-    "iso2": "TD",
-    "sourceName": "Chad",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "024",
-    "nameZh": "安哥拉",
-    "nameEn": "Angola",
-    "coord": [
-      17.4987,
-      -12.2719
-    ],
-    "area": 0.030801253,
-    "priority": 37,
-    "kind": "country",
-    "iso2": "AO",
-    "sourceName": "Angola",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "466",
-    "nameZh": "马里",
-    "nameEn": "Mali",
-    "coord": [
-      -3.5929,
-      17.2404
-    ],
-    "area": 0.030538714,
-    "priority": 37,
-    "kind": "country",
-    "iso2": "ML",
-    "sourceName": "Mali",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "562",
-    "nameZh": "尼日尔",
-    "nameEn": "Niger",
-    "coord": [
-      9.2747,
-      17.3404
-    ],
-    "area": 0.029222831,
-    "priority": 37,
-    "kind": "country",
-    "iso2": "NE",
-    "sourceName": "Niger",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "170",
-    "nameZh": "哥伦比亚",
-    "nameEn": "Colombia",
-    "coord": [
-      -73.0735,
-      3.9163
-    ],
-    "area": 0.028505207,
-    "priority": 37,
-    "kind": "country",
-    "iso2": "CO",
-    "sourceName": "Colombia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "231",
-    "nameZh": "埃塞俄比亚",
-    "nameEn": "Ethiopia",
-    "coord": [
-      39.5598,
-      8.6459
-    ],
-    "area": 0.028012807,
-    "priority": 37,
-    "kind": "country",
-    "iso2": "ET",
-    "sourceName": "Ethiopia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "068",
+    "id": "BOL",
     "nameZh": "玻利维亚",
     "nameEn": "Bolivia",
     "coord": [
       -64.6547,
       -16.7039
     ],
-    "area": 0.026828047,
+    "area": 0.026865324802979464,
     "priority": 36,
     "kind": "country",
     "iso2": "BO",
     "sourceName": "Bolivia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "South America"
   },
   {
-    "id": "478",
-    "nameZh": "毛里塔尼亚",
-    "nameEn": "Mauritania",
+    "id": "PER",
+    "nameZh": "秘鲁",
+    "nameEn": "Peru",
     "coord": [
-      -10.3487,
-      20.1803
+      -74.4306,
+      -9.1471
     ],
-    "area": 0.026048032,
-    "priority": 36,
+    "area": 0.031907722622572895,
+    "priority": 70,
     "kind": "country",
-    "iso2": "MR",
-    "sourceName": "Mauritania",
-    "anchorMethod": "largest_polygon_spherical_centroid"
+    "iso2": "PE",
+    "sourceName": "Peru",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "South America"
   },
   {
-    "id": "834",
-    "nameZh": "坦桑尼亚",
-    "nameEn": "Tanzania",
+    "id": "ARG",
+    "nameZh": "阿根廷",
+    "nameEn": "Argentina",
     "coord": [
-      34.7417,
-      -6.2507
+      -64.7384,
+      -34.5696
     ],
-    "area": 0.023080512,
-    "priority": 36,
+    "area": 0.0685671159693696,
+    "priority": 76,
     "kind": "country",
-    "iso2": "TZ",
-    "sourceName": "Tanzania",
-    "anchorMethod": "largest_polygon_spherical_centroid"
+    "iso2": "AR",
+    "sourceName": "Argentina",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "South America"
   },
   {
-    "id": "862",
-    "nameZh": "委内瑞拉",
-    "nameEn": "Venezuela",
+    "id": "ESB",
+    "nameZh": "泽凯利亚军营",
+    "nameEn": "Dhekelia Cantonment",
     "coord": [
-      -66.1532,
-      7.1608
+      33.790583,
+      35.011042
     ],
-    "area": 0.022477398,
-    "priority": 35,
-    "kind": "country",
-    "iso2": "VE",
-    "sourceName": "Venezuela",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "566",
-    "nameZh": "尼日利亚",
-    "nameEn": "Nigeria",
-    "coord": [
-      7.9858,
-      9.5446
-    ],
-    "area": 0.022388954,
-    "priority": 35,
-    "kind": "country",
-    "iso2": "NG",
-    "sourceName": "Nigeria",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "586",
-    "nameZh": "巴基斯坦",
-    "nameEn": "Pakistan",
-    "coord": [
-      69.235,
-      29.9082
-    ],
-    "area": 0.021560722,
-    "priority": 35,
-    "kind": "country",
-    "iso2": "PK",
-    "sourceName": "Pakistan",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "516",
-    "nameZh": "纳米比亚",
-    "nameEn": "Namibia",
-    "coord": [
-      17.1422,
-      -22.0401
-    ],
-    "area": 0.02037726,
-    "priority": 35,
-    "kind": "country",
-    "iso2": "NA",
-    "sourceName": "Namibia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "508",
-    "nameZh": "莫桑比克",
-    "nameEn": "Mozambique",
-    "coord": [
-      35.5422,
-      -17.1541
-    ],
-    "area": 0.020046056,
-    "priority": 35,
-    "kind": "country",
-    "iso2": "MZ",
-    "sourceName": "Mozambique",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "894",
-    "nameZh": "赞比亚",
-    "nameEn": "Zambia",
-    "coord": [
-      27.7613,
-      -13.393
-    ],
-    "area": 0.018596039,
-    "priority": 35,
-    "kind": "country",
-    "iso2": "ZM",
-    "sourceName": "Zambia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "104",
-    "nameZh": "缅甸",
-    "nameEn": "Myanmar",
-    "coord": [
-      96.5132,
-      20.9448
-    ],
-    "area": 0.016785245,
-    "priority": 34,
-    "kind": "country",
-    "iso2": "MM",
-    "sourceName": "Myanmar",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "004",
-    "nameZh": "阿富汗",
-    "nameEn": "Afghanistan",
-    "coord": [
-      66.0038,
-      33.8403
-    ],
-    "area": 0.016074852,
-    "priority": 34,
-    "kind": "country",
-    "iso2": "AF",
-    "sourceName": "Afghanistan",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "728",
-    "nameZh": "南苏丹",
-    "nameEn": "S. Sudan",
-    "coord": [
-      30.202,
-      7.2931
-    ],
-    "area": 0.01546036,
-    "priority": 34,
-    "kind": "country",
-    "iso2": "SS",
-    "sourceName": "S. Sudan",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "140",
-    "nameZh": "中非共和国",
-    "nameEn": "Central African Rep.",
-    "coord": [
-      20.3677,
-      6.5468
-    ],
-    "area": 0.015385534,
-    "priority": 34,
-    "kind": "country",
-    "iso2": "CF",
-    "sourceName": "Central African Rep.",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "072",
-    "nameZh": "博茨瓦纳",
-    "nameEn": "Botswana",
-    "coord": [
-      23.783,
-      -22.0823
-    ],
-    "area": 0.014619556,
-    "priority": 33,
-    "kind": "country",
-    "iso2": "BW",
-    "sourceName": "Botswana",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "450",
-    "nameZh": "马达加斯加",
-    "nameEn": "Madagascar",
-    "coord": [
-      46.7294,
-      -19.3012
-    ],
-    "area": 0.014561821,
-    "priority": 33,
-    "kind": "country",
-    "iso2": "MG",
-    "sourceName": "Madagascar",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "804",
-    "nameZh": "乌克兰",
-    "nameEn": "Ukraine",
-    "coord": [
-      31.2924,
-      49.1866
-    ],
-    "area": 0.014061089,
-    "priority": 33,
-    "kind": "country",
-    "iso2": "UA",
-    "sourceName": "Ukraine",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "706",
-    "nameZh": "索马里",
-    "nameEn": "Somalia",
-    "coord": [
-      45.6995,
-      4.7415
-    ],
-    "area": 0.011988923,
-    "priority": 33,
-    "kind": "country",
-    "iso2": "SO",
-    "sourceName": "Somalia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "795",
-    "nameZh": "土库曼斯坦",
-    "nameEn": "Turkmenistan",
-    "coord": [
-      59.3484,
-      39.1022
-    ],
-    "area": 0.01183482,
-    "priority": 33,
-    "kind": "country",
-    "iso2": "TM",
-    "sourceName": "Turkmenistan",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "598",
-    "nameZh": "巴布亚新几内亚",
-    "nameEn": "Papua New Guinea",
-    "coord": [
-      144.3216,
-      -6.6449
-    ],
-    "area": 0.011493048,
-    "priority": 32,
-    "kind": "country",
-    "iso2": "PG",
-    "sourceName": "Papua New Guinea",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "120",
-    "nameZh": "喀麦隆",
-    "nameEn": "Cameroon",
-    "coord": [
-      12.606,
-      5.6543
-    ],
-    "area": 0.011390527,
-    "priority": 32,
-    "kind": "country",
-    "iso2": "CM",
-    "sourceName": "Cameroon",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "860",
-    "nameZh": "乌兹别克斯坦",
-    "nameEn": "Uzbekistan",
-    "coord": [
-      63.365,
-      41.7711
-    ],
-    "area": 0.011350321,
-    "priority": 32,
-    "kind": "country",
-    "iso2": "UZ",
-    "sourceName": "Uzbekistan",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "887",
-    "nameZh": "也门",
-    "nameEn": "Yemen",
-    "coord": [
-      47.5151,
-      15.9221
-    ],
-    "area": 0.011270182,
-    "priority": 32,
-    "kind": "country",
-    "iso2": "YE",
-    "sourceName": "Yemen",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "368",
-    "nameZh": "伊拉克",
-    "nameEn": "Iraq",
-    "coord": [
-      43.7869,
-      33.0097
-    ],
-    "area": 0.010771466,
-    "priority": 32,
-    "kind": "country",
-    "iso2": "IQ",
-    "sourceName": "Iraq",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "600",
-    "nameZh": "巴拉圭",
-    "nameEn": "Paraguay",
-    "coord": [
-      -58.4318,
-      -23.2297
-    ],
-    "area": 0.009911557,
-    "priority": 32,
-    "kind": "country",
-    "iso2": "PY",
-    "sourceName": "Paraguay",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "716",
-    "nameZh": "津巴布韦",
-    "nameEn": "Zimbabwe",
-    "coord": [
-      29.7886,
-      -18.9003
-    ],
-    "area": 0.009299732,
-    "priority": 32,
-    "kind": "country",
-    "iso2": "ZW",
-    "sourceName": "Zimbabwe",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "178",
-    "nameZh": "刚果（布）",
-    "nameEn": "Congo",
-    "coord": [
-      15.136,
-      -0.8367
-    ],
-    "area": 0.008406398,
-    "priority": 31,
-    "kind": "country",
-    "iso2": "CG",
-    "sourceName": "Congo",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "384",
-    "nameZh": "科特迪瓦",
-    "nameEn": "Côte d'Ivoire",
-    "coord": [
-      -5.6119,
-      7.5515
-    ],
-    "area": 0.008160975,
-    "priority": 31,
-    "kind": "country",
-    "iso2": "CI",
-    "sourceName": "Côte d'Ivoire",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "512",
-    "nameZh": "阿曼",
-    "nameEn": "Oman",
-    "coord": [
-      56.0666,
-      20.5625
-    ],
-    "area": 0.007642508,
-    "priority": 31,
-    "kind": "country",
-    "iso2": "OM",
-    "sourceName": "Oman",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "616",
-    "nameZh": "波兰",
-    "nameEn": "Poland",
-    "coord": [
-      19.3438,
-      52.1341
-    ],
-    "area": 0.00761745,
-    "priority": 31,
-    "kind": "country",
-    "iso2": "PL",
-    "sourceName": "Poland",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "608",
-    "nameZh": "菲律宾",
-    "nameEn": "Philippines",
-    "coord": [
-      122.5,
-      12
-    ],
-    "area": 0.00722475,
-    "priority": 31,
-    "kind": "country",
-    "iso2": "PH",
-    "sourceName": "Philippines",
-    "anchorMethod": "editorial_label_anchor"
-  },
-  {
-    "id": "854",
-    "nameZh": "布基纳法索",
-    "nameEn": "Burkina Faso",
-    "coord": [
-      -1.7828,
-      12.313
-    ],
-    "area": 0.00671662,
-    "priority": 31,
-    "kind": "country",
-    "iso2": "BF",
-    "sourceName": "Burkina Faso",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "266",
-    "nameZh": "加蓬",
-    "nameEn": "Gabon",
-    "coord": [
-      11.6874,
-      -0.6469
-    ],
-    "area": 0.006669073,
-    "priority": 31,
-    "kind": "country",
-    "iso2": "GA",
-    "sourceName": "Gabon",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "218",
-    "nameZh": "厄瓜多尔",
-    "nameEn": "Ecuador",
-    "coord": [
-      -78.3837,
-      -1.4544
-    ],
-    "area": 0.006205244,
-    "priority": 30,
-    "kind": "country",
-    "iso2": "EC",
-    "sourceName": "Ecuador",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "800",
-    "nameZh": "乌干达",
-    "nameEn": "Uganda",
-    "coord": [
-      32.3574,
-      1.2951
-    ],
-    "area": 0.006081828,
-    "priority": 30,
-    "kind": "country",
-    "iso2": "UG",
-    "sourceName": "Uganda",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "288",
-    "nameZh": "加纳",
-    "nameEn": "Ghana",
-    "coord": [
-      -1.2371,
-      7.9235
-    ],
-    "area": 0.006023069,
-    "priority": 30,
-    "kind": "country",
-    "iso2": "GH",
-    "sourceName": "Ghana",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "324",
-    "nameZh": "几内亚",
-    "nameEn": "Guinea",
-    "coord": [
-      -11.0552,
-      10.45
-    ],
-    "area": 0.005925929,
-    "priority": 30,
-    "kind": "country",
-    "iso2": "GN",
-    "sourceName": "Guinea",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "642",
-    "nameZh": "罗马尼亚",
-    "nameEn": "Romania",
-    "coord": [
-      24.9541,
-      45.8534
-    ],
-    "area": 0.005857857,
-    "priority": 30,
-    "kind": "country",
-    "iso2": "RO",
-    "sourceName": "Romania",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "418",
-    "nameZh": "老挝",
-    "nameEn": "Laos",
-    "coord": [
-      103.7872,
-      18.4309
-    ],
-    "area": 0.005661535,
-    "priority": 30,
-    "kind": "country",
-    "iso2": "LA",
-    "sourceName": "Laos",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "328",
-    "nameZh": "圭亚那",
-    "nameEn": "Guyana",
-    "coord": [
-      -58.9694,
-      4.7861
-    ],
-    "area": 0.005192476,
-    "priority": 30,
-    "kind": "country",
-    "iso2": "GY",
-    "sourceName": "Guyana",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "112",
-    "nameZh": "白俄罗斯",
-    "nameEn": "Belarus",
-    "coord": [
-      27.9649,
-      53.4952
-    ],
-    "area": 0.005127309,
-    "priority": 30,
-    "kind": "country",
-    "iso2": "BY",
-    "sourceName": "Belarus",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "417",
-    "nameZh": "吉尔吉斯斯坦",
-    "nameEn": "Kyrgyzstan",
-    "coord": [
-      74.5871,
-      41.5187
-    ],
-    "area": 0.004820757,
-    "priority": 30,
-    "kind": "country",
-    "iso2": "KG",
-    "sourceName": "Kyrgyzstan",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "686",
-    "nameZh": "塞内加尔",
-    "nameEn": "Senegal",
-    "coord": [
-      -14.506,
-      14.3536
-    ],
-    "area": 0.004805936,
-    "priority": 30,
-    "kind": "country",
-    "iso2": "SN",
-    "sourceName": "Senegal",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "760",
-    "nameZh": "叙利亚",
-    "nameEn": "Syria",
-    "coord": [
-      38.5234,
-      35.0085
-    ],
-    "area": 0.004557578,
-    "priority": 30,
-    "kind": "country",
-    "iso2": "SY",
-    "sourceName": "Syria",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "116",
-    "nameZh": "柬埔寨",
-    "nameEn": "Cambodia",
-    "coord": [
-      104.8741,
-      12.6849
-    ],
-    "area": 0.004507384,
-    "priority": 30,
-    "kind": "country",
-    "iso2": "KH",
-    "sourceName": "Cambodia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "858",
-    "nameZh": "乌拉圭",
-    "nameEn": "Uruguay",
-    "coord": [
-      -56.0099,
-      -32.7738
-    ],
-    "area": 0.004360274,
-    "priority": 30,
-    "kind": "country",
-    "iso2": "UY",
-    "sourceName": "Uruguay",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "region-somaliland",
-    "nameZh": "索马里兰地区",
-    "nameEn": "Somaliland",
-    "coord": [
-      46.2317,
-      9.7612
-    ],
-    "area": 0.004139127,
-    "priority": 29,
+    "area": 0.0000031394944039312554,
+    "priority": 69,
     "kind": "region",
-    "parentCountry": "SO",
-    "status": "region",
-    "sourceName": "Somaliland",
-    "anchorMethod": "largest_polygon_spherical_centroid"
+    "iso2": null,
+    "sourceName": "Dhekelia Sovereign Base Area",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Asia"
   },
   {
-    "id": "788",
-    "nameZh": "突尼斯",
-    "nameEn": "Tunisia",
-    "coord": [
-      9.5387,
-      34.1438
-    ],
-    "area": 0.003850628,
-    "priority": 29,
-    "kind": "country",
-    "iso2": "TN",
-    "sourceName": "Tunisia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "524",
-    "nameZh": "尼泊尔",
-    "nameEn": "Nepal",
-    "coord": [
-      84.0435,
-      28.249
-    ],
-    "area": 0.003718344,
-    "priority": 29,
-    "kind": "country",
-    "iso2": "NP",
-    "sourceName": "Nepal",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "740",
-    "nameZh": "苏里南",
-    "nameEn": "Suriname",
-    "coord": [
-      -55.9115,
-      4.1197
-    ],
-    "area": 0.003570984,
-    "priority": 29,
-    "kind": "country",
-    "iso2": "SR",
-    "sourceName": "Suriname",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "762",
-    "nameZh": "塔吉克斯坦",
-    "nameEn": "Tajikistan",
-    "coord": [
-      71.0477,
-      38.5892
-    ],
-    "area": 0.003400316,
-    "priority": 29,
-    "kind": "country",
-    "iso2": "TJ",
-    "sourceName": "Tajikistan",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "050",
-    "nameZh": "孟加拉国",
-    "nameEn": "Bangladesh",
-    "coord": [
-      90.2763,
-      23.8339
-    ],
-    "area": 0.003303514,
-    "priority": 29,
-    "kind": "country",
-    "iso2": "BD",
-    "sourceName": "Bangladesh",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "558",
-    "nameZh": "尼加拉瓜",
-    "nameEn": "Nicaragua",
-    "coord": [
-      -85.0215,
-      12.8466
-    ],
-    "area": 0.003203289,
-    "priority": 29,
-    "kind": "country",
-    "iso2": "NI",
-    "sourceName": "Nicaragua",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "408",
-    "nameZh": "朝鲜",
-    "nameEn": "North Korea",
-    "coord": [
-      127.1308,
-      40.1297
-    ],
-    "area": 0.00309279,
-    "priority": 29,
-    "kind": "country",
-    "iso2": "KP",
-    "sourceName": "North Korea",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "232",
-    "nameZh": "厄立特里亚",
-    "nameEn": "Eritrea",
-    "coord": [
-      38.6885,
-      15.4273
-    ],
-    "area": 0.002949185,
-    "priority": 29,
-    "kind": "country",
-    "iso2": "ER",
-    "sourceName": "Eritrea",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "204",
-    "nameZh": "贝宁",
-    "nameEn": "Benin",
-    "coord": [
-      2.3364,
-      9.6423
-    ],
-    "area": 0.002894498,
-    "priority": 29,
-    "kind": "country",
-    "iso2": "BJ",
-    "sourceName": "Benin",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "192",
-    "nameZh": "古巴",
-    "nameEn": "Cuba",
-    "coord": [
-      -78.9318,
-      21.6473
-    ],
-    "area": 0.002838184,
-    "priority": 29,
-    "kind": "country",
-    "iso2": "CU",
-    "sourceName": "Cuba",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "340",
-    "nameZh": "洪都拉斯",
-    "nameEn": "Honduras",
-    "coord": [
-      -86.5928,
-      14.8251
-    ],
-    "area": 0.002813364,
-    "priority": 29,
-    "kind": "country",
-    "iso2": "HN",
-    "sourceName": "Honduras",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "454",
-    "nameZh": "马拉维",
-    "nameEn": "Malawi",
-    "coord": [
-      34.186,
-      -13.1592
-    ],
-    "area": 0.002749355,
-    "priority": 29,
-    "kind": "country",
-    "iso2": "MW",
-    "sourceName": "Malawi",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "100",
-    "nameZh": "保加利亚",
-    "nameEn": "Bulgaria",
-    "coord": [
-      25.1875,
-      42.7559
-    ],
-    "area": 0.002711048,
-    "priority": 29,
-    "kind": "country",
-    "iso2": "BG",
-    "sourceName": "Bulgaria",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "320",
-    "nameZh": "危地马拉",
-    "nameEn": "Guatemala",
-    "coord": [
-      -90.3717,
-      15.6961
-    ],
-    "area": 0.002706382,
-    "priority": 29,
-    "kind": "country",
-    "iso2": "GT",
-    "sourceName": "Guatemala",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "430",
-    "nameZh": "利比里亚",
-    "nameEn": "Liberia",
-    "coord": [
-      -9.4086,
-      6.4303
-    ],
-    "area": 0.002430128,
-    "priority": 28,
-    "kind": "country",
-    "iso2": "LR",
-    "sourceName": "Liberia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "732",
-    "nameZh": "西撒哈拉",
-    "nameEn": "W. Sahara",
-    "coord": [
-      -12.1861,
-      24.2782
-    ],
-    "area": 0.002376253,
-    "priority": 28,
-    "kind": "region",
-    "iso2": "EH",
-    "status": "disputed_region",
-    "sourceName": "W. Sahara",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "620",
-    "nameZh": "葡萄牙",
-    "nameEn": "Portugal",
-    "coord": [
-      -8.0611,
-      39.6072
-    ],
-    "area": 0.002299064,
-    "priority": 28,
-    "kind": "country",
-    "iso2": "PT",
-    "sourceName": "Portugal",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "348",
-    "nameZh": "匈牙利",
-    "nameEn": "Hungary",
-    "coord": [
-      19.343,
-      47.2035
-    ],
-    "area": 0.002272317,
-    "priority": 28,
-    "kind": "country",
-    "iso2": "HU",
-    "sourceName": "Hungary",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "031",
-    "nameZh": "阿塞拜疆",
-    "nameEn": "Azerbaijan",
-    "coord": [
-      47.6858,
-      40.279
-    ],
-    "area": 0.002242162,
-    "priority": 28,
-    "kind": "country",
-    "iso2": "AZ",
-    "sourceName": "Azerbaijan",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "400",
-    "nameZh": "约旦",
-    "nameEn": "Jordan",
-    "coord": [
-      36.7663,
-      31.2402
-    ],
-    "area": 0.002200377,
-    "priority": 28,
-    "kind": "country",
-    "iso2": "JO",
-    "sourceName": "Jordan",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "040",
-    "nameZh": "奥地利",
-    "nameEn": "Austria",
-    "coord": [
-      14.0602,
-      47.621
-    ],
-    "area": 0.002090312,
-    "priority": 28,
-    "kind": "country",
-    "iso2": "AT",
-    "sourceName": "Austria",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "203",
-    "nameZh": "捷克",
-    "nameEn": "Czechia",
-    "coord": [
-      15.3429,
-      49.7798
-    ],
-    "area": 0.001994679,
-    "priority": 28,
-    "kind": "country",
-    "iso2": "CZ",
-    "sourceName": "Czechia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "784",
-    "nameZh": "阿拉伯联合酋长国",
-    "nameEn": "United Arab Emirates",
-    "coord": [
-      54.2004,
-      23.871
-    ],
-    "area": 0.00197184,
-    "priority": 28,
-    "kind": "country",
-    "iso2": "AE",
-    "sourceName": "United Arab Emirates",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "694",
-    "nameZh": "塞拉利昂",
-    "nameEn": "Sierra Leone",
-    "coord": [
-      -11.7954,
-      8.5299
-    ],
-    "area": 0.001880184,
-    "priority": 28,
-    "kind": "country",
-    "iso2": "SL",
-    "sourceName": "Sierra Leone",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "688",
-    "nameZh": "塞尔维亚",
-    "nameEn": "Serbia",
-    "coord": [
-      20.8369,
-      44.2232
-    ],
-    "area": 0.001878139,
-    "priority": 28,
-    "kind": "country",
-    "iso2": "RS",
-    "sourceName": "Serbia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "591",
-    "nameZh": "巴拿马",
-    "nameEn": "Panama",
-    "coord": [
-      -80.1093,
-      8.5326
-    ],
-    "area": 0.001862417,
-    "priority": 28,
-    "kind": "country",
-    "iso2": "PA",
-    "sourceName": "Panama",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "268",
-    "nameZh": "格鲁吉亚",
-    "nameEn": "Georgia",
-    "coord": [
-      43.4991,
-      42.1679
-    ],
-    "area": 0.001698592,
-    "priority": 28,
-    "kind": "country",
-    "iso2": "GE",
-    "sourceName": "Georgia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "144",
-    "nameZh": "斯里兰卡",
-    "nameEn": "Sri Lanka",
-    "coord": [
-      80.6679,
-      7.6995
-    ],
-    "area": 0.001617312,
-    "priority": 28,
-    "kind": "country",
-    "iso2": "LK",
-    "sourceName": "Sri Lanka",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "428",
-    "nameZh": "拉脱维亚",
-    "nameEn": "Latvia",
-    "coord": [
-      24.8394,
-      56.8173
-    ],
-    "area": 0.001567174,
-    "priority": 28,
-    "kind": "country",
-    "iso2": "LV",
-    "sourceName": "Latvia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "440",
-    "nameZh": "立陶宛",
-    "nameEn": "Lithuania",
-    "coord": [
-      23.8881,
-      55.2828
-    ],
-    "area": 0.001565584,
-    "priority": 28,
-    "kind": "country",
-    "iso2": "LT",
-    "sourceName": "Lithuania",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "768",
-    "nameZh": "多哥",
-    "nameEn": "Togo",
-    "coord": [
-      0.9981,
-      8.4346
-    ],
-    "area": 0.001507621,
-    "priority": 28,
-    "kind": "country",
-    "iso2": "TG",
-    "sourceName": "Togo",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "372",
-    "nameZh": "爱尔兰",
-    "nameEn": "Ireland",
-    "coord": [
-      -8.017,
-      53.1718
-    ],
-    "area": 0.00143522,
-    "priority": 28,
-    "kind": "country",
-    "iso2": "IE",
-    "sourceName": "Ireland",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "191",
-    "nameZh": "克罗地亚",
-    "nameEn": "Croatia",
-    "coord": [
-      16.5673,
-      45.0098
-    ],
-    "area": 0.001413136,
-    "priority": 28,
-    "kind": "country",
-    "iso2": "HR",
-    "sourceName": "Croatia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "188",
-    "nameZh": "哥斯达黎加",
-    "nameEn": "Costa Rica",
-    "coord": [
-      -84.1735,
-      9.9658
-    ],
-    "area": 0.001331846,
-    "priority": 28,
-    "kind": "country",
-    "iso2": "CR",
-    "sourceName": "Costa Rica",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "070",
-    "nameZh": "波斯尼亚和黑塞哥维那",
-    "nameEn": "Bosnia and Herz.",
-    "coord": [
-      17.8229,
-      44.1788
-    ],
-    "area": 0.001245047,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "BA",
-    "sourceName": "Bosnia and Herz.",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "214",
-    "nameZh": "多米尼加共和国",
-    "nameEn": "Dominican Rep.",
-    "coord": [
-      -70.4619,
-      18.8854
-    ],
-    "area": 0.001188975,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "DO",
-    "sourceName": "Dominican Rep.",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "703",
-    "nameZh": "斯洛伐克",
-    "nameEn": "Slovakia",
-    "coord": [
-      19.4975,
-      48.7333
-    ],
-    "area": 0.001156022,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "SK",
-    "sourceName": "Slovakia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "756",
-    "nameZh": "瑞士",
-    "nameEn": "Switzerland",
-    "coord": [
-      8.1158,
-      46.7928
-    ],
-    "area": 0.001134471,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "CH",
-    "sourceName": "Switzerland",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "233",
-    "nameZh": "爱沙尼亚",
-    "nameEn": "Estonia",
-    "coord": [
-      25.8306,
-      58.6414
-    ],
-    "area": 0.001095091,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "EE",
-    "sourceName": "Estonia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "208",
-    "nameZh": "丹麦",
-    "nameEn": "Denmark",
-    "coord": [
-      9.3029,
-      56.21
-    ],
-    "area": 0.001048208,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "DK",
-    "sourceName": "Denmark",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "528",
-    "nameZh": "荷兰",
-    "nameEn": "Netherlands",
-    "coord": [
-      5.4999,
-      52.2929
-    ],
-    "area": 0.000982113,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "NL",
-    "sourceName": "Netherlands",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "064",
-    "nameZh": "不丹",
-    "nameEn": "Bhutan",
-    "coord": [
-      90.4733,
-      27.4296
-    ],
-    "area": 0.000972165,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "BT",
-    "sourceName": "Bhutan",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "624",
-    "nameZh": "几内亚比绍",
-    "nameEn": "Guinea-Bissau",
-    "coord": [
-      -15.1104,
-      12.024
-    ],
-    "area": 0.000894881,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "GW",
-    "sourceName": "Guinea-Bissau",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "158",
-    "nameZh": "台湾（中国）",
-    "nameEn": "Taiwan (China)",
-    "coord": [
-      120.9716,
-      23.739
-    ],
-    "area": 0.000848345,
-    "priority": 27,
-    "kind": "region",
-    "iso2": "TW",
-    "parentCountry": "CN",
-    "status": "china_region",
-    "sourceName": "Taiwan",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "498",
-    "nameZh": "摩尔多瓦",
-    "nameEn": "Moldova",
-    "coord": [
-      28.4197,
-      47.1964
-    ],
-    "area": 0.000794033,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "MD",
-    "sourceName": "Moldova",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "056",
-    "nameZh": "比利时",
-    "nameEn": "Belgium",
-    "coord": [
-      4.5877,
-      50.6526
-    ],
-    "area": 0.000739511,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "BE",
-    "sourceName": "Belgium",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "008",
-    "nameZh": "阿尔巴尼亚",
-    "nameEn": "Albania",
-    "coord": [
-      20.0338,
-      41.1344
-    ],
-    "area": 0.000730777,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "AL",
-    "sourceName": "Albania",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "332",
-    "nameZh": "海地",
-    "nameEn": "Haiti",
-    "coord": [
-      -72.6591,
-      18.9003
-    ],
-    "area": 0.000705259,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "HT",
-    "sourceName": "Haiti",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "051",
-    "nameZh": "亚美尼亚",
-    "nameEn": "Armenia",
-    "coord": [
-      45.0096,
-      40.2144
-    ],
-    "area": 0.000705219,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "AM",
-    "sourceName": "Armenia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "426",
-    "nameZh": "莱索托",
-    "nameEn": "Lesotho",
-    "coord": [
-      28.1716,
-      -29.6246
-    ],
-    "area": 0.000678453,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "LS",
-    "sourceName": "Lesotho",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "226",
-    "nameZh": "赤道几内亚",
-    "nameEn": "Eq. Guinea",
-    "coord": [
-      10.3657,
-      1.6464
-    ],
-    "area": 0.000671201,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "GQ",
-    "sourceName": "Eq. Guinea",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "108",
-    "nameZh": "布隆迪",
-    "nameEn": "Burundi",
-    "coord": [
-      29.914,
-      -3.3777
-    ],
-    "area": 0.000648985,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "BI",
-    "sourceName": "Burundi",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "807",
-    "nameZh": "北马其顿",
-    "nameEn": "Macedonia",
-    "coord": [
-      21.6961,
-      41.6058
-    ],
-    "area": 0.00061634,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "MK",
-    "sourceName": "Macedonia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "090",
-    "nameZh": "所罗门群岛",
-    "nameEn": "Solomon Is.",
-    "coord": [
-      159.1032,
-      -7.9023
-    ],
-    "area": 0.000611854,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "SB",
-    "sourceName": "Solomon Is.",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "646",
-    "nameZh": "卢旺达",
-    "nameEn": "Rwanda",
-    "coord": [
-      29.9187,
-      -2.0137
-    ],
-    "area": 0.000577531,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "RW",
-    "sourceName": "Rwanda",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "540",
-    "nameZh": "新喀里多尼亚",
-    "nameEn": "New Caledonia",
-    "coord": [
-      165.5284,
-      -21.261
-    ],
-    "area": 0.000573673,
-    "priority": 27,
-    "kind": "region",
-    "iso2": "NC",
-    "parentCountry": "FR",
-    "status": "overseas_territory",
-    "sourceName": "New Caledonia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "376",
-    "nameZh": "以色列",
-    "nameEn": "Israel",
-    "coord": [
-      35.001,
-      31.4791
-    ],
-    "area": 0.000566666,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "IL",
-    "sourceName": "Israel",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "084",
-    "nameZh": "伯利兹",
-    "nameEn": "Belize",
-    "coord": [
-      -88.7038,
-      17.1947
-    ],
-    "area": 0.000544396,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "BZ",
-    "sourceName": "Belize",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "262",
-    "nameZh": "吉布提",
-    "nameEn": "Djibouti",
-    "coord": [
-      42.4972,
-      11.7728
-    ],
-    "area": 0.000541043,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "DJ",
-    "sourceName": "Djibouti",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "222",
-    "nameZh": "萨尔瓦多",
-    "nameEn": "El Salvador",
-    "coord": [
-      -88.8719,
-      13.7262
-    ],
-    "area": 0.000516645,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "SV",
-    "sourceName": "El Salvador",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "242",
-    "nameZh": "斐济",
-    "nameEn": "Fiji",
-    "coord": [
-      177.9975,
-      -17.8308
-    ],
-    "area": 0.000476664,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "FJ",
-    "sourceName": "Fiji",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "705",
-    "nameZh": "斯洛文尼亚",
-    "nameEn": "Slovenia",
-    "coord": [
-      14.9342,
-      46.1259
-    ],
-    "area": 0.000470417,
-    "priority": 27,
-    "kind": "country",
-    "iso2": "SI",
-    "sourceName": "Slovenia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "748",
-    "nameZh": "斯威士兰",
-    "nameEn": "eSwatini",
-    "coord": [
-      31.3951,
-      -26.4896
-    ],
-    "area": 0.000446746,
-    "priority": 26,
-    "kind": "country",
-    "iso2": "SZ",
-    "sourceName": "eSwatini",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "414",
-    "nameZh": "科威特",
-    "nameEn": "Kuwait",
-    "coord": [
-      47.6008,
-      29.3072
-    ],
-    "area": 0.000410894,
-    "priority": 26,
-    "kind": "country",
-    "iso2": "KW",
-    "sourceName": "Kuwait",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "238",
-    "nameZh": "福克兰群岛（马尔维纳斯群岛）",
-    "nameEn": "Falkland Is.",
-    "coord": [
-      -59.4159,
-      -51.7163
-    ],
-    "area": 0.000401426,
-    "priority": 26,
-    "kind": "region",
-    "iso2": "FK",
-    "status": "overseas_disputed_territory",
-    "sourceName": "Falkland Is.",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "044",
-    "nameZh": "巴哈马",
-    "nameEn": "Bahamas",
-    "coord": [
-      -77.9144,
-      24.5061
-    ],
-    "area": 0.000384755,
-    "priority": 26,
-    "kind": "country",
-    "iso2": "BS",
-    "sourceName": "Bahamas",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "626",
-    "nameZh": "东帝汶",
-    "nameEn": "Timor-Leste",
-    "coord": [
-      125.9673,
-      -8.7679
-    ],
-    "area": 0.00036432,
-    "priority": 26,
-    "kind": "country",
-    "iso2": "TL",
-    "sourceName": "Timor-Leste",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "270",
-    "nameZh": "冈比亚",
-    "nameEn": "Gambia",
-    "coord": [
-      -15.4327,
-      13.4767
-    ],
-    "area": 0.000347408,
-    "priority": 26,
-    "kind": "country",
-    "iso2": "GM",
-    "sourceName": "Gambia",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "499",
-    "nameZh": "黑山",
-    "nameEn": "Montenegro",
-    "coord": [
-      19.2854,
-      42.7878
-    ],
-    "area": 0.000330733,
-    "priority": 26,
-    "kind": "country",
-    "iso2": "ME",
-    "sourceName": "Montenegro",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "388",
-    "nameZh": "牙买加",
-    "nameEn": "Jamaica",
-    "coord": [
-      -77.3243,
-      18.1383
-    ],
-    "area": 0.000307547,
-    "priority": 26,
-    "kind": "country",
-    "iso2": "JM",
-    "sourceName": "Jamaica",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "260",
-    "nameZh": "法属南部领地",
-    "nameEn": "Fr. S. Antarctic Lands",
-    "coord": [
-      69.5309,
-      -49.307
-    ],
-    "area": 0.000284998,
-    "priority": 26,
-    "kind": "region",
-    "iso2": "TF",
-    "parentCountry": "FR",
-    "status": "overseas_territory",
-    "sourceName": "Fr. S. Antarctic Lands",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "634",
-    "nameZh": "卡塔尔",
-    "nameEn": "Qatar",
-    "coord": [
-      51.1838,
-      25.321
-    ],
-    "area": 0.000280081,
-    "priority": 26,
-    "kind": "country",
-    "iso2": "QA",
-    "sourceName": "Qatar",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "region-kosovo",
-    "nameZh": "科索沃地区",
-    "nameEn": "Kosovo",
-    "coord": [
-      20.896,
-      42.579
-    ],
-    "area": 0.000276427,
-    "priority": 26,
-    "kind": "region",
-    "status": "disputed_region",
-    "sourceName": "Kosovo",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "096",
-    "nameZh": "文莱",
-    "nameEn": "Brunei",
-    "coord": [
-      114.9151,
-      4.6901
-    ],
-    "area": 0.000264065,
-    "priority": 26,
-    "kind": "country",
-    "iso2": "BN",
-    "sourceName": "Brunei",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "422",
-    "nameZh": "黎巴嫩",
-    "nameEn": "Lebanon",
-    "coord": [
-      35.8684,
-      33.9102
-    ],
-    "area": 0.000248436,
-    "priority": 26,
-    "kind": "country",
-    "iso2": "LB",
-    "sourceName": "Lebanon",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "630",
-    "nameZh": "波多黎各",
-    "nameEn": "Puerto Rico",
-    "coord": [
-      -66.4791,
-      18.238
-    ],
-    "area": 0.00022833,
-    "priority": 26,
-    "kind": "region",
-    "iso2": "PR",
-    "parentCountry": "US",
-    "status": "territory",
-    "sourceName": "Puerto Rico",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "780",
-    "nameZh": "特立尼达和多巴哥",
-    "nameEn": "Trinidad and Tobago",
-    "coord": [
-      -61.3314,
-      10.4285
-    ],
-    "area": 0.000191277,
-    "priority": 26,
-    "kind": "country",
-    "iso2": "TT",
-    "sourceName": "Trinidad and Tobago",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "548",
-    "nameZh": "瓦努阿图",
-    "nameEn": "Vanuatu",
-    "coord": [
-      166.9075,
-      -15.2236
-    ],
-    "area": 0.000185229,
-    "priority": 26,
-    "kind": "country",
-    "iso2": "VU",
-    "sourceName": "Vanuatu",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "196",
+    "id": "CYP",
     "nameZh": "塞浦路斯",
     "nameEn": "Cyprus",
     "coord": [
       33.0391,
       34.9075
     ],
-    "area": 0.000153174,
+    "area": 0.00013292769299512103,
     "priority": 26,
     "kind": "country",
     "iso2": "CY",
     "sourceName": "Cyprus",
-    "anchorMethod": "largest_polygon_spherical_centroid"
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
   },
   {
-    "id": "275",
+    "id": "IND",
+    "nameZh": "印度",
+    "nameEn": "India",
+    "coord": [
+      79.5399,
+      22.8192
+    ],
+    "area": 0.07781074869593525,
+    "priority": 86,
+    "kind": "country",
+    "iso2": "IN",
+    "sourceName": "India",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "CHN",
+    "nameZh": "中国",
+    "nameEn": "People's Republic of China",
+    "coord": [
+      104,
+      35.5
+    ],
+    "area": 0.2309310670945535,
+    "priority": 100,
+    "kind": "country",
+    "iso2": "CN",
+    "sourceName": "China",
+    "anchorMethod": "editorial_label_anchor",
+    "continent": "Asia"
+  },
+  {
+    "id": "ISR",
+    "nameZh": "以色列",
+    "nameEn": "Israel",
+    "coord": [
+      35.001,
+      31.4791
+    ],
+    "area": 0.0005449616251760537,
+    "priority": 27,
+    "kind": "region",
+    "iso2": "IL",
+    "sourceName": "Israel",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "PSX",
     "nameZh": "巴勒斯坦",
     "nameEn": "Palestine",
     "coord": [
       35.2728,
       31.9398
     ],
-    "area": 0.000124133,
-    "priority": 26,
-    "kind": "country",
-    "iso2": "PS",
-    "sourceName": "Palestine",
-    "anchorMethod": "largest_polygon_spherical_centroid"
-  },
-  {
-    "id": "region-north-cyprus",
-    "nameZh": "塞浦路斯北部",
-    "nameEn": "N. Cyprus",
-    "coord": [
-      33.557,
-      35.2748
-    ],
-    "area": 0.000093267,
+    "area": 0.00014976179467717207,
     "priority": 26,
     "kind": "region",
-    "parentCountry": "CY",
-    "status": "disputed_region",
-    "sourceName": "N. Cyprus",
-    "anchorMethod": "largest_polygon_spherical_centroid"
+    "iso2": "PS",
+    "sourceName": "Palestine",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
   },
   {
-    "id": "442",
+    "id": "LBN",
+    "nameZh": "黎巴嫩",
+    "nameEn": "Lebanon",
+    "coord": [
+      35.8684,
+      33.9102
+    ],
+    "area": 0.00024654415810160566,
+    "priority": 26,
+    "kind": "country",
+    "iso2": "LB",
+    "sourceName": "Lebanon",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "ETH",
+    "nameZh": "埃塞俄比亚",
+    "nameEn": "Ethiopia",
+    "coord": [
+      39.5598,
+      8.6459
+    ],
+    "area": 0.027890476124690606,
+    "priority": 37,
+    "kind": "country",
+    "iso2": "ET",
+    "sourceName": "Ethiopia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "SDS",
+    "nameZh": "南苏丹",
+    "nameEn": "South Sudan",
+    "coord": [
+      30.202,
+      7.2931
+    ],
+    "area": 0.015509656314760135,
+    "priority": 34,
+    "kind": "country",
+    "iso2": "SS",
+    "sourceName": "South Sudan",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "SOM",
+    "nameZh": "索马里",
+    "nameEn": "Somalia",
+    "coord": [
+      45.6995,
+      4.7415
+    ],
+    "area": 0.011674654166003152,
+    "priority": 33,
+    "kind": "country",
+    "iso2": "SO",
+    "sourceName": "Somalia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "KEN",
+    "nameZh": "肯尼亚",
+    "nameEn": "Kenya",
+    "coord": [
+      37.7914,
+      0.5955
+    ],
+    "area": 0.014494304442992552,
+    "priority": 70,
+    "kind": "country",
+    "iso2": "KE",
+    "sourceName": "Kenya",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "MWI",
+    "nameZh": "马拉维",
+    "nameEn": "Malawi",
+    "coord": [
+      34.186,
+      -13.1592
+    ],
+    "area": 0.0029526807624351494,
+    "priority": 29,
+    "kind": "country",
+    "iso2": "MW",
+    "sourceName": "Malawi",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "TZA",
+    "nameZh": "坦桑尼亚",
+    "nameEn": "Tanzania",
+    "coord": [
+      34.7417,
+      -6.2507
+    ],
+    "area": 0.023295449120856796,
+    "priority": 36,
+    "kind": "country",
+    "iso2": "TZ",
+    "sourceName": "United Republic of Tanzania",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "SYR",
+    "nameZh": "叙利亚",
+    "nameEn": "Syria",
+    "coord": [
+      38.5234,
+      35.0085
+    ],
+    "area": 0.004581241824469407,
+    "priority": 30,
+    "kind": "country",
+    "iso2": "SY",
+    "sourceName": "Syria",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "SOL",
+    "nameZh": "索马里兰",
+    "nameEn": "Somaliland",
+    "coord": [
+      46.731595,
+      9.443889
+    ],
+    "area": 0.004141291841917392,
+    "priority": 55,
+    "kind": "country",
+    "iso2": null,
+    "sourceName": "Somaliland",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Africa"
+  },
+  {
+    "id": "FRA",
+    "nameZh": "法国",
+    "nameEn": "France",
+    "coord": [
+      2.4,
+      46.5
+    ],
+    "area": 0.015662547811156436,
+    "priority": 82,
+    "kind": "country",
+    "iso2": "FR",
+    "sourceName": "France",
+    "anchorMethod": "editorial_label_anchor",
+    "continent": "Europe"
+  },
+  {
+    "id": "SUR",
+    "nameZh": "苏里南",
+    "nameEn": "Suriname",
+    "coord": [
+      -55.9115,
+      4.1197
+    ],
+    "area": 0.0035911641251545334,
+    "priority": 29,
+    "kind": "country",
+    "iso2": "SR",
+    "sourceName": "Suriname",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "South America"
+  },
+  {
+    "id": "GUY",
+    "nameZh": "圭亚那",
+    "nameEn": "Guyana",
+    "coord": [
+      -58.9694,
+      4.7861
+    ],
+    "area": 0.005226429073892489,
+    "priority": 30,
+    "kind": "country",
+    "iso2": "GY",
+    "sourceName": "Guyana",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "South America"
+  },
+  {
+    "id": "KOR",
+    "nameZh": "韩国",
+    "nameEn": "South Korea",
+    "coord": [
+      127.8199,
+      36.4187
+    ],
+    "area": 0.002427252010916664,
+    "priority": 74,
+    "kind": "country",
+    "iso2": "KR",
+    "sourceName": "South Korea",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "PRK",
+    "nameZh": "朝鲜",
+    "nameEn": "North Korea",
+    "coord": [
+      127.1308,
+      40.1297
+    ],
+    "area": 0.00301174748246549,
+    "priority": 29,
+    "kind": "country",
+    "iso2": "KP",
+    "sourceName": "North Korea",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "MAR",
+    "nameZh": "摩洛哥",
+    "nameEn": "Morocco",
+    "coord": [
+      -8.6937,
+      29.8154
+    ],
+    "area": 0.014595589741645008,
+    "priority": 78,
+    "kind": "country",
+    "iso2": "MA",
+    "sourceName": "Morocco",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "SAH",
+    "nameZh": "西撒哈拉",
+    "nameEn": "Western Sahara",
+    "coord": [
+      -12.1861,
+      24.2782
+    ],
+    "area": 0.002234452338975653,
+    "priority": 28,
+    "kind": "region",
+    "iso2": "EH",
+    "sourceName": "Western Sahara",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "CRI",
+    "nameZh": "哥斯达黎加",
+    "nameEn": "Costa Rica",
+    "coord": [
+      -84.1735,
+      9.9658
+    ],
+    "area": 0.0012653484759513273,
+    "priority": 28,
+    "kind": "country",
+    "iso2": "CR",
+    "sourceName": "Costa Rica",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "North America"
+  },
+  {
+    "id": "NIC",
+    "nameZh": "尼加拉瓜",
+    "nameEn": "Nicaragua",
+    "coord": [
+      -85.0215,
+      12.8466
+    ],
+    "area": 0.0031824899566246217,
+    "priority": 29,
+    "kind": "country",
+    "iso2": "NI",
+    "sourceName": "Nicaragua",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "North America"
+  },
+  {
+    "id": "COG",
+    "nameZh": "刚果（布）",
+    "nameEn": "Republic of the Congo",
+    "coord": [
+      15.136,
+      -0.8367
+    ],
+    "area": 0.008534881807187828,
+    "priority": 31,
+    "kind": "country",
+    "iso2": "CG",
+    "sourceName": "Republic of the Congo",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "COD",
+    "nameZh": "刚果（金）",
+    "nameEn": "Democratic Republic of the Congo",
+    "coord": [
+      23.5768,
+      -2.8387
+    ],
+    "area": 0.05753724704617801,
+    "priority": 42,
+    "kind": "country",
+    "iso2": "CD",
+    "sourceName": "Democratic Republic of the Congo",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "BTN",
+    "nameZh": "不丹",
+    "nameEn": "Bhutan",
+    "coord": [
+      90.4733,
+      27.4296
+    ],
+    "area": 0.0009974823947436933,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "BT",
+    "sourceName": "Bhutan",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "UKR",
+    "nameZh": "乌克兰",
+    "nameEn": "Ukraine",
+    "coord": [
+      31.2924,
+      49.1866
+    ],
+    "area": 0.014047366738206196,
+    "priority": 33,
+    "kind": "country",
+    "iso2": "UA",
+    "sourceName": "Ukraine",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "BLR",
+    "nameZh": "白俄罗斯",
+    "nameEn": "Belarus",
+    "coord": [
+      27.9649,
+      53.4952
+    ],
+    "area": 0.005090738511169446,
+    "priority": 30,
+    "kind": "country",
+    "iso2": "BY",
+    "sourceName": "Belarus",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "NAM",
+    "nameZh": "纳米比亚",
+    "nameEn": "Namibia",
+    "coord": [
+      17.1422,
+      -22.0401
+    ],
+    "area": 0.02032097853902919,
+    "priority": 35,
+    "kind": "country",
+    "iso2": "NA",
+    "sourceName": "Namibia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "ZAF",
+    "nameZh": "南非",
+    "nameEn": "South Africa",
+    "coord": [
+      25.1581,
+      -28.9233
+    ],
+    "area": 0.03009251959599544,
+    "priority": 75,
+    "kind": "country",
+    "iso2": "ZA",
+    "sourceName": "South Africa",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "MAF",
+    "nameZh": "法属圣马丁",
+    "nameEn": "Saint Martin",
+    "coord": [
+      -63.049399,
+      18.081302
+    ],
+    "area": 0.0000016875625659482417,
+    "priority": 48,
+    "kind": "region",
+    "iso2": "MF",
+    "sourceName": "Saint Martin",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "SXM",
+    "nameZh": "荷属圣马丁",
+    "nameEn": "Sint Maarten",
+    "coord": [
+      -63.070133,
+      18.04088
+    ],
+    "area": 5.773202350939268e-7,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "SX",
+    "sourceName": "Sint Maarten",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "OMN",
+    "nameZh": "阿曼",
+    "nameEn": "Oman",
+    "coord": [
+      56.0666,
+      20.5625
+    ],
+    "area": 0.007688892030948904,
+    "priority": 31,
+    "kind": "country",
+    "iso2": "OM",
+    "sourceName": "Oman",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "UZB",
+    "nameZh": "乌兹别克斯坦",
+    "nameEn": "Uzbekistan",
+    "coord": [
+      63.365,
+      41.7711
+    ],
+    "area": 0.011017031188483238,
+    "priority": 32,
+    "kind": "country",
+    "iso2": "UZ",
+    "sourceName": "Uzbekistan",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "KAZ",
+    "nameZh": "哈萨克斯坦",
+    "nameEn": "Kazakhstan",
+    "coord": [
+      67.2357,
+      48.4059
+    ],
+    "area": 0.06667579740562997,
+    "priority": 43,
+    "kind": "region",
+    "iso2": "KZ",
+    "sourceName": "Kazakhstan",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "TJK",
+    "nameZh": "塔吉克斯坦",
+    "nameEn": "Tajikistan",
+    "coord": [
+      71.0477,
+      38.5892
+    ],
+    "area": 0.003501768136122856,
+    "priority": 29,
+    "kind": "country",
+    "iso2": "TJ",
+    "sourceName": "Tajikistan",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "LTU",
+    "nameZh": "立陶宛",
+    "nameEn": "Lithuania",
+    "coord": [
+      23.8881,
+      55.2828
+    ],
+    "area": 0.001592562135610614,
+    "priority": 28,
+    "kind": "country",
+    "iso2": "LT",
+    "sourceName": "Lithuania",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "BRA",
+    "nameZh": "巴西",
+    "nameEn": "Brazil",
+    "coord": [
+      -53.1725,
+      -10.6555
+    ],
+    "area": 0.2095346116394045,
+    "priority": 87,
+    "kind": "country",
+    "iso2": "BR",
+    "sourceName": "Brazil",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "South America"
+  },
+  {
+    "id": "URY",
+    "nameZh": "乌拉圭",
+    "nameEn": "Uruguay",
+    "coord": [
+      -56.0099,
+      -32.7738
+    ],
+    "area": 0.004371538753595367,
+    "priority": 30,
+    "kind": "country",
+    "iso2": "UY",
+    "sourceName": "Uruguay",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "South America"
+  },
+  {
+    "id": "MNG",
+    "nameZh": "蒙古",
+    "nameEn": "Mongolia",
+    "coord": [
+      103.0157,
+      46.9542
+    ],
+    "area": 0.03844660948030164,
+    "priority": 39,
+    "kind": "country",
+    "iso2": "MN",
+    "sourceName": "Mongolia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "RUS",
+    "nameZh": "俄罗斯",
+    "nameEn": "Russia",
+    "coord": [
+      98,
+      60
+    ],
+    "area": 0.4160240465794774,
+    "priority": 92,
+    "kind": "country",
+    "iso2": "RU",
+    "sourceName": "Russia",
+    "anchorMethod": "editorial_label_anchor",
+    "continent": "Europe"
+  },
+  {
+    "id": "CZE",
+    "nameZh": "捷克",
+    "nameEn": "Czech Republic",
+    "coord": [
+      15.3429,
+      49.7798
+    ],
+    "area": 0.0019339155199949404,
+    "priority": 28,
+    "kind": "country",
+    "iso2": "CZ",
+    "sourceName": "Czechia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "DEU",
+    "nameZh": "德国",
+    "nameEn": "Germany",
+    "coord": [
+      10.2704,
+      51.0774
+    ],
+    "area": 0.008780024962951914,
+    "priority": 78,
+    "kind": "country",
+    "iso2": "DE",
+    "sourceName": "Germany",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "EST",
+    "nameZh": "爱沙尼亚",
+    "nameEn": "Estonia",
+    "coord": [
+      25.8306,
+      58.6414
+    ],
+    "area": 0.001122853620276631,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "EE",
+    "sourceName": "Estonia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "LVA",
+    "nameZh": "拉脱维亚",
+    "nameEn": "Latvia",
+    "coord": [
+      24.8394,
+      56.8173
+    ],
+    "area": 0.0015831366407665008,
+    "priority": 28,
+    "kind": "country",
+    "iso2": "LV",
+    "sourceName": "Latvia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "NOR",
+    "nameZh": "挪威",
+    "nameEn": "Norway",
+    "coord": [
+      9.5,
+      62
+    ],
+    "area": 0.009350518853654862,
+    "priority": 75,
+    "kind": "country",
+    "iso2": "NO",
+    "sourceName": "Norway",
+    "anchorMethod": "editorial_label_anchor",
+    "continent": "Europe"
+  },
+  {
+    "id": "SWE",
+    "nameZh": "瑞典",
+    "nameEn": "Sweden",
+    "coord": [
+      16.1091,
+      62.4185
+    ],
+    "area": 0.010926369727345337,
+    "priority": 72,
+    "kind": "country",
+    "iso2": "SE",
+    "sourceName": "Sweden",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "FIN",
+    "nameZh": "芬兰",
+    "nameEn": "Finland",
+    "coord": [
+      26.1416,
+      64.261
+    ],
+    "area": 0.008153227784338215,
+    "priority": 68,
+    "kind": "country",
+    "iso2": "FI",
+    "sourceName": "Finland",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "VNM",
+    "nameZh": "越南",
+    "nameEn": "Vietnam",
+    "coord": [
+      106.3329,
+      16.5556
+    ],
+    "area": 0.00812981132015634,
+    "priority": 68,
+    "kind": "country",
+    "iso2": "VN",
+    "sourceName": "Vietnam",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "KHM",
+    "nameZh": "柬埔寨",
+    "nameEn": "Cambodia",
+    "coord": [
+      104.8741,
+      12.6849
+    ],
+    "area": 0.004477832303138399,
+    "priority": 30,
+    "kind": "country",
+    "iso2": "KH",
+    "sourceName": "Cambodia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "LUX",
     "nameZh": "卢森堡",
     "nameEn": "Luxembourg",
     "coord": [
       5.9661,
       49.7649
     ],
-    "area": 0.00005929,
+    "area": 0.00006405006804909621,
     "priority": 26,
     "kind": "country",
     "iso2": "LU",
     "sourceName": "Luxembourg",
-    "anchorMethod": "largest_polygon_spherical_centroid"
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "ARE",
+    "nameZh": "阿拉伯联合酋长国",
+    "nameEn": "United Arab Emirates",
+    "coord": [
+      54.2004,
+      23.871
+    ],
+    "area": 0.001755292342357567,
+    "priority": 28,
+    "kind": "country",
+    "iso2": "AE",
+    "sourceName": "United Arab Emirates",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "BEL",
+    "nameZh": "比利时",
+    "nameEn": "Belgium",
+    "coord": [
+      4.5877,
+      50.6526
+    ],
+    "area": 0.0007529367570341032,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "BE",
+    "sourceName": "Belgium",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "GEO",
+    "nameZh": "格鲁吉亚",
+    "nameEn": "Georgia",
+    "coord": [
+      43.4991,
+      42.1679
+    ],
+    "area": 0.0017113229890961615,
+    "priority": 28,
+    "kind": "country",
+    "iso2": "GE",
+    "sourceName": "Georgia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "MKD",
+    "nameZh": "北马其顿",
+    "nameEn": "North Macedonia",
+    "coord": [
+      21.6961,
+      41.6058
+    ],
+    "area": 0.0006245181105713828,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "MK",
+    "sourceName": "North Macedonia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "ALB",
+    "nameZh": "阿尔巴尼亚",
+    "nameEn": "Albania",
+    "coord": [
+      20.0338,
+      41.1344
+    ],
+    "area": 0.0006971810952540691,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "AL",
+    "sourceName": "Albania",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "AZE",
+    "nameZh": "阿塞拜疆",
+    "nameEn": "Azerbaijan",
+    "coord": [
+      47.6858,
+      40.279
+    ],
+    "area": 0.002122527773593449,
+    "priority": 28,
+    "kind": "country",
+    "iso2": "AZ",
+    "sourceName": "Azerbaijan",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "KOS",
+    "nameZh": "科索沃",
+    "nameEn": "Kosovo",
+    "coord": [
+      20.860719,
+      42.593587
+    ],
+    "area": 0.00026841783284197086,
+    "priority": 48,
+    "kind": "region",
+    "iso2": "XK",
+    "sourceName": "Kosovo",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Europe"
+  },
+  {
+    "id": "TUR",
+    "nameZh": "土耳其",
+    "nameEn": "Turkey",
+    "coord": [
+      35.3747,
+      39.0635
+    ],
+    "area": 0.019202527091485844,
+    "priority": 75,
+    "kind": "country",
+    "iso2": "TR",
+    "sourceName": "Turkey",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "ESP",
+    "nameZh": "西班牙",
+    "nameEn": "Spain",
+    "coord": [
+      -3.6242,
+      40.3207
+    ],
+    "area": 0.012474266238598531,
+    "priority": 77,
+    "kind": "country",
+    "iso2": "ES",
+    "sourceName": "Spain",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "LAO",
+    "nameZh": "老挝",
+    "nameEn": "Laos",
+    "coord": [
+      103.7872,
+      18.4309
+    ],
+    "area": 0.005637555698338723,
+    "priority": 30,
+    "kind": "country",
+    "iso2": "LA",
+    "sourceName": "Laos",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "KGZ",
+    "nameZh": "吉尔吉斯斯坦",
+    "nameEn": "Kyrgyzstan",
+    "coord": [
+      74.5871,
+      41.5187
+    ],
+    "area": 0.004895645076130418,
+    "priority": 30,
+    "kind": "country",
+    "iso2": "KG",
+    "sourceName": "Kyrgyzstan",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "ARM",
+    "nameZh": "亚美尼亚",
+    "nameEn": "Armenia",
+    "coord": [
+      45.0096,
+      40.2144
+    ],
+    "area": 0.0007281406016693171,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "AM",
+    "sourceName": "Armenia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "DNK",
+    "nameZh": "丹麦",
+    "nameEn": "Denmark",
+    "coord": [
+      9.3029,
+      56.21
+    ],
+    "area": 0.0010469362006714329,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "DK",
+    "sourceName": "Denmark",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "LBY",
+    "nameZh": "利比亚",
+    "nameEn": "Libya",
+    "coord": [
+      18.0304,
+      26.9882
+    ],
+    "area": 0.04007251280791037,
+    "priority": 39,
+    "kind": "country",
+    "iso2": "LY",
+    "sourceName": "Libya",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "TUN",
+    "nameZh": "突尼斯",
+    "nameEn": "Tunisia",
+    "coord": [
+      9.5387,
+      34.1438
+    ],
+    "area": 0.003859432759077747,
+    "priority": 29,
+    "kind": "country",
+    "iso2": "TN",
+    "sourceName": "Tunisia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "ROU",
+    "nameZh": "罗马尼亚",
+    "nameEn": "Romania",
+    "coord": [
+      24.9541,
+      45.8534
+    ],
+    "area": 0.005809479661546967,
+    "priority": 30,
+    "kind": "country",
+    "iso2": "RO",
+    "sourceName": "Romania",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "HUN",
+    "nameZh": "匈牙利",
+    "nameEn": "Hungary",
+    "coord": [
+      19.343,
+      47.2035
+    ],
+    "area": 0.0022899094701933982,
+    "priority": 28,
+    "kind": "country",
+    "iso2": "HU",
+    "sourceName": "Hungary",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "SVK",
+    "nameZh": "斯洛伐克",
+    "nameEn": "Slovakia",
+    "coord": [
+      19.4975,
+      48.7333
+    ],
+    "area": 0.0011901587430262644,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "SK",
+    "sourceName": "Slovakia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "POL",
+    "nameZh": "波兰",
+    "nameEn": "Poland",
+    "coord": [
+      19.3438,
+      52.1341
+    ],
+    "area": 0.0076921097032244005,
+    "priority": 31,
+    "kind": "country",
+    "iso2": "PL",
+    "sourceName": "Poland",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "IRL",
+    "nameZh": "爱尔兰",
+    "nameEn": "Ireland",
+    "coord": [
+      -8.017,
+      53.1718
+    ],
+    "area": 0.00170387825878569,
+    "priority": 28,
+    "kind": "country",
+    "iso2": "IE",
+    "sourceName": "Ireland",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "GBR",
+    "nameZh": "英国",
+    "nameEn": "United Kingdom",
+    "coord": [
+      -2.5,
+      54
+    ],
+    "area": 0.005980264248823322,
+    "priority": 82,
+    "kind": "country",
+    "iso2": "GB",
+    "sourceName": "United Kingdom",
+    "anchorMethod": "editorial_label_anchor",
+    "continent": "Europe"
+  },
+  {
+    "id": "GRC",
+    "nameZh": "希腊",
+    "nameEn": "Greece",
+    "coord": [
+      22.5461,
+      39.3228
+    ],
+    "area": 0.0032334231855377796,
+    "priority": 72,
+    "kind": "country",
+    "iso2": "GR",
+    "sourceName": "Greece",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "ZMB",
+    "nameZh": "赞比亚",
+    "nameEn": "Zambia",
+    "coord": [
+      27.7613,
+      -13.393
+    ],
+    "area": 0.01859411920771412,
+    "priority": 35,
+    "kind": "country",
+    "iso2": "ZM",
+    "sourceName": "Zambia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "SLE",
+    "nameZh": "塞拉利昂",
+    "nameEn": "Sierra Leone",
+    "coord": [
+      -11.7954,
+      8.5299
+    ],
+    "area": 0.0017716737017315263,
+    "priority": 28,
+    "kind": "country",
+    "iso2": "SL",
+    "sourceName": "Sierra Leone",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "GIN",
+    "nameZh": "几内亚",
+    "nameEn": "Guinea",
+    "coord": [
+      -11.0552,
+      10.45
+    ],
+    "area": 0.006043151683758856,
+    "priority": 30,
+    "kind": "country",
+    "iso2": "GN",
+    "sourceName": "Guinea",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "LBR",
+    "nameZh": "利比里亚",
+    "nameEn": "Liberia",
+    "coord": [
+      -9.4086,
+      6.4303
+    ],
+    "area": 0.0023579738075384872,
+    "priority": 28,
+    "kind": "country",
+    "iso2": "LR",
+    "sourceName": "Liberia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "CAF",
+    "nameZh": "中非共和国",
+    "nameEn": "Central African Republic",
+    "coord": [
+      20.3677,
+      6.5468
+    ],
+    "area": 0.015290667187215945,
+    "priority": 34,
+    "kind": "country",
+    "iso2": "CF",
+    "sourceName": "Central African Republic",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "SDN",
+    "nameZh": "苏丹",
+    "nameEn": "Sudan",
+    "coord": [
+      29.8306,
+      15.9716
+    ],
+    "area": 0.04587349617322466,
+    "priority": 40,
+    "kind": "country",
+    "iso2": "SD",
+    "sourceName": "Sudan",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "DJI",
+    "nameZh": "吉布提",
+    "nameEn": "Djibouti",
+    "coord": [
+      42.4972,
+      11.7728
+    ],
+    "area": 0.0005403709859293171,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "DJ",
+    "sourceName": "Djibouti",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "ERI",
+    "nameZh": "厄立特里亚",
+    "nameEn": "Eritrea",
+    "coord": [
+      38.6885,
+      15.4273
+    ],
+    "area": 0.0030296296415187854,
+    "priority": 29,
+    "kind": "country",
+    "iso2": "ER",
+    "sourceName": "Eritrea",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "AUT",
+    "nameZh": "奥地利",
+    "nameEn": "Austria",
+    "coord": [
+      14.0602,
+      47.621
+    ],
+    "area": 0.0020634744887796245,
+    "priority": 28,
+    "kind": "country",
+    "iso2": "AT",
+    "sourceName": "Austria",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "IRQ",
+    "nameZh": "伊拉克",
+    "nameEn": "Iraq",
+    "coord": [
+      43.7869,
+      33.0097
+    ],
+    "area": 0.010780689541622836,
+    "priority": 32,
+    "kind": "country",
+    "iso2": "IQ",
+    "sourceName": "Iraq",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "ITA",
+    "nameZh": "意大利",
+    "nameEn": "Italy",
+    "coord": [
+      12.367,
+      43.4283
+    ],
+    "area": 0.007407745504368851,
+    "priority": 78,
+    "kind": "country",
+    "iso2": "IT",
+    "sourceName": "Italy",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "CHE",
+    "nameZh": "瑞士",
+    "nameEn": "Switzerland",
+    "coord": [
+      8.1158,
+      46.7928
+    ],
+    "area": 0.00101814640238334,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "CH",
+    "sourceName": "Switzerland",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "IRN",
+    "nameZh": "伊朗",
+    "nameEn": "Iran",
+    "coord": [
+      54.453,
+      32.4741
+    ],
+    "area": 0.039997510894381645,
+    "priority": 39,
+    "kind": "country",
+    "iso2": "IR",
+    "sourceName": "Iran",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "NLD",
+    "nameZh": "荷兰",
+    "nameEn": "Netherlands",
+    "coord": [
+      5.4999,
+      52.2929
+    ],
+    "area": 0.0009178202852748107,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "NL",
+    "sourceName": "Netherlands",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "LIE",
+    "nameZh": "列支敦士登",
+    "nameEn": "Liechtenstein",
+    "coord": [
+      9.559439,
+      47.111405
+    ],
+    "area": 0.000003372202432272154,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "LI",
+    "sourceName": "Liechtenstein",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Europe"
+  },
+  {
+    "id": "CIV",
+    "nameZh": "科特迪瓦",
+    "nameEn": "Ivory Coast",
+    "coord": [
+      -5.6119,
+      7.5515
+    ],
+    "area": 0.007933984343581325,
+    "priority": 31,
+    "kind": "country",
+    "iso2": "CI",
+    "sourceName": "Ivory Coast",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "SRB",
+    "nameZh": "塞尔维亚",
+    "nameEn": "Serbia",
+    "coord": [
+      20.8369,
+      44.2232
+    ],
+    "area": 0.001908623130281113,
+    "priority": 28,
+    "kind": "country",
+    "iso2": "RS",
+    "sourceName": "Republic of Serbia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "MLI",
+    "nameZh": "马里",
+    "nameEn": "Mali",
+    "coord": [
+      -3.5929,
+      17.2404
+    ],
+    "area": 0.030963811254018533,
+    "priority": 37,
+    "kind": "country",
+    "iso2": "ML",
+    "sourceName": "Mali",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "SEN",
+    "nameZh": "塞内加尔",
+    "nameEn": "Senegal",
+    "coord": [
+      -14.506,
+      14.3536
+    ],
+    "area": 0.004852018032236275,
+    "priority": 30,
+    "kind": "country",
+    "iso2": "SN",
+    "sourceName": "Senegal",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "NGA",
+    "nameZh": "尼日利亚",
+    "nameEn": "Nigeria",
+    "coord": [
+      7.9858,
+      9.5446
+    ],
+    "area": 0.02244949790568059,
+    "priority": 35,
+    "kind": "country",
+    "iso2": "NG",
+    "sourceName": "Nigeria",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "BEN",
+    "nameZh": "贝宁",
+    "nameEn": "Benin",
+    "coord": [
+      2.3364,
+      9.6423
+    ],
+    "area": 0.0028723973974723086,
+    "priority": 29,
+    "kind": "country",
+    "iso2": "BJ",
+    "sourceName": "Benin",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "AGO",
+    "nameZh": "安哥拉",
+    "nameEn": "Angola",
+    "coord": [
+      17.4987,
+      -12.2719
+    ],
+    "area": 0.030782191174952747,
+    "priority": 37,
+    "kind": "country",
+    "iso2": "AO",
+    "sourceName": "Angola",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "HRV",
+    "nameZh": "克罗地亚",
+    "nameEn": "Croatia",
+    "coord": [
+      16.5673,
+      45.0098
+    ],
+    "area": 0.0013525477432393455,
+    "priority": 28,
+    "kind": "country",
+    "iso2": "HR",
+    "sourceName": "Croatia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "SVN",
+    "nameZh": "斯洛文尼亚",
+    "nameEn": "Slovenia",
+    "coord": [
+      14.9342,
+      46.1259
+    ],
+    "area": 0.0004995484543040464,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "SI",
+    "sourceName": "Slovenia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "QAT",
+    "nameZh": "卡塔尔",
+    "nameEn": "Qatar",
+    "coord": [
+      51.1838,
+      25.321
+    ],
+    "area": 0.00027526107168361467,
+    "priority": 26,
+    "kind": "country",
+    "iso2": "QA",
+    "sourceName": "Qatar",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "SAU",
+    "nameZh": "沙特阿拉伯",
+    "nameEn": "Saudi Arabia",
+    "coord": [
+      44.6413,
+      24.0893
+    ],
+    "area": 0.04745056648145192,
+    "priority": 68,
+    "kind": "country",
+    "iso2": "SA",
+    "sourceName": "Saudi Arabia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "BWA",
+    "nameZh": "博茨瓦纳",
+    "nameEn": "Botswana",
+    "coord": [
+      23.783,
+      -22.0823
+    ],
+    "area": 0.014302005017130692,
+    "priority": 33,
+    "kind": "country",
+    "iso2": "BW",
+    "sourceName": "Botswana",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "ZWE",
+    "nameZh": "津巴布韦",
+    "nameEn": "Zimbabwe",
+    "coord": [
+      29.7886,
+      -18.9003
+    ],
+    "area": 0.009621356779606242,
+    "priority": 32,
+    "kind": "country",
+    "iso2": "ZW",
+    "sourceName": "Zimbabwe",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "PAK",
+    "nameZh": "巴基斯坦",
+    "nameEn": "Pakistan",
+    "coord": [
+      69.235,
+      29.9082
+    ],
+    "area": 0.02153095892988636,
+    "priority": 35,
+    "kind": "country",
+    "iso2": "PK",
+    "sourceName": "Pakistan",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "BGR",
+    "nameZh": "保加利亚",
+    "nameEn": "Bulgaria",
+    "coord": [
+      25.1875,
+      42.7559
+    ],
+    "area": 0.0027733371030412815,
+    "priority": 29,
+    "kind": "country",
+    "iso2": "BG",
+    "sourceName": "Bulgaria",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "THA",
+    "nameZh": "泰国",
+    "nameEn": "Thailand",
+    "coord": [
+      101.0025,
+      14.9807
+    ],
+    "area": 0.012719358974379119,
+    "priority": 75,
+    "kind": "country",
+    "iso2": "TH",
+    "sourceName": "Thailand",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "SMR",
+    "nameZh": "圣马力诺",
+    "nameEn": "San Marino",
+    "coord": [
+      12.441206,
+      43.933916
+    ],
+    "area": 0.0000014830814619737184,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "SM",
+    "sourceName": "San Marino",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Europe"
+  },
+  {
+    "id": "HTI",
+    "nameZh": "海地",
+    "nameEn": "Haiti",
+    "coord": [
+      -72.6591,
+      18.9003
+    ],
+    "area": 0.0006645575351340018,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "HT",
+    "sourceName": "Haiti",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "North America"
+  },
+  {
+    "id": "DOM",
+    "nameZh": "多米尼加共和国",
+    "nameEn": "Dominican Republic",
+    "coord": [
+      -70.4619,
+      18.8854
+    ],
+    "area": 0.0011970749018599754,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "DO",
+    "sourceName": "Dominican Republic",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "North America"
+  },
+  {
+    "id": "TCD",
+    "nameZh": "乍得",
+    "nameEn": "Chad",
+    "coord": [
+      18.5738,
+      15.2761
+    ],
+    "area": 0.03130648943020881,
+    "priority": 37,
+    "kind": "country",
+    "iso2": "TD",
+    "sourceName": "Chad",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "KWT",
+    "nameZh": "科威特",
+    "nameEn": "Kuwait",
+    "coord": [
+      47.6008,
+      29.3072
+    ],
+    "area": 0.0004310475182232679,
+    "priority": 26,
+    "kind": "country",
+    "iso2": "KW",
+    "sourceName": "Kuwait",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "SLV",
+    "nameZh": "萨尔瓦多",
+    "nameEn": "El Salvador",
+    "coord": [
+      -88.8719,
+      13.7262
+    ],
+    "area": 0.0005079086253427848,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "SV",
+    "sourceName": "El Salvador",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "North America"
+  },
+  {
+    "id": "GTM",
+    "nameZh": "危地马拉",
+    "nameEn": "Guatemala",
+    "coord": [
+      -90.3717,
+      15.6961
+    ],
+    "area": 0.0026901486697856725,
+    "priority": 29,
+    "kind": "country",
+    "iso2": "GT",
+    "sourceName": "Guatemala",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "North America"
+  },
+  {
+    "id": "TLS",
+    "nameZh": "东帝汶",
+    "nameEn": "East Timor",
+    "coord": [
+      125.9673,
+      -8.7679
+    ],
+    "area": 0.0003731283099420993,
+    "priority": 26,
+    "kind": "country",
+    "iso2": "TL",
+    "sourceName": "East Timor",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "BRN",
+    "nameZh": "文莱",
+    "nameEn": "Brunei",
+    "coord": [
+      114.9151,
+      4.6901
+    ],
+    "area": 0.0001414614262006316,
+    "priority": 26,
+    "kind": "country",
+    "iso2": "BN",
+    "sourceName": "Brunei",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "MCO",
+    "nameZh": "摩纳哥",
+    "nameEn": "Monaco",
+    "coord": [
+      7.398291,
+      43.739652
+    ],
+    "area": 4.632570098097276e-7,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "MC",
+    "sourceName": "Monaco",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Europe"
+  },
+  {
+    "id": "DZA",
+    "nameZh": "阿尔及利亚",
+    "nameEn": "Algeria",
+    "coord": [
+      2.612,
+      28.0855
+    ],
+    "area": 0.056967627062321724,
+    "priority": 42,
+    "kind": "country",
+    "iso2": "DZ",
+    "sourceName": "Algeria",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "MOZ",
+    "nameZh": "莫桑比克",
+    "nameEn": "Mozambique",
+    "coord": [
+      35.5422,
+      -17.1541
+    ],
+    "area": 0.019488243564227094,
+    "priority": 35,
+    "kind": "country",
+    "iso2": "MZ",
+    "sourceName": "Mozambique",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "SWZ",
+    "nameZh": "斯威士兰",
+    "nameEn": "Eswatini",
+    "coord": [
+      31.3951,
+      -26.4896
+    ],
+    "area": 0.00042234053418881064,
+    "priority": 26,
+    "kind": "country",
+    "iso2": "SZ",
+    "sourceName": "eSwatini",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "BDI",
+    "nameZh": "布隆迪",
+    "nameEn": "Burundi",
+    "coord": [
+      29.914,
+      -3.3777
+    ],
+    "area": 0.0006691692431015589,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "BI",
+    "sourceName": "Burundi",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "RWA",
+    "nameZh": "卢旺达",
+    "nameEn": "Rwanda",
+    "coord": [
+      29.9187,
+      -2.0137
+    ],
+    "area": 0.0006262235765421793,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "RW",
+    "sourceName": "Rwanda",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "MMR",
+    "nameZh": "缅甸",
+    "nameEn": "Myanmar",
+    "coord": [
+      96.5132,
+      20.9448
+    ],
+    "area": 0.016382387386676512,
+    "priority": 34,
+    "kind": "country",
+    "iso2": "MM",
+    "sourceName": "Myanmar",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "BGD",
+    "nameZh": "孟加拉国",
+    "nameEn": "Bangladesh",
+    "coord": [
+      90.2763,
+      23.8339
+    ],
+    "area": 0.0033805927309542238,
+    "priority": 29,
+    "kind": "country",
+    "iso2": "BD",
+    "sourceName": "Bangladesh",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "AND",
+    "nameZh": "安道尔",
+    "nameEn": "Andorra",
+    "coord": [
+      1.539409,
+      42.547643
+    ],
+    "area": 0.00001112355564980427,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "AD",
+    "sourceName": "Andorra",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Europe"
+  },
+  {
+    "id": "AFG",
+    "nameZh": "阿富汗",
+    "nameEn": "Afghanistan",
+    "coord": [
+      66.0038,
+      33.8403
+    ],
+    "area": 0.015826481049134925,
+    "priority": 34,
+    "kind": "country",
+    "iso2": "AF",
+    "sourceName": "Afghanistan",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "MNE",
+    "nameZh": "黑山",
+    "nameEn": "Montenegro",
+    "coord": [
+      19.2854,
+      42.7878
+    ],
+    "area": 0.00033762440648044226,
+    "priority": 26,
+    "kind": "country",
+    "iso2": "ME",
+    "sourceName": "Montenegro",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "BIH",
+    "nameZh": "波斯尼亚和黑塞哥维那",
+    "nameEn": "Bosnia and Herzegovina",
+    "coord": [
+      17.8229,
+      44.1788
+    ],
+    "area": 0.0012742491512051858,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "BA",
+    "sourceName": "Bosnia and Herzegovina",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "UGA",
+    "nameZh": "乌干达",
+    "nameEn": "Uganda",
+    "coord": [
+      32.3574,
+      1.2951
+    ],
+    "area": 0.0059851590486543265,
+    "priority": 30,
+    "kind": "country",
+    "iso2": "UG",
+    "sourceName": "Uganda",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "USG",
+    "nameZh": "关塔那摩湾海军基地",
+    "nameEn": "Guantanamo Bay Naval Base",
+    "coord": [
+      -75.117277,
+      19.918398
+    ],
+    "area": 0.0000016148496631826993,
+    "priority": 30,
+    "kind": "region",
+    "iso2": null,
+    "sourceName": "US Naval Base Guantanamo Bay",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "CUB",
+    "nameZh": "古巴",
+    "nameEn": "Cuba",
+    "coord": [
+      -78.9318,
+      21.6473
+    ],
+    "area": 0.002715510942469296,
+    "priority": 29,
+    "kind": "region",
+    "iso2": "CU",
+    "sourceName": "Cuba",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "North America"
+  },
+  {
+    "id": "HND",
+    "nameZh": "洪都拉斯",
+    "nameEn": "Honduras",
+    "coord": [
+      -86.5928,
+      14.8251
+    ],
+    "area": 0.0027751290115292145,
+    "priority": 29,
+    "kind": "country",
+    "iso2": "HN",
+    "sourceName": "Honduras",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "North America"
+  },
+  {
+    "id": "ECU",
+    "nameZh": "厄瓜多尔",
+    "nameEn": "Ecuador",
+    "coord": [
+      -78.3837,
+      -1.4544
+    ],
+    "area": 0.006310835997007967,
+    "priority": 30,
+    "kind": "country",
+    "iso2": "EC",
+    "sourceName": "Ecuador",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "South America"
+  },
+  {
+    "id": "COL",
+    "nameZh": "哥伦比亚",
+    "nameEn": "Colombia",
+    "coord": [
+      -73.0735,
+      3.9163
+    ],
+    "area": 0.028088244003464928,
+    "priority": 37,
+    "kind": "country",
+    "iso2": "CO",
+    "sourceName": "Colombia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "South America"
+  },
+  {
+    "id": "PRY",
+    "nameZh": "巴拉圭",
+    "nameEn": "Paraguay",
+    "coord": [
+      -58.4318,
+      -23.2297
+    ],
+    "area": 0.009875843586689772,
+    "priority": 32,
+    "kind": "country",
+    "iso2": "PY",
+    "sourceName": "Paraguay",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "South America"
+  },
+  {
+    "id": "BRI",
+    "nameZh": "巴西",
+    "nameEn": "Brazilian Island",
+    "coord": [
+      -53.1725,
+      -10.6555
+    ],
+    "area": 6.967153857586153e-8,
+    "priority": 87,
+    "kind": "region",
+    "iso2": "BR",
+    "sourceName": "Brazilian Island",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "South America"
+  },
+  {
+    "id": "PRT",
+    "nameZh": "葡萄牙",
+    "nameEn": "Portugal",
+    "coord": [
+      -8.0611,
+      39.6072
+    ],
+    "area": 0.0022494220135884004,
+    "priority": 28,
+    "kind": "country",
+    "iso2": "PT",
+    "sourceName": "Portugal",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "MDA",
+    "nameZh": "摩尔多瓦",
+    "nameEn": "Moldova",
+    "coord": [
+      28.4197,
+      47.1964
+    ],
+    "area": 0.00081586389837073,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "MD",
+    "sourceName": "Moldova",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "TKM",
+    "nameZh": "土库曼斯坦",
+    "nameEn": "Turkmenistan",
+    "coord": [
+      59.3484,
+      39.1022
+    ],
+    "area": 0.011590376042925664,
+    "priority": 33,
+    "kind": "country",
+    "iso2": "TM",
+    "sourceName": "Turkmenistan",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "JOR",
+    "nameZh": "约旦",
+    "nameEn": "Jordan",
+    "coord": [
+      36.7663,
+      31.2402
+    ],
+    "area": 0.0021912168996544986,
+    "priority": 28,
+    "kind": "country",
+    "iso2": "JO",
+    "sourceName": "Jordan",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "NPL",
+    "nameZh": "尼泊尔",
+    "nameEn": "Nepal",
+    "coord": [
+      84.0435,
+      28.249
+    ],
+    "area": 0.003629565570685068,
+    "priority": 29,
+    "kind": "country",
+    "iso2": "NP",
+    "sourceName": "Nepal",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "LSO",
+    "nameZh": "莱索托",
+    "nameEn": "Lesotho",
+    "coord": [
+      28.1716,
+      -29.6246
+    ],
+    "area": 0.0007426290112071005,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "LS",
+    "sourceName": "Lesotho",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "CMR",
+    "nameZh": "喀麦隆",
+    "nameEn": "Cameroon",
+    "coord": [
+      12.606,
+      5.6543
+    ],
+    "area": 0.011488908712445352,
+    "priority": 32,
+    "kind": "country",
+    "iso2": "CM",
+    "sourceName": "Cameroon",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "GAB",
+    "nameZh": "加蓬",
+    "nameEn": "Gabon",
+    "coord": [
+      11.6874,
+      -0.6469
+    ],
+    "area": 0.006433483784696278,
+    "priority": 31,
+    "kind": "country",
+    "iso2": "GA",
+    "sourceName": "Gabon",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "NER",
+    "nameZh": "尼日尔",
+    "nameEn": "Niger",
+    "coord": [
+      9.2747,
+      17.3404
+    ],
+    "area": 0.029198490426411365,
+    "priority": 37,
+    "kind": "country",
+    "iso2": "NE",
+    "sourceName": "Niger",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "BFA",
+    "nameZh": "布基纳法索",
+    "nameEn": "Burkina Faso",
+    "coord": [
+      -1.7828,
+      12.313
+    ],
+    "area": 0.006746218105009222,
+    "priority": 31,
+    "kind": "country",
+    "iso2": "BF",
+    "sourceName": "Burkina Faso",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "TGO",
+    "nameZh": "多哥",
+    "nameEn": "Togo",
+    "coord": [
+      0.9981,
+      8.4346
+    ],
+    "area": 0.0014067990487918022,
+    "priority": 28,
+    "kind": "country",
+    "iso2": "TG",
+    "sourceName": "Togo",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "GHA",
+    "nameZh": "加纳",
+    "nameEn": "Ghana",
+    "coord": [
+      -1.2371,
+      7.9235
+    ],
+    "area": 0.005904850548337261,
+    "priority": 30,
+    "kind": "country",
+    "iso2": "GH",
+    "sourceName": "Ghana",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "GNB",
+    "nameZh": "几内亚比绍",
+    "nameEn": "Guinea-Bissau",
+    "coord": [
+      -15.1104,
+      12.024
+    ],
+    "area": 0.0008119750180433611,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "GW",
+    "sourceName": "Guinea-Bissau",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "GIB",
+    "nameZh": "直布罗陀",
+    "nameEn": "Gibraltar",
+    "coord": [
+      -5.3467,
+      36.129426
+    ],
+    "area": 9.095456688867584e-8,
+    "priority": 55,
+    "kind": "region",
+    "iso2": "GI",
+    "sourceName": "Gibraltar",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Europe"
+  },
+  {
+    "id": "USA",
+    "nameZh": "美国",
+    "nameEn": "United States of America",
+    "coord": [
+      -100,
+      39
+    ],
+    "area": 0.23276446400434675,
+    "priority": 93,
+    "kind": "country",
+    "iso2": "US",
+    "sourceName": "United States of America",
+    "anchorMethod": "editorial_label_anchor",
+    "continent": "North America"
+  },
+  {
+    "id": "CAN",
+    "nameZh": "加拿大",
+    "nameEn": "Canada",
+    "coord": [
+      -105,
+      59
+    ],
+    "area": 0.2437684419713534,
+    "priority": 88,
+    "kind": "country",
+    "iso2": "CA",
+    "sourceName": "Canada",
+    "anchorMethod": "editorial_label_anchor",
+    "continent": "North America"
+  },
+  {
+    "id": "MEX",
+    "nameZh": "墨西哥",
+    "nameEn": "Mexico",
+    "coord": [
+      -102.2231,
+      23.9134
+    ],
+    "area": 0.04834335044021472,
+    "priority": 76,
+    "kind": "country",
+    "iso2": "MX",
+    "sourceName": "Mexico",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "North America"
+  },
+  {
+    "id": "BLZ",
+    "nameZh": "伯利兹",
+    "nameEn": "Belize",
+    "coord": [
+      -88.7038,
+      17.1947
+    ],
+    "area": 0.0005512053716260997,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "BZ",
+    "sourceName": "Belize",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "North America"
+  },
+  {
+    "id": "PAN",
+    "nameZh": "巴拿马",
+    "nameEn": "Panama",
+    "coord": [
+      -80.1093,
+      8.5326
+    ],
+    "area": 0.0018438874374263276,
+    "priority": 28,
+    "kind": "country",
+    "iso2": "PA",
+    "sourceName": "Panama",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "North America"
+  },
+  {
+    "id": "VEN",
+    "nameZh": "委内瑞拉",
+    "nameEn": "Venezuela",
+    "coord": [
+      -66.1532,
+      7.1608
+    ],
+    "area": 0.02258135754595485,
+    "priority": 35,
+    "kind": "country",
+    "iso2": "VE",
+    "sourceName": "Venezuela",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "South America"
+  },
+  {
+    "id": "PNG",
+    "nameZh": "巴布亚新几内亚",
+    "nameEn": "Papua New Guinea",
+    "coord": [
+      144.3216,
+      -6.6449
+    ],
+    "area": 0.011509077686352898,
+    "priority": 32,
+    "kind": "country",
+    "iso2": "PG",
+    "sourceName": "Papua New Guinea",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Oceania"
+  },
+  {
+    "id": "EGY",
+    "nameZh": "埃及",
+    "nameEn": "Egypt",
+    "coord": [
+      29.861,
+      26.4749
+    ],
+    "area": 0.02470746911661923,
+    "priority": 75,
+    "kind": "country",
+    "iso2": "EG",
+    "sourceName": "Egypt",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "YEM",
+    "nameZh": "也门",
+    "nameEn": "Yemen",
+    "coord": [
+      47.5151,
+      15.9221
+    ],
+    "area": 0.011201105269284448,
+    "priority": 32,
+    "kind": "country",
+    "iso2": "YE",
+    "sourceName": "Yemen",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "MRT",
+    "nameZh": "毛里塔尼亚",
+    "nameEn": "Mauritania",
+    "coord": [
+      -10.3487,
+      20.1803
+    ],
+    "area": 0.025606383367941597,
+    "priority": 36,
+    "kind": "country",
+    "iso2": "MR",
+    "sourceName": "Mauritania",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "GNQ",
+    "nameZh": "赤道几内亚",
+    "nameEn": "Equatorial Guinea",
+    "coord": [
+      10.3657,
+      1.6464
+    ],
+    "area": 0.0006600458785709982,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "GQ",
+    "sourceName": "Equatorial Guinea",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "GMB",
+    "nameZh": "冈比亚",
+    "nameEn": "The Gambia",
+    "coord": [
+      -15.4327,
+      13.4767
+    ],
+    "area": 0.00025968163752700444,
+    "priority": 26,
+    "kind": "country",
+    "iso2": "GM",
+    "sourceName": "Gambia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "HKG",
+    "nameZh": "香港",
+    "nameEn": "Hong Kong",
+    "coord": [
+      114.097769,
+      22.448829
+    ],
+    "area": 0.000025593587251182063,
+    "priority": 62,
+    "kind": "region",
+    "parentCountry": "CN",
+    "iso2": "HK",
+    "sourceName": "Hong Kong S.A.R.",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Asia"
+  },
+  {
+    "id": "VAT",
+    "nameZh": "梵蒂冈",
+    "nameEn": "Vatican City",
+    "coord": [
+      12.453418,
+      41.903323
+    ],
+    "area": 3.0026005046253e-10,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "VA",
+    "sourceName": "Vatican",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Europe"
+  },
+  {
+    "id": "CYN",
+    "nameZh": "北塞浦路斯土耳其共和国",
+    "nameEn": "Turkish Republic of Northern Cyprus",
+    "coord": [
+      33.692434,
+      35.216071
+    ],
+    "area": 0.0000817827369931891,
+    "priority": 48,
+    "kind": "country",
+    "iso2": null,
+    "sourceName": "Northern Cyprus",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Asia"
+  },
+  {
+    "id": "CNM",
+    "nameZh": "塞浦路斯联合国缓冲区",
+    "nameEn": "United Nations Buffer Zone in Cyprus",
+    "coord": [
+      33.288134,
+      35.140713
+    ],
+    "area": 0.000008401603654489957,
+    "priority": 30,
+    "kind": "region",
+    "iso2": null,
+    "sourceName": "Cyprus No Mans Area",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Asia"
+  },
+  {
+    "id": "KAS",
+    "nameZh": "锡亚琴冰川",
+    "nameEn": "Siachen Glacier",
+    "coord": [
+      77.129553,
+      35.340606
+    ],
+    "area": 0.00005138796152629106,
+    "priority": 55,
+    "kind": "region",
+    "iso2": null,
+    "sourceName": "Siachen Glacier",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Asia"
+  },
+  {
+    "id": "KAB",
+    "nameZh": "哈萨克斯坦",
+    "nameEn": "Baikonur",
+    "coord": [
+      67.2357,
+      48.4059
+    ],
+    "area": 0.00015978303781424955,
+    "priority": 43,
+    "kind": "region",
+    "iso2": "KZ",
+    "sourceName": "Baykonur Cosmodrome",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "WSB",
+    "nameZh": "阿克罗蒂里主权基地区",
+    "nameEn": "Akrotiri Sovereign Base Area",
+    "coord": [
+      32.979025,
+      34.60083
+    ],
+    "area": 0.000002431436258759177,
+    "priority": 69,
+    "kind": "region",
+    "iso2": null,
+    "sourceName": "Akrotiri Sovereign Base Area",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Asia"
+  },
+  {
+    "id": "SPI",
+    "nameZh": "南巴塔哥尼亞冰原",
+    "nameEn": "Southern Patagonian Ice Field",
+    "coord": [
+      -73.31378,
+      -49.511034
+    ],
+    "area": 0.00003459728575637296,
+    "priority": 30,
+    "kind": "region",
+    "iso2": null,
+    "sourceName": "Southern Patagonian Ice Field",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "South America"
+  },
+  {
+    "id": "BRT",
+    "nameZh": "比尔泰维勒",
+    "nameEn": "Bir Tawil",
+    "coord": [
+      33.673428,
+      21.860442
+    ],
+    "area": 0.000049883509553711776,
+    "priority": 34,
+    "kind": "region",
+    "iso2": null,
+    "sourceName": "Bir Tawil",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Africa"
+  },
+  {
+    "id": "ATA",
+    "nameZh": "南极洲",
+    "nameEn": "Antarctica",
+    "coord": [
+      0,
+      -79
+    ],
+    "area": 0.3020052903945291,
+    "priority": 63,
+    "kind": "region",
+    "iso2": "AQ",
+    "sourceName": "Antarctica",
+    "anchorMethod": "editorial_label_anchor",
+    "continent": "Antarctica"
+  },
+  {
+    "id": "AUS",
+    "nameZh": "澳大利亚",
+    "nameEn": "Australia",
+    "coord": [
+      134.2254,
+      -25.6183
+    ],
+    "area": 0.1898491160109494,
+    "priority": 87,
+    "kind": "country",
+    "iso2": "AU",
+    "sourceName": "Australia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Oceania"
+  },
+  {
+    "id": "GRL",
+    "nameZh": "格陵兰",
+    "nameEn": "Greenland",
+    "coord": [
+      -41.9649,
+      73.1507
+    ],
+    "area": 0.052670704173671486,
+    "priority": 41,
+    "kind": "country",
+    "iso2": "GL",
+    "sourceName": "Greenland",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "North America"
+  },
+  {
+    "id": "FJI",
+    "nameZh": "斐济",
+    "nameEn": "Fiji",
+    "coord": [
+      177.9975,
+      -17.8308
+    ],
+    "area": 0.00046790575108120603,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "FJ",
+    "sourceName": "Fiji",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Oceania"
+  },
+  {
+    "id": "NZL",
+    "nameZh": "新西兰",
+    "nameEn": "New Zealand",
+    "coord": [
+      172.5,
+      -41.5
+    ],
+    "area": 0.006605381427623737,
+    "priority": 78,
+    "kind": "country",
+    "iso2": "NZ",
+    "sourceName": "New Zealand",
+    "anchorMethod": "editorial_label_anchor",
+    "continent": "Oceania"
+  },
+  {
+    "id": "NCL",
+    "nameZh": "新喀里多尼亚",
+    "nameEn": "New Caledonia",
+    "coord": [
+      165.5284,
+      -21.261
+    ],
+    "area": 0.00046544248540616377,
+    "priority": 27,
+    "kind": "region",
+    "iso2": "NC",
+    "sourceName": "New Caledonia",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Oceania"
+  },
+  {
+    "id": "MDG",
+    "nameZh": "马达加斯加",
+    "nameEn": "Madagascar",
+    "coord": [
+      46.7294,
+      -19.3012
+    ],
+    "area": 0.014652844205312644,
+    "priority": 33,
+    "kind": "country",
+    "iso2": "MG",
+    "sourceName": "Madagascar",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Africa"
+  },
+  {
+    "id": "PHL",
+    "nameZh": "菲律宾",
+    "nameEn": "Philippines",
+    "coord": [
+      122.5,
+      12
+    ],
+    "area": 0.007253798349054955,
+    "priority": 31,
+    "kind": "country",
+    "iso2": "PH",
+    "sourceName": "Philippines",
+    "anchorMethod": "editorial_label_anchor",
+    "continent": "Asia"
+  },
+  {
+    "id": "LKA",
+    "nameZh": "斯里兰卡",
+    "nameEn": "Sri Lanka",
+    "coord": [
+      80.6679,
+      7.6995
+    ],
+    "area": 0.0016401436506449877,
+    "priority": 28,
+    "kind": "country",
+    "iso2": "LK",
+    "sourceName": "Sri Lanka",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "CUW",
+    "nameZh": "库拉索",
+    "nameEn": "Curaçao",
+    "coord": [
+      -68.920578,
+      12.145039
+    ],
+    "area": 0.000011457378136274689,
+    "priority": 55,
+    "kind": "country",
+    "iso2": "CW",
+    "sourceName": "Curaçao",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "ABW",
+    "nameZh": "阿鲁巴",
+    "nameEn": "Aruba",
+    "coord": [
+      -69.972795,
+      12.5174
+    ],
+    "area": 0.000004198637529679645,
+    "priority": 55,
+    "kind": "country",
+    "iso2": "AW",
+    "sourceName": "Aruba",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "BHS",
+    "nameZh": "巴哈马",
+    "nameEn": "The Bahamas",
+    "coord": [
+      -77.9144,
+      24.5061
+    ],
+    "area": 0.00031121079222485253,
+    "priority": 26,
+    "kind": "country",
+    "iso2": "BS",
+    "sourceName": "The Bahamas",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "North America"
+  },
+  {
+    "id": "TCA",
+    "nameZh": "特克斯和凯科斯群岛",
+    "nameEn": "Turks and Caicos Islands",
+    "coord": [
+      -71.752704,
+      21.81663
+    ],
+    "area": 0.000010997673075741294,
+    "priority": 48,
+    "kind": "region",
+    "iso2": "TC",
+    "sourceName": "Turks and Caicos Islands",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "TWN",
+    "nameZh": "台湾（中国）",
+    "nameEn": "Taiwan",
+    "coord": [
+      120.9716,
+      23.739
+    ],
+    "area": 0.0008938548470440734,
+    "priority": 27,
+    "kind": "region",
+    "parentCountry": "CN",
+    "iso2": "TW",
+    "sourceName": "Taiwan",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "JPN",
+    "nameZh": "日本",
+    "nameEn": "Japan",
+    "coord": [
+      138,
+      37
+    ],
+    "area": 0.009197717131910182,
+    "priority": 82,
+    "kind": "country",
+    "iso2": "JP",
+    "sourceName": "Japan",
+    "anchorMethod": "editorial_label_anchor",
+    "continent": "Asia"
+  },
+  {
+    "id": "SPM",
+    "nameZh": "圣皮埃尔和密克隆",
+    "nameEn": "Saint Pierre and Miquelon",
+    "coord": [
+      -56.332352,
+      47.040344
+    ],
+    "area": 0.000005964580266729961,
+    "priority": 62,
+    "kind": "region",
+    "iso2": "PM",
+    "sourceName": "Saint Pierre and Miquelon",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "ISL",
+    "nameZh": "冰岛",
+    "nameEn": "Iceland",
+    "coord": [
+      -18.7651,
+      65.0798
+    ],
+    "area": 0.0025061099180036846,
+    "priority": 76,
+    "kind": "country",
+    "iso2": "IS",
+    "sourceName": "Iceland",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Europe"
+  },
+  {
+    "id": "PCN",
+    "nameZh": "皮特凯恩群岛",
+    "nameEn": "Pitcairn Islands",
+    "coord": [
+      -128.317536,
+      -24.364576
+    ],
+    "area": 0.0000010510906607258865,
+    "priority": 62,
+    "kind": "region",
+    "iso2": "PN",
+    "sourceName": "Pitcairn Islands",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Oceania"
+  },
+  {
+    "id": "PYF",
+    "nameZh": "法属波利尼西亚",
+    "nameEn": "French Polynesia",
+    "coord": [
+      -149.46157,
+      -17.628081
+    ],
+    "area": 0.00008249051798266194,
+    "priority": 62,
+    "kind": "region",
+    "iso2": "PF",
+    "sourceName": "French Polynesia",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Oceania"
+  },
+  {
+    "id": "ATF",
+    "nameZh": "法属南部领地",
+    "nameEn": "French Southern and Antarctic Lands",
+    "coord": [
+      69.5309,
+      -49.307
+    ],
+    "area": 0.00017878845247782925,
+    "priority": 26,
+    "kind": "region",
+    "iso2": "TF",
+    "sourceName": "French Southern and Antarctic Lands",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Seven seas (open ocean)"
+  },
+  {
+    "id": "SYC",
+    "nameZh": "塞舌尔",
+    "nameEn": "Seychelles",
+    "coord": [
+      55.480175,
+      -4.676659
+    ],
+    "area": 0.000010779529464571734,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "SC",
+    "sourceName": "Seychelles",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Seven seas (open ocean)"
+  },
+  {
+    "id": "KIR",
+    "nameZh": "基里巴斯",
+    "nameEn": "Kiribati",
+    "coord": [
+      -157.384577,
+      1.820437
+    ],
+    "area": 0.000023505799701362296,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "KI",
+    "sourceName": "Kiribati",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Oceania"
+  },
+  {
+    "id": "MHL",
+    "nameZh": "马绍尔群岛",
+    "nameEn": "Marshall Islands",
+    "coord": [
+      171.193609,
+      7.082568
+    ],
+    "area": 0.000004078050612936238,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "MH",
+    "sourceName": "Marshall Islands",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Oceania"
+  },
+  {
+    "id": "TTO",
+    "nameZh": "特立尼达和多巴哥",
+    "nameEn": "Trinidad and Tobago",
+    "coord": [
+      -61.3314,
+      10.4285
+    ],
+    "area": 0.00012672301225613635,
+    "priority": 26,
+    "kind": "country",
+    "iso2": "TT",
+    "sourceName": "Trinidad and Tobago",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "North America"
+  },
+  {
+    "id": "GRD",
+    "nameZh": "格林纳达",
+    "nameEn": "Grenada",
+    "coord": [
+      -61.680461,
+      12.113156
+    ],
+    "area": 0.00000858875212777636,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "GD",
+    "sourceName": "Grenada",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "VCT",
+    "nameZh": "圣文森特和格林纳丁斯",
+    "nameEn": "Saint Vincent and the Grenadines",
+    "coord": [
+      -61.3359,
+      13.0879
+    ],
+    "area": 0.000009093873700461847,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "VC",
+    "sourceName": "Saint Vincent and the Grenadines",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "BRB",
+    "nameZh": "巴巴多斯",
+    "nameEn": "Barbados",
+    "coord": [
+      -59.568966,
+      13.163709
+    ],
+    "area": 0.000010985668021220924,
+    "priority": 55,
+    "kind": "country",
+    "iso2": "BB",
+    "sourceName": "Barbados",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "LCA",
+    "nameZh": "圣卢西亚",
+    "nameEn": "Saint Lucia",
+    "coord": [
+      -60.980094,
+      13.892371
+    ],
+    "area": 0.000014963842166249012,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "LC",
+    "sourceName": "Saint Lucia",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "DMA",
+    "nameZh": "多米尼克",
+    "nameEn": "Dominica",
+    "coord": [
+      -61.344958,
+      15.458829
+    ],
+    "area": 0.000018056168258582964,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "DM",
+    "sourceName": "Dominica",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "UMI",
+    "nameZh": "美国本土外小岛屿",
+    "nameEn": "United States Minor Outlying Islands",
+    "coord": [
+      166.644535,
+      19.285663
+    ],
+    "area": 6.923633465804295e-7,
+    "priority": 55,
+    "kind": "region",
+    "iso2": "UM",
+    "sourceName": "United States Minor Outlying Islands",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "MSR",
+    "nameZh": "蒙特塞拉特",
+    "nameEn": "Montserrat",
+    "coord": [
+      -62.188252,
+      16.73717
+    ],
+    "area": 0.000002462032617520497,
+    "priority": 48,
+    "kind": "region",
+    "iso2": "MS",
+    "sourceName": "Montserrat",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "ATG",
+    "nameZh": "安提瓜和巴布达",
+    "nameEn": "Antigua and Barbuda",
+    "coord": [
+      -61.790612,
+      17.352249
+    ],
+    "area": 0.00001116887803611951,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "AG",
+    "sourceName": "Antigua and Barbuda",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "KNA",
+    "nameZh": "圣基茨和尼维斯",
+    "nameEn": "Saint Kitts and Nevis",
+    "coord": [
+      -62.757975,
+      17.336558
+    ],
+    "area": 0.000006528803107682498,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "KN",
+    "sourceName": "Saint Kitts and Nevis",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "VIR",
+    "nameZh": "美属维尔京群岛",
+    "nameEn": "United States Virgin Islands",
+    "coord": [
+      -64.779172,
+      17.746706
+    ],
+    "area": 0.000008767880055022491,
+    "priority": 48,
+    "kind": "region",
+    "iso2": "VI",
+    "sourceName": "United States Virgin Islands",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "BLM",
+    "nameZh": "圣巴泰勒米",
+    "nameEn": "Saint Barthélemy",
+    "coord": [
+      -62.833193,
+      17.901987
+    ],
+    "area": 6.036607210116458e-7,
+    "priority": 48,
+    "kind": "region",
+    "iso2": "BL",
+    "sourceName": "Saint Barthelemy",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "PRI",
+    "nameZh": "波多黎各",
+    "nameEn": "Puerto Rico",
+    "coord": [
+      -66.4791,
+      18.238
+    ],
+    "area": 0.00022258263555128703,
+    "priority": 26,
+    "kind": "region",
+    "iso2": "PR",
+    "sourceName": "Puerto Rico",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "North America"
+  },
+  {
+    "id": "AIA",
+    "nameZh": "安圭拉",
+    "nameEn": "Anguilla",
+    "coord": [
+      -63.026361,
+      18.242979
+    ],
+    "area": 0.0000021605484854726667,
+    "priority": 48,
+    "kind": "region",
+    "iso2": "AI",
+    "sourceName": "Anguilla",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "VGB",
+    "nameZh": "英属维尔京群岛",
+    "nameEn": "British Virgin Islands",
+    "coord": [
+      -64.63661,
+      18.426606
+    ],
+    "area": 0.000003582085050434242,
+    "priority": 48,
+    "kind": "region",
+    "iso2": "VG",
+    "sourceName": "British Virgin Islands",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "JAM",
+    "nameZh": "牙买加",
+    "nameEn": "Jamaica",
+    "coord": [
+      -77.3243,
+      18.1383
+    ],
+    "area": 0.0002726806265099567,
+    "priority": 26,
+    "kind": "country",
+    "iso2": "JM",
+    "sourceName": "Jamaica",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "North America"
+  },
+  {
+    "id": "CYM",
+    "nameZh": "开曼群岛",
+    "nameEn": "Cayman Islands",
+    "coord": [
+      -81.24055,
+      19.319862
+    ],
+    "area": 0.000007640476099628532,
+    "priority": 55,
+    "kind": "region",
+    "iso2": "KY",
+    "sourceName": "Cayman Islands",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "BMU",
+    "nameZh": "百慕大",
+    "nameEn": "Bermuda",
+    "coord": [
+      -64.763573,
+      32.296592
+    ],
+    "area": 0.000001535901325933983,
+    "priority": 48,
+    "kind": "region",
+    "iso2": "BM",
+    "sourceName": "Bermuda",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "HMD",
+    "nameZh": "赫德岛和麦克唐纳群岛",
+    "nameEn": "Heard Island and McDonald Islands",
+    "coord": [
+      73.50521,
+      -53.103462
+    ],
+    "area": 0.000009688375334191869,
+    "priority": 55,
+    "kind": "region",
+    "iso2": "HM",
+    "sourceName": "Heard Island and McDonald Islands",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Seven seas (open ocean)"
+  },
+  {
+    "id": "SHN",
+    "nameZh": "圣赫勒拿",
+    "nameEn": "Saint Helena",
+    "coord": [
+      -5.71262,
+      -15.950487
+    ],
+    "area": 0.00000905047472654806,
+    "priority": 48,
+    "kind": "region",
+    "iso2": "SH",
+    "sourceName": "Saint Helena",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Seven seas (open ocean)"
+  },
+  {
+    "id": "MUS",
+    "nameZh": "毛里求斯",
+    "nameEn": "Mauritius",
+    "coord": [
+      57.565848,
+      -20.299506
+    ],
+    "area": 0.00004977259947302637,
+    "priority": 55,
+    "kind": "country",
+    "iso2": "MU",
+    "sourceName": "Mauritius",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Seven seas (open ocean)"
+  },
+  {
+    "id": "COM",
+    "nameZh": "科摩罗",
+    "nameEn": "Comoros",
+    "coord": [
+      43.318094,
+      -11.727683
+    ],
+    "area": 0.000041359752667791525,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "KM",
+    "sourceName": "Comoros",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Africa"
+  },
+  {
+    "id": "STP",
+    "nameZh": "圣多美和普林西比",
+    "nameEn": "São Tomé and Príncipe",
+    "coord": [
+      7.021,
+      0.9709
+    ],
+    "area": 0.00002566685618486356,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "ST",
+    "sourceName": "São Tomé and Principe",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Africa"
+  },
+  {
+    "id": "CPV",
+    "nameZh": "佛得角",
+    "nameEn": "Cape Verde",
+    "coord": [
+      -23.639434,
+      15.074761
+    ],
+    "area": 0.00009707749925664763,
+    "priority": 62,
+    "kind": "country",
+    "iso2": "CV",
+    "sourceName": "Cabo Verde",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Africa"
+  },
+  {
+    "id": "MLT",
+    "nameZh": "马耳他",
+    "nameEn": "Malta",
+    "coord": [
+      14.433005,
+      35.892886
+    ],
+    "area": 0.000008022831872378337,
+    "priority": 55,
+    "kind": "country",
+    "iso2": "MT",
+    "sourceName": "Malta",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Europe"
+  },
+  {
+    "id": "JEY",
+    "nameZh": "泽西",
+    "nameEn": "Jersey",
+    "coord": [
+      -2.090146,
+      49.220808
+    ],
+    "area": 0.0000029236161155173126,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "JE",
+    "sourceName": "Jersey",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Europe"
+  },
+  {
+    "id": "GGY",
+    "nameZh": "根西",
+    "nameEn": "Guernsey",
+    "coord": [
+      -2.561736,
+      49.463533
+    ],
+    "area": 0.0000018167200428527246,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "GG",
+    "sourceName": "Guernsey",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Europe"
+  },
+  {
+    "id": "IMN",
+    "nameZh": "马恩岛",
+    "nameEn": "Isle of Man",
+    "coord": [
+      -4.530069,
+      54.220833
+    ],
+    "area": 0.00001410012284549868,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "IM",
+    "sourceName": "Isle of Man",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Europe"
+  },
+  {
+    "id": "ALD",
+    "nameZh": "奥兰",
+    "nameEn": "Åland",
+    "coord": [
+      19.869671,
+      60.156467
+    ],
+    "area": 0.000023078976290138324,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "AX",
+    "sourceName": "Aland",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Europe"
+  },
+  {
+    "id": "FRO",
+    "nameZh": "法罗群岛",
+    "nameEn": "Faroe Islands",
+    "coord": [
+      -7.058429,
+      62.185604
+    ],
+    "area": 0.000032534705766306024,
+    "priority": 48,
+    "kind": "region",
+    "iso2": "FO",
+    "sourceName": "Faroe Islands",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Europe"
+  },
+  {
+    "id": "IOA",
+    "nameZh": "澳大利亚",
+    "nameEn": "Australian Indian Ocean Territories",
+    "coord": [
+      134.2254,
+      -25.6183
+    ],
+    "area": 0.0000027686444658569618,
+    "priority": 87,
+    "kind": "region",
+    "iso2": "AU",
+    "sourceName": "Indian Ocean Territories",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Asia"
+  },
+  {
+    "id": "IOT",
+    "nameZh": "英属印度洋领地",
+    "nameEn": "British Indian Ocean Territory",
+    "coord": [
+      71.348349,
+      -6.190826
+    ],
+    "area": 0.0000012138678139004913,
+    "priority": 55,
+    "kind": "region",
+    "iso2": "IO",
+    "sourceName": "British Indian Ocean Territory",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Seven seas (open ocean)"
+  },
+  {
+    "id": "SGP",
+    "nameZh": "新加坡",
+    "nameEn": "Singapore",
+    "coord": [
+      103.816925,
+      1.366587
+    ],
+    "area": 0.000012633505579848453,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "SG",
+    "sourceName": "Singapore",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Asia"
+  },
+  {
+    "id": "NFK",
+    "nameZh": "诺福克岛",
+    "nameEn": "Norfolk Island",
+    "coord": [
+      167.954531,
+      -29.033042
+    ],
+    "area": 0.0000010150641235564265,
+    "priority": 55,
+    "kind": "region",
+    "iso2": "NF",
+    "sourceName": "Norfolk Island",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Oceania"
+  },
+  {
+    "id": "COK",
+    "nameZh": "库克群岛",
+    "nameEn": "Cook Islands",
+    "coord": [
+      -159.785675,
+      -21.215993
+    ],
+    "area": 0.000004722598833885014,
+    "priority": 62,
+    "kind": "region",
+    "iso2": "CK",
+    "sourceName": "Cook Islands",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Oceania"
+  },
+  {
+    "id": "TON",
+    "nameZh": "汤加",
+    "nameEn": "Tonga",
+    "coord": [
+      -175.163014,
+      -21.210026
+    ],
+    "area": 0.000014901877843969975,
+    "priority": 62,
+    "kind": "country",
+    "iso2": "TO",
+    "sourceName": "Tonga",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Oceania"
+  },
+  {
+    "id": "WLF",
+    "nameZh": "瓦利斯和富图纳",
+    "nameEn": "Wallis and Futuna",
+    "coord": [
+      -178.137436,
+      -14.286415
+    ],
+    "area": 0.000003445427657401745,
+    "priority": 62,
+    "kind": "region",
+    "iso2": "WF",
+    "sourceName": "Wallis and Futuna",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Oceania"
+  },
+  {
+    "id": "WSM",
+    "nameZh": "萨摩亚",
+    "nameEn": "Samoa",
+    "coord": [
+      -172.438241,
+      -13.639139
+    ],
+    "area": 0.0000687558590745292,
+    "priority": 62,
+    "kind": "country",
+    "iso2": "WS",
+    "sourceName": "Samoa",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Oceania"
+  },
+  {
+    "id": "SLB",
+    "nameZh": "所罗门群岛",
+    "nameEn": "Solomon Islands",
+    "coord": [
+      159.1032,
+      -7.9023
+    ],
+    "area": 0.0006728795576815137,
+    "priority": 27,
+    "kind": "country",
+    "iso2": "SB",
+    "sourceName": "Solomon Islands",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Oceania"
+  },
+  {
+    "id": "TUV",
+    "nameZh": "图瓦卢",
+    "nameEn": "Tuvalu",
+    "coord": [
+      179.209587,
+      -8.513717
+    ],
+    "area": 5.695080104741935e-7,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "TV",
+    "sourceName": "Tuvalu",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Oceania"
+  },
+  {
+    "id": "MDV",
+    "nameZh": "马尔代夫",
+    "nameEn": "Maldives",
+    "coord": [
+      73.507554,
+      4.174441
+    ],
+    "area": 0.0000026908950625148648,
+    "priority": 55,
+    "kind": "country",
+    "iso2": "MV",
+    "sourceName": "Maldives",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Seven seas (open ocean)"
+  },
+  {
+    "id": "NRU",
+    "nameZh": "瑙鲁",
+    "nameEn": "Nauru",
+    "coord": [
+      166.932644,
+      -0.520261
+    ],
+    "area": 7.119067469951905e-7,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "NR",
+    "sourceName": "Nauru",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Oceania"
+  },
+  {
+    "id": "FSM",
+    "nameZh": "密克罗尼西亚联邦",
+    "nameEn": "Federated States of Micronesia",
+    "coord": [
+      158.234019,
+      6.887553
+    ],
+    "area": 0.000015682801088687664,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "FM",
+    "sourceName": "Federated States of Micronesia",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Oceania"
+  },
+  {
+    "id": "SGS",
+    "nameZh": "南乔治亚和南桑威奇群岛",
+    "nameEn": "South Georgia and the South Sandwich Islands",
+    "coord": [
+      -31.063179,
+      -55.683402
+    ],
+    "area": 0.00009618416976905447,
+    "priority": 62,
+    "kind": "region",
+    "iso2": "GS",
+    "sourceName": "South Georgia and the Islands",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Seven seas (open ocean)"
+  },
+  {
+    "id": "FLK",
+    "nameZh": "福克兰群岛（马尔维纳斯群岛）",
+    "nameEn": "Falkland Islands",
+    "coord": [
+      -59.4159,
+      -51.7163
+    ],
+    "area": 0.0002846372102055606,
+    "priority": 26,
+    "kind": "region",
+    "iso2": "FK",
+    "sourceName": "Falkland Islands",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "South America"
+  },
+  {
+    "id": "VUT",
+    "nameZh": "瓦努阿图",
+    "nameEn": "Vanuatu",
+    "coord": [
+      166.9075,
+      -15.2236
+    ],
+    "area": 0.0003039899866178234,
+    "priority": 26,
+    "kind": "country",
+    "iso2": "VU",
+    "sourceName": "Vanuatu",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Oceania"
+  },
+  {
+    "id": "NIU",
+    "nameZh": "纽埃",
+    "nameEn": "Niue",
+    "coord": [
+      -169.862565,
+      -19.045956
+    ],
+    "area": 0.000005450796200539224,
+    "priority": 62,
+    "kind": "region",
+    "iso2": "NU",
+    "sourceName": "Niue",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Oceania"
+  },
+  {
+    "id": "ASM",
+    "nameZh": "美属萨摩亚",
+    "nameEn": "American Samoa",
+    "coord": [
+      -170.747153,
+      -14.32671
+    ],
+    "area": 0.000004458496255691773,
+    "priority": 62,
+    "kind": "region",
+    "iso2": "AS",
+    "sourceName": "American Samoa",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Oceania"
+  },
+  {
+    "id": "PLW",
+    "nameZh": "帕劳",
+    "nameEn": "Palau",
+    "coord": [
+      134.580157,
+      7.518252
+    ],
+    "area": 0.00001217144609435453,
+    "priority": 48,
+    "kind": "country",
+    "iso2": "PW",
+    "sourceName": "Palau",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Oceania"
+  },
+  {
+    "id": "GUM",
+    "nameZh": "关岛",
+    "nameEn": "Guam",
+    "coord": [
+      144.703614,
+      13.354173
+    ],
+    "area": 0.000013952443476670203,
+    "priority": 48,
+    "kind": "region",
+    "iso2": "GU",
+    "sourceName": "Guam",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Oceania"
+  },
+  {
+    "id": "MNP",
+    "nameZh": "北马里亚纳群岛",
+    "nameEn": "Northern Mariana Islands",
+    "coord": [
+      145.734397,
+      15.188188
+    ],
+    "area": 0.000014321149609170383,
+    "priority": 48,
+    "kind": "region",
+    "iso2": "MP",
+    "sourceName": "Northern Mariana Islands",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Oceania"
+  },
+  {
+    "id": "BHR",
+    "nameZh": "巴林",
+    "nameEn": "Bahrain",
+    "coord": [
+      50.554816,
+      26.055972
+    ],
+    "area": 0.000016985064962008938,
+    "priority": 62,
+    "kind": "country",
+    "iso2": "BH",
+    "sourceName": "Bahrain",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Asia"
+  },
+  {
+    "id": "CSI",
+    "nameZh": "澳大利亚",
+    "nameEn": "Coral Sea Islands",
+    "coord": [
+      134.2254,
+      -25.6183
+    ],
+    "area": 5.121674593561534e-10,
+    "priority": 87,
+    "kind": "region",
+    "iso2": "AU",
+    "sourceName": "Coral Sea Islands",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Oceania"
+  },
+  {
+    "id": "PGA",
+    "nameZh": "威克岛",
+    "nameEn": "Wake Island",
+    "coord": [
+      115.81956,
+      10.72954
+    ],
+    "area": 2.963521707808502e-7,
+    "priority": 48,
+    "kind": "region",
+    "iso2": null,
+    "sourceName": "Spratly Islands",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Asia"
+  },
+  {
+    "id": "CLP",
+    "nameZh": "法国",
+    "nameEn": "Clipperton Island",
+    "coord": [
+      2.4,
+      46.5
+    ],
+    "area": 1.2373029819553902e-7,
+    "priority": 82,
+    "kind": "region",
+    "iso2": "FR",
+    "sourceName": "Clipperton Island",
+    "anchorMethod": "editorial_label_anchor",
+    "continent": "Seven seas (open ocean)"
+  },
+  {
+    "id": "MAC",
+    "nameZh": "澳门",
+    "nameEn": "Macau",
+    "coord": [
+      113.556038,
+      22.129735
+    ],
+    "area": 7.428799170051148e-7,
+    "priority": 62,
+    "kind": "region",
+    "parentCountry": "CN",
+    "iso2": "MO",
+    "sourceName": "Macao S.A.R",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Asia"
+  },
+  {
+    "id": "ATC",
+    "nameZh": "澳大利亚",
+    "nameEn": "Ashmore and Cartier Islands",
+    "coord": [
+      134.2254,
+      -25.6183
+    ],
+    "area": 6.666683389775921e-8,
+    "priority": 87,
+    "kind": "region",
+    "iso2": "AU",
+    "sourceName": "Ashmore and Cartier Islands",
+    "anchorMethod": "largest_polygon_spherical_centroid",
+    "continent": "Oceania"
+  },
+  {
+    "id": "BJN",
+    "nameZh": "巴霍努埃沃浅滩",
+    "nameEn": "Bajo Nuevo Bank",
+    "coord": [
+      -79.845836,
+      15.791588
+    ],
+    "area": 8.864825701913989e-10,
+    "priority": 34,
+    "kind": "region",
+    "iso2": null,
+    "sourceName": "Bajo Nuevo Bank (Petrel Is.)",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "SER",
+    "nameZh": "塞拉尼拉浅滩",
+    "nameEn": "Serranilla Bank",
+    "coord": [
+      -78.638239,
+      15.864308
+    ],
+    "area": 2.603555994542956e-9,
+    "priority": 55,
+    "kind": "region",
+    "iso2": null,
+    "sourceName": "Serranilla Bank",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "North America"
+  },
+  {
+    "id": "SCR",
+    "nameZh": "黄岩岛",
+    "nameEn": "Scarborough Shoal",
+    "coord": [
+      117.753812,
+      15.152039
+    ],
+    "area": 2.4176335726943093e-9,
+    "priority": 48,
+    "kind": "region",
+    "iso2": null,
+    "sourceName": "Scarborough Reef",
+    "anchorMethod": "Natural_Earth_label_point",
+    "continent": "Asia"
   }
 ]

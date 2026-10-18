@@ -1,5 +1,19 @@
 # Release review / 发布检查
 
+## 0.2.0 candidate — 2026-10-18
+
+Author display: Soya. Public changes include country exploration, sourced point/season cards, local food, pre-trip reading, computed coverage/reference disclosure, brighter historical globe and a desktop2:1 map/card layout. Previously committed browser-local document assistance is included; no real identity files are part of this release.
+
+64 automated tests passed after a production build. Added checks cover coverage/season deduplication, source-use status isolation, destination-food mapping, book catalogue versus article reading states, disputed batch-index exclusion and existing point/season rules. `knowledge:check` is an offline structural check, not an external source recheck. Browser review verified country selection, searchable reference bibliography, per-country statistics, actual Luang Prabang scenery/food/reading display and wishlist round-trip. Responsive review at1280px and375px verified2:1 desktop columns, stacked food cards,22px phone title and no horizontal page/dialog overflow. Release/source verification is recorded in the final release receipt after publication.
+
+Current public content:34 content countries/regions (including travel areas),72 unique destinations /73 seasonal destination cards,175 point records /176 season cards,22 newly checked detailed points,26 food experiences across13 regions,8 reading entries across4 places,182 URL-deduplicated content references.80 references have at least one recorded body check; that does not upgrade other unchecked uses.3 books are catalogue-only,5 pre-trip articles were read.258 map units are not counted as content countries. No claim of global completeness or all-source current verification.
+
+UNESCO batch data is excluded from source, build and portable artifact while republication terms remain unresolved. Official single-page links may remain citations. No original full text, book chapters/covers or unlicensed new photographs are imported. Five additional licensed photographs and a historical NASA cloud layer retain accurate provenance; EXIF/XMP/IPTC/comment metadata was removed without recompressing pixels. Private document archives, Aliyun identity/checkout/DNS records and account data stay outside this repository.
+
+All changes must use a fixed new tag and formal release; never overwrite v0.1.0. The new portable asset and checksum identify its tested bytes. CI remains a read-only pinned example, not an enabled workflow. The original scanner limitation below still applies; do not report a Gitleaks pass. Direct file:// launch, physical trackpad/audio feel and independent human usability testing remain unverified.
+
+# Historical 0.1.0 review / 历史检查
+
 Release candidate:0.1.0. Checked2026-10-18. Project author display:Soya. This public copy has a fresh history; the original private workspace/Git history and hosted-site identity are excluded.
 
 ## Functional evidence

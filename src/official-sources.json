@@ -1,0 +1,272 @@
+[
+  {
+    "id": "china-mct-public-tourism",
+    "title": "文化和旅游部 · 旅游名录与出行提示",
+    "authority": "中华人民共和国文化和旅游部",
+    "kind": "official-public-website",
+    "coverage": "中国境内5A级景区、旅游度假区、乡村旅游名录和全国出行提示；用于资质与权威入口核对，不等于全国全部景点目录。",
+    "canonicalURL": "https://zwfw.mct.gov.cn/wycx/5ajlyjq/",
+    "licenseURL": "https://www.mct.gov.cn/wlbphone/wlbydd/dbdh/bqbh/201902/t20190202_837201.html",
+    "accessMode": "公开网页查询；大众旅游服务入口 https://lyfw.mct.gov.cn/ 。本轮未验证供第三方批量使用的公开攻略API；查询页面依赖动态数据，静态结果为0不能解释成真实无记录。",
+    "requiresKey": false,
+    "costNotes": "普通公开页面可阅读；未核实另有开放数据接口、服务报价或批量下载许可。",
+    "usageBoundary": "版权保护页没有授予整站开放复用许可。保留官方查询链接，用于核验；未经授权不镜像正文、数据库或宣传图片，不把政府网站等同CC0。",
+    "status": "entry-verified",
+    "checkedAt": "2026-10-18",
+    "reuseClass": "reference-only",
+    "evidenceURLs": [
+      "https://www.mct.gov.cn/",
+      "https://zwfw.mct.gov.cn/wycx/5ajlyjq/",
+      "https://www.mct.gov.cn/wlbphone/wlbydd/dbdh/bqbh/201902/t20190202_837201.html"
+    ]
+  },
+  {
+    "id": "hangzhou-tourism-bureau",
+    "title": "杭州文旅 · 城市漫步与官方旅游指南",
+    "authority": "杭州市文化广电旅游局",
+    "kind": "official-editorial-website-and-pdf",
+    "coverage": "杭州文化路线、世界遗产、茶园、西溪和城市漫步；国内文旅内容接入的城市级样本。",
+    "canonicalURL": "https://wgly.hangzhou.gov.cn/cw/cn/index.html",
+    "licenseURL": null,
+    "accessMode": "公开专题网页与官方PDF，逐页读取并保留来源日期；未验证开放攻略API或统一开放数据许可证。",
+    "requiresKey": false,
+    "costNotes": "所核公开网页与PDF可阅读；无已核批量API报价。",
+    "usageBoundary": "适合核对路线、文化背景，再写原创摘要；官方PDF旧票价、旧交通与旧活动不能冒充当年实况。未取得照片再分发许可，不整本镜像。",
+    "status": "body-verified",
+    "checkedAt": "2026-10-18",
+    "reuseClass": "reference-only",
+    "evidenceURLs": [
+      "https://wgly.hangzhou.gov.cn/cw/cn/index.html",
+      "https://wgly.hangzhou.gov.cn/attach/538/2307051510367229.pdf"
+    ]
+  },
+  {
+    "id": "japan-jnto-travel-japan",
+    "title": "Travel Japan · 日本国家旅游局 JNTO",
+    "authority": "Japan National Tourism Organization（日本国家旅游局）",
+    "kind": "official-editorial-website",
+    "coverage": "日本地区、城市、自然、人文、祭典、月度旅行主题和季节指南；有多语言入口。",
+    "canonicalURL": "https://www.japan.travel/en/",
+    "licenseURL": "https://www.japan.travel/en/terms-of-use/",
+    "accessMode": "公开网页阅读与官方链接；本轮未验证面向第三方的免费目的地攻略API。",
+    "requiresKey": false,
+    "costNotes": "公开指南可阅读；数据授权或合作接入的费用与条件未核。",
+    "usageBoundary": "使用条款对文字、图片及数据库等保留权利；不把JNTO整站正文或照片加入可再分发素材包。仅作为事实核对与进一步查证入口，具体花期看当年预报。",
+    "status": "body-verified",
+    "checkedAt": "2026-10-18",
+    "reuseClass": "reference-only",
+    "evidenceURLs": [
+      "https://www.japan.travel/en/",
+      "https://www.japan.travel/en/guide/autumn-guide/",
+      "https://www.japan.travel/en/terms-of-use/"
+    ]
+  },
+  {
+    "id": "britain-visitbritain",
+    "title": "VisitBritain · 英国官方旅行指南",
+    "authority": "British Tourist Authority / VisitBritain / VisitEngland",
+    "kind": "official-editorial-website",
+    "coverage": "英国城市、乡村、海岸、人文、节庆、季节活动和主题路线；涉及地区仍应回查当地景点官方开放信息。",
+    "canonicalURL": "https://www.visitbritain.com/en",
+    "licenseURL": "https://www.visitbritain.com/en/terms-use",
+    "accessMode": "公开编辑网页和路线导航；本轮未验证面向第三方的开放攻略API。",
+    "requiresKey": false,
+    "costNotes": "普通浏览可用；版权内容商业再利用不属于已核免费开放数据。",
+    "usageBoundary": "条款只给有限个人非商业阅读/下载条件，重新放到其他网站通常需书面同意。照片经常还属于Getty、地区机构或其他权利人，不能统一视作旅游局自有开放照片。",
+    "status": "body-verified",
+    "checkedAt": "2026-10-18",
+    "reuseClass": "reference-only",
+    "evidenceURLs": [
+      "https://www.visitbritain.com/en",
+      "https://www.visitbritain.com/en/terms-use"
+    ]
+  },
+  {
+    "id": "new-zealand-tourism",
+    "title": "Tourism New Zealand · 新西兰官方旅行指南",
+    "authority": "Tourism New Zealand",
+    "kind": "official-editorial-website",
+    "coverage": "新西兰南北岛目的地、自然与毛利文化、季节、建议行程和旅行距离；可为南半球季节推荐提供官方核对入口。",
+    "canonicalURL": "https://www.newzealand.com/int/",
+    "licenseURL": "https://www.newzealand.com/us/utilities/terms-of-use/",
+    "accessMode": "公开官网分地区和季节阅读；网站另有行业数据库，但本轮未验证可免费调用的公开攻略API，不能因出现数据库入口就声称已开放。",
+    "requiresKey": false,
+    "costNotes": "普通指南阅读可用；行业合作/API授权价格未核。",
+    "usageBoundary": "官网文字与媒体受版权保护；非嵌入式图片通常需明确许可，Visual Library另有条款。户外通道、天气和步道开放应再查管理方，不把推荐路线当实时可通行保证。",
+    "status": "body-verified",
+    "checkedAt": "2026-10-18",
+    "reuseClass": "reference-only",
+    "evidenceURLs": [
+      "https://www.newzealand.com/int/",
+      "https://www.newzealand.com/us/utilities/terms-of-use/"
+    ]
+  },
+  {
+    "id": "iceland-visit-iceland",
+    "title": "Visit Iceland · 冰岛官方旅行指南",
+    "authority": "Business Iceland（Visit Iceland运营方）",
+    "kind": "official-editorial-website",
+    "coverage": "冰岛地区、自然、文化、月份建议、自驾路线和旅行地图；连接天气、道路与安全等主管机构。",
+    "canonicalURL": "https://www.visiticeland.com/",
+    "licenseURL": null,
+    "accessMode": "公开指南、路线和交互地图入口；本轮未验证第三方可用的开放地点API或统一开放内容许可证。",
+    "requiresKey": false,
+    "costNotes": "普通公开指南可阅读；素材库/商业数据接入条件未核。",
+    "usageBoundary": "官方品牌网站不等于开放素材库；只保留核验链接与原创策划。冰洞、火山、高地公路等出行日状态必须另查安全与道路部门，文章介绍不能代替开放确认。",
+    "status": "body-verified",
+    "checkedAt": "2026-10-18",
+    "reuseClass": "reference-only",
+    "evidenceURLs": [
+      "https://www.visiticeland.com/",
+      "https://www.visiticeland.com/trip-suggestions/"
+    ]
+  },
+  {
+    "id": "morocco-onmt",
+    "title": "Visit Morocco · 摩洛哥国家旅游局",
+    "authority": "Office National Marocain du Tourisme（ONMT / MNTO）",
+    "kind": "official-editorial-website",
+    "coverage": "摩洛哥皇城、古城、沙漠、山地、海滨、文化工艺、气候季节和建议路线。",
+    "canonicalURL": "https://www.visitmorocco.com/en",
+    "licenseURL": "https://www.visitmorocco.com/en/general-terms-and-conditions",
+    "accessMode": "公开指南与官方路线页面；本轮未验证开放的目的地攻略API。",
+    "requiresKey": false,
+    "costNotes": "官网明确可免费浏览；公开再分发内容需另获许可，未核授权费用。",
+    "usageBoundary": "使用条款限制未经许可复制文字、图片、照片和标志，私人阅读不等于产品公开复用。气候建议按地区理解，不把全国概括直接套用到沙漠、高山与海岸。",
+    "status": "body-verified",
+    "checkedAt": "2026-10-18",
+    "reuseClass": "reference-only",
+    "evidenceURLs": [
+      "https://www.visitmorocco.com/en",
+      "https://www.visitmorocco.com/en/travel-info/climate-and-seasons",
+      "https://www.visitmorocco.com/en/general-terms-and-conditions"
+    ]
+  },
+  {
+    "id": "laos-tourism-official",
+    "title": "Tourism Laos · 老挝官方旅游指南",
+    "authority": "Tourism Marketing & Promotion Department，Ministry of Culture and Tourism（以官网当前联系信息为准）",
+    "kind": "official-editorial-website-and-publications",
+    "coverage": "老挝省份、自然与文化目的地、寺庙、旅游手册；本轮确认官方部门归属与公开入口，未完整读取目的地子页。",
+    "canonicalURL": "https://www.tourismlaos.org/",
+    "licenseURL": null,
+    "accessMode": "公开网页与Publications入口；官网部门联系页可读取，主页及手册/琅勃拉邦子页本轮多次超时。未验证开放API或批量复用许可。",
+    "requiresKey": false,
+    "costNotes": "已核部门联系页无需账号；其他指南可用性与授权条件待进一步核验。",
+    "usageBoundary": "只将已核官方入口列入来源目录，不把未读正文当作已核攻略。未取得官方照片或全文开放复用许可；开门时间、门票与活动需单独当日复核。",
+    "status": "entry-verified",
+    "checkedAt": "2026-10-18",
+    "reuseClass": "reference-only",
+    "evidenceURLs": [
+      "https://www.tourismlaos.org/website-links/",
+      "https://www.tourismlaos.org/publications/",
+      "https://www.tourismlaos.org/northern-provinces/louangphabang-province/"
+    ]
+  },
+  {
+    "id": "usa-nps-api",
+    "title": "美国 National Park Service API",
+    "authority": "U.S. National Park Service，U.S. Department of the Interior",
+    "kind": "official-structured-api",
+    "coverage": "NPS管理的公园、地点、活动、警示等结构化信息；适合自然景观、准备事项与临时关闭提示，不覆盖美国所有旅游地点。",
+    "canonicalURL": "https://www.nps.gov/subjects/developer/get-started.htm",
+    "licenseURL": "https://www.nps.gov/aboutus/disclaimer.htm",
+    "accessMode": "免费注册API key后访问 https://developer.nps.gov/api/v1/ 的文档化只读端点，以X-Api-Key请求头传递。默认1000次/小时，需遵守实际返回的限流信息；本轮仅核官方文档，未申请密钥或执行认证取数。",
+    "requiresKey": true,
+    "costNotes": "官方Get Started说明申请流程免费；密钥、服务器、缓存与维护仍需自行管理，不能把密钥写入前端公开包或GitHub。",
+    "usageBoundary": "NPS自己制作的美国政府作品通常属公有领域，但官网及API所链媒体可能含第三方版权、肖像权和受保护标志。逐项核对，不把全部API照片都标成公有领域；公园警示须保留更新时间。",
+    "status": "body-verified",
+    "checkedAt": "2026-10-18",
+    "reuseClass": "qualified-government-content",
+    "evidenceURLs": [
+      "https://www.nps.gov/subjects/developer/get-started.htm",
+      "https://www.nps.gov/subjects/developer/guides.htm",
+      "https://www.nps.gov/aboutus/disclaimer.htm"
+    ]
+  },
+  {
+    "id": "france-datatourisme",
+    "title": "法国 DATAtourisme · 全国旅游开放数据",
+    "authority": "ADN Tourisme及法国地方官方旅游信息生产机构；国家旅游开放数据平台",
+    "kind": "open-structured-data-and-api",
+    "coverage": "法国旅游POI、自然与文化地点、活动、线路、服务及部分住宿信息；不同地区和地点详情完整度有差异。",
+    "canonicalURL": "https://www.datatourisme.fr/faq/",
+    "licenseURL": "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0",
+    "accessMode": "Explore可免账号导出CSV；data.gouv.fr有免账号CSV与RDF-NT下载。API需独立简要注册并接受CGU领取key，文档 https://api.datatourisme.fr/v1/docs ；当前API默认1000次/小时，单页最多100条。本轮未注册或认证调用。",
+    "requiresKey": true,
+    "costNotes": "官方FAQ说明平台免费，API key免费申请；requiresKey仅指API路线，匿名下载无需key。",
+    "usageBoundary": "数据按Licence Ouverte 2.0复用，须注明具体数据生产者（HasBeenCreatedBy）与最后更新时间，并遵守使用条款。平台中被明确纳入开放数据的关联照片可按其许可使用，但不因此取得旅游局其他网站照片的权限；本轮优先只接结构化索引，不接媒体。",
+    "status": "body-verified",
+    "checkedAt": "2026-10-18",
+    "reuseClass": "open-structured",
+    "evidenceURLs": [
+      "https://www.datatourisme.fr/faq/",
+      "https://www.datatourisme.fr/ressources-juridiques/",
+      "https://api.datatourisme.fr/v1/docs?lang=fr",
+      "https://www.data.gouv.fr/pages/legal/licences/etalab-2.0"
+    ]
+  },
+  {
+    "id": "wikidata-cc0-place-index",
+    "title": "Wikidata · CC0全球地点与实体索引",
+    "authority": "Wikimedia Foundation / Wikidata社区",
+    "kind": "open-community-structured-data",
+    "coverage": "全球地点的多语言名称、坐标、类型、所在行政区、外部标识与关联实体；是开放实体索引，不是各国旅游局审核的权威攻略。",
+    "canonicalURL": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+    "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "accessMode": "按规模选EntityData、文档化REST/Action API、SPARQL或数据转储；常规公开只读访问无需API key。发送明确User-Agent、控制并发、缓存并遵守429与Retry-After；大规模定时同步宜使用转储。",
+    "requiresKey": false,
+    "costNotes": "社区公开结构化数据与普通只读端点可免费使用；付费Enterprise服务是不同产品，不等于必须购买。",
+    "usageBoundary": "CC0适用于主要结构化数据命名空间，不自动覆盖其他维基项目文章、Commons照片、Logo或外部链接内容。坐标、行政归属和历史声明需核对具体引用，不能作为最精确行政地图的唯一证据。",
+    "status": "body-verified",
+    "checkedAt": "2026-10-18",
+    "reuseClass": "open-structured",
+    "evidenceURLs": [
+      "https://www.wikidata.org/wiki/Wikidata:Data_access",
+      "https://creativecommons.org/publicdomain/zero/1.0/"
+    ]
+  },
+  {
+    "id": "unesco-datahub-whc001",
+    "title": "UNESCO DataHub · World Heritage List（whc001）",
+    "authority": "UNESCO",
+    "kind": "open-marked-structured-index-with-terms-difference",
+    "coverage": "世界遗产地点的名称、坐标、类别、入选年份等索引。2026-10-18实际API元数据records_count为1273，不据此保证所有2026年变更或每个组成地点均已分别覆盖。",
+    "canonicalURL": "https://data.unesco.org/explore/dataset/whc001/",
+    "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "accessMode": "已核公开元数据；DataHub开放标记与链接的WHC再发布条款存在需要澄清的范围。当前暂停批量导入和公开分发，不计入本站收录数。",
+    "requiresKey": false,
+    "costNotes": "本轮元数据读取未要求key或付费；未核商业SLA与批量请求配额，需缓存并遵守平台限流。",
+    "usageBoundary": "单个官方页面可作为核验与延伸阅读链接；批量公开再分发的适用许可待提供方确认。仅删除简介和照片不能自动解决条款差异。",
+    "status": "body-verified",
+    "checkedAt": "2026-10-18",
+    "reuseClass": "pending-rights-clarification",
+    "evidenceURLs": [
+      "https://data.unesco.org/api/explore/v2.1/catalog/datasets/whc001",
+      "https://data.unesco.org/explore/dataset/whc001/",
+      "https://whc.unesco.org/en/syndication/",
+      "https://creativecommons.org/licenses/by-sa/4.0/"
+    ],
+    "metadataReceipt": {
+      "license": "CC BY-SA 4.0",
+      "publisher": "UNESCO",
+      "records_count": 1273,
+      "modified": "2026-10-18T02:07:08+00:00",
+      "temporal_coverage_end": "2025-01-01T00:00:00+00:00"
+    },
+    "indexFieldAllowlist": [
+      "id_no",
+      "uuid",
+      "name_en",
+      "name_zh",
+      "coordinates",
+      "category",
+      "date_inscribed",
+      "states_names",
+      "iso_codes",
+      "region",
+      "transboundary",
+      "components_count"
+    ]
+  }
+]

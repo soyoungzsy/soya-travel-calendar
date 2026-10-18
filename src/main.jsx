@@ -12,3 +12,5 @@ createRoot(document.getElementById("journey-atlas-root")).render(
 );
 
 import "./document-import.css";
+
+import "./knowledge.css";
