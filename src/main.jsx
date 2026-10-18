@@ -10,3 +10,5 @@ createRoot(document.getElementById("journey-atlas-root")).render(
     <App />
   </React.StrictMode>,
 );
+
+import "./document-import.css";

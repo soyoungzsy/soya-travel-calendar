@@ -22,6 +22,12 @@ No GitHub account, payment or identity-document upload is required. Use a recent
 
 心愿单 (“Wishlist”) saves built-in travel ideas; 我的地点 manages your own entries; 本次行程 (“Current trip”) combines built-in ideas for the chosen dates. Custom places do not yet have automatic flight/hotel budgets, entry-policy assessments or full itineraries.
 
+## Photo-assisted entry — unreleased next version
+
+The local development version adds optional document assistance: open the top-right profile icon, select a passport/visa image, choose 在本机识别照片 (recognize locally), correct the preview, check the confirmation box, import, then 保存出行资料 (save). Cancel leaves saved data unchanged. Clearing fields also requires confirmation and saving.
+
+Only travel dates, visa type, entries and stay duration are retained. No name, birth date, ID number, original scan or raw OCR text is stored or uploaded. Best-effort recognition covers English labels, Korean grant notices and TD3 passport MRZs; other layouts or blurry images may require manual entry. JPG/PNG/WebP up to10 MB; the single-file download retains manual entry only. About7 MB of same-origin engine/language resources load on first recognition. No OCR account or paid API is required. This change has not been publicly deployed; the online app and0.1.0 download above do not yet include it. See [Privacy](PRIVACY.md).
+
 ## If the online app will not open
 
 Visit the [0.1.0 fixed download page](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.1.0). Under Assets, download **Soya-Travel-Calendar-v0.1.0.html**. Wait for the download, then double-click it or drag it into your browser. It includes photographs and is about 41.2 MB; opening it the first time can take longer than a normal page. Wait until the title and globe appear.
@@ -32,7 +38,7 @@ The offline file uses compressed destination photos to reduce download size; the
 
 For people collecting places they want to visit and turning a holiday window into a shortlist. It includes 73 photographed travel ideas, 14 detailed guides, 42 experience photos, a wishlist, a dated trip basket and preparation checks.
 
-It does not replace booking providers, travel professionals or official entry rules. Budgets are planning scenarios and itineraries are generated from local reference data and allocation rules. There is no online LLM connection, sellable live inventory, Xiaohongshu private-favorites sync, passport OCR or cross-device account. Saving a source link does not read the note. Entry-policy examples cover mainland Chinese ordinary passports only; origin/budget examples use Hangzhou or Shanghai. Other passports/origins require separate checks. Your custom months are personal notes, not verified seasonal recommendations.
+It does not replace booking providers, travel professionals or official entry rules. Budgets are planning scenarios and itineraries are generated from local reference data and allocation rules. There is no online LLM connection, sellable live inventory, Xiaohongshu private-favorites sync, cross-device account. Saving a source link does not read the note. Entry-policy examples cover mainland Chinese ordinary passports only; origin/budget examples use Hangzhou or Shanghai. Other passports/origins require separate checks. Your custom months are personal notes, not verified seasonal recommendations.
 
 ## Costs, accounts and data
 
