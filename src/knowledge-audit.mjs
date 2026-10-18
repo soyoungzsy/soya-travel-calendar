@@ -15,13 +15,13 @@ export function compileKnowledgeSnapshot({destinationRecords=destinations,points
   let r=references.get(url);if(!r){r={url,title:source.title||'参考资料',authority:source.authority||source.sourceAuthority||new URL(url).hostname,uses:[],categories:new Set(),countries:new Set(),levels:new Set(),dates:new Set()};references.set(url,r);}
   const level=source.accessLevel||'not-rechecked';r.levels.add(level);r.categories.add(context.category);r.countries.add(context.country);if(source.accessedAt)r.dates.add(source.accessedAt);if(source.book)r.book=source.book;
   if(!r.uses.some(u=>u.id===context.id&&u.category===context.category))r.uses.push({...context,accessLevel:level,checkedAt:source.accessedAt||null,publishedAt:source.publishedAt||null,note:source.caution||source.note||''});
-  if(source.authority||source.sourceAuthority)r.authority=source.authority||source.sourceAuthority;
+  const authority=source.authority||source.sourceAuthority;if(authority&&!['既有参考资料','资料来源'].includes(authority))r.authority=authority;
   if(r.title==='目的地参考来源'&&source.title)r.title=source.title;
  }
  for(const d of destinationRecords){
   country(d.country).destinations.add(d.country+'|'+d.name);
   const context={id:d.id,name:d.name,country:d.country,category:'season'};
-  addSource({url:d.sourceURL||d.seasonSource,title:d.name+' · 季节参考',accessLevel:'not-rechecked'},context);
+  addSource({url:d.sourceURL||d.seasonSource,title:d.seasonSourceTitle||d.name+' · 季节参考',authority:d.seasonAuthority,accessLevel:d.seasonSourceAccess||'not-rechecked',accessedAt:d.seasonSourceCheckedAt},context);
   for(const s of guideRecords[d.id]?.sources||[]){if(['fx','central-bank-api'].includes(s.type))continue;addSource(s,{...context,category:s.type==='traveler'?'traveler':'travel'});}
  }
  for(const p of points){

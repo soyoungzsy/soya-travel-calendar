@@ -39,5 +39,7 @@ test('heritage inscription years never become construction dates or invented Chi
 test('detailed culture records have evidence, concrete observation and accurate photo captions rather than generic image substitution',()=>{
  const rich=allPOICards.filter(p=>p.recordKind==='curated-poi'&&p.category==='culture');assert.ok(rich.length>=12);for(const p of rich){assert.ok(p.originalUse&&p.historySignificance&&p.sources.length>0);assert.ok(p.lookFor.length>=2);}
  const waterfall=getPOIPhoto(resolveKnowledgeItem('poi:kuang-si-falls'));assert.match(waterfall.caption,/叠瀑|下游/);assert.ok(fs.existsSync(new URL('../public'+waterfall.src,import.meta.url)));
- const osmanthus=getPOIPhoto(resolveKnowledgeItem('poi:hangzhou-botanical-osmanthus'));assert.match(osmanthus.caption,/参考/);assert.match(osmanthus.caption,/非|未核实/);
+ assert.equal(getPOIPhoto(resolveKnowledgeItem('poi:hangzhou-botanical-osmanthus')),null,'unconfirmed species photo must not represent a specific local garden');
+ assert.equal(getPOIPhoto(resolveKnowledgeItem('poi:hangzhou-sudi-causeway@spring')),null,'lake hero is not a Sudi photo');
+ for(const id of ['poi:forbidden-city','poi:valley-of-kings','poi:temple-of-heaven','poi:wat-xieng-thong']){const photo=getPOIPhoto(resolveKnowledgeItem(id));assert.ok(photo.subjectConfirmed);assert.ok(fs.existsSync(new URL('../public'+photo.src,import.meta.url)));}
 });

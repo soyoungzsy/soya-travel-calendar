@@ -1112,24 +1112,6 @@
       "src": "/photos/wadi-rum-desert.jpg",
       "thumbnail": "/photos/thumb/wadi-rum-desert.webp"
     },
-    "wuyuan-spring": {
-      "place": "中国江西婺源·传统村落（秋季航拍）",
-      "photoSubject": "婺源村落屋顶与山林（秋季航拍）",
-      "author": "jason hu",
-      "sourcePage": "https://www.pexels.com/photo/scenic-aerial-view-of-wuyuan-village-rooftops-29612001/",
-      "license": "Pexels License",
-      "licenseURL": "https://www.pexels.com/license/",
-      "focalPointPercent": [
-        50,
-        45
-      ],
-      "notes": "实为婺源村落与山林，来源标签秋季；此图不可声称呈现春季油菜花。原春季江岭CC BY3.0源已核验但媒体域TLS无法连接。",
-      "width": 1920,
-      "height": 1279,
-      "sha256": "44e744c21b6dee794ee633c7a397dfc6bed864c51a2b315fa2fdd2bcf882fbaf",
-      "src": "/photos/wuyuan-spring.jpg",
-      "thumbnail": "/photos/thumb/wuyuan-spring.webp"
-    },
     "xian-imperial-history": {
       "place": "中国西安·钟楼夜景",
       "photoSubject": "中国西安·钟楼夜景",
@@ -1889,5 +1871,11 @@
     "credit": "NASA Goddard Space Flight Center; Reto Stöckli and Robert Simmon",
     "licenseURL": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
     "dataPeriod": "2002 publication; historical multiday cloud composite, not current weather"
+  },
+  "photoExceptions": {
+    "wuyuan-spring": {
+      "reason": "原图为篁岭秋季晒秋，与春季油菜花主题不符，已解除封面关联。候选春景尚无完整可用授权下载。",
+      "reviewedAt": "2026-10-19"
+    }
   }
 }

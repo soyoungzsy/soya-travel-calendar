@@ -1,8 +1,6 @@
-import React,{useEffect,useState} from 'react';
-import {AirplaneTilt,Bed,MagnifyingGlass,Info} from '@phosphor-icons/react';
-const platforms=['飞猪','携程 / Trip.com','Booking.com','Agoda','Expedia'];
+import React from 'react';
+import {money} from './engine.mjs';
+import {HelpTip} from './HelpTip.jsx';
 export function QuoteWorkbench({d,origin,start,end}){
- const [kind,setKind]=useState('hotel'),[status,setStatus]=useState('checking');
- useEffect(()=>{const controller=new AbortController();fetch('/api/travel-search/status',{signal:controller.signal}).then(r=>r.json()).then(data=>setStatus(data.status||'unavailable')).catch(()=>{if(!controller.signal.aborted)setStatus('unavailable');});return()=>controller.abort();},[]);
- return <section className="quote-workbench" id="guide-compare"><div className="guide-section-title"><span>机票与住宿</span><h3>在这张攻略里，比较同一段旅行。</h3></div><div className="quote-query"><div><small>出发与目的地</small><strong>{origin} ⇄ {d.name}</strong></div><div><small>旅行日期</small><strong>{start.replaceAll('-','.')} — {end.replaceAll('-','.')}</strong></div><div><small>酒店人数与房间</small><strong>2位成人 · 1间双人房</strong></div></div><div className="quote-toolbar"><div className="quote-kind">{[['hotel','酒店',Bed],['flight','机票',AirplaneTilt]].map(([value,label,Icon])=><button key={value} aria-pressed={kind===value} onClick={()=>setKind(value)}><Icon size={17}/>{label}</button>)}</div><button className="primary" disabled><MagnifyingGlass size={16}/>{status==='checking'?'正在检查查询状态':'实时查询暂未开通'}</button></div><div className="quote-status" role="status"><Info size={19}/><p>尚未取得这段日期的可订{kind==='hotel'?'房型与房价':'航班与票价'}。下方平台没有连接实时价格；本攻略中的金额仍是规划预算。</p></div><div className="quote-provider-list">{platforms.map(name=><div key={name}><strong>{name}</strong><span>待连接 · 暂无可比较报价</span></div>)}</div><p className="fine-print">接通后将在此显示平台、含税总价、房型或行李、退改条件及查价时间。平台没有返回价格时会明确标注；最终预订可能仍需前往对应平台完成。</p></section>;
+ return <section className="quote-workbench" id="guide-compare"><div className="guide-section-title"><h3>机票与酒店 <HelpTip label="机票与酒店价格说明">当前未接通平台可订库存，攻略金额为规划预算。接入供应商授权接口后才能比较同日期、含税总价及退改条件。</HelpTip></h3></div><div className="quote-query"><div><small>出发与目的地</small><strong>{origin} ⇄ {d.name}</strong></div><div><small>旅行日期</small><strong>{start.replaceAll('-','.')} — {end.replaceAll('-','.')}</strong></div></div><div className="quote-planning-budget">{d.cost&&<><small>每人全程规划参考</small><strong>¥{money(d.cost.low)}—{money(d.cost.high)}</strong></>}<span>暂无该日期的实时报价</span></div></section>;
 }

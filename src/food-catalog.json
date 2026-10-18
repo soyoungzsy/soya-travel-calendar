@@ -448,13 +448,6 @@
             "url": "https://webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/webimages/EGIPTO_V1_0.pdf",
             "accessedAt": "2026-10-18",
             "accessLevel": "body-verified"
-          },
-          {
-            "authority": "埃及旅游局 / 旅游与文物部",
-            "title": "Experience Egypt — Gastronomy（旧页现跳转首页，仅核到搜索索引摘要）",
-            "url": "https://www.experienceegypt.eg/en/attraction-details/315/gastronomy",
-            "accessedAt": "2026-10-18",
-            "accessLevel": "search-excerpt"
           }
         ],
         "scope": "country",
@@ -471,13 +464,6 @@
             "url": "https://webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/webimages/EGIPTO_V1_0.pdf",
             "accessedAt": "2026-10-18",
             "accessLevel": "body-verified"
-          },
-          {
-            "authority": "埃及旅游局 / 旅游与文物部",
-            "title": "Experience Egypt — Gastronomy（旧页现跳转首页，仅核到搜索索引摘要）",
-            "url": "https://www.experienceegypt.eg/en/attraction-details/315/gastronomy",
-            "accessedAt": "2026-10-18",
-            "accessLevel": "search-excerpt"
           }
         ],
         "scope": "country",
@@ -664,5 +650,131 @@
       "st-petersburg"
     ],
     "checkedAt": "2026-10-18"
+  },
+  {
+    "regionKey": "quanzhou",
+    "nameZh": "泉州",
+    "country": "中国",
+    "regionScope": "泉州市古城及周边",
+    "destinationIds": [
+      "quanzhou-heritage"
+    ],
+    "checkedAt": "2026-10-18",
+    "foods": [
+      {
+        "id": "food:quanzhou:1",
+        "name": "面线糊",
+        "description": "细软面线与汤底煮成稠而顺口的一碗，常按口味加海蛎、虾仁、醋肉或大肠等配料。适合用早餐认识泉州的日常饮食。",
+        "experienceTip": "西街或涂门街散步前安排一碗，先选两三种配料；海鲜、内脏或肉类禁忌可在点餐时说明。",
+        "scope": "city",
+        "regionScope": "泉州",
+        "sources": [
+          {
+            "title": "寻味古城 慢品烟火 天南地北游客赞叹“泉州真好呷”",
+            "url": "https://www.quanzhou.gov.cn/gastronomy/ch/scdt/sdxw/202510/t20251011_3217114.htm",
+            "authority": "泉州市人民政府·泉州美食主题站；原文为融媒体记者张晓玲报道",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-government-republication",
+            "publishedAt": "2025-10-04",
+            "evidenceShort": "一碗热腾腾的面线糊",
+            "factBoundary": "支持菜品、常见配料及早餐场景；未把采访赞语当作卫生/店铺质量保证。"
+          }
+        ]
+      },
+      {
+        "id": "food:quanzhou:2",
+        "name": "土笋冻",
+        "description": "用海边星虫熬制后冷凝成冻的小吃，口感弹滑，是泉州及闽南地区很有辨识度的地方风味；名字里的“笋”不是竹笋。",
+        "experienceTip": "首次尝试可先点小份，确认自己能接受食材和冷食口感。",
+        "scope": "regional",
+        "regionScope": "泉州及闽南；安海尤具代表性",
+        "sources": [
+          {
+            "title": "土笋冻",
+            "url": "https://www.quanzhou.gov.cn/lyb/tstc/tsxc/201510/t20151025_177018.htm",
+            "authority": "泉州市人民政府·泉州旅游",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-tourism",
+            "evidenceShort": "冷却成冻",
+            "factBoundary": "支持海边星虫食材、熬制冷凝与冷食；不照抄旧文把星虫泛称“软体生物”的分类表述，也不宣称唯一正宗产地。"
+          }
+        ]
+      },
+      {
+        "id": "food:quanzhou:3",
+        "name": "姜母鸭",
+        "description": "“姜母”指老姜。鸭肉与姜片、麻油在砂锅里慢慢烹制，重在姜香与鸭肉的融合；当地有偏干、偏湿等不同做法。",
+        "experienceTip": "两三人可分食一锅，先确认份量、干湿做法及是否另加药材。",
+        "scope": "city",
+        "regionScope": "泉州",
+        "sources": [
+          {
+            "title": "卤鸭、盐水鸭、梅干菜炖鸭……除了姜母鸭 泉州还有很多好吃鸭",
+            "url": "https://www.quanzhou.gov.cn/gastronomy/ch/msdh/xwqz/202506/t20250614_3179957.htm",
+            "authority": "泉州市人民政府·泉州美食主题站；原文为融媒体记者张君琳报道",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-government-republication",
+            "publishedAt": "2025-06-14",
+            "evidenceShort": "姜母/鸭",
+            "factBoundary": "仅采用鸭肉、老姜、麻油、干湿做法差异。原文含食疗功效和商代起源等内容，本候选不使用、不作医疗建议。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "regionKey": "hongkong",
+    "nameZh": "香港",
+    "country": "中国",
+    "regionScope": "香港特别行政区",
+    "destinationIds": [
+      "hongkong-city-nature"
+    ],
+    "checkedAt": "2026-10-18",
+    "foods": [
+      {
+        "id": "food:hongkong:1",
+        "name": "港式蛋挞",
+        "description": "嫩滑蛋奶馅配酥皮或曲奇皮，是认识港式烘焙最直接的一口。逛中环、油麻地等街区时，可以把不同饼皮当作一次小小的风味比较。",
+        "experienceTip": "出炉后稍放凉再吃；想比较口感可各选一种饼皮，与同行者分食。",
+        "scope": "regional",
+        "regionScope": "香港",
+        "sources": [
+          {
+            "title": "香港必试街头美食",
+            "url": "https://www.discoverhongkong.com/tc/food-and-drink/must-try-street-food-in-hong-kong.html",
+            "authority": "香港旅游发展局",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-tourism",
+            "evidenceShort": "酥皮或曲奇皮",
+            "factBoundary": "菜品推荐不绑定具体商店，不照抄名人爱吃等传闻。"
+          }
+        ]
+      },
+      {
+        "id": "food:hongkong:2",
+        "name": "港式奶茶与茶餐厅",
+        "description": "浓茶与奶的搭配，是茶餐厅文化的代表。除了饮品本身，也可观察茶餐厅把中西式餐食放在同一张菜单上的日常方式。",
+        "experienceTip": "在街区步行中留一段坐下喝茶的时间；按口味选择冷热、甜度，并核对所用奶类。",
+        "scope": "regional",
+        "regionScope": "香港",
+        "sources": [
+          {
+            "title": "7间值得一试的茶餐厅",
+            "url": "https://www.discoverhongkong.com/tc/food-and-drink/must-visit-cha-chaan-tengs.html",
+            "authority": "香港旅游发展局",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-tourism",
+            "evidenceShort": "中西飲食文化交匯點",
+            "factBoundary": "支持港式奶茶与茶餐厅场景；不照搬某店“炼奶”做法概括所有丝袜奶茶，配方因店不同。"
+          }
+        ]
+      }
+    ]
   }
 ]

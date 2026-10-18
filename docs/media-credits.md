@@ -142,3 +142,20 @@ Updated 2026-10-18. Code licensing does not change third-party media licenses. �
 - `/points/osmanthus-species-reference.jpg` — 桂花物种参考，2004 年 10 月历史照片，拍摄地点未核实；不作为满觉陇或杭州植物园实拍，非当日花况。 — Juni from Kyoto, Japan — [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) — [原始说明页](https://commons.wikimedia.org/wiki/File:Osmanthus_fragrans.jpg)。resized derivative
 
 - `/textures/earth-clouds-2002.jpg` — NASA Blue Marble (2002)历史多日云层合成；NASA Goddard Space Flight Center、Reto Stöckli、Robert Simmon。[官方说明](https://science.nasa.gov/earth/earth-observatory/the-blue-marble-true-color-global-imagery-at-1km-resolution/)、[源文件](https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57747/cloud_combined_2048.jpg)。去除非必要元数据，显示透明度与海洋颜色在渲染时调整；不是实时气象。
+
+
+## 景点代表照片补充（2026-10-18）
+
+| 主体 | 作者 | 许可 | 原页 |
+|---|---|---|---|
+| 故宫 · 太和殿 | Conor Murphy | [Unsplash License](https://unsplash.com/license) | [原始作品](https://unsplash.com/photos/the-forbidden-city-palace-under-a-clear-blue-sky-1XoHwyNMi_0) |
+| 帝王谷 · 石灰岩山谷 | Sam Plummer | [Unsplash License](https://unsplash.com/license) | [原始作品](https://unsplash.com/photos/a-mountain-range-in-the-middle-of-a-desert-TEC9kkg_6BQ) |
+| 天坛 · 祈年殿 | Victor He | [Unsplash License](https://unsplash.com/license) | [原始作品](https://unsplash.com/photos/blue-and-white-concrete-building-under-blue-sky-during-daytime-0xn9T2cEigE) |
+| 相通寺 · 寺院建筑与彩饰 | Hongbin | [Unsplash License](https://unsplash.com/license) | [原始作品](https://unsplash.com/photos/a-row-of-buildings-sitting-next-to-each-other-t7mSUQcTPsY) |
+| 圣索菲亚 · 穹顶与宣礼塔 | Nida Oral | [Unsplash License](https://unsplash.com/license) | [原始作品](https://unsplash.com/photos/hagia-sophia-mosque-with-minarets-and-dome-nOLJ6DJzIbE) |
+| 伦敦塔 · 白塔 | Paul Rigby | [Unsplash License](https://unsplash.com/license) | [原始作品](https://unsplash.com/photos/brown-brick-building-under-blue-sky-during-daytime--7DmLW32sF0) |
+| 杭州 · 拱宸桥 | Zhao Yangjun | [Unsplash License](https://unsplash.com/license) | [原始作品](https://unsplash.com/photos/a-black-and-white-photo-of-a-bridge-over-a-river-00tUI4naR2I) |
+
+| 卢浮宫 · 玻璃金字塔与宫殿 | Kamilla Isalieva | [Unsplash License](https://unsplash.com/license) | [原始作品](https://unsplash.com/photos/louvre-museum-courtyard-with-glass-pyramid-and-people-6zmpsxy5lWM) |
+
+均为真实摄影，同源保存；缩放展示与裁切由页面完成，不代表当日景况。

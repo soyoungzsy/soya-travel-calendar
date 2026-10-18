@@ -3,7 +3,7 @@
 选一段假期、看看当季不同地方最美的风景，把想去的地方保存成自己的旅行清单。
 A seasonal travel calendar with a private, browser-local destination list.
 
-[English guide](README.en.md) · 版本0.2.1 · 初始试用版
+[English guide](README.en.md) · 版本0.3.0 · 初始试用版
 
 **[打开在线体验](https://scenicdue.com/)**
 
@@ -30,7 +30,7 @@ A seasonal travel calendar with a private, browser-local destination list.
 
 “全年人文”不必等特定季节；自然风景按月份/日期匹配，苏堤已有春、秋两张不同看点的卡片。展览按实际档期显示；桂花与潮汐需要当年/当天再核验。全年展示不代表每天开门或任何天气都舒适。
 
-公共旅行资料覆盖34个国家与地区、72个目的地、175条景点资料（形成176张景点/季节卡），其中22条为本轮逐点核对的详卡；另有13个地区26项风味、4地8条行前阅读、182份按URL去重的参考资料。**已收录不表示每条资料完整或全部来源已重新核验。** 页尾“每一程心动，都有来处”可展开国家统计、参考文献检索与核验记录；3本书仅核书目，5篇行前短文已读正文。地图另有258个入口，不混入内容覆盖统计。UNESCO批量索引权限待澄清，本版不分发或计入。详见[资料库说明](docs/knowledge-base.md)。
+公共旅行资料覆盖34个国家与地区、72个目的地、180条景点资料（形成181张景点/季节卡），其中29条有逐点核对的详卡；另有15个地区31项风味、6地12条行前阅读及201份去重参考资料。页尾“旅行知识库与参考资料”可查看国家统计、原文和查阅记录。**收录不等于每个地点知识完整。** 3本书仅核书目，2部纪录片仅核官方简介；地图另有258个入口，不混入内容统计。详见[资料库说明](docs/knowledge-base.md)。
 
 攻略新增“在这里，尝一口当地的生活”和“出发前，先认识这里”。可查看地方风味的官方出处、行前文章/书目、推荐理由与现场观察问题。资料尚未补齐的目的地保留待补提示。
 
@@ -44,13 +44,13 @@ A seasonal travel calendar with a private, browser-local destination list.
 
 ## 在线打不开时
 
-前往[0.2.1固定版本下载页](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.2.1)，在页面底部的Assets（附件）里下载 **Soya-Travel-Calendar-v0.2.1.html**。等待下载完成后，双击文件或把它拖进浏览器打开。文件包含照片，约48.7MB，第一次展开会比普通网页慢；请等到标题和地球出现。
+前往[0.3.0固定版本下载页](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.3.0)，在页面底部的Assets（附件）里下载 **Soya-Travel-Calendar-v0.3.0.html**。等待下载完成后，双击文件或把它拖进浏览器打开。文件包含照片，首次展开会比普通网页慢；请等到标题和地球出现。
 
 离线版为缩小下载体积使用压缩照片，在线版保留较大首图。下载文件已通过本地网页预览验证；直接双击本地文件的方式因验收工具协议限制未自动验证。离线版包含主要交互与历史参考资料，无需安装软件。离线时不能获取新的汇率或关注度。浏览器对本地文件的存储方式不同，换文件路径、换版本或清除缓存前请导出JSON备份；保留旧HTML与备份即可回到旧版本。若不能保存，检查浏览器是否禁止存储或处于隐私模式。
 
 ## 谁适合用、能做什么
 
-适合从收藏和灵感开始安排假期的人：先看季节，再看预算与时间；也适合整理自己想去、计划中、去过的地点。已有73处带独立风景照片的旅行灵感、14份详细攻略、42张体验照片，另有心愿单、行程篮和出行资料检查。
+适合从收藏和灵感开始安排假期的人：先看季节，再看预算与时间；也适合整理自己想去、计划中、去过的地点。已有73张旅行灵感卡、72套目的地照片、14份详细攻略、42张体验照片（不符季节的婺源旧图已撤下），另有心愿单、行程篮和出行资料检查。
 
 不能代替旅行社、实时订票或官方入境判断。预算是情景估算，行程由本地资料与规则生成；没有接通在线大模型、可订机酒库存、私人小红书收藏夹同步、跨设备账号。保存小红书链接只会保存来源，不会自动读取笔记。签证示例仅按中国大陆普通护照，出发地示例为杭州/上海；其他国籍与出发城市需自行另核。自建月份是你的记录，不是官方季节判断。
 
@@ -77,7 +77,7 @@ A seasonal travel calendar with a private, browser-local destination list.
 
 ## 给开发者：自己运行和贡献
 
-普通使用者可以跳过。需要Node.js22.12或以上版本和Git。第一次：下载[固定源代码ZIP](https://github.com/soyoungzsy/soya-travel-calendar/archive/refs/tags/v0.2.1.zip)，解压；打开系统的“终端”，输入`cd `（末尾有空格），把解压后的文件夹拖入窗口并按回车，再逐行执行：
+普通使用者可以跳过。需要Node.js22.12或以上版本和Git。第一次：下载[固定源代码ZIP](https://github.com/soyoungzsy/soya-travel-calendar/archive/refs/tags/v0.3.0.zip)，解压；打开系统的“终端”，输入`cd `（末尾有空格），把解压后的文件夹拖入窗口并按回车，再逐行执行：
 
 ```sh
 npm ci
@@ -92,6 +92,6 @@ npm run dev
 
 ## 版本、许可与维护
 
-当前为0.2.1试用版：[更新记录](CHANGELOG.md) · [固定版本](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.2.1) · [MIT代码许可](LICENSE) · [第三方素材](THIRD_PARTY_NOTICES.md)。照片保留各自许可，不随代码变成MIT；作者和原始来源见[图片署名](docs/media-credits.md)。公开可见的小红书照片不能据此随意转载。
+当前为0.3.0试用版：[更新记录](CHANGELOG.md) · [固定版本](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.3.0) · [MIT代码许可](LICENSE) · [第三方素材](THIRD_PARTY_NOTICES.md)。照片保留各自许可，不随代码变成MIT；作者和原始来源见[图片署名](docs/media-credits.md)。公开可见的小红书照片不能据此随意转载。
 
 更新前导出地点，保留旧版本与备份。删除下载的项目文件即可卸载；浏览器中已存的数据需要单独清除。删除公开仓库或撤销发布不能收回别人已下载的副本。验证范围和未测项见[发布检查](RELEASE_REVIEW.md)。
