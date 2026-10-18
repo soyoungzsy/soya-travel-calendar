@@ -1,0 +1,37 @@
+import {TravelEnrichment} from './TravelEnrichment.jsx';
+import {foodFor,readingFor} from './travel-enrichment.mjs';
+import {destinations} from './data.mjs';
+import React,{useState} from 'react';
+import {ArrowRight,BookmarkSimple,Clock,Leaf,Bank,ArrowSquareOut} from '@phosphor-icons/react';
+import {activeEvents,categoryName,cityPOIs,getPOIPhoto,matchesPOISeason} from './knowledge.mjs';
+
+export function POIPhoto({point,className=''}){const photo=getPOIPhoto(point);if(!photo)return null;return <figure className={'poi-photo '+className}><img src={photo.thumbnail||photo.src} alt={photo.caption||photo.photoSubject||photo.place||point.name} loading="lazy"/><figcaption><a href={photo.sourcePage} target="_blank" rel="noreferrer">{photo.displayCaption||photo.caption||photo.photoSubject||photo.place||point.name} · {photo.author} · {photo.license}</a>{point.photoNote&&<span> · {point.photoNote}</span>}</figcaption></figure>;}
+export function ScenicTile({point,onOpen,onSave,saved=false,compact=false}){
+ const photo=getPOIPhoto(point),indexed=point.recordKind==='heritage-index';
+ return <article className={'scenic-tile '+(compact?'compact':'')+(photo?' with-photo':'')}><button className="scenic-save" aria-label={(saved?'取消收藏':'收藏')+point.name} aria-pressed={saved} onClick={()=>onSave(point.id)}><BookmarkSimple size={18} weight={saved?'fill':'regular'}/></button><button className="scenic-open" onClick={()=>onOpen(point.id)}>{photo&&<img src={photo.thumbnail||photo.src} alt={photo.caption||photo.photoSubject||photo.place||point.name} loading="lazy"/>}<div className="scenic-tile-copy"><small>{point.category==='nature'?<Leaf size={13}/>:<Bank size={13}/>} {categoryName[point.category]} · {indexed?'官方地点索引':point.seasonLabel||'体验卡片'}</small><h4>{point.name}</h4><p>{point.whyGo||`${point.inscribedYear}年列入世界遗产名录；建造年代、开放与旅行时节需进一步核验。`}</p><span>{indexed?'阅读官方地点资料':'为什么值得去'}<ArrowRight size={13}/></span></div></button>{photo?.caption&&<p className="scenic-caption">{photo.displayCaption||photo.caption} · <a href={photo.sourcePage} target="_blank" rel="noreferrer">{photo.author} · {photo.license}</a></p>}</article>;
+}
+export function ScenicCards({destination,start,end,onOpen,onSave,saved=[]}){
+ const [allSeasons,setAllSeasons]=useState(false),all=cityPOIs(destination.id,start,end,{allSeasons:true}),points=cityPOIs(destination.id,start,end,{allSeasons});
+ if(!all.length)return null;
+ return <section className="guide-section scenic-section" id="guide-moments"><div className="scenic-section-heading"><div><p className="eyebrow">A CLOSER LOOK / 看见具体的风景</p><h3>这座城，值得停下来的地方</h3></div><button className="text-button" aria-pressed={allSeasons} onClick={()=>setAllSeasons(!allSeasons)}>{allSeasons?'只看当季与全年':'查看其他季节'}<ArrowRight size={13}/></button></div><p className="scenic-intro">全年人文持续展示；自然体验按所选时节筛选。点开卡片，读看点、历史与出发准备。</p><div className="scenic-grid">{points.map(p=><ScenicTile point={p} key={p.id} onOpen={onOpen} onSave={onSave} saved={saved.includes(p.id)}/>)}</div>{!points.length&&<p className="notice">这段时间尚无已匹配的具体景观卡片，可查看其他季节的资料；不据此承诺花况或开放。</p>}</section>;
+}
+export function POIDetail({point,start,end,onSave,saved}){
+ const parent=destinations.find(d=>d.id===point.parentId),indexed=point.recordKind==='heritage-index',events=activeEvents(point,start,end),matched=matchesPOISeason(point,start,end);
+ return <><POIPhoto point={point} className="poi-detail-cover"/><div className="dialog-body poi-detail"><div className="poi-heading"><div><p className="eyebrow">{point.country} / {categoryName[point.category]}</p><h2>{point.name}</h2></div><button className="icon-button" aria-label={saved?'取消收藏到心愿单':'收藏到心愿单'} aria-pressed={saved} onClick={()=>onSave(point.id)}><BookmarkSimple size={24} weight={saved?'fill':'regular'}/></button></div>
+ {indexed?<><p className="lead-copy">这里先收录可追溯的官方地点索引。它为何入选、具体参观路线与适合季节，仍需补齐对应的攻略核验。</p><div className="poi-facts"><div><small>名录分类</small><strong>{categoryName[point.category]}</strong></div><div><small>列入名录年份</small><strong>{point.inscribedYear||'待核'}</strong></div></div><p className="notice">入遗年份不是建造年代。当前不据名录年份生成人物故事、中国朝代对照或适合旅行的季节。</p><a className="secondary" href={point.sourceURL} target="_blank" rel="noreferrer">阅读 UNESCO 官方地点介绍<ArrowSquareOut size={15}/></a><p className="fine-print">来源：UNESCO DataHub whc001 · 2026-10-18索引快照 · CC BY-SA 4.0。这里只使用名称、分类、国家关联、坐标和入遗年份，不复制其图片与介绍全文。</p></>:<>
+ <p className="lead-copy">{point.whyGo}</p><div className="poi-facts"><div><small>旅行时节</small><strong>{point.seasonLabel||'时节参考'}</strong></div><div><small>资料核验</small><strong>{point.checkedAt||'尚未逐点复核'}</strong></div></div>{!matched&&<p className="notice">这张卡片不在当前所选时段的季节窗口内，可先收藏，换一个季节再安排。</p>}
+ {point.experience&&<section className="poi-section"><h3>到这里，怎样体验</h3><p>{point.experience}</p></section>}
+ {point.originalUse&&<section className="poi-section"><h3>这里原来做什么用</h3><p>{point.originalUse}</p></section>}
+ {point.peopleEvents&&<section className="poi-section"><h3>人物、事件与留下的痕迹</h3><p>{point.peopleEvents}</p></section>}
+ {point.lookFor?.length>0&&<section className="poi-section"><h3>现场值得细看的地方</h3><ol>{point.lookFor.map(x=><li key={x}>{x}</li>)}</ol></section>}
+ {(point.chronology||point.datesLabel)&&<section className="poi-section"><h3>把它放回历史时间里</h3>{point.datesLabel&&<p>{point.datesLabel}</p>}{Array.isArray(point.chronology)?<div className="history-phases">{point.chronology.map((phase,i)=><div key={i}><span>{phase.approximate?'约':''}{historicalYear(phase.start)}{phase.end!==phase.start?'—'+historicalYear(phase.end):''}</span><strong>{phase.label}</strong></div>)}</div>:<p>{point.chronology}</p>}{point.chinaParallel&&<div className="china-parallel"><small>同一时期的中国</small><p>{point.chinaParallel}</p></div>}</section>}
+ {point.historySignificance&&<section className="poi-section"><h3>它对文化与历史意味着什么</h3><p>{point.historySignificance}</p></section>}
+ {point.storyType&&<div className="poi-story-label">内容性质：{point.storyType}。{point.factNotes&&<details><summary>史料说明</summary><p>{point.factNotes}</p></details>}</div>}
+ {events.length>0&&<section className="poi-section"><h3>这段日期还能遇见</h3>{events.map(e=><article className="poi-event" key={e.id}><h4>{e.name}</h4><p>{e.start}—{e.end} · {e.place}</p><p>{e.note}</p><a href={e.sourceURL} target="_blank" rel="noreferrer">核对官方展讯<ArrowSquareOut size={13}/></a></article>)}</section>}
+ <section className="poi-section"><h3>出发前，留意这些</h3>{point.durationEstimate&&<p><Clock size={14}/> {point.durationEstimate}</p>}{point.bookingAndAccess&&<p>{point.bookingAndAccess}</p>}{point.visitNote&&<p>{point.visitNote}</p>}{point.seasonNotice&&<p>{point.seasonNotice}</p>}{point.seasonality?.note&&<p>{point.seasonality.note}</p>}</section>
+ {parent&&(foodFor(parent)||readingFor(parent))&&<details className="poi-enrichment"><summary>目的地周边风味与行前一读</summary><TravelEnrichment destination={parent}/></details>}
+ <section className="poi-section poi-sources"><h3>这张卡片的依据</h3><p>{point.verification} · 历史事实与编辑游览建议分别呈现；开放、票价、花况和潮时按出行日另核。</p>{(point.sources||[]).map((s,i)=><a href={s.url} target="_blank" rel="noreferrer" key={s.url+i}><span>{s.authority||'资料来源'}</span><strong>{s.title}</strong><small>{s.publishedAt&&`发布 ${s.publishedAt} · `}{s.accessedAt&&`核对 ${s.accessedAt} · `}{s.accessLevel==='body-verified'?'已读来源正文':s.accessLevel==='not-rechecked'?'本轮未重新核验':s.accessLevel}</small><ArrowSquareOut size={14}/></a>)}</section>
+ </>}
+ </div></>;
+}
+function historicalYear(year){if(!Number.isFinite(year))return'年代待核';return year<0?'公元前'+Math.abs(year):'公元'+year;}

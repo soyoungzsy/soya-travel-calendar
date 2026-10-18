@@ -52,6 +52,8 @@ export function visaAssessment(d,profile,start,end,catalog,transit='unknown'){
  if(held?.held){status='已持签证 · 仍需核验';summary='已登记持有该目的地签证。需确认本次出行时有效、入境次数足够，并满足单次停留限制。';
   if(!held.expiry)checks.push('补充现有签证的有效期');else if(held.expiry<start){status='签证在出发前已到期';tone='warning';checks.push('现有签证在预计出发前已到期，不能据此按已持有效签证安排');}else if(held.expiry<end){status='有效期与停留许可需核对';checks.push('签证在假期结束前到期：入境有效期与获准停留期不同，需按实际入境/离境日核验目的地规则');}
   if(!held.entries||held.entries==='unknown')checks.push('确认单次/多次入境及剩余入境次数');
+  if(held.entries==='single')checks.push('单次签证需核对是否已使用；照片无法证明剩余入境次数');
+  if(held.issuedOn&&held.issuedOn>start){tone='warning';checks.push('录入的签发日晚于预计出发日，请核对日期，当前不能据此安排出行');}
   if(!held.maxStay)checks.push('补充签证页所写的单次停留上限');else if(n>+held.maxStay){checks.push('假期总天数超过录入的单次停留上限，需按实际入境至离境日期计算停留，不能把交通日直接等同境内停留');}
  }else if(policy){
   if(policy.method.includes('有条件')){status='有条件免签 · 待核资格';summary='该政策有第三国签证或居留资格要求，不能仅凭中国护照直接套用。';checks.push(d.policy==='阿根廷'?'阿根廷底稿条件涉及合格美国签证或美国绿卡；日本、韩国签证不能据此满足条件':'核对官方列明的第三国签证/居留类别、有效性与入境次数');if(profile.visas?.美国?.held)checks.push('已登记美国签证，但仍需核验其签证类别与有效期是否符合此项条件');}

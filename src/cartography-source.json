@@ -1,0 +1,15 @@
+{
+  "provider": "Natural Earth",
+  "dataset": "Admin 0 – Countries",
+  "datasetVersion": "5.1.1",
+  "releaseTag": "v5.1.2",
+  "sourceRevision": "9380cca83db5f9aef52d5e762765100745f84b27",
+  "publishedAt": "2022-05-13",
+  "checkedAt": "2026-10-18",
+  "sourceScale": "1:10,000,000",
+  "display": "simplified and quantized for a travel globe; not a survey or navigation boundary",
+  "features": 258,
+  "sourceURL": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/",
+  "licenseURL": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "boundaryConvention": "Natural Earth default de facto display; no sovereignty determination"
+}

@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.2.0 — 2026-10-18
+
+Country exploration and a sourced sight library / 国家探索与有依据的景点资料库。
+
+- Click country names or search258 map units; browse city/point guides with independent wishlist bookmarks. UNESCO batch redistribution is disabled pending rights clarification.
+-175 point records /176 season cards, including22 newly checked detailed records; historic use, people/events, field observations and approximate Chinese historical parallels.
+- Computed library colophon:34 content countries/regions,72 destinations,175 point records and182 URL-deduplicated references; searchable coverage and per-use verification states.
+-26 locally sourced food experiences across13 regions and8 pre-trip reading entries across4 places;5 articles read and3 catalogue-only books, clearly distinguished.
+- Desktop globe/card split2:1, independently scrollable card panel; phone stacking.
+- Perennial cultural value, spring/autumn landscape variants, fixed exhibition dates and conditional tide/flower checks are kept distinct.
+- Smaller page title, brighter oceans, historical NASA cloud layer; versioned Natural Earth v5.1.1 map source and five licensed point photos with accurate subjects.
+- Optional local passport/visa photo assistance, editable confirmation and allowlisted browser-only fields; original scans/raw OCR never enter the project, exports or server. Portable HTML keeps manual entry.
+- Explicit, reviewable public-data refresh commands; existing personal-list export format remains compatible. Switching domains does not migrate browser-local data.
+
+Limits: factual index coverage is not global guide completeness; many point photos and travel details remain unverified. No live ticket/hotel inventory, private favorites sync, cloud accounts or entry guarantee.
+
 ## 0.1.0 — 2026-10-18
 
 First open-source preview / 首个开源试用版。

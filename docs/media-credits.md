@@ -130,3 +130,15 @@ Updated 2026-10-18. Code licensing does not change third-party media licenses. �
 |中国四川·九寨沟|[Russ Lee](https://unsplash.com/photos/pine-branch-reflected-on-a-calm-blue-lake-1EhfcRlva7g)|[Unsplash License](https://unsplash.com/license)|
 
 图片经尺寸压缩与网页裁切显示；保留原始作者及来源。CC BY-SA素材的派生图片按对应许可处理，不能给整套图片换成MIT。
+
+## 0.2.0 景点照片与历史云层
+
+本轮JPEG已移除非必要相机/应用元数据，不改动压缩图像像素。所有照片都为资料摄影，不是当前花况、水量或人流。
+
+- `/points/kuang-si-falls-1280.jpg` — 老挝琅勃拉邦周边·光西瀑布下游叠瀑，2013 年 11 月历史照片；非主瀑全景，水量与水色随天气变化。 — Clay Gilliland — [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) — [原始说明页](https://commons.wikimedia.org/wiki/File:Kuang_Si_Falls_%2812236561856%29.jpg)。resized derivative
+- `/points/karnak-great-hypostyle-1280.jpg` — 埃及卢克索·卡纳克神庙大柱厅，中列石柱与浮雕，1998 年 11 月历史照片。 — Arian Zwegers — [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) — [原始说明页](https://commons.wikimedia.org/wiki/File:Karnak%2C_Temple_of_Amun%2C_Great_Hypostyle_Hall_%286201874490%29.jpg)。resized derivative
+- `/points/karnak-shrine-seti-ii-1280.jpg` — 埃及卢克索·卡纳克神庙塞提二世圣舟祠内部石墙浮雕，2012 年 9 月历史照片；非帝王谷墓室。 — Jorge Láscar — [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) — [原始说明页](https://commons.wikimedia.org/wiki/File:Karnak_temple_complex_%2814023878368%29.jpg)。resized derivative
+- `/points/wat-xieng-thong-tree-of-life-1280.jpg` — 老挝琅勃拉邦·相通寺后墙生命树马赛克局部（树干及动物纹饰），2004 年历史照片。 — Caitriana Nicholson — [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) — [原始说明页](https://commons.wikimedia.org/wiki/File:Wat_Xieng_Thong_-_Tree_of_Life_%2833186088900%29.jpg)。resized derivative
+- `/points/osmanthus-species-reference.jpg` — 桂花物种参考，2004 年 10 月历史照片，拍摄地点未核实；不作为满觉陇或杭州植物园实拍，非当日花况。 — Juni from Kyoto, Japan — [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) — [原始说明页](https://commons.wikimedia.org/wiki/File:Osmanthus_fragrans.jpg)。resized derivative
+
+- `/textures/earth-clouds-2002.jpg` — NASA Blue Marble (2002)历史多日云层合成；NASA Goddard Space Flight Center、Reto Stöckli、Robert Simmon。[官方说明](https://science.nasa.gov/earth/earth-observatory/the-blue-marble-true-color-global-imagery-at-1km-resolution/)、[源文件](https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57747/cloud_combined_2048.jpg)。去除非必要元数据，显示透明度与海洋颜色在渲染时调整；不是实时气象。

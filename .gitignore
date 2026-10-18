@@ -14,3 +14,6 @@ local-data/
 *.pem
 *.key
 !examples/my-places.sample.json
+
+# Generated OCR dependencies; never put document scans in public/ocr.
+public/ocr/

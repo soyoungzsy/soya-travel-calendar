@@ -1,0 +1,21 @@
+// Reproduce the pinned public-domain cartographic snapshot; does not claim live borders.
+import fs from 'node:fs';
+import {topology} from 'topojson-server';
+import {presimplify,simplify,quantile} from 'topojson-simplify';
+import {quantize} from 'topojson-client';
+import {geoArea} from 'd3-geo';
+const revision='9380cca83db5f9aef52d5e762765100745f84b27';
+const source=`https://raw.githubusercontent.com/nvkelso/natural-earth-vector/${revision}/geojson/ne_10m_admin_0_countries.geojson`;
+const input=process.argv[2];
+const raw=input?JSON.parse(fs.readFileSync(input,'utf8')):await fetch(source,{signal:AbortSignal.timeout(60000)}).then(r=>{if(!r.ok)throw new Error('Natural Earth source unavailable');return r.json();});
+if(raw.features?.length!==258)throw new Error('Pinned source coverage changed; do not overwrite the existing map.');
+const previous=JSON.parse(fs.readFileSync('src/country-labels.json','utf8'));
+const countries=raw.features.map(f=>{const p=f.properties,code=[p.ISO_A2_EH,p.ISO_A2].find(x=>/^[A-Z]{2}$/.test(x))||null,old=previous.find(x=>code&&x.iso2===code),region=['HK','MO','TW'].includes(code);return{id:p.ADM0_A3,nameZh:old?.nameZh||p.NAME_ZH||p.NAME_EN||p.NAME,nameEn:p.NAME_EN||p.ADMIN,coord:old?.coord||[p.LABEL_X,p.LABEL_Y],area:geoArea(f),priority:old?.priority||Math.max(30,Math.min(85,90-p.LABELRANK*7)),kind:region?'region':p.TYPE==='Sovereign country'||p.TYPE==='Country'?'country':'region',...(region?{parentCountry:'CN'}:{}),iso2:code,sourceName:p.ADMIN,anchorMethod:old?.anchorMethod||'Natural_Earth_label_point',continent:p.CONTINENT};});
+const clean={type:'FeatureCollection',features:raw.features.map(f=>({type:'Feature',id:f.properties.ADM0_A3,properties:{},geometry:f.geometry}))};
+const pre=presimplify(topology({countries:clean})),cut=quantile(pre,.16),protectedArcs=new Set();
+const collect=value=>{if(Array.isArray(value))value.forEach(collect);else if(Number.isInteger(value))protectedArcs.add(value<0?~value:value);};
+for(const g of pre.objects.countries.geometries)if(countries.find(c=>c.id===g.id)?.area<.0001)collect(g.arcs);
+for(const i of protectedArcs)for(const point of pre.arcs[i])point[2]=Infinity;
+const world=quantize(simplify(pre,cut),1000001);
+fs.writeFileSync('src/world.json',JSON.stringify(world)+'\n');fs.writeFileSync('src/country-labels.json',JSON.stringify(countries,null,2)+'\n');
+console.log(`Prepared ${countries.length} map units. Tiny map-unit arcs retained; compare sources/metadata and review changes before publication.`);

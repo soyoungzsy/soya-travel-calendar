@@ -1880,5 +1880,14 @@
         "panorama": false
       }
     ]
+  },
+  "earthClouds": "/textures/earth-clouds-2002.jpg",
+  "earthCloudSource": {
+    "title": "NASA Blue Marble (2002) — historical cloud composite",
+    "officialImagePage": "https://science.nasa.gov/earth/earth-observatory/the-blue-marble-true-color-global-imagery-at-1km-resolution/",
+    "sourceFile": "https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57747/cloud_combined_2048.jpg",
+    "credit": "NASA Goddard Space Flight Center; Reto Stöckli and Robert Simmon",
+    "licenseURL": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "dataPeriod": "2002 publication; historical multiday cloud composite, not current weather"
   }
 }

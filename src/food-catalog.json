@@ -1,0 +1,668 @@
+[
+  {
+    "regionKey": "hangzhou",
+    "nameZh": "杭州",
+    "country": "中国",
+    "regionScope": "杭州市；面向西湖与茶文化行程",
+    "foods": [
+      {
+        "name": "龙井虾仁",
+        "description": "把龙井茶的香气带进虾仁的轻炒做法，白色虾仁与绿色茶叶相衬，重在虾肉的嫩与茶香的细。它让茶园之外的杭州，也能从一道菜里被记住。",
+        "experienceTip": "编辑建议：茶山或茶叶博物馆行程后安排一顿杭帮菜，点菜时询问所用茶叶与虾的做法；不把全年出菜等同于全年都有当季新茶。",
+        "regionScope": "杭州杭帮菜；不表示虾必定来自西湖",
+        "evidenceNote": "文化和旅游部正文列入特色美食；具体做法读自杭州官方英文网站转载的 CGTN 正文。未采用乾隆误放茶叶等起源传说。",
+        "sources": [
+          {
+            "authority": "中华人民共和国文化和旅游部",
+            "title": "杭州“逐梦下姜，问茶富春”之旅",
+            "url": "https://zhuanti.mct.gov.cn/csxz2022/zhejiang/detail/1644.html",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-tourism"
+          },
+          {
+            "authority": "杭州市人民政府新闻办公室英文网站（原文 CGTN）",
+            "title": "Travelogue: Eating your way through Hangzhou",
+            "url": "https://www.ehangzhou.gov.cn/2020-12/24/c_275707.htm",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-government-republication"
+          }
+        ],
+        "id": "food:hangzhou:1",
+        "scope": "city"
+      },
+      {
+        "name": "东坡肉",
+        "description": "带皮五花肉配黄酒、酱油与糖等调味后慢慢烹熟，是杭州代表性的红烧肉菜。值得留意肥瘦层次和软糯口感，也能把餐桌连接到东坡与西湖的城市记忆。",
+        "experienceTip": "编辑建议：适合两三人分食一道，与清淡蔬菜或茶香菜搭配；菜名关联苏轼，犒劳浚湖民工的具体起源故事按地方传说理解。",
+        "regionScope": "杭州杭帮菜",
+        "evidenceNote": "做法采用2024年官方标准报道；不把苏轼亲自创制视为已证实的唯一源头。",
+        "sources": [
+          {
+            "authority": "杭州市人民政府新闻办公室英文网站",
+            "title": "Hangzhou sets culinary standards for iconic local cuisine",
+            "url": "https://www.ehangzhou.gov.cn/2024-12/11/c_291955.htm",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-government"
+          },
+          {
+            "authority": "杭州市人民政府新闻办公室英文网站（原文 CGTN）",
+            "title": "Travelogue: Eating your way through Hangzhou",
+            "url": "https://www.ehangzhou.gov.cn/2020-12/24/c_275707.htm",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-government-republication"
+          }
+        ],
+        "id": "food:hangzhou:2",
+        "scope": "city"
+      }
+    ],
+    "destinationIds": [
+      "hangzhou-west-lake"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "regionKey": "beijing",
+    "nameZh": "北京",
+    "country": "中国",
+    "regionScope": "北京市",
+    "foods": [
+      {
+        "name": "北京烤鸭",
+        "description": "烤制后的鸭肉切片，配薄饼、甜面酱与葱丝等同食，是北京饮食中很有仪式感的一餐。除了皮与肉的口感，还能观察片鸭、卷饼这些延续至今的餐桌技艺。",
+        "experienceTip": "编辑建议：留出从容吃一餐的时间，先试一口鸭肉，再用少量酱和配料卷饼；本卡只推荐菜品与技艺，不为具体门店作质量保证。",
+        "regionScope": "北京；技艺正文以挂炉烤鸭为例",
+        "evidenceNote": "文旅局2026年正文确认烤鸭为当地经典美食；具体食用方式读自东城区政府技艺介绍。",
+        "sources": [
+          {
+            "authority": "北京市文化和旅游局",
+            "title": "北京市文化和旅游局联合高德发布“畅游北京”扫街榜及文旅地图——全国首个非遗榜单同时上线",
+            "url": "https://whlyj.beijing.gov.cn/zwgk/xwzx/gzdt/202604/t20260413_4581187.html",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-tourism"
+          },
+          {
+            "authority": "北京市东城区人民政府",
+            "title": "全聚德挂炉烤鸭技艺",
+            "url": "https://www.bjdch.gov.cn/ztzl/cyqn/jsmsjy/202407/t20240716_3750667.html",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-government"
+          }
+        ],
+        "id": "food:beijing:1",
+        "scope": "city"
+      },
+      {
+        "name": "老北京炸酱面",
+        "description": "面条、炸酱和随季节更换的菜码共同组成这一碗家常风味。黄瓜丝、豆芽等带来不同口感，值得尝的不只是浓厚酱味，还有四季蔬菜与面条的搭配。",
+        "experienceTip": "编辑建议：可以把它安排成胡同散步中间的一顿便饭，先少放酱、逐渐拌匀，再按自己的口味补加，留意当季菜码。",
+        "regionScope": "北京",
+        "evidenceNote": "官方正文支持手擀/抻面等形式、少酱及四季菜码；不采用慈禧从西安带回做法的民间起源故事。",
+        "sources": [
+          {
+            "authority": "北京市文化和旅游局",
+            "title": "北京市文化和旅游局联合高德发布“畅游北京”扫街榜及文旅地图——全国首个非遗榜单同时上线",
+            "url": "https://whlyj.beijing.gov.cn/zwgk/xwzx/gzdt/202604/t20260413_4581187.html",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-tourism"
+          },
+          {
+            "authority": "北京市文化和旅游局宣传中心・北京旅游网",
+            "title": "老北京炸酱面，吃一碗不过瘾",
+            "url": "https://s.visitbeijing.com.cn/gallery/19829",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-tourism"
+          }
+        ],
+        "id": "food:beijing:2",
+        "scope": "city"
+      }
+    ],
+    "destinationIds": [
+      "beijing-autumn"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "regionKey": "kyoto",
+    "nameZh": "京都",
+    "country": "日本",
+    "regionScope": "京都市",
+    "foods": [
+      {
+        "name": "京怀石",
+        "description": "以当季食材分多道呈现的京都料理，调味、盛器和摆盘共同表现季节。吃的过程像慢慢读一幅时令画卷，适合希望把一餐也作为文化体验的旅行者。",
+        "experienceTip": "编辑建议：先看菜单与总价，再决定是否预订；观察器皿、叶片装饰和食材如何对应季节。鱼汤、肉类和海鲜使用情况应提前向餐厅确认。",
+        "regionScope": "京都料理类型；并非固定全年菜单",
+        "evidenceNote": "官方正文说明季节食材、盛器、简洁调味，并明确现代怀石可含肉类海鲜。",
+        "sources": [
+          {
+            "authority": "京都市・京都市观光协会（Kyoto City Official Guide）",
+            "title": "Food & Drink",
+            "url": "https://kyoto.travel/en/food-and-drink",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-tourism"
+          }
+        ],
+        "id": "food:kyoto:1",
+        "scope": "city"
+      },
+      {
+        "name": "汤豆腐（Yudofu）",
+        "description": "豆腐在桌边陶锅中缓缓加热，再蘸调味汁食用，是京都官方介绍的冬季代表菜。做法看似朴素，却适合用一顿安静的热食，感受豆腐本味与京都饮食的细处。",
+        "experienceTip": "编辑建议：秋冬寺院散步后可安排这类热食；留意烫口。若需要纯素或有饮食禁忌，单独核对汤底和蘸汁，不能只凭“豆腐”判断。",
+        "regionScope": "京都；冬季更贴合官方推荐情境",
+        "evidenceNote": "不声称南禅寺附近每一家均供应，也不把食材名称当作无过敏原或纯素保证。",
+        "sources": [
+          {
+            "authority": "京都市・京都市观光协会（Kyoto City Official Guide）",
+            "title": "Food & Drink",
+            "url": "https://kyoto.travel/en/food-and-drink",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-tourism"
+          }
+        ],
+        "id": "food:kyoto:2",
+        "scope": "city"
+      }
+    ],
+    "destinationIds": [
+      "kyoto-spring",
+      "kyoto-autumn"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "regionKey": "luang-prabang",
+    "nameZh": "琅勃拉邦",
+    "country": "老挝",
+    "regionScope": "琅勃拉邦地区",
+    "foods": [
+      {
+        "name": "河苔小食（Khaiphaen／Kaipen）",
+        "description": "由淡水绿藻制成的当地小食，在官方旅游网站的琅勃拉邦饮食清单中占有一席。与寺庙、河流一起看，它提供了认识这座河畔古城的另一种入口：餐桌上的水乡风味。",
+        "experienceTip": "编辑建议：把它当作一顿当地餐中的少量尝鲜，向店员了解具体制作与蘸料；不同店配方不同，不预设一定是素食或不含特定配料。",
+        "regionScope": "琅勃拉邦饮食；淡水藻类制品",
+        "evidenceNote": "官方正文只确认淡水绿藻小食，未详列煎炸步骤、芝麻与蘸料配方，卡片不补写这些细节。",
+        "sources": [
+          {
+            "authority": "琅勃拉邦官方旅游网站（Tourism Luang Prabang）",
+            "title": "Luang Prabang Cuisine",
+            "url": "https://tourismluangprabang.org/things-to-do/culture-history/luang-prabang-cuisine/",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-tourism"
+          }
+        ],
+        "id": "food:luang-prabang:1",
+        "scope": "city"
+      },
+      {
+        "name": "琅勃拉邦传统炖菜（Ork Lam／Or Lam）",
+        "description": "官方旅游网站把 Ork Lam 列为琅勃拉邦传统炖菜。它适合用来认识当地餐桌的日常一面，也可以把品尝延伸为对香草、蔬菜和地方烹调方式的好奇。",
+        "experienceTip": "编辑建议：点餐时问清当日肉类、蔬菜及辣度；若想深入，可寻找介绍当地烹调技法的课程，并在预订前核实具体菜目与日期。",
+        "regionScope": "琅勃拉邦；不推广为老挝所有地区统一配方",
+        "evidenceNote": "正文仅给传统炖菜名称，另有当地烹饪课和香草蔬菜概述；未声称所有课程都教授 Or Lam。",
+        "sources": [
+          {
+            "authority": "琅勃拉邦官方旅游网站（Tourism Luang Prabang）",
+            "title": "Luang Prabang Cuisine",
+            "url": "https://tourismluangprabang.org/things-to-do/culture-history/luang-prabang-cuisine/",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-tourism"
+          }
+        ],
+        "id": "food:luang-prabang:2",
+        "scope": "city"
+      }
+    ],
+    "destinationIds": [
+      "luang-prabang-river"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "regionKey": "chengdu",
+    "nameZh": "成都",
+    "country": "中国",
+    "regionScope": "成都市；可放在九寨沟往返途经成都的行程，不能标作九寨沟本地菜",
+    "coverageNote": "本轮两项采用官方地方志与商务部老字号资料补充，未取得成都文旅局逐菜正文；来源机构应如实展示，不冒称文旅局背书。",
+    "foods": [
+      {
+        "name": "麻婆豆腐",
+        "description": "嫩豆腐与肉末、豆瓣、花椒等组合，形成麻辣与软嫩相交的川菜代表。与其只追求刺激，不如留意豆腐和肉末的口感对照，认识成都日常餐桌如何形成自己的风味。",
+        "experienceTip": "编辑建议：适合作为一桌川菜中的一道，先说明自己能接受的麻辣程度；需要避肉时应直接询问配方，豆腐菜不等同于素菜。",
+        "regionScope": "成都川菜",
+        "evidenceNote": "正文由成都市地方志编纂委员会办公室供稿；只采用做法与地域事实，陈氏生活细节和创制传奇不作为确定史实重述。",
+        "sources": [
+          {
+            "authority": "中国地方志工作办公室（国家方志馆）・供稿：成都市地方志编纂委员会办公室",
+            "title": "麻婆豆腐",
+            "url": "https://www.zhongguodiqing.cn/msdg/202006/t20200629_5148937.shtml",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-cultural-institution"
+          }
+        ],
+        "id": "food:chengdu:1",
+        "scope": "city"
+      },
+      {
+        "name": "成都担担面",
+        "description": "细面与肉臊、芽菜及香辣调味相配，是商务部老字号资料介绍的成都小吃。它的乐趣在于把面与配料拌在一起，尝到面条、肉臊和发酵蔬菜层层叠加的滋味。",
+        "experienceTip": "编辑建议：可以小份尝鲜，并与其他小吃分享；先确认辣度及是否添加芝麻酱等配料。正文用某老字号介绍作菜品资料，不等于推荐该店或确认其营业。",
+        "regionScope": "成都小吃；引用企业馆介绍的做法，不主张这是全部门店唯一配方",
+        "evidenceNote": "官方主办平台的企业馆资料，含品牌自述性质；不采用相互矛盾的起源年代或商业宣传语。",
+        "sources": [
+          {
+            "authority": "中华人民共和国商务部・老字号数字博物馆（企业馆资料）",
+            "title": "提督担担面",
+            "url": "https://lzhbwg.mofcom.gov.cn/edi_ecms_web_front/thb/detail/f6c270c212ad4cfc998168b223807727",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-hosted-enterprise-record"
+          }
+        ],
+        "id": "food:chengdu:2",
+        "scope": "city"
+      }
+    ],
+    "destinationIds": [
+      "chengdu-teahouses"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "regionKey": "jiuzhaigou",
+    "nameZh": "九寨沟",
+    "country": "中国",
+    "regionScope": "九寨沟地方饮食；与成都分开，不把历史活动当实时供应",
+    "coverageNote": "使用九寨沟管理局2009、2020年的官方历史报道证明地方饮食关联，未核实2026年具体商户菜单、营业或课程。",
+    "foods": [
+      {
+        "name": "洋芋糍粑",
+        "description": "以洋芋为主角的地方小吃，是九寨沟官方民俗美食报道列出的当地特色之一。文章还记录过游客参与制作的情景，让看湖水之外的旅行，多了一条认识地方生活的线索。",
+        "experienceTip": "编辑建议：若菜单上遇到可以少量尝试，问清烹制方法与蘸料；想体验制作须另查当期安排，2009年的活动记录不代表今天仍有固定课程。",
+        "regionScope": "九寨沟；2009年地方民俗活动所记录的食物",
+        "evidenceNote": "正文确认名称及制作体验，但未详述捣制、甜咸和调料，卡片不添配方。",
+        "sources": [
+          {
+            "authority": "九寨沟风景名胜区管理局・景区官方网站",
+            "title": "民俗风情月为你献上“九寨美食”",
+            "url": "https://www.jiuzhai.com/news/scenic-news/755-2010-12-01-17-23-13",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-scenic-authority",
+            "publishedAt": "2009-03-30"
+          }
+        ],
+        "id": "food:jiuzhaigou:1",
+        "scope": "city"
+      },
+      {
+        "name": "青稞饼",
+        "description": "青稞饼被九寨沟景区管理局的地方美食报道列为特色食品。相较只把行程装满观景点，留意一份当地饼食，也能从主食的名字开始认识九寨沟的饮食与地域生活。",
+        "experienceTip": "编辑建议：可把它作为当地餐食的尝鲜选项，询问当日制作和配料后再决定；不要把活动报道中的参赛菜品理解为每家餐厅全年都有供应。",
+        "regionScope": "九寨沟；2020年地方美食活动列名",
+        "evidenceNote": "正文支持地方食物关联，但不支持2026年实时供应、价格或特定成分保证。",
+        "sources": [
+          {
+            "authority": "九寨沟风景名胜区管理局・景区官方网站",
+            "title": "端午美食香九寨",
+            "url": "https://www.jiuzhai.com/news/scenic-news/7126-2020-06-25-10-16-48",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-scenic-authority",
+            "publishedAt": "2020-06-25"
+          }
+        ],
+        "id": "food:jiuzhaigou:2",
+        "scope": "city"
+      }
+    ],
+    "destinationIds": [
+      "jiuzhaigou-lakes"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "regionKey": "seoul",
+    "nameZh": "首尔",
+    "country": "韩国",
+    "regionScope": "首尔市；新堂洞条目更窄为中区新堂洞",
+    "foods": [
+      {
+        "name": "新堂洞即席炒年糕",
+        "description": "与拿着走的街头小食不同，新堂洞的即席年糕是在桌边锅中烹煮、边做边吃的形式。官方介绍还列出不同配料的变化，适合把一餐变成朋友间共同照看锅子的体验。",
+        "experienceTip": "编辑建议：可以在新堂洞片区游览后安排这顿饭，点餐前确认辣度、份量和加料；选店时再查当日营业情况，不沿用街区介绍中的固定时间。",
+        "regionScope": "首尔中区新堂洞；jeukseok tteokbokki 形式",
+        "evidenceNote": "官方正文确认桌边烹煮及海鲜、炸酱等变化，未给统一店价或营业时间。",
+        "sources": [
+          {
+            "authority": "首尔观光财团（Seoul Tourism Organization）・Visit Seoul",
+            "title": "Sindang-dong Tteokbokki Town",
+            "url": "https://english.visitseoul.net/area/Sindang-dong/ENP4loe2g",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-tourism",
+            "updatedAt": "2026-10-07"
+          }
+        ],
+        "id": "food:seoul:1",
+        "scope": "city"
+      },
+      {
+        "name": "雪浓汤（Seolleongtang）",
+        "description": "牛骨与牛肉等长时间炖煮形成乳白汤色，搭米饭食用，是韩国观光公社介绍的首尔地方风味。比起复杂点餐，一碗热汤能让旅行者慢下来，尝到汤与饭的日常组合。",
+        "experienceTip": "编辑建议：先尝原汤，再按店家的方式酌量加盐、胡椒或葱；具体部位和小菜随店而异，有饮食限制时单独核对。",
+        "regionScope": "起初为首尔地方风味，如今韩国各地亦有",
+        "evidenceNote": "正文支持牛骨肉类炖煮、米饭及调味；卡片不将先农祭起源传说写成已证实史实。",
+        "sources": [
+          {
+            "authority": "韩国观光公社（Korea Tourism Organization）・VISITKOREA",
+            "title": "Ox Bone Soup (설렁탕 / Seolleongtang)",
+            "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=178349",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified",
+            "publisherType": "official-tourism"
+          }
+        ],
+        "id": "food:seoul:2",
+        "scope": "city"
+      }
+    ],
+    "destinationIds": [
+      "seoul-autumn"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "regionKey": "marrakech",
+    "nameZh": "马拉喀什",
+    "country": "摩洛哥",
+    "scope": "city",
+    "foods": [
+      {
+        "name": "Tanjia 陶罐慢炖肉",
+        "description": "摩洛哥国家旅游局把 Tanjia 列为马拉喀什代表菜：羊肉或小牛肉装进陶罐，送入当地炉灶长时间烹制。它既是一道肉菜，也让人看见老城日常饮食与传统炉灶的联系。",
+        "experienceTip": "编辑建议：把它安排在老城市集步行后的正餐，点单前确认肉类和份量；别把 Tanjia 与名字相近的塔吉锅混为一谈。",
+        "sources": [
+          {
+            "authority": "摩洛哥国家旅游局（ONMT）",
+            "title": "Food & Drinks — Tanjia",
+            "url": "https://visitmorocco.com/en/travel-info/food-drinks",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified"
+          }
+        ],
+        "scope": "city",
+        "id": "food:marrakech:1"
+      },
+      {
+        "name": "德吉玛广场果汁摊体验",
+        "description": "国家旅游局在马拉喀什德吉玛广场介绍了可按口味搭配的新鲜果汁摊。比起把广场只看成建筑地标，这些饮品摊也呈现了广场作为城市公共生活与日常餐饮空间的一面。",
+        "experienceTip": "编辑建议：在广场散步时留一个饮品停留，现场确认水果、加水加冰方式与标价；这里推荐的是广场饮食体验，不保证某个摊位当前营业。",
+        "sources": [
+          {
+            "authority": "摩洛哥国家旅游局（ONMT）",
+            "title": "Food & Drinks — Fruit juice",
+            "url": "https://visitmorocco.com/en/travel-info/food-drinks",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified"
+          }
+        ],
+        "scope": "city",
+        "id": "food:marrakech:2"
+      }
+    ],
+    "destinationIds": [
+      "marrakech"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "regionKey": "luxor-nile-history",
+    "nameZh": "卢克索｜埃及全国风味参考",
+    "country": "埃及",
+    "scope": "country",
+    "foods": [
+      {
+        "name": "Koshary 米饭扁豆意面拼盘",
+        "description": "这是埃及全国性的日常主食，并非卢克索独有。米饭、扁豆、意面与鹰嘴豆组合，配炸洋葱及番茄、蒜或辣椒酱；联合国旅游组织的埃及美食册把它列入当地代表小吃。",
+        "experienceTip": "编辑建议：在参观神庙或博物馆的两个时段之间，留一顿普通埃及餐食；先少量试加酱料，再按口味调整，不以攻略中的描述代替实际菜单。",
+        "sources": [
+          {
+            "authority": "联合国世界旅游组织（UNWTO，现联合国旅游组织）",
+            "title": "Egypt — A Tour Around the World's Gastronomy（2021），第 5 页",
+            "url": "https://webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/webimages/EGIPTO_V1_0.pdf",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified"
+          },
+          {
+            "authority": "埃及旅游局 / 旅游与文物部",
+            "title": "Experience Egypt — Gastronomy（旧页现跳转首页，仅核到搜索索引摘要）",
+            "url": "https://www.experienceegypt.eg/en/attraction-details/315/gastronomy",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "search-excerpt"
+          }
+        ],
+        "scope": "country",
+        "id": "food:luxor-nile-history:1"
+      },
+      {
+        "name": "Ful 炖蚕豆与 Ta'meyyah 蚕豆饼",
+        "description": "这组埃及全国风味以蚕豆为主角：Ful 把豆子慢炖至柔软，Ta'meyyah 则将蚕豆与香草制成炸饼，常配扁面包、沙拉或芝麻酱。它们补充了古迹之外的当地日常生活。",
+        "experienceTip": "编辑建议：可以把这组食物作为出发前的早餐尝试，核对当天供应与配料；这是全国饮食参考，没有把卢克索的餐厅价格或营业情况当成已核实事实。",
+        "sources": [
+          {
+            "authority": "联合国世界旅游组织（UNWTO，现联合国旅游组织）",
+            "title": "Egypt — A Tour Around the World's Gastronomy（2021），第 5 页",
+            "url": "https://webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/webimages/EGIPTO_V1_0.pdf",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified"
+          },
+          {
+            "authority": "埃及旅游局 / 旅游与文物部",
+            "title": "Experience Egypt — Gastronomy（旧页现跳转首页，仅核到搜索索引摘要）",
+            "url": "https://www.experienceegypt.eg/en/attraction-details/315/gastronomy",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "search-excerpt"
+          }
+        ],
+        "scope": "country",
+        "id": "food:luxor-nile-history:2"
+      }
+    ],
+    "destinationIds": [
+      "luxor-nile-history"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "regionKey": "iceland",
+    "nameZh": "冰岛",
+    "country": "冰岛",
+    "scope": "country",
+    "foods": [
+      {
+        "name": "Skyr 冰岛乳制品",
+        "description": "Skyr 是冰岛传统乳制品，质感近似浓稠酸奶。官方旅游指南介绍了搭配野生越橘和奶油的吃法，也把它放进岛上乳业与保存食物的历史中；这是全国风味，不属于某个瀑布或小镇。",
+        "experienceTip": "编辑建议：在环岛行程的早餐或甜点时间尝试。莓果搭配随供应变化，不把八月采莓体验推成全年保证；需要纯素餐时另选替代品。",
+        "sources": [
+          {
+            "authority": "Visit Iceland / Business Iceland 官方旅游指南",
+            "title": "Enjoy Icelandic food — Icelandic dairy products",
+            "url": "https://www.visiticeland.com/article/enjoy-icelandic-food/",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified"
+          }
+        ],
+        "scope": "country",
+        "id": "food:iceland:1"
+      },
+      {
+        "name": "冰岛羊肉蔬菜汤",
+        "description": "官方旅游指南把羊肉蔬菜汤列为传统吃法，并介绍了羊群夏季在高地放牧、秋季归拢的生活传统。吃一碗热汤，也是在认识这片火山与草场交错的岛屿如何形成自己的餐桌。",
+        "experienceTip": "编辑建议：安排在瀑布、海岸或高地游览后的正餐，作为寒冷天气里的休息段；是否供应、具体配菜和价格仍以当天菜单为准。",
+        "sources": [
+          {
+            "authority": "Visit Iceland / Business Iceland 官方旅游指南",
+            "title": "Enjoy Icelandic food — Icelandic lamb meat",
+            "url": "https://www.visiticeland.com/article/enjoy-icelandic-food/",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified"
+          }
+        ],
+        "scope": "country",
+        "id": "food:iceland:2"
+      }
+    ],
+    "destinationIds": [
+      "iceland"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "regionKey": "arrowtown-autumn",
+    "nameZh": "皇后镇、箭镇与吉布斯顿",
+    "country": "新西兰",
+    "scope": "region",
+    "foods": [
+      {
+        "name": "湖畔炸鱼薯条",
+        "description": "炸鱼薯条是新西兰常见餐食，并非皇后镇独创。皇后镇官方旅游指南把它列作湖畔便餐选择，也介绍了使用南岛鱼类和坎特伯雷土豆的做法，让湖景散步与地方食材有了联系。",
+        "experienceTip": "编辑建议：作为湖边散步前后的简便午餐，点餐时询问当日鱼种与配料；食物来自海产供应链，不应因为在湖边吃就说成瓦卡蒂普湖捕捞的鱼。",
+        "sources": [
+          {
+            "authority": "Destination Queenstown 皇后镇官方旅游机构",
+            "title": "A Wine and Food Lover's Guide to Queenstown — Central Queenstown",
+            "url": "https://www.queenstownnz.co.nz/stories/post/a-wine-and-food-lovers-guide-to-queenstown/",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified"
+          }
+        ],
+        "scope": "country",
+        "id": "food:arrowtown-autumn:1"
+      },
+      {
+        "name": "吉布斯顿手工奶酪体验",
+        "description": "吉布斯顿位于皇后镇周边葡萄种植区，官方指南介绍了当地以绵羊、奶牛和山羊乳制作的手工奶酪。将奶酪与葡萄园景观放在一起看，能认识山谷里风景与食品生产相连的一面。",
+        "experienceTip": "编辑建议：把奶酪品尝安排在箭镇与吉布斯顿之间的半日游；可以只选奶酪，不必搭酒。若参加品酒，提前安排接送，别把骑行当成饮酒后返程方案。",
+        "sources": [
+          {
+            "authority": "Destination Queenstown 皇后镇官方旅游机构",
+            "title": "A Wine and Food Lover's Guide to Queenstown — Gibbston",
+            "url": "https://www.queenstownnz.co.nz/stories/post/a-wine-and-food-lovers-guide-to-queenstown/",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified"
+          }
+        ],
+        "scope": "region",
+        "id": "food:arrowtown-autumn:2"
+      }
+    ],
+    "destinationIds": [
+      "arrowtown-autumn"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "regionKey": "edinburgh",
+    "nameZh": "爱丁堡｜苏格兰风味参考",
+    "country": "英国",
+    "scope": "region",
+    "foods": [
+      {
+        "name": "Haggis 与萝卜、土豆",
+        "description": "Haggis 是苏格兰传统风味，并非爱丁堡独有：肉类、燕麦、洋葱与香料慢煮，经典配菜是萝卜和土豆。它也与彭斯诗歌及一月的彭斯之夜相连，把一道菜带进文学与聚餐仪式。",
+        "experienceTip": "编辑建议：在老城步行后的正餐尝试一小份，或询问素食版本；普通旅途中可以品尝菜肴，彭斯晚宴则要另查所选年份一月的具体活动。",
+        "sources": [
+          {
+            "authority": "VisitScotland 苏格兰旅游局",
+            "title": "Haggis — Scotland's national dish",
+            "url": "https://www.visitscotland.com/things-to-do/food-drink/haggis",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified"
+          }
+        ],
+        "scope": "region",
+        "id": "food:edinburgh:1"
+      },
+      {
+        "name": "Cranachan 覆盆子燕麦甜点",
+        "description": "苏格兰旅游局介绍的 Cranachan 由覆盆子、烤燕麦、蜂蜜和带威士忌风味的奶油组成。它是苏格兰范围的甜点参考，提供了在城堡、博物馆和街头演出之外认识当地餐桌的另一种入口。",
+        "experienceTip": "编辑建议：留作爱丁堡旅行的一次餐后甜点。若希望无酒精、无乳制品或有其他饮食要求，先向店家核对实际配方，不依据名字判断。",
+        "sources": [
+          {
+            "authority": "VisitScotland 苏格兰旅游局",
+            "title": "Traditional Scottish food dishes to try — Desserts and sweet treats",
+            "url": "https://www.visitscotland.com/things-to-do/food-drink/must-try-food",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified"
+          }
+        ],
+        "scope": "region",
+        "id": "food:edinburgh:2"
+      }
+    ],
+    "destinationIds": [
+      "edinburgh"
+    ],
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "regionKey": "st-petersburg",
+    "nameZh": "圣彼得堡",
+    "country": "俄罗斯",
+    "scope": "city",
+    "foods": [
+      {
+        "name": "胡瓜鱼（корюшка）季节风味",
+        "description": "圣彼得堡官方旅游网把胡瓜鱼列作城市日常文化的象征之一，并提到五月的胡瓜鱼节。它与芬兰湾的渔业和沿海生活联系紧密，为宫殿、博物馆之外的城市认识增加了一条线索。",
+        "experienceTip": "编辑建议：春季出行时优先留意当季胡瓜鱼供应；具体捕捞、节庆日期与菜单需要临行核验，不能把常年介绍推成任何月份都有同样的新鲜度。",
+        "sources": [
+          {
+            "authority": "Visit Petersburg 圣彼得堡官方旅游门户 / 城市旅游信息局",
+            "title": "The Gulf of Finland",
+            "url": "https://visit-petersburg.ru/en/leisure/places/tp-199395-finskiy-zaliv/",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified"
+          }
+        ],
+        "scope": "city",
+        "id": "food:st-petersburg:1"
+      },
+      {
+        "name": "Pyshki 甜甜圈与咖啡",
+        "description": "Pyshki 是圣彼得堡城市饮食记忆中的甜甜圈点心。官方旅游门户把它与咖啡搭配介绍，也记录了传统小店中的列宁格勒生活氛围；它让观赏宏伟建筑的路线多了一个日常生活的尺度。",
+        "experienceTip": "编辑建议：在涅瓦大街或运河步行途中留一次点心休息。这里介绍点心与城市的联系，不把官方景点页中的历史价格、排队速度或旧营业信息用于承诺。",
+        "sources": [
+          {
+            "authority": "Visit Petersburg 圣彼得堡官方旅游门户 / 城市旅游信息局",
+            "title": "Pyshechnaya (Doughnut shop) on Bolshaya Konyushennaya Street",
+            "url": "https://visit-petersburg.ru/en/leisure/restorany/pyshechnaya-na-bolshoy-konyushennoy/",
+            "accessedAt": "2026-10-18",
+            "accessLevel": "body-verified"
+          }
+        ],
+        "scope": "city",
+        "id": "food:st-petersburg:2"
+      }
+    ],
+    "destinationIds": [
+      "st-petersburg"
+    ],
+    "checkedAt": "2026-10-18"
+  }
+]
