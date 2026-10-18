@@ -32,8 +32,8 @@ test('Jiuzhaigou separates one or two park days, counts overnight stays, and has
 test('CNY-first currency conversion uses reciprocal rates and never fabricates a missing rate',()=>{
  assert.ok(Math.abs(cnyToLocal(100,.68)-147.058823529)<1e-6);assert.equal(cnyToLocal(100,.05),2000);assert.equal(cnyToLocal(100,0),null);assert.equal(cnyToLocal(100,undefined),null);assert.equal(cnyToLocal(-1,.68),null);
 });
-test('all 73 destinations have their own licensed scenery asset ready to serve',()=>{
- const media=JSON.parse(fs.readFileSync(new URL('../src/media.json',import.meta.url)));assert.equal(Object.keys(media.photos).length,destinations.length);for(const d of destinations){const p=media.photos[d.id];assert.ok(p.sourcePage&&p.licenseURL&&p.author,d.id);assert.ok(fs.existsSync(new URL('../public'+p.src,import.meta.url)));assert.ok(fs.existsSync(new URL('../public'+p.thumbnail,import.meta.url)));}
+test('every destination has an audited licensed photo or an explicit removal record',()=>{
+ const media=JSON.parse(fs.readFileSync(new URL('../src/media.json',import.meta.url)));assert.equal(Object.keys(media.photos).length+Object.keys(media.photoExceptions).length,destinations.length);for(const d of destinations){const p=media.photos[d.id];if(!p){assert.ok(media.photoExceptions[d.id]?.reason,d.id);continue;}assert.ok(p.sourcePage&&p.licenseURL&&p.author,d.id);assert.ok(fs.existsSync(new URL('../public'+p.src,import.meta.url)));assert.ok(fs.existsSync(new URL('../public'+p.thumbnail,import.meta.url)));}
 });
 test('rotation audio stays silent and does not create an audio context before user activation',async()=>{
  const original=globalThis.AudioContext;let constructed=0;globalThis.AudioContext=class{constructor(){constructed++;this.state='running';}async resume(){}async close(){}};

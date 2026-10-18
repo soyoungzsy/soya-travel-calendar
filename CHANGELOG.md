@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.3.0 — 2026-10-19
+
+- Expand the globe to its full rectangular viewport; keep projection, hit testing and pointer-anchored zoom aligned. Consume map wheel/pinch events at the map boundary, including zoom limits and controls.
+- Replace ambiguous headings with functional names, add optional help, and expand sight details inside the current city guide. Omit irrelevant domestic entry and empty enrichment/quote-provider sections.
+- Add representative, licensed POI photos; remove incorrect generic/species/season associations. Label point cards with country and city/region.
+- Add sourced Quanzhou history, foods and pre-trip programmes, plus five Hong Kong points. Computed coverage:180 points,29 detailed records,31 foods,12 reading/programme entries,201 references.
+- Audit394 existing outgoing URLs; replace confirmed broken/deleted source links and remove a gastronomy reference that now redirects to a homepage. Restricted and timed-out URLs are not claimed to be reachable.
+- Move feedback to its own footer with the owner-authorized public email. Feedback opens a visitor-reviewed email draft; no server-side email delivery is claimed.
+
+
 ## 0.2.1 — 2026-10-18
 
 - Move personal-place creation, import and backup into the top-right 我的 menu alongside passport/visa settings; remove the separate toolbar/footer entries.

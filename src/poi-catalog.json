@@ -230,7 +230,7 @@
     "recordKind": "curated-poi",
     "verification": "逐点核对来源",
     "checkedAt": "2026-10-18",
-    "photoKey": null,
+    "photoKey": "valley-of-kings-representative",
     "seasonality": {
       "mode": "year_round",
       "months": [
@@ -295,7 +295,7 @@
     "recordKind": "curated-poi",
     "verification": "逐点核对来源",
     "checkedAt": "2026-10-18",
-    "photoKey": "wat-xieng-thong-tree-of-life",
+    "photoKey": "wat-xieng-thong-representative",
     "seasonality": {
       "mode": "year_round",
       "months": [
@@ -365,7 +365,7 @@
     "recordKind": "curated-poi",
     "verification": "逐点核对来源",
     "checkedAt": "2026-10-18",
-    "photoKey": null,
+    "photoKey": "forbidden-city-representative",
     "seasonality": {
       "mode": "year_round",
       "months": [
@@ -382,8 +382,7 @@
         11,
         12
       ]
-    },
-    "photoDestination": "beijing-autumn"
+    }
   },
   {
     "id": "poi:temple-of-heaven",
@@ -442,7 +441,7 @@
     "recordKind": "curated-poi",
     "verification": "逐点核对来源",
     "checkedAt": "2026-10-18",
-    "photoKey": null,
+    "photoKey": "temple-of-heaven-representative",
     "seasonality": {
       "mode": "year_round",
       "months": [
@@ -735,7 +734,7 @@
     "recordKind": "curated-poi",
     "verification": "逐点核对来源",
     "checkedAt": "2026-10-18",
-    "photoKey": null
+    "photoKey": "louvre-palace-museum-representative"
   },
   {
     "id": "poi:colosseum-rome",
@@ -923,7 +922,8 @@
     "recordKind": "curated-poi",
     "verification": "逐点核对来源",
     "checkedAt": "2026-10-18",
-    "photoKey": null
+    "photoKey": "tower-of-london-representative",
+    "city": "伦敦"
   },
   {
     "id": "poi:hagia-sophia-istanbul",
@@ -1035,7 +1035,7 @@
     "recordKind": "curated-poi",
     "verification": "逐点核对来源",
     "checkedAt": "2026-10-18",
-    "photoKey": null
+    "photoKey": "hagia-sophia-istanbul-representative"
   },
   {
     "id": "poi:hangzhou-botanical-osmanthus",
@@ -1087,7 +1087,6 @@
     "recordKind": "curated-poi",
     "verification": "逐点核对来源",
     "checkedAt": "2026-10-18",
-    "photoKey": "osmanthus-species-reference",
     "seasonality": {
       "mode": "seasonal",
       "months": [
@@ -1139,7 +1138,6 @@
     "recordKind": "curated-poi",
     "verification": "逐点核对来源",
     "checkedAt": "2026-10-18",
-    "photoKey": "osmanthus-species-reference",
     "seasonality": {
       "mode": "seasonal",
       "months": [
@@ -1298,7 +1296,6 @@
     "seasonality": {
       "mode": "variants"
     },
-    "photoDestination": "hangzhou-west-lake",
     "variants": [
       {
         "key": "spring",
@@ -1586,7 +1583,7 @@
     "recordKind": "curated-poi",
     "verification": "逐点核对来源",
     "checkedAt": "2026-10-18",
-    "photoKey": null,
+    "photoKey": "hangzhou-grand-canal-gongchen-representative",
     "seasonality": {
       "mode": "year_round",
       "months": [
@@ -1704,5 +1701,448 @@
         "accessLevel": "body-verified"
       }
     ]
+  },
+  {
+    "id": "poi:reference:quanzhou-heritage:0",
+    "name": "开元寺",
+    "country": "中国",
+    "city": "泉州",
+    "parentId": "quanzhou-heritage",
+    "category": "culture",
+    "recordKind": "curated-poi",
+    "checkedAt": "2026-10-18",
+    "verification": "逐点核对来源",
+    "seasonality": {
+      "mode": "year_round",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "whyGo": "看南宋东西石塔、飞天乐伎斗拱和移用的印度教石构件，理解宋元港口如何容纳不同文化。",
+    "originalUse": "延续至今的佛教寺院，唐代始建；宋元时期是泉州重要的宗教与社会活动中心。",
+    "peopleEvents": "大雄宝殿在1637年重修时使用了来自废弃印度教寺院的构件；相关雕刻与南印度神话主题有关。",
+    "lookFor": [
+      "东西双塔：观察仿木石构和塔身佛教人物雕刻；两塔现存石构主要建于南宋。",
+      "大雄宝殿：抬头找飞天乐伎斗拱，再留意月台狮子石刻和殿后印度教石柱。"
+    ],
+    "historySignificance": "佛寺与海外宗教艺术在同一处相遇，是宋元泉州海洋贸易和多元文化交流的实物线索。",
+    "datesLabel": "唐代始建；双塔为南宋石构；大殿1637年重修",
+    "durationEstimate": "建议1.5–2小时",
+    "durationKind": "editorial-estimate",
+    "openingReference": {
+      "text": "2024-02-04官方答复：6:30–18:00，无需预约。",
+      "sourceURL": "https://www.quanzhou.gov.cn/hdzsk/wlj/202402/t20240204_3003001.htm",
+      "publishedAt": "2024-02-04",
+      "notLive": true
+    },
+    "sources": [
+      {
+        "title": "开元寺：重点遗存、建筑与多元文化",
+        "url": "https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699974.htm",
+        "authority": "泉州市人民政府；正文来源“泉州：宋元中国的世界海洋商贸中心”",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "publisherType": "official-tourism",
+        "evidenceShort": "两座宋代石塔",
+        "factBoundary": "历史遗存说明，不是2026年开放公告；不采用桑开白莲等传说作史实。"
+      },
+      {
+        "title": "进入开元寺需要预约吗？",
+        "url": "https://www.quanzhou.gov.cn/hdzsk/wlj/202402/t20240204_3003001.htm",
+        "authority": "泉州市人民政府互动知识库·文化广电和旅游局",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "publisherType": "official-tourism",
+        "publishedAt": "2024-02-04",
+        "evidenceShort": "不用预约",
+        "factBoundary": "旧答复载开放时间6:30–18:00，不等于2026年每日实时保证。可以在来源详情显示发布时间，切勿去掉日期伪装实时数据。"
+      }
+    ],
+    "factNotes": "游览时长为编辑建议；2024开放答复只放来源详情，不渲染成2026实时承诺。",
+    "bookingAndAccess": "按西街入口—中轴殿宇—双塔安排步行，穿舒适鞋。 这是仍在使用的宗教场所，参观时尊重礼佛与现场拍摄要求。"
+  },
+  {
+    "id": "poi:reference:quanzhou-heritage:1",
+    "name": "清净寺",
+    "country": "中国",
+    "city": "泉州",
+    "parentId": "quanzhou-heritage",
+    "category": "culture",
+    "recordKind": "curated-poi",
+    "checkedAt": "2026-10-18",
+    "verification": "逐点核对来源",
+    "seasonality": {
+      "mode": "year_round",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "whyGo": "从石构尖拱门、阿拉伯碑文和礼拜殿遗存，看到宋元泉州与西亚商人社群的直接联系。",
+    "originalUse": "伊斯兰教礼拜寺，又称艾苏哈卜寺，1009年即北宋大中祥符二年始建。",
+    "peopleEvents": "门上碑文记有1310年前后由来自波斯设拉子的穆斯林修缮寺院；现存主要格局与这次元代修缮有关。",
+    "lookFor": [
+      "门楼：辨认连续尖拱、石材色差和门上阿拉伯文字。",
+      "奉天坛遗存与重修碑：留意礼拜空间布局及不同时期的修缮证据。"
+    ],
+    "historySignificance": "它保存了远来穆斯林商人及族群在泉州生活的宗教遗存，说明海上贸易带来的不仅是货物。",
+    "datesLabel": "1009年始建（北宋）；1310年前后重修（元代）",
+    "durationEstimate": "建议45–60分钟",
+    "durationKind": "editorial-estimate",
+    "sources": [
+      {
+        "title": "清净寺：遗产性质、门楼与阿拉伯碑文",
+        "url": "https://www.quanzhou.gov.cn/lyb/lytj/rmjdtj/202202/t20220224_2699972.htm",
+        "authority": "泉州市人民政府；正文来源“泉州：宋元中国的世界海洋商贸中心”",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "publisherType": "official-tourism",
+        "evidenceShort": "始建于公元1009年",
+        "factBoundary": "历史事实依据；本次未取得可靠的当前票价与每日开放时间，不填数字。旧页面存在文字排印错误，不照抄尺寸与最高/最早绝对性描述。"
+      },
+      {
+        "title": "清净寺：碑刻与修缮历史",
+        "url": "https://mzzj.quanzhou.gov.cn/zjzc/qzzjhdcs/202108/t20210805_2599184.htm",
+        "authority": "泉州市民族与宗教事务局",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "publisherType": "official-government",
+        "evidenceShort": "1310年",
+        "factBoundary": "说明北宋始建、元代修缮；不把“创建人不详”改编成某个具名创建者。"
+      }
+    ],
+    "factNotes": "游览时长为编辑建议；没有本轮可靠的当前票价与开放时间，因此不显示数字字段。",
+    "bookingAndAccess": "与涂门街的府文庙、关帝庙串联步行，可比较同一街区的多种信仰建筑。 着装与参观范围遵循现场宗教场所要求，勿干扰礼拜。"
+  },
+  {
+    "id": "poi:hongkong-dragon-back",
+    "name": "龙脊",
+    "category": "nature",
+    "whyGo": "沿起伏山脊看石澳半岛与海岸，体验香港闹市外的山海地形。",
+    "lookFor": [
+      "打烂埕顶山与龙脊观景台：比较山脊、海湾和高楼之间的距离。",
+      "官方完整路线从土地湾出发，终点为大浪湾。"
+    ],
+    "durationEstimate": "完整路线约8公里、4小时；中等难度",
+    "durationKind": "official-route-reference",
+    "seasonality": {
+      "mode": "seasonal",
+      "months": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ]
+    },
+    "seasonNote": "11–12月是气候概况中更舒适的选择；其他较凉月份为编辑扩展，不保证能见度或无雨。",
+    "sources": [
+      {
+        "title": "龙脊：路线、时间与交通",
+        "url": "https://www.discoverhongkong.com/tc/place-to-go/travel.guide-dragon-s-back.html",
+        "authority": "香港旅游发展局",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "publisherType": "official-tourism",
+        "evidenceShort": "約4小時",
+        "factBoundary": "8公里约4小时指土地湾至大浪湾整条推荐路线；不把只到观景台的短走也写成8公里。"
+      },
+      {
+        "title": "香港的气候",
+        "url": "https://www.hko.gov.hk/sc/cis/climahk.htm",
+        "authority": "香港天文台",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "publisherType": "official-government",
+        "evidenceShort": "十一月和十二月",
+        "factBoundary": "气候概况及1991–2020年平均资料；不是指定旅行日天气预报。"
+      }
+    ],
+    "country": "中国",
+    "city": "香港",
+    "region": "香港特别行政区",
+    "regionCode": "HK",
+    "parentId": "hongkong-city-nature",
+    "recordKind": "curated-poi",
+    "checkedAt": "2026-10-18",
+    "verification": "逐点核对来源",
+    "bookingAndAccess": "穿防滑步行鞋，带饮水、防晒及防风层。 出发前查看香港天文台警告，雷雨、酷热或大风时改走市区行程。",
+    "domestic": false
+  },
+  {
+    "id": "poi:hongkong-geopark",
+    "name": "香港联合国教科文组织世界地质公园",
+    "category": "nature",
+    "whyGo": "看西贡的六角形火山岩柱、海蚀地貌，认识香港不只有天际线的一面。",
+    "lookFor": [
+      "把西贡火山岩园区与新界东北沉积岩园区区分开，地质年代与岩性并不相同。",
+      "初访可从西贡出发，选择有营运安排的半日地质船游；不要把所有离岛当成可自由登岸景点。"
+    ],
+    "durationEstimate": "初访可选半日；不同园区分开安排",
+    "durationKind": "official-tourism-itinerary-reference",
+    "seasonality": {
+      "mode": "seasonal",
+      "months": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ]
+    },
+    "seasonNote": "11–12月适合作为气候优选；海况、风浪和营运安排仍决定能否出航。",
+    "sources": [
+      {
+        "title": "香港联合国教科文组织世界地质公园",
+        "url": "https://www.discoverhongkong.com/tc/place-to-go/travel.guide-hong-kong-unesco-global-geopark.html",
+        "authority": "香港旅游发展局",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "publisherType": "official-tourism",
+        "evidenceShort": "六角形火山岩柱",
+        "factBoundary": "采用旅发局正文两园区、地貌与半日船游说明。下方两日专题署名南华早报Morning Studio，与页面官方主体说明分开；不推荐任意海蚀洞自行上岸。"
+      },
+      {
+        "title": "香港的气候",
+        "url": "https://www.hko.gov.hk/sc/cis/climahk.htm",
+        "authority": "香港天文台",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "publisherType": "official-government",
+        "evidenceShort": "十一月和十二月",
+        "factBoundary": "气候概况及1991–2020年平均资料；不是指定旅行日天气预报。"
+      }
+    ],
+    "country": "中国",
+    "city": "香港",
+    "region": "香港特别行政区",
+    "regionCode": "HK",
+    "parentId": "hongkong-city-nature",
+    "recordKind": "curated-poi",
+    "checkedAt": "2026-10-18",
+    "verification": "逐点核对来源",
+    "bookingAndAccess": "确认当日船班、海况、登岸安排与返程方式。 沿正式步道活动，不攀爬海蚀洞及崖边，不取走岩石。",
+    "domestic": false
+  },
+  {
+    "id": "poi:hongkong-tai-kwun",
+    "name": "大馆",
+    "category": "culture",
+    "whyGo": "在旧警署、裁判司署与监狱之间，读懂一片建筑如何从执法空间变成公共文化场所。",
+    "originalUse": "原中区警署建筑群，曾包括警署、中央裁判司署和域多利监狱。",
+    "peopleEvents": "历史建筑经过保育活化，2018年对外开放为古迹及艺术中心。",
+    "lookFor": [
+      "对照前警察总部的宏伟北立面与较简朴的红砖南立面。",
+      "看前监狱B仓、D仓的文化古迹展览，再比较历史建筑与当代加建。"
+    ],
+    "historySignificance": "它让香港司法与城市生活史保留在实际建筑中，也提供观察历史建筑再利用的例子。",
+    "datesLabel": "19世纪起陆续形成；2018年活化开放",
+    "durationEstimate": "建议1.5–2小时，特展另加时间",
+    "durationKind": "editorial-estimate",
+    "seasonality": {
+      "mode": "year_round",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "sources": [
+      {
+        "title": "大馆",
+        "url": "https://www.discoverhongkong.com/tc/place-to-go/travel.guide-tai-kwun.html",
+        "authority": "香港旅游发展局",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "publisherType": "official-tourism",
+        "evidenceShort": "2018年對外開放",
+        "factBoundary": "大馆自身站点本次请求出现403/空壳，因此历史介绍采用旅发局可读原页，不声称已核对大馆站实时展览。"
+      },
+      {
+        "title": "探索香港7大活化历史建筑",
+        "url": "https://www.discoverhongkong.com/tc/culture/revitalised-historic-buildings-to-visit-in-hong-kong.html",
+        "authority": "香港旅游发展局",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "publisherType": "official-tourism",
+        "evidenceShort": "中央裁判司署",
+        "factBoundary": "支持建筑群原用途与活化文化用途；游览时长为本项目编辑安排。"
+      }
+    ],
+    "country": "中国",
+    "city": "香港",
+    "region": "香港特别行政区",
+    "regionCode": "HK",
+    "parentId": "hongkong-city-nature",
+    "recordKind": "curated-poi",
+    "checkedAt": "2026-10-18",
+    "verification": "逐点核对来源",
+    "bookingAndAccess": "先选文化古迹展览，再按兴趣加入当期艺术节目。 建筑群、各展馆及特别节目的开放安排应分别查看，不把园区开放等同全部展览同时开放。",
+    "domestic": false
+  },
+  {
+    "id": "poi:hongkong-museum-of-art",
+    "name": "香港艺术馆",
+    "category": "culture",
+    "whyGo": "从中国书画、外销艺术到现代香港艺术，把海港城市与中外文化交流放在同一馆里看。",
+    "originalUse": "1962年成立的香港首间公营美术馆，现位于尖沙咀海滨。",
+    "lookFor": [
+      "按兴趣选择中国文物、中国书画、外销艺术或现代及香港艺术。",
+      "看展后从海滨或馆内临海空间观察维多利亚港，与画面中的城市作比较。"
+    ],
+    "historySignificance": "馆藏与策展以香港视点连接古今中外艺术，既是欣赏作品的场所，也提供理解城市文化的位置。",
+    "datesLabel": "1962年成立",
+    "durationEstimate": "建议2–3小时，重点看1–2条展览线索",
+    "durationKind": "editorial-estimate",
+    "seasonality": {
+      "mode": "year_round",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "openingReference": {
+      "text": "周一至三及周五10:00–18:00；周末及公众假期10:00–21:00。周四（公众假期除外）、农历年初一二闭馆；部分节日前夕提早闭馆。",
+      "checkedAt": "2026-10-18",
+      "sourceURL": "https://hk.art.museum/tc/web/ma/visit/opening-hours-and-admission.html"
+    },
+    "admissionReference": "一般免费入场，专题展览除外。",
+    "sources": [
+      {
+        "title": "关于艺术馆",
+        "url": "https://hk.art.museum/sc/web/ma/about-us.html",
+        "authority": "香港艺术馆·香港康乐及文化事务署",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "publisherType": "official-museum",
+        "evidenceShort": "成立于1962年",
+        "factBoundary": "馆方概要可读；文物数量会变动，面向用户不必固定写收藏总量。"
+      },
+      {
+        "title": "香港艺术馆：四大核心馆藏",
+        "url": "https://www.discoverhongkong.com/tc/place-to-go/travel.guide-hong-kong-museum-of-art.html",
+        "authority": "香港旅游发展局",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "publisherType": "official-tourism",
+        "evidenceShort": "外銷藝術",
+        "factBoundary": "支持中国文物/中国书画/外销艺术/现代及香港艺术四类；不保证某件作品在任意日期展出。"
+      },
+      {
+        "title": "开放时间及入场安排",
+        "url": "https://hk.art.museum/tc/web/ma/visit/opening-hours-and-admission.html",
+        "authority": "香港艺术馆·香港康乐及文化事务署",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "publisherType": "official-museum",
+        "evidenceShort": "專題展覽除外",
+        "factBoundary": "本次读取的馆方常规安排：周一至三及五10–18时；周末及公众假期10–21时；周四（公众假期除外）及农历年初一二闭馆；特定前夕提早闭馆。"
+      }
+    ],
+    "country": "中国",
+    "city": "香港",
+    "region": "香港特别行政区",
+    "regionCode": "HK",
+    "parentId": "hongkong-city-nature",
+    "recordKind": "curated-poi",
+    "checkedAt": "2026-10-18",
+    "verification": "逐点核对来源",
+    "bookingAndAccess": "按开放日排期，先看官网当期展览，避免只为一件未必展出的藏品到访。",
+    "domestic": false
+  },
+  {
+    "id": "poi:hongkong-chi-lin-nan-lian",
+    "name": "志莲净苑及南莲园池",
+    "category": "culture",
+    "whyGo": "在九龙高楼之间看唐风木构、莲池、亭桥和园林的空间组合。",
+    "originalUse": "志莲净苑是佛教寺院；南莲园池是相邻园林。现存主要唐风建筑与设计属于近现代建设。",
+    "peopleEvents": "志莲净苑1934年建立，1990年代重建采用唐代建筑风格；不要误认成保存至今的唐代原建筑。",
+    "lookFor": [
+      "寺院木构与榫接方式，以及建筑和莲池之间的对称关系。",
+      "南莲园池环路中的金色圆满阁、红桥、奇石与松树。"
+    ],
+    "datesLabel": "净苑1934年建立；现状主要为1990年代后唐风设计",
+    "durationEstimate": "建议1–2小时",
+    "durationKind": "editorial-estimate",
+    "seasonality": {
+      "mode": "year_round",
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "sources": [
+      {
+        "title": "志莲净苑及南莲园池",
+        "url": "https://www.discoverhongkong.com/tc/place-to-go/travel.guide-chi-lin-nunnery-and-nan-lian-garden.html",
+        "authority": "香港旅游发展局",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "publisherType": "official-tourism",
+        "evidenceShort": "90年代重建",
+        "factBoundary": "现今唐风设计不等于唐代原址古建筑；不采用世界最大木构等容易歧义的绝对性说法。"
+      }
+    ],
+    "country": "中国",
+    "city": "香港",
+    "region": "香港特别行政区",
+    "regionCode": "HK",
+    "parentId": "hongkong-city-nature",
+    "recordKind": "curated-poi",
+    "checkedAt": "2026-10-18",
+    "verification": "逐点核对来源",
+    "bookingAndAccess": "在宗教空间保持安静；殿内拍摄遵循现场要求。 可与九龙市区文化行程组合，避免把它作为唐代古迹介绍。",
+    "historySignificance": "在现代城市中，以传统木构和园林设计延续佛教文化空间，也提供理解当代香港建筑保育与文化生活的入口。",
+    "domestic": false
   }
 ]

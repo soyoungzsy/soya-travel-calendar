@@ -1603,14 +1603,14 @@
     ],
     "season": "较凉爽旱季灵感",
     "subtitle": "在石雕与树根之间读一座文明",
-    "whyNow": "柬埔寨官方资料把11月至4月列为旱季；这里优先较凉的冬季，实际气温与人流另查。",
+    "whyNow": "11月至4月通常属于当地旱季，适合把吴哥寺庙群分区安排。清晨或傍晚参观户外遗址；高温、防晒和饮水仍需准备。",
     "minDays": 5,
     "flight": 2800,
     "daily": 600,
     "extra": 650,
     "photo": null,
     "wikiTitle": "Siem Reap",
-    "sourceURL": "https://www.tourismcambodia.org/blog/about-cambodia/cambodia-fact-sheet",
+    "sourceURL": "https://unfccc.int/resource/docs/natc/khmnc2.pdf",
     "highlights": [
       {
         "name": "吴哥窟",
@@ -1638,8 +1638,12 @@
     "english": "SIEM REAP ANGKOR",
     "policy": "柬埔寨",
     "travelDays": 4,
-    "seasonSource": "https://www.tourismcambodia.org/blog/about-cambodia/cambodia-fact-sheet",
-    "description": "柬埔寨官方资料把11月至4月列为旱季；这里优先较凉的冬季，实际气温与人流另查。"
+    "seasonSource": "https://unfccc.int/resource/docs/natc/khmnc2.pdf",
+    "description": "柬埔寨官方资料把11月至4月列为旱季；这里优先较凉的冬季，实际气温与人流另查。",
+    "seasonSourceTitle": "柬埔寨环境部国家气候报告（2015）：旱季与雨季",
+    "seasonAuthority": "柬埔寨环境部 / UNFCCC存档",
+    "seasonSourceAccess": "body-verified",
+    "seasonSourceCheckedAt": "2026-10-18"
   },
   {
     "id": "luang-prabang-river",

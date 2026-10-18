@@ -3,7 +3,7 @@
 Explore seasonal travel ideas and create your own private destination list in your browser.
 选一段假期、看看当季风景，把想去的地方保存成自己的旅行清单。
 
-[中文说明](README.md) · Version 0.2.1 · Early preview
+[中文说明](README.md) · Version 0.3.0 · Early preview
 
 **[Open the online app](https://scenicdue.com/)**
 
@@ -30,7 +30,7 @@ Try searching 老挝 (Laos), choose 探索老挝, then open 相通寺 or 光西�
 
 Perennial cultural experiences stay visible; nature uses month/date windows, with separate spring/autumn Su Causeway cards. Exhibitions use actual dated windows. Flowers/tides need current confirmation. Perennial value does not mean daily opening or comfortable weather in every season.
 
-Public content covers34 countries/regions,72 destinations and175 point records (176 seasonal cards), including22 newly checked detailed points;26 food experiences across13 regions and8 pre-trip reading entries across4 places are included. The footer’s “每一程心动，都有来处” opens country counts and182 URL-deduplicated references with per-use verification states. Five pre-trip articles were read; three books were checked at catalogue level only. **Coverage does not mean complete or fully reverified guides.** The258 map units are counted separately. The UNESCO batch index is not distributed or counted while republication terms remain unresolved. See [knowledge-base notes](docs/knowledge-base.md).
+Public content covers 34 countries/regions, 72 destinations and 180 point records (181 seasonal cards), including 29 detailed points with claim-level source checks, 31 foods across 15 profiles and 12 pre-trip reading/programme entries across 6 places. The footer opens computed coverage and 201 deduplicated references. Three books are catalogue-only; two documentaries have verified official synopses, not full viewing. Coverage does not imply complete knowledge. The 258 map units are counted separately. See [knowledge-base notes](docs/knowledge-base.md).
 
 Destination cards include local food and pre-trip reading, with official references, original editorial suggestions and questions to notice on site. Destinations without checked enrichment show a clear pending note.
 
@@ -42,13 +42,13 @@ Only travel dates, visa type, entries and stay duration are retained. No name, b
 
 ## If the online app will not open
 
-Visit the [0.2.1 fixed download page](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.2.1). Under Assets, download **Soya-Travel-Calendar-v0.2.1.html**. Wait for the download, then double-click it or drag it into your browser. It includes photographs and is about 48.7 MB; opening it the first time can take longer than a normal page. Wait until the title and globe appear.
+Visit the [0.3.0 fixed download page](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.3.0). Under Assets, download **Soya-Travel-Calendar-v0.3.0.html**. Wait for the download, then double-click it or drag it into your browser. It includes photographs; opening it the first time can take longer than a normal page. Wait until the title and globe appear.
 
 The offline file uses compressed destination photos to reduce download size; the hosted app retains larger originals. The artifact was tested through a local web preview; direct file opening was not automatically verified because the test browser permits only HTTP/HTTPS. The offline file needs no installation and includes the main interactions and dated fallback data. It cannot refresh reference data without a server. Local-file storage varies by browser; export a JSON backup before moving the file, changing versions or clearing data. Keep the old HTML file and backup to return to a previous version. If saving fails, check private-browsing/storage restrictions.
 
 ## Who it is for and what it does
 
-For people collecting places they want to visit and turning a holiday window into a shortlist. It includes 73 photographed travel ideas, 14 detailed guides, 42 experience photos, a wishlist, a dated trip basket and preparation checks.
+For people collecting places they want to visit and turning a holiday window into a shortlist. It includes 73 travel ideas, 72 destination photo sets, 14 detailed guides, 42 experience photos (the seasonally incorrect Wuyuan cover was removed), a wishlist, a dated trip basket and preparation checks.
 
 It does not replace booking providers, travel professionals or official entry rules. Budgets are planning scenarios and itineraries are generated from local reference data and allocation rules. There is no online LLM connection, sellable live inventory, Xiaohongshu private-favorites sync, cross-device account. Saving a source link does not read the note. Entry-policy examples cover mainland Chinese ordinary passports only; origin/budget examples use Hangzhou or Shanghai. Other passports/origins require separate checks. Your custom months are personal notes, not verified seasonal recommendations.
 
@@ -75,7 +75,7 @@ The [synthetic sample](examples/my-places.sample.json) shows this project’s ow
 
 ## For developers: run or contribute
 
-Ordinary users can skip this section. Install Node.js 22.12+ and Git. Download the [fixed source ZIP](https://github.com/soyoungzsy/soya-travel-calendar/archive/refs/tags/v0.2.1.zip), unzip it, open Terminal, type `cd ` with a trailing space, drag the extracted folder into Terminal and press Enter. Run these one line at a time:
+Ordinary users can skip this section. Install Node.js 22.12+ and Git. Download the [fixed source ZIP](https://github.com/soyoungzsy/soya-travel-calendar/archive/refs/tags/v0.3.0.zip), unzip it, open Terminal, type `cd ` with a trailing space, drag the extracted folder into Terminal and press Enter. Run these one line at a time:
 
 ```sh
 npm ci
@@ -90,6 +90,6 @@ Read [Contributing](CONTRIBUTING.md) before code or public-data changes. Private
 
 ## Version, licensing and maintenance
 
-Version 0.2.1 preview: [Changelog](CHANGELOG.md), [fixed release](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.2.1), [MIT code license](LICENSE), [third-party notices](THIRD_PARTY_NOTICES.md). Media keeps its own licenses and is not relicensed MIT; [photo credits](docs/media-credits.md). A publicly visible social post is not permission to copy its photos.
+Version 0.3.0 preview: [Changelog](CHANGELOG.md), [fixed release](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.3.0), [MIT code license](LICENSE), [third-party notices](THIRD_PARTY_NOTICES.md). Media keeps its own licenses and is not relicensed MIT; [photo credits](docs/media-credits.md). A publicly visible social post is not permission to copy its photos.
 
 Export before updating; retain the previous file and backup for recovery. Delete downloaded project files to uninstall; clear browser data separately if desired. Removing a public repository/release cannot recall copies already downloaded. See [Release review](RELEASE_REVIEW.md) for actual checks and unverified areas.

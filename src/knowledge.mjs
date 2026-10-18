@@ -19,14 +19,14 @@ const reference=[];
 for(const d of destinations){
  const highlights=guides[d.id]?.highlights||d.highlights||[];
  for(const [i,h]of highlights.entries()){
-  if(detailed.some(p=>p.parentId===d.id&&nearName(p.name.split(' · ')[0],h.name)))continue;
+  if(detailed.some(p=>p.id===`poi:reference:${d.id}:${i}`||p.parentId===d.id&&nearName(p.name.split(' · ')[0],h.name)))continue;
   const culture=h.kind==='culture',nature=h.kind==='nature';
   reference.push({id:`poi:reference:${d.id}:${i}`,parentId:d.id,country:d.country,name:h.name,category:culture?'culture':nature?'nature':'mixed',whyGo:h.experience,experience:h.experience,durationEstimate:h.timing||'游览时长待进一步核验',recordKind:'reference-poi',verification:'既有攻略摘记，尚未逐点复核',seasonality:{mode:culture?'year_round':'seasonal',months:monthsFor(d.windows),windows:culture?null:d.windows},momentPhoto:media.moments?.[d.id]?.[i]?[d.id,i]:null,sources:sourceFor(d)?[{title:'目的地参考来源',url:sourceFor(d),authority:'既有参考资料',accessLevel:'not-rechecked'}]:[]});
  }
 }
 export const poiRecords=[...detailed,...reference];
 export function variantsFor(p){
- if(!p.variants?.length)return[{...p,baseId:p.id,seasonLabel:p.seasonality?.mode==='year_round'?'全年文化体验':p.seasonality?.mode==='conditional'?'择日体验 · 条件待核':p.seasonality?.months?.length?p.seasonality.months.map(m=>m+'月').join('、')+' · 时节参考':'时节待核'}];
+ if(!p.variants?.length)return[{...p,baseId:p.id,seasonLabel:p.seasonality?.mode==='year_round'?'全年人文看点':p.seasonality?.mode==='conditional'?'按潮汐或活动日期安排':p.seasonality?.months?.length?p.seasonality.months.map(m=>m+'月').join('、')+'推荐':'时节待核'}];
  return p.variants.map(v=>({...p,...v,id:p.id+'@'+v.key,baseId:p.id,seasonality:{mode:'seasonal',months:v.months,windows:v.windows},variants:undefined}));
 }
 export const allPOICards=poiRecords.flatMap(variantsFor);
@@ -69,7 +69,7 @@ export function activeEvents(p,start,end){return(p.events||[]).filter(e=>start<=
 export function forCountry(country,start,end){
  if(!country)return{cities:[],points:[],heritage:[]};
  const cities=destinations.filter(d=>d.country===country.nameZh);
- const points=allPOICards.filter(p=>p.country===country.nameZh&&matchesPOISeason(p,start,end));
+ const points=allPOICards.filter(p=>(p.country===country.nameZh||p.regionCode===country.iso2)&&matchesPOISeason(p,start,end));
  const sites=heritageItems.filter(p=>country.iso2&&p.countryCodes.includes(country.iso2));
  return{cities,points,heritage:sites};
 }

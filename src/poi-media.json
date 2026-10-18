@@ -68,5 +68,181 @@
     "sha256": "2f3c76c8b49c6a392db345ab170129a3ad10163bf52d0aea52a6587dd0388882",
     "displayCaption": "桂花物种参考 · 地点未核实，非当日花况",
     "metadataTreatment": "EXIF/XMP/IPTC/comment metadata removed without recompressing image pixels; attribution retained here and in media credits"
+  },
+  "forbidden-city-representative": {
+    "caption": "北京故宫太和殿及三层汉白玉台基，蓝天中呈现重檐庑殿顶与宫殿立面。",
+    "displayCaption": "故宫 · 太和殿",
+    "author": "Conor Murphy",
+    "license": "Unsplash License",
+    "licenseURL": "https://unsplash.com/license",
+    "sourcePage": "https://unsplash.com/photos/the-forbidden-city-palace-under-a-clear-blue-sky-1XoHwyNMi_0",
+    "subjectConfirmed": true,
+    "width": 1600,
+    "height": 1413,
+    "downloadedFrom": "https://images.unsplash.com/photo-1762785832394-15dee98fce0b?fit=max&w=1600&q=85&fm=jpg",
+    "derivative": "CDN resized JPEG; no creative editing",
+    "visualQA": "Fully decoded and inspected; Taihe Dian plaque, double-eaved roof and terrace visible",
+    "sha256": "7ae4f5bd4687061e57f1f5a73b8085c73385f7854e54d93d319048ddfd77923a",
+    "sourceVerifiedDate": "2026-10-18",
+    "focalPointPercent": [
+      50,
+      65
+    ],
+    "src": "/poi/forbidden-city-representative.jpg",
+    "thumbnail": "/poi/forbidden-city-representative.jpg"
+  },
+  "valley-of-kings-representative": {
+    "caption": "帝王谷往西谷艾伊王墓步道旁的石灰岩峭壁；山谷外景，不是墓室内部。",
+    "displayCaption": "帝王谷 · 石灰岩山谷",
+    "author": "Sam Plummer",
+    "license": "Unsplash License",
+    "licenseURL": "https://unsplash.com/license",
+    "sourcePage": "https://unsplash.com/photos/a-mountain-range-in-the-middle-of-a-desert-TEC9kkg_6BQ",
+    "subjectConfirmed": true,
+    "width": 1600,
+    "height": 1067,
+    "downloadedFrom": "https://images.unsplash.com/photo-1695178234643-9656316a0e66?fit=max&w=1600&q=85&fm=jpg",
+    "derivative": "CDN resized JPEG; no creative editing",
+    "visualQA": "Downloaded JPEG decoded fully and inspected at full image scale; photographed subject matches caption",
+    "sha256": "1e5c89d6f00b97f06d8acb8d7b23f29fef2cfb84cf00a532f4b0a805b3bd8f30",
+    "sourceVerifiedDate": "2026-10-18",
+    "focalPointPercent": [
+      50,
+      55
+    ],
+    "src": "/poi/valley-of-kings-representative.jpg",
+    "thumbnail": "/poi/valley-of-kings-representative.jpg"
+  },
+  "temple-of-heaven-representative": {
+    "caption": "北京天坛祈年殿正面及三层白石台基。",
+    "displayCaption": "天坛 · 祈年殿",
+    "author": "Victor He",
+    "license": "Unsplash License",
+    "licenseURL": "https://unsplash.com/license",
+    "sourcePage": "https://unsplash.com/photos/blue-and-white-concrete-building-under-blue-sky-during-daytime-0xn9T2cEigE",
+    "subjectConfirmed": true,
+    "width": 1600,
+    "height": 1059,
+    "downloadedFrom": "https://images.unsplash.com/photo-1584872589930-e99fe5bf4408?fit=max&w=1600&q=85&fm=jpg",
+    "derivative": "CDN resized JPEG; no creative editing",
+    "visualQA": "Downloaded JPEG decoded fully and inspected at full image scale; photographed subject matches caption",
+    "sha256": "e89e3bbfa497fc686c1bf428e59e87a5154bf9fa59ae0fe0e6a0a34d831b8f4c",
+    "sourceVerifiedDate": "2026-10-18",
+    "focalPointPercent": [
+      50,
+      55
+    ],
+    "src": "/poi/temple-of-heaven-representative.jpg",
+    "thumbnail": "/poi/temple-of-heaven-representative.jpg"
+  },
+  "wat-xieng-thong-representative": {
+    "caption": "琅勃拉邦相通寺院落中的殿堂、层叠屋顶与外墙彩饰。",
+    "displayCaption": "相通寺 · 寺院建筑与彩饰",
+    "author": "Hongbin",
+    "license": "Unsplash License",
+    "licenseURL": "https://unsplash.com/license",
+    "sourcePage": "https://unsplash.com/photos/a-row-of-buildings-sitting-next-to-each-other-t7mSUQcTPsY",
+    "subjectConfirmed": true,
+    "width": 1600,
+    "height": 1200,
+    "downloadedFrom": "https://images.unsplash.com/photo-1693498792915-f989b430034a?fit=max&w=1600&q=85&fm=jpg",
+    "derivative": "CDN resized JPEG; no creative editing",
+    "visualQA": "Downloaded JPEG decoded fully and inspected at full image scale; photographed subject matches caption",
+    "sha256": "7a72ff249e006444f0b59ff01c0acd1f84d5e3bb486020cb15c41c8db2dd589a",
+    "sourceVerifiedDate": "2026-10-18",
+    "focalPointPercent": [
+      50,
+      55
+    ],
+    "src": "/poi/wat-xieng-thong-representative.jpg",
+    "thumbnail": "/poi/wat-xieng-thong-representative.jpg"
+  },
+  "hagia-sophia-istanbul-representative": {
+    "caption": "伊斯坦布尔圣索菲亚建筑外观，中央穹顶、半穹顶与宣礼塔。",
+    "displayCaption": "圣索菲亚 · 穹顶与宣礼塔",
+    "author": "Nida Oral",
+    "license": "Unsplash License",
+    "licenseURL": "https://unsplash.com/license",
+    "sourcePage": "https://unsplash.com/photos/hagia-sophia-mosque-with-minarets-and-dome-nOLJ6DJzIbE",
+    "subjectConfirmed": true,
+    "width": 1600,
+    "height": 1063,
+    "downloadedFrom": "https://images.unsplash.com/photo-1761249519600-b92688f3d094?fit=max&w=1600&q=85&fm=jpg",
+    "derivative": "CDN resized JPEG; no creative editing",
+    "visualQA": "Downloaded JPEG decoded fully and inspected at full image scale; photographed subject matches caption",
+    "sha256": "4b7b13792ff758522ba004646a8ea9f1116dd51caab3369a3e5a8573a63612a2",
+    "sourceVerifiedDate": "2026-10-18",
+    "focalPointPercent": [
+      50,
+      55
+    ],
+    "src": "/poi/hagia-sophia-istanbul-representative.jpg",
+    "thumbnail": "/poi/hagia-sophia-istanbul-representative.jpg"
+  },
+  "tower-of-london-representative": {
+    "caption": "伦敦塔白塔立面与前景门楼；并非泰晤士河上的伦敦塔桥。",
+    "displayCaption": "伦敦塔 · 白塔",
+    "author": "Paul Rigby",
+    "license": "Unsplash License",
+    "licenseURL": "https://unsplash.com/license",
+    "sourcePage": "https://unsplash.com/photos/brown-brick-building-under-blue-sky-during-daytime--7DmLW32sF0",
+    "subjectConfirmed": true,
+    "width": 1600,
+    "height": 2133,
+    "downloadedFrom": "https://images.unsplash.com/photo-1590506903984-49154c7ce1a0?fit=max&w=1600&q=85&fm=jpg",
+    "derivative": "CDN resized JPEG; no creative editing",
+    "visualQA": "Downloaded JPEG decoded fully and inspected at full image scale; photographed subject matches caption",
+    "sha256": "ce72ef386a5c2a4a7db1191df0a7ab0b97ee53173001503eae8ae1327b615296",
+    "sourceVerifiedDate": "2026-10-18",
+    "focalPointPercent": [
+      50,
+      55
+    ],
+    "src": "/poi/tower-of-london-representative.jpg",
+    "thumbnail": "/poi/tower-of-london-representative.jpg"
+  },
+  "louvre-palace-museum-representative": {
+    "caption": "巴黎卢浮宫拿破仑庭院，玻璃金字塔与宫殿立面同框，傍晚有人经过。",
+    "displayCaption": "卢浮宫 · 玻璃金字塔与宫殿",
+    "author": "Kamilla Isalieva",
+    "license": "Unsplash License",
+    "licenseURL": "https://unsplash.com/license",
+    "sourcePage": "https://unsplash.com/photos/louvre-museum-courtyard-with-glass-pyramid-and-people-6zmpsxy5lWM",
+    "subjectConfirmed": true,
+    "width": 1600,
+    "height": 1067,
+    "downloadedFrom": "https://images.unsplash.com/photo-1769981588290-db13fe1977cc?fit=max&w=1600&q=85&fm=jpg",
+    "derivative": "CDN resized JPEG; no creative editing",
+    "visualQA": "Fully decoded 1600x1067 landscape JPEG inspected; glass pyramid occupies left and palace facade spans background, both retained with center 300x170 cover crop. People appear in foreground; photograph is soft at full size but recognizable at card size.",
+    "sha256": "4179b8c35dff41ded0e69fffaed2ba77c84eb93083c130a4a11b5a640ce02118",
+    "sourceVerifiedDate": "2026-10-19",
+    "focalPointPercent": [
+      48,
+      40
+    ],
+    "src": "/poi/louvre-palace-museum-representative.jpg",
+    "thumbnail": "/poi/louvre-palace-museum-representative.jpg"
+  },
+  "hangzhou-grand-canal-gongchen-representative": {
+    "caption": "杭州拱宸桥三孔石拱桥与京杭大运河河面，原作者黑白长曝光摄影。",
+    "displayCaption": "杭州 · 拱宸桥",
+    "author": "Zhao Yangjun",
+    "license": "Unsplash License",
+    "licenseURL": "https://unsplash.com/license",
+    "sourcePage": "https://unsplash.com/photos/a-black-and-white-photo-of-a-bridge-over-a-river-00tUI4naR2I",
+    "subjectConfirmed": true,
+    "width": 1600,
+    "height": 1067,
+    "downloadedFrom": "https://images.unsplash.com/photo-1724331735102-f8515002c6ab?fit=max&w=1600&q=85&fm=jpg",
+    "derivative": "CDN resized JPEG; no creative editing",
+    "visualQA": "Fully decoded and inspected; complete three-arch Gongchen Bridge is recognizable",
+    "sha256": "8b720a42aebacfb743e070c225c9aee94baca1597c562565e7b8ef1a08b515e9",
+    "sourceVerifiedDate": "2026-10-18",
+    "focalPointPercent": [
+      50,
+      60
+    ],
+    "src": "/poi/hangzhou-grand-canal-gongchen-representative.jpg",
+    "thumbnail": "/poi/hangzhou-grand-canal-gongchen-representative.jpg"
   }
 }

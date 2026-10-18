@@ -185,5 +185,95 @@
     "destinationIds": [
       "luxor-nile-history"
     ]
+  },
+  {
+    "regionKey": "quanzhou-heritage",
+    "nameZh": "泉州",
+    "country": "中国",
+    "destinationIds": [
+      "quanzhou-heritage"
+    ],
+    "items": [
+      {
+        "id": "reading:quanzhou-cctv-world-heritage",
+        "type": "documentary",
+        "title": "《人类的记忆——中国的世界遗产》第二十五集：泉州·宋元中国的世界海洋商贸中心（上）",
+        "creator": "中央广播电视总台·央视网",
+        "whyBeforeGo": "从贸易网络、港口设施与多元社群切入宋元泉州。到开元寺与清净寺时，可以把建筑细节放回海港城市的背景。",
+        "focusQuestions": [
+          "一座港口如何靠制度、交通和商人社群共同运转？",
+          "寺院里的异域雕刻与清净寺碑文，分别留下了怎样的交流证据？"
+        ],
+        "sourceURL": "https://tv.cctv.com/2022/06/27/VIDEcQGyOhxm5AbuHbEtya6g220627.shtml",
+        "sourceAuthority": "央视网·中央广播电视总台",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "readStatus": "official-synopsis-read",
+        "language": "中文",
+        "evidenceBoundary": "仅核对官方节目页与简介，未完整观看。"
+      },
+      {
+        "id": "reading:quanzhou-cctv-living-city",
+        "type": "documentary",
+        "title": "《探索·发现》20201113：福建历史文化名城（二）泉州",
+        "creator": "中央广播电视总台·CCTV-10",
+        "whyBeforeGo": "围绕古城的“活态保护”认识泉州：街巷里的居民、仍有宗教活动的寺院，与游客参观的古迹如何共存。出发前看一看，现场便能多留意今天仍在继续的生活。",
+        "focusQuestions": [
+          "这里的古建今天还承担什么用途？",
+          "怎样参观，既看见生活也不打扰生活？"
+        ],
+        "sourceURL": "https://tv.cctv.com/2020/11/13/VIDE0UExQOKEjlke2HM8Z3ch201113.shtml",
+        "sourceAuthority": "央视网·CCTV-10",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "readStatus": "official-synopsis-read",
+        "language": "中文",
+        "evidenceBoundary": "仅核对官方节目页与简介，未完整观看。"
+      }
+    ]
+  },
+  {
+    "regionKey": "hongkong-city-nature",
+    "nameZh": "香港",
+    "country": "中国",
+    "destinationIds": [
+      "hongkong-city-nature"
+    ],
+    "items": [
+      {
+        "id": "reading:hongkong-revitalised-buildings",
+        "type": "article",
+        "title": "探索香港7大活化历史建筑",
+        "creator": "香港旅游发展局",
+        "whyBeforeGo": "先认识大馆曾经把警署、裁判司署和监狱集中在同一建築群，如今如何变成公共文化空间。到现场时，把旧建筑用途与当代加建放在一起观察。",
+        "focusQuestions": [
+          "旧用途还可以从哪些空间、动线和门窗辨认出来？",
+          "现代加建如何与历史建筑并存？"
+        ],
+        "sourceURL": "https://www.discoverhongkong.com/tc/culture/revitalised-historic-buildings-to-visit-in-hong-kong.html",
+        "sourceAuthority": "香港旅游发展局官方专题",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "readStatus": "official-article-read",
+        "language": "繁体中文"
+      },
+      {
+        "id": "reading:hongkong-museum-of-art-intro",
+        "type": "article",
+        "title": "关于艺术馆",
+        "creator": "香港艺术馆·香港康乐及文化事务署",
+        "whyBeforeGo": "从馆方介绍先了解这所1962年成立的公营美术馆如何用香港视点呈现古今中外艺术。现场再根据当期展览，选择外销艺术或香港艺术等自己关心的线索。",
+        "focusQuestions": [
+          "一件作品反映了香港与哪些城市、贸易或文化网络的联系？",
+          "“香港视点”在策展中体现在哪里？"
+        ],
+        "sourceURL": "https://hk.art.museum/sc/web/ma/about-us.html",
+        "sourceAuthority": "香港艺术馆官方馆情介绍",
+        "accessedAt": "2026-10-18",
+        "accessLevel": "body-verified",
+        "readStatus": "official-article-read",
+        "language": "简体中文"
+      }
+    ]
   }
 ]
