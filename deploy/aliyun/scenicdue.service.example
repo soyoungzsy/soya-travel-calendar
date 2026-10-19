@@ -1,0 +1,22 @@
+[Unit]
+Description=Scenicdue travel calendar
+After=network.target
+
+[Service]
+Type=simple
+User=scenicdue
+Group=scenicdue
+WorkingDirectory=/srv/scenicdue/current
+ExecStart=/usr/bin/node /srv/scenicdue/current/server/node-server.mjs
+Environment=NODE_ENV=production
+Environment=HOST=127.0.0.1
+Environment=PORT=8080
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+
+[Install]
+WantedBy=multi-user.target
