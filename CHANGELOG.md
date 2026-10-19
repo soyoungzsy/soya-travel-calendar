@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.1 — 2026-10-19
+
+- 100% now fits the full sphere inside both wide and tall map viewports; labels and pointer anchors use the same fitted radius.
+- Replace the flat-map error path with an interactive Canvas2D globe. WebGL failure/context loss switches automatically; texture failure keeps a vector sphere. Rotation, inertia, zoom and place selection remain available.
+- Stop native image dragging in the globe; prioritize the base texture and defer the optional cloud layer.
+- Add a standalone Node static/API adapter and mainland deployment kit. This prepares migration; no mainland hosting, filing or VPN-free availability is claimed complete.
+
+
 ## 0.3.0 — 2026-10-19
 
 - Expand the globe to its full rectangular viewport; keep projection, hit testing and pointer-anchored zoom aligned. Consume map wheel/pinch events at the map boundary, including zoom limits and controls.

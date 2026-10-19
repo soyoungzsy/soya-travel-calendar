@@ -3,9 +3,11 @@
 选一段假期、看看当季不同地方最美的风景，把想去的地方保存成自己的旅行清单。
 A seasonal travel calendar with a private, browser-local destination list.
 
-[English guide](README.en.md) · 版本0.3.0 · 初始试用版
+[English guide](README.en.md) · 版本0.3.1 · 初始试用版
 
 **[打开在线体验](https://scenicdue.com/)**
+
+国内访问说明：当前公开站仍托管于Sites/Cloudflare，自有域名不等于已迁入阿里云内地；部分网络可能受限。内地部署适配包已准备，服务器、备案与实际网络验收尚待完成，见[部署说明](deploy/aliyun/README.md)。
 
 例如：你想在10月末用4天、每人8000元出发，可以通过该产品筛选当季旅行灵感，不错过全球最值得的景观；你还可以点右上角“我的”→“我的地点清单”→“新建地点”，记录自己的“示例海边步道”、想去月份和备注。保存后能搜索、编辑、标记去过，填写经纬度后可在地球上定位。这里的示例是合成练习，不是经过核验的真实景点。
 
@@ -44,7 +46,7 @@ A seasonal travel calendar with a private, browser-local destination list.
 
 ## 在线打不开时
 
-前往[0.3.0固定版本下载页](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.3.0)，在页面底部的Assets（附件）里下载 **Soya-Travel-Calendar-v0.3.0.html**。等待下载完成后，双击文件或把它拖进浏览器打开。文件包含照片，首次展开会比普通网页慢；请等到标题和地球出现。
+前往[0.3.1固定版本下载页](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.3.1)，在页面底部的Assets（附件）里下载 **Soya-Travel-Calendar-v0.3.1.html**。等待下载完成后，双击文件或把它拖进浏览器打开。文件包含照片，首次展开会比普通网页慢；请等到标题和地球出现。
 
 离线版为缩小下载体积使用压缩照片，在线版保留较大首图。下载文件已通过本地网页预览验证；直接双击本地文件的方式因验收工具协议限制未自动验证。离线版包含主要交互与历史参考资料，无需安装软件。离线时不能获取新的汇率或关注度。浏览器对本地文件的存储方式不同，换文件路径、换版本或清除缓存前请导出JSON备份；保留旧HTML与备份即可回到旧版本。若不能保存，检查浏览器是否禁止存储或处于隐私模式。
 
@@ -77,7 +79,7 @@ A seasonal travel calendar with a private, browser-local destination list.
 
 ## 给开发者：自己运行和贡献
 
-普通使用者可以跳过。需要Node.js22.12或以上版本和Git。第一次：下载[固定源代码ZIP](https://github.com/soyoungzsy/soya-travel-calendar/archive/refs/tags/v0.3.0.zip)，解压；打开系统的“终端”，输入`cd `（末尾有空格），把解压后的文件夹拖入窗口并按回车，再逐行执行：
+普通使用者可以跳过。需要Node.js22.12或以上版本和Git。第一次：下载[固定源代码ZIP](https://github.com/soyoungzsy/soya-travel-calendar/archive/refs/tags/v0.3.1.zip)，解压；打开系统的“终端”，输入`cd `（末尾有空格），把解压后的文件夹拖入窗口并按回车，再逐行执行：
 
 ```sh
 npm ci
@@ -92,6 +94,6 @@ npm run dev
 
 ## 版本、许可与维护
 
-当前为0.3.0试用版：[更新记录](CHANGELOG.md) · [固定版本](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.3.0) · [MIT代码许可](LICENSE) · [第三方素材](THIRD_PARTY_NOTICES.md)。照片保留各自许可，不随代码变成MIT；作者和原始来源见[图片署名](docs/media-credits.md)。公开可见的小红书照片不能据此随意转载。
+当前为0.3.1试用版：[更新记录](CHANGELOG.md) · [固定版本](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.3.1) · [MIT代码许可](LICENSE) · [第三方素材](THIRD_PARTY_NOTICES.md)。照片保留各自许可，不随代码变成MIT；作者和原始来源见[图片署名](docs/media-credits.md)。公开可见的小红书照片不能据此随意转载。
 
 更新前导出地点，保留旧版本与备份。删除下载的项目文件即可卸载；浏览器中已存的数据需要单独清除。删除公开仓库或撤销发布不能收回别人已下载的副本。验证范围和未测项见[发布检查](RELEASE_REVIEW.md)。

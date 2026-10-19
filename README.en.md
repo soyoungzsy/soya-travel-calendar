@@ -3,9 +3,11 @@
 Explore seasonal travel ideas and create your own private destination list in your browser.
 选一段假期、看看当季风景，把想去的地方保存成自己的旅行清单。
 
-[中文说明](README.md) · Version 0.3.0 · Early preview
+[中文说明](README.md) · Version 0.3.1 · Early preview
 
 **[Open the online app](https://scenicdue.com/)**
+
+Mainland access: the public app still uses Sites/Cloudflare. Buying a custom domain does not move hosting. A standalone deployment adapter is prepared; mainland provisioning, ICP filing and network acceptance are not complete. See [deployment notes](deploy/aliyun/README.md).
 
 Example: choose four days in late October and a CNY 8,000 per-person budget to explore seasonal ideas. Open 我的 (“My”) in the top-right corner, choose 我的地点清单 (“My places”), then 新建地点 (“New place”) to record a synthetic “Coastal walk,” preferred months and a note. You can edit, search, mark it visited and optionally locate it on the globe. The example is a practice record, not a verified real attraction.
 
@@ -42,7 +44,7 @@ Only travel dates, visa type, entries and stay duration are retained. No name, b
 
 ## If the online app will not open
 
-Visit the [0.3.0 fixed download page](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.3.0). Under Assets, download **Soya-Travel-Calendar-v0.3.0.html**. Wait for the download, then double-click it or drag it into your browser. It includes photographs; opening it the first time can take longer than a normal page. Wait until the title and globe appear.
+Visit the [0.3.1 fixed download page](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.3.1). Under Assets, download **Soya-Travel-Calendar-v0.3.1.html**. Wait for the download, then double-click it or drag it into your browser. It includes photographs; opening it the first time can take longer than a normal page. Wait until the title and globe appear.
 
 The offline file uses compressed destination photos to reduce download size; the hosted app retains larger originals. The artifact was tested through a local web preview; direct file opening was not automatically verified because the test browser permits only HTTP/HTTPS. The offline file needs no installation and includes the main interactions and dated fallback data. It cannot refresh reference data without a server. Local-file storage varies by browser; export a JSON backup before moving the file, changing versions or clearing data. Keep the old HTML file and backup to return to a previous version. If saving fails, check private-browsing/storage restrictions.
 
@@ -75,7 +77,7 @@ The [synthetic sample](examples/my-places.sample.json) shows this project’s ow
 
 ## For developers: run or contribute
 
-Ordinary users can skip this section. Install Node.js 22.12+ and Git. Download the [fixed source ZIP](https://github.com/soyoungzsy/soya-travel-calendar/archive/refs/tags/v0.3.0.zip), unzip it, open Terminal, type `cd ` with a trailing space, drag the extracted folder into Terminal and press Enter. Run these one line at a time:
+Ordinary users can skip this section. Install Node.js 22.12+ and Git. Download the [fixed source ZIP](https://github.com/soyoungzsy/soya-travel-calendar/archive/refs/tags/v0.3.1.zip), unzip it, open Terminal, type `cd ` with a trailing space, drag the extracted folder into Terminal and press Enter. Run these one line at a time:
 
 ```sh
 npm ci
@@ -90,6 +92,6 @@ Read [Contributing](CONTRIBUTING.md) before code or public-data changes. Private
 
 ## Version, licensing and maintenance
 
-Version 0.3.0 preview: [Changelog](CHANGELOG.md), [fixed release](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.3.0), [MIT code license](LICENSE), [third-party notices](THIRD_PARTY_NOTICES.md). Media keeps its own licenses and is not relicensed MIT; [photo credits](docs/media-credits.md). A publicly visible social post is not permission to copy its photos.
+Version 0.3.1 preview: [Changelog](CHANGELOG.md), [fixed release](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.3.1), [MIT code license](LICENSE), [third-party notices](THIRD_PARTY_NOTICES.md). Media keeps its own licenses and is not relicensed MIT; [photo credits](docs/media-credits.md). A publicly visible social post is not permission to copy its photos.
 
 Export before updating; retain the previous file and backup for recovery. Delete downloaded project files to uninstall; clear browser data separately if desired. Removing a public repository/release cannot recall copies already downloaded. See [Release review](RELEASE_REVIEW.md) for actual checks and unverified areas.

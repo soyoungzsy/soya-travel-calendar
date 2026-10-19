@@ -1,6 +1,6 @@
 {
   "name": "soya-travel-calendar",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -14,7 +14,8 @@
     "prebuild": "node scripts/prepare-ocr-assets.mjs",
     "data:heritage": "node scripts/refresh-heritage-index.mjs",
     "data:cartography": "node scripts/prepare-cartography.mjs",
-    "knowledge:check": "node scripts/check-knowledge.mjs"
+    "knowledge:check": "node scripts/check-knowledge.mjs",
+    "start": "node server/node-server.mjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",
@@ -23,7 +24,9 @@
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "tesseract.js": "7.0.0",
-    "vite": "6.4.4"
+    "vite": "6.4.4",
+    "d3-geo": "3.1.1",
+    "topojson-client": "3.1.0"
   },
   "description": "A local-first travel calendar and personal destination list by Soya.",
   "license": "MIT",
@@ -32,8 +35,6 @@
     "node": ">=22.12.0"
   },
   "devDependencies": {
-    "d3-geo": "3.1.1",
-    "topojson-client": "3.1.0",
     "topojson-server": "3.0.1",
     "topojson-simplify": "3.0.3"
   },
