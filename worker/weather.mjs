@@ -1,0 +1,11 @@
+import places from './travel-places.mjs';
+const memory=new Map(),DAY=86400000;
+const json=(body,status=200)=>new Response(JSON.stringify(body),{status,headers:{'content-type':'application/json; charset=utf-8','cache-control':'public, max-age=1800','x-content-type-options':'nosniff'}});
+const valid=s=>/^\d{4}-\d{2}-\d{2}$/.test(s||'')&&Number.isFinite(Date.parse(s))&&new Date(s).toISOString().slice(0,10)===s;
+export async function weatherRoute(request,{fetcher=fetch,now=Date.now()}={}){
+ const u=new URL(request.url);if(u.pathname!=='/api/weather')return null;if(request.method!=='GET')return json({status:'method_not_allowed'},405);const id=u.searchParams.get('place'),d=places[id],start=u.searchParams.get('start'),end=u.searchParams.get('end'),today=new Date(now).toISOString().slice(0,10);
+ if(!d||!valid(start)||!valid(end)||end<start||Object.keys(Object.fromEntries(u.searchParams)).some(k=>!['place','start','end'].includes(k)))return json({status:'invalid_query'},400);
+ if(start>new Date(now+15*DAY).toISOString().slice(0,10)||end<today)return json({status:'outside_forecast',message:'不在未来16天预报范围内，请参考季节资料。'});
+ let data=memory.get(id);if(!data||now-data.cachedAt>1800000){const [longitude,latitude]=d.coord,q=new URLSearchParams({latitude,longitude,timezone:'auto',forecast_days:'16',daily:'weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max'});try{const r=await fetcher('https://api.open-meteo.com/v1/forecast?'+q,{signal:AbortSignal.timeout(6500)});if(!r.ok)throw new Error();const body=await r.json();if(!Array.isArray(body.daily?.time))throw new Error();data={daily:body.daily,timezone:body.timezone,fetchedAt:new Date(now).toISOString(),cachedAt:now};memory.set(id,data);}catch{return json({status:'weather_unavailable',message:'暂未取得天气预报，请参考季节资料。'},503);}}
+ const indices=data.daily.time.map((date,i)=>date>=start&&date<=end?i:-1).filter(i=>i>=0),daily={};for(const key of ['time','weather_code','temperature_2m_max','temperature_2m_min','precipitation_probability_max'])daily[key]=indices.map(i=>data.daily[key]?.[i]??null);return json({status:'forecast',place:id,daily,timezone:data.timezone,fetchedAt:data.fetchedAt,source:'https://open-meteo.com/',license:'CC BY 4.0'});
+}
