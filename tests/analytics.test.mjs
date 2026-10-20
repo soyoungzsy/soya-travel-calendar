@@ -43,3 +43,15 @@ test('Shanghai dates, bounded range and ordered paths',()=>{
  assert.equal(dayInShanghai(Date.parse('2026-10-19T16:01:00Z')),'2026-10-20');assert.throws(()=>reportRange(new URL('https://example.test/?start=2000-01-01')));
  const paths=summarizePaths([{session:'a',kind:'page',screen:'home'},{session:'a',kind:'click',action:'search'},{session:'a',kind:'heartbeat',screen:'home'},{session:'b',kind:'page',screen:'home'}]);assert.equal(paths.longest[0].steps.length,2);assert.deepEqual(paths.longest[0].steps,['进入首页','查看目的地灵感']);
 });
+test('late pre-midnight event corrects first day and the following day rollup',async()=>{
+ const original=Date.now,now=Date.parse('2026-10-20T00:01:00+08:00'),e=env(),b=batch();Date.now=()=>now;
+ try{
+  b.events[0].at=now;
+  assert.equal((await analyticsRoute(req('/api/analytics/collect',b),e)).status,200);
+  b.events=[{...b.events[0],id:randomUUID(),at:now-120000}];
+  assert.equal((await analyticsRoute(req('/api/analytics/collect',b),e)).status,200);
+  assert.equal(e.DB.sql.prepare('SELECT first_day FROM analytics_visitors').get().first_day,'2026-10-19');
+  const yesterday=e.DB.sql.prepare('SELECT * FROM analytics_daily WHERE day=?').get('2026-10-19'),today=e.DB.sql.prepare('SELECT * FROM analytics_daily WHERE day=?').get('2026-10-20');
+  assert.equal(yesterday.new_visitors,1);assert.equal(yesterday.returning_visitors,0);assert.equal(today.new_visitors,0);assert.equal(today.returning_visitors,1);
+ }finally{Date.now=original;e.DB.sql.close();}
+});

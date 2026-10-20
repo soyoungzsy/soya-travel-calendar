@@ -41,9 +41,11 @@ async function collect(request,env){
  const visitor=await digest(env.ANALYTICS_HASH_SALT+'|'+body.traffic+'|'+body.visitor),session=await digest(env.ANALYTICS_HASH_SALT+'|'+visitor+'|'+body.session),db=env.DB;
  const recent=await db.prepare('SELECT COUNT(*) n FROM analytics_events WHERE visitor=? AND at>?').bind(visitor,now-60000).first();if((recent?.n||0)>180)return response({error:'rate_limited'},429);
  const days=[...new Set(events.map(e=>e.day))].sort();
- const statements=[db.prepare('INSERT INTO analytics_visitors (id,first_day,last_day,traffic) VALUES (?,?,?,?) ON CONFLICT(id) DO UPDATE SET last_day=MAX(last_day,excluded.last_day)').bind(visitor,days[0],days.at(-1),body.traffic),...events.map(e=>db.prepare('INSERT OR IGNORE INTO analytics_events (id,visitor,session,day,at,seq,kind,action,screen,entity,active_ms,value,device,traffic) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)').bind(e.id,visitor,session,e.day,e.at,e.seq,e.kind,e.action,e.screen,e.entity,e.activeMs,e.value,body.device,body.traffic))];
+ const statements=[db.prepare('INSERT INTO analytics_visitors (id,first_day,last_day,traffic) VALUES (?,?,?,?) ON CONFLICT(id) DO UPDATE SET first_day=MIN(first_day,excluded.first_day),last_day=MAX(last_day,excluded.last_day)').bind(visitor,days[0],days.at(-1),body.traffic),...events.map(e=>db.prepare('INSERT OR IGNORE INTO analytics_events (id,visitor,session,day,at,seq,kind,action,screen,entity,active_ms,value,device,traffic) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)').bind(e.id,visitor,session,e.day,e.at,e.seq,e.kind,e.action,e.screen,e.entity,e.activeMs,e.value,body.device,body.traffic))];
  await db.batch(statements);
- for(const day of days)await rollup(db,day,body.traffic,now);
+ // A late pre-midnight batch can move first_day back and change later revisit totals.
+ const affected=await db.prepare('SELECT DISTINCT day FROM analytics_events WHERE visitor=? AND day>=?').bind(visitor,days[0]).all();
+ for(const {day} of affected.results||[])await rollup(db,day,body.traffic,now);
  const cutoff=dayInShanghai(now-90*86400000);
  await db.batch([db.prepare('DELETE FROM analytics_events WHERE day<?').bind(cutoff),db.prepare('DELETE FROM analytics_visitors WHERE last_day<?').bind(cutoff),db.prepare('DELETE FROM analytics_daily WHERE day<?').bind(cutoff)]);
  return response({status:'recorded',accepted:events.length});

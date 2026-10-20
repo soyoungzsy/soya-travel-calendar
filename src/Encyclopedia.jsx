@@ -7,12 +7,14 @@ import {TravelEnrichment} from './TravelEnrichment.jsx';
 import {track,setAnalyticsScreen} from './analytics.mjs';
 import {TODAY} from './data.mjs';
 import media from './media-catalog.mjs';
-function readSaved(){try{return JSON.parse(localStorage.getItem('shanhe-youqi-v3')||'{}').saved||[];}catch{return[];}}
+import {readJourney,savedIDs,toggleSaved,observeSaved} from './journey-storage.mjs';
+function readSaved(){try{return savedIDs(readJourney(localStorage));}catch{return[];}}
 export default function Encyclopedia(){
  const [continent,setContinent]=useState('all'),[countryId,setCountryId]=useState(''),[cityId,setCityId]=useState(''),[category,setCategory]=useState('all'),[selected,setSelected]=useState(null),[limit,setLimit]=useState(12),[saved,setSaved]=useState(readSaved),detail=useRef(null);
  const countries=encyclopedia.countries.filter(c=>continent==='all'||c.continents.includes(continent)),country=countries.find(c=>c.id===countryId)||null,cities=country?.cities||[],city=cities.find(c=>c.id===cityId)||null,points=useMemo(()=>encyclopediaPoints(city,category),[city,category]),base=city?.destinations[0];
  useEffect(()=>{setAnalyticsScreen('encyclopedia');},[]);
- function save(id){const next=saved.includes(id)?saved.filter(x=>x!==id):[...saved,id];setSaved(next);try{const previous=JSON.parse(localStorage.getItem('shanhe-youqi-v3')||'{}');localStorage.setItem('shanhe-youqi-v3',JSON.stringify({...previous,saved:next}));}catch{}track(saved.includes(id)?'unsave':'save',id);}
+ useEffect(()=>observeSaved(setSaved),[]);
+ function save(id){try{const next=toggleSaved(localStorage,id,saved);setSaved(next);track(next.includes(id)?'save':'unsave',id);}catch{setSaved(ids=>ids.includes(id)?ids.filter(x=>x!==id):[...ids,id]);}}
  function selectCountry(id){setCountryId(id);setCityId('');setSelected(null);setLimit(12);track('country','country:'+id);}
  function selectCity(id){setCityId(id);setSelected(null);setLimit(12);}
  function selectPoint(p){setSelected(p);track('poi',p.id);requestAnimationFrame(()=>detail.current?.scrollIntoView({behavior:'smooth',block:'start'}));}
