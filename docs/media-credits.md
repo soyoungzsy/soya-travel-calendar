@@ -168,3 +168,8 @@ Food images and individual credits: `src/food-media-v10.json`, files under `publ
 Baikal, Sayram and Mohe paired seasons: `src/season-media-v10.json`, files under `public/season/`. Every image records subject, photographer, source page, license, season evidence, dimensions, transformations and SHA256. Summer and winter use distinct photographs. `src/media-catalog.mjs` exposes them with the existing gallery.
 
 Files marked CC BY-SA remain under their stated share-alike licenses. WebP conversion/downsampling is recorded; code MIT licensing does not relicense images. These are historical photographs, not real-time conditions. No tourism authority endorsement is implied.
+
+
+## Decorative cotton paper background
+
+`public/textures/cotton-paper-v1.jpg`: generated with the built-in OpenAI ImageGen tool on 2026-10-20 for the user-selected warm cotton-paper direction. Compressed JPEG derivative of the generated texture. Decorative surface only; not a photograph or source of destination facts. Prompt: bright warm ivory fine-art cotton rag, fine interlaced fibres, subtle cold-pressed relief, seamless low-contrast texture, no text or objects.

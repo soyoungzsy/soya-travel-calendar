@@ -20,7 +20,8 @@ const pointPhotos=JSON.parse(fs.readFileSync('src/poi-media.json','utf8'));
 const portablePhotos=new Map(Object.values(media.photos).map(p=>[p.src,p.thumbnail||p.src]));
 const urls=new Set();function collect(value){if(typeof value==='string'&&/^\/(photos|textures|moments|points|poi|food|season)\//.test(value))urls.add(value);else if(Array.isArray(value))value.forEach(collect);else if(value&&typeof value==='object')Object.values(value).forEach(collect);}collect(media);collect(pointPhotos);for(const name of ['food-media-v10.json','season-media-v10.json'])collect(JSON.parse(fs.readFileSync('src/'+name,'utf8')));
 for(const url of [...urls].sort((a,b)=>b.length-a.length)){const file=portablePhotos.get(url)||url,ext=path.extname(file).slice(1),mime=ext==='jpg'?'jpeg':ext,data='data:image/'+mime+';base64,'+fs.readFileSync(path.join(root,file)).toString('base64');js=js.replaceAll(url,data);}
-const css=styles.map(file=>fs.readFileSync(path.join(bundleRoot,file),'utf8')).join('\n');
+let css=styles.map(file=>fs.readFileSync(path.join(bundleRoot,file),'utf8')).join('\n');
+const paper='/textures/cotton-paper-v1.jpg';css=css.replaceAll(paper,'data:image/jpeg;base64,'+fs.readFileSync(path.join(root,paper)).toString('base64'));
 const heritagePath=path.join(root,'data/heritage-index.json'),heritage=fs.existsSync(heritagePath)?fs.readFileSync(heritagePath,'utf8'):'null';
 const fragment='<div id="journey-atlas-root"></div>\n<style>'+css+'</style>\n'+vendors.map(s=>'<script>'+esc(s)+'</script>').join('\n')+'\n<script>globalThis.__SHANHE_PORTABLE__=true;globalThis.__SHANHE_HERITAGE__='+esc(heritage)+';(()=>{\n'+esc(js)+'\n})();</script>';
 const licenseFiles=['LICENSE','THIRD_PARTY_NOTICES.md',...fs.readdirSync('licenses').map(name=>'licenses/'+name)];

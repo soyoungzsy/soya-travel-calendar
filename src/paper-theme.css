@@ -1,0 +1,15 @@
+/* The selected cotton-paper art direction; the image is decorative, not travel evidence. */
+:root{background:#f7f3e9}
+body{background-color:#f7f3e9;background-image:url('/textures/cotton-paper-v1.jpg');background-repeat:repeat;background-size:780px 780px}
+.atlas-app.revision-five{--page:#f7f3e9;--surface:#fffdf8;--soft:#f2f0e9;--line:#dfddd3;--muted:#697984;background:transparent}
+.revision-five .unified-filters{background:#ffffff52;border:1px solid #dfddd380}
+.revision-five .origin-control,.revision-five .date-range-control,.revision-five .budget-control{background:#fffefa99;border-color:#dddfda}
+.revision-five .date-range-trigger>b{background:#eaece7}
+.revision-five .earth-wrap{background:transparent}
+.revision-five .feature-destination,.revision-five .destination-column{background:transparent}
+.revision-five .feature-live-line,.revision-five .feature-footer,.revision-five .feature-experiences{border-color:var(--line)}
+.revision-five .earth-settings-trigger,.revision-five .earth-bottom{background:#fffdf5ed;border-color:#dddfd8}
+.revision-five .destination-tile,.revision-five .knowledge-card,.revision-five .timeless-card{background:#fffdf980}
+.encyclopedia-page .encyclopedia-browser,.encyclopedia-page .encyclopedia-season-list>a{background:#f1eee4bd}
+.encyclopedia-page .encyclopedia-region-grid button,.encyclopedia-page .encyclopedia-city-grid button{background:#fffdf8a6}
+.insights{background:transparent}.insights .insight-panel,.insights .insight-metric{background:#fffdf9d9}
