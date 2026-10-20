@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5.0 source — 2026-10-21
+
+- Add selected-date flight/hotel query workbench, separate outbound/return conditions, bounded nearby-date samples, and honest copy-to-platform fallback. Formal FlyAI access remains unverified and disabled by default.
+- Add fixed-endpoint MCP adapter with schema validation, strict route/date matching, preserved supplier notices, no trial credentials, and D1 global call budget. Never turn planning budgets into quotes or hotel display prices into confirmed totals.
+- Generate a browser-local, printable A4 PDF travel book from the same itinerary and knowledge records: suggested time blocks, cultural context, food, reading, transport/stay guidance, preparation and sources. Embed a licensed multilingual subset font on demand.
+- Use available 16-day representative-point forecasts only for matching local visit days; keep seasonal references and transit days distinct. Add regression checks for route preservation, wrong supplier products, privacy and PDF text coverage.
+- Deployment is separate from this source release. Free Tencent candidate and formal OTA activation are not claimed complete.
+
 ## 0.4.0 — 2026-10-20
 
 - 新增可选、同源的使用统计：浏览器访客、点击、前台有效停留、跨日复访与有序操作路径。

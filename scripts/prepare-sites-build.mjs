@@ -16,7 +16,7 @@ for (const file of [index, worker, hosting]) {
 mkdirSync(path.join(dist, "server"), { recursive: true });
 mkdirSync(path.join(dist, ".openai"), { recursive: true });
 copyFileSync(worker, path.join(dist, "server", "index.js"));
-for(const file of ['analytics.mjs','analytics-contract.mjs','analytics-entities.mjs'])copyFileSync(path.join(root,'worker',file),path.join(dist,'server',file));
+for(const file of ['analytics.mjs','analytics-contract.mjs','analytics-entities.mjs','travel-search.mjs','travel-places.mjs','weather.mjs'])copyFileSync(path.join(root,'worker',file),path.join(dist,'server',file));
 copyFileSync(hosting, path.join(dist, ".openai", "hosting.json"));
 if(existsSync(path.join(root,'drizzle')))cpSync(path.join(root,'drizzle'),path.join(dist,'.openai','drizzle'),{recursive:true});
 
