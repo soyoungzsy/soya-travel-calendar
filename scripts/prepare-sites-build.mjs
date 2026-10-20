@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { copyFileSync, existsSync, mkdirSync } from "node:fs";
+import { copyFileSync, cpSync, existsSync, mkdirSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -16,6 +16,8 @@ for (const file of [index, worker, hosting]) {
 mkdirSync(path.join(dist, "server"), { recursive: true });
 mkdirSync(path.join(dist, ".openai"), { recursive: true });
 copyFileSync(worker, path.join(dist, "server", "index.js"));
+for(const file of ['analytics.mjs','analytics-contract.mjs','analytics-entities.mjs'])copyFileSync(path.join(root,'worker',file),path.join(dist,'server',file));
 copyFileSync(hosting, path.join(dist, ".openai", "hosting.json"));
+if(existsSync(path.join(root,'drizzle')))cpSync(path.join(root,'drizzle'),path.join(dist,'.openai','drizzle'),{recursive:true});
 
 console.log("Prepared Sites build: dist/server/index.js and dist/.openai/hosting.json");

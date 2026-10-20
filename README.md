@@ -3,7 +3,7 @@
 选一段假期、看看当季不同地方最美的风景，把想去的地方保存成自己的旅行清单。
 A seasonal travel calendar with a private, browser-local destination list.
 
-[English guide](README.en.md) · 版本0.3.1 · 初始试用版
+[English guide](README.en.md) · 版本0.4.0 · 初始试用版
 
 **[打开在线体验](https://scenicdue.com/)**
 
@@ -94,6 +94,16 @@ npm run dev
 
 ## 版本、许可与维护
 
-当前为0.3.1试用版：[更新记录](CHANGELOG.md) · [固定版本](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.3.1) · [MIT代码许可](LICENSE) · [第三方素材](THIRD_PARTY_NOTICES.md)。照片保留各自许可，不随代码变成MIT；作者和原始来源见[图片署名](docs/media-credits.md)。公开可见的小红书照片不能据此随意转载。
+当前为0.4.0试用版：[更新记录](CHANGELOG.md) · [离线下载0.3.1](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.3.1) · [MIT代码许可](LICENSE) · [第三方素材](THIRD_PARTY_NOTICES.md)。照片保留各自许可，不随代码变成MIT；作者和原始来源见[图片署名](docs/media-credits.md)。公开可见的小红书照片不能据此随意转载。
 
 更新前导出地点，保留旧版本与备份。删除下载的项目文件即可卸载；浏览器中已存的数据需要单独清除。删除公开仓库或撤销发布不能收回别人已下载的副本。验证范围和未测项见[发布检查](RELEASE_REVIEW.md)。
+
+
+### 产品使用数据
+
+网站所有者可在[私有数据报表](https://scenicdue.com/insights)查看每日访客、访问次数、按钮点击、前台有效停留、最长/常见路径和跨日复访，并导出日报。首次访问者可选择是否允许统计；只记录公开地点与功能操作，不采集私人清单、旅行输入或证件内容。上线前历史不可追溯。详见[统计口径与部署](docs/analytics.md)及[隐私说明](PRIVACY.md)。
+
+
+### 旅行百科与资料扩展
+
+[旅行百科](https://scenicdue.com/encyclopedia)与目的地年历共用一套数据，可按大洲、国家和城市浏览。资料获取与审核方法见[知识库获取方案](docs/knowledge-ingestion.md)。实时报价现状与免费接入条件见[OTA接口核验](docs/ota-access.md)；本版尚未接通公开网站的实时报价。

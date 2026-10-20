@@ -1,9 +1,11 @@
 import countries from './country-labels.json' with {type:'json'};
 import indexMetadata from './knowledge-index-meta.json' with {type:'json'};
-import detailed from './poi-catalog.json' with {type:'json'};
+import curatedDetailed from './poi-catalog.json' with {type:'json'};
+import seasonalAdditions from './season-additions-v10.json' with {type:'json'};
+const detailed=[...curatedDetailed,...seasonalAdditions.pois];
 import pointPhotos from './poi-media.json' with {type:'json'};
-import guides from './travel-guides.json' with {type:'json'};
-import media from './media.json' with {type:'json'};
+import guides from './guide-catalog.mjs';
+import media from './media-catalog.mjs';
 import {destinations} from './data.mjs';
 import {DAY,parseDate,iso} from './engine.mjs';
 
@@ -14,12 +16,12 @@ export const categoryName={nature:'自然风光',culture:'人文风光',mixed:'�
 export function countryName(code){return countryByCode.get(code)?.nameZh||code;}
 function sourceFor(d){return d.sourceURL||d.seasonSource;}
 function monthsFor(windows){const months=new Set();for(const [a,b]of windows||[]){let m=+a.slice(0,2),last=+b.slice(0,2);for(let i=0;i<12;i++){months.add(m);if(m===last)break;m=m%12+1;}}return[...months].sort((a,b)=>a-b);}
-function nearName(a,b){return a===b||a.length>=3&&b.includes(a)||b.length>=3&&a.includes(b);}
-const reference=[];
+function nearName(a,b){const normalize=s=>s.replace(/（[^）]*）|\([^)]*\)/g,'').replace(/阿蒙|神庙群|神庙|与.*|·.*/g,'').trim();const x=normalize(a),y=normalize(b);return a===b||x.length>=2&&x===y||a.length>=3&&b.includes(a)||b.length>=3&&a.includes(b);}
+const reference=[],referenceAliases=new Map();
 for(const d of destinations){
  const highlights=guides[d.id]?.highlights||d.highlights||[];
  for(const [i,h]of highlights.entries()){
-  if(detailed.some(p=>p.id===`poi:reference:${d.id}:${i}`||p.parentId===d.id&&nearName(p.name.split(' · ')[0],h.name)))continue;
+  const matched=detailed.find(p=>p.id===`poi:reference:${d.id}:${i}`||(p.parentId===d.id||p.relatedDestinationIds?.includes(d.id))&&(nearName(p.name.split(' · ')[0],h.name)||p.aliases?.includes(h.name)));if(matched){referenceAliases.set(`poi:reference:${d.id}:${i}`,matched);continue;}
   const culture=h.kind==='culture',nature=h.kind==='nature';
   reference.push({id:`poi:reference:${d.id}:${i}`,parentId:d.id,country:d.country,name:h.name,category:culture?'culture':nature?'nature':'mixed',whyGo:h.experience,experience:h.experience,durationEstimate:h.timing||'游览时长待进一步核验',recordKind:'reference-poi',verification:'既有攻略摘记，尚未逐点复核',seasonality:{mode:culture?'year_round':'seasonal',months:monthsFor(d.windows),windows:culture?null:d.windows},momentPhoto:media.moments?.[d.id]?.[i]?[d.id,i]:null,sources:sourceFor(d)?[{title:'目的地参考来源',url:sourceFor(d),authority:'既有参考资料',accessLevel:'not-rechecked'}]:[]});
  }
@@ -53,7 +55,7 @@ export function loadHeritageIndex(){
  if(!indexPromise)indexPromise=(globalThis.__SHANHE_HERITAGE__?Promise.resolve(globalThis.__SHANHE_HERITAGE__):fetch('/data/heritage-index.json').then(r=>{if(!r.ok)throw new Error('官方地点索引暂时无法读取');return r.json();})).then(installHeritageIndex).catch(e=>{indexPromise=null;throw e;});
  return indexPromise;
 }
-export function resolveKnowledgeItem(id){return itemById.get(id)||null;}
+export function resolveKnowledgeItem(id){if(itemById.has(id))return itemById.get(id);const aliased=referenceAliases.get(id);return aliased?{...variantsFor(aliased)[0],id,canonicalId:aliased.id}:null;}
 export function dateRangeDays(start,end){const a=parseDate(start),b=parseDate(end);if(!Number.isFinite(a)||!Number.isFinite(b)||b<a||b-a>366*DAY)return[];return Array.from({length:Math.round((b-a)/DAY)+1},(_,i)=>iso(a+i*DAY));}
 export function matchesPOISeason(p,start,end){
  const days=dateRangeDays(start,end);if(!days.length)return false;
@@ -64,7 +66,7 @@ export function matchesPOISeason(p,start,end){
  if(s.windows?.length)return days.some(day=>s.windows.some(([a,b])=>{const md=day.slice(5);return a<=b?md>=a&&md<=b:md>=a||md<=b;}));
  return days.some(day=>s.months?.includes(+day.slice(5,7)));
 }
-export function cityPOIs(parentId,start,end,{allSeasons=false}={}){return allPOICards.filter(p=>p.parentId===parentId&&(allSeasons||matchesPOISeason(p,start,end))).sort((a,b)=>(a.recordKind==='reference-poi')-(b.recordKind==='reference-poi'));}
+export function cityPOIs(parentId,start,end,{allSeasons=false}={}){return allPOICards.filter(p=>(p.parentId===parentId||p.relatedDestinationIds?.includes(parentId))&&(allSeasons||matchesPOISeason(p,start,end))).sort((a,b)=>(a.recordKind==='reference-poi')-(b.recordKind==='reference-poi'));}
 export function activeEvents(p,start,end){return(p.events||[]).filter(e=>start<=e.end&&end>=e.start);}
 export function forCountry(country,start,end){
  if(!country)return{cities:[],points:[],heritage:[]};
@@ -75,8 +77,11 @@ export function forCountry(country,start,end){
 }
 export function searchCountries(query=''){
  const q=query.trim().toLocaleLowerCase();
- return countries.filter(c=>!q||`${c.nameZh} ${c.nameEn} ${c.iso2||''}`.toLocaleLowerCase().includes(q)).sort((a,b)=>a.nameZh.localeCompare(b.nameZh,'zh-CN'));
+ return directoryCountries.filter(c=>!q||`${c.nameZh} ${c.nameEn} ${c.iso2||''} ${c.aliases.join(' ')}`.toLocaleLowerCase().includes(q)).sort((a,b)=>a.nameZh.localeCompare(b.nameZh,'zh-CN'));
 }
+const directoryGroups=new Map();
+for(const c of countries){const key=c.iso2||c.id;if(!directoryGroups.has(key))directoryGroups.set(key,[]);directoryGroups.get(key).push(c);}
+export const directoryCountries=[...directoryGroups.values()].map(group=>{const primary=[...group].sort((a,b)=>(b.area||0)-(a.area||0))[0];return {...primary,aliases:[...new Set(group.flatMap(c=>[c.nameZh,c.nameEn,c.sourceName].filter(Boolean)))],mapUnitIds:group.map(c=>c.id)};});
 export function getPOIPhoto(p){
  if(p.photoKey&&pointPhotos[p.photoKey])return pointPhotos[p.photoKey];
  if(p.photoDestination&&media.photos[p.photoDestination])return media.photos[p.photoDestination];

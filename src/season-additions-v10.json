@@ -1,0 +1,2728 @@
+{
+  "schemaVersion": "season-additions-v10.1",
+  "checkedAt": "2026-10-20",
+  "contentScope": "public-official-reference-only",
+  "integrationNote": "destinations可追加到discoveries；guides按ID归一到travel-guides；pois与officialSources需按ID去重；auroraAudit是审计证据，不直接作新的出行保证。",
+  "destinations": [
+    {
+      "id": "baikal-summer-shores",
+      "name": "贝加尔湖",
+      "english": "BAIKAL SUMMER SHORES",
+      "country": "俄罗斯",
+      "city": "伊尔库茨克（门户）；利斯特维扬卡、胡日尔",
+      "region": "伊尔库茨克州西岸线路",
+      "policy": "俄罗斯",
+      "coord": [
+        107.6625,
+        53.173611
+      ],
+      "coordinateNote": "使用UNESCO遗产地参考点（经度、纬度），不是酒店、码头或伊尔库茨克市中心。",
+      "domestic": false,
+      "nature": 0.9,
+      "windows": [
+        [
+          "07-01",
+          "08-15"
+        ]
+      ],
+      "season": "7月—8月上半月 · 湖岸与岛屿",
+      "subtitle": "在蓝色湖水与草原之间慢下来",
+      "whyNow": "夏季值得看的不只是湖蓝：奥尔洪的岩岸与草原呈现湖泊的辽阔，利斯特维扬卡的科学展陈让人看懂其特有生态。先选择西岸一条线，给湖边步行和小镇停留留出时间。",
+      "whyGo": "夏季值得看的不只是湖蓝：奥尔洪的岩岸与草原呈现湖泊的辽阔，利斯特维扬卡的科学展陈让人看懂其特有生态。先选择西岸一条线，给湖边步行和小镇停留留出时间。",
+      "description": "夏季值得看的不只是湖蓝：奥尔洪的岩岸与草原呈现湖泊的辽阔，利斯特维扬卡的科学展陈让人看懂其特有生态。先选择西岸一条线，给湖边步行和小镇停留留出时间。",
+      "highlights": [
+        {
+          "name": "奥尔洪岛与胡日尔湖岸",
+          "experience": "在草原、岩岸和开阔水面交接处，体会湖泊近似海洋的尺度；同一岸段早晚光线会改变水色。",
+          "viewing": "以胡日尔为基地，在已开放岸边和步道看湖；乘船或远端线路另核验运营。",
+          "timing": "至少两晚；往返伊尔库茨克的长途接驳另计。",
+          "sources": [
+            {
+              "id": "baikal-routes",
+              "title": "伊尔库茨克州旅游门户：从伊尔库茨克出发的三条线路",
+              "url": "https://travel-baikal.info/roads/top-3-mest-kuda-poehat-iz-irkutska/",
+              "authority": "伊尔库茨克州旅游门户 TravelBaikal",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "body-verified",
+              "caution": "采用空间关系与体验类型；旧班次、票务与行车耗时不当作指定日期保证。"
+            },
+            {
+              "id": "baikal-unesco",
+              "title": "贝加尔湖世界遗产：生态价值与地理坐标",
+              "url": "https://whc.unesco.org/en/list/754/",
+              "authority": "联合国教科文组织世界遗产中心",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "body-verified"
+            }
+          ]
+        },
+        {
+          "name": "利斯特维扬卡与贝加尔湖博物馆",
+          "experience": "先看湖中生物与科学展陈，再回到安加拉河出口附近岸线，把风景与这个古老淡水生态系统联系起来。",
+          "viewing": "岸边步行配合室内展陈；以博物馆实际开放与展厅安排为准。",
+          "timing": "留一天；可替换不适合户外的天气日。",
+          "sources": [
+            {
+              "id": "baikal-routes",
+              "title": "伊尔库茨克州旅游门户：从伊尔库茨克出发的三条线路",
+              "url": "https://travel-baikal.info/roads/top-3-mest-kuda-poehat-iz-irkutska/",
+              "authority": "伊尔库茨克州旅游门户 TravelBaikal",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "body-verified",
+              "caution": "采用空间关系与体验类型；旧班次、票务与行车耗时不当作指定日期保证。"
+            },
+            {
+              "id": "baikal-museum",
+              "title": "俄罗斯科学院贝加尔湖博物馆：研究、收藏与展陈",
+              "url": "https://isc.irk.ru/ru/institutes/bm",
+              "authority": "俄罗斯科学院西伯利亚分院伊尔库茨克科学中心",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "search-excerpt",
+              "caution": "本轮获得官方检索正文；博物馆新官网bmdp.ru打开超时，不引入票价和开放时间。"
+            }
+          ]
+        }
+      ],
+      "minDays": 9,
+      "travelDays": 4,
+      "flight": 4200,
+      "daily": 780,
+      "extra": 1200,
+      "stops": [
+        [
+          "利斯特维扬卡",
+          "湖岸|贝加尔湖博物馆"
+        ],
+        [
+          "奥尔洪岛·胡日尔",
+          "开放湖岸步道|草原与岩岸"
+        ]
+      ],
+      "airports": [
+        "伊尔库茨克国际机场 IKT"
+      ],
+      "currency": "RUB",
+      "wikiTitle": "Lake_Baikal",
+      "photo": null,
+      "sourceURL": "https://travel-baikal.info/seasons/otdyh-na-bajkale-kratkaja-pamjatka-dlja-turista/",
+      "seasonSource": "https://travel-baikal.info/seasons/otdyh-na-bajkale-kratkaja-pamjatka-dlja-turista/",
+      "sources": [
+        {
+          "id": "baikal-season",
+          "title": "伊尔库茨克州旅游门户：贝加尔湖旅行简明指南",
+          "url": "https://travel-baikal.info/seasons/otdyh-na-bajkale-kratkaja-pamjatka-dlja-turista/",
+          "authority": "伊尔库茨克州旅游门户 TravelBaikal",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "caution": "采用7月至8月上半月、2至3月的常年旅行建议，不把结冰概述当作冰面安全许可。"
+        },
+        {
+          "id": "baikal-routes",
+          "title": "伊尔库茨克州旅游门户：从伊尔库茨克出发的三条线路",
+          "url": "https://travel-baikal.info/roads/top-3-mest-kuda-poehat-iz-irkutska/",
+          "authority": "伊尔库茨克州旅游门户 TravelBaikal",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "caution": "采用空间关系与体验类型；旧班次、票务与行车耗时不当作指定日期保证。"
+        },
+        {
+          "id": "baikal-unesco",
+          "title": "贝加尔湖世界遗产：生态价值与地理坐标",
+          "url": "https://whc.unesco.org/en/list/754/",
+          "authority": "联合国教科文组织世界遗产中心",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified"
+        },
+        {
+          "id": "baikal-museum",
+          "title": "俄罗斯科学院贝加尔湖博物馆：研究、收藏与展陈",
+          "url": "https://isc.irk.ru/ru/institutes/bm",
+          "authority": "俄罗斯科学院西伯利亚分院伊尔库茨克科学中心",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "caution": "本轮获得官方检索正文；博物馆新官网bmdp.ru打开超时，不引入票价和开放时间。"
+        }
+      ],
+      "checkedAt": "2026-10-20",
+      "recordKind": "official-season-sample",
+      "budgetStatus": "editorial-budget-estimate",
+      "estimatedAt": "2026-10-20",
+      "estimateCurrency": "CNY",
+      "budgetNote": "flight/daily/extra仅为原型筛选使用的编辑估算，未查询指定日期机票、酒店或门票，不是实时价格。",
+      "tripLengthNote": "至少9天的跨境示例：4天作进出与衔接，5天留给湖岸、奥尔洪往返和停留。奥尔洪不作伊尔库茨克半日近郊；航班与渡运未核，不够时删去奥尔洪。",
+      "uncertainty": [
+        "7月到8月上半月是官方常年旅行建议，非水温或晴天保证。",
+        "渡运、船班、步道准入和防火管理需按出行日期确认。"
+      ]
+    },
+    {
+      "id": "baikal-winter-ice",
+      "name": "贝加尔湖",
+      "english": "BAIKAL WINTER ICE",
+      "country": "俄罗斯",
+      "city": "伊尔库茨克（门户）；利斯特维扬卡、胡日尔",
+      "region": "伊尔库茨克州西岸线路",
+      "policy": "俄罗斯",
+      "coord": [
+        107.6625,
+        53.173611
+      ],
+      "coordinateNote": "使用UNESCO遗产地参考点（经度、纬度），不是酒店、码头或伊尔库茨克市中心。",
+      "domestic": false,
+      "nature": 0.9,
+      "windows": [
+        [
+          "02-01",
+          "03-15"
+        ]
+      ],
+      "season": "2月—3月上半月 · 冰景需逐日确认",
+      "subtitle": "看冰的纹理，也理解冰下的湖",
+      "whyNow": "冬季把巨大的湖面变成冰与雪的地貌，和夏季水色是两段完全不同的旅程。以开放岸线、小海周边和博物馆组成基本行程；蓝冰、冰洞或冰路不能用月份直接承诺。",
+      "whyGo": "冬季把巨大的湖面变成冰与雪的地貌，和夏季水色是两段完全不同的旅程。以开放岸线、小海周边和博物馆组成基本行程；蓝冰、冰洞或冰路不能用月份直接承诺。",
+      "description": "冬季把巨大的湖面变成冰与雪的地貌，和夏季水色是两段完全不同的旅程。以开放岸线、小海周边和博物馆组成基本行程；蓝冰、冰洞或冰路不能用月份直接承诺。",
+      "highlights": [
+        {
+          "name": "小海与奥尔洪岛冬季湖岸",
+          "experience": "冬季将水面的尺度变成冰的纹理与岸边雪线；透明冰、裂纹或冰挂是否出现各有条件。",
+          "viewing": "优先从陆地岸边及开放观景点看冰；涉及上冰仅采用当日合法开放且由合格运营方组织的线路。",
+          "timing": "2月至3月为常年冬游关注期；不承诺具体日期的透明冰或可通行冰路。",
+          "sources": [
+            {
+              "id": "baikal-routes",
+              "title": "伊尔库茨克州旅游门户：从伊尔库茨克出发的三条线路",
+              "url": "https://travel-baikal.info/roads/top-3-mest-kuda-poehat-iz-irkutska/",
+              "authority": "伊尔库茨克州旅游门户 TravelBaikal",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "body-verified",
+              "caution": "采用空间关系与体验类型；旧班次、票务与行车耗时不当作指定日期保证。"
+            },
+            {
+              "id": "baikal-season",
+              "title": "伊尔库茨克州旅游门户：贝加尔湖旅行简明指南",
+              "url": "https://travel-baikal.info/seasons/otdyh-na-bajkale-kratkaja-pamjatka-dlja-turista/",
+              "authority": "伊尔库茨克州旅游门户 TravelBaikal",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "body-verified",
+              "caution": "采用7月至8月上半月、2至3月的常年旅行建议，不把结冰概述当作冰面安全许可。"
+            }
+          ]
+        },
+        {
+          "name": "利斯特维扬卡的湖泊科学日",
+          "experience": "室内展陈解释湖泊形成与特有生物，让一段为冰而来的旅行也能理解冰下生态。",
+          "viewing": "博物馆配岸边短步行，恶劣天气保留室内时段。",
+          "timing": "至少半天至一天；开放时间另查。",
+          "sources": [
+            {
+              "id": "baikal-museum",
+              "title": "俄罗斯科学院贝加尔湖博物馆：研究、收藏与展陈",
+              "url": "https://isc.irk.ru/ru/institutes/bm",
+              "authority": "俄罗斯科学院西伯利亚分院伊尔库茨克科学中心",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "search-excerpt",
+              "caution": "本轮获得官方检索正文；博物馆新官网bmdp.ru打开超时，不引入票价和开放时间。"
+            },
+            {
+              "id": "baikal-unesco",
+              "title": "贝加尔湖世界遗产：生态价值与地理坐标",
+              "url": "https://whc.unesco.org/en/list/754/",
+              "authority": "联合国教科文组织世界遗产中心",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "body-verified"
+            }
+          ]
+        }
+      ],
+      "minDays": 9,
+      "travelDays": 4,
+      "flight": 4600,
+      "daily": 880,
+      "extra": 1600,
+      "stops": [
+        [
+          "利斯特维扬卡",
+          "岸边冰雪景观|贝加尔湖博物馆"
+        ],
+        [
+          "奥尔洪岛·胡日尔",
+          "开放岸线|小海周边合规观景"
+        ]
+      ],
+      "airports": [
+        "伊尔库茨克国际机场 IKT"
+      ],
+      "currency": "RUB",
+      "wikiTitle": "Lake_Baikal",
+      "photo": null,
+      "sourceURL": "https://travel-baikal.info/seasons/otdyh-na-bajkale-kratkaja-pamjatka-dlja-turista/",
+      "seasonSource": "https://travel-baikal.info/seasons/otdyh-na-bajkale-kratkaja-pamjatka-dlja-turista/",
+      "sources": [
+        {
+          "id": "baikal-season",
+          "title": "伊尔库茨克州旅游门户：贝加尔湖旅行简明指南",
+          "url": "https://travel-baikal.info/seasons/otdyh-na-bajkale-kratkaja-pamjatka-dlja-turista/",
+          "authority": "伊尔库茨克州旅游门户 TravelBaikal",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "caution": "采用7月至8月上半月、2至3月的常年旅行建议，不把结冰概述当作冰面安全许可。"
+        },
+        {
+          "id": "baikal-routes",
+          "title": "伊尔库茨克州旅游门户：从伊尔库茨克出发的三条线路",
+          "url": "https://travel-baikal.info/roads/top-3-mest-kuda-poehat-iz-irkutska/",
+          "authority": "伊尔库茨克州旅游门户 TravelBaikal",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "caution": "采用空间关系与体验类型；旧班次、票务与行车耗时不当作指定日期保证。"
+        },
+        {
+          "id": "baikal-unesco",
+          "title": "贝加尔湖世界遗产：生态价值与地理坐标",
+          "url": "https://whc.unesco.org/en/list/754/",
+          "authority": "联合国教科文组织世界遗产中心",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified"
+        },
+        {
+          "id": "baikal-museum",
+          "title": "俄罗斯科学院贝加尔湖博物馆：研究、收藏与展陈",
+          "url": "https://isc.irk.ru/ru/institutes/bm",
+          "authority": "俄罗斯科学院西伯利亚分院伊尔库茨克科学中心",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "caution": "本轮获得官方检索正文；博物馆新官网bmdp.ru打开超时，不引入票价和开放时间。"
+        }
+      ],
+      "checkedAt": "2026-10-20",
+      "recordKind": "official-season-sample",
+      "budgetStatus": "editorial-budget-estimate",
+      "estimatedAt": "2026-10-20",
+      "estimateCurrency": "CNY",
+      "budgetNote": "flight/daily/extra仅为原型筛选使用的编辑估算，未查询指定日期机票、酒店或门票，不是实时价格。",
+      "tripLengthNote": "至少9天；冬季湖区长途接驳、上岛方式和天气均会压缩体验时间。若当日不具备安全合规衔接条件，留在利斯特维扬卡/伊尔库茨克替换活动。",
+      "uncertainty": [
+        "官方常年冬游为2至3月，本卡保守收窄到3月上半月；不是封冻或冰路开放预测。",
+        "冰面厚度、裂缝、积雪和运营许可需逐日确认，未开放时不上冰。"
+      ]
+    },
+    {
+      "id": "sayram-summer-meadows",
+      "name": "赛里木湖",
+      "english": "SAYRAM SUMMER MEADOWS",
+      "country": "中国",
+      "city": "博乐市",
+      "region": "新疆博尔塔拉蒙古自治州",
+      "policy": "中国",
+      "coord": [
+        81.17,
+        44.6
+      ],
+      "coordinateNote": "湖区示意点（经度、纬度），落在博州官方所列东经81°05′—81°15′、北纬44°30′—44°42′范围内；不作导航入口。",
+      "domestic": true,
+      "nature": 0.9,
+      "windows": [
+        [
+          "06-01",
+          "08-31"
+        ]
+      ],
+      "season": "6—8月 · 湖蓝、草甸与云杉",
+      "subtitle": "从贴湖的蓝，走到林中的绿",
+      "whyNow": "这里值得留一天以上，因为同一湖盆同时容纳湖蓝、草甸、云杉和山脊。把环湖看景与松树头一带步道分开，才能从贴近水面走到能看清山湖关系的地方。",
+      "whyGo": "这里值得留一天以上，因为同一湖盆同时容纳湖蓝、草甸、云杉和山脊。把环湖看景与松树头一带步道分开，才能从贴近水面走到能看清山湖关系的地方。",
+      "description": "这里值得留一天以上，因为同一湖盆同时容纳湖蓝、草甸、云杉和山脊。把环湖看景与松树头一带步道分开，才能从贴近水面走到能看清山湖关系的地方。",
+      "highlights": [
+        {
+          "name": "湖岸、草甸与远山",
+          "experience": "蓝色湖面、山前草甸和远处山脉在同一个视野相叠，值得慢看水色随角度与天气变化。",
+          "viewing": "沿开放环湖道路分段停靠；选择合法停车与岸边步道，步行观察而非只赶环湖里程。",
+          "timing": "夏季湖景；花量、草色、雪线逐年变化。",
+          "sources": [
+            {
+              "id": "sayram-summer",
+              "title": "新疆草原旅游线路：赛里木湖湖蓝、雪山与云杉步道",
+              "url": "https://wlt.xinjiang.gov.cn/wlt/c112786/202407/2b887ca59222415ab8fd622f59732f16.shtml",
+              "authority": "新疆维吾尔自治区文化和旅游厅",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "body-verified",
+              "publishedAt": "2025-06-03",
+              "caution": "采用景观与步道体验；原文“没有高反”等绝对宣传语不采纳；URL目录年份与正文日期不同，记录正文日期。"
+            }
+          ]
+        },
+        {
+          "name": "松树头一带云杉步道",
+          "experience": "从贴近湖面的视角走进天山云杉林，再逐渐看见湖盆与山地的关系，体验从湖到森林的高度变化。",
+          "viewing": "以实际开放步道和自身能力决定折返点，不为“登顶全景”强行走完整段。",
+          "timing": "安排半天，不与抵达和整圈环湖压在同一下午。",
+          "sources": [
+            {
+              "id": "sayram-summer",
+              "title": "新疆草原旅游线路：赛里木湖湖蓝、雪山与云杉步道",
+              "url": "https://wlt.xinjiang.gov.cn/wlt/c112786/202407/2b887ca59222415ab8fd622f59732f16.shtml",
+              "authority": "新疆维吾尔自治区文化和旅游厅",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "body-verified",
+              "publishedAt": "2025-06-03",
+              "caution": "采用景观与步道体验；原文“没有高反”等绝对宣传语不采纳；URL目录年份与正文日期不同，记录正文日期。"
+            },
+            {
+              "id": "sayram-plan",
+              "title": "赛里木湖风景名胜区总体规划（2021—2035）",
+              "url": "https://www.xjboz.gov.cn/xjboz/c126221/202202/6c11b0230bb14c3aa22e87110b9ce152.shtml",
+              "authority": "博尔塔拉蒙古自治州人民政府",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "search-excerpt",
+              "caution": "规划用于核对自然景观与分区，规划中的“建设”“提升”“研究论证”均不等于已经开放。"
+            }
+          ]
+        }
+      ],
+      "minDays": 5,
+      "travelDays": 2,
+      "flight": 3000,
+      "daily": 700,
+      "extra": 600,
+      "stops": [
+        [
+          "博乐/赛里木湖",
+          "湖岸与草甸|环湖开放观景段"
+        ],
+        [
+          "赛里木湖",
+          "松树头一带云杉步道|按天气停留"
+        ]
+      ],
+      "airports": [
+        "博乐博尔塔拉机场 BPL",
+        "伊宁机场 YIN"
+      ],
+      "currency": "CNY",
+      "wikiTitle": "Sayram_Lake",
+      "photo": null,
+      "sourceURL": "https://wlt.xinjiang.gov.cn/wlt/c112786/202407/2b887ca59222415ab8fd622f59732f16.shtml",
+      "seasonSource": "https://wlt.xinjiang.gov.cn/wlt/c112786/202407/2b887ca59222415ab8fd622f59732f16.shtml",
+      "sources": [
+        {
+          "id": "sayram-summer",
+          "title": "新疆草原旅游线路：赛里木湖湖蓝、雪山与云杉步道",
+          "url": "https://wlt.xinjiang.gov.cn/wlt/c112786/202407/2b887ca59222415ab8fd622f59732f16.shtml",
+          "authority": "新疆维吾尔自治区文化和旅游厅",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "publishedAt": "2025-06-03",
+          "caution": "采用景观与步道体验；原文“没有高反”等绝对宣传语不采纳；URL目录年份与正文日期不同，记录正文日期。"
+        },
+        {
+          "id": "sayram-plan",
+          "title": "赛里木湖风景名胜区总体规划（2021—2035）",
+          "url": "https://www.xjboz.gov.cn/xjboz/c126221/202202/6c11b0230bb14c3aa22e87110b9ce152.shtml",
+          "authority": "博尔塔拉蒙古自治州人民政府",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "caution": "规划用于核对自然景观与分区，规划中的“建设”“提升”“研究论证”均不等于已经开放。"
+        },
+        {
+          "id": "sayram-coord",
+          "title": "博州养殖水域滩涂规划：赛里木湖地理范围",
+          "url": "https://www.xjboz.gov.cn/xjboz/c126103/202109/985766f6bb8f49348606bf63bd92260e.shtml",
+          "authority": "博尔塔拉蒙古自治州农业农村局",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "publishedAt": "2021-09-17"
+        }
+      ],
+      "checkedAt": "2026-10-20",
+      "recordKind": "official-season-sample",
+      "budgetStatus": "editorial-budget-estimate",
+      "estimatedAt": "2026-10-20",
+      "estimateCurrency": "CNY",
+      "budgetNote": "flight/daily/extra仅为原型筛选使用的编辑估算，未查询指定日期机票、酒店或门票，不是实时价格。",
+      "tripLengthNote": "至少5天为外地往返示例，含2天交通与接驳。湖区至少留1整天并尽量有1晚；不把乌鲁木齐、赛湖、伊宁、那拉提压成同一天。",
+      "uncertainty": [
+        "6至8月为湖岸与步行的编辑推荐窗口，未把花期精确到某周。",
+        "湖区海拔约2073米，风、温差、步道和临时交通组织需再核。"
+      ]
+    },
+    {
+      "id": "sayram-winter-ice",
+      "name": "赛里木湖",
+      "english": "SAYRAM WINTER ICE",
+      "country": "中国",
+      "city": "博乐市",
+      "region": "新疆博尔塔拉蒙古自治州",
+      "policy": "中国",
+      "coord": [
+        81.17,
+        44.6
+      ],
+      "coordinateNote": "湖区示意点（经度、纬度），落在博州官方所列东经81°05′—81°15′、北纬44°30′—44°42′范围内；不作导航入口。",
+      "domestic": true,
+      "nature": 0.9,
+      "windows": [
+        [
+          "01-01",
+          "02-28"
+        ]
+      ],
+      "season": "1—2月 · 冰雪景观条件项",
+      "subtitle": "在雪山环抱中看湖面换一种形态",
+      "whyNow": "冬日赛湖的吸引力是山、雪和冰在同一湖盆里的层次，而不只是寻找一种网红蓝冰。以允许到达的岸边和克勒涌珠一带为观察线，留足光线变化与保暖休整时间。",
+      "whyGo": "冬日赛湖的吸引力是山、雪和冰在同一湖盆里的层次，而不只是寻找一种网红蓝冰。以允许到达的岸边和克勒涌珠一带为观察线，留足光线变化与保暖休整时间。",
+      "description": "冬日赛湖的吸引力是山、雪和冰在同一湖盆里的层次，而不只是寻找一种网红蓝冰。以允许到达的岸边和克勒涌珠一带为观察线，留足光线变化与保暖休整时间。",
+      "highlights": [
+        {
+          "name": "赛湖冬季冰景",
+          "experience": "将常见的夏日湖蓝换成冰、雪与山脊：在允许到达的岸段观察冰面颜色和纹理，晨昏光线提供另一种层次。",
+          "viewing": "岸上或景区划定区域观景；不因照片中有人站冰面就自行上冰。",
+          "timing": "冬季冰景关注期；蓝冰、冰泡、冰花都不保证同时出现。",
+          "sources": [
+            {
+              "id": "sayram-winter",
+              "title": "赛里木湖2024—2025冬季旅游安排",
+              "url": "https://www.xjboz.gov.cn/xjboz/c126074/202411/0d6ded67b06746cc858f8be556b67cff.shtml",
+              "authority": "博尔塔拉蒙古自治州赛里木湖旅游发展管理局",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "search-excerpt",
+              "publishedAt": "2024-11-12",
+              "caution": "检索返回官方文章全文，直接打开超时；只采用冬季冰雪体验类型，不沿用历史门票优惠、节庆日期或未落地项目。"
+            },
+            {
+              "id": "sayram-plan",
+              "title": "赛里木湖风景名胜区总体规划（2021—2035）",
+              "url": "https://www.xjboz.gov.cn/xjboz/c126221/202202/6c11b0230bb14c3aa22e87110b9ce152.shtml",
+              "authority": "博尔塔拉蒙古自治州人民政府",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "search-excerpt",
+              "caution": "规划用于核对自然景观与分区，规划中的“建设”“提升”“研究论证”均不等于已经开放。"
+            }
+          ]
+        },
+        {
+          "name": "克勒涌珠一带冬景",
+          "experience": "冬季景观并非只有整块湖冰；泉水、积雪与滨湖植物形成局部变化，可以在小范围慢慢观察。",
+          "viewing": "只走当日开放的栈道与观景区域；水边与结冰处不越界。",
+          "timing": "此点在官方规划中属冬季景观关注区，具体开放范围另核。",
+          "sources": [
+            {
+              "id": "sayram-plan",
+              "title": "赛里木湖风景名胜区总体规划（2021—2035）",
+              "url": "https://www.xjboz.gov.cn/xjboz/c126221/202202/6c11b0230bb14c3aa22e87110b9ce152.shtml",
+              "authority": "博尔塔拉蒙古自治州人民政府",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "search-excerpt",
+              "caution": "规划用于核对自然景观与分区，规划中的“建设”“提升”“研究论证”均不等于已经开放。"
+            }
+          ]
+        }
+      ],
+      "minDays": 5,
+      "travelDays": 2,
+      "flight": 3200,
+      "daily": 780,
+      "extra": 800,
+      "stops": [
+        [
+          "博乐/赛里木湖",
+          "开放岸段冰雪观景|室内休整"
+        ],
+        [
+          "赛里木湖",
+          "克勒涌珠一带开放区域|天气备用"
+        ]
+      ],
+      "airports": [
+        "博乐博尔塔拉机场 BPL",
+        "伊宁机场 YIN"
+      ],
+      "currency": "CNY",
+      "wikiTitle": "Sayram_Lake",
+      "photo": null,
+      "sourceURL": "https://www.xjboz.gov.cn/xjboz/c126074/202411/0d6ded67b06746cc858f8be556b67cff.shtml",
+      "seasonSource": "https://www.xjboz.gov.cn/xjboz/c126074/202411/0d6ded67b06746cc858f8be556b67cff.shtml",
+      "sources": [
+        {
+          "id": "sayram-winter",
+          "title": "赛里木湖2024—2025冬季旅游安排",
+          "url": "https://www.xjboz.gov.cn/xjboz/c126074/202411/0d6ded67b06746cc858f8be556b67cff.shtml",
+          "authority": "博尔塔拉蒙古自治州赛里木湖旅游发展管理局",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "publishedAt": "2024-11-12",
+          "caution": "检索返回官方文章全文，直接打开超时；只采用冬季冰雪体验类型，不沿用历史门票优惠、节庆日期或未落地项目。"
+        },
+        {
+          "id": "sayram-plan",
+          "title": "赛里木湖风景名胜区总体规划（2021—2035）",
+          "url": "https://www.xjboz.gov.cn/xjboz/c126221/202202/6c11b0230bb14c3aa22e87110b9ce152.shtml",
+          "authority": "博尔塔拉蒙古自治州人民政府",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "caution": "规划用于核对自然景观与分区，规划中的“建设”“提升”“研究论证”均不等于已经开放。"
+        },
+        {
+          "id": "sayram-coord",
+          "title": "博州养殖水域滩涂规划：赛里木湖地理范围",
+          "url": "https://www.xjboz.gov.cn/xjboz/c126103/202109/985766f6bb8f49348606bf63bd92260e.shtml",
+          "authority": "博尔塔拉蒙古自治州农业农村局",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "publishedAt": "2021-09-17"
+        }
+      ],
+      "checkedAt": "2026-10-20",
+      "recordKind": "official-season-sample",
+      "budgetStatus": "editorial-budget-estimate",
+      "estimatedAt": "2026-10-20",
+      "estimateCurrency": "CNY",
+      "budgetNote": "flight/daily/extra仅为原型筛选使用的编辑估算，未查询指定日期机票、酒店或门票，不是实时价格。",
+      "tripLengthNote": "至少5天；保留接驳与一天弹性，不以抵达当天拍到蓝冰作为行程成立条件。道路或景区关闭时缩短湖区活动，改为门户休整。",
+      "uncertainty": [
+        "1至2月是为筛选设置的保守冰雪旅行窗口，非具体冰情预报。",
+        "蓝冰、冰泡、冰花、冰推的形成不同；不保证某日某段全部可见。",
+        "冬季活动与交通可能调整，历史优惠和活动日历不能延用。"
+      ]
+    },
+    {
+      "id": "mohe-summer-long-days",
+      "name": "漠河",
+      "english": "MOHE SUMMER LONG DAYS",
+      "country": "中国",
+      "city": "漠河市·北极镇",
+      "region": "黑龙江省大兴安岭地区",
+      "policy": "中国",
+      "coord": [
+        122.355,
+        53.5
+      ],
+      "coordinateNote": "指向北极村的示意点（经度、纬度）；与漠河市区及机场不同，按文旅局公布景区坐标范围取近似值。",
+      "domestic": true,
+      "nature": 0.9,
+      "windows": [
+        [
+          "06-10",
+          "08-20"
+        ]
+      ],
+      "season": "6月中旬—8月中旬 · 长昼与森林",
+      "subtitle": "在长长的傍晚看森林与界江",
+      "whyNow": "夏天的漠河值得为森林、界江和长昼而去。北极村适合平视村落与江岸，龙江第一湾则从高处展现河道与森林的尺度；夏至的节庆与白夜可作为加分项，极光不作为出发理由。",
+      "whyGo": "夏天的漠河值得为森林、界江和长昼而去。北极村适合平视村落与江岸，龙江第一湾则从高处展现河道与森林的尺度；夏至的节庆与白夜可作为加分项，极光不作为出发理由。",
+      "description": "夏天的漠河值得为森林、界江和长昼而去。北极村适合平视村落与江岸，龙江第一湾则从高处展现河道与森林的尺度；夏至的节庆与白夜可作为加分项，极光不作为出发理由。",
+      "highlights": [
+        {
+          "name": "北极村：长昼中的界江村落",
+          "experience": "把“找北”变成一段有尺度的生活体验：走村落、看黑龙江对岸与漫长晚光，感受中国北部森林和边境空间。",
+          "viewing": "在允许开放的村落、岸边与观景设施步行；岸边遵守边境标识，不跨越管理界线。",
+          "timing": "夏至前后主打长昼和白夜；这不是极光概率承诺。",
+          "sources": [
+            {
+              "id": "mohe-village",
+              "title": "北极村景区简介",
+              "url": "https://www.mohe.gov.cn/mohe/c101210/202309/c13_258538.shtml",
+              "authority": "漠河市文化和旅游局",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "body-verified",
+              "publishedAt": "2023-09-12",
+              "caution": "采用位置、历史和景观；不采纳“唯一”“极昼极夜最佳点”等宣传性概括，不以北极光节推断目击概率。"
+            },
+            {
+              "id": "mohe-summer",
+              "title": "漠河夏至：白夜、森林与民俗节庆",
+              "url": "https://www.mohe.gov.cn/mohe/c101071/202606/c13_339989.shtml",
+              "authority": "漠河市人民政府办公室",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "search-excerpt",
+              "caution": "2026活动报道只证明体验类型；次年节庆安排需重新查。"
+            },
+            {
+              "id": "mohe-advice",
+              "title": "漠河旅游温馨提示",
+              "url": "https://www.mohe.gov.cn/mohe/c101203/lyxz.shtml",
+              "authority": "漠河市人民政府",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "body-verified"
+            }
+          ]
+        },
+        {
+          "name": "龙江第一湾",
+          "experience": "黑龙江绕山林形成Ω形江湾，登高后才能理解河道如何包围半岛；这是与村落平视完全不同的地理体验。",
+          "viewing": "若栈道开放且体力允许，沿指定步道登观景台；不登高时改为较轻松的林区与村落路线。",
+          "timing": "需单独给足往返与台阶时间；不与北极村塞成半日打卡。",
+          "sources": [
+            {
+              "id": "mohe-bend",
+              "title": "秋染龙江第一湾：江湾形态与登高观看",
+              "url": "https://www.hlj.gov.cn/hlj/c107859/202609/c00_31978051.shtml",
+              "authority": "黑龙江省人民政府（原始来源：黑龙江日报）",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "body-verified",
+              "publishedAt": "2026-09-17",
+              "caution": "政府转载的现场图文，用于江湾地形和观景方式；秋色报道不证明冬季栈道开放。"
+            }
+          ]
+        }
+      ],
+      "minDays": 5,
+      "travelDays": 2,
+      "flight": 3000,
+      "daily": 650,
+      "extra": 600,
+      "stops": [
+        [
+          "北极村",
+          "村落与界江开放岸线|长昼晚光"
+        ],
+        [
+          "龙江第一湾一带",
+          "开放观景台|林区景观"
+        ]
+      ],
+      "airports": [
+        "漠河古莲机场 OHE"
+      ],
+      "currency": "CNY",
+      "wikiTitle": "Mohe_City",
+      "photo": null,
+      "sourceURL": "https://www.mohe.gov.cn/mohe/c101210/202309/c13_258538.shtml",
+      "seasonSource": "https://www.mohe.gov.cn/mohe/c101210/202309/c13_258538.shtml",
+      "sources": [
+        {
+          "id": "mohe-village",
+          "title": "北极村景区简介",
+          "url": "https://www.mohe.gov.cn/mohe/c101210/202309/c13_258538.shtml",
+          "authority": "漠河市文化和旅游局",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "publishedAt": "2023-09-12",
+          "caution": "采用位置、历史和景观；不采纳“唯一”“极昼极夜最佳点”等宣传性概括，不以北极光节推断目击概率。"
+        },
+        {
+          "id": "mohe-summer",
+          "title": "漠河夏至：白夜、森林与民俗节庆",
+          "url": "https://www.mohe.gov.cn/mohe/c101071/202606/c13_339989.shtml",
+          "authority": "漠河市人民政府办公室",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "caution": "2026活动报道只证明体验类型；次年节庆安排需重新查。"
+        },
+        {
+          "id": "mohe-advice",
+          "title": "漠河旅游温馨提示",
+          "url": "https://www.mohe.gov.cn/mohe/c101203/lyxz.shtml",
+          "authority": "漠河市人民政府",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified"
+        },
+        {
+          "id": "mohe-bend",
+          "title": "秋染龙江第一湾：江湾形态与登高观看",
+          "url": "https://www.hlj.gov.cn/hlj/c107859/202609/c00_31978051.shtml",
+          "authority": "黑龙江省人民政府（原始来源：黑龙江日报）",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "publishedAt": "2026-09-17",
+          "caution": "政府转载的现场图文，用于江湾地形和观景方式；秋色报道不证明冬季栈道开放。"
+        },
+        {
+          "id": "aurora-cas",
+          "title": "漠河极光与2025年1月1日磁暴的观测研究",
+          "url": "https://www.igg.cas.cn/xwzx/yjcg/202603/t20260316_8159845.html",
+          "authority": "中国科学院地质与地球物理研究所",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "publishedAt": "2026-03-16",
+          "caution": "检索返回官方研究正文，直接打开超时；单次事件及近期频率变化不能推导旅游命中率。"
+        },
+        {
+          "id": "aurora-noaa",
+          "title": "极光观测条件：地磁活动、位置、黑暗与时段",
+          "url": "https://www.swpc.noaa.gov/content/tips-viewing-aurora",
+          "authority": "美国NOAA/NWS空间天气预报中心",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "caution": "本轮重定向至spaceweather.gov。仅采用稳定观测原则；不沿用页面旧磁极位置和Kp阈值作中国地点的硬保证。"
+        }
+      ],
+      "checkedAt": "2026-10-20",
+      "recordKind": "official-season-sample",
+      "budgetStatus": "editorial-budget-estimate",
+      "estimatedAt": "2026-10-20",
+      "estimateCurrency": "CNY",
+      "budgetNote": "flight/daily/extra仅为原型筛选使用的编辑估算，未查询指定日期机票、酒店或门票，不是实时价格。",
+      "tripLengthNote": "至少5天，含进出2天、当地3天；北极村距市区约77公里，界江线路需要公路接驳。若增加北红村或更远林区，另加天数。",
+      "uncertainty": [
+        "窗口为夏季体验编辑建议；夏至节庆的具体日期每年重查。",
+        "白夜是长时间暮光体验，不把北极村写成真正24小时太阳不落。",
+        "极光为强空间天气下的偶发机会，无可据此公布的旅行命中率。"
+      ]
+    },
+    {
+      "id": "mohe-winter-snow",
+      "name": "漠河",
+      "english": "MOHE WINTER SNOW",
+      "country": "中国",
+      "city": "漠河市·北极镇",
+      "region": "黑龙江省大兴安岭地区",
+      "policy": "中国",
+      "coord": [
+        122.355,
+        53.5
+      ],
+      "coordinateNote": "指向北极村的示意点（经度、纬度）；与漠河市区及机场不同，按文旅局公布景区坐标范围取近似值。",
+      "domestic": true,
+      "nature": 0.9,
+      "windows": [
+        [
+          "12-01",
+          "02-28"
+        ]
+      ],
+      "season": "12—2月 · 寒冬森林与村落",
+      "subtitle": "把冬天过成短步行与慢休息",
+      "whyNow": "冬日漠河的价值是极寒环境里的村落、森林与界江雪景。用短段户外和室内休整交替组织旅行，龙江第一湾仅在道路和栈道允许时加入；夜空有机会出现极光，但不能以此替代行程本身。",
+      "whyGo": "冬日漠河的价值是极寒环境里的村落、森林与界江雪景。用短段户外和室内休整交替组织旅行，龙江第一湾仅在道路和栈道允许时加入；夜空有机会出现极光，但不能以此替代行程本身。",
+      "description": "冬日漠河的价值是极寒环境里的村落、森林与界江雪景。用短段户外和室内休整交替组织旅行，龙江第一湾仅在道路和栈道允许时加入；夜空有机会出现极光，但不能以此替代行程本身。",
+      "highlights": [
+        {
+          "name": "北极村冬日村落与界江雪景",
+          "experience": "严冬把森林、村屋和江岸连成安静的白色空间；短时间的户外步行与温暖室内交替，体会寒地生活。",
+          "viewing": "沿陆地开放道路与观景点短段慢走，江面结冰不等于可随意通行。",
+          "timing": "12月至2月为冰雪旅行关注期；严寒和风雪会改变活动。",
+          "sources": [
+            {
+              "id": "mohe-village",
+              "title": "北极村景区简介",
+              "url": "https://www.mohe.gov.cn/mohe/c101210/202309/c13_258538.shtml",
+              "authority": "漠河市文化和旅游局",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "body-verified",
+              "publishedAt": "2023-09-12",
+              "caution": "采用位置、历史和景观；不采纳“唯一”“极昼极夜最佳点”等宣传性概括，不以北极光节推断目击概率。"
+            },
+            {
+              "id": "mohe-advice",
+              "title": "漠河旅游温馨提示",
+              "url": "https://www.mohe.gov.cn/mohe/c101203/lyxz.shtml",
+              "authority": "漠河市人民政府",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "body-verified"
+            }
+          ]
+        },
+        {
+          "name": "龙江第一湾冬季远景（条件项）",
+          "experience": "若冬季通行和栈道允许，从高处看覆雪森林与界江弯道；重点仍是江湾的地形尺度。",
+          "viewing": "出发前确认道路、景区与栈道开放；积雪台阶、身体状态或天气不合适即改为村落短线。",
+          "timing": "冬季开放未查实，必须以当日公告替换；不作为不可取消的核心项目。",
+          "sources": [
+            {
+              "id": "mohe-bend",
+              "title": "秋染龙江第一湾：江湾形态与登高观看",
+              "url": "https://www.hlj.gov.cn/hlj/c107859/202609/c00_31978051.shtml",
+              "authority": "黑龙江省人民政府（原始来源：黑龙江日报）",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "body-verified",
+              "publishedAt": "2026-09-17",
+              "caution": "政府转载的现场图文，用于江湾地形和观景方式；秋色报道不证明冬季栈道开放。"
+            },
+            {
+              "id": "mohe-advice",
+              "title": "漠河旅游温馨提示",
+              "url": "https://www.mohe.gov.cn/mohe/c101203/lyxz.shtml",
+              "authority": "漠河市人民政府",
+              "type": "official",
+              "accessedAt": "2026-10-20",
+              "accessLevel": "body-verified"
+            }
+          ]
+        }
+      ],
+      "minDays": 5,
+      "travelDays": 2,
+      "flight": 3300,
+      "daily": 720,
+      "extra": 800,
+      "stops": [
+        [
+          "北极村",
+          "冬日村落|陆地开放岸边雪景"
+        ],
+        [
+          "漠河及周边",
+          "按道路开放选择森林短线|天气与保暖备用"
+        ]
+      ],
+      "airports": [
+        "漠河古莲机场 OHE"
+      ],
+      "currency": "CNY",
+      "wikiTitle": "Mohe_City",
+      "photo": null,
+      "sourceURL": "https://www.mohe.gov.cn/mohe/c101210/202309/c13_258538.shtml",
+      "seasonSource": "https://www.mohe.gov.cn/mohe/c101210/202309/c13_258538.shtml",
+      "sources": [
+        {
+          "id": "mohe-village",
+          "title": "北极村景区简介",
+          "url": "https://www.mohe.gov.cn/mohe/c101210/202309/c13_258538.shtml",
+          "authority": "漠河市文化和旅游局",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "publishedAt": "2023-09-12",
+          "caution": "采用位置、历史和景观；不采纳“唯一”“极昼极夜最佳点”等宣传性概括，不以北极光节推断目击概率。"
+        },
+        {
+          "id": "mohe-advice",
+          "title": "漠河旅游温馨提示",
+          "url": "https://www.mohe.gov.cn/mohe/c101203/lyxz.shtml",
+          "authority": "漠河市人民政府",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified"
+        },
+        {
+          "id": "mohe-bend",
+          "title": "秋染龙江第一湾：江湾形态与登高观看",
+          "url": "https://www.hlj.gov.cn/hlj/c107859/202609/c00_31978051.shtml",
+          "authority": "黑龙江省人民政府（原始来源：黑龙江日报）",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "publishedAt": "2026-09-17",
+          "caution": "政府转载的现场图文，用于江湾地形和观景方式；秋色报道不证明冬季栈道开放。"
+        },
+        {
+          "id": "aurora-cas",
+          "title": "漠河极光与2025年1月1日磁暴的观测研究",
+          "url": "https://www.igg.cas.cn/xwzx/yjcg/202603/t20260316_8159845.html",
+          "authority": "中国科学院地质与地球物理研究所",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "publishedAt": "2026-03-16",
+          "caution": "检索返回官方研究正文，直接打开超时；单次事件及近期频率变化不能推导旅游命中率。"
+        },
+        {
+          "id": "aurora-noaa",
+          "title": "极光观测条件：地磁活动、位置、黑暗与时段",
+          "url": "https://www.swpc.noaa.gov/content/tips-viewing-aurora",
+          "authority": "美国NOAA/NWS空间天气预报中心",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "caution": "本轮重定向至spaceweather.gov。仅采用稳定观测原则；不沿用页面旧磁极位置和Kp阈值作中国地点的硬保证。"
+        }
+      ],
+      "checkedAt": "2026-10-20",
+      "recordKind": "official-season-sample",
+      "budgetStatus": "editorial-budget-estimate",
+      "estimatedAt": "2026-10-20",
+      "estimateCurrency": "CNY",
+      "budgetNote": "flight/daily/extra仅为原型筛选使用的编辑估算，未查询指定日期机票、酒店或门票，不是实时价格。",
+      "tripLengthNote": "至少5天；严寒与短日照减少可用活动时间，同一天不同时绑定多段长途公路和长台阶。龙江第一湾冬季未核到开放公告，不能作为保证执行的日程。",
+      "uncertainty": [
+        "窗口表示冰雪旅行关注期，非温度、雪量或道路开放保证。",
+        "极光要同时满足足够地磁活动、黑暗、晴空及视野；多住几晚也不等于保证看见。"
+      ]
+    }
+  ],
+  "guides": {
+    "baikal-summer-shores": {
+      "headline": "在蓝色湖水与草原之间慢下来",
+      "whyNow": "夏季值得看的不只是湖蓝：奥尔洪的岩岸与草原呈现湖泊的辽阔，利斯特维扬卡的科学展陈让人看懂其特有生态。先选择西岸一条线，给湖边步行和小镇停留留出时间。",
+      "seasonDetail": "7月—8月上半月 · 湖岸与岛屿。7月到8月上半月是官方常年旅行建议，非水温或晴天保证。",
+      "weather": [
+        "7月到8月上半月是官方常年旅行建议，非水温或晴天保证。",
+        "渡运、船班、步道准入和防火管理需按出行日期确认。"
+      ],
+      "highlights": [
+        {
+          "name": "奥尔洪岛与胡日尔湖岸",
+          "experience": "在草原、岩岸和开阔水面交接处，体会湖泊近似海洋的尺度；同一岸段早晚光线会改变水色。",
+          "timing": "至少两晚；往返伊尔库茨克的长途接驳另计。",
+          "viewing": "以胡日尔为基地，在已开放岸边和步道看湖；乘船或远端线路另核验运营。",
+          "kind": "nature"
+        },
+        {
+          "name": "利斯特维扬卡与贝加尔湖博物馆",
+          "experience": "先看湖中生物与科学展陈，再回到安加拉河出口附近岸线，把风景与这个古老淡水生态系统联系起来。",
+          "timing": "留一天；可替换不适合户外的天气日。",
+          "viewing": "岸边步行配合室内展陈；以博物馆实际开放与展厅安排为准。",
+          "kind": "nature"
+        }
+      ],
+      "experiences": [
+        {
+          "title": "奥尔洪岛与胡日尔湖岸",
+          "detail": "以胡日尔为基地，在已开放岸边和步道看湖；乘船或远端线路另核验运营。"
+        },
+        {
+          "title": "利斯特维扬卡与贝加尔湖博物馆",
+          "detail": "岸边步行配合室内展陈；以博物馆实际开放与展厅安排为准。"
+        }
+      ],
+      "route": {
+        "airports": [
+          "伊尔库茨克国际机场 IKT"
+        ],
+        "origins": [],
+        "flightPlan": [
+          "按出发城市检索完整往返和联程，不预设当前有直飞。",
+          "至少9天的跨境示例：4天作进出与衔接，5天留给湖岸、奥尔洪往返和停留。奥尔洪不作伊尔库茨克半日近郊；航班与渡运未核，不够时删去奥尔洪。"
+        ],
+        "airfareCNY": null,
+        "airfareNote": "未查询指定日期可售机票；预算字段为编辑估算。",
+        "transfer": [
+          "伊尔库茨克为西岸门户。利斯特维扬卡与奥尔洪是两个方向，宜分段而非当日跨区。",
+          "伊尔库茨克至胡日尔官方介绍约6小时公路接驳，仍应按渡运、路况和当日班次留出整段时间。"
+        ],
+        "scheduleChecked": false,
+        "modules": [
+          {
+            "name": "利斯特维扬卡",
+            "days": 2,
+            "stops": [
+              "湖岸",
+              "贝加尔湖博物馆"
+            ],
+            "logic": "湖岸与室内展陈相配，含往返伊尔库茨克的衔接；不与奥尔洪远程接驳挤在同一天。"
+          },
+          {
+            "name": "奥尔洪岛·胡日尔",
+            "days": 3,
+            "stops": [
+              "胡日尔湖岸",
+              "草原与岩岸"
+            ],
+            "logic": "三天包含长途进出和岛上停留；先确认实际渡运/冬季上岛方式，不具备合规衔接条件即删去该模块。"
+          }
+        ]
+      },
+      "stay": {
+        "areas": [
+          {
+            "name": "伊尔库茨克",
+            "reason": "进出门户与跨区前后休整"
+          },
+          {
+            "name": "利斯特维扬卡",
+            "reason": "湖岸与博物馆"
+          },
+          {
+            "name": "胡日尔",
+            "reason": "确认上岛方式后再预订，减少岛上每日搬行李"
+          }
+        ],
+        "currency": "RUB",
+        "status": "editorial-area-suggestions",
+        "notes": [
+          "未核验指定日期房型、房价或可订状态。"
+        ]
+      },
+      "money": {
+        "currency": "RUB",
+        "usage": "按实际路线确认现金、银行卡、移动支付和换汇条件；不以本卡保证境外支付可用。",
+        "status": "currency-only-no-live-rate"
+      },
+      "packing": [
+        "适合季节的叠穿衣物、防风外层",
+        "防滑步行鞋、充电宝与备用电池",
+        "冬季增加保暖手套与防滑装备；夏季准备防晒和雨具"
+      ],
+      "beforeYouGo": [
+        "7月到8月上半月是官方常年旅行建议，非水温或晴天保证。",
+        "渡运、船班、步道准入和防火管理需按出行日期确认。",
+        "至少9天的跨境示例：4天作进出与衔接，5天留给湖岸、奥尔洪往返和停留。奥尔洪不作伊尔库茨克半日近郊；航班与渡运未核，不够时删去奥尔洪。"
+      ],
+      "dayIdeas": [
+        {
+          "title": "奥尔洪岛与胡日尔湖岸",
+          "morning": "以胡日尔为基地，在已开放岸边和步道看湖；乘船或远端线路另核验运营。",
+          "afternoon": "在草原、岩岸和开阔水面交接处，体会湖泊近似海洋的尺度；同一岸段早晚光线会改变水色。",
+          "evening": "回住宿地休息，为交通和天气保留弹性。",
+          "tip": "至少两晚；往返伊尔库茨克的长途接驳另计。"
+        },
+        {
+          "title": "利斯特维扬卡与贝加尔湖博物馆",
+          "morning": "岸边步行配合室内展陈；以博物馆实际开放与展厅安排为准。",
+          "afternoon": "先看湖中生物与科学展陈，再回到安加拉河出口附近岸线，把风景与这个古老淡水生态系统联系起来。",
+          "evening": "回住宿地休息，为交通和天气保留弹性。",
+          "tip": "留一天；可替换不适合户外的天气日。"
+        }
+      ],
+      "sources": [
+        {
+          "id": "baikal-season",
+          "title": "伊尔库茨克州旅游门户：贝加尔湖旅行简明指南",
+          "url": "https://travel-baikal.info/seasons/otdyh-na-bajkale-kratkaja-pamjatka-dlja-turista/",
+          "authority": "伊尔库茨克州旅游门户 TravelBaikal",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "caution": "采用7月至8月上半月、2至3月的常年旅行建议，不把结冰概述当作冰面安全许可。"
+        },
+        {
+          "id": "baikal-routes",
+          "title": "伊尔库茨克州旅游门户：从伊尔库茨克出发的三条线路",
+          "url": "https://travel-baikal.info/roads/top-3-mest-kuda-poehat-iz-irkutska/",
+          "authority": "伊尔库茨克州旅游门户 TravelBaikal",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "caution": "采用空间关系与体验类型；旧班次、票务与行车耗时不当作指定日期保证。"
+        },
+        {
+          "id": "baikal-unesco",
+          "title": "贝加尔湖世界遗产：生态价值与地理坐标",
+          "url": "https://whc.unesco.org/en/list/754/",
+          "authority": "联合国教科文组织世界遗产中心",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified"
+        },
+        {
+          "id": "baikal-museum",
+          "title": "俄罗斯科学院贝加尔湖博物馆：研究、收藏与展陈",
+          "url": "https://isc.irk.ru/ru/institutes/bm",
+          "authority": "俄罗斯科学院西伯利亚分院伊尔库茨克科学中心",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "caution": "本轮获得官方检索正文；博物馆新官网bmdp.ru打开超时，不引入票价和开放时间。"
+        }
+      ],
+      "researchedAt": "2026-10-20"
+    },
+    "baikal-winter-ice": {
+      "headline": "看冰的纹理，也理解冰下的湖",
+      "whyNow": "冬季把巨大的湖面变成冰与雪的地貌，和夏季水色是两段完全不同的旅程。以开放岸线、小海周边和博物馆组成基本行程；蓝冰、冰洞或冰路不能用月份直接承诺。",
+      "seasonDetail": "2月—3月上半月 · 冰景需逐日确认。官方常年冬游为2至3月，本卡保守收窄到3月上半月；不是封冻或冰路开放预测。",
+      "weather": [
+        "官方常年冬游为2至3月，本卡保守收窄到3月上半月；不是封冻或冰路开放预测。",
+        "冰面厚度、裂缝、积雪和运营许可需逐日确认，未开放时不上冰。"
+      ],
+      "highlights": [
+        {
+          "name": "小海与奥尔洪岛冬季湖岸",
+          "experience": "冬季将水面的尺度变成冰的纹理与岸边雪线；透明冰、裂纹或冰挂是否出现各有条件。",
+          "timing": "2月至3月为常年冬游关注期；不承诺具体日期的透明冰或可通行冰路。",
+          "viewing": "优先从陆地岸边及开放观景点看冰；涉及上冰仅采用当日合法开放且由合格运营方组织的线路。",
+          "kind": "nature"
+        },
+        {
+          "name": "利斯特维扬卡的湖泊科学日",
+          "experience": "室内展陈解释湖泊形成与特有生物，让一段为冰而来的旅行也能理解冰下生态。",
+          "timing": "至少半天至一天；开放时间另查。",
+          "viewing": "博物馆配岸边短步行，恶劣天气保留室内时段。",
+          "kind": "nature"
+        }
+      ],
+      "experiences": [
+        {
+          "title": "小海与奥尔洪岛冬季湖岸",
+          "detail": "优先从陆地岸边及开放观景点看冰；涉及上冰仅采用当日合法开放且由合格运营方组织的线路。"
+        },
+        {
+          "title": "利斯特维扬卡的湖泊科学日",
+          "detail": "博物馆配岸边短步行，恶劣天气保留室内时段。"
+        }
+      ],
+      "route": {
+        "airports": [
+          "伊尔库茨克国际机场 IKT"
+        ],
+        "origins": [],
+        "flightPlan": [
+          "按出发城市检索完整往返和联程，不预设当前有直飞。",
+          "至少9天；冬季湖区长途接驳、上岛方式和天气均会压缩体验时间。若当日不具备安全合规衔接条件，留在利斯特维扬卡/伊尔库茨克替换活动。"
+        ],
+        "airfareCNY": null,
+        "airfareNote": "未查询指定日期可售机票；预算字段为编辑估算。",
+        "transfer": [
+          "伊尔库茨克为西岸门户。利斯特维扬卡与奥尔洪是两个方向，宜分段而非当日跨区。",
+          "伊尔库茨克至胡日尔官方介绍约6小时公路接驳，仍应按渡运、路况和当日班次留出整段时间。"
+        ],
+        "scheduleChecked": false,
+        "modules": [
+          {
+            "name": "利斯特维扬卡",
+            "days": 2,
+            "stops": [
+              "湖岸",
+              "贝加尔湖博物馆"
+            ],
+            "logic": "湖岸与室内展陈相配，含往返伊尔库茨克的衔接；不与奥尔洪远程接驳挤在同一天。"
+          },
+          {
+            "name": "奥尔洪岛·胡日尔",
+            "days": 3,
+            "stops": [
+              "胡日尔湖岸",
+              "小海周边"
+            ],
+            "logic": "三天包含长途进出和岛上停留；先确认实际渡运/冬季上岛方式，不具备合规衔接条件即删去该模块。"
+          }
+        ]
+      },
+      "stay": {
+        "areas": [
+          {
+            "name": "伊尔库茨克",
+            "reason": "进出门户与跨区前后休整"
+          },
+          {
+            "name": "利斯特维扬卡",
+            "reason": "湖岸与博物馆"
+          },
+          {
+            "name": "胡日尔",
+            "reason": "确认上岛方式后再预订，减少岛上每日搬行李"
+          }
+        ],
+        "currency": "RUB",
+        "status": "editorial-area-suggestions",
+        "notes": [
+          "未核验指定日期房型、房价或可订状态。"
+        ]
+      },
+      "money": {
+        "currency": "RUB",
+        "usage": "按实际路线确认现金、银行卡、移动支付和换汇条件；不以本卡保证境外支付可用。",
+        "status": "currency-only-no-live-rate"
+      },
+      "packing": [
+        "适合季节的叠穿衣物、防风外层",
+        "防滑步行鞋、充电宝与备用电池",
+        "冬季增加保暖手套与防滑装备；夏季准备防晒和雨具"
+      ],
+      "beforeYouGo": [
+        "官方常年冬游为2至3月，本卡保守收窄到3月上半月；不是封冻或冰路开放预测。",
+        "冰面厚度、裂缝、积雪和运营许可需逐日确认，未开放时不上冰。",
+        "至少9天；冬季湖区长途接驳、上岛方式和天气均会压缩体验时间。若当日不具备安全合规衔接条件，留在利斯特维扬卡/伊尔库茨克替换活动。"
+      ],
+      "dayIdeas": [
+        {
+          "title": "小海与奥尔洪岛冬季湖岸",
+          "morning": "优先从陆地岸边及开放观景点看冰；涉及上冰仅采用当日合法开放且由合格运营方组织的线路。",
+          "afternoon": "冬季将水面的尺度变成冰的纹理与岸边雪线；透明冰、裂纹或冰挂是否出现各有条件。",
+          "evening": "回住宿地休息，为交通和天气保留弹性。",
+          "tip": "2月至3月为常年冬游关注期；不承诺具体日期的透明冰或可通行冰路。"
+        },
+        {
+          "title": "利斯特维扬卡的湖泊科学日",
+          "morning": "博物馆配岸边短步行，恶劣天气保留室内时段。",
+          "afternoon": "室内展陈解释湖泊形成与特有生物，让一段为冰而来的旅行也能理解冰下生态。",
+          "evening": "回住宿地休息，为交通和天气保留弹性。",
+          "tip": "至少半天至一天；开放时间另查。"
+        }
+      ],
+      "sources": [
+        {
+          "id": "baikal-season",
+          "title": "伊尔库茨克州旅游门户：贝加尔湖旅行简明指南",
+          "url": "https://travel-baikal.info/seasons/otdyh-na-bajkale-kratkaja-pamjatka-dlja-turista/",
+          "authority": "伊尔库茨克州旅游门户 TravelBaikal",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "caution": "采用7月至8月上半月、2至3月的常年旅行建议，不把结冰概述当作冰面安全许可。"
+        },
+        {
+          "id": "baikal-routes",
+          "title": "伊尔库茨克州旅游门户：从伊尔库茨克出发的三条线路",
+          "url": "https://travel-baikal.info/roads/top-3-mest-kuda-poehat-iz-irkutska/",
+          "authority": "伊尔库茨克州旅游门户 TravelBaikal",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "caution": "采用空间关系与体验类型；旧班次、票务与行车耗时不当作指定日期保证。"
+        },
+        {
+          "id": "baikal-unesco",
+          "title": "贝加尔湖世界遗产：生态价值与地理坐标",
+          "url": "https://whc.unesco.org/en/list/754/",
+          "authority": "联合国教科文组织世界遗产中心",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified"
+        },
+        {
+          "id": "baikal-museum",
+          "title": "俄罗斯科学院贝加尔湖博物馆：研究、收藏与展陈",
+          "url": "https://isc.irk.ru/ru/institutes/bm",
+          "authority": "俄罗斯科学院西伯利亚分院伊尔库茨克科学中心",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "caution": "本轮获得官方检索正文；博物馆新官网bmdp.ru打开超时，不引入票价和开放时间。"
+        }
+      ],
+      "researchedAt": "2026-10-20"
+    },
+    "sayram-summer-meadows": {
+      "headline": "从贴湖的蓝，走到林中的绿",
+      "whyNow": "这里值得留一天以上，因为同一湖盆同时容纳湖蓝、草甸、云杉和山脊。把环湖看景与松树头一带步道分开，才能从贴近水面走到能看清山湖关系的地方。",
+      "seasonDetail": "6—8月 · 湖蓝、草甸与云杉。6至8月为湖岸与步行的编辑推荐窗口，未把花期精确到某周。",
+      "weather": [
+        "6至8月为湖岸与步行的编辑推荐窗口，未把花期精确到某周。",
+        "湖区海拔约2073米，风、温差、步道和临时交通组织需再核。"
+      ],
+      "highlights": [
+        {
+          "name": "湖岸、草甸与远山",
+          "experience": "蓝色湖面、山前草甸和远处山脉在同一个视野相叠，值得慢看水色随角度与天气变化。",
+          "timing": "夏季湖景；花量、草色、雪线逐年变化。",
+          "viewing": "沿开放环湖道路分段停靠；选择合法停车与岸边步道，步行观察而非只赶环湖里程。",
+          "kind": "nature"
+        },
+        {
+          "name": "松树头一带云杉步道",
+          "experience": "从贴近湖面的视角走进天山云杉林，再逐渐看见湖盆与山地的关系，体验从湖到森林的高度变化。",
+          "timing": "安排半天，不与抵达和整圈环湖压在同一下午。",
+          "viewing": "以实际开放步道和自身能力决定折返点，不为“登顶全景”强行走完整段。",
+          "kind": "nature"
+        }
+      ],
+      "experiences": [
+        {
+          "title": "湖岸、草甸与远山",
+          "detail": "沿开放环湖道路分段停靠；选择合法停车与岸边步道，步行观察而非只赶环湖里程。"
+        },
+        {
+          "title": "松树头一带云杉步道",
+          "detail": "以实际开放步道和自身能力决定折返点，不为“登顶全景”强行走完整段。"
+        }
+      ],
+      "route": {
+        "airports": [
+          "博乐博尔塔拉机场 BPL",
+          "伊宁机场 YIN"
+        ],
+        "origins": [],
+        "flightPlan": [
+          "按出发城市检索完整往返和联程，不预设当前有直飞。",
+          "至少5天为外地往返示例，含2天交通与接驳。湖区至少留1整天并尽量有1晚；不把乌鲁木齐、赛湖、伊宁、那拉提压成同一天。"
+        ],
+        "airfareCNY": null,
+        "airfareNote": "未查询指定日期可售机票；预算字段为编辑估算。",
+        "transfer": [
+          "分别比较博乐和伊宁进出的公路接驳及总耗时，机场只是检索候选，不代表指定日期有航班。",
+          "环湖自驾、景区交通、可入园门及冬季道路安排需用当期公告替换。"
+        ],
+        "scheduleChecked": false,
+        "modules": [
+          {
+            "name": "赛里木湖湖岸",
+            "days": 2,
+            "stops": [
+              "开放环湖观景段",
+              "湖岸草甸"
+            ],
+            "logic": "两天包含门户至湖区公路衔接、分段观景与休整，不承诺整日无风晴朗。"
+          },
+          {
+            "name": "松树头一带",
+            "days": 1,
+            "stops": [
+              "云杉步道",
+              "山湖远景"
+            ],
+            "logic": "由开放情况、天气和体力决定；恶劣天气时替换为门户休整。"
+          }
+        ]
+      },
+      "stay": {
+        "areas": [
+          {
+            "name": "博乐",
+            "reason": "门户住宿与补给"
+          },
+          {
+            "name": "景区允许住宿的服务区域",
+            "reason": "有一晚可分开晨昏观景；具体营业与交通另核"
+          }
+        ],
+        "currency": "CNY",
+        "status": "editorial-area-suggestions",
+        "notes": [
+          "未核验指定日期房型、房价或可订状态。"
+        ]
+      },
+      "money": {
+        "currency": "CNY",
+        "usage": "人民币；景区交通、门票与住宿分别查当期官方公告。",
+        "status": "currency-only-no-live-rate"
+      },
+      "packing": [
+        "适合季节的叠穿衣物、防风外层",
+        "防滑步行鞋、充电宝与备用电池",
+        "冬季增加保暖手套与防滑装备；夏季准备防晒和雨具"
+      ],
+      "beforeYouGo": [
+        "6至8月为湖岸与步行的编辑推荐窗口，未把花期精确到某周。",
+        "湖区海拔约2073米，风、温差、步道和临时交通组织需再核。",
+        "至少5天为外地往返示例，含2天交通与接驳。湖区至少留1整天并尽量有1晚；不把乌鲁木齐、赛湖、伊宁、那拉提压成同一天。"
+      ],
+      "dayIdeas": [
+        {
+          "title": "湖岸、草甸与远山",
+          "morning": "沿开放环湖道路分段停靠；选择合法停车与岸边步道，步行观察而非只赶环湖里程。",
+          "afternoon": "蓝色湖面、山前草甸和远处山脉在同一个视野相叠，值得慢看水色随角度与天气变化。",
+          "evening": "回住宿地休息，为交通和天气保留弹性。",
+          "tip": "夏季湖景；花量、草色、雪线逐年变化。"
+        },
+        {
+          "title": "松树头一带云杉步道",
+          "morning": "以实际开放步道和自身能力决定折返点，不为“登顶全景”强行走完整段。",
+          "afternoon": "从贴近湖面的视角走进天山云杉林，再逐渐看见湖盆与山地的关系，体验从湖到森林的高度变化。",
+          "evening": "回住宿地休息，为交通和天气保留弹性。",
+          "tip": "安排半天，不与抵达和整圈环湖压在同一下午。"
+        }
+      ],
+      "sources": [
+        {
+          "id": "sayram-summer",
+          "title": "新疆草原旅游线路：赛里木湖湖蓝、雪山与云杉步道",
+          "url": "https://wlt.xinjiang.gov.cn/wlt/c112786/202407/2b887ca59222415ab8fd622f59732f16.shtml",
+          "authority": "新疆维吾尔自治区文化和旅游厅",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "publishedAt": "2025-06-03",
+          "caution": "采用景观与步道体验；原文“没有高反”等绝对宣传语不采纳；URL目录年份与正文日期不同，记录正文日期。"
+        },
+        {
+          "id": "sayram-plan",
+          "title": "赛里木湖风景名胜区总体规划（2021—2035）",
+          "url": "https://www.xjboz.gov.cn/xjboz/c126221/202202/6c11b0230bb14c3aa22e87110b9ce152.shtml",
+          "authority": "博尔塔拉蒙古自治州人民政府",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "caution": "规划用于核对自然景观与分区，规划中的“建设”“提升”“研究论证”均不等于已经开放。"
+        },
+        {
+          "id": "sayram-coord",
+          "title": "博州养殖水域滩涂规划：赛里木湖地理范围",
+          "url": "https://www.xjboz.gov.cn/xjboz/c126103/202109/985766f6bb8f49348606bf63bd92260e.shtml",
+          "authority": "博尔塔拉蒙古自治州农业农村局",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "publishedAt": "2021-09-17"
+        }
+      ],
+      "researchedAt": "2026-10-20"
+    },
+    "sayram-winter-ice": {
+      "headline": "在雪山环抱中看湖面换一种形态",
+      "whyNow": "冬日赛湖的吸引力是山、雪和冰在同一湖盆里的层次，而不只是寻找一种网红蓝冰。以允许到达的岸边和克勒涌珠一带为观察线，留足光线变化与保暖休整时间。",
+      "seasonDetail": "1—2月 · 冰雪景观条件项。1至2月是为筛选设置的保守冰雪旅行窗口，非具体冰情预报。",
+      "weather": [
+        "1至2月是为筛选设置的保守冰雪旅行窗口，非具体冰情预报。",
+        "蓝冰、冰泡、冰花、冰推的形成不同；不保证某日某段全部可见。",
+        "冬季活动与交通可能调整，历史优惠和活动日历不能延用。"
+      ],
+      "highlights": [
+        {
+          "name": "赛湖冬季冰景",
+          "experience": "将常见的夏日湖蓝换成冰、雪与山脊：在允许到达的岸段观察冰面颜色和纹理，晨昏光线提供另一种层次。",
+          "timing": "冬季冰景关注期；蓝冰、冰泡、冰花都不保证同时出现。",
+          "viewing": "岸上或景区划定区域观景；不因照片中有人站冰面就自行上冰。",
+          "kind": "nature"
+        },
+        {
+          "name": "克勒涌珠一带冬景",
+          "experience": "冬季景观并非只有整块湖冰；泉水、积雪与滨湖植物形成局部变化，可以在小范围慢慢观察。",
+          "timing": "此点在官方规划中属冬季景观关注区，具体开放范围另核。",
+          "viewing": "只走当日开放的栈道与观景区域；水边与结冰处不越界。",
+          "kind": "nature"
+        }
+      ],
+      "experiences": [
+        {
+          "title": "赛湖冬季冰景",
+          "detail": "岸上或景区划定区域观景；不因照片中有人站冰面就自行上冰。"
+        },
+        {
+          "title": "克勒涌珠一带冬景",
+          "detail": "只走当日开放的栈道与观景区域；水边与结冰处不越界。"
+        }
+      ],
+      "route": {
+        "airports": [
+          "博乐博尔塔拉机场 BPL",
+          "伊宁机场 YIN"
+        ],
+        "origins": [],
+        "flightPlan": [
+          "按出发城市检索完整往返和联程，不预设当前有直飞。",
+          "至少5天；保留接驳与一天弹性，不以抵达当天拍到蓝冰作为行程成立条件。道路或景区关闭时缩短湖区活动，改为门户休整。"
+        ],
+        "airfareCNY": null,
+        "airfareNote": "未查询指定日期可售机票；预算字段为编辑估算。",
+        "transfer": [
+          "分别比较博乐和伊宁进出的公路接驳及总耗时，机场只是检索候选，不代表指定日期有航班。",
+          "环湖自驾、景区交通、可入园门及冬季道路安排需用当期公告替换。"
+        ],
+        "scheduleChecked": false,
+        "modules": [
+          {
+            "name": "赛里木湖湖岸",
+            "days": 2,
+            "stops": [
+              "开放环湖观景段",
+              "克勒涌珠"
+            ],
+            "logic": "两天包含门户至湖区公路衔接、分段观景与休整，不承诺整日无风晴朗。"
+          },
+          {
+            "name": "赛里木湖弹性日",
+            "days": 1,
+            "stops": [
+              "开放冬景区域",
+              "保暖休整"
+            ],
+            "logic": "由开放情况、天气和体力决定；恶劣天气时替换为门户休整。"
+          }
+        ]
+      },
+      "stay": {
+        "areas": [
+          {
+            "name": "博乐",
+            "reason": "门户住宿与补给"
+          },
+          {
+            "name": "景区允许住宿的服务区域",
+            "reason": "有一晚可分开晨昏观景；具体营业与交通另核"
+          }
+        ],
+        "currency": "CNY",
+        "status": "editorial-area-suggestions",
+        "notes": [
+          "未核验指定日期房型、房价或可订状态。"
+        ]
+      },
+      "money": {
+        "currency": "CNY",
+        "usage": "人民币；景区交通、门票与住宿分别查当期官方公告。",
+        "status": "currency-only-no-live-rate"
+      },
+      "packing": [
+        "适合季节的叠穿衣物、防风外层",
+        "防滑步行鞋、充电宝与备用电池",
+        "冬季增加保暖手套与防滑装备；夏季准备防晒和雨具"
+      ],
+      "beforeYouGo": [
+        "1至2月是为筛选设置的保守冰雪旅行窗口，非具体冰情预报。",
+        "蓝冰、冰泡、冰花、冰推的形成不同；不保证某日某段全部可见。",
+        "冬季活动与交通可能调整，历史优惠和活动日历不能延用。",
+        "至少5天；保留接驳与一天弹性，不以抵达当天拍到蓝冰作为行程成立条件。道路或景区关闭时缩短湖区活动，改为门户休整。"
+      ],
+      "dayIdeas": [
+        {
+          "title": "赛湖冬季冰景",
+          "morning": "岸上或景区划定区域观景；不因照片中有人站冰面就自行上冰。",
+          "afternoon": "将常见的夏日湖蓝换成冰、雪与山脊：在允许到达的岸段观察冰面颜色和纹理，晨昏光线提供另一种层次。",
+          "evening": "回住宿地休息，为交通和天气保留弹性。",
+          "tip": "冬季冰景关注期；蓝冰、冰泡、冰花都不保证同时出现。"
+        },
+        {
+          "title": "克勒涌珠一带冬景",
+          "morning": "只走当日开放的栈道与观景区域；水边与结冰处不越界。",
+          "afternoon": "冬季景观并非只有整块湖冰；泉水、积雪与滨湖植物形成局部变化，可以在小范围慢慢观察。",
+          "evening": "回住宿地休息，为交通和天气保留弹性。",
+          "tip": "此点在官方规划中属冬季景观关注区，具体开放范围另核。"
+        }
+      ],
+      "sources": [
+        {
+          "id": "sayram-winter",
+          "title": "赛里木湖2024—2025冬季旅游安排",
+          "url": "https://www.xjboz.gov.cn/xjboz/c126074/202411/0d6ded67b06746cc858f8be556b67cff.shtml",
+          "authority": "博尔塔拉蒙古自治州赛里木湖旅游发展管理局",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "publishedAt": "2024-11-12",
+          "caution": "检索返回官方文章全文，直接打开超时；只采用冬季冰雪体验类型，不沿用历史门票优惠、节庆日期或未落地项目。"
+        },
+        {
+          "id": "sayram-plan",
+          "title": "赛里木湖风景名胜区总体规划（2021—2035）",
+          "url": "https://www.xjboz.gov.cn/xjboz/c126221/202202/6c11b0230bb14c3aa22e87110b9ce152.shtml",
+          "authority": "博尔塔拉蒙古自治州人民政府",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "caution": "规划用于核对自然景观与分区，规划中的“建设”“提升”“研究论证”均不等于已经开放。"
+        },
+        {
+          "id": "sayram-coord",
+          "title": "博州养殖水域滩涂规划：赛里木湖地理范围",
+          "url": "https://www.xjboz.gov.cn/xjboz/c126103/202109/985766f6bb8f49348606bf63bd92260e.shtml",
+          "authority": "博尔塔拉蒙古自治州农业农村局",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "publishedAt": "2021-09-17"
+        }
+      ],
+      "researchedAt": "2026-10-20"
+    },
+    "mohe-summer-long-days": {
+      "headline": "在长长的傍晚看森林与界江",
+      "whyNow": "夏天的漠河值得为森林、界江和长昼而去。北极村适合平视村落与江岸，龙江第一湾则从高处展现河道与森林的尺度；夏至的节庆与白夜可作为加分项，极光不作为出发理由。",
+      "seasonDetail": "6月中旬—8月中旬 · 长昼与森林。窗口为夏季体验编辑建议；夏至节庆的具体日期每年重查。",
+      "weather": [
+        "窗口为夏季体验编辑建议；夏至节庆的具体日期每年重查。",
+        "白夜是长时间暮光体验，不把北极村写成真正24小时太阳不落。",
+        "极光为强空间天气下的偶发机会，无可据此公布的旅行命中率。"
+      ],
+      "highlights": [
+        {
+          "name": "北极村：长昼中的界江村落",
+          "experience": "把“找北”变成一段有尺度的生活体验：走村落、看黑龙江对岸与漫长晚光，感受中国北部森林和边境空间。",
+          "timing": "夏至前后主打长昼和白夜；这不是极光概率承诺。",
+          "viewing": "在允许开放的村落、岸边与观景设施步行；岸边遵守边境标识，不跨越管理界线。",
+          "kind": "nature"
+        },
+        {
+          "name": "龙江第一湾",
+          "experience": "黑龙江绕山林形成Ω形江湾，登高后才能理解河道如何包围半岛；这是与村落平视完全不同的地理体验。",
+          "timing": "需单独给足往返与台阶时间；不与北极村塞成半日打卡。",
+          "viewing": "若栈道开放且体力允许，沿指定步道登观景台；不登高时改为较轻松的林区与村落路线。",
+          "kind": "nature"
+        }
+      ],
+      "experiences": [
+        {
+          "title": "北极村：长昼中的界江村落",
+          "detail": "在允许开放的村落、岸边与观景设施步行；岸边遵守边境标识，不跨越管理界线。"
+        },
+        {
+          "title": "龙江第一湾",
+          "detail": "若栈道开放且体力允许，沿指定步道登观景台；不登高时改为较轻松的林区与村落路线。"
+        }
+      ],
+      "route": {
+        "airports": [
+          "漠河古莲机场 OHE"
+        ],
+        "origins": [],
+        "flightPlan": [
+          "按出发城市检索完整往返和联程，不预设当前有直飞。",
+          "至少5天，含进出2天、当地3天；北极村距市区约77公里，界江线路需要公路接驳。若增加北红村或更远林区，另加天数。"
+        ],
+        "airfareCNY": null,
+        "airfareNote": "未查询指定日期可售机票；预算字段为编辑估算。",
+        "transfer": [
+          "漠河市区、机场与北极村不是同一个位置；文旅局简介列北极村距市区约77公里。",
+          "当地线路依靠公路接驳，先确认正规车辆与司机安排，冬季按路况删减远端。"
+        ],
+        "scheduleChecked": false,
+        "modules": [
+          {
+            "name": "北极村",
+            "days": 2,
+            "stops": [
+              "村落",
+              "界江开放岸线",
+              "长昼晚光"
+            ],
+            "logic": "两天包含漠河市区到北极村接驳与休整，保持户外弹性。"
+          },
+          {
+            "name": "龙江第一湾",
+            "days": 1,
+            "stops": [
+              "龙江第一湾观景台",
+              "森林远景"
+            ],
+            "logic": "冬季先核道路、景区和栈道开放，不能登高即留村落；夏季也要给台阶与公路往返留足时间。"
+          }
+        ]
+      },
+      "stay": {
+        "areas": [
+          {
+            "name": "漠河市区",
+            "reason": "进出机场与休整"
+          },
+          {
+            "name": "北极村",
+            "reason": "减少江岸村落间往返；提前核对取暖与到达方式"
+          }
+        ],
+        "currency": "CNY",
+        "status": "editorial-area-suggestions",
+        "notes": [
+          "未核验指定日期房型、房价或可订状态。"
+        ]
+      },
+      "money": {
+        "currency": "CNY",
+        "usage": "人民币；景区交通、门票与住宿分别查当期官方公告。",
+        "status": "currency-only-no-live-rate"
+      },
+      "packing": [
+        "适合季节的叠穿衣物、防风外层",
+        "防滑步行鞋、充电宝与备用电池",
+        "冬季增加保暖手套与防滑装备；夏季准备防晒和雨具"
+      ],
+      "beforeYouGo": [
+        "窗口为夏季体验编辑建议；夏至节庆的具体日期每年重查。",
+        "白夜是长时间暮光体验，不把北极村写成真正24小时太阳不落。",
+        "极光为强空间天气下的偶发机会，无可据此公布的旅行命中率。",
+        "至少5天，含进出2天、当地3天；北极村距市区约77公里，界江线路需要公路接驳。若增加北红村或更远林区，另加天数。",
+        "遵守边境标识和森林防火管理，江面结冰不代表可随意通行。",
+        "不把“北极光节”名称、太阳活动增强或天数增加当作极光目击保证。"
+      ],
+      "dayIdeas": [
+        {
+          "title": "北极村：长昼中的界江村落",
+          "morning": "在允许开放的村落、岸边与观景设施步行；岸边遵守边境标识，不跨越管理界线。",
+          "afternoon": "把“找北”变成一段有尺度的生活体验：走村落、看黑龙江对岸与漫长晚光，感受中国北部森林和边境空间。",
+          "evening": "回住宿地休息，为交通和天气保留弹性。",
+          "tip": "夏至前后主打长昼和白夜；这不是极光概率承诺。"
+        },
+        {
+          "title": "龙江第一湾",
+          "morning": "若栈道开放且体力允许，沿指定步道登观景台；不登高时改为较轻松的林区与村落路线。",
+          "afternoon": "黑龙江绕山林形成Ω形江湾，登高后才能理解河道如何包围半岛；这是与村落平视完全不同的地理体验。",
+          "evening": "回住宿地休息，为交通和天气保留弹性。",
+          "tip": "需单独给足往返与台阶时间；不与北极村塞成半日打卡。"
+        }
+      ],
+      "sources": [
+        {
+          "id": "mohe-village",
+          "title": "北极村景区简介",
+          "url": "https://www.mohe.gov.cn/mohe/c101210/202309/c13_258538.shtml",
+          "authority": "漠河市文化和旅游局",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "publishedAt": "2023-09-12",
+          "caution": "采用位置、历史和景观；不采纳“唯一”“极昼极夜最佳点”等宣传性概括，不以北极光节推断目击概率。"
+        },
+        {
+          "id": "mohe-summer",
+          "title": "漠河夏至：白夜、森林与民俗节庆",
+          "url": "https://www.mohe.gov.cn/mohe/c101071/202606/c13_339989.shtml",
+          "authority": "漠河市人民政府办公室",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "caution": "2026活动报道只证明体验类型；次年节庆安排需重新查。"
+        },
+        {
+          "id": "mohe-advice",
+          "title": "漠河旅游温馨提示",
+          "url": "https://www.mohe.gov.cn/mohe/c101203/lyxz.shtml",
+          "authority": "漠河市人民政府",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified"
+        },
+        {
+          "id": "mohe-bend",
+          "title": "秋染龙江第一湾：江湾形态与登高观看",
+          "url": "https://www.hlj.gov.cn/hlj/c107859/202609/c00_31978051.shtml",
+          "authority": "黑龙江省人民政府（原始来源：黑龙江日报）",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "publishedAt": "2026-09-17",
+          "caution": "政府转载的现场图文，用于江湾地形和观景方式；秋色报道不证明冬季栈道开放。"
+        },
+        {
+          "id": "aurora-cas",
+          "title": "漠河极光与2025年1月1日磁暴的观测研究",
+          "url": "https://www.igg.cas.cn/xwzx/yjcg/202603/t20260316_8159845.html",
+          "authority": "中国科学院地质与地球物理研究所",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "publishedAt": "2026-03-16",
+          "caution": "检索返回官方研究正文，直接打开超时；单次事件及近期频率变化不能推导旅游命中率。"
+        },
+        {
+          "id": "aurora-noaa",
+          "title": "极光观测条件：地磁活动、位置、黑暗与时段",
+          "url": "https://www.swpc.noaa.gov/content/tips-viewing-aurora",
+          "authority": "美国NOAA/NWS空间天气预报中心",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "caution": "本轮重定向至spaceweather.gov。仅采用稳定观测原则；不沿用页面旧磁极位置和Kp阈值作中国地点的硬保证。"
+        }
+      ],
+      "researchedAt": "2026-10-20"
+    },
+    "mohe-winter-snow": {
+      "headline": "把冬天过成短步行与慢休息",
+      "whyNow": "冬日漠河的价值是极寒环境里的村落、森林与界江雪景。用短段户外和室内休整交替组织旅行，龙江第一湾仅在道路和栈道允许时加入；夜空有机会出现极光，但不能以此替代行程本身。",
+      "seasonDetail": "12—2月 · 寒冬森林与村落。窗口表示冰雪旅行关注期，非温度、雪量或道路开放保证。",
+      "weather": [
+        "窗口表示冰雪旅行关注期，非温度、雪量或道路开放保证。",
+        "极光要同时满足足够地磁活动、黑暗、晴空及视野；多住几晚也不等于保证看见。"
+      ],
+      "highlights": [
+        {
+          "name": "北极村冬日村落与界江雪景",
+          "experience": "严冬把森林、村屋和江岸连成安静的白色空间；短时间的户外步行与温暖室内交替，体会寒地生活。",
+          "timing": "12月至2月为冰雪旅行关注期；严寒和风雪会改变活动。",
+          "viewing": "沿陆地开放道路与观景点短段慢走，江面结冰不等于可随意通行。",
+          "kind": "nature"
+        },
+        {
+          "name": "龙江第一湾冬季远景（条件项）",
+          "experience": "若冬季通行和栈道允许，从高处看覆雪森林与界江弯道；重点仍是江湾的地形尺度。",
+          "timing": "冬季开放未查实，必须以当日公告替换；不作为不可取消的核心项目。",
+          "viewing": "出发前确认道路、景区与栈道开放；积雪台阶、身体状态或天气不合适即改为村落短线。",
+          "kind": "nature"
+        }
+      ],
+      "experiences": [
+        {
+          "title": "北极村冬日村落与界江雪景",
+          "detail": "沿陆地开放道路与观景点短段慢走，江面结冰不等于可随意通行。"
+        },
+        {
+          "title": "龙江第一湾冬季远景（条件项）",
+          "detail": "出发前确认道路、景区与栈道开放；积雪台阶、身体状态或天气不合适即改为村落短线。"
+        }
+      ],
+      "route": {
+        "airports": [
+          "漠河古莲机场 OHE"
+        ],
+        "origins": [],
+        "flightPlan": [
+          "按出发城市检索完整往返和联程，不预设当前有直飞。",
+          "至少5天；严寒与短日照减少可用活动时间，同一天不同时绑定多段长途公路和长台阶。龙江第一湾冬季未核到开放公告，不能作为保证执行的日程。"
+        ],
+        "airfareCNY": null,
+        "airfareNote": "未查询指定日期可售机票；预算字段为编辑估算。",
+        "transfer": [
+          "漠河市区、机场与北极村不是同一个位置；文旅局简介列北极村距市区约77公里。",
+          "当地线路依靠公路接驳，先确认正规车辆与司机安排，冬季按路况删减远端。"
+        ],
+        "scheduleChecked": false,
+        "modules": [
+          {
+            "name": "北极村",
+            "days": 2,
+            "stops": [
+              "村落",
+              "界江开放岸线",
+              "冬日雪景"
+            ],
+            "logic": "两天包含漠河市区到北极村接驳与休整，保持户外弹性。"
+          },
+          {
+            "name": "漠河弹性短线",
+            "days": 1,
+            "stops": [
+              "开放林区短线",
+              "室内休整"
+            ],
+            "logic": "冬季先核道路、景区和栈道开放，不能登高即留村落；夏季也要给台阶与公路往返留足时间。"
+          }
+        ]
+      },
+      "stay": {
+        "areas": [
+          {
+            "name": "漠河市区",
+            "reason": "进出机场与休整"
+          },
+          {
+            "name": "北极村",
+            "reason": "减少江岸村落间往返；提前核对取暖与到达方式"
+          }
+        ],
+        "currency": "CNY",
+        "status": "editorial-area-suggestions",
+        "notes": [
+          "未核验指定日期房型、房价或可订状态。"
+        ]
+      },
+      "money": {
+        "currency": "CNY",
+        "usage": "人民币；景区交通、门票与住宿分别查当期官方公告。",
+        "status": "currency-only-no-live-rate"
+      },
+      "packing": [
+        "适合季节的叠穿衣物、防风外层",
+        "防滑步行鞋、充电宝与备用电池",
+        "冬季增加保暖手套与防滑装备；夏季准备防晒和雨具"
+      ],
+      "beforeYouGo": [
+        "窗口表示冰雪旅行关注期，非温度、雪量或道路开放保证。",
+        "极光要同时满足足够地磁活动、黑暗、晴空及视野；多住几晚也不等于保证看见。",
+        "至少5天；严寒与短日照减少可用活动时间，同一天不同时绑定多段长途公路和长台阶。龙江第一湾冬季未核到开放公告，不能作为保证执行的日程。",
+        "遵守边境标识和森林防火管理，江面结冰不代表可随意通行。",
+        "不把“北极光节”名称、太阳活动增强或天数增加当作极光目击保证。"
+      ],
+      "dayIdeas": [
+        {
+          "title": "北极村冬日村落与界江雪景",
+          "morning": "沿陆地开放道路与观景点短段慢走，江面结冰不等于可随意通行。",
+          "afternoon": "严冬把森林、村屋和江岸连成安静的白色空间；短时间的户外步行与温暖室内交替，体会寒地生活。",
+          "evening": "回住宿地休息，为交通和天气保留弹性。",
+          "tip": "12月至2月为冰雪旅行关注期；严寒和风雪会改变活动。"
+        },
+        {
+          "title": "龙江第一湾冬季远景（条件项）",
+          "morning": "出发前确认道路、景区与栈道开放；积雪台阶、身体状态或天气不合适即改为村落短线。",
+          "afternoon": "若冬季通行和栈道允许，从高处看覆雪森林与界江弯道；重点仍是江湾的地形尺度。",
+          "evening": "回住宿地休息，为交通和天气保留弹性。",
+          "tip": "冬季开放未查实，必须以当日公告替换；不作为不可取消的核心项目。"
+        }
+      ],
+      "sources": [
+        {
+          "id": "mohe-village",
+          "title": "北极村景区简介",
+          "url": "https://www.mohe.gov.cn/mohe/c101210/202309/c13_258538.shtml",
+          "authority": "漠河市文化和旅游局",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "publishedAt": "2023-09-12",
+          "caution": "采用位置、历史和景观；不采纳“唯一”“极昼极夜最佳点”等宣传性概括，不以北极光节推断目击概率。"
+        },
+        {
+          "id": "mohe-advice",
+          "title": "漠河旅游温馨提示",
+          "url": "https://www.mohe.gov.cn/mohe/c101203/lyxz.shtml",
+          "authority": "漠河市人民政府",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified"
+        },
+        {
+          "id": "mohe-bend",
+          "title": "秋染龙江第一湾：江湾形态与登高观看",
+          "url": "https://www.hlj.gov.cn/hlj/c107859/202609/c00_31978051.shtml",
+          "authority": "黑龙江省人民政府（原始来源：黑龙江日报）",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "publishedAt": "2026-09-17",
+          "caution": "政府转载的现场图文，用于江湾地形和观景方式；秋色报道不证明冬季栈道开放。"
+        },
+        {
+          "id": "aurora-cas",
+          "title": "漠河极光与2025年1月1日磁暴的观测研究",
+          "url": "https://www.igg.cas.cn/xwzx/yjcg/202603/t20260316_8159845.html",
+          "authority": "中国科学院地质与地球物理研究所",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "publishedAt": "2026-03-16",
+          "caution": "检索返回官方研究正文，直接打开超时；单次事件及近期频率变化不能推导旅游命中率。"
+        },
+        {
+          "id": "aurora-noaa",
+          "title": "极光观测条件：地磁活动、位置、黑暗与时段",
+          "url": "https://www.swpc.noaa.gov/content/tips-viewing-aurora",
+          "authority": "美国NOAA/NWS空间天气预报中心",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "caution": "本轮重定向至spaceweather.gov。仅采用稳定观测原则；不沿用页面旧磁极位置和Kp阈值作中国地点的硬保证。"
+        }
+      ],
+      "researchedAt": "2026-10-20"
+    }
+  },
+  "pois": [
+    {
+      "id": "poi:baikal-olkhon",
+      "name": "奥尔洪岛·胡日尔湖岸",
+      "parentId": "baikal-summer-shores",
+      "relatedDestinationIds": [
+        "baikal-winter-ice"
+      ],
+      "country": "俄罗斯",
+      "category": "nature",
+      "whyGo": "以湖岸、草原和岩体的交接体会贝加尔湖的尺度；并通过开放步道了解受保护的湖泊环境。",
+      "lookFor": [
+        "在胡日尔周边已开放岸线观察水色与岩岸，远端线路另核。",
+        "冬季优先从陆地看冰雪，上冰活动需当日合规开放。"
+      ],
+      "viewing": [
+        "在胡日尔周边已开放岸线观察水色与岩岸，远端线路另核。",
+        "冬季优先从陆地看冰雪，上冰活动需当日合规开放。"
+      ],
+      "originalUse": "自然景观与生态观察地",
+      "peopleEvents": "",
+      "historySignificance": "以湖岸、草原和岩体的交接体会贝加尔湖的尺度；并通过开放步道了解受保护的湖泊环境。",
+      "datesLabel": "自然景观，非单一建成年代",
+      "chronology": [],
+      "chinaParallel": "",
+      "storyType": "史实",
+      "sources": [
+        {
+          "id": "baikal-routes",
+          "title": "伊尔库茨克州旅游门户：从伊尔库茨克出发的三条线路",
+          "url": "https://travel-baikal.info/roads/top-3-mest-kuda-poehat-iz-irkutska/",
+          "authority": "伊尔库茨克州旅游门户 TravelBaikal",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "caution": "采用空间关系与体验类型；旧班次、票务与行车耗时不当作指定日期保证。"
+        },
+        {
+          "id": "baikal-unesco",
+          "title": "贝加尔湖世界遗产：生态价值与地理坐标",
+          "url": "https://whc.unesco.org/en/list/754/",
+          "authority": "联合国教科文组织世界遗产中心",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified"
+        }
+      ],
+      "factNotes": "岛屿接驳占用真实行程时间；不能把湖冰照片当作安全许可。",
+      "recordKind": "curated-poi",
+      "verification": "逐点核对官方来源；各来源访问层级另列",
+      "checkedAt": "2026-10-20",
+      "photoKey": null,
+      "seasonality": {
+        "mode": "seasonal",
+        "months": [
+          2,
+          3,
+          7,
+          8
+        ]
+      },
+      "aliases": [
+        "小海与奥尔洪岛冬季湖岸"
+      ]
+    },
+    {
+      "id": "poi:baikal-limnology-museum",
+      "name": "贝加尔湖博物馆",
+      "parentId": "baikal-summer-shores",
+      "relatedDestinationIds": [
+        "baikal-winter-ice"
+      ],
+      "country": "俄罗斯",
+      "category": "culture",
+      "whyGo": "在看湖之外理解特有生物、湖泊研究与水下生态，让蓝色水面获得具体的科学含义。",
+      "lookFor": [
+        "结合生物收藏与实际开放展陈观察淡水生态。",
+        "看完展陈再回到利斯特维扬卡岸线，把馆内知识与湖泊对应。"
+      ],
+      "viewing": [
+        "结合生物收藏与实际开放展陈观察淡水生态。",
+        "看完展陈再回到利斯特维扬卡岸线，把馆内知识与湖泊对应。"
+      ],
+      "originalUse": "湖泊生态研究与公众教育展陈",
+      "peopleEvents": "",
+      "historySignificance": "在看湖之外理解特有生物、湖泊研究与水下生态，让蓝色水面获得具体的科学含义。",
+      "datesLabel": "以实际展陈和开放安排为准",
+      "chronology": [],
+      "chinaParallel": "",
+      "storyType": "史实",
+      "sources": [
+        {
+          "id": "baikal-museum",
+          "title": "俄罗斯科学院贝加尔湖博物馆：研究、收藏与展陈",
+          "url": "https://isc.irk.ru/ru/institutes/bm",
+          "authority": "俄罗斯科学院西伯利亚分院伊尔库茨克科学中心",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "caution": "本轮获得官方检索正文；博物馆新官网bmdp.ru打开超时，不引入票价和开放时间。"
+        },
+        {
+          "id": "baikal-routes",
+          "title": "伊尔库茨克州旅游门户：从伊尔库茨克出发的三条线路",
+          "url": "https://travel-baikal.info/roads/top-3-mest-kuda-poehat-iz-irkutska/",
+          "authority": "伊尔库茨克州旅游门户 TravelBaikal",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "caution": "采用空间关系与体验类型；旧班次、票务与行车耗时不当作指定日期保证。"
+        }
+      ],
+      "factNotes": "馆方新官网打开超时，本轮用俄罗斯科学院科学中心官方条目核对；未确认票价、开馆或具体活体展示。",
+      "recordKind": "curated-poi",
+      "verification": "逐点核对官方来源；各来源访问层级另列",
+      "checkedAt": "2026-10-20",
+      "photoKey": null,
+      "seasonality": {
+        "mode": "seasonal",
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "aliases": [
+        "利斯特维扬卡的湖泊科学日"
+      ]
+    },
+    {
+      "id": "poi:sayram-lake-shore",
+      "name": "赛里木湖湖岸",
+      "parentId": "sayram-summer-meadows",
+      "relatedDestinationIds": [
+        "sayram-winter-ice"
+      ],
+      "country": "中国",
+      "category": "nature",
+      "whyGo": "同一湖盆中的湖蓝、草甸和山脉形成清楚的景观层次，值得改变角度、等待光线再看。",
+      "lookFor": [
+        "夏季沿开放观景段慢走，观察湖色与草甸；花期逐年变化。",
+        "冬季从允许到达的岸边观察冰雪，不自行下到未开放冰面。"
+      ],
+      "viewing": [
+        "夏季沿开放观景段慢走，观察湖色与草甸；花期逐年变化。",
+        "冬季从允许到达的岸边观察冰雪，不自行下到未开放冰面。"
+      ],
+      "originalUse": "自然景观与生态观察地",
+      "peopleEvents": "",
+      "historySignificance": "同一湖盆中的湖蓝、草甸和山脉形成清楚的景观层次，值得改变角度、等待光线再看。",
+      "datesLabel": "自然景观，非单一建成年代",
+      "chronology": [],
+      "chinaParallel": "",
+      "storyType": "史实",
+      "sources": [
+        {
+          "id": "sayram-summer",
+          "title": "新疆草原旅游线路：赛里木湖湖蓝、雪山与云杉步道",
+          "url": "https://wlt.xinjiang.gov.cn/wlt/c112786/202407/2b887ca59222415ab8fd622f59732f16.shtml",
+          "authority": "新疆维吾尔自治区文化和旅游厅",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "publishedAt": "2025-06-03",
+          "caution": "采用景观与步道体验；原文“没有高反”等绝对宣传语不采纳；URL目录年份与正文日期不同，记录正文日期。"
+        },
+        {
+          "id": "sayram-winter",
+          "title": "赛里木湖2024—2025冬季旅游安排",
+          "url": "https://www.xjboz.gov.cn/xjboz/c126074/202411/0d6ded67b06746cc858f8be556b67cff.shtml",
+          "authority": "博尔塔拉蒙古自治州赛里木湖旅游发展管理局",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "publishedAt": "2024-11-12",
+          "caution": "检索返回官方文章全文，直接打开超时；只采用冬季冰雪体验类型，不沿用历史门票优惠、节庆日期或未落地项目。"
+        },
+        {
+          "id": "sayram-coord",
+          "title": "博州养殖水域滩涂规划：赛里木湖地理范围",
+          "url": "https://www.xjboz.gov.cn/xjboz/c126103/202109/985766f6bb8f49348606bf63bd92260e.shtml",
+          "authority": "博尔塔拉蒙古自治州农业农村局",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "publishedAt": "2021-09-17"
+        }
+      ],
+      "factNotes": "坐标与海拔来自博州官方规划；冰态与开放范围需逐日核验。",
+      "recordKind": "curated-poi",
+      "verification": "逐点核对官方来源；各来源访问层级另列",
+      "checkedAt": "2026-10-20",
+      "photoKey": null,
+      "seasonality": {
+        "mode": "seasonal",
+        "months": [
+          1,
+          2,
+          6,
+          7,
+          8
+        ]
+      },
+      "aliases": [
+        "湖岸、草甸与远山",
+        "赛湖冬季冰景"
+      ]
+    },
+    {
+      "id": "poi:sayram-spruce-path",
+      "name": "松树头一带云杉步道",
+      "parentId": "sayram-summer-meadows",
+      "relatedDestinationIds": [],
+      "country": "中国",
+      "category": "nature",
+      "whyGo": "从湖岸进入天山云杉林，靠步行的高度变化理解湖盆与周边山地的关系。",
+      "lookFor": [
+        "只走当日开放步道，按体力折返。",
+        "林中与高处各停留一次，对照近处植物与远处山湖。"
+      ],
+      "viewing": [
+        "只走当日开放步道，按体力折返。",
+        "林中与高处各停留一次，对照近处植物与远处山湖。"
+      ],
+      "originalUse": "自然景观与生态观察地",
+      "peopleEvents": "",
+      "historySignificance": "从湖岸进入天山云杉林，靠步行的高度变化理解湖盆与周边山地的关系。",
+      "datesLabel": "自然景观，非单一建成年代",
+      "chronology": [],
+      "chinaParallel": "",
+      "storyType": "史实",
+      "sources": [
+        {
+          "id": "sayram-summer",
+          "title": "新疆草原旅游线路：赛里木湖湖蓝、雪山与云杉步道",
+          "url": "https://wlt.xinjiang.gov.cn/wlt/c112786/202407/2b887ca59222415ab8fd622f59732f16.shtml",
+          "authority": "新疆维吾尔自治区文化和旅游厅",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "publishedAt": "2025-06-03",
+          "caution": "采用景观与步道体验；原文“没有高反”等绝对宣传语不采纳；URL目录年份与正文日期不同，记录正文日期。"
+        },
+        {
+          "id": "sayram-plan",
+          "title": "赛里木湖风景名胜区总体规划（2021—2035）",
+          "url": "https://www.xjboz.gov.cn/xjboz/c126221/202202/6c11b0230bb14c3aa22e87110b9ce152.shtml",
+          "authority": "博尔塔拉蒙古自治州人民政府",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "caution": "规划用于核对自然景观与分区，规划中的“建设”“提升”“研究论证”均不等于已经开放。"
+        }
+      ],
+      "factNotes": "不保证任何观景点终年开放，不采用宣传语“没有高反”。",
+      "recordKind": "curated-poi",
+      "verification": "逐点核对官方来源；各来源访问层级另列",
+      "checkedAt": "2026-10-20",
+      "photoKey": null,
+      "seasonality": {
+        "mode": "seasonal",
+        "months": [
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "id": "poi:sayram-kele-yongzhu",
+      "name": "克勒涌珠一带冬景",
+      "parentId": "sayram-winter-ice",
+      "relatedDestinationIds": [],
+      "country": "中国",
+      "category": "nature",
+      "whyGo": "冬季泉水、冰雪与滨湖植物带来局部差异，补充开阔湖面的单一视角。",
+      "lookFor": [
+        "以当期景区划定的开放区域和栈道为边界。",
+        "若该分区未开放，回到允许到达的岸边，不为固定照片越界。"
+      ],
+      "viewing": [
+        "以当期景区划定的开放区域和栈道为边界。",
+        "若该分区未开放，回到允许到达的岸边，不为固定照片越界。"
+      ],
+      "originalUse": "自然景观与生态观察地",
+      "peopleEvents": "",
+      "historySignificance": "冬季泉水、冰雪与滨湖植物带来局部差异，补充开阔湖面的单一视角。",
+      "datesLabel": "自然景观，非单一建成年代",
+      "chronology": [],
+      "chinaParallel": "",
+      "storyType": "史实",
+      "sources": [
+        {
+          "id": "sayram-plan",
+          "title": "赛里木湖风景名胜区总体规划（2021—2035）",
+          "url": "https://www.xjboz.gov.cn/xjboz/c126221/202202/6c11b0230bb14c3aa22e87110b9ce152.shtml",
+          "authority": "博尔塔拉蒙古自治州人民政府",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "caution": "规划用于核对自然景观与分区，规划中的“建设”“提升”“研究论证”均不等于已经开放。"
+        },
+        {
+          "id": "sayram-winter",
+          "title": "赛里木湖2024—2025冬季旅游安排",
+          "url": "https://www.xjboz.gov.cn/xjboz/c126074/202411/0d6ded67b06746cc858f8be556b67cff.shtml",
+          "authority": "博尔塔拉蒙古自治州赛里木湖旅游发展管理局",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "publishedAt": "2024-11-12",
+          "caution": "检索返回官方文章全文，直接打开超时；只采用冬季冰雪体验类型，不沿用历史门票优惠、节庆日期或未落地项目。"
+        }
+      ],
+      "factNotes": "官方规划明确冬季景观类型，但规划不证明特定设施已建成或当日开放。",
+      "recordKind": "curated-poi",
+      "verification": "逐点核对官方来源；各来源访问层级另列",
+      "checkedAt": "2026-10-20",
+      "photoKey": null,
+      "seasonality": {
+        "mode": "seasonal",
+        "months": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "poi:mohe-beiji-village",
+      "name": "北极村",
+      "parentId": "mohe-summer-long-days",
+      "relatedDestinationIds": [
+        "mohe-winter-snow"
+      ],
+      "country": "中国",
+      "category": "nature",
+      "whyGo": "森林、界江与边境村落共同构成“找北”的地理体验；夏季长昼和冬季雪景呈现两种生活节奏。",
+      "lookFor": [
+        "在陆地开放道路、岸线和观景设施观察村落与黑龙江。",
+        "夏季看长昼晚光，冬季以短段步行和室内休整交替。"
+      ],
+      "viewing": [
+        "在陆地开放道路、岸线和观景设施观察村落与黑龙江。",
+        "夏季看长昼晚光，冬季以短段步行和室内休整交替。"
+      ],
+      "originalUse": "自然景观与生态观察地",
+      "peopleEvents": "",
+      "historySignificance": "森林、界江与边境村落共同构成“找北”的地理体验；夏季长昼和冬季雪景呈现两种生活节奏。",
+      "datesLabel": "自然景观，非单一建成年代",
+      "chronology": [],
+      "chinaParallel": "",
+      "storyType": "史实",
+      "sources": [
+        {
+          "id": "mohe-village",
+          "title": "北极村景区简介",
+          "url": "https://www.mohe.gov.cn/mohe/c101210/202309/c13_258538.shtml",
+          "authority": "漠河市文化和旅游局",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "publishedAt": "2023-09-12",
+          "caution": "采用位置、历史和景观；不采纳“唯一”“极昼极夜最佳点”等宣传性概括，不以北极光节推断目击概率。"
+        },
+        {
+          "id": "mohe-advice",
+          "title": "漠河旅游温馨提示",
+          "url": "https://www.mohe.gov.cn/mohe/c101203/lyxz.shtml",
+          "authority": "漠河市人民政府",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified"
+        },
+        {
+          "id": "mohe-summer",
+          "title": "漠河夏至：白夜、森林与民俗节庆",
+          "url": "https://www.mohe.gov.cn/mohe/c101071/202606/c13_339989.shtml",
+          "authority": "漠河市人民政府办公室",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "caution": "2026活动报道只证明体验类型；次年节庆安排需重新查。"
+        }
+      ],
+      "factNotes": "采用地理与历史事实；不把旅游宣传中的“极昼极夜”“唯一”或北极光节当作天象结论。",
+      "recordKind": "curated-poi",
+      "verification": "逐点核对官方来源；各来源访问层级另列",
+      "checkedAt": "2026-10-20",
+      "photoKey": null,
+      "seasonality": {
+        "mode": "seasonal",
+        "months": [
+          1,
+          2,
+          6,
+          7,
+          8,
+          12
+        ]
+      }
+    },
+    {
+      "id": "poi:mohe-longjiang-first-bend",
+      "name": "龙江第一湾",
+      "parentId": "mohe-summer-long-days",
+      "relatedDestinationIds": [
+        "mohe-winter-snow"
+      ],
+      "country": "中国",
+      "category": "nature",
+      "whyGo": "从高处看黑龙江绕林地半岛形成的Ω形弯道，河流与森林的关系比地图更直观。",
+      "lookFor": [
+        "开放且体力允许时沿指定木栈道登观景台。",
+        "冬季道路和栈道未查实开放，只能作条件项，积雪或身体不适即取消登高。"
+      ],
+      "viewing": [
+        "开放且体力允许时沿指定木栈道登观景台。",
+        "冬季道路和栈道未查实开放，只能作条件项，积雪或身体不适即取消登高。"
+      ],
+      "originalUse": "自然景观与生态观察地",
+      "peopleEvents": "",
+      "historySignificance": "从高处看黑龙江绕林地半岛形成的Ω形弯道，河流与森林的关系比地图更直观。",
+      "datesLabel": "自然景观，非单一建成年代",
+      "chronology": [],
+      "chinaParallel": "",
+      "storyType": "史实",
+      "sources": [
+        {
+          "id": "mohe-bend",
+          "title": "秋染龙江第一湾：江湾形态与登高观看",
+          "url": "https://www.hlj.gov.cn/hlj/c107859/202609/c00_31978051.shtml",
+          "authority": "黑龙江省人民政府（原始来源：黑龙江日报）",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "publishedAt": "2026-09-17",
+          "caution": "政府转载的现场图文，用于江湾地形和观景方式；秋色报道不证明冬季栈道开放。"
+        },
+        {
+          "id": "mohe-advice",
+          "title": "漠河旅游温馨提示",
+          "url": "https://www.mohe.gov.cn/mohe/c101203/lyxz.shtml",
+          "authority": "漠河市人民政府",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified"
+        }
+      ],
+      "factNotes": "2026秋季现场报道支持地形与观看方式，不证明冬季可进入；相关冬季卡只作开放后备选。",
+      "recordKind": "curated-poi",
+      "verification": "逐点核对官方来源；各来源访问层级另列",
+      "checkedAt": "2026-10-20",
+      "photoKey": null,
+      "seasonality": {
+        "mode": "seasonal",
+        "months": [
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "officialSources": [
+    {
+      "id": "irkutsk-travel-baikal",
+      "title": "伊尔库茨克州 TravelBaikal",
+      "authority": "伊尔库茨克州旅游门户",
+      "kind": "official-regional-tourism-portal",
+      "coverage": "贝加尔湖西岸季节、路线与门户衔接",
+      "canonicalURL": "https://travel-baikal.info/",
+      "licenseURL": null,
+      "accessMode": "公开网页逐页核对；未验证可供第三方使用的批量攻略API。",
+      "requiresKey": false,
+      "costNotes": "公开文章可阅读；未查询商业接入报价。",
+      "usageBoundary": "只保存原创事实摘要与来源链接；不镜像正文或图片。官方发布不等于素材具有开放复用许可证。",
+      "status": "body-verified",
+      "checkedAt": "2026-10-20",
+      "reuseClass": "reference-only",
+      "evidenceURLs": [
+        "https://travel-baikal.info/seasons/otdyh-na-bajkale-kratkaja-pamjatka-dlja-turista/",
+        "https://travel-baikal.info/roads/top-3-mest-kuda-poehat-iz-irkutska/"
+      ]
+    },
+    {
+      "id": "xinjiang-tourism-sayram",
+      "title": "新疆文旅厅·赛里木湖",
+      "authority": "新疆维吾尔自治区文化和旅游厅",
+      "kind": "official-provincial-tourism-website",
+      "coverage": "湖岸、云杉步道和山湖景观",
+      "canonicalURL": "https://wlt.xinjiang.gov.cn/wlt/c112786/202407/2b887ca59222415ab8fd622f59732f16.shtml",
+      "licenseURL": null,
+      "accessMode": "公开网页逐页核对；未验证可供第三方使用的批量攻略API。",
+      "requiresKey": false,
+      "costNotes": "公开文章可阅读；未查询商业接入报价。",
+      "usageBoundary": "只保存原创事实摘要与来源链接；不镜像正文或图片。官方发布不等于素材具有开放复用许可证。",
+      "status": "body-verified",
+      "checkedAt": "2026-10-20",
+      "reuseClass": "reference-only",
+      "evidenceURLs": [
+        "https://wlt.xinjiang.gov.cn/wlt/c112786/202407/2b887ca59222415ab8fd622f59732f16.shtml",
+        "https://www.xjboz.gov.cn/xjboz/c126103/202109/985766f6bb8f49348606bf63bd92260e.shtml"
+      ]
+    },
+    {
+      "id": "bozhou-sayram-tourism",
+      "title": "博州与赛里木湖旅游发展管理局",
+      "authority": "博尔塔拉蒙古自治州人民政府",
+      "kind": "official-prefecture-tourism-website",
+      "coverage": "冬季旅游类型和景区分区规划",
+      "canonicalURL": "https://www.xjboz.gov.cn/xjboz/c126074/202411/0d6ded67b06746cc858f8be556b67cff.shtml",
+      "licenseURL": null,
+      "accessMode": "公开网页逐页核对；未验证可供第三方使用的批量攻略API。",
+      "requiresKey": false,
+      "costNotes": "公开文章可阅读；未查询商业接入报价。",
+      "usageBoundary": "只保存原创事实摘要与来源链接；不镜像正文或图片。官方发布不等于素材具有开放复用许可证。",
+      "status": "search-excerpt-verified",
+      "checkedAt": "2026-10-20",
+      "reuseClass": "reference-only",
+      "evidenceURLs": [
+        "https://www.xjboz.gov.cn/xjboz/c126074/202411/0d6ded67b06746cc858f8be556b67cff.shtml",
+        "https://www.xjboz.gov.cn/xjboz/c126221/202202/6c11b0230bb14c3aa22e87110b9ce152.shtml"
+      ]
+    },
+    {
+      "id": "mohe-city-tourism",
+      "title": "漠河文旅·北极村与界江",
+      "authority": "漠河市文化和旅游局/漠河市人民政府",
+      "kind": "official-city-tourism-website",
+      "coverage": "村落地理、旅游体验、长昼和边境防火提示",
+      "canonicalURL": "https://www.mohe.gov.cn/mohe/c101210/202309/c13_258538.shtml",
+      "licenseURL": null,
+      "accessMode": "公开网页逐页核对；未验证可供第三方使用的批量攻略API。",
+      "requiresKey": false,
+      "costNotes": "公开文章可阅读；未查询商业接入报价。",
+      "usageBoundary": "只保存原创事实摘要与来源链接；不镜像正文或图片。官方发布不等于素材具有开放复用许可证。",
+      "status": "body-verified",
+      "checkedAt": "2026-10-20",
+      "reuseClass": "reference-only",
+      "evidenceURLs": [
+        "https://www.mohe.gov.cn/mohe/c101210/202309/c13_258538.shtml",
+        "https://www.mohe.gov.cn/mohe/c101203/lyxz.shtml",
+        "https://www.mohe.gov.cn/mohe/c101071/202606/c13_339989.shtml"
+      ]
+    },
+    {
+      "id": "noaa-aurora-science",
+      "title": "NOAA·极光观测科学",
+      "authority": "美国NOAA/NWS空间天气预报中心",
+      "kind": "official-scientific-website",
+      "coverage": "黑暗、地磁活动、位置与观测时段",
+      "canonicalURL": "https://www.swpc.noaa.gov/content/tips-viewing-aurora",
+      "licenseURL": null,
+      "accessMode": "公开网页逐页核对；未验证可供第三方使用的批量攻略API。",
+      "requiresKey": false,
+      "costNotes": "公开文章可阅读；未查询商业接入报价。",
+      "usageBoundary": "只保存原创事实摘要与来源链接；不镜像正文或图片。官方发布不等于素材具有开放复用许可证。",
+      "status": "body-verified",
+      "checkedAt": "2026-10-20",
+      "reuseClass": "reference-only",
+      "evidenceURLs": [
+        "https://www.swpc.noaa.gov/content/tips-viewing-aurora"
+      ]
+    },
+    {
+      "id": "cas-mohe-aurora",
+      "title": "中国科学院·漠河极光研究",
+      "authority": "中国科学院地质与地球物理研究所",
+      "kind": "official-scientific-website",
+      "coverage": "漠河磁暴期间的光学观测事件",
+      "canonicalURL": "https://www.igg.cas.cn/xwzx/yjcg/202603/t20260316_8159845.html",
+      "licenseURL": null,
+      "accessMode": "公开网页逐页核对；未验证可供第三方使用的批量攻略API。",
+      "requiresKey": false,
+      "costNotes": "公开文章可阅读；未查询商业接入报价。",
+      "usageBoundary": "只保存原创事实摘要与来源链接；不镜像正文或图片。官方发布不等于素材具有开放复用许可证。",
+      "status": "search-excerpt-verified",
+      "checkedAt": "2026-10-20",
+      "reuseClass": "reference-only",
+      "evidenceURLs": [
+        "https://www.igg.cas.cn/xwzx/yjcg/202603/t20260316_8159845.html"
+      ]
+    }
+  ],
+  "auroraAudit": {
+    "checkedAt": "2026-10-20",
+    "principle": "极光的物理发生与肉眼可观测分开记录。高纬黑夜季提供黑暗条件，仍需足够活动、晴空和合适视野；太阳活动增强不能写成全年随时保证。",
+    "probabilityStatus": "未找到可适用于指定旅行日期、地点和停留天数的官方命中概率，所有数值概率留空。",
+    "mohe": {
+      "classification": "偶发空间天气机会；不作稳定极光目的地承诺",
+      "bestFor": [
+        "夏季长昼、森林与界江",
+        "冬季村落与雪景"
+      ],
+      "notClaimed": [
+        "北极光节期间高概率见极光",
+        "仅因处于中国最北就位于常规极光带",
+        "多住几夜即可保证看见"
+      ],
+      "evidence": "科学院记录2025年1月1日磁暴期间漠河出现罕见绿色、红色极光；近期观测频率变化不等于某次旅程的可靠概率。",
+      "sources": [
+        {
+          "id": "aurora-cas",
+          "title": "漠河极光与2025年1月1日磁暴的观测研究",
+          "url": "https://www.igg.cas.cn/xwzx/yjcg/202603/t20260316_8159845.html",
+          "authority": "中国科学院地质与地球物理研究所",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "search-excerpt",
+          "publishedAt": "2026-03-16",
+          "caution": "检索返回官方研究正文，直接打开超时；单次事件及近期频率变化不能推导旅游命中率。"
+        },
+        {
+          "id": "aurora-noaa",
+          "title": "极光观测条件：地磁活动、位置、黑暗与时段",
+          "url": "https://www.swpc.noaa.gov/content/tips-viewing-aurora",
+          "authority": "美国NOAA/NWS空间天气预报中心",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified",
+          "caution": "本轮重定向至spaceweather.gov。仅采用稳定观测原则；不沿用页面旧磁极位置和Kp阈值作中国地点的硬保证。"
+        }
+      ]
+    },
+    "existingCards": [
+      {
+        "id": "iceland",
+        "officialObservationWindow": "通常9月至4月；渐变季节边界，非开关日期",
+        "dataWindows": [
+          [
+            "09-01",
+            "04-15"
+          ]
+        ],
+        "minDays": 7,
+        "source": {
+          "id": "aurora-iceland",
+          "title": "冰岛官方极光季与观测条件",
+          "url": "https://www.visiticeland.com/the-northern-lights/",
+          "authority": "Visit Iceland",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified"
+        }
+      },
+      {
+        "id": "tromso-northern-lights",
+        "officialObservationWindow": "8月下旬至4月上旬；多数组织活动9月至4月上旬",
+        "dataWindows": [
+          [
+            "09-01",
+            "03-31"
+          ]
+        ],
+        "minDays": 7,
+        "source": {
+          "id": "aurora-tromso",
+          "title": "特罗姆瑟官方：极光常见问题",
+          "url": "https://www.visittromso.no/northern-lights/faq",
+          "authority": "Visit Tromsø-Region",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified"
+        }
+      },
+      {
+        "id": "lofoten-light",
+        "officialObservationWindow": "8月下旬至4月中旬；夏季过亮无法观测",
+        "dataWindows": [
+          [
+            "02-01",
+            "03-31"
+          ],
+          [
+            "06-01",
+            "07-31"
+          ]
+        ],
+        "minDays": 8,
+        "source": {
+          "id": "aurora-lofoten",
+          "title": "罗弗敦官方：极光季节与必要条件",
+          "url": "https://visitlofoten.com/en/topic/northern-lights-in-lofoten/",
+          "authority": "Destination Lofoten / Visit Lofoten",
+          "type": "official",
+          "accessedAt": "2026-10-20",
+          "accessLevel": "body-verified"
+        },
+        "coverageGap": "原卡混合冬季光线与夏季长日；未覆盖完整极光暗夜季，11月会被当前数据窗口排除。这里仅记录，不修改原卡ID和窗口。"
+      }
+    ],
+    "engineFilters": {
+      "sourceFile": "src/engine.mjs",
+      "condition": "overlap >= min(3, tripDays) && tripDays >= minDays && estimatedCost <= budget，并满足scope/origin",
+      "notes": [
+        "夏季罗弗敦可以作为长日与渔村旅行出现，出现不表示此时能看极光。",
+        "预算计算是原型估算，不是当日可售价格。"
+      ]
+    },
+    "examples": [
+      {
+        "dates": "2027-07-01 / 2027-07-10",
+        "budgetCNY": 50000,
+        "iceland": "因季节不出现",
+        "tromso": "因季节不出现",
+        "lofoten": "会出现；夏日长日卡，不是极光推荐"
+      },
+      {
+        "dates": "2027-02-01 / 2027-02-05",
+        "budgetCNY": 50000,
+        "iceland": "5天少于7天",
+        "tromso": "5天少于7天",
+        "lofoten": "5天少于8天"
+      },
+      {
+        "dates": "2027-02-01 / 2027-02-10",
+        "budgetCNY": 8000,
+        "iceland": "预算过滤：当前公式约19000元",
+        "tromso": "预算过滤：当前公式约21700元",
+        "lofoten": "预算过滤：当前公式约22600元"
+      },
+      {
+        "dates": "2026-11-01 / 2026-11-10",
+        "budgetCNY": 50000,
+        "iceland": "会出现",
+        "tromso": "会出现",
+        "lofoten": "因原卡窗口偏窄不出现，不代表自然季节不适合"
+      }
+    ]
+  }
+}

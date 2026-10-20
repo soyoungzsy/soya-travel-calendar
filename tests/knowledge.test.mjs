@@ -6,7 +6,7 @@ import {countries,allPOICards,heritageItems,installHeritageIndex,forCountry,sear
 import {decodedBorderArcs,geographicLabels} from '../src/cartography.mjs';
 test('all 258 mapped units have unique searchable names, valid anchors and clickable label records, including microstates',()=>{
  assert.equal(countries.length,258);assert.equal(new Set(countries.map(c=>c.id)).size,258);
- for(const c of countries){assert.ok(c.nameZh&&c.nameEn);assert.ok(c.coord.length===2&&c.coord.every(Number.isFinite));assert.ok(Math.abs(c.coord[0])<=180&&Math.abs(c.coord[1])<=90);assert.ok(geographicLabels.some(l=>l.countryId===c.id));assert.ok(searchCountries(c.nameEn).some(x=>x.id===c.id));}
+ for(const c of countries){assert.ok(c.nameZh&&c.nameEn);assert.ok(c.coord.length===2&&c.coord.every(Number.isFinite));assert.ok(Math.abs(c.coord[0])<=180&&Math.abs(c.coord[1])<=90);assert.ok(geographicLabels.some(l=>l.countryId===c.id));assert.ok(searchCountries(c.nameEn).some(x=>x.id===c.id||x.mapUnitIds?.includes(c.id)));}
  for(const code of ['VA','MC','SM','NR','TV','KI','AD','SG'])assert.ok(countries.some(c=>c.iso2===code),code);
  const topology=JSON.parse(fs.readFileSync(new URL('../src/world.json',import.meta.url)));assert.equal(feature(topology,topology.objects.countries).features.length,258);assert.ok(decodedBorderArcs().length>4000);
 });

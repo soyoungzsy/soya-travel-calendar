@@ -2490,24 +2490,24 @@
     "nature": 0.95,
     "windows": [
       [
-        "02-01",
-        "03-31"
+        "08-25",
+        "04-15"
       ],
       [
         "06-01",
         "07-31"
       ]
     ],
-    "season": "冬季光线 / 夏季长日灵感",
+    "season": "8月下旬—4月中旬寻极光 / 6—7月长日",
     "subtitle": "在海上群山之间追一段光",
-    "whyNow": "冬季侧重雪岸与光线，夏季侧重长日与渔村；夏季窗口不等于整段时间都有午夜太阳，极光也不保证。",
+    "whyNow": "黑夜季可把渔村、雪岸和海上山体安排在白天，晴朗夜晚再寻找极光；夏季则看长日下的群山与海港。极光需地磁活动、黑暗和晴空同时配合，不能保证看见。",
     "minDays": 8,
     "flight": 8500,
     "daily": 1800,
     "extra": 1500,
     "photo": null,
     "wikiTitle": "Lofoten",
-    "sourceURL": "https://www.visitnorway.com/places-to-go/northern-norway/the-lofoten-islands/winter/",
+    "sourceURL": "https://visitlofoten.com/en/topic/northern-lights-in-lofoten/",
     "highlights": [
       {
         "name": "雷讷",
@@ -2536,8 +2536,11 @@
     "english": "LOFOTEN LIGHT",
     "policy": "挪威",
     "travelDays": 4,
-    "seasonSource": "https://www.visitnorway.com/places-to-go/northern-norway/the-lofoten-islands/winter/",
-    "description": "冬季侧重雪岸与光线，夏季侧重长日与渔村；夏季窗口不等于整段时间都有午夜太阳，极光也不保证。"
+    "seasonSource": "https://visitlofoten.com/en/topic/northern-lights-in-lofoten/",
+    "description": "海面几乎贴着山脚，渔村的红色木屋与陡峭山体构成罗弗敦的尺度。白天沿雷讷与亨宁斯韦尔理解海岸生活，黑夜季再把晴朗夜晚留给极光；夏天改看长日与海港，不把夏季写成极光旅行。",
+    "seasonAuthority": "Visit Lofoten 罗弗敦官方旅游机构",
+    "seasonSourceAccess": "body-verified",
+    "seasonSourceCheckedAt": "2026-10-20"
   },
   {
     "id": "tromso-northern-lights",

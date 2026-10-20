@@ -1,3 +1,4 @@
+import mediaCatalog from '../src/media-catalog.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -33,15 +34,15 @@ test('CNY-first currency conversion uses reciprocal rates and never fabricates a
  assert.ok(Math.abs(cnyToLocal(100,.68)-147.058823529)<1e-6);assert.equal(cnyToLocal(100,.05),2000);assert.equal(cnyToLocal(100,0),null);assert.equal(cnyToLocal(100,undefined),null);assert.equal(cnyToLocal(-1,.68),null);
 });
 test('every destination has an audited licensed photo or an explicit removal record',()=>{
- const media=JSON.parse(fs.readFileSync(new URL('../src/media.json',import.meta.url)));assert.equal(Object.keys(media.photos).length+Object.keys(media.photoExceptions).length,destinations.length);for(const d of destinations){const p=media.photos[d.id];if(!p){assert.ok(media.photoExceptions[d.id]?.reason,d.id);continue;}assert.ok(p.sourcePage&&p.licenseURL&&p.author,d.id);assert.ok(fs.existsSync(new URL('../public'+p.src,import.meta.url)));assert.ok(fs.existsSync(new URL('../public'+p.thumbnail,import.meta.url)));}
+ const media=mediaCatalog;assert.equal(Object.keys(media.photos).length+Object.keys(media.photoExceptions).length,destinations.length);for(const d of destinations){const p=media.photos[d.id];if(!p){assert.ok(media.photoExceptions[d.id]?.reason,d.id);continue;}assert.ok(p.sourcePage&&p.licenseURL&&p.author,d.id);assert.ok(fs.existsSync(new URL('../public'+p.src,import.meta.url)));assert.ok(fs.existsSync(new URL('../public'+p.thumbnail,import.meta.url)));}
 });
 test('rotation audio stays silent and does not create an audio context before user activation',async()=>{
  const original=globalThis.AudioContext;let constructed=0;globalThis.AudioContext=class{constructor(){constructed++;this.state='running';}async resume(){}async close(){}};
  try{const ticks=createDampedTicks();ticks.move(20,.2);assert.equal(constructed,0);assert.equal(await ticks.enable(true),true);assert.equal(constructed,1);await ticks.enable(false);ticks.move(20,.2);ticks.close();}finally{if(original===undefined)delete globalThis.AudioContext;else globalThis.AudioContext=original;}
 });
-test('price-query status distinguishes credentials from a confirmed provider contract and leaks no key',async()=>{
- const request=new Request('https://example.test/api/travel-search/status');let r=await worker.fetch(request,{}),s=await r.json();assert.equal(s.status,'requires_credentials');assert.equal(s.liveInventoryConnected,false);
- r=await worker.fetch(request,{FLYAI_API_KEY:'fixture-not-a-real-key'});const raw=await r.text();assert.equal(JSON.parse(raw).status,'provider_contract_required');assert.ok(!raw.includes('fixture-not-a-real-key'));
+test('price-query status distinguishes developer activation from unverified provider access and leaks no key',async()=>{
+ const request=new Request('https://example.test/api/travel-search/status');let r=await worker.fetch(request,{}),s=await r.json();assert.equal(s.status,'requires_developer_activation');assert.equal(s.liveInventoryConnected,false);
+ r=await worker.fetch(request,{FLYAI_API_KEY:'fixture-not-a-real-key'});const raw=await r.text();assert.equal(JSON.parse(raw).status,'provider_verification_required');assert.ok(!raw.includes('fixture-not-a-real-key'));
 });
 
 test('a city with seasonal guide variants shows its matching or next upcoming season on the globe',()=>{

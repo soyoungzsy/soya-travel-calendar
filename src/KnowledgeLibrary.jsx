@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import {HelpTip} from './HelpTip.jsx';
 import {ArrowRight,ArrowSquareOut,BookOpen,MagnifyingGlass} from '@phosphor-icons/react';
 import {knowledgeSnapshot,referenceCategory,referenceStatus} from './knowledge-audit.mjs';
-import officialSources from './official-sources.json';
+import officialSources from './official-source-catalog.mjs';
 import mapSource from './cartography-source.json';
 
 export function KnowledgeColophon({onOpen}){
