@@ -1,0 +1,8 @@
+.route-loading{min-height:65vh;max-width:720px;margin:0 auto;padding:clamp(48px,10vh,100px) 24px;color:#24465e;font-family:system-ui,sans-serif}
+.route-loading>strong{font-size:32px;letter-spacing:.04em}
+.route-loading h1{font-family:inherit;font-size:20px;line-height:1.6;margin:30px 0 12px}
+.route-loading p{font-size:15px;line-height:1.8}
+.route-loading-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:24px}
+.route-loading-actions button,.route-loading-actions a{border:1px solid #9baeb8;background:white;color:#24465e;padding:10px 15px;border-radius:6px;font:inherit;font-size:14px;text-decoration:none;cursor:pointer}
+.route-loading-actions button:first-child{background:#24465e;color:white}
+.route-loading-actions :focus-visible{outline:3px solid #6196b4;outline-offset:3px}

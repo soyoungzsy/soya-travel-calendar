@@ -10,7 +10,21 @@
 <link rel="canonical" href="https://scenicdue.com/">
 </head>
   <body>
-    <div id="journey-atlas-root"><div role="status" style="padding:64px 6%;color:#24465e;font-family:system-ui,sans-serif"><strong style="font-size:32px">山河有期</strong><p style="font-size:15px">正在展开旅行年历…</p><small>等待较久时，可以刷新页面重试。</small></div></div>
+    <div id="journey-atlas-root"><div role="status" style="padding:64px 6%;color:#24465e;font-family:system-ui,sans-serif"><strong style="font-size:32px">山河有期</strong><p id="startup-message" style="font-size:15px">正在展开旅行年历…</p><small id="startup-help">正在准备页面内容，请稍候。</small><div id="startup-actions" hidden style="margin-top:24px"><button type="button" onclick="window.location.reload()" style="padding:10px 16px;margin-right:16px;font:inherit">重新加载页面</button><a href="/">返回旅行年历</a></div><noscript><p>请启用 JavaScript 后重新加载页面。</p></noscript></div></div>
+    <script data-startup>
+      (()=>{
+        const message=document.getElementById('startup-message'),help=document.getElementById('startup-help'),actions=document.getElementById('startup-actions');
+        const path=window.location.pathname.replace(/\/+$/,'')||'/',label=path==='/encyclopedia'?'旅行百科':path==='/insights'?'数据报表':'旅行年历';
+        message.textContent='正在展开'+label+'…';
+        let failed=false;
+        function show(error){failed=failed||error;message.textContent=failed?label+'未能打开':'加载较久，仍在尝试…';help.textContent=failed?'页面文件暂时无法载入，可以手动重试。':'可以继续等待，页面就绪后会自动显示。';actions.hidden=false;}
+        const timer=setTimeout(()=>show(false),12000);
+        function error(event){if(event.target===window||event.target?.tagName==='SCRIPT')show(true);}
+        function rejection(){show(true);}
+        window.addEventListener('error',error,true);window.addEventListener('unhandledrejection',rejection);
+        window.__SHANHE_STARTUP__={ready(){clearTimeout(timer);window.removeEventListener('error',error,true);window.removeEventListener('unhandledrejection',rejection);}};
+      })();
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
