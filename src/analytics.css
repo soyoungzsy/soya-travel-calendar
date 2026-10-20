@@ -3,3 +3,6 @@
 @media(max-width:760px){.analytics-consent{flex-direction:column;gap:10px;align-items:stretch;padding:16px;bottom:10px}.analytics-consent-actions{justify-content:flex-end}.insights{padding:0 18px 30px}.insight-brand small{display:none}.insight-title{padding-top:26px;align-items:flex-start}.insight-title h1{font-size:25px;max-width:260px}.insight-private{font-size:10px}.insight-metrics{grid-template-columns:repeat(2,1fr)}.insight-metric{padding:18px}.insight-metric:nth-child(n){border-right:1px solid #d8e3e9;border-bottom:1px solid #d8e3e9}.insight-metric:nth-child(2n){border-right:0}.insight-metric:nth-child(n+5){border-bottom:0}.insight-metric strong{font-size:28px}.insight-grid{display:flex;flex-direction:column;gap:16px}.insight-panel{padding:21px 18px}.insight-foot{display:block}.insight-controls{gap:8px}.insight-controls input{max-width:135px}.insight-panel h2{font-size:16px}.insight-ranking{gap:15px}}
 
 .my-report-link{display:flex;align-items:center;justify-content:space-between;margin:8px 16px;padding:13px 0;border-top:1px solid #dfe8ee;color:#26556d;font-size:13px;text-decoration:none}
+
+/* Match the site typography on the owner-only report too. */
+.insights h1,.insights h2,.insights h3{font-family:inherit}
