@@ -1,6 +1,8 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { App } from "./App.jsx";
+import {WishlistToast} from "./WishlistToast.jsx";
+import "./wishlist-feedback.css";
 import {AnalyticsPrivacy} from "./AnalyticsPrivacy.jsx";
 import {startAnalytics} from "./analytics.mjs";
 import "./analytics.css";
@@ -13,7 +15,7 @@ import "./personal-places.css";
 
 createRoot(document.getElementById("journey-atlas-root")).render(
   <React.StrictMode>
-    {location.pathname==='/insights'?<React.Suspense fallback={<p>正在打开数据报表…</p>}><Insights/></React.Suspense>:<>{location.pathname==='/encyclopedia'?<React.Suspense fallback={<p>正在展开旅行百科…</p>}><Encyclopedia/></React.Suspense>:<App/>}<AnalyticsPrivacy/></>}
+    {location.pathname==='/insights'?<React.Suspense fallback={<p>正在打开数据报表…</p>}><Insights/></React.Suspense>:<>{location.pathname==='/encyclopedia'?<React.Suspense fallback={<p>正在展开旅行百科…</p>}><Encyclopedia/></React.Suspense>:<App/>}<AnalyticsPrivacy/><WishlistToast/></>}
   </React.StrictMode>,
 );
 
@@ -26,3 +28,5 @@ import "./my-menu.css";
 import "./usability.css";
 
 import "./editorial-v10.css";
+
+import "./paper-theme.css";

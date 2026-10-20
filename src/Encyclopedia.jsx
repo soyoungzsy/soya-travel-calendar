@@ -1,3 +1,4 @@
+import {notifyWishlist} from './WishlistToast.jsx';
 import React,{useEffect,useMemo,useRef,useState} from 'react';
 import {ArrowLeft,ArrowRight,BookmarkSimple,GlobeHemisphereEast,Leaf,Bank,BookOpen} from '@phosphor-icons/react';
 import {encyclopedia,encyclopediaPoints} from './encyclopedia.mjs';
@@ -14,7 +15,7 @@ export default function Encyclopedia(){
  const countries=encyclopedia.countries.filter(c=>continent==='all'||c.continents.includes(continent)),country=countries.find(c=>c.id===countryId)||null,cities=country?.cities||[],city=cities.find(c=>c.id===cityId)||null,points=useMemo(()=>encyclopediaPoints(city,category),[city,category]),base=city?.destinations[0];
  useEffect(()=>{setAnalyticsScreen('encyclopedia');},[]);
  useEffect(()=>observeSaved(setSaved),[]);
- function save(id){try{const next=toggleSaved(localStorage,id,saved);setSaved(next);track(next.includes(id)?'save':'unsave',id);}catch{setSaved(ids=>ids.includes(id)?ids.filter(x=>x!==id):[...ids,id]);}}
+ function save(id){try{const next=toggleSaved(localStorage,id,saved);setSaved(next);track(next.includes(id)?'save':'unsave',id);notifyWishlist(next.includes(id));}catch{notifyWishlist(null);}}
  function selectCountry(id){setCountryId(id);setCityId('');setSelected(null);setLimit(12);track('country','country:'+id);}
  function selectCity(id){setCityId(id);setSelected(null);setLimit(12);}
  function selectPoint(p){setSelected(p);track('poi',p.id);requestAnimationFrame(()=>detail.current?.scrollIntoView({behavior:'smooth',block:'start'}));}
