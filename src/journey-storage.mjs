@@ -1,0 +1,7 @@
+export const JOURNEY_KEY='shanhe-youqi-v3';
+export function readJourney(storage){try{const value=JSON.parse(storage.getItem(JOURNEY_KEY)||'{}');return value&&typeof value==='object'&&!Array.isArray(value)?value:{};}catch{return{};}}
+export function savedIDs(state){return Array.isArray(state.saved)?state.saved.filter(x=>typeof x==='string'):[];}
+export function patchJourney(storage,patch){const next={...readJourney(storage),...patch};storage.setItem(JOURNEY_KEY,JSON.stringify(next));return next;}
+// Read immediately before a single-item mutation; never overwrite another tab's list.
+export function toggleSaved(storage,id,fallback=[]){const previous=readJourney(storage),ids=Array.isArray(previous.saved)?savedIDs(previous):fallback;const saved=ids.includes(id)?ids.filter(x=>x!==id):[...ids,id];patchJourney(storage,{saved});globalThis.dispatchEvent?.(new Event('shanhe-saved-change'));return saved;}
+export function observeSaved(listener){const update=()=>{try{listener(savedIDs(readJourney(localStorage)));}catch{}};const storage=e=>{if(e.key===JOURNEY_KEY||e.key===null)update();};globalThis.addEventListener('storage',storage);globalThis.addEventListener('pageshow',update);globalThis.addEventListener('shanhe-saved-change',update);return()=>{globalThis.removeEventListener('storage',storage);globalThis.removeEventListener('pageshow',update);globalThis.removeEventListener('shanhe-saved-change',update);};}

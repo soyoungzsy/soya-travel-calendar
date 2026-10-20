@@ -1,5 +1,5 @@
 import { destinations, TODAY } from './data.mjs';
-import guides from './travel-guides.json' with {type:'json'};
+import guides from './guide-catalog.mjs';
 export const DAY=86400000;
 export const parseDate=s=>{if(!/^\d{4}-\d{2}-\d{2}$/.test(s||''))return NaN;const n=Date.parse(s+'T00:00:00Z');return Number.isFinite(n)&&new Date(n).toISOString().slice(0,10)===s?n:NaN;};
 export const iso=n=>new Date(n).toISOString().slice(0,10);

@@ -1,6 +1,9 @@
-import React,{useEffect,useId,useRef,useState} from 'react';
+import React,{useEffect,useLayoutEffect,useId,useRef,useState} from 'react';
+import {Question} from '@phosphor-icons/react';
+import {helpPlacement} from './tooltip-layout.mjs';
 export function HelpTip({label='功能说明',children}){
- const [open,setOpen]=useState(false),id=useId(),root=useRef(null);
- useEffect(()=>{if(!open)return;const outside=e=>{if(!root.current?.contains(e.target))setOpen(false);},escape=e=>{if(e.key==='Escape'){e.preventDefault();e.stopPropagation();setOpen(false);root.current?.querySelector('button')?.focus();}};document.addEventListener('pointerdown',outside);root.current?.addEventListener('keydown',escape);return()=>{document.removeEventListener('pointerdown',outside);root.current?.removeEventListener('keydown',escape);};},[open]);
- return <span className="help-tip" ref={root}><button type="button" aria-label={label} aria-expanded={open} aria-controls={id} onClick={()=>setOpen(!open)}>?</button>{open&&<span id={id} role="note" className="help-content">{children}</span>}</span>;
+ const [open,setOpen]=useState(false),id=useId(),root=useRef(null),tip=useRef(null);
+ useLayoutEffect(()=>{if(!open)return;const box=tip.current;try{box.showPopover?.();}catch{}const place=()=>{const anchor=root.current?.querySelector('button')?.getBoundingClientRect();if(!anchor)return;const pos=helpPlacement(anchor,{width:innerWidth,height:innerHeight},{width:310,height:box.offsetHeight||170});Object.assign(box.style,{left:pos.left+'px',top:pos.top+'px',width:pos.width+'px',maxHeight:pos.maxHeight+'px'});};place();const observer=new ResizeObserver(place);observer.observe(box);window.addEventListener('resize',place);document.addEventListener('scroll',place,true);return()=>{observer.disconnect();window.removeEventListener('resize',place);document.removeEventListener('scroll',place,true);try{box.hidePopover?.();}catch{}};},[open]);
+ useEffect(()=>{if(!open)return;const outside=e=>{if(!root.current?.contains(e.target))setOpen(false);},escape=e=>{if(e.key!=='Escape')return;e.preventDefault();e.stopPropagation();setOpen(false);root.current?.querySelector('button')?.focus();};document.addEventListener('pointerdown',outside);document.addEventListener('keydown',escape,true);return()=>{document.removeEventListener('pointerdown',outside);document.removeEventListener('keydown',escape,true);};},[open]);
+ return <span className="help-tip" ref={root}><button type="button" className="help-trigger" data-track="help" aria-label={label} aria-expanded={open} aria-controls={id} onClick={()=>setOpen(!open)}><Question size={14} weight="regular"/></button>{open&&<span ref={tip} popover="manual" id={id} role="note" className="help-popover">{children}</span>}</span>;
 }

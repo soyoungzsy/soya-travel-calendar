@@ -1,6 +1,6 @@
 import {destinations} from './data.mjs';
 import {poiRecords} from './knowledge.mjs';
-import guides from './travel-guides.json' with {type:'json'};
+import guides from './guide-catalog.mjs';
 import {foodProfiles,readingPacks} from './travel-enrichment.mjs';
 
 const bodyLevels=new Set(['body','body-verified']);
@@ -25,8 +25,8 @@ export function compileKnowledgeSnapshot({destinationRecords=destinations,points
   for(const s of guideRecords[d.id]?.sources||[]){if(['fx','central-bank-api'].includes(s.type))continue;addSource(s,{...context,category:s.type==='traveler'?'traveler':'travel'});}
  }
  for(const p of points){
-  const row=country(p.country);row.points.add(p.baseId||p.id);if(p.recordKind==='curated-poi')row.detailed.add(p.baseId||p.id);
-  for(const s of p.sources||[])addSource(s,{id:p.baseId||p.id,name:p.name,country:p.country,category:p.category==='nature'?'nature':'culture'});
+  const contentRegion=p.regionCode==='HK'?'中国·香港':p.country;const row=country(contentRegion);row.points.add(p.baseId||p.id);if(p.recordKind==='curated-poi')row.detailed.add(p.baseId||p.id);
+  for(const s of p.sources||[])addSource(s,{id:p.baseId||p.id,name:p.name,country:contentRegion,category:p.category==='nature'?'nature':'culture'});
  }
  for(const p of foods)for(const f of p.foods){country(p.country).foods.add(f.id);for(const s of f.sources||[])addSource(s,{id:f.id,name:f.name,country:p.country,category:'food'});}
  for(const p of readings)for(const r of p.items){country(p.country).readings.add(r.id);addSource({url:r.sourceURL,title:r.title,sourceAuthority:r.sourceAuthority,accessLevel:r.accessLevel,accessedAt:r.accessedAt,book:r.type==='book'?{creator:r.creator,edition:r.edition,publishedAt:r.publishedAt,ISBN:r.ISBN}:null},{id:r.id,name:r.title,country:p.country,category:r.type==='book'?'book':'reading'});}

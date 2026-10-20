@@ -2,15 +2,15 @@ import {HelpTip} from './HelpTip.jsx';
 import {KnowledgeLibrary} from './KnowledgeLibrary.jsx';
 import React,{useState} from 'react';
 import {ArrowLeft,ArrowRight,BookmarkSimple,MagnifyingGlass,GlobeHemisphereEast,ArrowSquareOut} from '@phosphor-icons/react';
-import media from './media.json';
+import media from './media-catalog.mjs';
 import mapSource from './cartography-source.json';
-import officialSources from './official-sources.json';
+import officialSources from './official-source-catalog.mjs';
 import {allPOICards,countries,forCountry,heritageMetadata,knowledgeStats,searchCountries,getPOIPhoto} from './knowledge.mjs';
 import {ScenicTile} from './ScenicCards.jsx';
 
 export function CountryDirectory({onChoose}){
  const [query,setQuery]=useState(''),list=searchCountries(query);
- return <div className="dialog-body country-directory"><p className="eyebrow">A WORLD OF PLACES</p><h2>国家与地区</h2><label className="country-search"><MagnifyingGlass size={17}/><input type="search" autoFocus value={query} onChange={e=>setQuery(e.target.value)} placeholder="搜索国家、地区或英文名称" aria-label="搜索国家或地区"/></label><p className="fine-print">{list.length} 个地图入口 <HelpTip label="国家与地区目录说明">可搜索国家、地区或英文名称。地图入口与已收录的攻略分别统计。</HelpTip></p><div className="country-grid">{list.map(c=><button key={c.id} aria-label={'探索'+c.nameZh} onClick={()=>onChoose(c)}><strong>{c.nameZh}</strong><small>{c.nameEn}</small><ArrowRight size={14}/></button>)}</div>{!list.length&&<p className="notice">没有匹配的名称，请尝试中文、英文或两位地区代码。</p>}</div>;
+ return <div className="dialog-body country-directory"><p className="eyebrow">A WORLD OF PLACES</p><h2>国家与地区</h2><label className="country-search"><MagnifyingGlass size={17}/><input type="search" autoFocus value={query} onChange={e=>setQuery(e.target.value)} placeholder="搜索国家、地区或英文名称" aria-label="搜索国家或地区"/></label><p className="fine-print">{list.length} 个国家与地区目录项 <HelpTip label="国家与地区目录说明">可搜索国家、地区或英文名称。目录已合并同属一个国家或地区的地理单元；收录的攻略可在旅行百科中分层浏览。</HelpTip></p><div className="country-grid">{list.map(c=><button key={c.id} aria-label={'探索'+c.nameZh} onClick={()=>onChoose(c)}><strong>{c.nameZh}</strong><small>{c.nameEn}</small><ArrowRight size={14}/></button>)}</div>{!list.length&&<p className="notice">没有匹配的名称，请尝试中文、英文或两位地区代码。</p>}</div>;
 }
 export function CountryExplorer({country,start,end,onClear,onOpen,onSave,saved,loading=false,error=''}){
  const records=forCountry(country,start,end),[tab,setTab]=useState('guides'),[category,setCategory]=useState('all'),[query,setQuery]=useState(''),[limit,setLimit]=useState(8);

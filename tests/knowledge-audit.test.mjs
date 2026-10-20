@@ -30,11 +30,11 @@ test('reading metadata distinguishes articles read from books whose catalogue al
 });
 test('the public colophon is computed from the distributed content, not the map or an undistributed index',()=>{
  const c=knowledgeSnapshot.counts;
- assert.equal(c.countries,34);assert.equal(c.destinations,72);assert.equal(c.destinationCards,73);assert.equal(c.points,180);assert.equal(c.detailed,29);
+ assert.equal(c.countries,35);assert.equal(c.destinations,75);assert.equal(c.destinationCards,79);assert.equal(c.points,186);assert.equal(c.detailed,36);
  assert.equal(c.countries,knowledgeSnapshot.countries.length);assert.equal(c.references,knowledgeSnapshot.sources.length);
  assert.equal(knowledgeSnapshot.countries.reduce((n,r)=>n+r.points,0),c.points);
  for(const r of knowledgeSnapshot.sources){assert.ok(r.uses.length);assert.ok(r.countries.length);assert.ok(canonicalSourceURL(r.url));}
- assert.equal(knowledgeSnapshot.latestCheckedAt,'2026-10-18');
+ assert.equal(knowledgeSnapshot.latestCheckedAt,'2026-10-20');
 });
 
 test('Quanzhou points retain saved IDs and Hong Kong regional content stays distinct from mainland',()=>{

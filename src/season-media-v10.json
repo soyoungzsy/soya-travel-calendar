@@ -1,0 +1,234 @@
+{
+  "photos": {
+    "baikal-summer-shores": {
+      "src": "/season/baikal-summer-shores.webp",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Baikal_(76366453).jpeg",
+      "sourceTitle": "Baikal (76366453).jpeg",
+      "author": "Yuri Samoilov",
+      "attribution": "Yuri Samoilov / Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/3.0",
+      "place": "俄罗斯·贝加尔湖夏季湖岸",
+      "description": "贝加尔湖夏季湖面与岸边视角；2014年7月历史实拍。",
+      "width": 1800,
+      "height": 1200,
+      "size": {
+        "width": 1800,
+        "height": 1200,
+        "bytes": 208642
+      },
+      "capturedAt": "2014-07-12",
+      "sourceProvidedDate": "12 July 2014, 11:31:05",
+      "seasonEvidence": "源页拍摄日期7月，描述为 Baikal lake shore 并带 summer 标签。",
+      "originalURL": "https://upload.wikimedia.org/wikipedia/commons/6/69/Baikal_%2876366453%29.jpeg",
+      "sourceDescription": "500px provided description: Baikal lake shore. [#lake ,#water ,#???? ,#clouds ,#summer ,#horizon ,#????? ,#??????? ,#?????? ,#???????? ,#baikal ,#cc ,#cc-by ,#???????? ,#??????]",
+      "checkedAt": "2026-10-20",
+      "changes": "按比例缩小并转换为 WebP；未裁切、未移除水印、未使用 AI 修改。",
+      "mediaType": "photograph",
+      "sha256": "6ac19104c6eeba25a86247c6a34a13817fc70ac7d741acc6e1c4fdde327a5912",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "thumbnail": "/season/baikal-summer-shores-thumb.webp",
+      "thumbnailSize": {
+        "width": 640,
+        "height": 427,
+        "bytes": 13784
+      }
+    },
+    "baikal-winter-ice": {
+      "src": "/season/baikal-winter-ice.webp",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Black_ice_of_Baikal.jpg",
+      "sourceTitle": "Black ice of Baikal.jpg",
+      "author": "Sergey Pesterev",
+      "attribution": "© Sergey Pesterev / Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+      "place": "俄罗斯·贝加尔湖·奥尔洪岛附近",
+      "description": "奥尔洪岛附近透明湖冰与裂纹；2016年1月历史实拍，不代表当日冰面准入。",
+      "width": 1800,
+      "height": 1201,
+      "size": {
+        "width": 1800,
+        "height": 1201,
+        "bytes": 326752
+      },
+      "capturedAt": "2016-01-30",
+      "sourceProvidedDate": "30 January 2016, 08:38:19",
+      "seasonEvidence": "源页拍摄日期1月，原作者明确说明为奥尔洪岛附近透明湖冰。",
+      "originalURL": "https://upload.wikimedia.org/wikipedia/commons/0/09/Black_ice_of_Baikal.jpg",
+      "sourceDescription": "Русский: Прозрачный лёд на Байкале в окрестностях Ольхона. English: Transparent black ice of Baikal lake near Olkhon island. Eesti: Baikali läbipaistev jää Olhoni saare lähedal",
+      "checkedAt": "2026-10-20",
+      "changes": "按比例缩小并转换为 WebP；未裁切、未移除水印、未使用 AI 修改。",
+      "mediaType": "photograph",
+      "sha256": "cd00e679913030729bcbd359b3b6d9a764b0ad6c66870b2c3e03796109874a0b",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "thumbnail": "/season/baikal-winter-ice-thumb.webp",
+      "thumbnailSize": {
+        "width": 640,
+        "height": 427,
+        "bytes": 51986
+      }
+    },
+    "sayram-summer-meadows": {
+      "src": "/season/sayram-summer-meadows.webp",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sayram_Lake_scenery.jpg",
+      "sourceTitle": "Sayram Lake scenery.jpg",
+      "author": "Fumikas Sagisavas",
+      "attribution": "Fumikas Sagisavas / Wikimedia Commons",
+      "license": "CC0 1.0",
+      "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "place": "中国新疆·赛里木湖",
+      "description": "赛里木湖夏季湖蓝、绿色湖岸与远山；2023年6月实拍。",
+      "width": 1800,
+      "height": 1350,
+      "size": {
+        "width": 1800,
+        "height": 1350,
+        "bytes": 337300
+      },
+      "capturedAt": "2023-06-24",
+      "sourceProvidedDate": "24 June 2023, 11:13:42",
+      "seasonEvidence": "源页拍摄日期6月，明确标注 Sayram Lake；可见无冰湖面及绿色湖岸。",
+      "originalURL": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Sayram_Lake_scenery.jpg",
+      "sourceDescription": "English: Sayram Lake scenery",
+      "checkedAt": "2026-10-20",
+      "changes": "按比例缩小并转换为 WebP；未裁切、未移除水印、未使用 AI 修改。",
+      "mediaType": "photograph",
+      "sha256": "c6f8e2066c329e88d6742563524bb88e93e0f77f16b51cf2160fdf74da7551db",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "thumbnail": "/season/sayram-summer-meadows-thumb.webp",
+      "thumbnailSize": {
+        "width": 640,
+        "height": 480,
+        "bytes": 18180
+      }
+    },
+    "mohe-summer-long-days": {
+      "src": "/season/mohe-summer-long-days.webp",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Museum_of_Oroqen_People,_Aug_2019.jpg",
+      "sourceTitle": "Museum of Oroqen People, Aug 2019.jpg",
+      "author": "颜邯",
+      "attribution": "颜邯 / Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+      "place": "中国黑龙江·漠河北极镇·鄂伦春民族博物馆",
+      "description": "漠河北极镇夏季的民族文化建筑与绿色林地；2019年8月实拍。白天照片不用于证明极昼或午夜太阳。",
+      "width": 1800,
+      "height": 1200,
+      "size": {
+        "width": 1800,
+        "height": 1200,
+        "bytes": 301372
+      },
+      "capturedAt": "2019-08-17",
+      "sourceProvidedDate": "17 August 2019",
+      "seasonEvidence": "源页拍摄日期8月，明确地点为黑龙江省漠河市北极镇，展示夏季绿色植被。",
+      "originalURL": "https://upload.wikimedia.org/wikipedia/commons/2/27/Museum_of_Oroqen_People%2C_Aug_2019.jpg",
+      "sourceDescription": "中文： ​鄂伦春民族博物馆，位于黑龙江省漠河市北极镇。",
+      "checkedAt": "2026-10-20",
+      "changes": "按比例缩小并转换为 WebP；未裁切、未移除水印、未使用 AI 修改。",
+      "mediaType": "photograph",
+      "sha256": "4b5512f347ec7cfa184693c682c3e2ab5c86b1cd1526bece09ee088a14cea087",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "thumbnail": "/season/mohe-summer-long-days-thumb.webp",
+      "thumbnailSize": {
+        "width": 640,
+        "height": 427,
+        "bytes": 39490
+      }
+    },
+    "mohe-winter-snow": {
+      "src": "/season/mohe-winter-snow.webp",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E6%9E%81%E6%9D%91%E7%9A%84%E7%AB%A5%E8%AF%9D%E4%B8%96%E7%95%8C_QQ696847_-_panoramio.jpg",
+      "sourceTitle": "北极村的童话世界 QQ696847 - panoramio.jpg",
+      "author": "funcn",
+      "attribution": "funcn / Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/3.0",
+      "place": "中国黑龙江·漠河北极村",
+      "description": "北极村冬季积雪木屋夜景；历史实拍，拍摄年月未公开，源页日期为2011年上传日期。",
+      "width": 1280,
+      "height": 853,
+      "size": {
+        "width": 1280,
+        "height": 853,
+        "bytes": 278258
+      },
+      "capturedAt": null,
+      "sourceProvidedDate": "13 September 2011 (original upload date)",
+      "seasonEvidence": "源页名称明确为北极村；画面为深厚积雪和冬季木屋。仅有上传日期，未推断具体拍摄月份。",
+      "originalURL": "https://upload.wikimedia.org/wikipedia/commons/9/90/%E5%8C%97%E6%9E%81%E6%9D%91%E7%9A%84%E7%AB%A5%E8%AF%9D%E4%B8%96%E7%95%8C_QQ696847_-_panoramio.jpg",
+      "sourceDescription": "北极村的童话世界 QQ696847",
+      "checkedAt": "2026-10-20",
+      "changes": "按比例缩小并转换为 WebP；未裁切、未移除水印、未使用 AI 修改。",
+      "mediaType": "photograph",
+      "sha256": "8df12bd7e85247d5a81403673a9f7b6d4fd9b2ffa2cd88ce74643c1fed8c48a5",
+      "focalPointPercent": [
+        50,
+        50
+      ],
+      "thumbnail": "/season/mohe-winter-snow-thumb.webp",
+      "thumbnailSize": {
+        "width": 640,
+        "height": 427,
+        "bytes": 9176
+      }
+    },
+    "sayram-winter-ice": {
+      "src": "/season/sayram-winter-ice.webp",
+      "sourcePage": "https://unsplash.com/photos/snow-capped-mountains-overlook-a-frozen-lake-under-a-clear-sky-L4Uj4ZlyrUg",
+      "sourceTitle": "Snow-capped mountains overlook a frozen lake under a clear sky",
+      "author": "Sean Wang",
+      "attribution": "Sean Wang / Unsplash",
+      "license": "Unsplash License",
+      "licenseURL": "https://unsplash.com/license",
+      "place": "中国新疆·赛里木湖",
+      "description": "赛里木湖冬季湖岸、冰纹与雪山实拍。原作者明确标注冬季；2026年4月是发布日期，拍摄月份未公开，不代表当日湖冰安全。",
+      "width": 1350,
+      "height": 1800,
+      "size": {
+        "width": 1350,
+        "height": 1800,
+        "bytes": 345180
+      },
+      "capturedAt": null,
+      "publishedAt": "2026-04-03",
+      "seasonEvidence": "原作者源页正文明确为 frozen crystalline surface of Sayram Lake in winter，地点标注赛里木湖；画面可见冰纹、枯草湖岸和雪山。",
+      "originalURL": "https://images.unsplash.com/photo-1775204557473-523f923d51bd",
+      "sourceDescription": "Frozen crystalline surface of Sayram Lake in winter; source camera metadata Apple iPhone 16 Pro.",
+      "checkedAt": "2026-10-20",
+      "changes": "按比例缩小并转换为 WebP；未裁切、未增删冰纹、未使用 AI 修改。",
+      "mediaType": "photograph",
+      "sha256": "4d8c137bbb1a0ae3cdc09e48b8b16190fa56ba47b77369bcb460208e4088fff7",
+      "focalPointPercent": [
+        50,
+        60
+      ],
+      "thumbnail": "/season/sayram-winter-ice-thumb.webp",
+      "thumbnailSize": {
+        "width": 480,
+        "height": 640,
+        "bytes": 66670
+      }
+    }
+  },
+  "checkedAt": "2026-10-20",
+  "status": "complete",
+  "summary": {
+    "items": 6,
+    "covered": 6,
+    "gaps": [],
+    "note": "三个地点各使用不同的夏季与冬季真实照片；展示历史季节状态，不作为实时景象、极光或冰面安全保证。"
+  }
+}

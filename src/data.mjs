@@ -1,3 +1,4 @@
+import seasonalAdditions from './season-additions-v10.json' with {type:'json'};
 import discoveries from './discoveries.json' with {type:'json'};
 const dateParts = new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
 export const TODAY = ['year','month','day'].map(k=>dateParts.find(p=>p.type===k).value).join('-');
@@ -17,7 +18,8 @@ export const curatedDestinations = [
  {id:'st-petersburg',name:'圣彼得堡',english:'ST PETERSBURG',country:'俄罗斯',policy:'俄罗斯',coord:[30.31,59.94],domestic:false,nature:.25,windows:[['05-25','07-15']],season:'5月下旬—7月中旬 · 白夜窗口',subtitle:'白夜中的艺术之城',description:'在漫长的暮色中看建筑、河道与城市生活。白天给博物馆与宫殿，夜晚沿涅瓦河散步。演出、开馆和交通条件按实际出行日期核验。',minDays:6,travelDays:4,flight:4700,daily:780,extra:900,seasonSource:'https://peterburg.ru/city/belye-nochi-vizitnaya-kartochka',stops:[['圣彼得堡','博物馆与艺术|城市建筑与河道|白夜里的涅瓦河'],['近郊宫殿','按开放情况选择一处|公园与历史建筑'],['圣彼得堡','演出或街区慢行']]}
 ];
 
-export const destinations=[...curatedDestinations,...discoveries];
+const seasonal=seasonalAdditions.destinations.map(d=>({...d,seasonAuthority:d.sources[0]?.authority,seasonSourceCheckedAt:d.checkedAt,seasonSourceAccess:d.sources[0]?.accessLevel}));
+export const destinations=[...curatedDestinations,...discoveries,...seasonal];
 
 const wikiTitles={"kyoto-spring": "Kyoto", "kyoto-autumn": "Kyoto", "nyingchi": "Nyingchi", "marrakech": "Marrakesh", "arrowtown-autumn": "Arrowtown", "iceland": "Iceland", "harbin": "Harbin", "nalati": "Nalati", "edinburgh": "Edinburgh", "antarctica": "Antarctic_Peninsula", "patagonia": "Torres_del_Paine_National_Park", "beijing-autumn": "Beijing", "st-petersburg": "Saint_Petersburg"};
 for(const d of curatedDestinations){d.wikiTitle=wikiTitles[d.id];}

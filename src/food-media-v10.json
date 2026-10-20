@@ -1,0 +1,995 @@
+{
+  "checkedAt": "2026-10-20",
+  "photos": {
+    "food:hangzhou:1": [
+      {
+        "src": "/food/hangzhou-1.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Longjing_prawns_in_Hangzhou_Restaurant_2015-07.JPG",
+        "sourceTitle": "Longjing prawns in Hangzhou Restaurant 2015-07.JPG",
+        "author": "猫猫的日记本",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "杭州酒家龙井虾仁实拍（2015年）",
+        "subject": "龙井虾仁；杭州",
+        "size": {
+          "width": 960,
+          "height": 638,
+          "bytes": 38972
+        },
+        "width": 960,
+        "height": 638,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Longjing_prawns_in_Hangzhou_Restaurant_2015-07.JPG",
+        "sourceDescription": "中文： ​龙井虾仁，摄于杭州酒家（上城区延安路205号）。",
+        "capturedAt": "4 July 2015, 12:36:18",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "b746b054a64c18e280a55096952d8cc409ab7d31b07fffc034829b8b09f4f090",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 4.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "food:hangzhou:2": [
+      {
+        "src": "/food/hangzhou-2.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Dongpo_pork_(a_Hangzhou_dish).jpg",
+        "sourceTitle": "Dongpo pork (a Hangzhou dish).jpg",
+        "author": "Pauloleong2002",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "东坡肉实拍（2015年；源页标注中国）",
+        "subject": "东坡肉",
+        "size": {
+          "width": 960,
+          "height": 717,
+          "bytes": 43692
+        },
+        "width": 960,
+        "height": 717,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Dongpo_pork_%28a_Hangzhou_dish%29.jpg",
+        "sourceDescription": "English: Dongpo pork (a Hangzhou dish) This photo has been taken in the country: China",
+        "capturedAt": "18 October 2015, 19:04:57",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "9adb2e535752d3feb82b03279821bcfe507bfeab5412a97b5b4e25245fef020b",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 4.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "food:beijing:1": [
+      {
+        "src": "/food/beijing-1.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Peking_duck_slices.jpg",
+        "sourceTitle": "Peking duck slices.jpg",
+        "author": "Fumikas Sagisavas",
+        "license": "CC0 1.0",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "caption": "北京烤鸭切片实拍；菜品示例",
+        "subject": "北京烤鸭切片",
+        "size": {
+          "width": 960,
+          "height": 720,
+          "bytes": 105126
+        },
+        "width": 960,
+        "height": 720,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/1/17/Peking_duck_slices.jpg",
+        "sourceDescription": "English: Peking duck slices 中文： ​盒马北京烤鸭",
+        "capturedAt": "25 October 2024, 16:36:09",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "cb62f03cd3e248751a39fbe09236729f62e8c37c1d3736ec1645c41f2b6317cf",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC0 1.0",
+        "derivativeLicenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    ],
+    "food:beijing:2": [
+      {
+        "src": "/food/beijing-2.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Zhajiangmian_20180501.jpg",
+        "sourceTitle": "Zhajiangmian 20180501.jpg",
+        "author": "Hal_0005",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "北京炸酱面实拍（2018年）",
+        "subject": "老北京炸酱面；北京",
+        "size": {
+          "width": 960,
+          "height": 614,
+          "bytes": 118092
+        },
+        "width": 960,
+        "height": 614,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/6/62/Zhajiangmian_20180501.jpg",
+        "sourceDescription": "Well made zhajiangmian in Beijing",
+        "capturedAt": "1 May 2018 (according to Exif data)",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "d6f91fd0f7f9bd77fccbba12089d401b5bee8044ffdb17b8886af35244e4f84e",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 4.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "food:kyoto:1": [
+      {
+        "src": "/food/kyoto-1.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kaiseki_-_Kyoto.jpg",
+        "sourceTitle": "Kaiseki - Kyoto.jpg",
+        "author": "Donatingpictures",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "京都怀石料理实拍（2014年）；不是全年固定菜单",
+        "subject": "京怀石；京都",
+        "size": {
+          "width": 960,
+          "height": 717,
+          "bytes": 136680
+        },
+        "width": 960,
+        "height": 717,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Kaiseki_-_Kyoto.jpg",
+        "sourceDescription": "English: Kaiseki cuisine in Kyoto, Japan",
+        "capturedAt": "7 March 2014, 12:56:32",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "161ef2bab1d7c0d0b045e4a86e9f7c453d72a9e0c37bf9a398dde69c021bee16",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 4.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "food:kyoto:2": [
+      {
+        "src": "/food/kyoto-2.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Yudofu.jpg",
+        "sourceTitle": "Yudofu.jpg",
+        "author": "Joi Ito from Inbamura, Japan",
+        "license": "CC BY 2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+        "caption": "京都汤豆腐实拍（2005年）",
+        "subject": "汤豆腐 Yudofu；京都",
+        "size": {
+          "width": 640,
+          "height": 480,
+          "bytes": 19896
+        },
+        "width": 640,
+        "height": 480,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Yudofu.jpg",
+        "originalSize": "Original file (640 × 480 pixels, file size: 64 KB, MIME type: image/jpeg )",
+        "sourceDescription": "English: Yudofu, or tofu in hot water. 日本語: 土鍋で作る湯豆腐.",
+        "capturedAt": "11 June 2005, 11:47",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "a8ad28147c72d76f92cbd797b3a0737be3e20b1398db037a2d556fbcd5309557",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY 2.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by/2.0"
+      }
+    ],
+    "food:luang-prabang:1": [
+      {
+        "src": "/food/luang-prabang-1.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kaipen_with_Spicy_Jaew_Bong_Sauce-02.jpg",
+        "sourceTitle": "Kaipen with Spicy Jaew Bong Sauce-02.jpg",
+        "author": "joaquinuy",
+        "license": "CC BY 2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+        "caption": "河苔小食 Kaipen 与 Jaew Bong 蘸酱实拍",
+        "subject": "河苔小食 Kaipen",
+        "size": {
+          "width": 960,
+          "height": 720,
+          "bytes": 152192
+        },
+        "width": 960,
+        "height": 720,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Kaipen_with_Spicy_Jaew_Bong_Sauce-02.jpg",
+        "sourceDescription": "Kaipen with spicy jaew bong Sauce. Kaipen is a Lao snack made of fresh water green algae, vegetables, and sesame seeds.",
+        "capturedAt": "8 February 2008",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "2d1b53a4e7606d07537693286c6d8643ba53f083660fb56e49d33d579da5b6e8",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY 2.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by/2.0"
+      }
+    ],
+    "food:luang-prabang:2": [
+      {
+        "src": "/food/luang-prabang-2.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Or_Lam_at_Amantaka.jpg",
+        "sourceTitle": "Or Lam at Amantaka.jpg",
+        "author": "Jpatokal",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "琅勃拉邦 Or Lam 猪肉炖菜实拍（2022年）",
+        "subject": "琅勃拉邦传统炖菜 Or Lam",
+        "size": {
+          "width": 960,
+          "height": 720,
+          "bytes": 119172
+        },
+        "width": 960,
+        "height": 720,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Or_Lam_at_Amantaka.jpg",
+        "sourceDescription": "English: Or lam pork stew, a speciality of Luang Prabang.  Taken at Amantaka, Luang Prabang, Laos.",
+        "capturedAt": "22 October 2022, 19:30:20",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "85b881b60a82711f9b506fc0e68d7e9a1037b49f3e8cf8cf82e141a30a27ebed",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 4.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "food:chengdu:1": [
+      {
+        "src": "/food/chengdu-1.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Billyfoodmabodofu3.jpg",
+        "sourceTitle": "Billyfoodmabodofu3.jpg",
+        "author": "Archon6812",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "caption": "麻婆豆腐实拍；菜品示例，未核定拍摄门店",
+        "subject": "麻婆豆腐",
+        "size": {
+          "width": 500,
+          "height": 750,
+          "bytes": 46882
+        },
+        "width": 500,
+        "height": 750,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Billyfoodmabodofu3.jpg",
+        "sourceDescription": "English: Chinese Mapo Tofu",
+        "capturedAt": "11 February 2011",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "a12e1ef8638800bca39320133a457ded995b3a3b2ea5c472f56c4feec4ff6ecb",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 3.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    ],
+    "food:chengdu:2": [
+      {
+        "src": "/food/chengdu-2.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Dandanmian_in_Chengdu_(20180218142856).jpg",
+        "sourceTitle": "Dandanmian in Chengdu (20180218142856).jpg",
+        "author": "N509FZ",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "成都担担面干拌版本实拍（2018年）",
+        "subject": "成都担担面",
+        "size": {
+          "width": 960,
+          "height": 640,
+          "bytes": 98694
+        },
+        "width": 960,
+        "height": 640,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/4/49/Dandanmian_in_Chengdu_%2820180218142856%29.jpg",
+        "sourceDescription": "English: This is a dry variant. This photo has been taken in the country: China",
+        "capturedAt": "18 February 2018, 14:28:56",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "a63c9d52fcf0c63c33b19a9820f083f035cc57dc62ef7a516ba52ed50c32cdce",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 4.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "food:jiuzhaigou:1": [],
+    "food:jiuzhaigou:2": [
+      {
+        "src": "/food/jiuzhaigou-2.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E9%9D%92%E7%A8%9E%E9%A5%BC.jpg",
+        "sourceTitle": "青稞饼.jpg",
+        "author": "EditQ",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "九寨沟青稞饼实拍（2023年）",
+        "subject": "青稞饼；九寨沟",
+        "size": {
+          "width": 1252,
+          "height": 1280,
+          "bytes": 146750
+        },
+        "width": 1252,
+        "height": 1280,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/9/9c/%E9%9D%92%E7%A8%9E%E9%A5%BC.jpg",
+        "sourceDescription": "中文（简体）： ​九寨沟黄哈达青稞饼",
+        "capturedAt": "12 September 2023",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "5e3d20917e5edcc88124a9e333114ce9e88d3f141e5c37c2217bfcd1cce54fe4",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 4.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "food:seoul:1": [
+      {
+        "src": "/food/seoul-1.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Jeukseok-tteok-bokki_1.jpg",
+        "sourceTitle": "Jeukseok-tteok-bokki 1.jpg",
+        "author": "bryan...",
+        "license": "CC BY-SA 2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0",
+        "caption": "即席炒年糕锅实拍；同类型菜品示例，未核定新堂洞门店",
+        "subject": "即席炒年糕 Jeukseok-tteok-bokki",
+        "size": {
+          "width": 960,
+          "height": 640,
+          "bytes": 87592
+        },
+        "width": 960,
+        "height": 640,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/1/18/Jeukseok-tteok-bokki_1.jpg",
+        "originalSize": "Original file (6,720 × 4,480 pixels, file size: 4.37 MB, MIME type: image/jpeg )",
+        "sourceDescription": "English: Jeukseok-tteok-bokki (rice cake hot pot)",
+        "capturedAt": "17 October 2018",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "346c8d62bd8882bdc8e8ea0d9b14814b0b5fb90fa7dfd204d528baad4cc2098e",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 2.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    ],
+    "food:seoul:2": [
+      {
+        "src": "/food/seoul-2.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Seolleongtang2024.jpg",
+        "sourceTitle": "Seolleongtang2024.jpg",
+        "author": "Kimhs5400",
+        "license": "CC BY 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/4.0",
+        "caption": "雪浓汤实拍（2024年）；菜品示例",
+        "subject": "雪浓汤 Seolleongtang",
+        "size": {
+          "width": 1280,
+          "height": 960,
+          "bytes": 191770
+        },
+        "width": 1280,
+        "height": 960,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Seolleongtang2024.jpg",
+        "sourceDescription": "한국어: 뚝배기에 담겨 나온 설렁탕 한 그릇 English: A bowl of Seolleongtang soup 日本語: ソルロンタン",
+        "capturedAt": "30 August 2024, 18:53:20",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "6eedb2502bb2e8635ecf0df89abb293c1e1127c25330d13711cfc299b7806d4d",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY 4.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "food:marrakech:1": [
+      {
+        "src": "/food/marrakech-1.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tangia_with_Fries.jpg",
+        "sourceTitle": "Tangia with Fries.jpg",
+        "author": "Anass Sedrati",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "Tanjia 炖肉配薯条实拍（2023年）；菜品示例",
+        "subject": "Tanjia／Tangia 陶罐慢炖肉",
+        "size": {
+          "width": 500,
+          "height": 667,
+          "bytes": 100812
+        },
+        "width": 500,
+        "height": 667,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Tangia_with_Fries.jpg",
+        "originalSize": "Original file (3,024 × 4,032 pixels, file size: 3.57 MB, MIME type: image/jpeg )",
+        "sourceDescription": "English: Meat from inside the Moroccan dish, Tangia with fries",
+        "capturedAt": "6 November 2023, 15:23:15",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "75e3ee30d88627f708143590b6c228055cc5db893cfc21aafd4a5ca76f16b1d6",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 4.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "food:marrakech:2": [
+      {
+        "src": "/food/marrakech-2.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Fruit_juice_vendor_in_Jamaa_El_Fna,_Marrakech,_20250125_1346_7258.jpg",
+        "sourceTitle": "Fruit juice vendor in Jamaa El Fna, Marrakech, 20250125 1346 7258.jpg",
+        "author": "Jakub Hałun",
+        "license": "CC BY 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/4.0",
+        "caption": "德吉玛广场果汁摊实拍（2025年）",
+        "subject": "德吉玛广场果汁摊；马拉喀什",
+        "size": {
+          "width": 960,
+          "height": 635,
+          "bytes": 213668
+        },
+        "width": 960,
+        "height": 635,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/4/47/Fruit_juice_vendor_in_Jamaa_El_Fna%2C_Marrakech%2C_20250125_1346_7258.jpg",
+        "sourceDescription": "Polski: Sprzedawca soków owocowych na placu Jamaa El Fna w Marrakeszu English: Fruit juice vendor in Jamaa El Fna, Marrakech",
+        "capturedAt": "25 January 2025, 13:46:29",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "e7a52d0ba867881c20bf990ce2fd7de6d18f626cdd96cd51719d6192ee40b3ab",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY 4.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "food:luxor-nile-history:1": [
+      {
+        "src": "/food/luxor-nile-history-1.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Egyptian_food_Koshary.jpg",
+        "sourceTitle": "Egyptian food Koshary.jpg",
+        "author": "Dina Said",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "埃及 Koshary 米饭扁豆意面拼盘实拍（2014年）",
+        "subject": "Koshary；埃及全国风味参考",
+        "size": {
+          "width": 1280,
+          "height": 887,
+          "bytes": 272058
+        },
+        "width": 1280,
+        "height": 887,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Egyptian_food_Koshary.jpg",
+        "sourceDescription": "مصرى: طبق كُشرى مصرى، فى مصر. Čeština: Kušari , oblíbené egyptské jídlo . English: Egyptian food Koshary Igbo: Nri Ijipt Koshary Français : Assiette de kochari , spécialité culinaire égyptienne . Magyar: Kushari, egyiptomi étel 한국어: 이집트의 대중음식 , 코샤리 . Македонски: Кошари — едно од најпознатите јадења во египетската кујна . Эрзянь: Кошари , те вечкевикс египетень ярсамопель . Nederlands: Koshari is een Egyptisch gerecht dat ontstond in de 19e eeuw en onder meer Indiase ( rijst ), Midden-Oosterse ( linzen ) en Italiaanse ( macaroni ) elementen combineert Português: Kushari , também koshari , é o prato nacional do Egito e uma comida de rua amplamente popular Русский: Блюдо египетской кухни кушари , приготовленное в ресторане This is an image of food from Egypt",
+        "capturedAt": "Taken on 19 November 2014",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "a70c216a5c01877978bc422880cfd6ff4ed57376a45de14db1d8b07739c78f88",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 4.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "food:luxor-nile-history:2": [
+      {
+        "src": "/food/luxor-nile-history-2.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ful_medames.jpg",
+        "sourceTitle": "Ful medames.jpg",
+        "author": "Zachbe at en.wikipedia",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "caption": "开罗街头 Ful 炖蚕豆早餐实拍（2008年）",
+        "subject": "Ful medames；开罗；埃及全国风味参考",
+        "size": {
+          "width": 960,
+          "height": 720,
+          "bytes": 89230
+        },
+        "width": 960,
+        "height": 720,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Ful_medames.jpg",
+        "sourceDescription": "English: Typical fūl medames breakfast as served by an Egyptian street vendor with bread & pickled vegetables and fresh rocket leaves on the side.",
+        "capturedAt": "28 August 2008",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "e6ff43a24dc83c78f66fb158d13f72be163ec43dadd9532834a218ab8731a8f0",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 3.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "src": "/food/luxor-nile-history-2-tameya.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tameya_Karoleen_Lindberg.jpg",
+        "sourceTitle": "Tameya Karoleen Lindberg.jpg",
+        "author": "Losttraveller",
+        "license": "CC BY-SA 3.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+        "caption": "埃及 Ta’meyyah 蚕豆饼实拍（2011年）",
+        "subject": "Ta’meyyah／Tameya；埃及全国风味参考",
+        "size": {
+          "width": 960,
+          "height": 566,
+          "bytes": 90594
+        },
+        "width": 960,
+        "height": 566,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/5/55/Tameya_Karoleen_Lindberg.jpg",
+        "sourceDescription": "العربية: طعمية أو فلافل Svenska: Tameya - egyptiska motsvarigheten till Falafel English: Tameya - Egyptian equivalent to Falafel",
+        "capturedAt": "1 September 2011",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "fbf8a66cd6ac3d789eaa4fe991639622a8cf41a0e933a9445e4e1ac364d42f97",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 3.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    ],
+    "food:iceland:1": [
+      {
+        "src": "/food/iceland-1.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Icelandic_Skyr.jpg",
+        "sourceTitle": "Icelandic Skyr.jpg",
+        "author": "IcelandicProvisions",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "Skyr 乳制品实拍；菜品展示，未标作冰岛旅行现场",
+        "subject": "Skyr 冰岛乳制品",
+        "size": {
+          "width": 630,
+          "height": 640,
+          "bytes": 11240
+        },
+        "width": 630,
+        "height": 640,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/1/11/Icelandic_Skyr.jpg",
+        "originalSize": "Original file (630 × 640 pixels, file size: 36 KB, MIME type: image/jpeg )",
+        "sourceDescription": "English: Icelandic Skyr",
+        "capturedAt": "14 June 2016, 15:18:26",
+        "checkedAt": "2026-10-20",
+        "changes": "转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "51fcf8b893980721ba2ae763e9d930094c08e9176850b6016def0d641667dbeb",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 4.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "food:iceland:2": [
+      {
+        "src": "/food/iceland-2.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kj%C3%B6ts%C3%BApa.JPG",
+        "sourceTitle": "Kjötsúpa.JPG",
+        "author": "Ypsilon from Finland",
+        "license": "CC0 1.0",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "caption": "冰岛羊肉汤 Kjötsúpa 实拍（2014年）",
+        "subject": "冰岛羊肉蔬菜汤",
+        "size": {
+          "width": 960,
+          "height": 1280,
+          "bytes": 51682
+        },
+        "width": 960,
+        "height": 1280,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Kj%C3%B6ts%C3%BApa.JPG",
+        "sourceDescription": "English: Kjötsúpa, Icelandic meat (lamb) soup.",
+        "capturedAt": "Taken on 8 August 2014, 16:37:19",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "cd1645413e84f92833c26d83e552f22daf88d8001740663ac7e404d9a3bb5b7e",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC0 1.0",
+        "derivativeLicenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    ],
+    "food:arrowtown-autumn:1": [
+      {
+        "src": "/food/arrowtown-autumn-1.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Fish_and_chips_-_Wellington,_New_Zealand.jpg",
+        "sourceTitle": "Fish and chips - Wellington, New Zealand.jpg",
+        "author": "Daderot",
+        "license": "CC0 1.0",
+        "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "caption": "新西兰炸鱼薯条实拍（摄于惠灵顿）；全国风味示例",
+        "subject": "新西兰炸鱼薯条；非皇后镇湖畔现场",
+        "size": {
+          "width": 960,
+          "height": 672,
+          "bytes": 205896
+        },
+        "width": 960,
+        "height": 672,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Fish_and_chips_-_Wellington%2C_New_Zealand.jpg",
+        "sourceDescription": "English: Fish and chips - Wellington, New Zealand.",
+        "capturedAt": "12 October 2024 (according to Exif data)",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "a0b0b0d8cd5e0d4cc00262e1a9fff6fad30ee54a5e6fba4a7a42336a8499747b",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC0 1.0",
+        "derivativeLicenseURL": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    ],
+    "food:arrowtown-autumn:2": [],
+    "food:edinburgh:1": [
+      {
+        "src": "/food/edinburgh-1.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Haggis,_neeps_and_tatties_at_The_Cramond_Inn,_Edinburgh_(2660769244).jpg",
+        "sourceTitle": "Haggis, neeps and tatties at The Cramond Inn, Edinburgh (2660769244).jpg",
+        "author": "Edinburgh Blog",
+        "license": "CC BY 2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+        "caption": "爱丁堡 Haggis、萝卜与土豆实拍（2008年）",
+        "subject": "Haggis、neeps 与 tatties；爱丁堡",
+        "size": {
+          "width": 1280,
+          "height": 960,
+          "bytes": 61686
+        },
+        "width": 1280,
+        "height": 960,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/7/72/Haggis%2C_neeps_and_tatties_at_The_Cramond_Inn%2C_Edinburgh_%282660769244%29.jpg",
+        "sourceDescription": "From the <a href=\" http://www.theedinburghblog.co.uk \" rel=\"noreferrer nofollow\">www.theedinburghblog.co.uk</a>",
+        "capturedAt": "7 July 2008, 02:16",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "4c12f149e0ae1e3ac1c356f2a6e0ac25fea4932671a79874be29b5309247a368",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY 2.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by/2.0"
+      }
+    ],
+    "food:edinburgh:2": [
+      {
+        "src": "/food/edinburgh-2.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cranachan_(4332953688).jpg",
+        "sourceTitle": "Cranachan (4332953688).jpg",
+        "author": "Saskia van de Nieuwenhof from Edinburgh, United Kingdom",
+        "license": "CC BY-SA 2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/2.0",
+        "caption": "Cranachan 覆盆子燕麦甜点实拍（2009年）",
+        "subject": "Cranachan；苏格兰风味参考",
+        "size": {
+          "width": 500,
+          "height": 667,
+          "bytes": 60130
+        },
+        "width": 500,
+        "height": 667,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/1/19/Cranachan_%284332953688%29.jpg",
+        "sourceDescription": "The best Scottish dessert",
+        "capturedAt": "4 July 2009, 19:53",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "65913d708521a2c9219542239f2a570d19a7ee7c9fa39ce0926e737f48fbe819",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 2.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    ],
+    "food:st-petersburg:1": [
+      {
+        "src": "/food/st-petersburg-1.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Homemaid_fried_smelt_Saint_Petersburg_Russia.jpg",
+        "sourceTitle": "Homemaid fried smelt Saint Petersburg Russia.jpg",
+        "author": "Markovka",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "圣彼得堡家常炸胡瓜鱼实拍（2016年）",
+        "subject": "圣彼得堡胡瓜鱼",
+        "size": {
+          "width": 1280,
+          "height": 1184,
+          "bytes": 116600
+        },
+        "width": 1280,
+        "height": 1184,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/7/75/Homemaid_fried_smelt_Saint_Petersburg_Russia.jpg",
+        "sourceDescription": "Русский: Жареная корюшка English: Fried smelt from Saint Petersburg",
+        "capturedAt": "7 April 2016",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "51e8fc4cc79060978ae45cbaa30f6c2c8a498fdca3c8dc9916b9a8395fc881d6",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 4.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "food:st-petersburg:2": [
+      {
+        "src": "/food/st-petersburg-2.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%8B%D1%88%D0%BA%D0%B8-%D1%81%D0%BF%D0%B1.jpg",
+        "sourceTitle": "Пышки-спб.jpg",
+        "author": "Messir",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "圣彼得堡 Pyshki 实拍（2020年）",
+        "subject": "Pyshki 甜甜圈；圣彼得堡",
+        "size": {
+          "width": 960,
+          "height": 540,
+          "bytes": 68126
+        },
+        "width": 960,
+        "height": 540,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/1/14/%D0%9F%D1%8B%D1%88%D0%BA%D0%B8-%D1%81%D0%BF%D0%B1.jpg",
+        "sourceDescription": "Русский: Пышки, приобретенные на Волковском проспекте рядом со станцией метро Волковская",
+        "capturedAt": "17 December 2020",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "85395af692a950585fa7b1d43d446e2f5c2b7ded3de28ba29633e5ca799453c6",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 4.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "food:quanzhou:1": [
+      {
+        "src": "/food/quanzhou-1.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:M%C4%AB-su%C3%A0nn-k%C3%B4o_in_Quanzhou_(20200929220207).jpg",
+        "sourceTitle": "Mī-suànn-kôo in Quanzhou (20200929220207).jpg",
+        "author": "N509FZ",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "泉州面线糊实拍（2020年）",
+        "subject": "泉州面线糊",
+        "size": {
+          "width": 1280,
+          "height": 853,
+          "bytes": 97532
+        },
+        "width": 1280,
+        "height": 853,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/2/29/M%C4%AB-su%C3%A0nn-k%C3%B4o_in_Quanzhou_%2820200929220207%29.jpg",
+        "sourceDescription": "English: The toppings are duck blood and vinegared fried pork. This photo has been taken in the country: China",
+        "capturedAt": "29 September 2020, 22:02:07",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "4a64c576ea4b94b167356ce84ca49cd6faff6df768df858e01a4b666b701acce",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 4.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "food:quanzhou:2": [
+      {
+        "src": "/food/quanzhou-2.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%E5%9C%9F%E7%AC%8B%E5%86%BB.jpg",
+        "sourceTitle": "土笋冻.jpg",
+        "author": "Caizzz",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "土笋冻实拍（2024年）；源页未核定拍摄门店",
+        "subject": "土笋冻",
+        "size": {
+          "width": 1081,
+          "height": 1280,
+          "bytes": 183394
+        },
+        "width": 1081,
+        "height": 1280,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/1/18/%E5%9C%9F%E7%AC%8B%E5%86%BB.jpg",
+        "sourceDescription": "English: 土笋冻",
+        "capturedAt": "25 December 2024",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "d3ba2f0bd97b3ce72d450a2910e38b332787407e0a2225406ff60cd28590b0e5",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 4.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "food:quanzhou:3": [
+      {
+        "src": "/food/quanzhou-3.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Quanzhou-style_Kiu%E2%81%BF-b%C3%B3-ah_(Ginger_Duck)_at_Yipin_Xiangqing_Restaurant,_Beijing_(20240908174515).jpg",
+        "sourceTitle": "Quanzhou-style Kiuⁿ-bó-ah (Ginger Duck) at Yipin Xiangqing Restaurant, Beijing (20240908174515).jpg",
+        "author": "N509FZ",
+        "license": "CC BY-SA 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+        "caption": "泉州做法姜母鸭实拍（北京，2024年）；源页明确为无汤泉州做法",
+        "subject": "泉州做法姜母鸭；摄于北京",
+        "size": {
+          "width": 1280,
+          "height": 853,
+          "bytes": 250680
+        },
+        "width": 1280,
+        "height": 853,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/4/47/Quanzhou-style_Kiu%E2%81%BF-b%C3%B3-ah_%28Ginger_Duck%29_at_Yipin_Xiangqing_Restaurant%2C_Beijing_%2820240908174515%29.jpg",
+        "sourceDescription": "English: CNY 198 for this dry ginger duck, more akin to Quanzhou version. In contrast, the Taiwan version has more soup, often served as hot pot. 中文（繁體）： ​漳州市駐京聯絡處「一品薌情」餐廳的薑母鴨，為泉州做法（不帶湯）",
+        "capturedAt": "8 September 2024, 17:45:15",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "e544af3a580746856db9c4f1cea16b6d61f2ef08b570c335efb22e27699ba0e2",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY-SA 4.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "food:hongkong:1": [
+      {
+        "src": "/food/hongkong-1.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Egg_Tarts_with_Puff_Pastry.jpg",
+        "sourceTitle": "Egg Tarts with Puff Pastry.jpg",
+        "author": "See-ming Lee",
+        "license": "CC BY 2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+        "caption": "香港酥皮蛋挞实拍（2012年）",
+        "subject": "港式酥皮蛋挞；香港",
+        "size": {
+          "width": 960,
+          "height": 720,
+          "bytes": 70864
+        },
+        "width": 960,
+        "height": 720,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Egg_Tarts_with_Puff_Pastry.jpg",
+        "sourceDescription": "English: Egg Tarts with Puff Pastry",
+        "capturedAt": "25 September 2012",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "05717249976f8271acc7a097d2df54698d51cf1f3b3c80398d93c80e0c2e422d",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY 2.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by/2.0"
+      }
+    ],
+    "food:hongkong:2": [
+      {
+        "src": "/food/hongkong-2.webp",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hong_Kong-style_milk_tea.jpg",
+        "sourceTitle": "Hong Kong-style milk tea.jpg",
+        "author": "City Foodsters",
+        "license": "CC BY 2.0",
+        "licenseURL": "https://creativecommons.org/licenses/by/2.0",
+        "caption": "香港茶餐厅港式奶茶实拍（2014年）",
+        "subject": "港式奶茶；香港茶餐厅",
+        "size": {
+          "width": 1280,
+          "height": 853,
+          "bytes": 70436
+        },
+        "width": 1280,
+        "height": 853,
+        "originalURL": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Hong_Kong-style_milk_tea.jpg",
+        "sourceDescription": "Tak Yu Cha Chaan Teng, Hong Kong\nDate Visited: December 31, 2014 City Foodsters",
+        "capturedAt": "30 December 2014, 22:57",
+        "checkedAt": "2026-10-20",
+        "changes": "按比例缩小并转换为 WebP；未裁切、未增删食物、未使用 AI 修改。",
+        "sha256": "57d404592748ec5b3889827a6033a7a90d73c212cf0544ac2a1bc4a3fa74d837",
+        "mediaType": "photograph",
+        "derivativeLicense": "CC BY 2.0",
+        "derivativeLicenseURL": "https://creativecommons.org/licenses/by/2.0"
+      }
+    ]
+  },
+  "coverage": {
+    "food:hangzhou:1": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:hangzhou:2": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:beijing:1": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:beijing:2": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:kyoto:1": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:kyoto:2": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:luang-prabang:1": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:luang-prabang:2": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:chengdu:1": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:chengdu:2": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:jiuzhaigou:1": {
+      "status": "gap",
+      "coverageNote": "未找到菜品及许可均可核实的九寨沟洋芋糍粑实拍。九寨沟藏餐照片只列土豆，不能证明为捣制的洋芋糍粑；未使用糯米糍粑、洋芋粑或其他地区菜图替代。",
+      "recoveryPath": "取得作者或九寨沟管理局对具体洋芋糍粑照片的网站转载授权，或补充可验证的 CC/CC0 实拍。",
+      "reviewedSources": [
+        "https://www.jiuzhai.com/news/scenic-news/755-2010-12-01-17-23-13",
+        "https://commons.wikimedia.org/wiki/File:Jiuzhaigou.Tibetan_meal.jpg"
+      ]
+    },
+    "food:jiuzhaigou:2": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:seoul:1": {
+      "status": "covered",
+      "coverageNote": "照片为同一类即席炒年糕锅；源页未确认新堂洞门店，不标为新堂洞现场。"
+    },
+    "food:seoul:2": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:marrakech:1": {
+      "status": "covered",
+      "coverageNote": "照片明确是 Tangia/Tanjia 内的炖肉配薯条；不误用锥盖塔吉锅（tagine）照片。"
+    },
+    "food:marrakech:2": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:luxor-nile-history:1": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:luxor-nile-history:2": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:iceland:1": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:iceland:2": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:arrowtown-autumn:1": {
+      "status": "covered",
+      "coverageNote": "按原目录 country 范围使用新西兰同菜品实拍，摄于惠灵顿；caption 不宣称是皇后镇湖畔或当地店铺。"
+    },
+    "food:arrowtown-autumn:2": {
+      "status": "gap",
+      "coverageNote": "找到 Destination Queenstown 官方吉布斯顿奶酪图片，许可限免费媒体推广皇后镇且需署名；完整条款要求注册并填写 Asset Download Form。尚未完成该图库的取得步骤，未复制公开预览充当已获许可素材。",
+      "candidateSource": "https://images.queenstownnz.co.nz/asset-page/169673-gibbston-valley-cheesery-deli",
+      "candidateLicenseURL": "https://images.queenstownnz.co.nz/terms",
+      "recoveryPath": "登录或注册官方图库，按实际网站用途提交 Asset Download Form 并接受该资产条款；下载后保留 QueenstownNZ.co.nz 署名和回链，禁止用于付费广告。"
+    },
+    "food:edinburgh:1": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:edinburgh:2": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:st-petersburg:1": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:st-petersburg:2": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:quanzhou:1": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:quanzhou:2": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:quanzhou:3": {
+      "status": "covered",
+      "coverageNote": "源页明确标为泉州无汤做法；摄于北京，在 caption 明示，未使用台湾姜母鸭火锅替代。"
+    },
+    "food:hongkong:1": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    },
+    "food:hongkong:2": {
+      "status": "covered",
+      "coverageNote": "历史实拍；不代表当前出菜或门店状态。"
+    }
+  },
+  "summary": {
+    "items": 31,
+    "covered": 29,
+    "images": 30,
+    "gaps": [
+      "food:jiuzhaigou:1",
+      "food:arrowtown-autumn:2"
+    ],
+    "researchComplete": true,
+    "totalBytes": 3320138,
+    "note": "覆盖指至少一张同菜品真实照片；caption 保留拍摄地点及示例边界。照片为历史实拍。"
+  }
+}

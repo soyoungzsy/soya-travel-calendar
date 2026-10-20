@@ -1,7 +1,7 @@
 import {geoOrthographic,geoPath} from 'd3-geo';
 import {feature} from 'topojson-client';
 import topology from './world.json' with {type:'json'};
-import media from './media.json' with {type:'json'};
+import media from './media-catalog.mjs';
 import {cameraBasis,globeRadius} from './globe-math.mjs';
 import {earthTextureWithBorders} from './cartography.mjs';
 import {rasterizeSphere,texturePixels,softwareFrameSize} from './globe-software.mjs';

@@ -159,3 +159,12 @@ Updated 2026-10-18. Code licensing does not change third-party media licenses. �
 | 卢浮宫 · 玻璃金字塔与宫殿 | Kamilla Isalieva | [Unsplash License](https://unsplash.com/license) | [原始作品](https://unsplash.com/photos/louvre-museum-courtyard-with-glass-pyramid-and-people-6zmpsxy5lWM) |
 
 均为真实摄影，同源保存；缩放展示与裁切由页面完成，不代表当日景况。
+
+
+## 2026-10-20 food and seasonal photography
+
+Food images and individual credits: `src/food-media-v10.json`, files under `public/food/`. 31 dishes reviewed,29 have representative real photographs; potato ciba and the Gibbston cheese experience retain explicit rights/subject gaps. Some photos illustrate the regional dish rather than a verified restaurant serving.
+
+Baikal, Sayram and Mohe paired seasons: `src/season-media-v10.json`, files under `public/season/`. Every image records subject, photographer, source page, license, season evidence, dimensions, transformations and SHA256. Summer and winter use distinct photographs. `src/media-catalog.mjs` exposes them with the existing gallery.
+
+Files marked CC BY-SA remain under their stated share-alike licenses. WebP conversion/downsampling is recorded; code MIT licensing does not relicense images. These are historical photographs, not real-time conditions. No tourism authority endorsement is implied.
