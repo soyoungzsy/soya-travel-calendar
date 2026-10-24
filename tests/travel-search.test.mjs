@@ -13,3 +13,39 @@ test('open-destination low-fare sampling omits destination but still matches ori
 
 test('open-destination results distinguish a returned city code from an airport code',()=>{for(const field of ['arrCityCode','arrAirportCode']){const res=normalizeQuotes({itemList:[{ticketPrice:'99',jumpUrl:'https://www.fliggy.com/test',journeys:[{segments:[{depStationCode:'HGH',[field]:'CNX',depDateTime:'2026-12-01 10:00'}]}]}]},{...q,destination:''});assert.equal(res.items[0].price,99);assert.match(res.items[0].to,/CNX/);}});
 test('verified provider queries obey an atomic global daily budget before any supplier call',async()=>{const sqlite=new DatabaseSync(':memory:'),db={prepare(sql){let args=[];return{bind(...a){args=a;return this;},run(){return sqlite.prepare(sql).run(...args);},first(){return sqlite.prepare(sql).get(...args);}};}},req=()=>new Request('https://scenicdue.com/api/travel-search/search',{method:'POST',headers:{origin:'https://scenicdue.com','content-type':'application/json'},body:JSON.stringify(q)});let calls=0;const fetcher=async(url,r)=>{calls++;const method=JSON.parse(r.body).method;return new Response(method==='notifications/initialized'?'':JSON.stringify({result:method==='initialize'?{}:method==='tools/list'?{tools:[{name:'search_flight',inputSchema:{properties:{origin:{},destination:{},depDate:{},sortType:{},limit:{}}}}]}:{structuredContent:{status:0,data:{itemList:[]}}}}));};const env={DB:db,FLYAI_WEBSITE_ENABLED:'verified',FLYAI_API_KEY:'SYNTHETIC_TEST_KEY',FLYAI_DAILY_LIMIT:'1'};assert.equal((await travelSearchRoute(req(),env,{fetcher})).status,200);assert.equal((await travelSearchRoute(req(),env,{fetcher})).status,429);assert.equal(calls,4);sqlite.close();});
+
+test('supplier-formatted hotel amounts remain displayable without inventing currency or nightly totals',()=>{
+ const hotel={kind:'hotel',destination:'北京',start:q.start,end:'2026-12-03'};
+ const res=normalizeQuotes({itemList:[{name:'测试酒店',price:'¥182',detailUrl:'https://www.fliggy.com/hotel/test'}]},hotel);
+ assert.equal(res.items[0].price,182);
+ assert.equal(res.items[0].priceText,'¥182');
+ assert.equal(res.items[0].currency,null);
+ assert.equal(res.items[0].total,undefined);
+ assert.match(res.items[0].priceLabel,/计价周期以详情页为准/);
+ const fullWidth=normalizeQuotes({itemList:[{price:'￥182',detailUrl:'https://www.fliggy.com/hotel/test'}]},hotel).items[0];
+ assert.equal(fullWidth.priceText,'￥182');assert.equal(fullWidth.currency,null);
+ const explicit=normalizeQuotes({itemList:[{price:'CNY 1,234.50',detailUrl:'https://www.fliggy.com/hotel/test'}]},hotel).items[0];
+ assert.equal(explicit.price,1234.5);assert.equal(explicit.currency,'CNY');
+ for(const value of ['¥1xx','¥182起','182—300','-182','1e3','Infinity']){
+  const item=normalizeQuotes({itemList:[{price:value,detailUrl:'https://www.fliggy.com/hotel/test'}]},hotel).items[0];
+  assert.equal(item.price,null);assert.equal(item.priceText,null);
+ }
+});
+
+test('actual supplier marketing fields identify the flight and missing currency stays unasserted',()=>{
+ const item={ticketPrice:'350.00',jumpUrl:'https://www.fliggy.com/flight/test',journeys:[{segments:[{depCityName:'杭州',depStationCode:'HGH',arrCityName:'北京',arrStationCode:'PKX',depDateTime:'2026-12-01 22:15',arrDateTime:'2026-12-02 00:30',marketingTransportName:'测试航空',marketingTransportNo:'TEST123',seatClassName:'经济舱'}]}]};
+ const res=normalizeQuotes({itemList:[item]},q).items[0];
+ assert.equal(res.price,350);assert.equal(res.name,'测试航空 TEST123');assert.equal(res.currency,null);
+ assert.match(res.arrival,/2026-12-02/);assert.equal(res.routeVerified,true);
+ const unverified=normalizeQuotes({itemList:[{ticketPrice:'¥350',jumpUrl:item.jumpUrl}]},q).items[0];
+ assert.equal(unverified.price,null);assert.equal(unverified.priceText,null);
+});
+
+test('official FlyAI booking-router links survive validation but lookalike hosts remain excluded',()=>{
+ const item={ticketPrice:'350',jumpUrl:'https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Fws%2Ftest',journeys:[{segments:[{depStationCode:'HGH',arrStationCode:'PKX',depDateTime:'2026-12-01 20:15'}]}]};
+ const valid=normalizeQuotes({itemList:[item]},q);
+ assert.equal(valid.items.length,1);assert.equal(valid.items[0].url,item.jumpUrl);
+ for(const url of ['https://router.feizhu.com.evil.test/product','http://router.feizhu.com/product','https://user:pass@router.feizhu.com/product','https://unapproved.feizhu.com/product']){
+  assert.equal(normalizeQuotes({itemList:[{...item,jumpUrl:url}]},q).items.length,0);
+ }
+});
