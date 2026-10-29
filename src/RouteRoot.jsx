@@ -6,7 +6,7 @@ import {AnalyticsPrivacy} from './AnalyticsPrivacy.jsx';
 import {WishlistToast} from './WishlistToast.jsx';
 import {startAnalytics} from './analytics.mjs';
 
-const loaders={home:()=>import('./App.jsx').then(module=>module.App),encyclopedia:()=>import('./Encyclopedia.jsx').then(module=>module.default),insights:()=>import('./Insights.jsx').then(module=>module.default)};
+const loaders={weekends:()=>import('./Weekends.jsx').then(module=>module.default),home:()=>import('./App.jsx').then(module=>module.App),encyclopedia:()=>import('./Encyclopedia.jsx').then(module=>module.default),insights:()=>import('./Insights.jsx').then(module=>module.default)};
 
 class PageBoundary extends React.Component{
  state={failed:false};

@@ -1,5 +1,7 @@
 # Soya Travel Calendar — 山河有期
 
+Module-level analytics are implemented in this source iteration. Globe, destination cards, encyclopedia, reference library and guides receive separate click and interaction-attributed active-time summaries. A release and additive database migration are required before production can collect this dimension; historical unlabelled time remains unattributed. Adding a place to a trip is distinct from generating an itinerary. See `docs/analytics.md`.
+
 Explore seasonal travel ideas and create your own private destination list in your browser.
 选一段假期、看看当季风景，把想去的地方保存成自己的旅行清单。
 
@@ -95,3 +97,7 @@ Read [Contributing](CONTRIBUTING.md) before code or public-data changes. Private
 Version 0.3.1 preview: [Changelog](CHANGELOG.md), [fixed release](https://github.com/soyoungzsy/soya-travel-calendar/releases/tag/v0.3.1), [MIT code license](LICENSE), [third-party notices](THIRD_PARTY_NOTICES.md). Media keeps its own licenses and is not relicensed MIT; [photo credits](docs/media-credits.md). A publicly visible social post is not permission to copy its photos.
 
 Export before updating; retain the previous file and backup for recovery. Delete downloaded project files to uninstall; clear browser data separately if desired. Removing a public repository/release cannot recall copies already downloaded. See [Release review](RELEASE_REVIEW.md) for actual checks and unverified areas.
+
+### Domestic weekends and collaboration
+
+This source iteration adds `/weekends` with twelve officially sourced experience candidates for Hangzhou and Shanghai. It shares experience IDs and saved places with the encyclopedia; cross-city travel times are not verified live accessibility claims. An independent mainland street-map provider still requires project authorization and a key. See `docs/domestic-weekends.md` and `docs/price-collaboration.md` for contributor handoff.

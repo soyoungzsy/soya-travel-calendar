@@ -55,3 +55,18 @@ test('late pre-midnight event corrects first day and the following day rollup',a
   assert.equal(yesterday.new_visitors,1);assert.equal(yesterday.returning_visitors,0);assert.equal(today.new_visitors,0);assert.equal(today.returning_visitors,1);
  }finally{Date.now=original;e.DB.sql.close();}
 });
+test('module rollups are deduplicated and trip additions remain distinct from plan generation',async()=>{
+ const e=env(),b=batch();b.events[0].module='other';
+ const event=(kind,module,extra={})=>({id:randomUUID(),seq:b.events.length,at:Date.now(),kind,module,screen:'home',entity:'',...extra});
+ for(const [module,activeMs]of [['globe',4000],['destination_card',7000],['knowledge',3000]])b.events.push(event('heartbeat',module,{activeMs}));
+ b.events.push(event('click','globe',{action:'globe_zoom'}),event('click','destination_card',{action:'trip_add'}),event('click','trip',{action:'plan'}));
+ for(let i=0;i<2;i++)assert.equal((await analyticsRoute(req('/api/analytics/collect',b),e)).status,200);
+ const daily=e.DB.sql.prepare('SELECT * FROM analytics_daily').get();assert.equal(daily.trip_adds,1);assert.equal(daily.plans,1);assert.equal(daily.active_ms,14000);
+ const modules=e.DB.sql.prepare('SELECT * FROM analytics_daily_modules').all();assert.equal(modules.reduce((n,r)=>n+r.active_ms,0),14000);assert.equal(modules.find(r=>r.module==='globe').clicks,1);assert(modules.every(r=>r.visitors===1));
+ const report=await (await analyticsRoute(req('/api/analytics/report?traffic=test',null,owner),e)).json();assert.equal(report.modules.find(r=>r.module==='knowledge').active_ms,3000);assert.equal(report.summary.visitors,1);e.DB.sql.close();
+});
+test('legacy unlabelled events stay unattributed and arbitrary module names are rejected',async()=>{
+ const b=batch();b.events.push({id:randomUUID(),seq:1,at:Date.now(),kind:'heartbeat',screen:'home',activeMs:12000});
+ assert.equal(validateBatch(b)[1].module,'unattributed');assert.throws(()=>validateBatch({...b,events:[{...b.events[0],module:'private-browser-text'}]}));
+ const e=env();assert.equal((await analyticsRoute(req('/api/analytics/collect',b),e)).status,200);const modules=e.DB.sql.prepare('SELECT * FROM analytics_daily_modules').all();assert.equal(modules.length,1);assert.equal(modules[0].module,'unattributed');assert.equal(modules[0].active_ms,12000);e.DB.sql.close();
+});

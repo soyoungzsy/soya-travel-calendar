@@ -1,6 +1,6 @@
 import React from 'react';
 
-const labels={home:'旅行年历',encyclopedia:'旅行百科',insights:'数据报表'};
+const labels={home:'旅行年历',weekends:'国内周末游',encyclopedia:'旅行百科',insights:'数据报表'};
 
 export function LoadingPage({route='home',status='loading',onRetry}){
  const recover=status==='slow'||status==='error';

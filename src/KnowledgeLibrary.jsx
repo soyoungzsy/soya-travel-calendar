@@ -7,7 +7,7 @@ import mapSource from './cartography-source.json';
 
 export function KnowledgeColophon({onOpen}){
  const s=knowledgeSnapshot,c=s.counts;
- return <section className="knowledge-colophon" aria-label="旅行知识库收录与来源">
+ return <section data-analytics-module="knowledge" className="knowledge-colophon" aria-label="旅行知识库收录与来源">
   <div className="colophon-heading"><div><p className="eyebrow">THE REFERENCES BEHIND THE JOURNEY</p><h3>旅行知识库与参考资料 <HelpTip label="知识库统计说明">统计公共旅行资料，不含个人收藏与证件。景点按基础条目去重，季节卡片不重复计数；收录数量不表示每个地点知识完整。</HelpTip></h3></div><span><BookOpen size={15}/>旅行知识库 · 持续编订</span></div>
   <div className="colophon-stats">
    <button onClick={()=>onOpen('coverage')}><strong>{c.countries}<small>个</small></strong><span>国家与地区已有旅行内容</span><ArrowRight size={15}/></button>
@@ -25,7 +25,7 @@ export function KnowledgeLibrary({initialTab='coverage'}){
  const sources=s.sources.filter(r=>(category==='all'||r.categories.includes(category))&&(!q||[r.title,r.authority,...r.countries,...r.uses.map(u=>u.name)].join(' ').toLocaleLowerCase().includes(q)));
  const countries=s.countries.filter(r=>!q||r.name.includes(q));
  function changeTab(next){setTab(next);setQuery('');setCategory('all');setLimit(12);}
- return <div className="dialog-body knowledge-library"><p className="eyebrow">A LIBRARY, WITH ITS SOURCES</p><h2>知识库与参考资料</h2>
+ return <div className="dialog-body knowledge-library" data-analytics-module="knowledge"><p className="eyebrow">A LIBRARY, WITH ITS SOURCES</p><h2>知识库与参考资料</h2>
   <div className="library-tabs" role="tablist" aria-label="知识库目录">{[['coverage','收录范围'],['sources','参考资料'],['methods','编订与更新']].map(([id,label])=><button key={id} role="tab" id={'library-tab-'+id} aria-selected={tab===id} aria-controls="library-panel" onClick={()=>changeTab(id)}>{label}</button>)}</div>
   <section id="library-panel" role="tabpanel" aria-labelledby={'library-tab-'+tab}>
   {tab==='coverage'&&<><p className="library-summary">{c.countries} 个国家与地区有旅行内容，{c.destinations} 个目的地形成 {c.destinationCards} 张季节灵感卡；{c.points} 条景点资料中，{c.detailed} 条已逐点核对。这里的数量不表示全球覆盖或每个地点知识完整。</p><label className="library-search"><MagnifyingGlass size={16}/><input type="search" aria-label="搜索收录的国家或地区" placeholder="搜索国家或地区" value={query} onChange={e=>setQuery(e.target.value)}/></label><div className="coverage-scroll"><table className="coverage-table"><caption>旅行知识库按国家与地区统计</caption><thead><tr><th>国家／地区</th><th>目的地</th><th>景点条目</th><th>逐点核对</th><th>地方风味</th><th>行前阅读</th></tr></thead><tbody>{countries.map(r=><tr key={r.name}><th scope="row">{r.name}</th><td>{r.destinations}</td><td>{r.points}</td><td>{r.detailed}</td><td>{r.foods}</td><td>{r.readings}</td></tr>)}</tbody></table></div>{!countries.length&&<p className="notice">当前没有匹配的已收录地区。</p>}<p className="fine-print">国家／地区数按内容归属去重，包含南极洲等旅行区域；不表示主权国家数量。目的地按国家／地区与名称去重。景点按基础资料ID统计，春秋变体只计一次；同名异写尚需继续合并。0 表示本库未补齐，不表示当地没有值得去的地方。</p></>}

@@ -14,7 +14,7 @@
     <script data-startup>
       (()=>{
         const message=document.getElementById('startup-message'),help=document.getElementById('startup-help'),actions=document.getElementById('startup-actions');
-        const path=window.location.pathname.replace(/\/+$/,'')||'/',label=path==='/encyclopedia'?'旅行百科':path==='/insights'?'数据报表':'旅行年历';
+        const path=window.location.pathname.replace(/\/+$/,'')||'/',label=path==='/weekends'?'国内周末游':path==='/encyclopedia'?'旅行百科':path==='/insights'?'数据报表':'旅行年历';
         message.textContent='正在展开'+label+'…';
         let failed=false;
         function show(error){failed=failed||error;message.textContent=failed?label+'未能打开':'加载较久，仍在尝试…';help.textContent=failed?'页面文件暂时无法载入，可以手动重试。':'可以继续等待，页面就绪后会自动显示。';actions.hidden=false;}

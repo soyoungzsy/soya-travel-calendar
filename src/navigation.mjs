@@ -1,4 +1,4 @@
-const routes={'/':'home','/encyclopedia':'encyclopedia','/insights':'insights'};
+const routes={'/':'home','/encyclopedia':'encyclopedia','/weekends':'weekends','/insights':'insights'};
 const canonicalPath=path=>path.replace(/\/+$/,'')||'/';
 
 // All existing anchors stay usable without JavaScript, with modified clicks and offline.
