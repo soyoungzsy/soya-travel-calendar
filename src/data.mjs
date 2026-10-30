@@ -1,5 +1,6 @@
 import seasonalAdditions from './season-additions-v10.json' with {type:'json'};
 import discoveries from './discoveries.json' with {type:'json'};
+import destinationContext from './destination-context.json' with {type:'json'};
 const dateParts = new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
 export const TODAY = ['year','month','day'].map(k=>dateParts.find(p=>p.type===k).value).join('-');
 export const curatedDestinations = [
@@ -20,6 +21,7 @@ export const curatedDestinations = [
 
 const seasonal=seasonalAdditions.destinations.map(d=>({...d,seasonAuthority:d.sources[0]?.authority,seasonSourceCheckedAt:d.checkedAt,seasonSourceAccess:d.sources[0]?.accessLevel}));
 export const destinations=[...curatedDestinations,...discoveries,...seasonal];
+for(const d of destinations){const profile=destinationContext.profiles.find(p=>p.destinationIds.includes(d.id));if(profile){d.profile=profile;d.description=profile.intro;}}
 
 const wikiTitles={"kyoto-spring": "Kyoto", "kyoto-autumn": "Kyoto", "nyingchi": "Nyingchi", "marrakech": "Marrakesh", "arrowtown-autumn": "Arrowtown", "iceland": "Iceland", "harbin": "Harbin", "nalati": "Nalati", "edinburgh": "Edinburgh", "antarctica": "Antarctic_Peninsula", "patagonia": "Torres_del_Paine_National_Park", "beijing-autumn": "Beijing", "st-petersburg": "Saint_Petersburg"};
 for(const d of curatedDestinations){d.wikiTitle=wikiTitles[d.id];}

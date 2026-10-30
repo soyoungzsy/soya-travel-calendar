@@ -16,7 +16,8 @@
     "data:cartography": "node scripts/prepare-cartography.mjs",
     "knowledge:check": "node scripts/check-knowledge.mjs",
     "start": "node server/node-server.mjs",
-    "db:generate": "drizzle-kit generate --config=drizzle.config.mjs"
+    "db:generate": "drizzle-kit generate --config=drizzle.config.mjs",
+    "content:audit": "node scripts/audit-destination-content.mjs"
   },
   "dependencies": {
     "@pdf-lib/fontkit": "1.1.1",

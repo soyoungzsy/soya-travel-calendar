@@ -1,0 +1,280 @@
+{
+  "profiles": [
+    {
+      "destinationIds": [
+        "cape-town-summer"
+      ],
+      "placeType": "海港城市与开普半岛旅行区域",
+      "intro": "开普敦是南非西开普省的海港城市，桌山与开普半岛的海岸构成它最醒目的轮廓。城市范围还包括不同的社区和半岛地区，桌山、罗本岛与企鹅海岸不是同一个景区，适合分成几天认识。",
+      "meaning": "这里值得看的不只是山海风景。港口贸易、奴隶制与人口迁徙塑造了社区，种族隔离又改变了许多居民的生活。把自然观察与当地人的历史放在一起，才更容易理解今天的开普敦。",
+      "stories": [
+        {
+          "title": "从港口认识一座城市",
+          "text": "桌山流下的淡水曾为远洋船只提供补给。港口的发展带来了贸易，也伴随着殖民统治与奴隶制。原住民、迁来的人与被迫来到这里的人，共同构成了城市的历史。到旧城区时，可以把建筑和街道看成不同生活经历留下的线索。",
+          "sourceURLs": [
+            "https://www.capetown.gov.za/local-and-communities/heritage-and-the-community/our-history-and-heritage/what-is-our-history/"
+          ]
+        },
+        {
+          "title": "罗本岛与第六区，关于自由和家园",
+          "text": "曼德拉曾在罗本岛被囚禁18年；第六区则记录着种族隔离下居民被迫迁离家园的经历。两处地方可以放在同一条理解城市的线索里，但各自值得单独留时间：一个讲述政治囚禁与抗争，一个保存被拆散的社区记忆。",
+          "sourceURLs": [
+            "https://www.capetown.travel/robben-island/",
+            "https://www.districtsix.co.za/about-district-six/"
+          ]
+        },
+        {
+          "title": "自然也有自己的故事",
+          "text": "桌山国家公园沿开普半岛展开，是开普植物区的一部分。巨石滩的非洲企鹅栖息地又把关注点带到海岸保育。除了远眺风景，也可以留意植物与野生动物怎样在城市附近生活。",
+          "sourceURLs": [
+            "https://www.sanparks.org/parks/table-mountain",
+            "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/boulders-penguin-colony"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "开普敦的历史与文化",
+          "authority": "开普敦市政府",
+          "url": "https://www.capetown.gov.za/local-and-communities/heritage-and-the-community/our-history-and-heritage/what-is-our-history/",
+          "accessLevel": "body-verified",
+          "accessedAt": "2026-10-30"
+        },
+        {
+          "title": "桌山国家公园概览",
+          "authority": "南非国家公园管理局 SANParks",
+          "url": "https://www.sanparks.org/parks/table-mountain",
+          "accessLevel": "body-verified",
+          "accessedAt": "2026-10-30"
+        },
+        {
+          "title": "罗本岛历史",
+          "authority": "开普敦旅游局 Cape Town Tourism",
+          "url": "https://www.capetown.travel/robben-island/",
+          "accessLevel": "body-verified",
+          "accessedAt": "2026-10-30"
+        },
+        {
+          "title": "罗本岛参观常见问题",
+          "authority": "罗本岛博物馆",
+          "url": "https://www.robben-island.org.za/frequently-asked-questions/",
+          "accessLevel": "body-verified",
+          "accessedAt": "2026-10-30"
+        },
+        {
+          "title": "Bo-Kaap 街区介绍",
+          "authority": "开普敦旅游局 Cape Town Tourism",
+          "url": "https://www.capetown.travel/neighbourhood/bo-kaap/",
+          "accessLevel": "body-verified",
+          "accessedAt": "2026-10-30"
+        },
+        {
+          "title": "第六区的历史",
+          "authority": "第六区博物馆",
+          "url": "https://www.districtsix.co.za/about-district-six/",
+          "accessLevel": "body-verified",
+          "accessedAt": "2026-10-30"
+        },
+        {
+          "title": "Digging Deeper 常设展",
+          "authority": "第六区博物馆",
+          "url": "https://www.districtsix.co.za/permanent-exhibition-digging-deeper/",
+          "accessLevel": "body-verified",
+          "accessedAt": "2026-10-30"
+        },
+        {
+          "title": "巨石滩企鹅栖息地",
+          "authority": "南非国家公园管理局 SANParks",
+          "url": "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/boulders-penguin-colony",
+          "accessLevel": "body-verified",
+          "accessedAt": "2026-10-30"
+        }
+      ],
+      "checkedAt": "2026-10-30"
+    }
+  ],
+  "points": [
+    {
+      "id": "poi:reference:cape-town-summer:0",
+      "parentId": "cape-town-summer",
+      "city": "开普敦",
+      "country": "南非",
+      "regionCode": "ZA",
+      "name": "桌山 · 从城市走向开普半岛",
+      "category": "nature",
+      "whyGo": "桌山让人同时看见城市和自然的关系。它属于沿开普半岛延伸的国家公园，除了山顶视野，还连接着开普植物区的生物多样性；不应只把它当成一座乘缆车拍照的山。",
+      "experience": "先按天气、步道开放与体力选择活动。可以从城市周边理解山体与海岸的位置，再决定上山方式；不要因为行程写了桌山，就假定缆车与步道一定可用。",
+      "recordKind": "curated-poi",
+      "seasonality": {
+        "mode": "year_round"
+      },
+      "durationEstimate": "编辑建议半日，具体活动与接驳另计",
+      "durationKind": "editorial",
+      "sources": [
+        {
+          "title": "桌山国家公园概览",
+          "authority": "南非国家公园管理局 SANParks",
+          "url": "https://www.sanparks.org/parks/table-mountain",
+          "accessLevel": "body-verified",
+          "accessedAt": "2026-10-30"
+        }
+      ],
+      "checkedAt": "2026-10-30",
+      "lookFor": [
+        "山体、城市与半岛海岸的相对位置。",
+        "允许通行路线旁的植物，按现场解说认识，不采摘。"
+      ],
+      "historySignificance": "桌山国家公园把城市旁的山地、半岛海岸和海洋保护区连接起来，是理解开普植物区与城市自然关系的入口。",
+      "bookingAndAccess": "上山方式、开放与天气需按出行日确认；徒步依官方安全与步道指引安排。"
+    },
+    {
+      "id": "poi:reference:cape-town-summer:1",
+      "parentId": "cape-town-summer",
+      "city": "开普敦",
+      "country": "南非",
+      "regionCode": "ZA",
+      "name": "罗本岛博物馆 · 囚禁与自由的历史",
+      "category": "culture",
+      "whyGo": "从船上回望开普敦，再走进曾经关押政治犯的空间，海面的距离会有另一层含义。曼德拉曾在岛上被囚禁18年，这里让南非的反种族隔离历史落到可以亲眼看见的地点。",
+      "experience": "按博物馆安排参加导览，听具体空间与人物经历之间的关系。标准游览含往返渡船约3.5至4小时；出发港口与候船准备也需要另留时间。",
+      "recordKind": "curated-poi",
+      "seasonality": {
+        "mode": "year_round"
+      },
+      "durationEstimate": "官方标准游览约3.5至4小时，含往返渡船",
+      "durationKind": "official-tour",
+      "sources": [
+        {
+          "title": "罗本岛历史",
+          "authority": "开普敦旅游局 Cape Town Tourism",
+          "url": "https://www.capetown.travel/robben-island/",
+          "accessLevel": "body-verified",
+          "accessedAt": "2026-10-30"
+        },
+        {
+          "title": "罗本岛参观常见问题",
+          "authority": "罗本岛博物馆",
+          "url": "https://www.robben-island.org.za/frequently-asked-questions/",
+          "accessLevel": "body-verified",
+          "accessedAt": "2026-10-30"
+        }
+      ],
+      "checkedAt": "2026-10-30",
+      "originalUse": "岛屿曾有隔离收治等用途，后来成为种族隔离时期的监狱；今天以博物馆与历史导览保存这些经历。",
+      "peopleEvents": "纳尔逊·曼德拉曾在罗本岛服刑18年。岛屿的意义来自政治囚禁、抗争与此后对自由和人权的纪念。",
+      "bookingAndAccess": "提前核对名额、船班和取消信息。标准游览与步行专题游不是同一种时长，不能混用。",
+      "historySignificance": "罗本岛让反种族隔离的抗争与政治囚禁历史留在具体空间中，也是理解自由与人权的一处纪念场所。",
+      "lookFor": [
+        "监狱空间与导览中政治犯的生活经历。",
+        "从岛屿回望开普敦，思考隔离与城市之间的关系。"
+      ]
+    },
+    {
+      "id": "poi:cape-town:bo-kaap",
+      "parentId": "cape-town-summer",
+      "city": "开普敦",
+      "country": "南非",
+      "regionCode": "ZA",
+      "name": "Bo-Kaap · 彩色街巷与社区生活",
+      "category": "culture",
+      "whyGo": "彩色房屋背后是一片仍有人居住的社区。Bo-Kaap 的历史与从亚洲及非洲其他地区被带到开普的奴隶、政治流亡者及其后代有关；认识这些经历，比只寻找一面鲜艳墙壁更有收获。",
+      "experience": "沿公共街巷看建筑与街道，再选择博物馆或由当地人经营的文化体验。把居民住宅与开放参观点分清，拍摄和进入私人空间前征得同意。",
+      "recordKind": "curated-poi",
+      "seasonality": {
+        "mode": "year_round"
+      },
+      "durationEstimate": "编辑建议半日，具体活动与接驳另计",
+      "durationKind": "editorial",
+      "sources": [
+        {
+          "title": "Bo-Kaap 街区介绍",
+          "authority": "开普敦旅游局 Cape Town Tourism",
+          "url": "https://www.capetown.travel/neighbourhood/bo-kaap/",
+          "accessLevel": "body-verified",
+          "accessedAt": "2026-10-30"
+        }
+      ],
+      "checkedAt": "2026-10-30",
+      "originalUse": "信号山山脚的历史居住街区，部分早期出租房与当时被迫迁入人群的生活有关。",
+      "lookFor": [
+        "开普荷兰式与乔治亚式建筑元素如何在街道里并存。",
+        "Wale Street 一带的博物馆及 Dorp Street 的清真寺周边，具体参观以开放要求为准。"
+      ],
+      "visitNote": "彩色房屋起源存在流传说法，本卡不把单一传说当成已经证实的历史原因。",
+      "historySignificance": "这片街区让人口迁徙与社区延续的历史在日常居住空间中可见，彩色立面之外，居民的文化与经历同样值得认识。"
+    },
+    {
+      "id": "poi:cape-town:district-six",
+      "parentId": "cape-town-summer",
+      "city": "开普敦",
+      "country": "南非",
+      "regionCode": "ZA",
+      "name": "第六区博物馆 · 被迁走的家园",
+      "category": "culture",
+      "whyGo": "这座博物馆把城市历史交还给曾经的居民。第六区原有多语言、多信仰的社区，在种族隔离政策下被拆散；听个人记忆，会比只看一个历史年份更明白失去家园意味着什么。",
+      "experience": "在 Digging Deeper 常设展中，对照旧街道地图、路牌与居民叙述。展览还使用声音、影像和个人生活史，可以从一条街或一个家庭的故事开始读。",
+      "recordKind": "curated-poi",
+      "seasonality": {
+        "mode": "year_round"
+      },
+      "durationEstimate": "编辑建议半日，具体活动与接驳另计",
+      "durationKind": "editorial",
+      "sources": [
+        {
+          "title": "第六区的历史",
+          "authority": "第六区博物馆",
+          "url": "https://www.districtsix.co.za/about-district-six/",
+          "accessLevel": "body-verified",
+          "accessedAt": "2026-10-30"
+        },
+        {
+          "title": "Digging Deeper 常设展",
+          "authority": "第六区博物馆",
+          "url": "https://www.districtsix.co.za/permanent-exhibition-digging-deeper/",
+          "accessLevel": "body-verified",
+          "accessedAt": "2026-10-30"
+        }
+      ],
+      "checkedAt": "2026-10-30",
+      "originalUse": "常设展位于 Buitenkant Street 的历史卫理公会教堂建筑内；博物馆于1994年启动首展。",
+      "peopleEvents": "1966年，第六区被宣布为白人区域，随后大量居民遭强制迁离，原有住宅遭到拆毁。博物馆持续保存社区记忆与返乡、重建的讨论。",
+      "lookFor": [
+        "中央空间的街道地图与保留下来的路牌。",
+        "居民声音、照片及生活史怎样补充宏大的历史叙述。"
+      ],
+      "historySignificance": "通过居民叙述、地图与生活物件，博物馆保存被迫迁离的社区记忆，让城市重建与家园的意义成为可以讨论的问题。"
+    },
+    {
+      "id": "poi:cape-town:boulders",
+      "parentId": "cape-town-summer",
+      "city": "开普敦",
+      "country": "南非",
+      "regionCode": "ZA",
+      "name": "巨石滩 · 非洲企鹅栖息地",
+      "category": "nature",
+      "whyGo": "在开普敦附近的海岸，企鹅不是只能在冰雪背景中出现的动物。Simon’s Town 的巨石滩保存着非洲企鹅陆地繁殖群落，可以从岸边观察它们与海洋环境的联系，也认识旅游和保育之间的关系。",
+      "experience": "沿指定观景栈道观察，把通行空间留给野生动物。不要触碰、喂食或为了近照离开栈道；海滩区域与观景区域按各自入口和现场规定安排。",
+      "recordKind": "curated-poi",
+      "seasonality": {
+        "mode": "year_round"
+      },
+      "durationEstimate": "编辑建议半日，具体活动与接驳另计",
+      "durationKind": "editorial",
+      "sources": [
+        {
+          "title": "巨石滩企鹅栖息地",
+          "authority": "南非国家公园管理局 SANParks",
+          "url": "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/boulders-penguin-colony",
+          "accessLevel": "body-verified",
+          "accessedAt": "2026-10-30"
+        }
+      ],
+      "checkedAt": "2026-10-30",
+      "lookFor": [
+        "花岗岩巨石与海湾为海岸环境带来的遮蔽。",
+        "企鹅在岸上活动与进出水面的行为，出现情况不作保证。"
+      ],
+      "bookingAndAccess": "属于桌山国家公园管理区域。入场、保护费、潮汐与开放时间按官方当期信息确认；旺季停车有限。"
+    }
+  ]
+}

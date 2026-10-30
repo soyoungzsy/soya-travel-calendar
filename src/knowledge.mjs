@@ -3,7 +3,8 @@ import indexMetadata from './knowledge-index-meta.json' with {type:'json'};
 import curatedDetailed from './poi-catalog.json' with {type:'json'};
 import seasonalAdditions from './season-additions-v10.json' with {type:'json'};
 import weekendRecords from './weekend-catalog.json' with {type:'json'};
-const detailed=[...curatedDetailed,...seasonalAdditions.pois,...weekendRecords];
+import destinationContext from './destination-context.json' with {type:'json'};
+const detailed=[...curatedDetailed,...seasonalAdditions.pois,...destinationContext.points,...weekendRecords];
 import pointPhotos from './poi-media.json' with {type:'json'};
 import guides from './guide-catalog.mjs';
 import media from './media-catalog.mjs';
@@ -29,7 +30,7 @@ for(const d of destinations){
 }
 export const poiRecords=[...detailed,...reference];
 export function variantsFor(p){
- if(!p.variants?.length)return[{...p,baseId:p.id,seasonLabel:p.seasonality?.mode==='year_round'?'全年人文看点':p.seasonality?.mode==='event'&&p.seasonality.start&&p.seasonality.end?'展期 '+p.seasonality.start+' 至 '+p.seasonality.end:p.seasonality?.mode==='conditional'?(p.weekend?'按天气与交通安排':'按潮汐或活动日期安排'):p.seasonality?.months?.length?p.seasonality.months.map(m=>m+'月').join('、')+'推荐':'时节待核'}];
+ if(!p.variants?.length)return[{...p,baseId:p.id,seasonLabel:p.seasonality?.mode==='year_round'?(p.category==='nature'?'全年自然体验':p.category==='culture'?'全年人文看点':'全年体验'):p.seasonality?.mode==='event'&&p.seasonality.start&&p.seasonality.end?'展期 '+p.seasonality.start+' 至 '+p.seasonality.end:p.seasonality?.mode==='conditional'?(p.weekend?'按天气与交通安排':'按潮汐或活动日期安排'):p.seasonality?.months?.length?p.seasonality.months.map(m=>m+'月').join('、')+'推荐':'时节待核'}];
  return p.variants.map(v=>({...p,...v,id:p.id+'@'+v.key,baseId:p.id,seasonality:{mode:'seasonal',months:v.months,windows:v.windows},variants:undefined}));
 }
 export const allPOICards=poiRecords.flatMap(variantsFor);

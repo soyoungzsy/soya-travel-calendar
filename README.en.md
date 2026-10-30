@@ -100,4 +100,6 @@ Export before updating; retain the previous file and backup for recovery. Delete
 
 ### Domestic weekends and collaboration
 
-This source iteration adds `/weekends` with twelve officially sourced experience candidates for Hangzhou and Shanghai. It shares experience IDs and saved places with the encyclopedia; cross-city travel times are not verified live accessibility claims. An independent mainland street-map provider still requires project authorization and a key. See `docs/domestic-weekends.md` and `docs/price-collaboration.md` for contributor handoff.
+This local source iteration expands `/weekends` to 32 officially sourced experience candidates and 13 departure cities. It shares experience IDs and saved places with the encyclopedia; cross-city travel times are not verified live accessibility claims. An independent mainland street-map provider still requires project authorization and a key. See `docs/domestic-weekends.md` and `docs/price-collaboration.md` for contributor handoff.
+
+The local review also restores inline POI titles and introductions hidden by an obsolete CSS rule, and adds sourced Cape Town context with five experiences. These changes are not published to production. See `docs/destination-content-audit.md`, or run `npm run content:audit`; this structural audit does not claim to reread every external source.

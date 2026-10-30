@@ -22,6 +22,7 @@ export function compileKnowledgeSnapshot({destinationRecords=destinations,points
   country(d.country).destinations.add(d.country+'|'+d.name);
   const context={id:d.id,name:d.name,country:d.country,category:'season'};
   addSource({url:d.sourceURL||d.seasonSource,title:d.seasonSourceTitle||d.name+' · 季节参考',authority:d.seasonAuthority,accessLevel:d.seasonSourceAccess||'not-rechecked',accessedAt:d.seasonSourceCheckedAt},context);
+  for(const s of d.profile?.sources||[])addSource(s,{...context,category:'background'});
   for(const s of guideRecords[d.id]?.sources||[]){if(['fx','central-bank-api'].includes(s.type))continue;addSource(s,{...context,category:s.type==='traveler'?'traveler':'travel'});}
  }
  for(const p of points){
@@ -36,5 +37,5 @@ export function compileKnowledgeSnapshot({destinationRecords=destinations,points
  return {countries,sources:sourceList,counts:{countries:countries.length,destinations:new Set(destinationRecords.map(d=>d.country+'|'+d.name)).size,destinationCards:destinationRecords.length,points:new Set(points.map(p=>p.baseId||p.id)).size,detailed:new Set(points.filter(p=>p.recordKind==='curated-poi').map(p=>p.baseId||p.id)).size,foods:new Set(foods.flatMap(p=>p.foods.map(f=>f.id))).size,foodRegions:foods.length,readings:readingItems.length,articlesRead:readingItems.filter(r=>r.readStatus==='official-article-read').length,booksCatalogued:readingItems.filter(r=>r.type==='book'&&r.readStatus==='catalogue-only').length,references:sourceList.length,bodyCheckedReferences:sourceList.filter(r=>r.hasBodyCheck).length},latestCheckedAt:dates.sort().at(-1)||null};
 }
 export const knowledgeSnapshot=compileKnowledgeSnapshot();
-export const referenceCategory={season:'季节与自然窗口',travel:'旅行实用资料',traveler:'历史旅行者参考',nature:'自然景点',culture:'人文与历史',food:'地方风味',reading:'行前短文',book:'图书书目'};
+export const referenceCategory={background:'目的地背景',season:'季节与自然窗口',travel:'旅行实用资料',traveler:'历史旅行者参考',nature:'自然景点',culture:'人文与历史',food:'地方风味',reading:'行前短文',book:'图书书目'};
 export function referenceStatus(r){return r.hasBodyCheck?(r.hasUnreviewedUses?'部分用途已核正文':'已核正文'):r.levels.includes('catalogue-verified')?'已核书目／简介':r.levels.includes('search-excerpt')?'仅核搜索摘要':'待逐页复核';}
