@@ -13,3 +13,19 @@ test('open-destination low-fare sampling omits destination but still matches ori
 
 test('open-destination results distinguish a returned city code from an airport code',()=>{for(const field of ['arrCityCode','arrAirportCode']){const res=normalizeQuotes({itemList:[{ticketPrice:'99',jumpUrl:'https://www.fliggy.com/test',journeys:[{segments:[{depStationCode:'HGH',[field]:'CNX',depDateTime:'2026-12-01 10:00'}]}]}]},{...q,destination:''});assert.equal(res.items[0].price,99);assert.match(res.items[0].to,/CNX/);}});
 test('verified provider queries obey an atomic global daily budget before any supplier call',async()=>{const sqlite=new DatabaseSync(':memory:'),db={prepare(sql){let args=[];return{bind(...a){args=a;return this;},run(){return sqlite.prepare(sql).run(...args);},first(){return sqlite.prepare(sql).get(...args);}};}},req=()=>new Request('https://scenicdue.com/api/travel-search/search',{method:'POST',headers:{origin:'https://scenicdue.com','content-type':'application/json'},body:JSON.stringify(q)});let calls=0;const fetcher=async(url,r)=>{calls++;const method=JSON.parse(r.body).method;return new Response(method==='notifications/initialized'?'':JSON.stringify({result:method==='initialize'?{}:method==='tools/list'?{tools:[{name:'search_flight',inputSchema:{properties:{origin:{},destination:{},depDate:{},sortType:{},limit:{}}}}]}:{structuredContent:{status:0,data:{itemList:[]}}}}));};const env={DB:db,FLYAI_WEBSITE_ENABLED:'verified',FLYAI_API_KEY:'SYNTHETIC_TEST_KEY',FLYAI_DAILY_LIMIT:'1'};assert.equal((await travelSearchRoute(req(),env,{fetcher})).status,200);assert.equal((await travelSearchRoute(req(),env,{fetcher})).status,429);assert.equal(calls,4);sqlite.close();});
+
+test('official Feizhu links, prefixed CNY hotel amounts and carrier names survive normalization',()=>{
+ const raw={itemList:[{name:'合成测试酒店',price:'¥602',detailUrl:'https://router.feizhu.com/multi/webview?url=https%3A%2F%2Frouter.feizhu.com%2Ftest'}]};
+ const result=normalizeQuotes(raw,{kind:'hotel'});assert.equal(result.items[0].price,602);assert.equal(result.items[0].currency,'CNY');
+ raw.itemList[0].detailUrl='https://router.feizhu.com.evil.test/hotel';assert.equal(normalizeQuotes(raw,{kind:'hotel'}).items.length,0);
+ raw.itemList[0].detailUrl='https://router.feizhu.com/test';raw.itemList[0].price='¥602起';assert.equal(normalizeQuotes(raw,{kind:'hotel'}).items[0].price,null);
+});
+
+test('bridge uses only server token, rejects unexpected hosts and malformed responses',async()=>{
+ const {fetchBridgeQuotes}=await import('../worker/travel-search.mjs');let calls=0;
+ const env={FLYAI_BRIDGE_URL:'https://scenicdue-flyai.onrender.com',FLYAI_BRIDGE_TOKEN:'SYNTHETIC_BRIDGE_TOKEN',FLYAI_API_KEY:'SYNTHETIC_KEY'};
+ const fetcher=async(url,opts)=>{calls++;assert.equal(url,'https://scenicdue-flyai.onrender.com/query');assert.equal(opts.headers.authorization,'Bearer SYNTHETIC_BRIDGE_TOKEN');assert.ok(!JSON.stringify(opts).includes('SYNTHETIC_KEY'));return Response.json({status:'no_results',kind:q.kind,query:q,items:[]});};
+ assert.equal((await fetchBridgeQuotes(q,env,{fetcher})).status,'no_results');assert.equal(calls,1);
+ await assert.rejects(fetchBridgeQuotes(q,{...env,FLYAI_BRIDGE_URL:'https://evil.test'},{fetcher}),/provider_contract/);assert.equal(calls,1);
+ await assert.rejects(fetchBridgeQuotes(q,env,{fetcher:async()=>Response.json({status:'results',kind:q.kind,query:q,items:[{price:0,url:'https://router.feizhu.com/test'}]})}),/provider_contract/);
+});
