@@ -24,7 +24,7 @@ test('official Feizhu links, prefixed CNY hotel amounts and carrier names surviv
 test('bridge uses only server token, rejects unexpected hosts and malformed responses',async()=>{
  const {fetchBridgeQuotes}=await import('../worker/travel-search.mjs');let calls=0;
  const env={FLYAI_BRIDGE_URL:'https://scenicdue-flyai.onrender.com',FLYAI_BRIDGE_TOKEN:'SYNTHETIC_BRIDGE_TOKEN',FLYAI_API_KEY:'SYNTHETIC_KEY'};
- const fetcher=async(url,opts)=>{calls++;assert.equal(url,'https://scenicdue-flyai.onrender.com/query');assert.equal(opts.headers.authorization,'Bearer SYNTHETIC_BRIDGE_TOKEN');assert.ok(!JSON.stringify(opts).includes('SYNTHETIC_KEY'));return Response.json({status:'no_results',kind:q.kind,query:q,items:[]});};
+ const fetcher=async(url,opts)=>{calls++;assert.equal(url,'https://scenicdue-flyai.onrender.com/query');assert.equal(opts.headers.authorization,'Bearer SYNTHETIC_BRIDGE_TOKEN');assert.equal(opts.redirect,'manual');assert.ok(!JSON.stringify(opts).includes('SYNTHETIC_KEY'));return Response.json({status:'no_results',kind:q.kind,query:q,items:[]});};
  assert.equal((await fetchBridgeQuotes(q,env,{fetcher})).status,'no_results');assert.equal(calls,1);
  await assert.rejects(fetchBridgeQuotes(q,{...env,FLYAI_BRIDGE_URL:'https://evil.test'},{fetcher}),/provider_contract/);assert.equal(calls,1);
  await assert.rejects(fetchBridgeQuotes(q,env,{fetcher:async()=>Response.json({status:'results',kind:q.kind,query:q,items:[{price:0,url:'https://router.feizhu.com/test'}]})}),/provider_contract/);
